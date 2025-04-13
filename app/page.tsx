@@ -1,6 +1,7 @@
 import BannerSwiper from "@/components/banner-swiper"
 import BoxColor2 from "@/components/BoxColor2"
 import Button from "@/components/Button"
+import Donate from "@/components/Donate"
 import LatestNews from "@/components/LatestNews"
 import StoryGrid from "@/components/StoryGrid"
 import VietnamStatsMap from "@/components/vietnam-stats-map.tsx"
@@ -20,15 +21,10 @@ export default function Home() {
         </div>
         <BoxColor2 />
       </section>
-      <section>
-        <VietnamStatsMap />
-      </section>
-      <section>
-        <StoryGrid />
-      </section>
-      <section>
-        <LatestNews />
-      </section>
+      <VietnamStatsMap />
+      <StoryGrid />
+      <LatestNews />
+      <Donate/>
     </div>
   )
 }
