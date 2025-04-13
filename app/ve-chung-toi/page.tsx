@@ -9,16 +9,16 @@ export default function AboutPage() {
       <section className=' mt-16'>
         <div className='mx-auto space-y-12 w-full'>
           {/* Mission */}
-          <div className='text-center w-full h-[406px]  flex items-center justify-center flex-col'>
-            <p className='text-[32px] font-md text-gray-600 leading-tight w-full px-10 max-w-[1063px]'>
+          <div className='text-center w-full h-[350px] md:h-[406px]  flex items-center justify-center flex-col'>
+            <p className='text-[24px] md:text-[32px] font-md text-gray-600 leading-tight w-full px-10 max-w-[1063px]'>
               <span className='text-[#3a63ed] font-bold'>Mục tiêu của chúng tôi </span>
               là giúp người khiếm thính có thể tự kiến tạo và duy trì một tương lai bền vững thông qua việc hỗ trợ giáo dục và đào tạo nghề nghiệp
             </p>
           </div>
 
           {/* Vision */}
-          <div className='text-center bg-[#374151] text-white h-[406px] flex items-center justify-center flex-col'>
-            <p className='text-[32px] font-md text-white leading-tight w-full px-6 max-w-[1063px]'>
+          <div className='text-center bg-[#374151] text-white h-[350px] md:h-[406px] flex items-center justify-center flex-col'>
+            <p className='text-[24px] md:text-[32px] font-md text-white leading-tight w-full px-6 max-w-[1063px]'>
               <span className='text-[#FDE68A] font-bold'>Tầm nhìn của của chúng tôi </span>
               là xây dựng một xã hội nơi người khiếm thính có thể tự lập, tự tạo dựng giá trị bền vững, hòa nhập vào cộng đồng và phát triển mạnh mẽ trong tất cả các lĩnh vực của cuộc sống.
             </p>
@@ -35,7 +35,7 @@ export default function AboutPage() {
           </div>
 
           {/* Content Column */}
-          <div className='flex flex-col justify-center space-y-6 px-16 bg-[#D8E0FB]'>
+          <div className='flex flex-col justify-center space-y-6 px-4 md:px-16 bg-[#D8E0FB]'>
             <h2 className='text-[32px] font-bold'>
               Câu chuyện về
               <br />

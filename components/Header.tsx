@@ -30,67 +30,151 @@ export default function Header() {
 
         {/* Desktop Navigation Links */}
         <nav className="hidden md:flex flex-1 justify-center">
-          <div className="relative flex space-x-8">
-            <Link
-              href="/ve-chung-toi"
-              className={`${
-                isActivePath("/") ? "text-[#111827]" : "text-[#414652]"
-              } font-medium px-3 py-2 relative group`}
-            >
-              Về chúng tôi
-              {isActivePath("/ve-chung-toi") ? (
-                <div className="absolute bottom-0 left-0 w-full h-1 bg-[#3a63ed]"></div>
-              ) : (
-                <div className="absolute bottom-0 left-0 w-full h-1 bg-transparent group-hover:bg-[#3a63ed] opacity-50 transition-all duration-200"></div>
-              )}
-            </Link>
-            <Link
-              href="/thong-tin"
-              className={`${
-                isActivePath("/thong-tin") ? "text-[#111827]" : "text-[#414652]"
-              } font-medium px-3 py-2 relative group`}
-            >
-              Thông tin
-              {isActivePath("/thong-tin") ? (
-                <div className="absolute bottom-0 left-0 w-full h-1 bg-[#3a63ed]"></div>
-              ) : (
-                <div className="absolute bottom-0 left-0 w-full h-1 bg-transparent group-hover:bg-[#3a63ed] opacity-50 transition-all duration-200"></div>
-              )}
-            </Link>
-            <Link
-              href="/giao-duc"
-              className={`${
-                isActivePath("/giao-duc") ? "text-[#111827]" : "text-[#414652]"
-              } font-medium px-3 py-2 relative group`}
-            >
-              Giáo dục
-              {isActivePath("/giao-duc") ? (
-                <div className="absolute bottom-0 left-0 w-full h-1 bg-[#3a63ed]"></div>
-              ) : (
-                <div className="absolute bottom-0 left-0 w-full h-1 bg-transparent group-hover:bg-[#3a63ed] opacity-50 transition-all duration-200"></div>
-              )}
-            </Link>
-            <Link
-              href="/nghe-nghiep"
-              className={`${
-                isActivePath("/nghe-nghiep") ? "text-[#111827]" : "text-[#414652]"
-              } font-medium px-3 py-2 relative group`}
-            >
-              Nghề nghiệp
-              {isActivePath("/nghe-nghiep") ? (
-                <div className="absolute bottom-0 left-0 w-full h-1 bg-[#3a63ed]"></div>
-              ) : (
-                <div className="absolute bottom-0 left-0 w-full h-1 bg-transparent group-hover:bg-[#3a63ed] opacity-50 transition-all duration-200"></div>
-              )}
-            </Link>
+          <div className="relative flex space-x-4 lg:space-x-8">
+            {/* Về chúng tôi dropdown */}
+            <div className="relative group">
+              <Link
+                href="/ve-chung-toi"
+                className={`${
+                  isActivePath("/ve-chung-toi") ? "text-[#111827]" : "text-[#414652]"
+                } font-medium px-3 py-2 inline-flex items-center relative group `}
+              >
+                Về chúng tôi
+                <ChevronDown className="ml-1 h-4 w-4 transition-transform group-hover:rotate-180" />
+                {isActivePath("/ve-chung-toi") ? (
+                  <div className="absolute bottom-0 left-0 w-full h-1 bg-[#3a63ed]"></div>
+                ) : (
+                  <div className="absolute bottom-0 left-0 w-full h-1 bg-transparent group-hover:bg-[#3a63ed] opacity-50 transition-all duration-200"></div>
+                )}
+              </Link>
+              <div className="absolute left-1/2 -translate-x-1/2 mt-1 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0">
+                <div className="py-2">
+                  <Link href="/ve-chung-toi/gioi-thieu" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                    Giới thiệu
+                  </Link>
+                  <Link href="/ve-chung-toi/su-menh" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                    Sứ mệnh
+                  </Link>
+                  <Link href="/ve-chung-toi/doi-ngu" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                    Đội ngũ
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            {/* Thông tin dropdown */}
+            <div className="relative group">
+              <Link
+                href="/thong-tin"
+                className={`${
+                  isActivePath("/thong-tin") ? "text-[#111827]" : "text-[#414652]"
+                } font-medium px-3 py-2 inline-flex items-center relative group `}
+              >
+                Thông tin
+                <ChevronDown className="ml-1 h-4 w-4 transition-transform group-hover:rotate-180" />
+                {isActivePath("/thong-tin") ? (
+                  <div className="absolute bottom-0 left-0 w-full h-1 bg-[#3a63ed]"></div>
+                ) : (
+                  <div className="absolute bottom-0 left-0 w-full h-1 bg-transparent group-hover:bg-[#3a63ed] opacity-50 transition-all duration-200"></div>
+                )}
+              </Link>
+              <div className="absolute left-1/2 -translate-x-1/2 mt-1 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0">
+                <div className="py-2">
+                  <Link href="/thong-tin/tin-tuc" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                    Tin tức
+                  </Link>
+                  <Link href="/thong-tin/su-kien" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                    Sự kiện
+                  </Link>
+                  <Link href="/thong-tin/bao-chi" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                    Báo chí
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            {/* Giáo dục dropdown */}
+            <div className="relative group">
+              <Link
+                href="/giao-duc"
+                className={`${
+                  isActivePath("/giao-duc") ? "text-[#111827]" : "text-[#414652]"
+                } font-medium px-3 py-2 inline-flex items-center relative group `}
+              >
+                Giáo dục
+                <ChevronDown className="ml-1 h-4 w-4 transition-transform group-hover:rotate-180" />
+                {isActivePath("/giao-duc") ? (
+                  <div className="absolute bottom-0 left-0 w-full h-1 bg-[#3a63ed]"></div>
+                ) : (
+                  <div className="absolute bottom-0 left-0 w-full h-1 bg-transparent group-hover:bg-[#3a63ed] opacity-50 transition-all duration-200"></div>
+                )}
+              </Link>
+              <div className="absolute left-1/2 -translate-x-1/2 mt-1 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0">
+                <div className="py-2">
+                  <Link href="/giao-duc/chuong-trinh" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                    Chương trình
+                  </Link>
+                  <Link href="/giao-duc/hoc-bong" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                    Học bổng
+                  </Link>
+                  <Link href="/giao-duc/dao-tao" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                    Đào tạo
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            {/* Nghề nghiệp dropdown */}
+            <div className="relative group">
+              <Link
+                href="/nghe-nghiep"
+                className={`${
+                  isActivePath("/nghe-nghiep") ? "text-[#111827]" : "text-[#414652]"
+                } font-medium px-3 py-2 inline-flex items-center relative group `}
+              >
+                Nghề nghiệp
+                <ChevronDown className="ml-1 h-4 w-4 transition-transform group-hover:rotate-180" />
+                {isActivePath("/nghe-nghiep") ? (
+                  <div className="absolute bottom-0 left-0 w-full h-1 bg-[#3a63ed]"></div>
+                ) : (
+                  <div className="absolute bottom-0 left-0 w-full h-1 bg-transparent group-hover:bg-[#3a63ed] opacity-50 transition-all duration-200"></div>
+                )}
+              </Link>
+              <div className="absolute left-1/2 -translate-x-1/2 mt-1 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0">
+                <div className="py-2">
+                  <Link href="/nghe-nghiep/viec-lam" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                    Việc làm
+                  </Link>
+                  <Link href="/nghe-nghiep/tu-van" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                    Tư vấn
+                  </Link>
+                  <Link href="/nghe-nghiep/dao-tao" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                    Đào tạo nghề
+                  </Link>
+                </div>
+              </div>
+            </div>
           </div>
         </nav>
 
         {/* Desktop Right Side Actions */}
         <div className="hidden md:flex items-center space-x-4">
-          <button className="bg-[#3a63ed] text-white px-4 py-2 rounded-md flex items-center">
-            Gây quỹ <ChevronDown className="ml-1 h-4 w-4" />
-          </button>
+          <div className="relative group">
+            <button className="bg-[#3a63ed] text-white px-4 py-2 rounded-md flex items-center">
+              Gây quỹ <ChevronDown className="ml-1 h-4 w-4 transition-transform group-hover:rotate-180" />
+            </button>
+            {/* Dropdown Menu */}
+            <div className="absolute left-1/2 -translate-x-1/2 mt-1 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0">
+              <div className="py-2">
+                <Link href="/gay-quy/mot-lan" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                  Hoạt động
+                </Link>
+                <Link href="/gay-quy/hang-thang" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                  Quy tắc gây quỹ
+                </Link>
+              </div>
+            </div>
+          </div>
           <SearchButton />
         </div>
 
