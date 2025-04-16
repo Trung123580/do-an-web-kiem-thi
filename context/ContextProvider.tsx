@@ -38,7 +38,6 @@ const ContextProvider = ({
         const docSnap = await getDoc(docRef)
         const data = docSnap.data()
         console.log(data)
-        
         // chỗ này lấy all data anh check log đoạn này nhé
         setCurrentUser({ ...data })
       } catch (error) {
@@ -47,6 +46,7 @@ const ContextProvider = ({
     }
     getUser()
   }, [])
+  // => vơi cả anh tự tạo 1 trường id có hàm idv4 đó ạ
   // chỗ form footer
   const handlePostRegisterNotification = async (form: any) => {
     if (currentUser) {
