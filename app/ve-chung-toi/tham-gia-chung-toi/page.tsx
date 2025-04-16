@@ -210,18 +210,28 @@ export const dataVolunteer = [
     ],
     description: "Workshop Hướng nghiệp & Kỹ năng mềm là chương trình đào tạo thực tiễn với các buổi hội thảo, hoạt động nhóm, trò chơi tương tác và phiên chia sẻ từ các chuyên gia. Dự án được thiết kế nhằm truyền cảm hứng, chia sẻ kinh nghiệm và cung cấp các công cụ giúp người khiếm thính phát triển toàn diện kỹ năng mềm cùng khả năng định hướng nghề nghiệp. Dự án cũng là cơ hội để các tình nguyện viên, những người có đam mê và nhiệt huyết, được tham gia vào quá trình góp phần thay đổi cuộc sống của người khiếm thính.",
     time: "Chủ Nhật, 20/7/2025 (09:00 – 16:00)",
-    location: "Văn phòng Foundation for Future - 23B Tông Đản, Hoàn Kiếm, Hà Nội"
+    location: "Số 15, Đường Lê Duẩn, Quận Hai Bà Trưng, Hà Nội",
+    requirements: [
+      "Kỹ năng giao tiếp: Tốt, thân thiện và nhiệt huyết",
+      "Ưu tiên: Ứng viên có kinh nghiệm làm việc trong các hoạt động hướng nghiệp, đào tạo kỹ năng mềm, hoặc biết ngôn ngữ ký hiệu",
+      "Thái độ: Năng động, có tinh thần trách nhiệm và khả năng làm việc nhóm tốt",
+    ],
+    roles: [
+      "Hỗ trợ điều phối sự kiện, đăng ký và tiếp đón học viên",
+      "Hỗ trợ phiên chia sẻ và phiên dịch ngôn ngữ ký hiệu cho người tham dự nếu cần thiết",
+      "Giao tiếp hỗ trợ chuyên môn: Hỗ trợ tư vấn, cung cấp thông tin và hướng dẫn các hoạt động của workshop",
+    ],
+    benefits: [
+      "Cơ hội được đào tạo kỹ năng quản lý dự án, tổ chức sự kiện chuyên nghiệp",
+      "Mở rộng mạng lưới kết nối với cộng đồng và các chuyên gia trong lĩnh vực giáo dục, hướng nghiệp",
+      "Cơ hội góp phần trực tiếp vào việc thay đổi cuộc sống của người khiếm thính",
+    ]
   },
   {
     img: "/image/volunteer-2.png",
     title: 'Chiến dịch Gây quỹ Cộng đồng "Ánh sáng thầm lặng"',
     slug: "community-fundraising-campaign",
-    organization: [
-        {
-           img: "/image/Ellipse-6.png",
-           title: "DNXH vì người khiếm thính Việt Nam",
-        }
-    ],
+    organization: [],
     sponsoring: [
         {
             img: "/image/Ellipse-7.png",
@@ -229,8 +239,24 @@ export const dataVolunteer = [
         }
     ],
     description: "Dự án “Ánh sáng thầm lặng” nhằm gây quỹ hỗ trợ học bổng, trang thiết bị trợ thính, và các chương trình đào tạo nghề cho người khiếm thính. Trong khuôn khổ chiến dịch này, Workshop Hướng nghiệp & Kỹ năng mềm được tổ chức để trang bị kiến thức và kỹ năng cần thiết cho người khiếm thính, đồng thời là dịp tuyển dụng, huy động tinh thần và năng lực của các tình nguyện viên.",
-    time: "Chủ Nhật, 20/7/2025 (09:00 – 16:00)",
-    location: "Văn phòng Foundation for Future - 23B Tông Đản, Hoàn Kiếm, Hà Nội"
+    time: "Thứ Bảy, ngày 28/9/2025 (09:00 – 16:00)",
+    location: "Số 123, Đường Lê Lợi, Quận 1, Thành phố Hồ Chí Minh",
+    requirements: [
+      "Đam mê hoạt động cộng đồng, ưu tiên những người có kiến thức hoặc kinh nghiệm hỗ trợ người khiếm thính.",
+      "Kỹ năng giao tiếp tốt, biết hoặc có khả năng học ngôn ngữ ký hiệu là một lợi thế.",
+      "Năng lực tổ chức, làm việc nhóm và cam kết thời gian sự kiện đầy đủ.",
+      "Có kiến thức, chuyên môn về vị trí đảm nhiệm"
+    ],
+    roles: [
+      "Tình nguyện viên Truyền thông & Quảng bá: Chịu trách nhiệm tạo nội dung và lan tỏa thông điệp trên các kênh truyền thông.",
+      "Tình nguyện viên Điều phối Sự kiện: Hỗ trợ tổ chức và phối hợp hoạt động gây quỹ.",
+      "Tình nguyện viên Tiếp cận Cộng đồng: Chủ động kết nối với cá nhân, tổ chức để mời gọi và thu hút sự ủng hộ.",
+    ],
+    benefits: [
+      "Chứng nhận hoặc giấy khen từ Foundation for Future.",
+      "Cơ hội trải nghiệm, học hỏi và mở rộng kết nối trong môi trường giáo dục và hướng nghiệp.",
+      "Hỗ trợ đào tạo chuyên sâu về giao tiếp với người khiếm thính và kỹ năng mềm.",
+    ]
   },
   {
     img: "/image/volunteer-3.png",
@@ -238,22 +264,43 @@ export const dataVolunteer = [
     slug: "creative-and-discovery-festival",
     organization: [
         {
-           img: "/image/Ellipse-6.png",
-           title: "DNXH vì người khiếm thính Việt Nam",
-        }
+           img: "/image/Ellipse-8.png",
+           title: "Hội Cha Mẹ Trẻ Khiếm Thính và Người Khiếm Thính Việt Nam",
+        },
+        {
+          img: "/image/Ellipse-7.png",
+          title: "Foundation For Future",
+       }
     ],
     sponsoring: [
         {
-            img: "/image/Ellipse-7.png",
-            title: "Foundation for Future",
+            img: "/image/Ellipse-9.png",
+            title: "UNICEF Việt Nam",
         }
     ],
     description: "Festival Sáng tạo & Kết nối \"Cùng Đổi Mới Tương Lai\" là sự kiện được tổ chức bởi Foundation for Future, nhằm tạo diễn đàn trao đổi, học hỏi và chia sẻ sáng tạo cho cộng đồng người khiếm thính và các đối tác liên quan. Dự án hướng đến việc kết nối các cá nhân, doanh nghiệp và tổ chức để cùng nhau khám phá, ứng dụng các giải pháp sáng tạo trong giáo dục và đào tạo hướng nghiệp. Đồng thời, sự kiện còn là cơ hội để người tham gia trải nghiệm, chia sẻ kinh nghiệm và xây dựng những ý tưởng đổi mới nhằm cải thiện chất lượng cuộc sống cho cộng đồng.",
-    time: "Chủ Nhật, 20/7/2025 (09:00 – 16:00)",
+    time: "Thứ Bảy, ngày 15/9/2025 (09:00 – 17:00)",
+    location: "Trung tâm Hội nghị & Triển lãm, Thành phố Hồ Chí Minh.",
+    requirements: [
+      "Các cá nhân năng động, có đam mê hoạt động cộng đồng và sáng tạo.",
+      "Ưu tiên ứng viên có kỹ năng giao tiếp tốt, biết ngôn ngữ ký hiệu hoặc đã có kinh nghiệm làm việc trong các hoạt động tình nguyện và quản lý sự kiện.",
+    ],
+    roles: [
+      "Hỗ trợ điều phối: Giúp ban tổ chức điều phối các phiên hội thảo, workshop và phiên giao lưu.",
+      "Hỗ trợ hậu cần: Hướng dẫn người tham dự, phụ trách các gian hàng và hỗ trợ tổ chức sự kiện tại chỗ.",
+      "Truyền thông & quảng bá: Hỗ trợ tạo nội dung, quảng bá sự kiện trên các kênh truyền thông xã hội và phối hợp với các đối tác truyền thông.",
+      "Hỗ trợ kỹ thuật: Hỗ trợ các vấn đề liên quan đến công nghệ, phiên dịch ngôn ngữ ký hiệu, quản lý tài liệu sự kiện."
+    ],
+    benefits: [
+      "Cơ hội trải nghiệm môi trường làm việc chuyên nghiệp trong lĩnh vực cộng đồng và giáo dục.",
+      "Phát triển kỹ năng tổ chức sự kiện, giao tiếp và kỹ năng lãnh đạo.",
+      "Kết nối với các chuyên gia, doanh nghiệp và cộng đồng sáng tạo.",
+      "Nhận giấy chứng nhận tình nguyện, hỗ trợ tích lũy kinh nghiệm và mở rộng mạng lưới quan hệ.     "
+    ]
   },
 ];
 export default function JoinUsPage() {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   const carouselSettings = {
     dots: false,
     arrows: false,

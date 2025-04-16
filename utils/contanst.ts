@@ -804,3 +804,1354 @@ export const docs = `<div>
 	 Nguyễn Ph&uacute; Trọng
 </p>
 `
+export const dataNews = [
+	{
+	  id: 1,
+	  title: "Cơ Hội Việc Làm Thách Thức và Rào Cản Đối Với Người khiếm thính/Điếc",
+	  description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
+	  author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
+	  imageAuthor: "/image/author-1.png",
+	  image: "/image/news-1.png",
+	  date: "07.03.2025",
+	  tags: ["Kiến thức", "Xã hội"],
+	  slug: "co-hoi-viec-lam-thach-thuc-va-rao-can",
+	  content: `
+		<p class="text-black mb-4 leading-relaxed">
+		  Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động. Tuy nhiên, tỷ lệ người khiếm thính có việc làm vẫn còn thấp, do họ phải đối mặt với nhiều thách thức như:
+		</p>
+		<div class="text-black mb-4 leading-relaxed pl-4">
+		  • Phân biệt đối xử và định kiến: Nhiều nhà tuyển dụng còn e ngại về khả năng làm việc của người khiếm thính, dẫn đến việc họ ít được trao cơ hội việc làm.
+		</div>
+		<div class="text-black mb-4 leading-relaxed pl-4">
+		  • Thiếu kỹ năng và trình độ chuyên môn: Theo thống kê, 93,4% người khuyết tật từ 16 tuổi trở lên không có chuyên môn, chỉ 6,5% có bằng cấp từ chứng chỉ nghề trở lên. Điều này khiến người khiếm thính gặp khó khăn trong việc đáp ứng yêu cầu công việc
+		</div>
+		<div class="text-black mb-4 leading-relaxed pl-4">
+		  • Hạn chế trong tiếp cận thông tin việc làm: Người khiếm thính thường gặp khó khăn trong việc tiếp cận thông tin tuyển dụng và các dịch vụ hỗ trợ việc làm do rào cản về ngôn ngữ và công nghệ.
+		</div>
+		<p class="text-black mb-4 leading-relaxed">
+		  Để cải thiện tình hình, các doanh nghiệp xã hội như <b>SHE+</b> đang nỗ lực tạo cơ hội kết nối việc làm cho người khiếm thính, giúp họ hòa nhập và đóng góp cho xã hội.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Hiện <b>SHE+</b> đang có rất nhiều đơn vị tìm đến để tuyển dụng người khiếm thính tuy nhiên để đáp ứng yêu cầu tuyển dụng vẫn cồn một khoảng trống điều đó phụ thuộc rất nhiều vào các yếu tố khách quan và chủ quan.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Khi tìm kiếm việc làm, mối quan tâm hàng đầu của người khiếm thính thường là môi trường làm việc thân thiện và không phân biệt đối xử. Họ mong muốn được làm việc trong môi trường tôn trọng, hỗ trợ và tạo điều kiện để phát huy khả năng.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Tuy nhiên thực tế là việc đào tạo tại trường và gia đình chưa hỗ trợ nhiều về đào tạo kỹ năng chuyên môn và kỹ năng mềm, đây chính yếu tố quan trọng giúp họ tự tin và đáp ứng yêu cầu công việc.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Việc nâng cao nhận thức của cộng đồng và doanh nghiệp về khả năng và tiềm năng của người khiếm thính, cùng với việc tạo điều kiện tiếp cận giáo dục và đào tạo nghề, sẽ góp phần mở rộng cơ hội việc làm cho họ, giúp họ tự tin tham gia thị trường lao động và đóng góp cho sự phát triển của xã hội.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Việc làm là chìa khóa để người khiếm thính tự tin và độc lập trong cuộc sống. Hiện nay, nhiều doanh nghiệp, đặc biệt là <b>SHE+ Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam</b>, đang mở ra nhiều cơ hội kết nối việc làm phù hợp với khả năng và mong muốn của các bạn khiếm thính.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  SHE+ nhận được rất nhiều tin nhắn từ phụ huynh, từ các bạn khiếm thính hỏi về kết nối việc làm. Đồng thời nhận được rất nhiều ủy thác từ các doanh nghiệp mong muốn kết nối tuyển dụng người khiếm thính tạo cơ hội học nghề: may thuê, nấu ăn, vẽ từ các Doanh nghiệp trên địa bàn Hà Nội, TP Hồ Chí Minh
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Hãy tham gia khảo sát để chúng tôi kết nối công việc với đúng khả năng của bạn và nhu cầu của người tuyển dụng
+		</p>
+		<p class="text-black  leading-relaxed">
+		  Thông tin khảo sát chỉ dùng với mục đích kết nối việc làm đúng nhu cầu của các bạn và giúp chúng tôi tư vấn việc làm, môi trường tuyển dụng phù hợp với người khiếm thính tới các doanh nghiệp đang tạo cơ hội việc làm cho người khiếm thính/điếc (dạng tật Nghe Nói)<a href="https://forms.gle/E1nrk9hjs4EVA94m7" target="_blank" rel="noopener noreferrer" class="block underline  decoration-solid mb-4">
+		  https://forms.gle/E1nrk9hjs4EVA94m7
+		</a>
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Liên hệ <b>SHE+</b> để được tư vấn miễn phí dịch vụ hòa nhập cộng đồng, đánh giá và đưa ra các giải pháp phục hồi chức năng nghề nghiệp, sẽ rất tốt nếu gia đình có thể đi cùng với trẻ khiếm thính (từ 13 tuổi trở lên)
+		</p>
+	   `,
+	},
+	{
+	  id: 2,
+	  title: "Quán cà phê đặc biệt của người khiếm thính",
+	  description: "Không gian yên tĩnh, nụ cười thân thiện và thái độ phục vụ tận tâm của những nhân viên là người khiếm thính tại quán cà phê Flow-ee (phố Thể Giao, Q.Hai Bà Trưng, Hà Nội) đã để lại ấn tượng sâu sắc, chinh phục không ít khách hàng, dù quán mới hoạt động hơn 1 tháng.",
+	  author: "Trúc Linh",
+	  imageAuthor: "/image/author-2.png",
+	  image: "/image/news-2.png",
+	  date: "10:04 GMT+7 ",
+	  tags: ["Xã hội"],
+	  slug: "quan-ca-phe-dac-biet",
+	  content: `
+	  <p class="text-black font-bold leading-relaxed">
+		Bất ngờ bởi sự ấm áp, thân thiện
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Flow-ee là quán cà phê nhỏ, rất yên tĩnh. Bước chân đến cửa đã có một bạn nhân viên trẻ ra mở cửa, nở nụ cười thân thiện, chào khách hàng bằng ngôn ngữ ký hiệu rồi khẽ đưa tay mời khách vào quán.
+	  </p>
+	  <img src="/image/news-detail-1.png" class="text-black mb-2 leading-relaxed w-full"/>
+	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		Các thành viên của Flow-ee chụp ảnh kỷ niệm cùng khách hàng
+	  </div>
+	  <p class="text-black mb-4 leading-relaxed">
+	   Các nhân viên chăm chú làm và không nói, khách đến đây cũng im lặng, chỉ việc chỉ tay vào thực đơn để gọi đồ uống, hoặc dùng ngôn ngữ ký hiệu, hoặc gọi món bằng cách viết ra giấy tên đồ uống.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Ngay đối diện cửa vào, cà phê Flow-ee dành riêng một khu vực check-in cho khách hàng. Tại đây, khách có thể ghi lại cảm nhận của mình khi đến quán. "Lần đầu trải nghiệm tại Flow-ee rất ấn tượng, các bạn phục vụ dễ thương, nhiệt tình và thân thiện. Chắc chắn sẽ quay lại và học thêm cách thức để nói chuyện với các bạn"; "Quán có sự sáng tạo, rất sạch sẽ, nước cũng khá ngon"... là một số cảm nhận của khách dành cho Flow-ee thời gian qua.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Ghé quán lần đầu vì tò mò với tấm biển: "Flow-ee được phục vụ bởi người điếc", dần dần, chị Bảo Ngọc, một người làm nghề viết tự do, đã xếp Flow-ee ở vị trí ưu tiên đầu tiên khi muốn tìm một không gian thoải mái để sáng tạo. "Mình đã rất bất ngờ bởi sự ấm áp, thân thiện, dễ thương của các bạn nhân viên ở đây. Dù các bạn không thể nghe, nói nhưng các bạn đều tỏa ra nụ cười thân thiện với cách phục vụ tận tình", chị Ngọc chia sẻ.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Nói về sự ra đời của Flow-ee, Ngô Quốc Hào (sinh năm 1996), CEO của Flow-ee kiêm "người phiên dịch", cho biết Flow-ee là dự án khởi nghiệp của Hào và 7 cổ đông khác. Nhóm mở quán cà phê nhằm tạo công ăn việc làm cho các bạn khiếm thính, tạo ra giá trị cho cộng đồng. Tại quán, tất cả các nhân viên đều được gọi là Flower - "bông hoa".
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Định hướng của Flow-ee là làm sao đảm bảo môi trường làm việc an toàn, sáng tạo cho các bạn khuyết tật, khiếm thính. "Rất nhiều người hỏi bọn em tại sao lại chọn các bạn điếc làm nhân viên phục vụ mà không chọn các bạn khuyết tật khác? Chúng em nghiên cứu, nhóm người điếc là một trong những nhóm người dễ tổn thương nhất. Người câm thì vẫn nghe được nhưng khi đã điếc thì họ không nói được, chỉ phát ra âm thanh, vì vậy nhóm này cần có thêm cơ hội", CEO của Flow-ee cho hay.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Nói về tên khá đặc biệt của quán "Flow-ee", Hào giải thích, Flow nghĩa là dòng chảy, ngay cả thiết kế của quán cũng đều là những đường uốn lượn, dòng chảy, thể hiện sự lên - xuống, thăng - trầm. Đó là những khó khăn mà các bạn khuyết tật phải đối mặt, những đường đi lên là sự sáng tạo, niềm vui của các bạn khi có môi trường để thể hiện năng lực của mình. Màu sắc chủ đạo của quán là màu xám và màu vàng; màu xám giống như nốt trầm, những khó khăn trong cuộc sống, còn màu vàng là sự tươi mới, vui vẻ.
+	  </p>
+	  <p class="text-black font-bold leading-relaxed">
+		"Mỗi sáng thức dậy, mình thấy có nhiều niềm vui"
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Quán hiện có 6 "Flower" khiếm thính chia làm 2 ca, mỗi ca 3 người, đều là các bạn trẻ từ 21 - 33 tuổi. Trong thời gian đầu mở quán, các thành viên của nhóm thay nhau túc trực tại quán từ sáng đến tối để hỗ trợ các nhân viên. Cơ duyên đưa các bạn khiếm thính đến với Flow-ee là qua một tổ chức phát triển hòa nhập, đào tạo và tiếp nhận các bạn khuyết tật.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		"Ngày trước, em nghĩ rằng các bạn khiếm thính sẽ bức bí và không bộc lộ hết tiềm năng của mình, nhưng các bạn đã tương tác với khách hàng rất tự nhiên. Các "Flower" đã cho em và các khách hàng thấy họ không bé nhỏ, đáng thương mà ngược lại, họ rất năng động, trẻ trung, mang lại cho nhiều người năng lượng tích cực mỗi khi tới đây", Hào nói.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Trần Ngọc Mai (33 tuổi, trú Tuyên Quang), nhân viên phục vụ tại đây, chia sẻ cô sinh ra và lớn lên tại Tuyên Quang, bị câm, điếc bẩm sinh. Hiện nay, Mai đã có gia đình, hai vợ chồng đang sinh sống ở Hà Nội và chồng Mai cũng là người câm, điếc. "Pha chế đồ uống là đam mê. Mình đã có 3 bằng pha chế và từng làm việc ở nhà hàng. Khi làm việc tại Flow-ee, mình được đào tạo thêm nghiệp vụ và quy trình đón khách... Mỗi sáng thức dậy, mình thấy có nhiều niềm vui mỗi khi pha chế cà phê, kem bingsu, trà…, làm sao cho khách hàng cảm thấy ngon miệng", Mai chia sẻ.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Flow-ee có menu đồ uống rất đa dạng gồm các loại nước ép, trà, cà phê… Nhưng độc đáo nhất phải kể đến món bingsu kết hợp với rượu. Đó là sự kết hợp hoàn hảo giữa sự ngọt ngào, thơm mát từ món kem tuyết cùng sự cay nhẹ, thơm nồng của các loại rượu.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Món bingsu ở Việt Nam chưa nhiều người làm nên quá trình làm món này khá khó khăn. Ý tưởng ban đầu của nhóm là làm món kem tươi kết hợp với rượu, nhưng sau quá trình thử nghiệm gian nan, món kem tươi chuyển thành món kem tuyết vị trái cây tươi kết hợp với nhiều loại rượu khác nhau. Mỗi cốc bingsu sẽ đi kèm thêm một chút rượu trong cốc nhỏ xinh để khách từ từ thưởng thức từng thìa nhỏ.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		"Để làm ra các vị bingsu lá nếp, bingsu dưa hấu… nhìn tưởng rất đơn giản nhưng thời gian đầu, trong 2 tháng liền, ngày nào nhóm cũng tập trung từ 18 - 24 giờ để làm sao tìm ra công thức kết hợp phù hợp nhất giữa sản phẩm kem và rượu. Thành quả là một menu rất độc đáo, rất riêng của Flow-ee", Ngô Quốc Hào cho hay.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Dù mới hoạt động hơn 1 tháng, song khách hàng đến với Flow-ee khá đông, có cả người khiếm thính, du khách nước ngoài. Nhiều bạn trẻ và các em nhỏ đến đây mong muốn được học ngôn ngữ ký hiệu. Xuất phát từ điều này, tới đây, Hào và các bạn dự định sẽ mở workshop dạy ngôn ngữ ký hiệu miễn phí.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Ngoài ra, sau khi Flow-ee tại Hà Nội hoạt động ổn định, nhóm cũng mong muốn mở thêm chi nhánh tại TP.HCM và bán hàng online để có thể tạo thêm nhiều cơ hội cho các bạn trẻ khiếm thính được làm việc, tạo ra giá trị cho bản thân và cộng đồng.
+	  </p>
+	 `,
+	},
+	{
+	  id: 3,
+	  title: "Các yếu tố nguy cơ gây nghe kém ở trẻ sơ sinh và trẻ nhỏ",
+	  description: "Nghe kém, giảm thính lực ở trẻ sơ sinh và trẻ nhỏ gây ảnh hưởng tới quá trình học nói, giao tiếp bằng ngôn ngữ của trẻ...",
+	  author: "Hội thính học Việt Nam",
+	  imageAuthor: "/image/author-3.png",
+	  image: "/image/news-3.png",
+	  date: "09.12.2024",
+	  tags: ["Xã hội"],
+	  slug: "cac-yeu-to-nguy-co",
+	  content: `
+	  <p class="text-black font-bold leading-relaxed">
+		1. Nghe kém là gì?
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Về giải phẫu, tai gồm có 3 phần chính là tai ngoài , tai giữa và tai trong. Về sinh lý nghe, âm thanh sẽ đi vào tai ngoài, qua tai giữa, tai trong, qua dây thần kinh ốc tai tới thân não, lên vỏ não và được giải mã. Từ đó, con người sẽ hiểu được đó là âm thanh gì, có ý nghĩa gì.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Nghe kém ở trẻ là tình trạng sức nghe của trẻ bị giảm so với bình thường. Trẻ không nghe được tiếng nói thầm hoặc các âm thanh rất nhỏ. Với trẻ em, ngưỡng nghe bình thường trên thính lực đơn âm là ≤15dB. Nếu ngưỡng nghe lớn hơn 15dB được gọi là nghe kém.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Theo ước tính của Tổ chức Y tế Thế giới, có khoảng 5% dân số, tương đương 430 triệu người trên thế giới bị nghe kém. Trong đó, có 32 triệu trẻ em dưới 15 tuổi có sức nghe kém – hiện tượng giảm một phần hoặc toàn bộ khả năng cảm nhận âm thanh.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+	   Nghe kém được phân chia thành nhiều mức độ khác nhau, từ nhẹ tới trung bình nhẹ, trung bình nặng, nặng và điếc. Nghe kém có thể do bẩm sinh, do tai biến sản khoa trong khi sinh hoặc do mắc phải các nguyên nhân khác sau khi sinh.
+	  </p>
+	  <img src="/image/news-detail-2.png" class="text-black mb-2 leading-relaxed w-full"/>
+	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		Nghe kém được phân loại thành 5 mức độ: nhẹ, trung bình nhẹ, trung bình nặng, nặng và điếc
+	  </div>
+	  <p class="text-black font-bold leading-relaxed">
+		2. Yếu tố nguy cơ nghe kém ở trẻ sơ sinh và trẻ nhỏ
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Có nhiều nguyên nhân và các yếu tố nguy cơ gây nghe kém ở trẻ em, cụ thể là:
+	  </p>
+	  <p class="text-black font-bold leading-relaxed">
+		2.1 Nguyên nhân bẩm sinh
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		 • Di truyền: Là nguyên nhân hàng đầu gây nghe kém ở trẻ sơ sinh. Có khoảng 50% các trường hợp nghe kém bẩm sinh là do di truyền. Một số nghiên cứu cho thấy, các gia đình có bố hoặc mẹ bị nghe kém thì con của họ cũng có nguy cơ nghe kém cao hơn so với những đứa trẻ có bố, mẹ khỏe mạnh khác
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		 • Thời kỳ mang thai của người mẹ
+	  </p>
+	  <p class="text-black leading-relaxed pl-6">
+		 • Nếu người mẹ bị một số bệnh nhiễm trùng như Rubella, herpes hoặc giang mai trong thời kỳ mang thai thì trẻ có thể bị nghe kém hoặc điếc;
+	  </p>
+	  <p class="text-black leading-relaxed pl-6">
+		 • Bà mẹ mang thai sử dụng một số loại thuốc gây ngộ độc như thuốc điều trị sốt rét, thuốc lợi tiểu, nhóm aminoglycosides, cytotoxic cũng có thể gây nghe kém cho thai nhi sau khi trẻ ra đời;
+	  </p>
+	  <p class="text-black leading-relaxed pl-6">
+		 • Nhiễm trùng ối trước khi sinh;
+	  </p>
+	  <p class="text-black leading-relaxed mb-4 pl-6">
+		 • Có một số dị tật khác ở tim, mắt, vành tai, ống tai, đường chân tóc thấp, không có nhân trung,…
+	  </p>
+	  <p class="text-black font-bold leading-relaxed">
+		2.2 Nguyên nhân tai biến sản khoa trong khi sinh
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		 • Sinh non, cân nặng sơ sinh thấp: Nếu trẻ sinh non, có cân nặng lúc sinh thấp (dưới 1500g) thì có nguy cơ gặp vấn đề về suy giảm thính lực cao hơn so với trẻ sinh đủ tháng. Bên cạnh đó, trẻ có cân nặng thấp thường đi kèm với các yếu tố nguy cơ khác như vàng da tăng bilirubin tự do, suy hô hấp cần thở máy, nhiễm trùng huyết, xuất huyết trong não thất,… nên càng tăng nguy cơ nghe kém ở trẻ sơ sinh;
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		 • Trẻ bị vàng da sau sinh: Tình trạng tăng bilirubin tự do có thể gây tổn thương nhân thần kinh thính giác thân não, có thể phá hủy dây thần kinh thính giác và tế bào hạch ốc tai. Vàng da nặng ở trẻ sơ sinh có thể gây tổn thương thần kinh nghe, dẫn tới nghe kém ở trẻ;
+	  </p>
+	  <p class="text-black leading-relaxed pl-4 mb-4">
+		 • Thiếu oxy khi sinh: Tình trạng thiếu oxy ở trẻ cũng có liên quan chặt chẽ với nguy cơ suy giảm thính lực. Cụ thể, khi có đủ oxy và tưới máu bình thường thì chức năng của ốc tai sẽ được đảm bảo. Ở những trẻ sơ sinh bị thiếu oxy hoặc bị ngạt, các tế bào hạch ốc tai sẽ bị ảnh hưởng. Với trẻ bị thiếu oxy nặng, ốc tai có thể bị tổn thương nặng, gây ảnh hưởng tới thính lực của trẻ.
+	  </p>
+	  <img src="/image/news-detail-3.png" class="text-black mb-2 leading-relaxed w-full"/>
+	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		Vàng da sau sinh cũng là một trong số những nguyên nhân gây tình trạng nghe kém ở trẻ
+	  </div>
+	  <p class="text-black font-bold leading-relaxed">
+		2.3 Nguyên nhân mắc phải sau khi sinh
+	  </p>
+	 <p class="text-black leading-relaxed pl-4">
+		 • Nhiễm khuẩn:
+	  </p>
+	  <p class="text-black leading-relaxed pl-6">
+		 • Viêm tai mạn tính: Các xương con nằm trong tai giữa có nhiệm vụ dẫn truyền, tăng năng lượng sóng âm từ tai ngoài vào tai trong. Với trẻ bị viêm tai giữa, dịch hoặc mủ bị ứ đọng trong hòm nhĩ sẽ làm cản trở sự rung động của chuỗi xương con, khiến năng lượng sóng âm bị hao hụt, dẫn tới sức nghe bị giảm. Tình trạng này được gọi là nghe kém dẫn truyền, thường ở mức độ nhẹ hoặc trung bình. Đây là nguyên nhân quan trọng gây nghe kém và điếc ở trẻ em;
+	  </p>
+	  <p class="text-black leading-relaxed pl-6">
+		 • Viêm màng não: Có khoảng 10% trẻ em sau khi mắc viêm màng não có di chứng nghe kém ở các mức độ khác nhau. Về cơ chế gây bệnh, khi trẻ bị viêm màng não, não và màng não sẽ bị phù, làm giảm oxy tới các tế bào thần kinh, gây tổn thương không hồi phục cho các tế bào thần kinh. Trẻ bị viêm màng não mủ có nguy cơ bị điếc cao, có thể bị điếc chỉ sau một vài ngày mắc bệnh;
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		 • Chấn thương: Các chấn thương vùng đầu và tai là một trong những yếu tố nguy cơ nghe kém ở trẻ sơ sinh và trẻ nhỏ. Chấn thương có thể gây nghe kém tạm thời hoặc nghe kém vĩnh viễn. Về cơ chế gây bệnh, các chấn thương vùng đầu làm tổn thương não, màng não, thủng màng nhĩ, ảnh hưởng tới cấu trúc của tai trong, dẫn tới nghe kém;
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		 • Sử dụng thuốc: Các loại thuốc kháng sinh (đặc biệt là gentamicin và tobramycin) có thể gây ảnh hưởng tới bộ phận ốc tai và tiền đình. Chúng gây chết tế bào lông, làm gián đoạn sự dẫn truyền các tín hiện điện của các synap thần kinh hoặc phá hủy các tế bào thần kinh và tế bào ốc tai, gây nghe kém ở trẻ
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		 • Tiếng ồn: Tiếng ồn có cường độ trên 115dB có thể gây nghe kém, điếc ở trẻ em dù chỉ tiếp xúc 1 lần trong 3 – 15 phút. Những âm thanh có cường độ trên 100dB cũng có thể gây hại tới thính lực của trẻ nếu tiếp xúc trong thời gian dài;
+	  </p>
+	  <p class="text-black leading-relaxed pl-4 mb-4">
+		 • Yếu tố nguy cơ khác: Độ tuổi, mắc bệnh quai bị, sởi, nút ráy tai, có dị vật rơi vào tai, bị u xơ thần kinh, động kinh,…
+	  </p>
+	  <img src="/image/news-detail-4.png" class="text-black mb-2 leading-relaxed w-full"/>
+	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		Một số loại thuốc kháng sinh như Gentamicin và Tobramycin có thể gây tình trạng nghe kém ở trẻ
+	  </div>
+	  <p class="text-black font-bold leading-relaxed">
+		3. Phương pháp sàng lọc nghe kém
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Trẻ bị suy giảm thính lực nếu không được phát hiện và can thiệp sớm trước khi trẻ được 2 tuổi thì sẽ không thể phục hồi ngôn ngữ như trẻ bình thường. Điều này sẽ gây khó khăn cho trẻ trong giao tiếp, học tập, gây ảnh hưởng tới tâm lý của bé. Vì vậy, sàng lọc nghe kém sớm đóng vai trò rất quan trọng đối với sự phát triển của trẻ.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Sàng lọc thính giác cho trẻ sơ sinh nên thực hiện trong vòng 1 tháng sau khi sinh, chẩn đoán xác định trong vòng 3 tháng sau sinh và thực hiện can thiệp nếu trẻ bị nghe kém trong vòng 6 tháng sau sinh. Trong trường hợp không đảm bảo các mốc thời gian nêu trên thì cần thực hiện sớm nhất khi có thể.
+	  </p>
+	  <p class="text-black leading-relaxed">
+		Có thể phát hiện nghe kém ở trẻ bằng cách:
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		 • Quan sát, thấy trẻ không phản ứng với các âm thanh, đặc biệt là các âm thanh lớn; không hóng chuyện, chậm nói hoặc không nói được;
+	  </p>
+	  <p class="text-black leading-relaxed pl-4 mb-4">
+		 • Đo âm ốc tai kết hợp đo điện thính giác thân não.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Lưu ý: Cần thực hiện sàng lọc ít nhất 2 – 3 lần bằng các phương pháp khác nhau để xác định chẩn đoán. Đồng thời, cần chẩn đoán phân biệt nghe kém với các vấn đề khác như: trẻ mải chơi, không để ý tới âm thanh, nói ngọng do các nguyên nhân khác, rối loạn hành vi (tăng động, kém tập trung, tự kỷ hoặc chậm phát triển trí tuệ).
+	  </p>
+	   <p class="text-black font-bold leading-relaxed">
+		4. Biện pháp phòng ngừa nghe kém ở trẻ sơ sinh và trẻ nhỏ
+	  </p>
+	  <p class="text-black leading-relaxed">
+		Có thể phòng ngừa nghe kém được trong một số trường hợp. Các biện pháp như sau:
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		 • Phụ nữ mang thai cần được chăm sóc kỹ về chế độ dinh dưỡng và nghỉ ngơi, tránh suy dinh dưỡng bào thai;
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		 • Bà bầu cần tiêm phòng theo các chương trình tiêm chủng đặc biệt với các bệnh có thể gây nghe kém bẩm sinh ở trẻ;
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		 • Theo dõi và đăng ký sinh ở các cơ sở y tế có chuyên môn cao, đề phòng các tai biến sản khoa;
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		 • Phòng tránh nhiễm trùng sau sinh như viêm phổi, viêm màng não, viêm não,…;
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		 • Phát hiện, điều trị kịp thời các bệnh lý viêm nhiễm tai mũi họng;
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		 • Phát hiện, điều trị sớm các trường hợp vàng da sơ sinh bệnh lý
+	  </p>
+	  <p class="text-black leading-relaxed pl-4 mb-4">
+		 • Phòng chống nghe kém do tác dụng phụ của thuốc, chấn thương, tiếng ồn,…
+	  </p>
+	  <img src="/image/news-detail-5.png" class="text-black mb-2 leading-relaxed w-full"/>
+	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		Một số loại thuốc kháng sinh như Gentamicin và Tobramycin có thể gây tình trạng nghe kém ở trẻ
+	  </div>
+	  <p class="text-black font-bold leading-relaxed">
+		5. Điều trị nghe kém ở trẻ sơ sinh và trẻ nhỏ
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Nghe kém do các bệnh lý tai giữa và tai ngoài có thể được điều trị bằng nội khoa và ngoại khoa. Tuy nhiên, tỷ lệ điều trị thành công còn tùy thuộc vào nhiều yếu tố như nguyên nhân gây bệnh, cơ địa của trẻ, mức độ nghe kém,…
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Trẻ mắc bệnh lý tai trong hoặc bệnh lý tai giữa có thể sử dụng các thiết bị hỗ trợ phục hồi chức năng nghe như máy trợ thính, điện cực ốc tai. Hiệu quả của các thiết bị hỗ trợ này phụ thuộc vào nhiều yếu tố như: Nguyên nhân gây nghe kém, mức độ nghe kém, thời điểm can thiệp, chất lượng thiết bị, thời gian đeo máy, môi trường nghe, sự hỗ trợ của gia đình, sự phối hợp của trẻ,…
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Nếu được phát hiện nghe kém, mất thính lực muộn, trẻ có thể gặp khó khăn trong phát âm, phát triển ngôn ngữ và nhận thức so với trẻ khỏe mạnh bình thường, thậm chí phải gánh chịu những khuyết tật vĩnh viễn như câm, điếc. Vì vậy, cần cho bé tham gia khám sàng lọc khiếm thính sớm, khi nghi ngờ trẻ bị nghe kém phải đi khám chuyên sâu để can thiệp điều trị kịp thời.
+	  </p>
+	 `,
+	},
+	{
+	  id: 4,
+	  title: "Thủ tướng chung vui lễ khai giảng tại ngôi trường đặc biệt của Thủ đô",
+	  description: "(Chinhphu.vn) - Sáng 5/9, Thủ tướng Phạm Minh Chính tới dự lễ khai giảng, chung vui cùng các thầy, cô giáo, các em học sinh tại Trường Phổ thông cơ sở Nguyễn Đình Chiểu (quận Hai Bà Trưng, Hà Nội) - ngôi trường dạy hòa nhập học sinh không khuyết tật với học sinh khiếm thị duy nhất tại Hà Nội.",
+	  author: "Hà Vân",
+	  imageAuthor: "/image/author-4.png",
+	  image: "/image/news-4.png",
+	  date: "09.12.2024",
+	  tags: ["Xã hội"],
+	  slug: "thu-tuong-chung-vui-le-khai-giang",
+	  content: `
+	  <img src="/image/news-detail-6.png" class="text-black mb-2 leading-relaxed w-full"/>
+	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		Thủ tướng Phạm Minh Chính dự lễ khai giảng, chung vui cùng các thầy, cô giáo, các em học sinh tại Trường Phổ thông cơ sở Nguyễn Đình Chiểu (quận Hai Bà Trưng, Hà Nội) - Ảnh: VGP/Nhật Bắc
+	  </div>
+	  <p class="text-black mb-4 leading-relaxed">
+		Cùng dự lễ khai giảng có các đồng chí Ủy viên Trung ương Đảng: Bộ trưởng Bộ Giáo dục và Đào tạo Nguyễn Kim Sơn, Bộ trưởng Bộ Khoa học và Công nghệ Huỳnh Thành Đạt; lãnh đạo các bộ, ngành, cơ quan Trung ương và TP. Hà Nội.
+	  </p>
+	  <p class="text-black leading-relaxed">
+		Hôm nay, hơn 23 triệu học sinh của các trường mầm non, phổ thông trên cả nước dự lễ khai giảng năm học 2024-2025. Trước năm học mới, Thủ tướng Chính phủ đã ban hành Chỉ thị số 31/CT-TTg về việc tăng cường các điều kiện bảo đảm thực hiện hiệu quả nhiệm vụ năm học 2024-2025.
+	  </p>
+	  <p class="text-black leading-relaxed">
+		 Năm học 2024-2025 có ý nghĩa quan trọng đặc biệt trong lộ trình đổi mới giáo dục phổ thông, với chủ đề năm học được ngành giáo dục xác định là: "Đổi mới sáng tạo, nâng cao chất lượng, đoàn kết kỷ cương".
+	  </p>
+	  <p class="text-black leading-relaxed">
+		Trong năm học này, Chương trình Giáo dục phổ thông 2018 được triển khai ở tất cả các lớp từ lớp 1 đến lớp 12; cũng là năm học đầu tiên tổ chức Kỳ thi tốt nghiệp THPT theo Chương trình giáo dục phổ thông 2018.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Theo số liệu sơ bộ tính đến tháng 8/2024 do Bộ Giáo dục và Đào tạo cung cấp, cả nước có hơn 25.255.000 học sinh, sinh viên; trong đó có hơn 23 triệu học sinh, hơn 2 triệu sinh viên. Cả nước có gần 54.000 cơ sở giáo dục, gần 1,66 triệu giảng viên, giáo viên, cán bộ quản lý giáo dục, người lao động trong ngành giáo dục.
+	  </p>
+	   <img src="/image/news-detail-7.png" class="text-black mb-2 leading-relaxed w-full"/>
+	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		Thủ tướng trò chuyện với các em học sinh Trường Phổ thông cơ sở Nguyễn Đình Chiểu - Ảnh: VGP/Nhật Bắc
+	  </div>
+	  <p class="text-black leading-relaxed">
+		Cùng các học sinh trên cả nước, gần 1.600 học sinh Trường Phổ thông cơ sở Nguyễn Đình Chiểu dự lễ khai giảng vào sáng nay. Thành lập năm 1982, đây là trường dạy hòa nhập học sinh không khuyết tật với học sinh khiếm thị duy nhất tại Hà Nội, có uy tín, có nhiều kinh nghiệm, thành công trong công tác giáo dục chuyên biệt cho trẻ khiếm thị và dạy hòa nhập trẻ không khuyết tật với trẻ khiếm thị. Các học sinh khiếm thị chiếm khoảng 10% tổng số học sinh của nhà trường.
+	  </p>
+	  <p class="text-black leading-relaxed">
+	   Với hai bậc học gồm tiểu học và trung học cơ sở, những năm qua, nhà trường là một điểm sáng trong phong trào giáo dục của Thủ đô và toàn quốc về công tác giáo dục hòa nhập cho học sinh khuyết tật nói chung và học sinh khiếm thị nói riêng. Nhà trường còn có những đóng góp quan trọng trong việc hỗ trợ các tỉnh, thành (Hải Phòng, Hải Dương, Vĩnh Phúc...) về công tác giáo dục hòa nhập.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Tại lễ khai giảng, các đại biểu, các thầy cô giáo và các em học sinh đã nghe thư của Tổng Bí thư, Chủ tịch nước Tô Lâm gửi ngành giáo dục nhân dịp khai giảng năm học mới.
+	  </p>
+	  <p class="text-black font-bold leading-relaxed">
+		Giáo dục là quốc sách hàng đầu, là nhiệm vụ quan trọng của toàn Đảng, toàn dân
+	  </p>
+	   <p class="text-black leading-relaxed">
+		Phát biểu tại lễ khai giảng, Thủ tướng Phạm Minh Chính bày tỏ, khi cả nước tưng bừng kỷ niệm ngày Quốc khánh (2/9) - ngày Chủ tịch Hồ Chí Minh kính yêu đọc bản tuyên ngôn độc lập, khai sinh ra nước Việt Nam Dân chủ Cộng hòa, nay là nước Cộng hòa xã hội chủ nghĩa Việt Nam, cũng là thời điểm các cháu học sinh trên cả nước rộn ràng bước vào năm học mới.
+	  </p>
+	  <p class="text-black leading-relaxed">
+	   Theo Thủ tướng, trong không khí hân hoan, phấn khởi của cả nước và ngày hội khai trường của các cháu học sinh thân yêu, các đại biểu rất vui mừng và cảm động tới dự lễ khai giảng năm học 2024-2025 của Trường Phổ thông cơ sở Nguyễn Đình Chiểu - ngôi trường được thành lập từ năm 1982, với sứ mệnh nuôi dạy trẻ em khiếm thị của TP. Hà Nội để các em có thể hòa nhập cộng đồng, sống tự lập, đóng góp cho xã hội với giá trị cốt lõi nhân ái, trách nhiệm, sáng tạo, hội nhập và phát triển.
+	  </p>
+	   <p class="text-black leading-relaxed">
+	   "Đặc biệt, chúng ta cảm nhận và trân trọng tình cảm ấm áp, sự yêu thương, lòng nhân ái của các thầy giáo, cô giáo, các bậc phụ huynh và các cháu học sinh thân yêu. Được nhìn thấy những nụ cười vui tươi trên những gương mặt rạng ngời của các cháu, tôi cảm nhận rất rõ sự hào hứng, quyết tâm cho một năm học mới sắp bắt đầu", Thủ tướng nói.
+	  </p>
+	   <p class="text-black leading-relaxed">
+	   Thay mặt lãnh đạo Đảng, Nhà nước, Thủ tướng thân ái gửi tới quý vị đại biểu, các thầy cô giáo và các cháu học sinh trường Nguyễn Đình Chiểu nói riêng và toàn thể các thầy cô giáo, các học sinh trên cả nước nói chung lời chào trân trọng, lời thăm hỏi ân cần và lời chúc tốt đẹp nhất; chúc năm học 2024-2025 gặt hái được nhiều thành tích tốt hơn năm học đã qua.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+	   Thủ tướng nhắc lại, sinh thời, Chủ tịch Hồ Chí Minh kính yêu, Anh hùng giải phóng dân tộc, Danh nhân văn hóa thế giới của Việt Nam đã căn dặn: "Vì lợi ích mười năm trồng cây. Vì lợi ích trăm năm trồng người"; "Một dân tộc dốt là một dân tộc yếu".
+	  </p>
+	   <img src="/image/news-detail-8.png" class="text-black mb-2 leading-relaxed w-full"/>
+	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		Các em học sinh Trường Phổ thông cơ sở Nguyễn Đình Chiểu tặng Thủ tướng bó hoa tươi thắm - Ảnh: VGP/Nhật Bắc
+	  </div>
+	   <p class="text-black mb-4 leading-relaxed">
+	   Luôn ghi nhớ và khắc sâu lời dặn của Người, những năm qua Đảng, Nhà nước ta luôn coi giáo dục và đào tạo là quốc sách hàng đầu, là nhiệm vụ quan trọng của toàn Đảng, toàn dân, là lĩnh vực đặc biệt quan trọng, then chốt trong bảo đảm tiến bộ, công bằng xã hội, mang tính quyết định với sự phát triển bền vững của đất nước, với tinh thần không để ai bị bỏ lại phía sau.
+	  </p>
+		<p class="text-black leading-relaxed">
+	   Công cuộc đổi mới căn bản, toàn diện giáo dục và đào tạo được tập trung triển khai, đáp ứng ngày càng tốt hơn yêu cầu công nghiệp hóa, hiện đại hóa, hội nhập quốc tế, trong bối cảnh cuộc cách mạng công nghiệp lần thứ tư tác động sâu rộng đến mọi lĩnh vực của đời sống xã hội.
+	  </p>
+	  <p class="text-black leading-relaxed">
+	   Theo Thủ tướng, nhìn lại năm học 2023-2024 vừa qua, chúng ta vui mừng nhận thấy ngành giáo dục đã vượt qua khó khăn, thách thức, triển khai hiệu quả các nhiệm vụ được giao và đạt được những thành tựu rất quan trọng, nhất là chất lượng giáo dục từng bước được nâng lên, các cháu học sinh, trong đó có các cháu khuyết tật được chăm lo, giáo dục tốt hơn.
+	  </p>
+	  <p class="text-black leading-relaxed">
+	   Về dự lễ khai giảng năm học mới đầy ý nghĩa tại ngôi trường đặc biệt, vinh dự được mang tên một nhà thơ yêu nước, giàu lòng nhân ái, danh nhân văn hóa thế giới Nguyễn Đình Chiểu, Thủ tướng vui mừng được biết, trong gần 42 năm hình thành và phát triển, các thế hệ thầy và trò Trường Phổ thông cơ sở Nguyễn Đình Chiểu luôn phấn đấu thực hiện mục tiêu "Trường học chất lượng cao - Hiệu quả hàng đầu trong công tác dạy học hòa nhập của cả nước".
+	  </p>
+	  <p class="text-black leading-relaxed">
+		Thủ tướng đánh giá nhà trường đã và đang thực hiện tốt mô hình giáo dục hòa nhập cho học sinh khiếm thị từ lớp 1 đến lớp 9 - giai đoạn quan trọng nhất, tạo nền tảng phát triển cả thể chất và trí tuệ. Các cháu học sinh khiếm thị được chuẩn bị các kỹ năng cần thiết, cơ bản cho sự phát triển năng khiếu cá nhân… giúp các cháu tự tin và bình đẳng tham gia các hoạt động học tập và hòa nhập cộng đồng.
+	  </p>
+	  <p class="text-black leading-relaxed">
+		Đặc biệt, Thủ tướng ấn tượng với những thành tích xuất sắc mà các cháu học sinh khiếm thị nhà trường đã đạt được như cháu Đào Thu Hương, Thủ khoa Trường Đại học Sư phạm ngoại ngữ; cháu Nguyễn Thị Thanh Mai hoàn thành học tiến sĩ tại Hoa Kỳ; cháu Lã Minh Trường là gương thanh niên tiên tiến làm theo lời Bác; cháu Lý Thành Anh Kiệt mới là học sinh lớp 5 nhưng đã là tân sinh viên khoa Piano Học viện Âm nhạc Quốc gia; và còn rất nhiều tấm gương vượt khó khăn, học giỏi khác.
+	  </p>
+	  <p class="text-black leading-relaxed">
+		Thay mặt lãnh đạo Đảng, Nhà nước, Thủ tướng nhiệt liệt chúc mừng nhà trường, các thầy cô giáo, các bậc phụ huynh, đặc biệt các cháu học sinh khiếm thị, các cháu thực sự là những tấm gương sáng của sự nỗ lực, cố gắng, vượt qua khó khăn, gian khổ và nghịch cảnh, đạt được những thành tích rất đáng tự hào, không ngừng làm rạng danh mái trường mang tên danh nhân Nguyễn Đình Chiểu.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Thủ tướng cũng ghi nhận, đánh giá cao và chúc mừng toàn ngành giáo dục về nỗ lực, cố gắng và những kết quả quan trọng đã đạt được trong năm học vừa qua, đóng góp quan trọng vào thành tựu chung của đất nước.
+	  </p>
+	   <img src="/image/news-detail-9.png" class="text-black mb-2 leading-relaxed w-full"/>
+	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		Thủ tướng Phạm Minh Chính chung vui không khí hân hoan, phấn khởi ngày hội khai trường năm học 2024-2025 cùng thầy trò Trường Phổ thông cơ sở Nguyễn Đình Chiểu, Hà Nội - Ảnh: VGP/Nhật Bắc
+	  </div>
+	  <p class="text-black font-bold leading-relaxed">
+		Thủ tướng cũng ghi nhận, đánh giá cao và chúc mừng toàn ngành giáo dục về nỗ lực, cố gắng và những kết quả quan trọng đã đạt được trong năm học vừa qua, đóng góp quan trọng vào thành tựu chung của đất nước.
+	  </p>
+	  <p class="text-black leading-relaxed">
+		Thủ tướng nêu rõ, năm học mới 2024-2025, phát huy hơn nữa kết quả đã đạt được, nỗ lực vượt qua, khó khăn, thách thức, ngành giáo dục nói riêng và cả nước nói chung cần tiếp tục thực hiện đồng bộ, hiệu quả các nhiệm vụ, giải pháp đổi mới căn bản, toàn diện giáo dục và đào tạo với phương châm "Lấy học sinh, sinh viên làm trung tâm, chủ thể - Thầy cô giáo là động lực - Nhà trường làm bệ đỡ - Gia đình là điểm tựa - Xã hội là nền tảng". Việc gì làm chưa tốt thì phải khẩn trương khắc phục để làm tốt hơn, việc gì làm tốt rồi thì phải quyết tâm cao hơn, nỗ lực lớn hơn, hành động quyết liệt hơn để làm tốt hơn nữa, đạt kết quả cao hơn nữa, năm học sau đạt kết quả tốt hơn năm học trước.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Với tinh thần đó, Thủ tướng đề nghị Bộ Giáo dục và Đào tạo, các bộ, ngành, địa phương phải tiếp tục kiến tạo yếu tố nền tảng cho phát triển giáo dục và đào tạo, tạo môi trường tiên tiến, lành mạnh về pháp lý, văn hoá, đạo đức, kiến thức, thúc đẩy xã hội học tập, đặc biệt là điều kiện thuận lợi đối với các cháu học sinh khuyết tật, có hoàn cảnh khó khăn, trong đó lưu ý một số việc. Theo đó, quán triệt và tổ chức triển khai hiệu quả Kết luận 91 của Bộ Chính trị về tiếp tục đổi mới căn bản, toàn diện giáo dục và đào tạo; tập trung thực hiện tốt các phương hướng, nhiệm vụ đề ra cho năm học 2024-2025, nhất là thư của Tổng Bí thư, Chủ tịch nước Tô Lâm nhân dịp khai giảng năm học mới.
+	  </p>
+	   <img src="/image/news-detail-10.png" class="text-black mb-2 leading-relaxed w-full"/>
+	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		Các thế hệ thầy và trò Trường Phổ thông cơ sở Nguyễn Đình Chiểu luôn phấn đấu thực hiện mục tiêu "Trường học chất lượng cao - Hiệu quả hàng đầu trong công tác dạy học hòa nhập của cả nước"
+	  </div>
+	  <p class="text-black leading-relaxed">
+	   Chú trọng triển khai Chương trình giáo dục phổ thông gắn với đổi mới phương pháp dạy học, kiểm tra, đánh giá theo hướng phát huy tính cực, chủ động của học sinh; thường xuyên cập nhật và vận dụng phương pháp giáo dục tiên tiến, kế thừa, phát huy những thành tựu của khoa học kỹ thuật và công nghệ thông tin, công nghệ số, phát triển phù hợp với xu hướng giáo dục hiện nay trên thế giới.
+	  </p>
+	  <p class="text-black leading-relaxed">
+		Hoàn thiện hệ thống giáo dục quốc dân theo hướng mở, công bằng, bình đẳng, thúc đẩy xã hội học tập và tạo cơ hội học tập suốt đời; khẩn trương hoàn thành Quy hoạch hệ thống cơ sở giáo dục chuyên biệt đối với người khuyết tật và hệ thống trung tâm hỗ trợ phát triển giáo dục hòa nhập.
+	  </p>
+	  <p class="text-black leading-relaxed">
+		Nâng cao chất lượng giáo dục, đa dạng hoá mô hình, chương trình đào tạo, phương thức học tập phù hợp với người học. Tăng cường giáo dục hoà nhập cộng đồng cho người khuyết tật, trẻ em có hoàn cảnh đặc biệt; trong đó chú trọng công tác giáo dục hòa nhập trong các cơ sở giáo dục mầm non, phổ thông nhằm đảm bảo quyền học tập bình đẳng, chất lượng và phù hợp để các cháu phát triển khả năng của bản thân, được hòa nhập và đóng góp cho cộng đồng, cho xã hội.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Các bậc phụ huynh luôn là điểm tựa toàn diện, là chỗ dựa tinh thần, vật chất, chia sẻ niềm vui, nỗi buồn, thấu hiểu khó khăn, thách thức của các cháu. "Đặc biệt là đối với các cháu học sinh khuyết tật, phải tạo điều kiện, niềm tin để các cháu vượt qua nghịch cảnh, sự thiệt thòi, để học giỏi, sống tốt, trở thành những công dân có ích cho xã hội", Thủ tướng nói.
+	  </p>
+	   <img src="/image/news-detail-11.png" class="text-black mb-2 leading-relaxed w-full"/>
+	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		Học sinh Trường Phổ thông cơ sở Nguyễn Đình Chiểu hân hoan bước vào năm học mới - Ảnh: VGP/Nhật Bắc
+	  </div>
+	   <p class="text-black leading-relaxed">
+		Nhà trường thực hiện tốt vai trò bệ đỡ vững chắc, tạo mọi điều kiện thuận lợi về cơ sở vật chất, kỹ thuật, trang thiết bị, điều kiện học tập, môi trường an ninh, an toàn, lành mạnh, bình đẳng và thuận lợi cho các cháu học sinh, đặc biệt là không có bạo lực học đường, ma túy học đường. Đối với các cháu học sinh khuyết tật, cần đảm bảo trang bị mọi kỹ năng, kiến thức cần thiết để các cháu có thể độc lập trong cuộc sống, tự tin hòa nhập cộng đồng.
+	  </p>
+		<p class="text-black leading-relaxed">
+		Đồng thời, cần quan tâm chăm lo, phát triển đội ngũ giáo viên của nhà trường đáp ứng yêu cầu đổi mới căn bản, toàn diện giáo dục và đào tạo để các thầy giáo, cô giáo thực sự là tấm gương đạo đức, tự học và sáng tạo cho các thế hệ học sinh noi theo.
+	  </p>
+	  <p class="text-black leading-relaxed">
+		Thủ tướng mong các thầy cô giáo không chỉ truyền thụ kiến thức mà phải gương mẫu trong rèn luyện, khích lệ, động viên, hướng dẫn, chia sẻ, tạo động lực, truyền cảm hứng cho các cháu học sinh; phát hiện, khuyến khích, tạo điều kiện cho từng học sinh phát huy sở trường, năng khiếu của mình; truyền thụ sao cho các cháu hào hứng học tập, đổi mới sáng tạo; không chỉ học qua sách vở mà cần chú trọng cả thực hành; không chỉ truyền thụ kiến thức, kỹ năng mà cần khơi dậy mạnh mẽ lòng yêu nước, tinh thần đoàn kết, ý chí tự lực, tự cường và khát vọng phát triển đất nước giàu đẹp, phồn vinh, hạnh phúc.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Thủ tướng nhắc lại, sinh thời, Chủ tịch Hồ Chí Minh đã từng nói: "Nhiệm vụ của thầy giáo rất vẻ vang, vì nếu không có thầy giáo thì không có giáo dục, không có giáo dục thì nói gì đến kinh tế, văn hóa". Thủ tướng mong các thầy giáo, cô giáo luôn nhận thức sâu sắc về sứ mệnh vẻ vang, nhiệm vụ cao cả và trọng trách nặng nề của nghề giáo, để không ngừng nỗ lực, cố gắng hoàn thành nhiệm vụ giáo dục thế hệ trẻ, những chủ nhân tương lai của đất nước.
+	  </p>
+	   <img src="/image/news-detail-12.png" class="text-black mb-2 leading-relaxed w-full"/>
+	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		Thủ tướng thăm, kiểm tra cơ sở vật chất của nhà trường - Ảnh: VGP/Nhật Bắc
+	  </div>
+	   <p class="text-black leading-relaxed">
+		Thủ tướng đề nghị mỗi thầy giáo, cô giáo Trường Phổ thông cơ sở Nguyễn Đình Chiểu hãy tiếp tục nỗ lực vượt qua những khó khăn, thách thức, luôn chia sẻ, cảm thông, thấu hiểu và là ánh sáng soi đường, dẫn dắt cho các cháu học sinh, nhất là các cháu học sinh khiếm thị trên con đường tiếp cận với thế giới tri thức rộng mở của nhân loại.
+	  </p>
+	  <p class="text-black leading-relaxed">
+	   Các cháu học sinh cả nước phát huy tốt vai trò trung tâm, chủ thể, là những chủ nhân tương lai của đất nước. Các cháu hãy cố gắng là con ngoan, trò giỏi, cháu ngoan Bác Hồ, làm tốt 5 điều Bác Hồ dạy: Yêu Tổ quốc, yêu đồng bào/ Học tập tốt, lao động tốt/ Đoàn kết tốt, kỷ luật tốt/ Giữ gìn vệ sinh thật tốt/ Khiêm tốn, thật thà, dũng cảm.
+	  </p>
+		<img src="/image/news-detail-13.png" class="text-black mb-2 leading-relaxed w-full"/>
+	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		Thủ tướng động viên các cháu học sinh có hoàn cảnh khó khăn hãy luôn cố gắng vượt qua thiệt thòi, nuôi dưỡng ý chí vươn lên, trở thành những công dân tốt, có ích cho xã hội, cho đất nước - Ảnh: VGP/Nhật Bắc
+	  </div>
+	   <p class="text-black leading-relaxed">
+	   Với các em học sinh Trường Phổ thông cơ sở Nguyễn Đình Chiểu, Thủ tướng nêu rõ các cháu luôn có sự quan tâm của xã hội, tình cảm của gia đình, lòng nhân ái của nhà trường, sự dạy dỗ tận tình của các thầy cô giáo. Thủ tướng mong các cháu, nhất là các cháu có hoàn cảnh khó khăn hãy luôn luôn cố gắng vượt qua những thử thách và thiệt thòi, không ngừng học tập chăm chỉ, tiếp thu kiến thức, chủ động, tích cực rèn luyện "Đức - Trí - Thể - Mỹ"; hãy luôn nuôi dưỡng ý chí vươn lên, hoài bão, ước mơ, khát vọng cống hiến, trở thành những công dân tốt, có ích cho xã hội, cho đất nước. "Chúng ta tin tưởng rằng mỗi ngày học tập, vui chơi dưới mái trường xã hội chủ nghĩa thân yêu, các cháu sẽ tiếp tục tiếp thu được nhiều kiến thức bổ ích, lí thú và có thật nhiều kỷ niệm đẹp với nhà trường. Chúng ta mong rằng tất cả các cháu học sinh, đặc biệt là các cháu học sinh khiếm tật luôn cố gắng phấn đấu học tập tốt, rèn luyện tốt, đạt nhiều thành tích cao hơn nữa trong hành trình chinh phục tri thức, hoàn thiện phẩm chất đạo đức, trở thành những công dân tốt có trách nhiệm với đất nước, có năng lực vững vàng để phát triển non sông gấm vóc, đưa dân tộc Việt Nam bước tới đài vinh quang để sánh vai với các cường quốc năm châu như Bác Hồ kính yêu mong muốn", Thủ tướng phát biểu.
+	  </p>
+	  <p class="text-black leading-relaxed">
+	   Thủ tướng nhấn mạnh, trong không khí hân hoan, phấn khởi của ngày tựu trường, chúng ta mong muốn và tin tưởng toàn ngành giáo dục sẽ tiếp tục phát huy truyền thống tốt đẹp và những kết quả đã đạt được, luôn đoàn kết, chung sức, đồng lòng, nỗ lực vượt qua khó khăn, thách thức, nỗ lực đạt thành tựu cao hơn, chất lượng hơn, tốt hơn trong năm học 2024-2025, với tinh thần con người là nguồn lực quý giá nhất để thực hiện sự nghiệp xây dựng và bảo vệ Tổ quốc; chúng ta luôn lấy con người là trung tâm, chủ thể, là mục tiêu, nguồn lực, động lực phát triển, không hy sinh tiến bộ và công bằng xã hội, an sinh xã hội để chạy theo tăng trưởng kinh tế đơn thuần, không bỏ ai bị bỏ lại phía sau.
+	  </p>
+	   <p class="text-black leading-relaxed">
+	  Thủ tướng chúc toàn thể đội ngũ cán bộ quản lý giáo dục, thầy giáo, cô giáo luôn phát huy tinh thần trách nhiệm và nhiệt huyết với nghề, khắc phục mọi khó khăn, vượt qua mọi thách thức, kiên trì mục tiêu đổi mới căn bản, toàn diện giáo dục và đào tạo, tất cả vì học sinh thân yêu, đáp ứng sự mong đợi của Đảng, Nhà nước và nhân dân ta, chúc các cháu học sinh luôn khỏe mạnh, vui vẻ, học giỏi và lạc quan trong cuộc sống, đạt được ươc mơ, hoài bão của mình, góp phần đưa dân tộc Việt Nam trở thành một dân tộc thông thái - như lời dạy của Chủ tịch Hồ Chí Minh kính yêu.
+	  </p>
+	  `
+	},
+	{
+	  id: 5,
+	  title: "Phục hồi chức năng khiếm thính ở trẻ",
+	  description: "SKĐS - Khiếm thính là một bệnh ảnh hưởng rất lớn đối với cuộc sống của cá thể, nếu như không thể giao tiếp thì người bệnh sẽ gặp rất nhiều trở ngại trong cuộc sống. Việc phục hồi chức năng cho trẻ khiếm thính có vai trò quan trọng trong việc giúp trẻ ra hòa nhập cộng đồng hiệu quả.",
+	  author: "TTUT.BSCK II. Trần Văn Lý",
+	  imageAuthor: "/image/author-5.png",
+	  image: "/image/news-5.png",
+	  date: "05-12-2017",
+	  tags: ["Xã hội"],
+	  slug: "phuc-hoi-chuc-nang-khiem-thinh-o-tre",
+	  content: `
+	  <p class="text-black font-bold leading-relaxed">
+	   Khiếm thính và phân loại khiếm thính
+	  </p>
+	  <p class="text-black leading-relaxed">
+		Theo Tổ chức Y tế thế giới (WHO), nếu độ mất thính lực trung bình từ 50dB trở lên, hoặc nói theo một cách khác thì trẻ không nghe được trọn vẹn câu nói (nói chuyện bình thường) trong phạm vi khoảng cách một mét được coi là trẻ khiếm thính. Nếu trẻ có độ mất thính lực trung bình trên 80dB, có nghĩa là chỉ nghe được những tiếng động mạnh hoặc kề sát tai, những trường hợp này thường được gọi là điếc, và đặc biệt đi kèm theo điếc là bị mất ngôn ngữ – câm.
+	  </p>
+	  <p class="text-black leading-relaxed">
+		Như vậy, khiếm thính là tình trạng bị suy giảm một phần hoặc mất hẳn toàn bộ khả năng nghe. Và theo như cách nói phổ thông thì khiếm thính bao gồm cả điếc và lãng tai (nghễnh ngãng). Những trẻ khiếm thính ngay sau khi sinh hoặc bị từ rất sớm trong những năm đầu đời, thường không có khả năng phát triển ngôn ngữ bình thường và kết quả là không thể nói được.
+	  </p>
+	  <p class="text-black leading-relaxed">
+		Có khoảng 5% dân số, tương đương với 360 triệu người trên toàn thế giới bị khiếm thính, trong đó có 32 triệu trẻ em bị vấn đề này. Việt Nam là nước thuộc khu vực có tỷ lệ mắc khiếm thính cao trên thế giới, có khoảng 1,6 triệu người bị khiếm thính. Hàng năm có từ 1.200 đến 1.400 trẻ khiếm thính ra đời. Do bị suy giảm sức nghe ở các mức độ khác nhau, dẫn đến trẻ khiếm thính gặp khó khăn trong giao tiếp và ảnh hưởng đến quá trình nhận thức của trẻ.
+	  </p>
+	  <img src="/image/news-detail-14.png" class="text-black mb-2 leading-relaxed w-full"/>
+	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		Máy trợ thính hỗ trợ nghe cho trẻ khiếm thính.
+	  </div>
+	  <p class="text-black mb-4 leading-relaxed">
+		Dựa trên mức độ mất sức nghe, người ta phân loại điếc/khiếm thính ra làm 4 mức độ: Điếc nhẹ (20-40dB), điếc trung bình (41-70dB), điếc nặng (71-90dB), điếc sâu (>90dB). Chính vì vậy, để trẻ khiếm thính có thể hòa nhập cộng đồng việc phục hồi chức năng cho trẻ có vai trò rất quan trọng.
+	  </p>
+	   <p class="text-black font-bold mb-4 leading-relaxed">
+	  Điều trị trẻ khiếm thính thế nào?
+	  </p>
+	  <p class="text-black leading-relaxed">
+		Trường hợp giảm thính lực do bệnh lý như viêm tai giữa, các chấn thương thủng màng nhĩ, do dị vật trong ống tai, do ráy tai... việc phát hiện kịp thời và điều trị đúng đắn bằng thuốc hoặc phẫu thuật sẽ khôi phục lại thính lực cho trẻ. Với những trẻ này, việc giữ vệ sinh tai-mũi-họng cũng rất quan trọng để chữa trị và phòng ngừa bệnh tái phát.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Trường hợp các nguyên nhân là do bẩm sinh, di truyền, trong lúc sinh hoặc di chứng sau viêm não-màng não, tổn thương có tính chất vĩnh viễn, trẻ không thể hồi phục được thính lực và phải mang khuyết tật suốt đời. Với những trẻ này, khi phát hiện sớm, trẻ sẽ được hỗ trợ đeo máy nghe, máy trợ thính hoặc ốc tai điện tử để có thể học nghe, học nói sớm và phát triển như những trẻ em bình thường.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Máy trợ thính là một dụng cụ đặc biệt dùng để khuếch đại cường độ âm thanh. Sở dĩ trẻ có thể nghe được là do đa số trẻ khiếm thính, kể cả những trẻ bị điếc sâu (giảm thính lực trên 90dB) đều còn sót lại một phần khả năng nghe. Khả năng nghe nhỏ nhoi còn sót lại này nhờ sự khuếch đại âm thanh của máy trợ thính, trẻ có thể tiếp nhận thông tin và nghe được bình thường.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Tuy nhiên máy trợ thính chỉ hỗ trợ trẻ nghe tốt hơn chứ không thể chữa trị tật khiếm thính. Máy trợ thính sẽ trở thành người bạn đồng hành suốt đời của trẻ. Hiệu quả của việc mang máy sẽ được phát huy tối đa nếu trẻ được đeo sớm (ngay từ giai đoạn 0-3 tuổi), đeo suốt ngày và đeo hàng ngày (trừ lúc trẻ tắm hoặc ngủ) và máy phải luôn ở trong tình trạng hoạt động tốt.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		 Một số lớn trẻ này bị tật khiếm thính do di truyền hoặc chưa biết rõ nguyên nhân nên việc phòng ngừa có nhiều khó khăn. Những biện pháp như quản lý tốt thai phụ, hạn chế các sang chấn sản khoa, tránh sử dụng các thuốc gây độc cho thính giác khi mang thai, tiêm chủng và nuôi con bằng sữa mẹ cho trẻ nhỏ... cũng góp phần thiết thực vào việc phòng ngừa.
+	  </p>
+	  <p class="text-black font-bold mb-4 leading-relaxed">
+		Các hoạt động phục hồi chức năng cho trẻ khiếm thính
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Trẻ khiếm thính cần được khám sức khỏe thể chất, khả năng nghe, khả năng phát âm, khả năng nhận thức, trên cơ sở kết quả đánh giá sẽ tư vấn cho gia đình lựa chọn mô hình và phương pháp can thiệp phù hợp với trẻ.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Các hoạt động phục hồi chức năng cho trẻ khiếm thính theo mô hình chuyên biệt Hoạt động dạy văn hóa: Đối với những trẻ khiếm thính lớn (lớn hơn 6 tuổi), không qua chương trình can thiệp sớm phát triển ngôn ngữ lời nói, mức độ điếc nặng và sâu (không có khả năng tiếp nhận âm thanh khi đeo máy trợ thính), trung tâm tiến hành giáo dục theo mô hình chuyên biệt. Kết hợp giữa dạy văn hóa theo trình tiểu học và PHCN lao động hướng nghiệp nghề (cho trẻ lớn >12 tuổi).
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Phương pháp dạy học: Phối hợp các phương pháp dạy học tích cực nhằm phát huy khả năng còn lại và hạn chế những khó khăn của trẻ khiếm thính. Sử dụng tốt phương pháp trực quan, đóng vai, sử dụng phương pháp giao tiếp tổng thể trong quá trình giáo dục cho trẻ khiếm thính.
+	  </p>
+		<p class="text-black mb-4 leading-relaxed">
+		Hoạt động dạy nghề: Đối với trẻ lớn khiếm thính lớn tuổi sẽ tham gia học chương trình văn hóa kết hợp với hướng nghiệp dạy nghề phù hợp với khả năng và nhu cầu của trẻ.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Dạy kỹ năng sống: Trẻ khiếm thính nhỏ, trung tâm tổ chức dạy trẻ các kỹ năng sinh hoạt như: Đi vệ sinh, tắm, đánh răng, rửa mặt, mặc quần áo... Trẻ khiếm thính lớn cần tư vấn tâm sinh lý, giáo dục giới tính, dẫn làm việc nhà
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+	   Các hoạt động văn hóa, văn nghệ: Tăng cường các hoạt động thể thao cho trẻ khiếm thính giúp cho trẻ có môi trường giao lưu, củng cố sự tự tin cho trẻ.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+	   Giáo dục đạo đức: Tăng cường gần gũi động viên trẻ.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+	   Công tác xã hội: Hỗ trợ, giúp các em trong quá trình học tập, điều trị, kết nối tìm việc làm cho các em đã trưởng thành.
+	  </p>
+	   <p class="text-black mb-4 leading-relaxed">
+	   Công tác can thiệp cộng đồng: Hướng dẫn phụ huynh cách chăm sóc, giáo dục trẻ tại gia đình
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+	   Các hoạt động phục hồi chức năng cho trẻ khiếm thính theo mô hình hòa nhập. Dành cho trẻ khiếm thính còn khả năng nghe qua máy trợ thính hoặc điện cực ốc tai, trung tâm tổ chức các giờ can thiệp cá nhân nhằm phục hồi khả năng nghe, nói cho trẻ. Ngoài các tiết trị liệu cá nhân, các trẻ này sẽ tham gia học tại các trường mầm non hoặc tiểu học trên địa bàn.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+	   Nhiều trẻ khiếm thính được can thiệp sớm đã đạt được kết quả cao trong việc phục hồi ngôn ngữ lời nói và khả năng nghe. Trẻ có thể sử dụng được ngôn ngữ lời nói trong giao tiếp và tham gia học hòa nhập được tại trường mầm non và tiểu học.
+	  </p>
+	  `
+	},
+	{
+	  id: 6,
+	  title: "\"Người đưa đò\" đặc biệt",
+	  description: "Câu chuyện về người thầy khiếm thính Võ Duy Quang (27 tuổi, giáo viên Trường Khiếm thính Lâm Đồng) là một hành trình dài của nghị lực và khát vọng vươn lên. Và chính nghị lực đó của thầy đã tiếp sức cho các học trò khiếm thính thêm tự tin, dám ước mơ và thực hiện mơ ước... - Câu chuyện đã được đăng tải trên Báo Lâm Đồng Online của tác giả Phan Nhân.",
+	  author: "PHAN NHÂN",
+	  imageAuthor: "/image/author-6.png",
+	  image: "/image/news-6.png",
+	  date: "08/12/2022",
+	  tags: ["Xã hội"],
+	  slug: "nguoi-dua-do-dac-biet",
+	  content: `
+	  <img src="/image/news-detail-15.png" class="text-black mb-2 leading-relaxed w-full"/>
+	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		Thầy Võ Duy Quang dạy ngôn ngữ ký hiệu cho các em học sinh Điếc.
+	  </div>
+	  <p class="text-black mb-4 leading-relaxed">
+	  Sau những năm tháng theo học ở Trung tâm Nghiên cứu và Thúc đẩy Văn hóa điếc và tốt nghiệp Trường Đại học Đồng Nai (Chuyên ngành Cao đẳng Sư phạm tiểu học, Khoa Giáo dục đặc biệt), điều thôi thúc thầy Quang trở về vùng đất Nam Tây Nguyên giảng dạy là vì thầy đã từng học tập và trưởng thành từ Trường Khiếm thính Lâm Đồng.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+	  Trở về trường cũ giảng dạy, thầy Quang phụ trách môn ngôn ngữ ký hiệu. Khác với những thầy cô khác, sợi dây liên kết lớn nhất giữa thầy Quang và các em học sinh chính là sự đồng cảm. Thầy Quang là một người khiếm thính từ nhỏ, vậy nên, trong mỗi tiết học của thầy tuy chỉ có tiếng của những trẻ khiếm thính và các động tác về ngôn ngữ hình thể, nhưng tiết học lại rất sinh động, lôi cuốn. Các em học sinh ở lớp khiếm thính do thầy giảng dạy tiếp thu được bài học tốt hơn. Đó cũng là điều dễ hiểu, bởi lẽ, với một người có hoàn cảnh tương tự như Quang mới thấu hiểu được suy nghĩ của những học sinh đặc biệt này. Sự đồng cảm đó đã khiến trái tim của thầy giáo trẻ thêm yêu thương các em.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+	  Qua ngữ điệu trên môi, qua ngôn ngữ của những dấu tay, em Nguyễn Thị Thủy Tiên, học sinh lớp 3 Trường Khiếm thính Lâm Đồng, chia sẻ: Khi được cô hiệu trưởng thông báo trường sẽ có thầy giáo mới về giảng dạy và thầy cũng là người khiếm thị thì chúng em rất hồi hộp, mong đợi. Khi được trực tiếp học tập với thầy Quang, em rất thích bởi cách dạy của thầy rất dễ tiếp thu và thầy cũng gần gũi với chúng em. Em muốn học thật giỏi để sau này có thể trở thành giáo viên truyền đạt kiến thức của mình cho học sinh khuyết tật giống như thầy Quang”.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+	  Được Ban Giám hiệu nhà trường nhận về giảng dạy vào năm 2014, thầy Quang đã được nhiều học sinh yêu mến bởi cách dạy, cách giao tiếp gần gũi và nhiệt tình. Bà Nguyễn Thị Nhàn, Hiệu trưởng Trường Khiếm thính Lâm Đồng, cho biết: “Ngoài những giờ giảng dạy trên lớp, thời gian rảnh vào buổi tối, thầy Quang cũng là gương mặt thân quen, là người bạn đồng hành khi giúp các em học cách chơi cờ vua; cùng đọc sách, giải thích ý nghĩa của cuốn sách cho các em, hay hướng dẫn các em làm bài tập về nhà… Nhờ đó, thầy và trò càng thêm hiểu nhau và có sự đồng cảm, chia sẻ. Còn với thầy Quang, được trở về để giảng dạy tại ngay chính ngôi trường mình đã từng học tập là một điều hạnh phúc. Hạnh phúc không chỉ bởi mình được làm việc với chính những người đã truyền dạy kiến thức cho mình mà còn vì sự đồng cảm với các em khiếm thính. “Hơn ai hết, tôi hiểu sự mặc cảm, tự ti của các em về khiếm khuyết của mình. Do đó, trước khi dạy kiến thức, tôi truyền cho các em sự tự tin, lòng nhiệt huyết để vượt lên những rào cản về khiếm khuyết của cơ thể” - Quang tâm sự. 
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+	  Thông qua sự “phiên dịch” của cô tổng phụ trách, những dòng suy nghĩ, chia sẻ của Quang về những khó khăn trong cuộc sống trước đây, về công việc hiện tại, về tình cảm đối với các em học sinh khiến chúng tôi càng thêm nể phục. Khi mới về trường, những ngày đầu cũng khiến Quang rất lo lắng. Bởi lẽ, không biết mình sẽ bắt đầu tiếp cận với các em học sinh như thế nào để có thể truyền dạy cho các em. Thế là, Quang tự đọc thêm sách báo, học hỏi kinh nghiệm của giáo viên đi trước và tìm ra phương pháp dạy học phù hợp. Qua 2 năm công tác tại trường khiếm thính, Quang đã học được rất nhiều điều, không chỉ từ những giáo viên đi trước mà ngay từ những em học sinh. Trong sự hồn nhiên, ngây thơ của nhiều em là cả một nghị lực to lớn để vươn tới ước mơ của mình. Đây cũng chính là động lực để Quang gắn bó với ngôi trường này, với các em học sinh kém may mắn. Một thời, Quang cũng đã từng sống và học tập như các em và quyết tâm vượt qua biết bao khó khăn, mặc cảm để trở thành nhà giáo!
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+	  Với những người khiếm thính, việc hòa nhập với cuộc sống vốn dĩ gặp rất nhiều khó khăn. Tuy nhiên, với thầy Quang, những khó khăn đó hoàn toàn có thể khắc phục được nếu bản thân mỗi người có nghị lực vươn lên. Tấm gương của thầy Quang chắc hẳn sẽ trở thành động lực để các em học sinh khiếm thính tiếp bước và hoàn thành những hoài bão của bản thân.
+	  </p>
+	  `
+	},
+	{
+	  id: 7,
+	  title: "Sự khẩn cấp trong điều trị khiếm thính cho trẻ em",
+	  description: "Mỗi năm có thêm trung bình 5.000 trẻ khiếm thính, tuy nhiên số trẻ được phát hiện và can thiệp chỉ khoảng 10% tức là 500 trẻ. Tương lai của trẻ khiếm thính hoàn toàn phụ thuộc vào sự quan tâm của gia đình và toàn xã hội.",
+	  author: "",
+	  imageAuthor: "/image/author-7.png",
+	  image: "/image/news-7.png",
+	  date: "12/09/2022",
+	  tags: ["Xã hội"],
+	  slug: "su-khan-cap-trong-dieu-tri-khiem-thinh-cho-tre-em",
+	  content: `
+	  <p class="text-black mb-4 font-bold leading-relaxed">
+		Khiếm thính và các biện pháp can thiệp
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Khiếm thính là tình trạng giảm sức nghe với nhiều mức độ khác nhau, từ nghe kém hay dân gian gọi là nghễnh ngãng, đến mức độ điếc nặng hoàn toàn không nghe được âm thanh. Khiếm thính là một khuyết tật có tỷ lệ mắc cao so với các loại khuyết tật khác như dị tật hàm mặt sứt môi hở hàm ếch, hội chứng Down, bệnh loạn dưỡng cơ di truyền… Tuy nhiên ảnh hưởng của khiếm thính ở trẻ em đến tương lai chưa được quan tâm đúng mực bởi cả gia đình và xã hội.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Theo số liệu thống kê của Tổng cục dân số thì trung bình mỗi năm Việt Nam có khoảng 1,4-1,5 triệu trẻ ra đời, tỷ lệ trẻ khiếm thính vĩnh viễn là 0,3-0,5%, như vậy mỗi năm có thêm trung bình 5.000 trẻ khiếm thính, tuy nhiên số trẻ được phát hiện và can thiệp chỉ khoảng 10% tức là 500 trẻ! Hàng năm còn nhiều trẻ bị khiếm thính sau sinh do bị bệnh như: viêm tai giữa không được điều trị, do chấn thương, ngộ độc thuốc do dùng sai thuốc, do bệnh lý siêu vi trùng, do chấn thương, thậm chí có thể điếc mà không rõ nguyên nhân.
+	  </p>
+	  <p class="text-black mb-4 font-bold leading-relaxed">
+		Biện pháp can thiệp khiếm thính phổ biến và hiệu quả:
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Giai đoạn sơ sinh: khiếm thính bẩm sinh được phát hiện thông qua sàng lọc trước khi mẹ con ra viện, hoặc trong tháng đầu tiên sau sinh: giai đoạn này can thiệp bằng máy trợ thính là phổ biến nhất. Cấy điện cực ốc tai là phương pháp can thiệp khi máy trợ thính không hiệu quả hoặc rất ít hiệu quả, là phương pháp an toàn cho trẻ nhỏ, có thể thực hiện ngay cho trẻ từ 10 tháng đến dưới 3 tuổi, đây là độ tuổi tốt nhất hay gọi là tuổi vàng để phẫu thuật cấy điện cực ốc tai, thậm chí có thể thực hiện an toàn cho trẻ từ 6 tháng tuổi! Việc lựa chọn biện pháp can thiệp phụ thuộc mức độ giảm sức nghe, nguyên nhân, vị trí tổn thương và được chỉ định theo đánh giá của bác sĩ chuyên khoa và chuyên gia thính học.
+	  </p>
+	  <img src="/image/news-detail-16.png" class="text-black mb-2 leading-relaxed w-full"/>
+	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		Cấy điện cực ốc tai là phương pháp an toàn giúp trẻ em bị khiếm thính có thể nghe lại bình thường
+	  </div>
+	  <p class="text-black mb-4 font-bold leading-relaxed">
+		Lợi ích của việc can thiệp sớm cho trẻ khiếm thính
+	  </p>
+	  <p class="text-black leading-relaxed">
+		Khiếm thính là dạng khuyết tật thầm lặng và là khuyết tật giác quan duy nhất có thể chữa được. Trẻ bị khiếm thính được phát hiện và điều trị kịp thời sẽ học tập, phát triển và có một tương lai bình đẳng với bạn bè cùng trang lứa.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Quá trình dẫn truyền âm thanh và hiểu lời diễn ra như thế nào? Âm thanh được dẫn truyền qua tai ngoài đến tai giữa, vào tai trong rồi theo thần kinh thính giác truyền lên thùy Thái dương của não. Nghe sẽ tạo ra âm thanh trong não, được xử lý, hiểu và ghi nhớ, quá trình này phải được lặp đi lặp lại.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Tai người phát triển hoàn thiện ở tuần thai thứ 20, 27 tuần thai nghe được các tần số dưới 500 Hz, 29 tuần bắt đầu nghe được các tần số 500-1000 Hz, 31-35 tuần nghe được âm thanh dưới 3.000 Hz. Trẻ bình thường 1 tuổi nói được 20-50 từ, 2 tuổi: 200-300 từ, 3 tuổi: 1.000 từ, 4 tuổi: 1.500 từ, 5 tuổi 2.200 từ. Như vậy quá trình nghe - lắng nghe - hiểu âm thanh - hiểu lời nói và nói được là một quá trình phát triển lâu dài, liên tục từ lúc còn trong bụng mẹ! Nếu không thể nghe và hiểu thì vùng ngôn ngữ trong não sẽ không phát triển. Các kết nối nhận được kích thích liên tục sẽ được bảo tồn, các kết nối không được sử dụng sẽ bị loại bỏ. Thời gian vàng, quyết định hiệu quả kết nối thần kinh thính giác và hoạt động của não đến việc nghe hiểu diễn ra trước 3 tuổi. Tuổi nghe càng muộn khả năng hồi phục nghe nói càng giảm, tuổi nghe tăng thêm 1 tháng thì khả năng trở về bình thường giảm 3,3%.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Trẻ em hôm nay, thế giới ngày mai, tương lai của trẻ, đặc biệt trẻ em khuyết tật trong đó có trẻ khiếm thính hoàn toàn phụ thuộc vào sự quan tâm của gia đình và toàn xã hội. Để có sự can thiệp khiếm thính hiệu quả thì can thiệp càng sớm càng tốt vì kích thích thần kinh là vô cùng khẩn cấp.
+	  </p>
+	  `
+	},
+	{
+	  id: 8,
+	  title: "Người khiếm thính có nói được không? Một sự thật ít ai biết",
+	  description: "Ngày nay tình trạng người khiếm thính ngày càng nhiều, nó ảnh hưởng đến nhiều khía cạnh trong cuộc sống, đặc biệt là khả năng giao tiếp. Vậy người khiếm thính có nói được không? và cách họ chinh phục giới hạn của bản thân như thế nào? Hãy cùng Travycare tìm hiểu sau đây nhé.",
+	  author: "Hoàng Thị Ngọc Bích",
+	  imageAuthor: "/image/author-8.png",
+	  image: "/image/news-8.png",
+	  date: "Th 5 26/10/2023",
+	  tags: ["Xã hội"],
+	  slug: "nguoi-khiem-thinh-co-noi-duoc-khong",
+	  content: `
+	  <p class="text-black mb-4 font-bold leading-relaxed">
+		Khiếm thính là gì?
+	  </p>
+	  <img src="/image/news-detail-17.png" class="text-black mb-2 leading-relaxed w-full"/>
+	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		Khiếm thính là suy giảm khả năng nghe
+	  </div>
+	  <p class="text-black mb-4 leading-relaxed">
+		Khiếm thính là tình trạng mất khả năng hoặc giảm sút khả năng nghe âm thanh một cách bình thường. Tình trạng khiếm thính có thể xuất hiện từ sơ sinh và cũng có thể phát triển sau khi người đó đã có khả năng nghe bình thường.
+	  </p>
+	  <img src="/image/news-detail-18.png" class="text-black mb-2 leading-relaxed w-full"/>
+	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		Khiếm thính có 4 mức độ 
+	  </div>
+	  <p class="text-black mb-4 leading-relaxed">
+		Nếu xét về vị trí gây ra tổn thương thì khiếm thính có 4 loại: tiếp nhận, dẫn truyền, hỗ hợp và trung ương. Còn nếu xét về mức độ thì có các loại khiếm thính sau:
+	  </p>
+	  <div class="text-black leading-relaxed pl-4">
+		 •<p class="text-black mb-4 font-bold leading-relaxed">Khiếm thính nhẹ</p>: Không nghe được tiếng nói tiếng âm thanh ở khoảng 26 - 49 dB. Khó nghe được tiếng nói ở những nơi ồn và không nghe được âm thanh thì
+	  </div>
+	  <div class="text-black leading-relaxed pl-4">
+		 •<p class="text-black mb-4 font-bold leading-relaxed">Khiếm thính trung bình</p>: Không nghe được tiếng nói thầm và tiếng nói thường ở cường độ  40 - 69 dB. Rất khó nghe được âm thanh ở những nơi ồn và hay nhìn vào miệng đối phương để hiểu.
+	  </div>
+	  <div class="text-black leading-relaxed pl-4">
+		 •<p class="text-black mb-4 font-bold leading-relaxed">Khiếm thính nặng</p>: Không nghe được ngay cả âm thanh lớn ở cường độ 70 - 94 dB. Các cuộc nói chuyện được thực hiện rất khó khăn với nhiều nỗ lực. Mức độ này thường được gọi là lãng tai.
+	  </div>
+	  <div class="text-black mb-4 leading-relaxed pl-4">
+		 •<p class="text-black mb-4 font-bold leading-relaxed">Khiếm thính sâu</p>: Không nghe được âm thành < 95 dB, kể cả khi hét sát vào tai. Nếu không sử dụng thiết bị trợ thính thì không thể giao tiếp. Mức độ này thường được gọi là điếc đặc.
+	  </div>
+	  <p class="text-black mb-4 font-bold leading-relaxed">
+	   Dấu hiệu nhận biết người bị khiếm thính
+	  </p>
+	  <img src="/image/news-detail-19.png" class="text-black mb-2 leading-relaxed w-full"/>
+	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		Người khiếm thính luôn cảm thấy khó chịu với âm thanh
+	  </div>
+	  <p class="text-black mb-4 leading-relaxed">
+		Có nhiều dấu hiệu và biểu hiện có thể giúp nhận biết một người có thể bị khiếm thính. Tuy nhiên, hãy lưu ý rằng mỗi người có thể trải qua các biểu hiện khác nhau tùy thuộc vào mức độ và nguyên nhân gây khiếm thính. Dưới đây là một số dấu hiệu phổ biến để nhận biết sớm:
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed pl-4">
+		 • Người bị khiếm thính có thể cảm thấy khó khăn trong việc nghe và cần người khác phải nói lớn hơn hoặc lặp lại thông tin nhiều lần khi giao tiếp. Nếu không có đủ ánh sáng để đọc khẩu hình miệng của người khác thì có nghe được. Chính vì thế người khiếm thính thường chú ý nhiều hơn đến biểu hiện hình cơ thể và diễn đạt thông qua ngôn ngữ cử chỉ và khuôn mặt để hiểu thông tin.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed pl-4">
+		 • Người khiếm thính thường gặp khó khăn khi phải nghe trong môi trường ồn ào hoặc có nhiều tiếng ồn khác xung quanh.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed pl-4">
+		 • Khả năng nghe tiếng chuông điện thoại, chuông cửa, hoặc tiếng chuông báo thấp hơn so với người khác. Thường xuyên nghe các thiết bị với âm lượng lớn hơn mức trung bình.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed pl-4">
+		 • Khiếm thính có thể dẫn đến cảm giác cô đơn và mất hứng thú trong các hoạt động xã hội. Cơ thể lúc nào cũng mệt mỏi vì phải tập trung quá nhiều để lắng nghe các cuộc nói chuyện.
+	  </p>
+	  <img src="/image/news-detail-20.png" class="text-black mb-2 leading-relaxed w-full"/>
+	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		Khiếm thính ở trẻ em làm hạn chế khả năng giao tiếp
+	  </div>
+	  <p class="text-black mb-4 leading-relaxed">
+		Đặc biệt đối với trẻ em, bố mẹ nên chú ý để nhận biết con em mình bị tình trạng suy giảm thính lực từ sớm và có biện pháp cải thiện:
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed pl-4">
+		 • Nói ngọng, biết nói trễ, mơ màng khi nghe người khác nói chuyện.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed pl-4">
+		 • Không có phản ứng hay phản xạ gì nghe âm thanh lớn.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed pl-4">
+		 • Khi giao tiếp trẻ hay hướng ánh mắt tập trung về khẩu hình miệng của người khác để nghe.
+	  </p>
+	  <p class="text-black mb-4 font-bold leading-relaxed">
+		Người khiếm thính có nói được không?
+	  </p>
+	  <img src="/image/news-detail-21.png" class="text-black mb-2 leading-relaxed w-full"/>
+	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		Người khiếm thính có thể nói được
+	  </div>
+	  <p class="text-black mb-4 leading-relaxed">
+		Người khiếm thính hoàn toàn có thể nói được. Khả năng nói không phụ thuộc vào việc người đó có khả năng nghe âm thanh hay không. Người khiếm thính có thể phát triển khả năng nói bình thường, tùy thuộc vào giáo dục và hỗ trợ mà họ nhận được.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Việc nói của người khiếm thính có thể được hỗ trợ bằng cách sử dụng thiết bị trợ thính, lớp học nói, và việc làm việc cùng với giáo viên chuyên nghiệp trong lĩnh vực ngôn ngữ và phát triển ngôn ngữ. Ngoài ra, việc học ngôn ngữ kín đáo (sign language) cũng có thể là một phần quan trọng trong việc giao tiếp của họ.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Một số người khiếm thính sử dụng ngôn ngữ kín đáo để giao tiếp, trong khi những người khác có thể sử dụng lời nói hoặc một kết hợp của cả hai. Quan trọng nhất là phải hỗ trợ và tôn trọng sự lựa chọn giao tiếp của người khiếm thính và tạo điều kiện thuận lợi để họ tham giao tiếp xã hội một cách hiệu quả.
+	  </p>
+	  <p class="text-black mb-4 font-bold leading-relaxed">
+		Yếu tố ảnh hưởng đến khả năng nói của người khiếm thính
+	  </p>
+	  <p class="text-black mb-4 font-bold leading-relaxed">
+		Một số yếu tố làm ảnh hưởng đến khả năng nói của người khiếm thính phải kể đến như: 
+	  </p>
+	  <img src="/image/news-detail-22.png" class="text-black mb-2 leading-relaxed w-full"/>
+	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		Gia đình có vai trò quan trọng đối với người khiếm thính
+	  </div>
+	  <p class="text-black mb-4 font-bold leading-relaxed">
+		Mức độ khiếm thính
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Sự giảm sút khả năng nghe của người khiếm thính có thể ảnh hưởng đến khả năng nói của họ, tuy nhiên sự hỗ trợ, giáo dục và sử dụng thiết bị trợ thính có thể giúp họ phát triển khả năng nói và tham gia vào giao tiếp một cách hiệu quả.
+	  </p>
+	  <p class="text-black leading-relaxed">
+		Người khiếm thính nhẹ có khả năng nghe được âm thanh ở mức đủ để tham gia vào giao tiếp thông qua lời nói. Họ thường không gặp quá nhiều khó khăn trong việc phát triển ngôn ngữ và khả năng nói, và có thể không cần sử dụng thiết bị trợ thính.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Người khiếm thính trung bình gặp khó khăn hơn trong việc nghe và cần sử dụng thiết bị trợ thính để cải thiện khả năng nghe của họ. Tuy nhiên, họ vẫn có khả năng phát triển khả năng nói thông qua giáo dục và hỗ trợ thích hợp.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Người khiếm thính nặng và sâu gặp nhiều khó khăn trong việc nghe và có thể không nghe được nhiều âm thanh hoặc không nghe được hoàn toàn. Đối với họ, việc phát triển khả năng nói có thể đòi hỏi nhiều hỗ trợ và chăm sóc đặc biệt. Một số người khiếm thính nặng và rất nặng có thể sử dụng ngôn ngữ kín đáo (sign language) để giao tiếp.
+	  </p>
+	  <p class="text-black mb-4 font-bold leading-relaxed">
+		Tinh thần, gia đình
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Khả năng nói của người khiếm thính cũng có thể bị ảnh hưởng bởi tình trạng tâm lý và tinh thần của họ. Nếu họ cảm thấy bị cô lập hoặc không tự tin, điều này có thể ảnh hưởng đến khả năng giao tiếp và nói của họ.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Gia đình đóng vai trò quan trọng trong việc phát triển khả năng nói của người khiếm thính. Sự hỗ trợ, khích lệ và tạo điều kiện thuận lợi để người khiếm thính thực hành ngôn ngữ và nói là rất quan trọng.
+	  </p>
+	  <p class="text-black mb-4 font-bold leading-relaxed">
+	   Sử dụng các thiết bị hỗ trợ sớm
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Sử dụng thiết bị trợ thính hoặc các phương pháp hỗ trợ nói có thể cải thiện khả năng nghe của người khiếm thính đáng kể. Việc điều chỉnh và sử dụng thiết bị trợ thính hiệu quả có thể giúp người khiếm thính tận dụng được mức độ khiếm thính của họ trong việc giao tiếp và nói.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Ngoài ra, khả năng nói của người khiếm thính có thể được phát triển và cải thiện với sự hỗ trợ và giáo dục thích hợp, cùng với sự hỗ trợ từ gia đình và môi trường xã hội.
+	  </p>
+	  <p class="text-black mb-4 font-bold leading-relaxed">
+	   Khiếm thính có chữa được không?
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+	   Khiếm thính có thể chữa được với nhiều cách kiểm soát và cải thiện khác nhau, nhưng không phải trường hợp nào cũng có thể chữa trị hoàn toàn. Phương pháp điều trị khiếm thính phụ thuộc vào nguyên nhân gây khiếm thính, mức độ khiếm thính, độ tuổi của người bị khiếm thính, và các yếu tố cá nhân khác. 
+	  </p
+	  <img src="/image/news-detail-23.png" class="text-black mb-2 leading-relaxed w-full"/>
+	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		Tìm đến bác sĩ để có thể có giải pháp kịp thời cho người khiếm thính
+	  </div>
+	  <p class="text-black mb-4 font-bold leading-relaxed">
+	   Sử dụng thiết bị trợ thính
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Đối với nhiều người khiếm thính, việc sử dụng thiết bị trợ thính như máy trợ thính có thể cải thiện khả năng nghe của họ. Các thiết bị này làm tăng âm thanh và giúp người khiếm thính nghe được âm thanh xung quanh.
+	  </p
+	  <p class="text-black mb-4 font-bold leading-relaxed">
+		Cấy ghép nội tiết nghe (cochlear implant) 
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Đây là một giải pháp tốt cho những trường hợp khiếm thính nặng và rất nặng. Cấy ghép nội tiết nghe là một phẫu thuật để cấy ghép thiết bị trợ thính trong tai bên trong để tạo ra các xung điện giúp người khiếm thính nghe được âm thanh.
+	  </p
+	  <p class="text-black mb-4 font-bold leading-relaxed">
+		Chữa trị yếu tố nguyên nhân
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Trong một số trường hợp, khi khiếm thính là do vấn đề y tế hoặc nhiễm trùng, việc chữa trị vấn đề cơ bản có thể giúp cải thiện khả năng nghe.
+	  </p>
+	  <p class="text-black mb-4 font-bold leading-relaxed">
+		Giáo dục và hỗ trợ
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Việc nhận được giáo dục và hỗ trợ phù hợp là quan trọng để phát triển khả năng giao tiếp và nói.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Ngôn ngữ kín đáo (sign language) cũng có thể là một phần quan trọng của quá trình học tập và giao tiếp.
+	  </p>
+	  <p class="text-black mb-4 font-bold leading-relaxed">
+	   Sự hỗ trợ của gia đình và môi trường xã hội
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+	   Gia đình và môi trường xã hội có thể đóng một vai trò quan trọng trong việc hỗ trợ người khiếm thính để phát triển khả năng nói và tham gia vào xã hội.
+	  </p>
+	  <p class="text-black mb-4 font-bold leading-relaxed">
+	   Cách nói chuyện với người khiếm thính
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+	   Nói chuyện với người khiếm thính đòi hỏi sự tử tế, thông cảm và hiểu biết về cách giao tiếp với họ.
+	  </p>
+	  <p class="text-black mb-4 font-bold leading-relaxed">
+	   Sử dụng cử chỉ và biểu cảm
+	  </p>
+	  <img src="/image/news-detail-24.png" class="text-black mb-2 leading-relaxed w-full"/>
+	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		Sử dụng cử chi để giao tiếp với người khiếm thính
+	  </div>
+	  <p class="text-black mb-4 leading-relaxed">
+	   Nếu người khiếm thính sử dụng ngôn ngữ kín đáo hoặc hệ thống cử chỉ, bạn có thể học một số cử chỉ cơ bản để giúp tương tác. Sử dụng khuôn mặt và cử chỉ để thể hiện cảm xúc và ý nghĩa của bạn.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+	   Mắt cũng đóng vai trò quan trọng trong việc giao tiếp với người khiếm thính. Hãy nhìn thẳng vào mắt họ khi bạn nói chuyện. Liên hệ mắt giúp họ biết bạn đang nói chuyện và họ có thể đọc cử chỉ và môi bạn.
+	  </p>
+	  <p class="text-black mb-4 font-bold leading-relaxed">
+	   Sử dụng thiết bị điện thoại thông minh
+	  </p>
+	  <img src="/image/news-detail-25.png" class="text-black mb-2 leading-relaxed w-full"/>
+	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		Sử dụng thiết bị điện thoại thông minh để giao tiếp với người khiếm thính
+	  </div>
+	  <p class="text-black mb-4 leading-relaxed">
+	   Sử dụng thiết bị điện thoại thông minh khi giao tiếp với người khiếm thính có thể giúp cải thiện khả năng giao tiếp. Vài cách bạn có thể tương tác với họ như: tin nhắn văn bản, dịch và ghi âm, tin nhắn hình ảnh, video call. Ngoài ra, Có các ứng dụng được thiết kế đặc biệt để hỗ trợ người khiếm thính như biểu đồ ngôn ngữ kín đáo (sign language dictionary) hoặc ứng dụng học ngôn ngữ kín đáo.
+	  </p>
+	  <p class="text-black mb-4 font-bold leading-relaxed">
+	   Lặp lại vấn đề với người khiếm thính 
+	  </p>
+	  <img src="/image/news-detail-26.png" class="text-black mb-2 leading-relaxed w-full"/>
+	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		Lặp lại vấn đề với người khiếm thính khi giao tiếp
+	  </div>
+	   <p class="text-black mb-4 leading-relaxed">
+		Hãy nói chậm và rõ ràng, tránh sử dụng từ ngữ phức tạp hoặc ngôn ngữ lóng. Điều này giúp người khiếm thính theo dõi và hiểu thông điệp của bạn một cách dễ dàng hơn. 
+	   </p>
+	  </p>
+	   <p class="text-black mb-4 leading-relaxed">
+	   Thường xuyên lặp lại vấn đề nhiều lần để họ có thể tiếp thu ý của bạn dễ dàng hơn.
+	  </p>
+	   <p class="text-black mb-4 leading-relaxed">
+	   Hãy thường xuyên kiểm tra xem người khiếm thính có hiểu thông điệp của bạn hay không bằng cách đặt câu hỏi đơn giản và yêu cầu họ xác nhận thông tin
+	  </p>
+	   <p class="text-black mb-4 font-bold leading-relaxed">
+	   Kết luận
+	  </p>
+	   <p class="text-black mb-4 leading-relaxed">
+	  Vậy câu trả lời cho câu hỏi người khiếm thính có nói được khônglà gì? Người khiếm thính hoàn toàn có thể nói được nhờ vào sự hỗ trợ, giáo dục và các phương pháp giao tiếp đa dạng. Và chính điều này họ đã truyền cảm hứng mạnh mẽ cho chúng ta về cuộc sống.
+	  </p>
+	  `
+	},
+	{
+	  id: 9,
+	  title: "Người khiếm thính gặp khó khăn khi muốn tìm hiểu sản phẩm công nghệ",
+	  description: "Nhóm người khiếm thính tại Việt Nam gặp không ít bất lợi trong việc tiếp cận nhiều loại dịch vụ, trong đó có việc tìm hiểu, mua bán, giải đáp về sản phẩm công nghệ.",
+	  author: "",
+	  imageAuthor: "/image/author-9.png",
+	  image: "/image/news-9.png",
+	  date: "28/01/2021",
+	  tags: ["Xã hội"],
+	  slug: "nguoi-khiem-thinh-gap-kho-khan-khi-muon-tim-hieu-san-pham-cong-nghe",
+	  content: `
+	  <p class="text-black mb-4 leading-relaxed">
+		Tháng 11 năm ngoái, Samsung Vina thông báo ra mắt dịch vụ ngôn ngữ ký hiệu hỗ trợ người điếc/nghe kém tại Việt Nam. Với dịch vụ này, người khiếm thính có thể gọi video đến tổng đài của hãng để hỏi về mọi thông tin sản phẩm, thông tin bảo hành, hỗ trợ kỹ thuật... và được nhân viên giải đáp bằng ngôn ngữ ký hiệu.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Dịch vụ này khá mới mẻ tại Việt Nam, đánh động vào mảng chăm sóc khách hàng dành cho nhóm đối tượng chịu thiệt thòi trong xã hội.
+	  </p>
+	  <img src="/image/news-detail-27.png" class="text-black mb-2 leading-relaxed w-full"/>
+	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		Một người đang giới thiệu dịch vụ tư vấn khách hàng bằng ngôn ngữ cử chỉ. (Ảnh chụp màn hình)
+	  </div>
+	  <p class="text-black mb-4 leading-relaxed">
+		ICTnews hỏi một số hãng và đơn vị bán lẻ công nghệ hiện nay nhưng hầu hết đều chưa có dịch vụ hỗ trợ tương tự. Theo một nhà bán lẻ, họ ghi nhận không nhiều trường hợp người khiếm thính đến mua hàng, thường những người này sẽ đi kèm với người thân hoặc được người thân mua hộ.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Rõ ràng nhóm khách hàng khiếm thính hay cần trợ giúp không đủ nhiều, hoặc họ ngại tự mình tiếp xúc với các hoạt động xã hội, và thường được người thân hay bạn bè trợ giúp.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Song những hãng đưa ra giải pháp hỗ trợ cho nhóm đối tượng này có mục đích riêng, nhằm giúp đỡ người gặp khiếm khuyết tự hoà nhập cộng đồng, tự tìm hiểu sản phẩm, làm chủ cuộc sống. Ông Kevin Lee, Tổng Giám đốc Samsung Vina, cho hay dịch vụ này nhằm đồng hành cùng những người điếc/nghe kém tại Việt Nam, giúp nâng cao chất lượng sống và giúp cộng đồng này tiếp cận và hưởng lợi từ công nghệ.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Theo một thống kê hồi năm 2015, Việt Nam có khoảng 2,5 triệu người khiếm thính bao gồm người điếc, người nghe kém và người mới bị mất thính lực. 
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Hầu hết những người này cần có người thông dịch ngôn ngữ ký hiệu để tiếp cận với các dịch vụ xã hội, nâng cao chất lượng cuộc sống. Tuy vậy, lực lượng phiên dịch ngôn ngữ ký hiệu hiện rất khiêm tốn, hầu hết không được đào tạo một cách chính thức. Để tìm một thông dịch viên hoặc một nhân viên am hiểu ngôn ngữ kí hiệu ở các cửa hàng, siêu thị, quán cà phê... gần như không khả thi.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+	   Anh Vệ Nhịn, một hoạ sĩ phim hoạt hình, cho biết cả hai vợ chồng anh đều khiếm thính, mỗi khi đi ra cửa hàng hay siêu thị muốn hỏi thông tin sản phẩm để xem xét mua hàng đều rất ngại, vì hầu như không có nhân viên bán hàng nào biết sử dụng ngôn ngữ ký hiệu. 
+	  </p>
+	   <p class="text-black mb-4 leading-relaxed">
+		“Ở nhà nếu có đồ đạc bị hư hỏng cũng rất phân vân tìm đến sự giúp đỡ từ dịch vụ chăm sóc khách hàng trên đường dây nóng, vì gọi điện lên đấy cũng không thể nào giao tiếp được với ai", hoạ sĩ chia sẻ.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+	  Không chỉ tại các cơ sở dịch vụ tư nhân, bản thân những đơn vị công cũng khan hiếm dịch vụ hỗ trợ cho người khiếm thính. Khảo sát hồi cuối năm 2021 của Trung tâm Nghiên cứu giáo dục Người Khiếm thính (CED) cho hay, các bệnh viện hầu như không có người thông dịch ngôn ngữ ký hiệu, dẫn đến việc thăm khám, điều trị cho nhóm này gặp nhiều hạn chế.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+	   Theo tìm hiểu, tại Việt Nam có khá ít dịch vụ dành riêng cho người khiếm thính. Ví dụ có đơn vị tư vấn xin visa cho người điếc bằng cách trò chuyện qua video, dùng ngôn ngữ ký hiệu. Cũng có bên phát triển tổng đài cho người khiếm thính. Song số lượng dịch vụ dạng này không đủ đếm trên đầu ngón tay, một phần do bản thân người khiếm thính từ nhỏ gặp hạn chế về giao tiếp, học tập, hoà nhập xã hội, do đó thường không tự mình hoà nhập cộng đồng.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Chị Hồng Hạnh, phiên dịch viên ngôn ngữ ký hiệu tại Trung tâm Nắng Mới (TP.HCM), cho rằng cần có thêm những kênh giao tiếp dành riêng cho người điếc/nghe kém, nhằm giúp họ độc lập trao đổi thông tin, bày tỏ mong muốn của cá nhân về sản phẩm, dịch vụ và những vấn đề trong cuộc sống.
+	  </p>
+	  
+	  `
+	},
+	{
+	  id: 10,
+	  title: "Giao tiếp với trẻ em khiếm thính",
+	  description: "Thông thường trẻ em sinh ra nếu không mắc các bệnh ảnh hưởng đến quá trình phát triển tiếng nói như chậm phát triển tâm thần, tự kỷ, ngắn dây thắng lưỡi...thì sau 1-2 năm nghe người thân và những người xung quanh nói chuyện sẽ tự hình thành tiếng nói. Thông qua ngôn ngữ nói, trẻ có thể giao tiếp với cộng đồng tốt hơn, nhiều người hiểu trẻ hơn. Tuy nhiên, trẻ khiếm thính lại không có may mắn này. Để có thể hỗ trợ cho con tốt hơn, người thân của những trẻ này nên nắm rõ cách giao tiếp với trẻ khiếm thính.",
+	  author: "Bác sĩ Nguyễn Thái Ngọc Châu - Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Phú Quốc.",
+	  imageAuthor: "/image/author-10.png",
+	  image: "/image/news-10.png",
+	  date: "12/09/2022",
+	  tags: ["Xã hội"],
+	  slug: "giao-tiep-voi-tre-khiem-thinh",
+	  content: `
+	  <p class="text-black mb-4 font-bold leading-relaxed">
+		1. Những khó khăn của trẻ khiếm thính
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		• 1. Những khó khăn của trẻ khiếm thính
+	  </p>
+	  <p class="text-black leading-relaxed pl-6">
+		• Giao tiếp
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		• Trẻ khiếm thính thường khó bắt kịp vào các cuộc nói chuyện đang diễn ra xung quanh do khả năng nghe kém và hiểu không thấu đáo ý nghĩa của cuộc nói chuyện. Dẫn đến việc trẻ thường ngơ ngác khi được hỏi và phải hỏi lại người đối thoại. Nếu bị điếc, trẻ hoàn toàn phải sử dụng dấu và cử chỉ để giao tiếp. Đây được xem là khó khăn đối với mọi người xung quanh vì phải học ra dấu, ký hiệu để có thể giao tiếp với trẻ.
+	  </p>
+	  <p class="text-black leading-relaxed pl-6">
+		• Học hành
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed pl-4">
+		• Trẻ khiếm thính có thể gặp khó khăn khi đọc khẩu hình miệng vì rất nhiều âm có hình miệng giống nhau, hoặc không thể thấy trên hình miệng. Vì trẻ khiếm thính không nghe được như bình thường nên việc nghe giảng cũng rất khó khăn, dẫn tới các trở ngại trong học tập.
+	  </p>
+	  <img src="/image/news-detail-28.png" class="text-black mb-2 leading-relaxed w-full"/>
+	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		Trẻ khiếm thính có thể gặp khó khăn trong học tập
+	  </div>
+	  <p class="text-black mb-4 leading-relaxed">
+		Độ tuổi tốt nhất để học ngôn ngữ là từ khi sinh ra đến 7 tuổi. Từ 2 - 4 tuổi là giai đoạn trẻ tiếp thu kỹ năng ngôn ngữ nhiều nhất. Vì vậy, việc phát hiện <b>trẻ khiếm thính</b> sớm, trợ thính sớm và giúp trẻ học ngôn ngữ sớm là rất quan trọng. Nếu đến 7 - 8 tuổi trẻ vẫn chưa có ngôn ngữ thì việc học sau này rất khó khăn, không có ngôn ngữ trẻ sẽ rất khó khăn để phát triển những kỹ năng tư duy.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Các môn học như văn học, Tiếng Việt, Sử, Địa...đòi hỏi kĩ năng nghe nói và viết nhiều nên <b>trẻ khiếm thính</b> thường gặp khó khăn khi học những môn này. Trong điều kiện của Việt Nam hiện nay, không có đủ giáo viên và giáo viên cũng không đủ thời gian để kèm thêm cho trẻ. Những điều này trở thành trở ngại cho trẻ trong học tập.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Để các trẻ em khác có thể giao tiếp tốt hơn với <b>trẻ khiếm thính</b>, giáo viên nên làm một bảng chữ cái ngón tay treo ở một bên cạnh bảng đen. Mọi người trong lớp học và trong gia đình nên học cách giao tiếp này để dễ dàng tương tác nói chuyện với trẻ hơn.
+	  </p>
+	  <p class="text-black mb-4 font-bold leading-relaxed">
+		Xã hội
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		<b>trẻ khiếm thính</b> thường bị hạn chế trong việc giao lưu, quan hệ xã hội và kết bạn do gặp khó khăn về giao tiếp. Cha mẹ, thầy cô nên lưu ý về điều này và nên tạo điều kiện để một vài bạn khác hỗ trợ trẻ trong các hoạt động chơi nhóm. Nếu trẻ muốn tham gia chơi nhóm cần nắm được luật chơi và những quy định thưởng phạt, tốt nhất nên chủ động sắp xếp người giải thích kỹ cho trẻ về việc này.
+	  </p>
+	  <p class="text-black mb-4 font-bold leading-relaxed">
+		Tâm lý
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Đối với <b>trẻ khiếm thính</b> ở độ tuổi còn nhỏ, những trở ngại tâm lý chủ yếu liên quan đến giao tiếp. Do gặp khó khăn trong việc thể hiện được nhu cầu hoặc vì bất lực không hiểu những điều người xung quanh mong muốn, trẻ có thể cáu gắt, hay nổi khùng, dễ gây gổ, đây là tâm lý bình thường và nên được thông cảm.
+	  </p>
+	   <p class="text-black mb-4 leading-relaxed">
+		Còn ở độ tuổi thiếu niên, <b>trẻ khiếm thính</b> có thể bị mặc cảm, tự ti, ngại giao tiếp, tránh người lạ... Cha mẹ và giáo viên cần tinh tế trước những thay đổi và những biểu hiện tâm lý của trẻ để giúp trẻ tự tin, bình tĩnh hơn.
+	  </p>
+	  <p class="text-black mb-4 font-bold leading-relaxed">
+		2. Cách giao tiếp với trẻ khiếm thính
+	  </p>
+	  <p class="text-black mb-4 font-bold leading-relaxed">
+		2.1 Hình thức giao tiếp nào phù hợp nhất với trẻ?
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Tuỳ theo nguyên nhân và mức độ khó khăn về nghe - nói mà bác sĩ sẽ đưa ra lời khuyên về hình thức giao tiếp phù hợp nhất với trẻ. Thông thường, nếu giao tiếp bằng lời nói bị trở ngại, trẻ nên sử dụng các hình thức giao tiếp hỗ trợ không bằng lời nói như: dùng dấu, cử chỉ, nét mặt, cử động miệng, hình vẽ...
+	  </p>
+	  <img src="/image/news-detail-29.png" class="text-black mb-2 leading-relaxed w-full"/>
+	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		Nếu giao tiếp bằng lời nói bị trở ngại, trẻ nên sử dụng các hình thức giao tiếp hỗ trợ không bằng lời nói
+	  </div>
+	  <p class="text-black mb-4 font-bold leading-relaxed">
+		2.2 Lưu ý khi giao tiếp với trẻ khiếm thính
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed pl-4">
+		• Nói to hơn một chút: Không thì thầm hoặc nói nhỏ và không quát lên - chỉ cần nói to hơn bình thường một chút.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed pl-4">
+		• Nói rõ ràng: Chú ý nói từng âm rõ ràng, không lầm bầm trong miệng.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed pl-4">
+		• Giảm tạp âm: Nên nói chuyện ở trong không gian càng yên tĩnh càng tốt bởi tạp âm làm biến đổi tín hiệu âm thanh truyền tới trẻ.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed pl-4">
+		• Sử dụng điệu bộ cử chỉ thoải mái: Để mô tả những gì bạn đang nói hãy kết hợp giữa từ ngữ và điệu bộ cử chỉ, việc này giúp cho trẻ dễ nắm bắt được tình huống bạn đang nói.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed pl-4">
+		• Học ngôn ngữ ký hiệu: nếu bạn là người chăm sóc sức khỏe cho trẻ đang sử dụng máy trợ thính và bị điếc hoàn toàn thì ngôn ngữ ký hiệu sẽ giúp cả hai giao tiếp với nhau hiệu quả hơn. Để có thể thông thạo ngôn ngữ ký hiệu, bạn sẽ phải mất một thời gian.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+	   Để giao tiếp với trẻ khiếm thính, hãy thật sự kiên nhẫn và nhẹ nhàng. Hãy tưởng tượng tâm trạng thất vọng mà trẻ khiếm thính phải chịu đựng để có thể giao tiếp hiệu quả. Đừng sốt ruột nếu điều bạn muốn nói chưa thể truyền đạt được đến trẻ, hãy thử lại nhiều lần và nắm vững các cách giao tiếp với trẻ khiếm thính ở trên.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+	   Là lĩnh vực trọng điểm của hệ thống Y tế Vinmec, Khoa Nhi luôn mang lại sự hài lòng cho Quý khách hàng và được các chuyên gia trong ngành đánh giá cao với:
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed pl-4">
+		• Quy tụ đội ngũ y bác sĩ về Nhi khoa: gồm các chuyên gia có trình độ chuyên môn cao (giáo sư, phó giáo sư, tiến sĩ, thạc sĩ), giàu kinh nghiệm, từng công tác tại các bệnh viện lớn như Bạch Mai, 108.. Các bác sĩ đều được đào tạo bài bản, chuyên nghiệp, có tâm - tầm, am hiểu tâm lý trẻ. Bên cạnh các bác sĩ chuyên khoa Nhi trong nước, khoa Nhi còn có sự tham gia của các chuyên gia nước ngoài (Nhật Bản, Singapore, Úc, Mỹ) luôn tiên phong áp dụng những phác đồ điều trị mới nhất và hiệu quả nhất.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed pl-4">
+		• Dịch vụ toàn diện: Trong lĩnh vực Nhi khoa, Vinmec cung cấp chuỗi các dịch vụ khám - chữa bệnh liên hoàn từ Sơ sinh đến Nhi và Vaccine,... theo tiêu chuẩn Quốc tế để cùng bố mẹ chăm sóc sức khỏe bé từ khi lọt lòng đến tuổi trưởng thành
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed pl-4">
+		• Kỹ thuật chuyên sâu: Vinmec đã triển khai thành công nhiều kỹ thuật chuyên sâu giúp việc điều trị các căn bệnh khó trong Nhi khoa hiệu quả hơn: phẫu thuật thần kinh - sọ, ghép tế bào gốc tạo máu trong điều trị ung thư.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed pl-4">
+		• Chăm sóc chuyên nghiệp: Ngoài việc thấu hiểu tâm lý trẻ, Vinmec còn đặc biệt quan tâm đến không gian vui chơi của các bé, giúp các bé vui chơi thoải mái và làm quen với môi trường của bệnh viện, hợp tác điều trị, nâng cao hiệu quả khám chữa bệnh
+	  </p>
+	  `
+	},
+  ];
+export const stories = [
+	{
+	  title: "Câu chuyện của cậu bé khiếm thính",
+	  description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
+	  author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
+	  imageAuthor: "/image/author-1.png",
+	  date: "07.03.2025",
+	  img: "/image/story-1.png",
+	  slug: "cau-chuyen-cua-cau-be-khiem-thinh",
+	  content: `
+	  <p class="text-black mb-4 leading-relaxed">
+		Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động. Tuy nhiên, tỷ lệ người khiếm thính có việc làm vẫn còn thấp, do họ phải đối mặt với nhiều thách thức như:
+	  </p>
+	  <div class="text-black mb-4 leading-relaxed pl-4">
+		• Phân biệt đối xử và định kiến: Nhiều nhà tuyển dụng còn e ngại về khả năng làm việc của người khiếm thính, dẫn đến việc họ ít được trao cơ hội việc làm.
+	  </div>
+	  <div class="text-black mb-4 leading-relaxed pl-4">
+		• Thiếu kỹ năng và trình độ chuyên môn: Theo thống kê, 93,4% người khuyết tật từ 16 tuổi trở lên không có chuyên môn, chỉ 6,5% có bằng cấp từ chứng chỉ nghề trở lên. Điều này khiến người khiếm thính gặp khó khăn trong việc đáp ứng yêu cầu công việc
+	  </div>
+	  <div class="text-black mb-4 leading-relaxed pl-4">
+		• Hạn chế trong tiếp cận thông tin việc làm: Người khiếm thính thường gặp khó khăn trong việc tiếp cận thông tin tuyển dụng và các dịch vụ hỗ trợ việc làm do rào cản về ngôn ngữ và công nghệ.
+	  </div>
+	  <p class="text-black mb-4 leading-relaxed">
+		Để cải thiện tình hình, các doanh nghiệp xã hội như <b>SHE+</b> đang nỗ lực tạo cơ hội kết nối việc làm cho người khiếm thính, giúp họ hòa nhập và đóng góp cho xã hội.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Hiện <b>SHE+</b> đang có rất nhiều đơn vị tìm đến để tuyển dụng người khiếm thính tuy nhiên để đáp ứng yêu cầu tuyển dụng vẫn cồn một khoảng trống điều đó phụ thuộc rất nhiều vào các yếu tố khách quan và chủ quan.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Khi tìm kiếm việc làm, mối quan tâm hàng đầu của người khiếm thính thường là môi trường làm việc thân thiện và không phân biệt đối xử. Họ mong muốn được làm việc trong môi trường tôn trọng, hỗ trợ và tạo điều kiện để phát huy khả năng.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Tuy nhiên thực tế là việc đào tạo tại trường và gia đình chưa hỗ trợ nhiều về đào tạo kỹ năng chuyên môn và kỹ năng mềm, đây chính yếu tố quan trọng giúp họ tự tin và đáp ứng yêu cầu công việc.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Việc nâng cao nhận thức của cộng đồng và doanh nghiệp về khả năng và tiềm năng của người khiếm thính, cùng với việc tạo điều kiện tiếp cận giáo dục và đào tạo nghề, sẽ góp phần mở rộng cơ hội việc làm cho họ, giúp họ tự tin tham gia thị trường lao động và đóng góp cho sự phát triển của xã hội.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Việc làm là chìa khóa để người khiếm thính tự tin và độc lập trong cuộc sống. Hiện nay, nhiều doanh nghiệp, đặc biệt là <b>SHE+ Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam</b>, đang mở ra nhiều cơ hội kết nối việc làm phù hợp với khả năng và mong muốn của các bạn khiếm thính.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		SHE+ nhận được rất nhiều tin nhắn từ phụ huynh, từ các bạn khiếm thính hỏi về kết nối việc làm. Đồng thời nhận được rất nhiều ủy thác từ các doanh nghiệp mong muốn kết nối tuyển dụng người khiếm thính tạo cơ hội học nghề: may thuê, nấu ăn, vẽ từ các Doanh nghiệp trên địa bàn Hà Nội, TP Hồ Chí Minh
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Hãy tham gia khảo sát để chúng tôi kết nối công việc với đúng khả năng của bạn và nhu cầu của người tuyển dụng
+	  </p>
+	  <p class="text-black  leading-relaxed">
+		Thông tin khảo sát chỉ dùng với mục đích kết nối việc làm đúng nhu cầu của các bạn và giúp chúng tôi tư vấn việc làm, môi trường tuyển dụng phù hợp với người khiếm thính tới các doanh nghiệp đang tạo cơ hội việc làm cho người khiếm thính/điếc (dạng tật Nghe Nói)<a href="https://forms.gle/E1nrk9hjs4EVA94m7" target="_blank" rel="noopener noreferrer" class="block underline  decoration-solid mb-4">
+		https://forms.gle/E1nrk9hjs4EVA94m7
+	  </a>
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Liên hệ <b>SHE+</b> để được tư vấn miễn phí dịch vụ hòa nhập cộng đồng, đánh giá và đưa ra các giải pháp phục hồi chức năng nghề nghiệp, sẽ rất tốt nếu gia đình có thể đi cùng với trẻ khiếm thính (từ 13 tuổi trở lên)
+	  </p>
+	 `,
+	},
+	'text',
+	{
+	  title: "Câu chuyện sức sống và nữ giáo viên Mỹ giúp trẻ khiếm thính",
+	  description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
+	  author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
+	  imageAuthor: "/image/author-2.png",
+	  date: "07.03.2025",
+	  img: "/image/story-2.png",
+	  slug: "cau-chuyen-suc-song-va-nu-giao-vien-my-giup-tre-khiem-thinh",
+	  content: `
+	  <p class="text-black mb-4 leading-relaxed">
+		Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động. Tuy nhiên, tỷ lệ người khiếm thính có việc làm vẫn còn thấp, do họ phải đối mặt với nhiều thách thức như:
+	  </p>
+	  <div class="text-black mb-4 leading-relaxed pl-4">
+		• Phân biệt đối xử và định kiến: Nhiều nhà tuyển dụng còn e ngại về khả năng làm việc của người khiếm thính, dẫn đến việc họ ít được trao cơ hội việc làm.
+	  </div>
+	  <div class="text-black mb-4 leading-relaxed pl-4">
+		• Thiếu kỹ năng và trình độ chuyên môn: Theo thống kê, 93,4% người khuyết tật từ 16 tuổi trở lên không có chuyên môn, chỉ 6,5% có bằng cấp từ chứng chỉ nghề trở lên. Điều này khiến người khiếm thính gặp khó khăn trong việc đáp ứng yêu cầu công việc
+	  </div>
+	  <div class="text-black mb-4 leading-relaxed pl-4">
+		• Hạn chế trong tiếp cận thông tin việc làm: Người khiếm thính thường gặp khó khăn trong việc tiếp cận thông tin tuyển dụng và các dịch vụ hỗ trợ việc làm do rào cản về ngôn ngữ và công nghệ.
+	  </div>
+	  <p class="text-black mb-4 leading-relaxed">
+		Để cải thiện tình hình, các doanh nghiệp xã hội như <b>SHE+</b> đang nỗ lực tạo cơ hội kết nối việc làm cho người khiếm thính, giúp họ hòa nhập và đóng góp cho xã hội.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Hiện <b>SHE+</b> đang có rất nhiều đơn vị tìm đến để tuyển dụng người khiếm thính tuy nhiên để đáp ứng yêu cầu tuyển dụng vẫn cồn một khoảng trống điều đó phụ thuộc rất nhiều vào các yếu tố khách quan và chủ quan.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Khi tìm kiếm việc làm, mối quan tâm hàng đầu của người khiếm thính thường là môi trường làm việc thân thiện và không phân biệt đối xử. Họ mong muốn được làm việc trong môi trường tôn trọng, hỗ trợ và tạo điều kiện để phát huy khả năng.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Tuy nhiên thực tế là việc đào tạo tại trường và gia đình chưa hỗ trợ nhiều về đào tạo kỹ năng chuyên môn và kỹ năng mềm, đây chính yếu tố quan trọng giúp họ tự tin và đáp ứng yêu cầu công việc.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Việc nâng cao nhận thức của cộng đồng và doanh nghiệp về khả năng và tiềm năng của người khiếm thính, cùng với việc tạo điều kiện tiếp cận giáo dục và đào tạo nghề, sẽ góp phần mở rộng cơ hội việc làm cho họ, giúp họ tự tin tham gia thị trường lao động và đóng góp cho sự phát triển của xã hội.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Việc làm là chìa khóa để người khiếm thính tự tin và độc lập trong cuộc sống. Hiện nay, nhiều doanh nghiệp, đặc biệt là <b>SHE+ Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam</b>, đang mở ra nhiều cơ hội kết nối việc làm phù hợp với khả năng và mong muốn của các bạn khiếm thính.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		SHE+ nhận được rất nhiều tin nhắn từ phụ huynh, từ các bạn khiếm thính hỏi về kết nối việc làm. Đồng thời nhận được rất nhiều ủy thác từ các doanh nghiệp mong muốn kết nối tuyển dụng người khiếm thính tạo cơ hội học nghề: may thuê, nấu ăn, vẽ từ các Doanh nghiệp trên địa bàn Hà Nội, TP Hồ Chí Minh
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Hãy tham gia khảo sát để chúng tôi kết nối công việc với đúng khả năng của bạn và nhu cầu của người tuyển dụng
+	  </p>
+	  <p class="text-black  leading-relaxed">
+		Thông tin khảo sát chỉ dùng với mục đích kết nối việc làm đúng nhu cầu của các bạn và giúp chúng tôi tư vấn việc làm, môi trường tuyển dụng phù hợp với người khiếm thính tới các doanh nghiệp đang tạo cơ hội việc làm cho người khiếm thính/điếc (dạng tật Nghe Nói)<a href="https://forms.gle/E1nrk9hjs4EVA94m7" target="_blank" rel="noopener noreferrer" class="block underline  decoration-solid mb-4">
+		https://forms.gle/E1nrk9hjs4EVA94m7
+	  </a>
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Liên hệ <b>SHE+</b> để được tư vấn miễn phí dịch vụ hòa nhập cộng đồng, đánh giá và đưa ra các giải pháp phục hồi chức năng nghề nghiệp, sẽ rất tốt nếu gia đình có thể đi cùng với trẻ khiếm thính (từ 13 tuổi trở lên)
+	  </p>
+	 `,
+	},
+	{
+	  title: "Những câu chuyện đẹp góp cho đời: Chuyện 'huyền thoại' ở Tiệm giặt là của người Điếc",
+	  description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
+	  author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
+	  imageAuthor: "/image/author-3.png",
+	  date: "07.03.2025",
+	  img: "/image/story-3.png",
+	  slug: "cau-chuyen-de-gop-cho-doi",
+	  content: `
+	  <p class="text-black mb-4 leading-relaxed">
+		Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động. Tuy nhiên, tỷ lệ người khiếm thính có việc làm vẫn còn thấp, do họ phải đối mặt với nhiều thách thức như:
+	  </p>
+	  <div class="text-black mb-4 leading-relaxed pl-4">
+		• Phân biệt đối xử và định kiến: Nhiều nhà tuyển dụng còn e ngại về khả năng làm việc của người khiếm thính, dẫn đến việc họ ít được trao cơ hội việc làm.
+	  </div>
+	  <div class="text-black mb-4 leading-relaxed pl-4">
+		• Thiếu kỹ năng và trình độ chuyên môn: Theo thống kê, 93,4% người khuyết tật từ 16 tuổi trở lên không có chuyên môn, chỉ 6,5% có bằng cấp từ chứng chỉ nghề trở lên. Điều này khiến người khiếm thính gặp khó khăn trong việc đáp ứng yêu cầu công việc
+	  </div>
+	  <div class="text-black mb-4 leading-relaxed pl-4">
+		• Hạn chế trong tiếp cận thông tin việc làm: Người khiếm thính thường gặp khó khăn trong việc tiếp cận thông tin tuyển dụng và các dịch vụ hỗ trợ việc làm do rào cản về ngôn ngữ và công nghệ.
+	  </div>
+	  <p class="text-black mb-4 leading-relaxed">
+		Để cải thiện tình hình, các doanh nghiệp xã hội như <b>SHE+</b> đang nỗ lực tạo cơ hội kết nối việc làm cho người khiếm thính, giúp họ hòa nhập và đóng góp cho xã hội.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Hiện <b>SHE+</b> đang có rất nhiều đơn vị tìm đến để tuyển dụng người khiếm thính tuy nhiên để đáp ứng yêu cầu tuyển dụng vẫn cồn một khoảng trống điều đó phụ thuộc rất nhiều vào các yếu tố khách quan và chủ quan.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Khi tìm kiếm việc làm, mối quan tâm hàng đầu của người khiếm thính thường là môi trường làm việc thân thiện và không phân biệt đối xử. Họ mong muốn được làm việc trong môi trường tôn trọng, hỗ trợ và tạo điều kiện để phát huy khả năng.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Tuy nhiên thực tế là việc đào tạo tại trường và gia đình chưa hỗ trợ nhiều về đào tạo kỹ năng chuyên môn và kỹ năng mềm, đây chính yếu tố quan trọng giúp họ tự tin và đáp ứng yêu cầu công việc.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Việc nâng cao nhận thức của cộng đồng và doanh nghiệp về khả năng và tiềm năng của người khiếm thính, cùng với việc tạo điều kiện tiếp cận giáo dục và đào tạo nghề, sẽ góp phần mở rộng cơ hội việc làm cho họ, giúp họ tự tin tham gia thị trường lao động và đóng góp cho sự phát triển của xã hội.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Việc làm là chìa khóa để người khiếm thính tự tin và độc lập trong cuộc sống. Hiện nay, nhiều doanh nghiệp, đặc biệt là <b>SHE+ Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam</b>, đang mở ra nhiều cơ hội kết nối việc làm phù hợp với khả năng và mong muốn của các bạn khiếm thính.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		SHE+ nhận được rất nhiều tin nhắn từ phụ huynh, từ các bạn khiếm thính hỏi về kết nối việc làm. Đồng thời nhận được rất nhiều ủy thác từ các doanh nghiệp mong muốn kết nối tuyển dụng người khiếm thính tạo cơ hội học nghề: may thuê, nấu ăn, vẽ từ các Doanh nghiệp trên địa bàn Hà Nội, TP Hồ Chí Minh
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Hãy tham gia khảo sát để chúng tôi kết nối công việc với đúng khả năng của bạn và nhu cầu của người tuyển dụng
+	  </p>
+	  <p class="text-black  leading-relaxed">
+		Thông tin khảo sát chỉ dùng với mục đích kết nối việc làm đúng nhu cầu của các bạn và giúp chúng tôi tư vấn việc làm, môi trường tuyển dụng phù hợp với người khiếm thính tới các doanh nghiệp đang tạo cơ hội việc làm cho người khiếm thính/điếc (dạng tật Nghe Nói)<a href="https://forms.gle/E1nrk9hjs4EVA94m7" target="_blank" rel="noopener noreferrer" class="block underline  decoration-solid mb-4">
+		https://forms.gle/E1nrk9hjs4EVA94m7
+	  </a>
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Liên hệ <b>SHE+</b> để được tư vấn miễn phí dịch vụ hòa nhập cộng đồng, đánh giá và đưa ra các giải pháp phục hồi chức năng nghề nghiệp, sẽ rất tốt nếu gia đình có thể đi cùng với trẻ khiếm thính (từ 13 tuổi trở lên)
+	  </p>
+	 `,
+	},
+	{
+	  title: "Người phụ nữ có con bị khiếm thính và hành trình giúp thay đổi cuộc đời của hàng nghìn người",
+	  description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
+	  author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
+	  imageAuthor: "/image/author-4.png",
+	  date: "07.03.2025",
+	  img: "/image/story-4.png",
+	  slug: "nguoi-phu-nu-co-con-bi-khiem-thinh-va-hanh-trinh-giup-thay-doi-cuoc-doi-cua-hang-nghin-nguoi",
+	  content: `
+	  <p class="text-black mb-4 leading-relaxed">
+		Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động. Tuy nhiên, tỷ lệ người khiếm thính có việc làm vẫn còn thấp, do họ phải đối mặt với nhiều thách thức như:
+	  </p>
+	  <div class="text-black mb-4 leading-relaxed pl-4">
+		• Phân biệt đối xử và định kiến: Nhiều nhà tuyển dụng còn e ngại về khả năng làm việc của người khiếm thính, dẫn đến việc họ ít được trao cơ hội việc làm.
+	  </div>
+	  <div class="text-black mb-4 leading-relaxed pl-4">
+		• Thiếu kỹ năng và trình độ chuyên môn: Theo thống kê, 93,4% người khuyết tật từ 16 tuổi trở lên không có chuyên môn, chỉ 6,5% có bằng cấp từ chứng chỉ nghề trở lên. Điều này khiến người khiếm thính gặp khó khăn trong việc đáp ứng yêu cầu công việc
+	  </div>
+	  <div class="text-black mb-4 leading-relaxed pl-4">
+		• Hạn chế trong tiếp cận thông tin việc làm: Người khiếm thính thường gặp khó khăn trong việc tiếp cận thông tin tuyển dụng và các dịch vụ hỗ trợ việc làm do rào cản về ngôn ngữ và công nghệ.
+	  </div>
+	  <p class="text-black mb-4 leading-relaxed">
+		Để cải thiện tình hình, các doanh nghiệp xã hội như <b>SHE+</b> đang nỗ lực tạo cơ hội kết nối việc làm cho người khiếm thính, giúp họ hòa nhập và đóng góp cho xã hội.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Hiện <b>SHE+</b> đang có rất nhiều đơn vị tìm đến để tuyển dụng người khiếm thính tuy nhiên để đáp ứng yêu cầu tuyển dụng vẫn cồn một khoảng trống điều đó phụ thuộc rất nhiều vào các yếu tố khách quan và chủ quan.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Khi tìm kiếm việc làm, mối quan tâm hàng đầu của người khiếm thính thường là môi trường làm việc thân thiện và không phân biệt đối xử. Họ mong muốn được làm việc trong môi trường tôn trọng, hỗ trợ và tạo điều kiện để phát huy khả năng.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Tuy nhiên thực tế là việc đào tạo tại trường và gia đình chưa hỗ trợ nhiều về đào tạo kỹ năng chuyên môn và kỹ năng mềm, đây chính yếu tố quan trọng giúp họ tự tin và đáp ứng yêu cầu công việc.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Việc nâng cao nhận thức của cộng đồng và doanh nghiệp về khả năng và tiềm năng của người khiếm thính, cùng với việc tạo điều kiện tiếp cận giáo dục và đào tạo nghề, sẽ góp phần mở rộng cơ hội việc làm cho họ, giúp họ tự tin tham gia thị trường lao động và đóng góp cho sự phát triển của xã hội.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Việc làm là chìa khóa để người khiếm thính tự tin và độc lập trong cuộc sống. Hiện nay, nhiều doanh nghiệp, đặc biệt là <b>SHE+ Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam</b>, đang mở ra nhiều cơ hội kết nối việc làm phù hợp với khả năng và mong muốn của các bạn khiếm thính.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		SHE+ nhận được rất nhiều tin nhắn từ phụ huynh, từ các bạn khiếm thính hỏi về kết nối việc làm. Đồng thời nhận được rất nhiều ủy thác từ các doanh nghiệp mong muốn kết nối tuyển dụng người khiếm thính tạo cơ hội học nghề: may thuê, nấu ăn, vẽ từ các Doanh nghiệp trên địa bàn Hà Nội, TP Hồ Chí Minh
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Hãy tham gia khảo sát để chúng tôi kết nối công việc với đúng khả năng của bạn và nhu cầu của người tuyển dụng
+	  </p>
+	  <p class="text-black  leading-relaxed">
+		Thông tin khảo sát chỉ dùng với mục đích kết nối việc làm đúng nhu cầu của các bạn và giúp chúng tôi tư vấn việc làm, môi trường tuyển dụng phù hợp với người khiếm thính tới các doanh nghiệp đang tạo cơ hội việc làm cho người khiếm thính/điếc (dạng tật Nghe Nói)<a href="https://forms.gle/E1nrk9hjs4EVA94m7" target="_blank" rel="noopener noreferrer" class="block underline  decoration-solid mb-4">
+		https://forms.gle/E1nrk9hjs4EVA94m7
+	  </a>
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Liên hệ <b>SHE+</b> để được tư vấn miễn phí dịch vụ hòa nhập cộng đồng, đánh giá và đưa ra các giải pháp phục hồi chức năng nghề nghiệp, sẽ rất tốt nếu gia đình có thể đi cùng với trẻ khiếm thính (từ 13 tuổi trở lên)
+	  </p>
+	 `,
+	},
+	{
+	  title: "Chuyện về cô gái khiếm thính ở Việt Nam giành học bổng Mỹ",
+	  description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
+	  author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
+	  imageAuthor: "/image/author-5.png",
+	  date: "07.03.2025",
+	  img: "/image/story-5.png",
+	  slug: "chuyen-ve-co-gai-khiem-thinh-o-viet-nam-giay-hoc-bong-my",
+	  content: `
+	  <p class="text-black mb-4 leading-relaxed">
+		Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động. Tuy nhiên, tỷ lệ người khiếm thính có việc làm vẫn còn thấp, do họ phải đối mặt với nhiều thách thức như:
+	  </p>
+	  <div class="text-black mb-4 leading-relaxed pl-4">
+		• Phân biệt đối xử và định kiến: Nhiều nhà tuyển dụng còn e ngại về khả năng làm việc của người khiếm thính, dẫn đến việc họ ít được trao cơ hội việc làm.
+	  </div>
+	  <div class="text-black mb-4 leading-relaxed pl-4">
+		• Thiếu kỹ năng và trình độ chuyên môn: Theo thống kê, 93,4% người khuyết tật từ 16 tuổi trở lên không có chuyên môn, chỉ 6,5% có bằng cấp từ chứng chỉ nghề trở lên. Điều này khiến người khiếm thính gặp khó khăn trong việc đáp ứng yêu cầu công việc
+	  </div>
+	  <div class="text-black mb-4 leading-relaxed pl-4">
+		• Hạn chế trong tiếp cận thông tin việc làm: Người khiếm thính thường gặp khó khăn trong việc tiếp cận thông tin tuyển dụng và các dịch vụ hỗ trợ việc làm do rào cản về ngôn ngữ và công nghệ.
+	  </div>
+	  <p class="text-black mb-4 leading-relaxed">
+		Để cải thiện tình hình, các doanh nghiệp xã hội như <b>SHE+</b> đang nỗ lực tạo cơ hội kết nối việc làm cho người khiếm thính, giúp họ hòa nhập và đóng góp cho xã hội.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Hiện <b>SHE+</b> đang có rất nhiều đơn vị tìm đến để tuyển dụng người khiếm thính tuy nhiên để đáp ứng yêu cầu tuyển dụng vẫn cồn một khoảng trống điều đó phụ thuộc rất nhiều vào các yếu tố khách quan và chủ quan.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Khi tìm kiếm việc làm, mối quan tâm hàng đầu của người khiếm thính thường là môi trường làm việc thân thiện và không phân biệt đối xử. Họ mong muốn được làm việc trong môi trường tôn trọng, hỗ trợ và tạo điều kiện để phát huy khả năng.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Tuy nhiên thực tế là việc đào tạo tại trường và gia đình chưa hỗ trợ nhiều về đào tạo kỹ năng chuyên môn và kỹ năng mềm, đây chính yếu tố quan trọng giúp họ tự tin và đáp ứng yêu cầu công việc.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Việc nâng cao nhận thức của cộng đồng và doanh nghiệp về khả năng và tiềm năng của người khiếm thính, cùng với việc tạo điều kiện tiếp cận giáo dục và đào tạo nghề, sẽ góp phần mở rộng cơ hội việc làm cho họ, giúp họ tự tin tham gia thị trường lao động và đóng góp cho sự phát triển của xã hội.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Việc làm là chìa khóa để người khiếm thính tự tin và độc lập trong cuộc sống. Hiện nay, nhiều doanh nghiệp, đặc biệt là <b>SHE+ Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam</b>, đang mở ra nhiều cơ hội kết nối việc làm phù hợp với khả năng và mong muốn của các bạn khiếm thính.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		SHE+ nhận được rất nhiều tin nhắn từ phụ huynh, từ các bạn khiếm thính hỏi về kết nối việc làm. Đồng thời nhận được rất nhiều ủy thác từ các doanh nghiệp mong muốn kết nối tuyển dụng người khiếm thính tạo cơ hội học nghề: may thuê, nấu ăn, vẽ từ các Doanh nghiệp trên địa bàn Hà Nội, TP Hồ Chí Minh
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Hãy tham gia khảo sát để chúng tôi kết nối công việc với đúng khả năng của bạn và nhu cầu của người tuyển dụng
+	  </p>
+	  <p class="text-black  leading-relaxed">
+		Thông tin khảo sát chỉ dùng với mục đích kết nối việc làm đúng nhu cầu của các bạn và giúp chúng tôi tư vấn việc làm, môi trường tuyển dụng phù hợp với người khiếm thính tới các doanh nghiệp đang tạo cơ hội việc làm cho người khiếm thính/điếc (dạng tật Nghe Nói)<a href="https://forms.gle/E1nrk9hjs4EVA94m7" target="_blank" rel="noopener noreferrer" class="block underline  decoration-solid mb-4">
+		https://forms.gle/E1nrk9hjs4EVA94m7
+	  </a>
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Liên hệ <b>SHE+</b> để được tư vấn miễn phí dịch vụ hòa nhập cộng đồng, đánh giá và đưa ra các giải pháp phục hồi chức năng nghề nghiệp, sẽ rất tốt nếu gia đình có thể đi cùng với trẻ khiếm thính (từ 13 tuổi trở lên)
+	  </p>
+	 `,
+	},
+	{
+	  title: "Họa sĩ khiếm thính Nam Long: Mẹ là người thầy đầu tiên",
+	  description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
+	  author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
+	  imageAuthor: "/image/author-6.png",
+	  date: "07.03.2025",
+	  img: "/image/story-6.png",
+	  slug: "hoa-si-khiem-thinh-nam-long",
+	  content: `
+	  <p class="text-black mb-4 leading-relaxed">
+		Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động. Tuy nhiên, tỷ lệ người khiếm thính có việc làm vẫn còn thấp, do họ phải đối mặt với nhiều thách thức như:
+	  </p>
+	  <div class="text-black mb-4 leading-relaxed pl-4">
+		• Phân biệt đối xử và định kiến: Nhiều nhà tuyển dụng còn e ngại về khả năng làm việc của người khiếm thính, dẫn đến việc họ ít được trao cơ hội việc làm.
+	  </div>
+	  <div class="text-black mb-4 leading-relaxed pl-4">
+		• Thiếu kỹ năng và trình độ chuyên môn: Theo thống kê, 93,4% người khuyết tật từ 16 tuổi trở lên không có chuyên môn, chỉ 6,5% có bằng cấp từ chứng chỉ nghề trở lên. Điều này khiến người khiếm thính gặp khó khăn trong việc đáp ứng yêu cầu công việc
+	  </div>
+	  <div class="text-black mb-4 leading-relaxed pl-4">
+		• Hạn chế trong tiếp cận thông tin việc làm: Người khiếm thính thường gặp khó khăn trong việc tiếp cận thông tin tuyển dụng và các dịch vụ hỗ trợ việc làm do rào cản về ngôn ngữ và công nghệ.
+	  </div>
+	  <p class="text-black mb-4 leading-relaxed">
+		Để cải thiện tình hình, các doanh nghiệp xã hội như <b>SHE+</b> đang nỗ lực tạo cơ hội kết nối việc làm cho người khiếm thính, giúp họ hòa nhập và đóng góp cho xã hội.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Hiện <b>SHE+</b> đang có rất nhiều đơn vị tìm đến để tuyển dụng người khiếm thính tuy nhiên để đáp ứng yêu cầu tuyển dụng vẫn cồn một khoảng trống điều đó phụ thuộc rất nhiều vào các yếu tố khách quan và chủ quan.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Khi tìm kiếm việc làm, mối quan tâm hàng đầu của người khiếm thính thường là môi trường làm việc thân thiện và không phân biệt đối xử. Họ mong muốn được làm việc trong môi trường tôn trọng, hỗ trợ và tạo điều kiện để phát huy khả năng.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Tuy nhiên thực tế là việc đào tạo tại trường và gia đình chưa hỗ trợ nhiều về đào tạo kỹ năng chuyên môn và kỹ năng mềm, đây chính yếu tố quan trọng giúp họ tự tin và đáp ứng yêu cầu công việc.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Việc nâng cao nhận thức của cộng đồng và doanh nghiệp về khả năng và tiềm năng của người khiếm thính, cùng với việc tạo điều kiện tiếp cận giáo dục và đào tạo nghề, sẽ góp phần mở rộng cơ hội việc làm cho họ, giúp họ tự tin tham gia thị trường lao động và đóng góp cho sự phát triển của xã hội.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Việc làm là chìa khóa để người khiếm thính tự tin và độc lập trong cuộc sống. Hiện nay, nhiều doanh nghiệp, đặc biệt là <b>SHE+ Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam</b>, đang mở ra nhiều cơ hội kết nối việc làm phù hợp với khả năng và mong muốn của các bạn khiếm thính.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		SHE+ nhận được rất nhiều tin nhắn từ phụ huynh, từ các bạn khiếm thính hỏi về kết nối việc làm. Đồng thời nhận được rất nhiều ủy thác từ các doanh nghiệp mong muốn kết nối tuyển dụng người khiếm thính tạo cơ hội học nghề: may thuê, nấu ăn, vẽ từ các Doanh nghiệp trên địa bàn Hà Nội, TP Hồ Chí Minh
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Hãy tham gia khảo sát để chúng tôi kết nối công việc với đúng khả năng của bạn và nhu cầu của người tuyển dụng
+	  </p>
+	  <p class="text-black  leading-relaxed">
+		Thông tin khảo sát chỉ dùng với mục đích kết nối việc làm đúng nhu cầu của các bạn và giúp chúng tôi tư vấn việc làm, môi trường tuyển dụng phù hợp với người khiếm thính tới các doanh nghiệp đang tạo cơ hội việc làm cho người khiếm thính/điếc (dạng tật Nghe Nói)<a href="https://forms.gle/E1nrk9hjs4EVA94m7" target="_blank" rel="noopener noreferrer" class="block underline  decoration-solid mb-4">
+		https://forms.gle/E1nrk9hjs4EVA94m7
+	  </a>
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Liên hệ <b>SHE+</b> để được tư vấn miễn phí dịch vụ hòa nhập cộng đồng, đánh giá và đưa ra các giải pháp phục hồi chức năng nghề nghiệp, sẽ rất tốt nếu gia đình có thể đi cùng với trẻ khiếm thính (từ 13 tuổi trở lên)
+	  </p>
+	 `,
+	},
+	'text',
+  ];

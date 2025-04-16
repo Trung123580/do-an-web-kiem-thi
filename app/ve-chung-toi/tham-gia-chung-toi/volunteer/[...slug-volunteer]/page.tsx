@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { use, useState } from "react";
 import Image from "next/image";
 import { dataVolunteer } from "../../page";
 
@@ -64,31 +64,31 @@ export default function VolunteerDetailPage({ params }: { params: { "slug-volunt
         <div className="rounded-xl p-8 space-y-8 mb-8">
           {/* Yêu cầu */}
           <div>
-            <h2 className="text-2xl font-bold text-blue-600 mb-4">Yêu cầu</h2>
-            <ul className="list-disc list-inside space-y-2 text-gray-600 text-base">
-              <li>Kỹ năng giao tiếp: Tốt, thân thiện và nhiệt huyết</li>
-              <li>Ưu tiên: Ứng viên có kinh nghiệm làm việc trong các hoạt động hướng nghiệp, đào tạo kỹ năng mềm, hoặc biết ngôn ngữ ký hiệu</li>
-              <li>Thái độ: Năng động, có tinh thần trách nhiệm và khả năng làm việc nhóm tốt</li>
+            <h2 className="text-2xl font-bold text-[#2E4FBE] mb-4">Yêu cầu</h2>
+            <ul className="list-disc list-inside text-gray-600 text-base">
+              {volunteerDetail?.requirements.map((item, index) => (
+                <li key={index}>{item}</li>
+              ))}
             </ul>
           </div>
 
           {/* Vai trò */}
           <div>
-            <h2 className="text-2xl font-bold text-blue-600 mb-4">Vai trò</h2>
-            <ul className="list-disc list-inside space-y-2 text-gray-600 text-base">
-              <li>Hỗ trợ điều phối sự kiện, đăng ký và tiếp đón học viên</li>
-              <li>Hỗ trợ phiên chia sẻ và phiên dịch ngôn ngữ ký hiệu cho người tham dự nếu cần thiết</li>
-              <li>Giao tiếp hỗ trợ chuyên môn: Hỗ trợ tư vấn, cung cấp thông tin và hướng dẫn các hoạt động của workshop</li>
+            <h2 className="text-2xl font-bold text-[#2E4FBE] mb-4">Vai trò</h2>
+            <ul className="list-disc list-inside text-gray-600 text-base">
+              {volunteerDetail?.roles.map((item, index) => (
+                <li key={index}>{item}</li>
+              ))}
             </ul>
           </div>
 
           {/* Quyền lợi */}
           <div>
-            <h2 className="text-2xl font-bold text-blue-600 mb-4">Quyền lợi</h2>
-            <ul className="list-disc list-inside space-y-2 text-gray-600 text-base">
-              <li>Cơ hội được đào tạo kỹ năng quản lý dự án, tổ chức sự kiện chuyên nghiệp</li>
-              <li>Mở rộng mạng lưới kết nối với cộng đồng và các chuyên gia trong lĩnh vực giáo dục, hướng nghiệp</li>
-              <li>Cơ hội góp phần trực tiếp vào việc thay đổi cuộc sống của người khiếm thính</li>
+            <h2 className="text-2xl font-bold text-[#2E4FBE] mb-4">Quyền lợi</h2>
+            <ul className="list-disc list-inside text-gray-600 text-base">
+              {volunteerDetail?.benefits.map((item, index) => (
+                <li key={index}>{item}</li>
+              ))}
             </ul>
           </div>
         </div>

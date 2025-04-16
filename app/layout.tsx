@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import ChatBot from "@/components/ChatBot";
 import Footer from "@/components/Footer";
+import ContextProvider from "@/context/ContextProvider";
 
 const geistSans = Inter({
   variable: "--font-inter",
@@ -25,10 +26,12 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} antialiased`}
       >
-        <Header />
-        {children}
-        <Footer />
-        <ChatBot />
+        <ContextProvider>
+          <Header />
+          {children}
+          <Footer />
+          <ChatBot />
+        </ContextProvider>
       </body>
     </html>
   );

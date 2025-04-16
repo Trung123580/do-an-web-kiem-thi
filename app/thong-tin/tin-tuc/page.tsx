@@ -2,40 +2,11 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-
-const news = [
-  {
-    id: 1,
-    title: "Cơ Hội Việc Làm Thách Thức và Rào Cản Đối Với Người khiếm thính/Điếc",
-    description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
-    image: "/image/news-1.png",
-    date: "07.03.2025",
-    tags: ["Kiến thức", "Xã hội"],
-    slug: "co-hoi-viec-lam-thach-thuc-va-rao-can",
-  },
-  {
-    id: 2,
-    title: "Quán cà phê đặc biệt của người khiếm thính",
-    description: "Không gian yên tĩnh, nụ cười thân thiện và thái độ phục vụ tận tâm của những nhân viên là người khiếm thính tại quán cà phê Flow-ee (phố T...",
-    image: "/image/news-2.png",
-    date: "11.09.2023",
-    tags: ["Xã hội"],
-    slug: "quan-ca-phe-dac-biet",
-  },
-  {
-    id: 3,
-    title: "Các yếu tố nguy cơ gây nghe kém ở trẻ sơ sinh và trẻ nhỏ",
-    description: "Nghe kém, giảm thính lực ở trẻ sơ sinh và trẻ nhỏ gây ảnh hưởng tới quá trình học nói, giao tiếp bằng ngôn ngữ của trẻ...",
-    image: "/image/news-3.png",
-    date: "11.09.2023",
-    tags: ["Xã hội"],
-    slug: "cac-yeu-to-nguy-co",
-  },
-];
+import { dataNews } from "@/utils/contanst";
 
 export default function Page() {
-  const mainArticle = news[0];
-  const sideArticles = news.slice(1);
+  const mainArticle = dataNews[0];
+  const sideArticles = [dataNews[1], dataNews[2]]
 
   return (
     <div className="min-h-screen bg-gray-50 pt-24 pb-16">
@@ -114,7 +85,7 @@ export default function Page() {
           {/* News List */}
           <div className="lg:col-span-3">
             <div className="space-y-6 max-h-[800px] overflow-y-auto pr-4 scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100">
-              {news.map((item) => (
+              {dataNews.map((item) => (
                 <Link href={`/thong-tin/tin-tuc/${item.slug}`} key={item.id}>
                   <div className="flex gap-6 group cursor-pointer mb-4  rounded-xl p-4">
                     <div className="relative w-[300px] h-[200px] rounded-xl overflow-hidden flex-shrink-0">
