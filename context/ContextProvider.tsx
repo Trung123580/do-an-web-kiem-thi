@@ -3,6 +3,7 @@ import { createContext, useContext, useEffect, useState } from "react"
 import { auth, db, googleProvider } from "@/fireBase-config"
 import { signInWithPopup, signOut } from "firebase/auth"
 import { doc, collection, getDocs, setDoc, updateDoc, arrayUnion, getDoc } from "firebase/firestore"
+import toast from "react-hot-toast"
 // import Cookies from "universal-cookie"
 // import { toast } from "react-toastify"
 // import { popup } from "@/utils/constants"
@@ -38,7 +39,6 @@ const ContextProvider = ({
         const docSnap = await getDoc(docRef)
         const data = docSnap.data()
         console.log(data)
-        // chỗ này lấy all data anh check log đoạn này nhé
         setCurrentUser({ ...data })
       } catch (error) {
         console.error(error)
@@ -55,7 +55,16 @@ const ContextProvider = ({
       await updateDoc(userDoc, {
         notification: arrayUnion({...form}),
       }).then(() => {
-        alert('success')
+        toast.success('Đăng ký thành công.', {
+          duration: 5000,
+          position: 'top-center',
+          style: {
+            background: '#10B981',
+            color: '#fff',
+            padding: '16px',
+            borderRadius: '8px',
+          },
+        });
       })
   }
   // donate ở home page
@@ -64,7 +73,16 @@ const ContextProvider = ({
       await updateDoc(userDoc, {
         donate: arrayUnion({...form}),
       }).then(() => {
-        alert('success')
+        toast.success('Cảm ơn bạn đã ủng hộ! Quyên góp của bạn đã được xử lý thành công.', {
+          duration: 5000,
+          position: 'top-center',
+          style: {
+            background: '#10B981',
+            color: '#fff',
+            padding: '16px',
+            borderRadius: '8px',
+          },
+        });
       })
   }
   // popup nút tham gia cùng chúng tôi 
@@ -73,7 +91,10 @@ const ContextProvider = ({
       await updateDoc(userDoc, {
         joinGroup: arrayUnion({...form}),
       }).then(() => {
-        alert('success')
+        return true
+      }).catch((error) => {
+        console.log(error)
+        return false
       })
   }
   return (

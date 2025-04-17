@@ -13,11 +13,11 @@ export default function DonateSection() {
   const handleSubmit = async (event: React.FormEvent) => {
     event.preventDefault()
     await handles.onPostRegisterNotification(dataSubmit)
-    // setDataSubmit({
-    //   fullName: '',
-    //   email: '',
-    //   phone: '',
-    // })
+    setDataSubmit({
+      fullName: '',
+      email: '',
+      phone: '',
+    })
   }
   return (
     <div className='w-full'>

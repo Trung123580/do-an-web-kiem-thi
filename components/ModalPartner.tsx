@@ -2,6 +2,7 @@
 import React, { Fragment, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { useApp } from "@/context/ContextProvider";
+import toast from "react-hot-toast";
 
 interface ModalPartnerProps {
   isOpen: boolean;
@@ -21,9 +22,21 @@ export default function ModalPartner({ isOpen, closeModal }: ModalPartnerProps) 
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    await handles.onPostJoinGroup(dataSubmit)
-    console.log(dataSubmit)
-    // setIsSuccess(true);
+   const res = await handles.onPostJoinGroup(dataSubmit)
+   if(res){
+    setIsSuccess(true)
+   } else {
+    toast.error('Cảm ơn bạn than gia cùng chúng tôi.', {
+      duration: 5000,
+      position: 'top-center',
+      style: {
+        background: '#10B981',
+        color: '#fff',
+        padding: '16px',
+        borderRadius: '8px',
+      },
+    });
+   }
   };
 
   const handleClose = () => {
