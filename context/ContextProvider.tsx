@@ -49,36 +49,30 @@ const ContextProvider = ({
   // => vơi cả anh tự tạo 1 trường id có hàm idv4 đó ạ
   // chỗ form footer
   const handlePostRegisterNotification = async (form: any) => {
-    if (currentUser) {
       const userDoc = doc(db, "users", process.env.NEXT_PUBLIC_KEY as string)
       await updateDoc(userDoc, {
         notification: form,
       }).then(() => {
         alert('success')
       })
-    }
   }
   // donate ở home page
   const handlePostDonate = async (form: any) => {
-    if (currentUser) {
       const userDoc = doc(db, "users", process.env.NEXT_PUBLIC_KEY as string)
       await updateDoc(userDoc, {
         donate: form,
       }).then(() => {
         alert('success')
       })
-    }
   }
   // popup nút tham gia cùng chúng tôi 
   const handlePostJoinGroup = async (form: any) => {
-    if (currentUser) {
       const userDoc = doc(db, "users", process.env.NEXT_PUBLIC_KEY as string)
       await updateDoc(userDoc, {
         joinGroup: form,
       }).then(() => {
         alert('success')
       })
-    }
   }
   return (
     <ContextApp.Provider

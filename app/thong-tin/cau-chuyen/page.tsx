@@ -26,7 +26,7 @@ const page = () => {
                     <div className="relative w-full md:w-80">
                         <input
                             type="text"
-                            placeholder="Học ngôn ngữ ký hiệu"
+                            placeholder="Tìm kiếm câu chuyện"
                             className="w-full px-4 py-2 pr-10 border border-gray-200 rounded-lg"
                         />
                         <button className="absolute right-3 top-1/2 -translate-y-1/2">

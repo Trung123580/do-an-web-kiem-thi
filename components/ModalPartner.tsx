@@ -1,6 +1,7 @@
 "use client";
 import React, { Fragment, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
+import { useApp } from "@/context/ContextProvider";
 
 interface ModalPartnerProps {
   isOpen: boolean;
@@ -8,11 +9,21 @@ interface ModalPartnerProps {
 }
 
 export default function ModalPartner({ isOpen, closeModal }: ModalPartnerProps) {
+  const {handles} : any = useApp()
   const [isSuccess, setIsSuccess] = useState(false);
+  const [dataSubmit,setDataSubmit] = useState({
+    firstName: '',
+    lastName: '',
+    reasonToParticipate: 0,
+    content: '',
+    email: '',
+  })
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setIsSuccess(true);
+    await handles.onPostJoinGroup(dataSubmit)
+    console.log(dataSubmit)
+    // setIsSuccess(true);
   };
 
   const handleClose = () => {
@@ -72,6 +83,8 @@ export default function ModalPartner({ isOpen, closeModal }: ModalPartnerProps) 
                         <div>
                           <input
                             type="text"
+                            value={dataSubmit.firstName}
+                            onChange={(e) => setDataSubmit({...dataSubmit,firstName: e.target.value})}
                             placeholder="Tên đầy đủ*"
                             className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                             required
@@ -80,6 +93,8 @@ export default function ModalPartner({ isOpen, closeModal }: ModalPartnerProps) 
                         <div>
                           <input
                             type="text"
+                            value={dataSubmit.lastName}
+                            onChange={(e) => setDataSubmit({...dataSubmit,lastName: e.target.value})}
                             placeholder="Họ đầy đủ*"
                             className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                             required
@@ -90,6 +105,8 @@ export default function ModalPartner({ isOpen, closeModal }: ModalPartnerProps) 
                       <div>
                         <input
                           type="email"
+                          value={dataSubmit.email}
+                          onChange={(e) => setDataSubmit({...dataSubmit,email: e.target.value})}
                           placeholder="Email*"
                           className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                           required
@@ -98,18 +115,22 @@ export default function ModalPartner({ isOpen, closeModal }: ModalPartnerProps) 
 
                       <div>
                         <select
+                          value={dataSubmit.reasonToParticipate}
+                          onChange={(e) => setDataSubmit({...dataSubmit,reasonToParticipate: Number(e.target.value)})}
                           className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-500"
                           required
                         >
-                          <option value="">Lý do gửi yêu cầu*</option>
-                          <option value="partner">Đối tác</option>
-                          <option value="volunteer">Tình nguyện viên</option>
-                          <option value="other">Khác</option>
+                          <option value={0}>Lý do gửi yêu cầu*</option>
+                          <option value={1}>Đối tác</option>
+                          <option value={2}>Tình nguyện viên</option>
+                          <option value={3}>Khác</option>
                         </select>
                       </div>
 
                       <div>
                         <textarea
+                          value={dataSubmit.content}
+                          onChange={(e) => setDataSubmit({...dataSubmit,content: e.target.value})}
                           placeholder="Nội dung yêu cầu*"
                           rows={4}
                           className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none"

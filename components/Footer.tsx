@@ -1,6 +1,24 @@
+'use client'
+import { useApp } from "@/context/ContextProvider";
 import { Lock } from "lucide-react";
+import { useState } from "react";
 
 export default function DonateSection() {
+  const {handles} : any = useApp()
+  const [dataSubmit,setDataSubmit] = useState({
+    fullName: '',
+    email: '',
+    phone: '',
+  })
+  const handleSubmit = async (event: React.FormEvent) => {
+    event.preventDefault()
+    await handles.onPostRegisterNotification(dataSubmit)
+    // setDataSubmit({
+    //   fullName: '',
+    //   email: '',
+    //   phone: '',
+    // })
+  }
   return (
     <div className='w-full'>
       {/* Subscribe section */}
@@ -10,13 +28,12 @@ export default function DonateSection() {
           <p className='text-sm text-white/90 mb-6 md:mb-4 max-w-3xl'>
             Đăng ký nhận thông tin để cập nhật những tin tức, sự kiện và chương trình hỗ trợ giáo dục, đào tạo hướng nghiệp. Nhận các cập nhật, câu chuyện truyền cảm hứng và các tin tức mới nhất nhanh chóng.
           </p>
-
-          <div className='flex flex-col md:flex-row gap-4 md:gap-3 xl:max-w-[70%]'>
-            <input type='text' placeholder='Họ tên*' className='flex-1 px-3 py-2 rounded-[4px] text-black outline-none bg-white text-sm' />
-            <input type='email' placeholder='Email*' className='flex-1 px-3 py-2 rounded-[4px] text-black outline-none bg-white text-sm' />
-            <input type='tel' placeholder='Số di động*' className='flex-1 px-3 py-2 rounded-[4px] text-black outline-none bg-white text-sm' />
-            <button className='bg-[#111827] text-white px-6 py-2 rounded-[4px] text-sm font-medium hover:bg-gray-900 transition-colors whitespace-nowrap'>Đăng ký</button>
-          </div>
+          <form onSubmit={handleSubmit} className='flex flex-col md:flex-row gap-4 md:gap-3 xl:max-w-[70%]'>
+            <input required value={dataSubmit.fullName} onChange={(e) => setDataSubmit({...dataSubmit,fullName: e.target.value})} type='text' placeholder='Họ tên*' className='flex-1 px-3 py-2 rounded-[4px] text-black outline-none bg-white text-sm' />
+            <input required value={dataSubmit.email} onChange={(e) => setDataSubmit({...dataSubmit,email: e.target.value})} type='email' placeholder='Email*' className='flex-1 px-3 py-2 rounded-[4px] text-black outline-none bg-white text-sm' />
+            <input required value={dataSubmit.phone} onChange={(e) => setDataSubmit({...dataSubmit,phone: e.target.value})} type='tel' placeholder='Số di động*' className='flex-1 px-3 py-2 rounded-[4px] text-black outline-none bg-white text-sm' />
+            <button type="submit" className='bg-[#111827] text-white px-6 py-2 rounded-[4px] text-sm font-medium hover:bg-gray-900 transition-colors whitespace-nowrap'>Đăng ký</button>
+          </form>
 
           {/* Footer Links */}
           <div className='flex flex-col md:flex-row justify-between items-center mt-8 pt-6 border-t border-white/20'>

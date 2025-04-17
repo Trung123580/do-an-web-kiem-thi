@@ -17,7 +17,7 @@ console.log(storyDetail)
   return (
     <div className="min-h-screen bg-gray-50 pt-24 pb-16">
       <div className="mb-8">
-        <div className=" h-[400px] flex flex-row">
+        <div className=" h-[600px] flex flex-row">
           <div className="basis-1/2 bg-[#111827] flex flex-col justify-end items-center">
             <div className="text-6xl text-white font-bold mb-10 max-w-4xl">
               {storyDetail?.title ?? ''}

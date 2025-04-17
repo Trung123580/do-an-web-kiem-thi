@@ -1824,56 +1824,56 @@ export const dataNews = [
 export const stories = [
 	{
 	  title: "Câu chuyện của cậu bé khiếm thính",
-	  description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
-	  author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
-	  imageAuthor: "/image/author-1.png",
-	  date: "07.03.2025",
+	  description: "Tôi là người khiếm thính. Tôi sinh ra đã như vậy. Sau một thời gian theo dõi 'Góp tự sự, gửi cánh thư' trên các trang mạng xã hội, tôi muốn bày tỏ câu chuyện của mình tới mọi người…",
+	  author: "Hoàng Phú",
+	  imageAuthor: "/image/author-11.png",
+	  date: "24/07/2024 09:00 GMT+7",
 	  img: "/image/story-1.png",
 	  slug: "cau-chuyen-cua-cau-be-khiem-thinh",
 	  content: `
 	  <p class="text-black mb-4 leading-relaxed">
-		Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động. Tuy nhiên, tỷ lệ người khiếm thính có việc làm vẫn còn thấp, do họ phải đối mặt với nhiều thách thức như:
+	  	Tuổi thơ của tôi không được ai dạy bảo những kiến thức xã hội hay những kỹ năng đơn giản giúp cho một đứa trẻ phát triển. Khi còn nhỏ, bố mẹ tôi thường xuyên cãi nhau và hiếm khi quan tâm tới tôi, vì tôi bị khuyết tật nghe nói, bố mẹ không thể có cách để giao tiếp hay trao đổi với tôi. Rồi bố mẹ quyết định đưa tôi đến mầm non hòa nhập với người nghe bình thường, và tôi bị chỉ trích chỉ vì tôi không thể giao tiếp cùng các bạn.
 	  </p>
-	  <div class="text-black mb-4 leading-relaxed pl-4">
-		• Phân biệt đối xử và định kiến: Nhiều nhà tuyển dụng còn e ngại về khả năng làm việc của người khiếm thính, dẫn đến việc họ ít được trao cơ hội việc làm.
-	  </div>
-	  <div class="text-black mb-4 leading-relaxed pl-4">
-		• Thiếu kỹ năng và trình độ chuyên môn: Theo thống kê, 93,4% người khuyết tật từ 16 tuổi trở lên không có chuyên môn, chỉ 6,5% có bằng cấp từ chứng chỉ nghề trở lên. Điều này khiến người khiếm thính gặp khó khăn trong việc đáp ứng yêu cầu công việc
-	  </div>
-	  <div class="text-black mb-4 leading-relaxed pl-4">
-		• Hạn chế trong tiếp cận thông tin việc làm: Người khiếm thính thường gặp khó khăn trong việc tiếp cận thông tin tuyển dụng và các dịch vụ hỗ trợ việc làm do rào cản về ngôn ngữ và công nghệ.
+	  <img src="/image/story-detail-1.png" class="text-black mb-2 leading-relaxed w-full"/>
+	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		Dần dần tôi nhận ra, kiến thức là cầu nối duy nhất có thể thu hẹp khoảng cách giữa tôi và các bạn nghe đồng trang lứa
 	  </div>
 	  <p class="text-black mb-4 leading-relaxed">
-		Để cải thiện tình hình, các doanh nghiệp xã hội như <b>SHE+</b> đang nỗ lực tạo cơ hội kết nối việc làm cho người khiếm thính, giúp họ hòa nhập và đóng góp cho xã hội.
+	  	Tôi chấp nhận im lặng…
 	  </p>
 	  <p class="text-black mb-4 leading-relaxed">
-		Hiện <b>SHE+</b> đang có rất nhiều đơn vị tìm đến để tuyển dụng người khiếm thính tuy nhiên để đáp ứng yêu cầu tuyển dụng vẫn cồn một khoảng trống điều đó phụ thuộc rất nhiều vào các yếu tố khách quan và chủ quan.
+	  	Khi bố mẹ đưa tôi đến học lớp 1 ở Trường PTCS dân lập dạy trẻ câm điếc Hà Nội, so với các bạn khác tôi hơi ít nói và không biết giao tiếp cùng các bạn trong lớp (do từ nhỏ tôi đã không có ngôn ngữ để giao tiếp và cũng không có người để trò chuyện). Các bạn luôn dùng ngôn ngữ ký hiệu và các bạn thể hiện sự tự tin hơn tôi. Tôi thèm lắm cảm giác được học ngôn ngữ ký hiệu để có thể nói chuyện. Nhưng tôi luôn nghe lời bố mẹ, bắt buộc dùng khẩu hình để giao tiếp, và tôi cố gắng che giấu việc tôi dùng ký hiệu.
 	  </p>
 	  <p class="text-black mb-4 leading-relaxed">
-		Khi tìm kiếm việc làm, mối quan tâm hàng đầu của người khiếm thính thường là môi trường làm việc thân thiện và không phân biệt đối xử. Họ mong muốn được làm việc trong môi trường tôn trọng, hỗ trợ và tạo điều kiện để phát huy khả năng.
+	  	Ở trường, toàn bộ giáo viên dạy bằng khẩu hình và phương pháp không phù hợp nên tôi không hiểu được những kiến thức nền tảng. Còn nhớ năm tôi học lớp 4, bạn bè đến nhà tôi chơi và chúng tôi sử dụng ngôn ngữ ký hiệu, bố mẹ tôi thấy được rồi cấm tôi sử dụng nó để giao tiếp, họ nói tôi trông giống như con khỉ. Tôi cảm thấy mình không được tôn trọng. Tôi cảm thấy mình rất không may mắn và chán nản. Có lần tôi đã từng bỏ nhà ra đi vì bố mẹ không hiểu tôi và muốn tôi làm theo những gì bố mẹ đặt ra mà hoàn toàn không phù hợp với tôi. Thứ tôi cần chỉ là tìm được một người bạn có thể thấu hiểu và hỗ trợ tôi tự tin, tiếp thu được nhiều kiến thức và tôi được sống là chính mình.
 	  </p>
 	  <p class="text-black mb-4 leading-relaxed">
-		Tuy nhiên thực tế là việc đào tạo tại trường và gia đình chưa hỗ trợ nhiều về đào tạo kỹ năng chuyên môn và kỹ năng mềm, đây chính yếu tố quan trọng giúp họ tự tin và đáp ứng yêu cầu công việc.
+	  	Sau này, chúng tôi tốt nghiệp và chuyển sang học Trường cao đẳng Sư phạm Trung ương, nơi có một trung tâm chuyên biệt cho học sinh điếc. Ở đó, tất cả các thầy cô sử dụng ngôn ngữ ký hiệu và dạy bằng những phương pháp phù hợp, tôi học hỏi thêm nhiều những kiến thức mới cùng các kỹ năng sống khác và hoàn thiện bản thân. Từ đó, tôi quyết định tham gia rất nhiều sự kiện giao lưu giữa người điếc với người điếc, người điếc với người nghe, tham gia câu lạc bộ người điếc để có nhiều hơn cơ hội được học tập và làm việc, chứng minh cho bố mẹ thấy tôi cũng có thể thành công như nhiều người khác khi tôi được sử dụng ngôn ngữ của người điếc như ngôn ngữ mẹ đẻ.
+	  </p>
+	  <p class="text-black font-bold leading-relaxed">
+	  	Kiến thức là cầu nối duy nhất
 	  </p>
 	  <p class="text-black mb-4 leading-relaxed">
-		Việc nâng cao nhận thức của cộng đồng và doanh nghiệp về khả năng và tiềm năng của người khiếm thính, cùng với việc tạo điều kiện tiếp cận giáo dục và đào tạo nghề, sẽ góp phần mở rộng cơ hội việc làm cho họ, giúp họ tự tin tham gia thị trường lao động và đóng góp cho sự phát triển của xã hội.
+		Đó thật sự là một cột mốc quan trọng trong cuộc đời tôi. Một hành trình mới của tôi đã mở ra. Nhưng trên hành trình đó, tôi đã không ít lần thấy những người bạn của tôi phải gác lại giấc mơ kiến thức, để kiếm kế sinh nhai bởi những áp lực vô hình đến từ gia đình và xã hội. Dần dần tôi nhận ra, kiến thức là cầu nối duy nhất có thể thu hẹp khoảng cách giữa tôi và các bạn nghe đồng trang lứa, đó cũng là điều giúp tôi có thể thay đổi tương lai của mình và chứng minh cho mọi người biết rằng người điếc hoàn toàn có thể làm được.
+  	  </p>
+	  <p class="text-black mb-4 leading-relaxed ">
+		Sinh ra là người điếc, tôi biết việc có thể tự học và mở rộng kiến thức rất khó khăn do không được tiếp cận với các phương pháp giáo dục phù hợp từ cả gia đình và nhà trường.
 	  </p>
 	  <p class="text-black mb-4 leading-relaxed">
-		Việc làm là chìa khóa để người khiếm thính tự tin và độc lập trong cuộc sống. Hiện nay, nhiều doanh nghiệp, đặc biệt là <b>SHE+ Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam</b>, đang mở ra nhiều cơ hội kết nối việc làm phù hợp với khả năng và mong muốn của các bạn khiếm thính.
+		Thứ nhất, 85% trẻ điếc được sinh ra bởi cha mẹ là người nghe. Trong khi cha mẹ lại có rất ít kiến thức về ngôn ngữ ký hiệu - là "tiếng mẹ đẻ" của người điếc. Vì vậy, các bậc phụ huynh gặp nhiều khó khăn trong việc giao tiếp, truyền tải kiến thức cho con. Thứ hai, cơ hội tiếp cận bình đẳng giáo dục đối với người điếc rất hạn chế. Theo một khảo sát, ở Việt Nam có khoảng 2,5 triệu người bị khiếm thính, tuy nhiên, số trường học dành cho họ còn rất ít. Bên cạnh đó, đối với người điếc, tiếng Việt được coi là "ngôn ngữ thứ 2". Vì vậy, họ gặp nhiều thách thức khi đọc hiểu các văn bản bằng tiếng Việt. Thứ ba, hầu hết các kênh thông tin đại chúng đều không có phiên dịch ngôn ngữ ký hiệu nên người điếc gặp khó khăn trong việc tiếp cận thông tin và giao tiếp.
+	  </p>
+	  <img src="/image/story-detail-2.png" class="text-black mb-2 leading-relaxed w-full"/>
+	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		Trên hành trình của mình, tôi may mắn gặp gỡ và được đồng hành cùng những người bạn tuyệt vời, những người đã cùng tôi dám biến những ấp ủ thành hiện thực
+	  </div>
+	  <p class="text-black mb-4 leading-relaxed">
+		Trước đây, tôi nghĩ tham gia sinh hoạt của Chi hội Người điếc Hà Nội (HAD) vào chủ nhật hằng tuần và được chia sẻ rất nhiều thông tin hữu ích từ những người tiền nhiệm, có cơ hội lắng nghe các câu chuyện khác trong cuộc sống của một số hội viên. Nhờ đó tôi hiểu rõ hơn về những thách thức, khó khăn mà những người như chúng tôi (đã hoặc sẽ) gặp phải khi không nhận được sự ủng hộ của gia đình, người thân để tham gia vào các chương trình hoạt động có ý nghĩa do HAD tổ chức. Chính trải nghiệm đó giúp tôi nhận thức được vai trò của mình, sẵn sàng tham gia vào Ban chấp hành của HAD trong nhiệm kỳ đầu tiên để thay đổi tư duy, dẫn dắt các chương trình hoạt động nhằm thu hút nhiều hội viên trẻ hơn, đồng thời thúc đẩy tăng cường sự hợp tác với các đối tác, đơn vị có cùng quan tâm, kêu gọi sự tham gia của các bậc cha mẹ có con em bị khiếm thính trên địa bàn Hà Nội.
 	  </p>
 	  <p class="text-black mb-4 leading-relaxed">
-		SHE+ nhận được rất nhiều tin nhắn từ phụ huynh, từ các bạn khiếm thính hỏi về kết nối việc làm. Đồng thời nhận được rất nhiều ủy thác từ các doanh nghiệp mong muốn kết nối tuyển dụng người khiếm thính tạo cơ hội học nghề: may thuê, nấu ăn, vẽ từ các Doanh nghiệp trên địa bàn Hà Nội, TP Hồ Chí Minh
+		Sau một thời gian dài nỗ lực tham gia các khóa tập huấn, tổ chức các chương trình hoạt động hấp dẫn và kết hợp những kỹ năng có được trong hành trình hoạt động của mình, tôi có đề xuất ý tưởng về kế hoạch tổ chức giao lưu, chia sẻ nâng cao nhận thức về tầm quan trọng của ngôn ngữ ký hiệu đối với người điếc cho các bậc cha mẹ. Sau khi được ban lãnh đạo HAD phê duyệt và triển khai hoạt động tích cực, thu hút nhiều phụ huynh đến từ các quận/huyện tại Hà Nội tham dự, tôi tự tin trình bày rõ ràng, súc tích và nhấn mạnh vào sự tồn tại của ngôn ngữ ký hiệu là tiếng mẹ đẻ của người điếc trong các giao tiếp hằng ngày, đồng thời cung cấp các thông tin đa dạng trên nhiều phương diện khác nhau để giúp người điếc tiếp cận nội dung đầy đủ hơn. Bên cạnh đó, chúng tôi tiếp tục dẫn chứng về những thông tin giáo dục do Liên đoàn Người điếc thế giới chia sẻ, sử dụng trò chơi về câu chuyện "trẻ điếc không có ai để giao tiếp" giúp cho các cha mẹ nhận thức được những vấn đề gặp phải. Các bậc phụ huynh không khỏi xúc động và bày tỏ rằng có sự thay đổi tích cực, rằng họ đã có sự tôn trọng đối với các con em khiếm thính của mình.
 	  </p>
 	  <p class="text-black mb-4 leading-relaxed">
-		Hãy tham gia khảo sát để chúng tôi kết nối công việc với đúng khả năng của bạn và nhu cầu của người tuyển dụng
-	  </p>
-	  <p class="text-black  leading-relaxed">
-		Thông tin khảo sát chỉ dùng với mục đích kết nối việc làm đúng nhu cầu của các bạn và giúp chúng tôi tư vấn việc làm, môi trường tuyển dụng phù hợp với người khiếm thính tới các doanh nghiệp đang tạo cơ hội việc làm cho người khiếm thính/điếc (dạng tật Nghe Nói)<a href="https://forms.gle/E1nrk9hjs4EVA94m7" target="_blank" rel="noopener noreferrer" class="block underline  decoration-solid mb-4">
-		https://forms.gle/E1nrk9hjs4EVA94m7
-	  </a>
-	  </p>
-	  <p class="text-black mb-4 leading-relaxed">
-		Liên hệ <b>SHE+</b> để được tư vấn miễn phí dịch vụ hòa nhập cộng đồng, đánh giá và đưa ra các giải pháp phục hồi chức năng nghề nghiệp, sẽ rất tốt nếu gia đình có thể đi cùng với trẻ khiếm thính (từ 13 tuổi trở lên)
+		Trên hành trình của mình, tôi may mắn gặp gỡ và được đồng hành cùng những người bạn tuyệt vời, những người đã cùng tôi dám biến những ấp ủ thành hiện thực. Cứ như vậy, dự án đọc sách bằng ngôn ngữ ký hiệu của chúng tôi ra đời. Tôi cũng tự hào khi mình đã, đang và sẽ tiếp tục truyền cảm hứng cho các bạn trẻ khiếm thính có thể vượt qua nhiều rào cản, khó khăn trong cuộc sống để có thể vượt lên chính mình và thành công hơn. Động lực giúp tôi trong suốt hành trình vất vả này không chỉ là đôi mắt tò mò của các bạn trẻ khiếm thính, là nụ cười hạnh phúc của các bạn khi được đắm mình trong môi trường sôi động của những đôi tay mà còn ở chỗ, tôi nhìn thấy nơi các bạn hình ảnh của chính tôi cùng những mong muốn còn dang dở.
 	  </p>
 	 `,
 	},

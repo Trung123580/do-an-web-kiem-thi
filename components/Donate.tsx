@@ -1,7 +1,47 @@
+"use client";
+import React, { useState } from 'react';
+import Image from 'next/image';
 import { Lock } from "lucide-react"
-import React from "react"
+
+interface DonationData {
+  donationType: 1 | 2;
+  selectedAmount?: number;
+  customAmount?: number;
+}
 
 const Donate = () => {
+  const [dataSubmit, setDataSubmit] = useState<DonationData>({
+    donationType: 1,
+    selectedAmount: 10,
+    customAmount: 0,
+  });
+
+  const handleAmountSelect = (amount: number) => {
+    setDataSubmit(prev => ({
+      ...prev,
+      selectedAmount: amount,
+      customAmount: 0
+    }));
+  };
+
+  const handleCustomAmountChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const value = e.target.value;
+    if (value === '' || /^\d+$/.test(value)) {
+      setDataSubmit(prev => ({
+        ...prev,
+        customAmount: Number(value),
+        selectedAmount: 10,
+        }));
+    }
+  };
+
+  const handleDonationTypeChange = (type: 1 | 2) => {
+    setDataSubmit(prev => ({
+      ...prev,
+      donationType: type
+    }));
+  };
+
   return (
     <div className='relative w-full min-h-[400px] md:min-h-[500px] h-[720px] bg-cover bg-center' style={{ backgroundImage: "url('/image/donate-bg.jpg')" }}>
       <div className='absolute inset-0 bg-gradient-to-r from-black/40 to-transparent' />
@@ -23,27 +63,54 @@ const Donate = () => {
 
           {/* Toggle buttons */}
           <div className='bg-[#EEF1FF] rounded-md flex mb-2 border border-[#E5E7EB] overflow-hidden'>
-            <button className='flex-1 py-4 text-sm font-medium bg-white'>Một lần</button>
-            <button className='flex-1 py-4 text-sm font-medium text-[#4B5563]'>Hàng tháng</button>
+            <button 
+              className={`flex-1 py-4 text-sm font-medium transition-colors ${
+                dataSubmit.donationType === 1 ? 'bg-[#EEF1FF] text-gray-900' : 'text-[#4B5563] bg-white'
+              }`}
+              onClick={() => handleDonationTypeChange(1)}
+            >
+              Một lần
+            </button>
+            <button 
+              className={`flex-1 py-4 text-sm font-medium transition-colors ${
+                dataSubmit.donationType === 2 ? 'bg-[#EEF1FF] text-gray-900' : 'text-[#4B5563] bg-white'
+              }`}
+              onClick={() => handleDonationTypeChange(2)}
+            >
+              Hàng tháng
+            </button>
           </div>
           {/* Amount buttons */}
           <div className='grid grid-cols-4 mb-2 rounded-md overflow-hidden border border-[#E5E7EB]'>
-            <button className='bg-[#EEF1FF] py-4 text-sm hover:bg-[#E5E7EB]'>10$</button>
-            <button className='bg-white py-4 text-sm hover:bg-[#E5E7EB]'>40$</button>
-            <button className='bg-white py-4 text-sm hover:bg-[#E5E7EB]'>80$</button>
-            <button className='bg-white py-4 text-sm hover:bg-[#E5E7EB]'>200$</button>
+            {[10, 40, 80, 200].map((amount) => (
+              <button
+                key={amount}
+                className={`py-4 text-sm transition-colors ${
+                  dataSubmit.selectedAmount === amount ? 'bg-[#EEF1FF]' : 'bg-white hover:bg-[#E5E7EB]'
+                }`}
+                onClick={() => handleAmountSelect(amount)}
+              >
+                {amount}$
+              </button>
+            ))}
           </div>
 
           <p className='text-sm text-[#6B7280] mb-6 text-center'>Mỗi đóng góp không chỉ trao cơ hội, mà tạo một tương lai công bằng hơn cho người khiếm thính.</p>
 
           {/* Custom amount input */}
-          <div className='relative mb-6'>
-            <span className='absolute left-0 w-[56px] h-full flex items-center justify-center border-r border-[#E5E7EB] top-1/2 -translate-y-1/2 text-[#9CA3AF]'>$</span>
-            <input type='text' placeholder='Nhập số tiền khác' className='w-full border border-[#E5E7EB] pl-[65px] pr-3 py-4 rounded-[4px] text-sm focus:outline-none focus:border-[#4F46E5] focus:ring-1 focus:ring-[#4F46E5]' />
+          <div className='relative'>
+            <span className='absolute left-3 top-1/2 -translate-y-1/2 text-gray-500'>$</span>
+            <input
+              type='text'
+              value={dataSubmit.customAmount}
+              onChange={handleCustomAmountChange}
+              placeholder='Nhập số tiền khác'
+              className='w-full py-3 pl-8 pr-4 border border-[#E5E7EB] rounded-md focus:outline-none focus:ring-2 focus:ring-[#EEF1FF]'
+            />
           </div>
 
           {/* Donate button */}
-          <button className='w-full bg-[#4F46E5] text-white py-5 rounded-[4px] text-2xl font-medium mb-4 hover:bg-[#4338CA] transition-colors'>Ủng hộ ngay</button>
+          <button className='mt-4 w-full bg-[#4F46E5] text-white py-5 rounded-[4px] text-2xl font-medium mb-4 hover:bg-[#4338CA] transition-colors'>Ủng hộ ngay</button>
           {/* Payment methods */}
           <div className='flex items-center flex-col justify-center gap-2 text-xs text-[#6B7280]'>
             <img src='/image/visa.png' alt='' />
@@ -55,7 +122,7 @@ const Donate = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Donate
+export default Donate;
