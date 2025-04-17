@@ -23,6 +23,7 @@ export default function ModalPartner({ isOpen, closeModal }: ModalPartnerProps) 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
    const res = await handles.onPostJoinGroup(dataSubmit)
+   console.log(res)
    if(res){
     setIsSuccess(true)
    } else {
@@ -37,6 +38,13 @@ export default function ModalPartner({ isOpen, closeModal }: ModalPartnerProps) 
       },
     });
    }
+   setDataSubmit({
+    firstName: '',
+    lastName: '',
+    reasonToParticipate: 0,
+    content: '',
+    email: '',
+   }) 
   };
 
   const handleClose = () => {

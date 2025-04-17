@@ -87,15 +87,16 @@ const ContextProvider = ({
   }
   // popup nút tham gia cùng chúng tôi 
   const handlePostJoinGroup = async (form: any) => {
-      const userDoc = doc(db, "users", process.env.NEXT_PUBLIC_KEY as string)
-      await updateDoc(userDoc, {
-        joinGroup: arrayUnion({...form}),
-      }).then(() => {
+      try {
+        const userDoc = doc(db, "users", process.env.NEXT_PUBLIC_KEY as string)
+        await updateDoc(userDoc, {
+          joinGroup: arrayUnion({...form}),
+        })
         return true
-      }).catch((error) => {
+      } catch (error) {
         console.log(error)
         return false
-      })
+      }
   }
   return (
     <ContextApp.Provider
