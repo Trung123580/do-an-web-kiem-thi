@@ -49,9 +49,11 @@ const ContextProvider = ({
   // => vơi cả anh tự tạo 1 trường id có hàm idv4 đó ạ
   // chỗ form footer
   const handlePostRegisterNotification = async (form: any) => {
+    console.log(form);
+    
       const userDoc = doc(db, "users", process.env.NEXT_PUBLIC_KEY as string)
       await updateDoc(userDoc, {
-        notification: form,
+        notification: arrayUnion({...form}),
       }).then(() => {
         alert('success')
       })
@@ -60,7 +62,7 @@ const ContextProvider = ({
   const handlePostDonate = async (form: any) => {
       const userDoc = doc(db, "users", process.env.NEXT_PUBLIC_KEY as string)
       await updateDoc(userDoc, {
-        donate: form,
+        donate: arrayUnion({...form}),
       }).then(() => {
         alert('success')
       })
@@ -69,7 +71,7 @@ const ContextProvider = ({
   const handlePostJoinGroup = async (form: any) => {
       const userDoc = doc(db, "users", process.env.NEXT_PUBLIC_KEY as string)
       await updateDoc(userDoc, {
-        joinGroup: form,
+        joinGroup: arrayUnion({...form}),
       }).then(() => {
         alert('success')
       })
