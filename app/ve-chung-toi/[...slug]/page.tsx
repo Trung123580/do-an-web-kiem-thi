@@ -1,14 +1,12 @@
 import React from "react"
 import Audience from "./Audience"
-
-const page = ({
+type Params = Promise<{ slug: string[] }>
+const page = async ({
   params,
 }: {
-  params: {
-    slug: string
-  }
+  params: Params
 }) => {
-  const [slug] = params.slug
+  const [slug] = (await  params).slug
 console.log(slug);
     
   return <Audience />
