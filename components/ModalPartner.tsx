@@ -142,9 +142,12 @@ export default function ModalPartner({ isOpen, closeModal }: ModalPartnerProps) 
                           required
                         >
                           <option value={0}>Lý do gửi yêu cầu*</option>
-                          <option value={1}>Đối tác</option>
-                          <option value={2}>Tình nguyện viên</option>
-                          <option value={3}>Khác</option>
+                          <option value={1}>Nhà tài trợ</option>
+                          <option value={2}>Phương tiện truyền thông</option>
+                          <option value={3}>Quan hệ đối tác</option>
+                          <option value={4}>Nhà tuyển dụng</option>
+                          <option value={5}>Tổ chức hỗ trợ</option>
+                          <option value={6}>Khác</option>
                         </select>
                       </div>
 
