@@ -13,7 +13,7 @@ export const docs = `<div>
 	<br />
 	 Quốc hội ban h&agrave;nh Luật người khuyết tật.
 	<br />
-    <p class="text-center font-bold mt-6 mb-2">
+    <p class="text-center font-bold mt-6 mb-2" id="chuong-1">
     CHƯƠNG I
 	<br />
 	 NHỮNG QUY ĐỊNH CHUNG
@@ -227,7 +227,7 @@ export const docs = `<div>
 	<br />
 	 7. Gian dối trong việc x&aacute;c định mức độ khuyết tật, cấp giấy x&aacute;c nhận khuyết tật.
 	<br />
-    <p class="text-center font-bold mt-6 mb-2">
+    <p class="text-center font-bold mt-6 mb-2" id="chuong-2">
      CHƯƠNG II
 	<br />
 	 XÁC NHẬN KHUYẾT TẬT
@@ -316,7 +316,7 @@ export const docs = `<div>
 	<br />
 	 2. Tr&igrave;nh tự, thủ tục x&aacute;c định lại mức độ khuyết tật v&agrave; cấp giấy x&aacute;c nhận khuyết tật được thực hiện theo quy định tại Điều 18 v&agrave; Điều 19 của Luật n&agrave;y.
 	<br />
-    <p class="text-center font-bold mt-6 mb-2">
+    <p class="text-center font-bold mt-6 mb-2" id="chuong-3">
      CHƯƠNG III
 	<br />
 	 CHĂM S&Oacute;C SỨC KHỎE
@@ -404,7 +404,7 @@ export const docs = `<div>
 	<br />
 	 3. Dụng cụ chỉnh h&igrave;nh, phương tiện, thiết bị phục hồi chức năng, trợ gi&uacute;p sinh hoạt, học tập v&agrave; lao động cho người khuyết tật từ chương tr&igrave;nh, dự &aacute;n viện trợ kh&ocirc;ng ho&agrave;n lại hoặc do tổ chức, c&aacute; nh&acirc;n nước ngo&agrave;i tặng, hỗ trợ được miễn, giảm thuế theo quy định của ph&aacute;p luật về thuế.
 	<br />
-    <p class="text-center font-bold mt-6 mb-2">
+    <p class="text-center font-bold mt-6 mb-2" id="chuong-4">
     	 CHƯƠNG IV
 	<br />
 	 GI&Aacute;O DỤC
@@ -686,8 +686,8 @@ export const docs = `<div>
 	<br />
 	 2. Thực hiện cải tạo, n&acirc;ng cấp cơ sở vật chất chưa bảo đảm điều kiện tiếp cận đối với người khuyết tật.
 	<br />
-     <p class="text-center font-bold mt-6 mb-2">
-      CHƯƠNG IX
+     <p class="text-center font-bold mt-6 mb-2" id="chuong-5">
+      CHƯƠNG V
 	<br />
 	 TR&Aacute;CH NHIỆM CỦA CƠ QUAN
      </p>
@@ -870,7 +870,7 @@ export const dataNews = [
 	  imageAuthor: "/image/author-2.png",
 	  image: "/image/news-2.png",
 	  date: "10:04 GMT+7 ",
-	  tags: ["Xã hội"],
+	  tags: ["Xã hội", "Nghề nghiệp"],
 	  slug: "quan-ca-phe-dac-biet",
 	  content: `
 	  <p class="text-black font-bold leading-relaxed">
@@ -1105,7 +1105,7 @@ export const dataNews = [
 	  imageAuthor: "/image/author-4.png",
 	  image: "/image/news-4.png",
 	  date: "09.12.2024",
-	  tags: ["Xã hội"],
+	  tags: ["Xã hội", "Sự kiện", "Nghề nghiệp"],
 	  slug: "thu-tuong-chung-vui-le-khai-giang",
 	  content: `
 	  <img src="/image/news-detail-6.png" class="text-black mb-2 leading-relaxed w-full"/>
@@ -1350,7 +1350,7 @@ export const dataNews = [
 	  imageAuthor: "/image/author-6.png",
 	  image: "/image/news-6.png",
 	  date: "08/12/2022",
-	  tags: ["Xã hội"],
+	  tags: ["Xã hội","Sự kiện"],
 	  slug: "nguoi-dua-do-dac-biet",
 	  content: `
 	  <img src="/image/news-detail-15.png" class="text-black mb-2 leading-relaxed w-full"/>
@@ -1432,7 +1432,7 @@ export const dataNews = [
 	  imageAuthor: "/image/author-8.png",
 	  image: "/image/news-8.png",
 	  date: "Th 5 26/10/2023",
-	  tags: ["Xã hội"],
+	  tags: ["Xã hội", 'Kiến thức'],
 	  slug: "nguoi-khiem-thinh-co-noi-duoc-khong",
 	  content: `
 	  <p class="text-black mb-4 font-bold leading-relaxed">
@@ -1666,7 +1666,7 @@ export const dataNews = [
 	  imageAuthor: "/image/author-9.png",
 	  image: "/image/news-9.png",
 	  date: "28/01/2021",
-	  tags: ["Xã hội"],
+	  tags: ["Xã hội", "Giáo dục", "Thế giới"],
 	  slug: "nguoi-khiem-thinh-gap-kho-khan-khi-muon-tim-hieu-san-pham-cong-nghe",
 	  content: `
 	  <p class="text-black mb-4 leading-relaxed">
@@ -1720,7 +1720,7 @@ export const dataNews = [
 	  imageAuthor: "/image/author-10.png",
 	  image: "/image/news-10.png",
 	  date: "12/09/2022",
-	  tags: ["Xã hội"],
+	  tags: ["Xã hội", "Thế giới", "Sự kiện"],
 	  slug: "giao-tiep-voi-tre-khiem-thinh",
 	  content: `
 	  <p class="text-black mb-4 font-bold leading-relaxed">

@@ -66,7 +66,7 @@ export default function AboutPage() {
               Foundation for Future là tổ chức cung cấp thông tin hỗ trợ giáo dục và đào tạo nghề nghiệp cho người khiếm thính, thông qua nền tảng trực tuyến thân thiện, dễ tiếp cận. Chúng tôi giúp họ trang bị kiến thức, kỹ năng cơ bản để tự lập,
               phát triển bền vững và tăng bước hòa nhập vào cộng đồng.
             </p>
-            <Link href='#' className='inline-flex px-6 py-3 bg-[#4F46E5] text-white rounded-md hover:bg-[#4338CA] transition-colors'>
+            <Link href='/ve-chung-toi/tham-gia-chung-toi' className='inline-flex px-6 py-3 bg-[#4F46E5] text-white rounded-md hover:bg-[#4338CA] transition-colors'>
               Tham gia cùng chúng tôi
             </Link>
           </div>

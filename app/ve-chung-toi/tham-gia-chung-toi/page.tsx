@@ -378,7 +378,7 @@ export default function JoinUsPage() {
         <h2 className="text-2xl font-bold mb-12">Công việc</h2>
         <Slider {...carouselSettings} className="job-carousel -mx-3">
           {dataJob.map((item, index) => (
-            <Link key={index} href={`/ve-chung-toi/tham-gia-chung-toi/job/${item.slug}`} className="px-3">
+            <Link key={index} href={`/ve-chung-toi/tham-gia-chung-toi/job/${item.slug}`} className="px-3 h-full">
               <div className="bg-[#F2F2F3] rounded-xl h-full">
                 <div className="mb-4">
                   <Image src={item.img} alt='' width={200} height={150} className="w-full" />
@@ -411,7 +411,7 @@ export default function JoinUsPage() {
           <Slider {...volunteerCarouselSettings} className="volunteer-carousel -mx-3">
             {dataVolunteer.map((item, index) => {
               return (
-                <Link key={index} href={`/ve-chung-toi/tham-gia-chung-toi/volunteer/${item.slug}`} className="px-3">
+                <Link key={index} href={`/ve-chung-toi/tham-gia-chung-toi/volunteer/${item.slug}`} className="px-3 h-full">
                   <div className="bg-white rounded-2xl overflow-hidden shadow-lg h-full">
                     <div className="relative h-48">
                       <Image src={item.img} alt={item.title} fill className="object-cover" />
