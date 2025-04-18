@@ -46,6 +46,10 @@ const Donate = () => {
       ...prev,
       donationType: type
     }));
+    setDataSubmit(prev => ({
+      ...prev,
+      selectedAmount: 10,
+    }));
   };
 
   return (

@@ -2,6 +2,7 @@ import { dataNews } from "@/utils/contanst";
 import Link from "next/link";
 import Slider from "react-slick";
 import Image from "next/image";
+
 export default function LatestNews() {
   const carouselSettings = {
     dots: false,
@@ -61,9 +62,10 @@ export default function LatestNews() {
           </div>
         ))}
       </Slider>
-      <div className="text-end mt-6">
-        <Link href="/thong-tin/tin-tuc" className="inline-flex items-center text-sm font-medium hover:text-gray-900 px-4 py-2 rounded-sm border bg-[#FFFFFF] border-[#CFD1D4] text-[#414652]">
-          Xem thêm &rarr;
+      <div className="flex justify-end mt-6">
+        <Link href='/thong-tin/tin-tuc' className="flex items-center px-4 py-2 text-sm border border-[#CFD1D4] text-[#414652] rounded-xs hover:bg-gray-100 transition">
+          Xem thêm 
+          <img src="/icon/arrow.png" alt="" />
         </Link>
       </div>
     </section>

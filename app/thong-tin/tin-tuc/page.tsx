@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { dataNews } from "@/utils/contanst";
@@ -7,7 +7,58 @@ import { dataNews } from "@/utils/contanst";
 export default function Page() {
   const mainArticle = dataNews[0];
   const sideArticles = [dataNews[1], dataNews[2]]
+  const [dataConvert, setDataConvert] = useState(dataNews);
+  // Change from single string to array of strings for multiple selection
+  const [activeCategories, setActiveCategories] = useState<string[]>([]);
 
+  const handleSort = ({ slug }: { slug: string }) => {
+    console.log(slug);
+    
+    setActiveCategories(prev => {
+      // If clicking "Tất cả", clear all selections
+      if (!slug) {
+        setDataConvert(dataNews);
+        return [];
+      }
+
+      let newCategories;
+      if (prev.includes(slug)) {
+        // Remove category if already selected
+        newCategories = prev.filter(name => name !== slug);
+      } else {
+        // Add new category
+        newCategories = [...prev, slug];
+      }
+      console.log(newCategories);
+      
+      // Filter articles based on selected categories
+      if (newCategories.length === 0) {
+        setDataConvert(dataNews); // Show all if no categories selected
+      } else {
+        const filtered = dataNews.filter((article) => {
+          console.log(article);
+          
+          return article.tags?.some(tag => 
+            newCategories.includes(tag)
+          )
+        }
+          
+        );
+        setDataConvert(filtered);
+      }
+
+      return newCategories;
+    });
+  };
+  const categories = [
+    { name: "Tất cả", slug: "" },
+    { name: "Kiến thức", slug: "kien-thuc" },
+    { name: "Xã hội", slug: "xa-hoi" },
+    { name: "Giáo dục", slug: "giao-duc" },
+    { name: "Nghề nghiệp", slug: "nghe-nghiep" },
+    { name: "Thế giới", slug: "the-gioi" },
+    { name: "Sự kiện", slug: "su-kien" }
+  ];
   return (
     <div className="min-h-screen bg-gray-50 pt-24 pb-16">
       <div className="container mx-auto px-4">
@@ -71,12 +122,17 @@ export default function Page() {
               </button>
             </div>
             <div className="flex flex-wrap gap-2">
-              {["Kiến thức", "Xã hội", "Giáo dục", "Nghề nghiệp", "Thể giới", "Sự kiện"].map((category, index) => (
+              {categories.map((category, index) => (
                 <button
                   key={index}
-                  className="px-3 py-1 text-sm rounded-sm bg-gray-100 hover:bg-gray-200 transition-colors"
+                  onClick={() => handleSort({ slug: category.name })}
+                  className={`px-3 py-1 text-sm rounded-sm transition-colors ${
+                    activeCategories.includes(category.name)
+                      ? 'bg-blue-500 text-white'
+                      : 'bg-gray-100 hover:bg-gray-200'
+                  }`}
                 >
-                  {category}
+                  {category.name}
                 </button>
               ))}
             </div>
@@ -85,7 +141,7 @@ export default function Page() {
           {/* News List */}
           <div className="lg:col-span-3">
             <div className="space-y-6 max-h-[800px] overflow-y-auto pr-4 scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100">
-              {dataNews.map((item) => (
+              {dataConvert.map((item) => (
                 <Link href={`/thong-tin/tin-tuc/${item.slug}`} key={item.id}>
                   <div className="flex gap-6 group cursor-pointer mb-4  rounded-xl p-4">
                     <div className="relative w-[300px] h-[200px] rounded-xl overflow-hidden flex-shrink-0">
