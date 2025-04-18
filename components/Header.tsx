@@ -49,14 +49,11 @@ export default function Header() {
               </Link>
               <div className="absolute left-1/2 -translate-x-1/2 mt-1 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0">
                 <div className="py-2">
-                  <Link href="/ve-chung-toi/gioi-thieu" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
-                    Giới thiệu
+                  <Link href="/ve-chung-toi/nguoi-khiem-thinh" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                    Người khiếm thính
                   </Link>
-                  <Link href="/ve-chung-toi/su-menh" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
-                    Sứ mệnh
-                  </Link>
-                  <Link href="/ve-chung-toi/doi-ngu" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
-                    Đội ngũ
+                  <Link href="/ve-chung-toi/tham-gia-chung-toi" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                    Tham gia cùng chúng tôi
                   </Link>
                 </div>
               </div>
@@ -83,11 +80,14 @@ export default function Header() {
                   <Link href="/thong-tin/tin-tuc" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
                     Tin tức
                   </Link>
-                  <Link href="/thong-tin/su-kien" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
-                    Sự kiện
+                  <Link href="/thong-tin/cau-chuyen" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                    Câu chuyện
                   </Link>
-                  <Link href="/thong-tin/bao-chi" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
-                    Báo chí
+                  <Link href="/thong-tin/to-chuc-cong-dong" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                    Tổ chức & cộng đồng
+                  </Link>
+                  <Link href="/thong-tin/hoat-dong" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                    Hoạt động
                   </Link>
                 </div>
               </div>

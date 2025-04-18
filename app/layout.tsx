@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import ChatBot from "@/components/ChatBot";
 import Footer from "@/components/Footer";
 import ContextProvider from "@/context/ContextProvider";
+import { Toaster } from 'react-hot-toast';
 
 const geistSans = Inter({
   variable: "--font-inter",
@@ -31,6 +32,7 @@ export default function RootLayout({
           {children}
           <Footer />
           <ChatBot />
+          <Toaster position="top-center" />
         </ContextProvider>
       </body>
     </html>

@@ -1,86 +1,76 @@
+'use client'
+import { dataNews } from "@/utils/contanst";
+import Link from "next/link";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+import Image from "next/image";
+
 export default function LatestNews() {
-  const news = [
-    {
-      title: "Cơ Hội Việc Làm Thách Thức và Rào Cản Đối Với Người khiếm thính/Điếc",
-      image: "/image/news-1.png",
-      badges: ["Kiến thức", "Xã hội"],
-    },
-    {
-      title: "Quán cà phê đặc biệt của người khiếm thính",
-      image: "/image/news-2.png",
-      badges: ["Xã hội"],
-    },
-    {
-      title: "Các yếu tố nguy cơ gây điếc ở trẻ sơ sinh và trẻ nhỏ",
-      image: "/image/news-3.png",
-      badges: ["Kiến thức"],
-    },
-    {
-      title: "Cơ Hội Việc Làm Thách Thức và Rào Cản Đối Với Người khiếm thính/Điếc",
-      image: "/image/news-1.png",
-      badges: ["Kiến thức", "Xã hội"],
-    },
-    {
-      title: "Quán cà phê đặc biệt của người khiếm thính",
-      image: "/image/news-2.png",
-      badges: ["Xã hội"],
-    },
-    {
-      title: "Các yếu tố nguy cơ gây điếc ở trẻ sơ sinh và trẻ nhỏ",
-      image: "/image/news-3.png",
-      badges: ["Kiến thức"],
-    },
-    {
-      title: "Cơ Hội Việc Làm Thách Thức và Rào Cản Đối Với Người khiếm thính/Điếc",
-      image: "/image/news-1.png",
-      badges: ["Kiến thức", "Xã hội"],
-    },
-    {
-      title: "Quán cà phê đặc biệt của người khiếm thính",
-      image: "/image/news-2.png",
-      badges: ["Xã hội"],
-    },
-    {
-      title: "Các yếu tố nguy cơ gây điếc ở trẻ sơ sinh và trẻ nhỏ",
-      image: "/image/news-3.png",
-      badges: ["Kiến thức"],
-    },
-  ]
+  const carouselSettings = {
+    dots: false,
+    arrows: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 640,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
 
   return (
     <section className='max-w-7xl mx-auto px-4 md:px-8 py-8'>
       <div className='flex justify-between items-center mb-4'>
         <h2 className='text-2xl font-semibold'>Tin mới nhất</h2>
       </div>
-
       {/* Scrollable list */}
-      <div className='flex gap-4 overflow-x-auto scrollbar-hide pb-2'>
-        {news.map((item, index) => (
-          <div key={index} className='min-w-[521px] max-w-[521px] flex-shrink-0 bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition'>
-            <div className='relative h-[400px] w-full'>
-              <img src={item.image} alt={item.title} className='object-cover w-full h-full' />
-              <div className='absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent'></div>
-              <div className='absolute bottom-0 p-3 text-white text-sm font-medium flex flex-col'>
-                {item.title}
-                <div className='flex gap-1 flex-wrap'>
-                  {item.badges.map((b, i) => (
-                    <span key={i} className='text-[10px] px-2 py-0.5 bg-white/80 text-gray-800 rounded-full'>
-                      {b}
-                    </span>
-                  ))}
+      <Slider {...carouselSettings} className="news-carousel -mx-3">
+        {dataNews.map((news, index) => (
+          <div key={index} className="px-3">
+            <Link href={`/thong-tin/tin-tuc/${news.slug}`}>
+              <div className="group cursor-pointer relative">
+                <div className="relative h-[370px] rounded-xl overflow-hidden">
+                  <Image src={news.image} alt={news.title} fill className="object-cover group-hover:scale-125 transition-transform duration-700" />
+                  <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/40 to-black/70"></div>
+                  <div className="space-y-2 absolute bottom-0 left-0 right-0 p-6 text-white z-10">
+                    <h3 className="font-semibold text-lg transition-colors line-clamp-2">{news.title}</h3>
+                    <div className="flex gap-2">
+                      {news.tags.map((tag, tagIndex) => (
+                        <span key={tagIndex} className="text-sm text-black px-3 py-1 bg-white rounded-sm">
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
                 </div>
+                <div className="rounded-b-xl absolute bottom-0 left-0 right-0 h-40 bg-[linear-gradient(181deg,rgba(42,123,155,0)_0%,#4177efd6_50%,#4177efd6_100%)] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
               </div>
-              {/* Badges */}
-            </div>
+            </Link>
           </div>
         ))}
-        {/* Xem thêm button */}
-      </div>
+      </Slider>
       <div className="flex justify-end mt-6">
-        <button className="flex items-center px-4 py-2 text-sm border border-[#CFD1D4] text-[#414652] rounded-xs hover:bg-gray-100 transition">
+        <Link href='/thong-tin/tin-tuc' className="flex items-center px-4 py-2 text-sm border border-[#CFD1D4] text-[#414652] rounded-xs hover:bg-gray-100 transition">
           Xem thêm 
           <img src="/icon/arrow.png" alt="" />
-        </button>
+        </Link>
       </div>
     </section>
   )

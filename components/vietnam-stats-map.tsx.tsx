@@ -5,9 +5,9 @@ export default function VietnamStatsMap() {
       <img src="/image/map-vi.png" alt="Bản đồ Việt Nam" className="w-full aspect-square object-contain" />
 
       {/* Layout desktop: absolute */}
-      <div className="hidden md:block">
+      <div className="hidden md:block *:hover:scale-125 *:transition-all">
         {/* Box: 5% */}
-        <div className="absolute top-[13%] left-1/2 transform -translate-x-1/2 w-40 h-40 bg-[#B0C1F8] rounded-lg p-4 flex flex-col items-center justify-center text-center">
+        <div className=" absolute top-[13%] left-1/2 transform -translate-x-1/2 w-40 h-40 bg-[#B0C1F8] rounded-lg p-4 flex flex-col items-center justify-center text-center">
           <h3 className="text-3xl font-bold mb-2">5%</h3>
           <p className="text-xs text-gray-700">Hơn 5% dân số thế giới cần khắc phục tình trạng mất thính lực</p>
         </div>
