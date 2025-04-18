@@ -9,7 +9,6 @@ import VietnamStatsMap from "@/components/vietnam-stats-map.tsx"
 import Link from "next/link"
 
 export default function Home() {
-  const router = useRouter()
   return (
     <div>
       <BannerSwiper />

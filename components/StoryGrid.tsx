@@ -39,11 +39,12 @@ export default function StoryGrid() {
               return (
                 <Link key={index} href={`/thong-tin/cau-chuyen/${story.slug}`}>
                   <div className="group cursor-pointer relative h-[250px] rounded-xl overflow-hidden">
-                    <Image src={story.img} alt={story.title} fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <Image src={story.img} alt={story.title} fill className="object-cover group-hover:scale-125 transition-transform duration-700" />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
-                    <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
+                    <div className="absolute bottom-0 left-0 right-0 p-4 text-white z-10">
                       <h3 className="font-medium text-sm line-clamp-2">{story.title}</h3>
                     </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-32 bg-[linear-gradient(181deg,rgba(42,123,155,0)_0%,#4177efd6_50%,#4177efd6_100%)] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   </div>
                 </Link>
               );

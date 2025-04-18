@@ -1,5 +1,8 @@
+'use client'
 import { dataNews } from "@/utils/contanst";
 import Link from "next/link";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Image from "next/image";
 
@@ -36,7 +39,6 @@ export default function LatestNews() {
       <div className='flex justify-between items-center mb-4'>
         <h2 className='text-2xl font-semibold'>Tin mới nhất</h2>
       </div>
-
       {/* Scrollable list */}
       <Slider {...carouselSettings} className="news-carousel -mx-3">
         {dataNews.map((news, index) => (
@@ -44,9 +46,9 @@ export default function LatestNews() {
             <Link href={`/thong-tin/tin-tuc/${news.slug}`}>
               <div className="group cursor-pointer relative">
                 <div className="relative h-[370px] rounded-xl overflow-hidden">
-                  <Image src={news.image} alt={news.title} fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+                  <Image src={news.image} alt={news.title} fill className="object-cover group-hover:scale-125 transition-transform duration-700" />
                   <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/40 to-black/70"></div>
-                  <div className="space-y-2 absolute bottom-0 left-0 right-0 p-6 text-white">
+                  <div className="space-y-2 absolute bottom-0 left-0 right-0 p-6 text-white z-10">
                     <h3 className="font-semibold text-lg transition-colors line-clamp-2">{news.title}</h3>
                     <div className="flex gap-2">
                       {news.tags.map((tag, tagIndex) => (
@@ -57,6 +59,8 @@ export default function LatestNews() {
                     </div>
                   </div>
                 </div>
+                <div className="rounded-b-xl absolute bottom-0 left-0 right-0 h-40 bg-[linear-gradient(181deg,rgba(42,123,155,0)_0%,#4177efd6_50%,#4177efd6_100%)] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
               </div>
             </Link>
           </div>

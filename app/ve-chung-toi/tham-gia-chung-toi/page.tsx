@@ -209,6 +209,7 @@ export const dataVolunteer = [
         }
     ],
     description: "Workshop Hướng nghiệp & Kỹ năng mềm là chương trình đào tạo thực tiễn với các buổi hội thảo, hoạt động nhóm, trò chơi tương tác và phiên chia sẻ từ các chuyên gia. Dự án được thiết kế nhằm truyền cảm hứng, chia sẻ kinh nghiệm và cung cấp các công cụ giúp người khiếm thính phát triển toàn diện kỹ năng mềm cùng khả năng định hướng nghề nghiệp. Dự án cũng là cơ hội để các tình nguyện viên, những người có đam mê và nhiệt huyết, được tham gia vào quá trình góp phần thay đổi cuộc sống của người khiếm thính.",
+    sortDesc: "Trang bị cho người khiêm thính những kiến thức và kỹ năng thực tiễn để tự tin bước vào thị trường lao động. Tạo cơ hội kết nỗi giữa người khiếm thính và chuyên gia hướng nghiệp.",
     time: "Chủ Nhật, 20/7/2025 (09:00 – 16:00)",
     location: "Số 15, Đường Lê Duẩn, Quận Hai Bà Trưng, Hà Nội",
     requirements: [
@@ -238,7 +239,8 @@ export const dataVolunteer = [
             title: "Foundation for Future",
         }
     ],
-    description: "Dự án “Ánh sáng thầm lặng” nhằm gây quỹ hỗ trợ học bổng, trang thiết bị trợ thính, và các chương trình đào tạo nghề cho người khiếm thính. Trong khuôn khổ chiến dịch này, Workshop Hướng nghiệp & Kỹ năng mềm được tổ chức để trang bị kiến thức và kỹ năng cần thiết cho người khiếm thính, đồng thời là dịp tuyển dụng, huy động tinh thần và năng lực của các tình nguyện viên.",
+    description: "Dự án \"Ánh sáng thầm lặng\" nhằm gây quỹ hỗ trợ học bổng, trang thiết bị trợ thính, và các chương trình đào tạo nghề cho người khiếm thính. Trong khuôn khổ chiến dịch này, Workshop Hướng nghiệp & Kỹ năng mềm được tổ chức để trang bị kiến thức và kỹ năng cần thiết cho người khiếm thính, đồng thời là dịp tuyển dụng, huy động tinh thần và năng lực của các tình nguyện viên.",
+    sortDesc: "Gây quỹ hỗ trợ học bổng, trang thiết bị trợ tính và chương trình đào tạo cho người khiếm tính. Tăng cường nhận thức cộng của cộng đồng về vai trò và tiềm năng của người khiếm thính.",
     time: "Thứ Bảy, ngày 28/9/2025 (09:00 – 16:00)",
     location: "Số 123, Đường Lê Lợi, Quận 1, Thành phố Hồ Chí Minh",
     requirements: [
@@ -279,6 +281,7 @@ export const dataVolunteer = [
         }
     ],
     description: "Festival Sáng tạo & Kết nối \"Cùng Đổi Mới Tương Lai\" là sự kiện được tổ chức bởi Foundation for Future, nhằm tạo diễn đàn trao đổi, học hỏi và chia sẻ sáng tạo cho cộng đồng người khiếm thính và các đối tác liên quan. Dự án hướng đến việc kết nối các cá nhân, doanh nghiệp và tổ chức để cùng nhau khám phá, ứng dụng các giải pháp sáng tạo trong giáo dục và đào tạo hướng nghiệp. Đồng thời, sự kiện còn là cơ hội để người tham gia trải nghiệm, chia sẻ kinh nghiệm và xây dựng những ý tưởng đổi mới nhằm cải thiện chất lượng cuộc sống cho cộng đồng.",
+    sortDesc: "Truyền cảm hứng và chia sẻ kinh nghiệm đổi mới trong giáo dục và hỗ trợ nghề nghiệp cho người khiếm thính. Tạo sân chơi kết nối, giao lưu và hợp tác giữa người khiếm thính, chuyên gia và doanh nghiệp trong việc phát triển công nghệ, sản phẩm",
     time: "Thứ Bảy, ngày 15/9/2025 (09:00 – 17:00)",
     location: "Trung tâm Hội nghị & Triển lãm, Thành phố Hồ Chí Minh.",
     requirements: [
@@ -309,7 +312,7 @@ export default function JoinUsPage() {
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 3000000,
     responsive: [
       {
         breakpoint: 1024,
@@ -343,7 +346,7 @@ export default function JoinUsPage() {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 400000,
     responsive: [
       {
         breakpoint: 1024,
@@ -412,12 +415,13 @@ export default function JoinUsPage() {
             {dataVolunteer.map((item, index) => {
               return (
                 <Link key={index} href={`/ve-chung-toi/tham-gia-chung-toi/volunteer/${item.slug}`} className="px-3 h-full">
-                  <div className="bg-white rounded-2xl overflow-hidden shadow-lg h-full">
-                    <div className="relative h-48">
+                  <div className="bg-white rounded-2xl overflow-hidden shadow-lg h-full group relative">
+                    <div className="relative h-60 group-hover:h-40 transition-all duration-300">
                       <Image src={item.img} alt={item.title} fill className="object-cover" />
                     </div>
                     <div className="p-6">
-                      <p className="text-gray-600 mb-4">{item.title}</p>
+                      <p className="text-gray-600 font-medium text-lg mb-4">{item.title}</p>
+                      <p className="text-gray-600 font-medium text-sm absolute bottom-0 left-0 right-0 p-4 translate-y-full group-hover:translate-y-0 transition-all duration-300">{item.sortDesc}</p>
                     </div>
                   </div>
                 </Link>
