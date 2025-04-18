@@ -1,11 +1,9 @@
-'use client'
-import React, { useState } from 'react'
+import { dataJob } from '@/utils/contanst'
 import Image from 'next/image'
-import { dataJob } from '../../page'
-export default function JobDetailPage({ params }: { params: { 'slug-job': string[] } }) {
-    const slug = params['slug-job'][0]
-    const [jobDetail, setJobDetail] = useState(dataJob.find(job => job.slug === slug))
-    console.log(slug,jobDetail)
+type Params = Promise<{ 'slug-job': string[] }>
+export default async function JobDetailPage({ params }: { params: Params }) {
+    const slug = (await params)['slug-job'][0]
+    const jobDetail = dataJob.find(job => job.slug === slug)
     return (
         <div className="min-h-screen bg-gray-50 pt-24 pb-8">
             <div className="container mx-auto px-4">

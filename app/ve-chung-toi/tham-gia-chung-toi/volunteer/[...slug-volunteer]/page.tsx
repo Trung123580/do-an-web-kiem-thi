@@ -1,12 +1,11 @@
-"use client";
-import React, { use, useState } from "react";
+import { dataVolunteer } from "@/utils/contanst";
 import Image from "next/image";
-import { dataVolunteer } from "../../page";
+type Params = Promise<{ 'slug-volunteer': string[] }>
 
-export default function VolunteerDetailPage({ params }: { params: { "slug-volunteer": string[] } }) {
-  const slug = params["slug-volunteer"][0];
-  const [volunteerDetail, setVolunteerDetail] = useState(dataVolunteer.find((volunteer) => volunteer.slug === slug));
-  console.log(slug, dataVolunteer);
+export default async function VolunteerDetailPage({ params }: { params: Params }) {
+  const slug = ( await params)["slug-volunteer"][0]
+  
+  const volunteerDetail = dataVolunteer.find((volunteer) => volunteer.slug === slug)
   return (
     <div className="min-h-screen bg-gray-50 pt-24 pb-16">
       <div className="container mx-auto">
