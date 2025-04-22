@@ -111,14 +111,20 @@ export default function Header() {
               </Link>
               <div className="absolute left-1/2 -translate-x-1/2 mt-1 w-56 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0">
                 <div className="py-2">
-                  <Link href="/giao-duc/chuong-trinh" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
-                    Chương trình
+                  <Link href="/giao-duc/ngon-ngu-ky-hieu" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                    Ngôn ngữ ký hiệu
                   </Link>
-                  <Link href="/giao-duc/hoc-bong" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
-                    Học bổng
+                  <Link href="/giao-duc/tri-lieu-ngon-ngu" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                    Trị liệu ngôn ngữ
                   </Link>
-                  <Link href="/giao-duc/dao-tao" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
-                    Đào tạo
+                  <Link href="/giao-duc/ky-nang-mem" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                    Kỹ năng mềm
+                  </Link>
+                  <Link href="/giao-duc/tu-van-dinh-huong" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                    Tư vấn & Định hướng
+                  </Link>
+                  <Link href="/giao-duc/giao-duc-dac-biet" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                    Giáo dục đặc biệt
                   </Link>
                 </div>
               </div>

@@ -1,19 +1,10 @@
-"use client";
-import React, { useState, use } from "react";
 import Image from "next/image";
 import { dataNews } from "@/utils/contanst";
+type Params = Promise<{ 'slug-news': string[] }>
 
-type PageParams = {
-  params: Promise<{
-    "slug-news": string[];
-  }>;
-};
-
-export default function Page({ params }: PageParams) {
-  const unwrappedParams = use(params);
-  const slug = unwrappedParams["slug-news"][0];
-  const [newDetail, setnewDetail] = useState(dataNews.find((newItem) => newItem.slug === slug));
-
+export default async function Page({ params }: { params: Params }) {
+  const slug = ( await params)["slug-news"][0]
+  const newDetail = dataNews.find((newItem) => newItem.slug === slug)
   return (
     <div className="min-h-screen bg-gray-50 pt-24 pb-16">
       <div className="mb-8">

@@ -115,19 +115,19 @@ export default function JoinUsPage() {
       </div>
       <div className="bg-gray-50 py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-12">Tham gia tình nguyện</h2>
+          <h2 className="text-3xl font-bold mb-8">Tham gia tình nguyện</h2>
 
           <Slider {...volunteerCarouselSettings} className="volunteer-carousel -mx-3">
             {dataVolunteer.map((item, index) => {
               return (
                 <Link key={index} href={`/ve-chung-toi/tham-gia-chung-toi/volunteer/${item.slug}`} className="px-3 h-full">
-                  <div className="bg-white rounded-2xl overflow-hidden shadow-lg h-full group relative">
+                  <div className="bg-white  overflow-hidden shadow-lg h-full group relative">
                     <div className="relative h-60 group-hover:h-40 transition-all duration-300">
                       <Image src={item.img} alt={item.title} fill className="object-cover" />
                     </div>
-                    <div className="p-6">
+                    <div className="px-6 pt-4 pb-2">
                       <p className="text-gray-600 font-medium text-lg mb-4">{item.title}</p>
-                      <p className="text-gray-600 font-medium text-sm absolute bottom-0 left-0 right-0 p-4 translate-y-full group-hover:translate-y-0 transition-all duration-300">{item.sortDesc}</p>
+                      <p className="text-gray-600 font-medium text-sm absolute left-0 right-0 p-4 pt-0 translate-y-full group-hover:translate-y-0 transition-all duration-300">{item.sortDesc}</p>
                     </div>
                   </div>
                 </Link>
