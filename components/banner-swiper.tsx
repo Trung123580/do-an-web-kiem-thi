@@ -94,14 +94,10 @@ export default function BannerSwiper() {
                 className="object-cover"
                 priority={index === 0}
               />
-              <div className="absolute inset-0 bg-black/40  flex items-center">
-                <div className="container mx-auto px-4">
-                  <div className="max-w-2xl text-white">
-                    <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-2 md:mb-4">{slide.title}</h2>
-                    <p className="text-sm md:text-base lg:text-xl mb-4 md:mb-6 hidden sm:block">{slide.description}</p>
-                    <Button text={slide.buttonText} className={slide.color}/>
-                  </div>
-                </div>
+              <div className="max-w-4xl text-white absolute left-9 bottom-10  p-4 text-2xl sm:left-11 sm:bottom-6 md:bottom-14 lg:bottom-28 md:left-16 lg:left-24">
+                <h2 className="text-2xl md:text-3xl lg:text-6xl font-bold mb-2 md:mb-4">{slide.title}</h2>
+                <p className="text-sm md:text-base lg:text-xl mb-4 md:mb-6 hidden sm:block">{slide.description}</p>
+                <Button text={slide.buttonText} className={slide.color}/>
               </div>
             </div>
           </div>
@@ -109,7 +105,7 @@ export default function BannerSwiper() {
       </div>
 
       {/* Navigation Arrows */}
-      <button
+      {/* <button
         onClick={() => handleControlClick(prevSlide)}
         className="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 z-20 bg-white bg-opacity-30 hover:bg-opacity-50 p-1 md:p-2 rounded-full text-white transition-all"
         aria-label="Previous slide"
@@ -122,7 +118,7 @@ export default function BannerSwiper() {
         aria-label="Next slide"
       >
         <ChevronRight className="h-4 w-4 md:h-6 md:w-6" />
-      </button>
+      </button> */}
 
       {/* Dots Navigation */}
       <div className="absolute bottom-4 md:bottom-6 left-1/2 -translate-x-1/2 z-20 flex space-x-2">

@@ -1,19 +1,11 @@
 "use client";
-import React, { useState, use } from "react";
 import Image from "next/image";
 import {  stories } from "@/utils/contanst";
+type Params = Promise<{ 'slug-story': string[] }>
 
-type PageParams = {
-  params: Promise<{
-    "slug-story": string[];
-  }>;
-};
-
-export default function Page({ params }: PageParams) {
-  const unwrappedParams = use(params);
-  const slug = unwrappedParams["slug-story"][0];
-  const [storyDetail, setstoryDetail] = useState<any>(stories.find((storyItem:any) => storyItem.slug === slug));
-console.log(storyDetail)
+export default async function Page({ params }: { params: Params }) {
+  const slug = ( await params)["slug-story"][0]
+  const storyDetail: any = stories.find((storyItem:any) => storyItem.slug === slug)
   return (
     <div className="min-h-screen bg-gray-50 pt-24 pb-16">
       <div className="mb-8">
