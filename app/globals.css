@@ -41,7 +41,8 @@
 @theme inline {
   --color-background: var(--foreground);
   --color-foreground: var(--background);
-  --font-family: var(--font-inter)
+  --font-family: var(--font-inter);
+  --animation-wiggle: wiggle 1s ease-in-out infinite;
 }
 
 body {
@@ -64,5 +65,33 @@ body {
   }
   .text-description {
     @apply font-normal text-[18px] -tracking-tighter text-center text-[#111827] leading-[120%]
+  }
+}
+.animate-wiggle {
+  animation: finger 2s ease-in-out infinite;
+}
+.animate-arrow {
+  animation: arrow 2s ease-in-out infinite;
+}
+@keyframes finger {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(40px, -40px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+@keyframes arrow {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, -40px);
+  }
+  100% {
+    transform: translate(0, 0);
   }
 }
