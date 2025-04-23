@@ -130,22 +130,22 @@ export default function page() {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 bg-[#F2F2F3] mb-8 h-auto md:h-[671px] rounded-2xl overflow-hidden">
-          <div className="flex justify-evenly flex-col h-full p-6 md:p-12">
-            <div className="space-y-4 md:space-y-6">
-              <h1 className="text-3xl md:text-5xl font-bold leading-tight">
+        <div className="grid grid-cols-1 md:grid-cols-2 bg-[#F2F2F3] mb-8 h-auto md:h-[230px] xl:h-[570px] lg:h-[350px] 2xl:h-[671px] rounded-2xl overflow-hidden mt-7">
+          <div className="flex justify-evenly flex-col h-full p-6 md:p-5">
+            <div className="space-y-4 md:space-y-2 lg:space-y-4 xl:space-y-6 2xl:space-y-8">
+              <h1 className="text-3xl md:text-2xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold leading-tight">
                 Tư vấn định hướng
                 <br />
                 học tập
               </h1>
-              <p className="text-base md:text-lg max-w-xl">Tư vấn và định hướng phù hợp là cách tốt nhất để giúp người khiếm thính phát huy tiềm năng, lựa chọn đúng hướng đi, và xây dựng lộ trình học tập – nghề nghiệp phù hợp với khả năng, sở thích và điều kiện cá nhân</p>
-              <button className="bg-[#111827] font-light text-white px-8 md:px-12 py-2 md:py-3 rounded-md text-base md:text-lg hover:bg-[#2E4FBE]/80 transition-colors duration-300">Tìm hiểu thêm</button>
+              <p className="md:text-[10px] lg:text-sm xl:text-lg 2xl:text-xl max-w-xl">Tư vấn và định hướng phù hợp là cách tốt nhất để giúp người khiếm thính phát huy tiềm năng, lựa chọn đúng hướng đi, và xây dựng lộ trình học tập – nghề nghiệp phù hợp với khả năng, sở thích và điều kiện cá nhân</p>
+              <button className="bg-[#111827] font-light text-white px-8 md:px-7 lg:px-10 xl:px-12 2xl:px-14 py-2 md:py-2 rounded-md text-base md:text-xs lg:text-base xl:text-lg 2xl:text-xl hover:bg-[#2E4FBE]/80 transition-colors duration-300">Tìm hiểu thêm</button>
             </div>
           </div>
           <div className="relative z-0 overflow-visible group h-[300px] md:h-auto">
-            <img src="/image/banner-6.png" alt="Education Banner" className="object-cover absolute bottom-0 left-0 w-1/3 md:w-auto hover:scale-125 hover:opacity-100 hover:z-10 transition-all duration-300 group-hover:opacity-40 group-hover:scale-90" />
-            <img src="/image/banner-7.png" alt="Education Banner" className="object-cover absolute bottom-0 left-1/2 -translate-x-1/2 w-1/3 md:w-auto hover:scale-125 hover:opacity-100 hover:z-10 transition-all duration-300 group-hover:opacity-40 group-hover:scale-90" />
-            <img src="/image/banner-8.png" alt="Education Banner" className="object-cover absolute bottom-0 right-0 w-1/3 md:w-auto hover:scale-125 hover:opacity-100 hover:z-10 transition-all duration-300 group-hover:opacity-40 group-hover:scale-90" />
+            <img src="/image/banner-6.png" alt="Education Banner" className="object-cover sm:max-h-full sm:object-contain absolute bottom-0 left-0 w-1/3 xl:w-1/2 hover:scale-125 hover:opacity-100 hover:z-10 transition-all duration-300 group-hover:opacity-40 group-hover:scale-90" />
+            <img src="/image/banner-7.png" alt="Education Banner" className="object-cover sm:max-h-full sm:object-contain absolute bottom-0 left-1/2 -translate-x-1/2 w-1/3 xl:w-1/2 hover:scale-125 hover:opacity-100 hover:z-10 transition-all duration-300 group-hover:opacity-40 group-hover:scale-90" />
+            <img src="/image/banner-8.png" alt="Education Banner" className="object-cover sm:max-h-full sm:object-contain absolute bottom-0 right-0 w-1/3 xl:w-1/2 hover:scale-125 hover:opacity-100 hover:z-10 transition-all duration-300 group-hover:opacity-40 group-hover:scale-90" />
           </div>
         </div>
       </div>
