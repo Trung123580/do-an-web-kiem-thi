@@ -42,19 +42,19 @@ export default function EducationPage() {
   return (
     <div className="min-h-screen bg-gray-50 pt-24 pb-8">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-2 bg-[#F2F2F3] mb-8 h-[480px] rounded-2xl overflow-hidden">
-          <div className="flex justify-evenly flex-col h-full p-12">
-            <div className="space-y-6">
-              <h1 className="text-5xl font-bold leading-tight">
+        <div className="grid grid-cols-1 md:grid-cols-2 bg-[#F2F2F3] mb-8 h-auto md:h-[480px] rounded-2xl overflow-hidden">
+          <div className="flex justify-evenly flex-col h-full p-6 md:p-8 lg:p-12">
+            <div className="space-y-4 md:space-y-6">
+              <h1 className="text-4xl sm:text-2xl md:text-2xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold leading-tight">
                 Ngôn ngữ ký hiệu là
                 <br />
                 phương tiện giao tiếp
               </h1>
-              <p className="text-lg max-w-xl">Ngôn ngữ ký hiệu là một hình thức giao tiếp bằng thị giác, sử dụng các cử chỉ tay, biểu cảm khuôn mặt và chuyển động cơ thể để truyền đạt thông tin.</p>
-              <button className="bg-[#111827] font-light text-white px-12 py-3 rounded-md text-lg hover:bg-[#2E4FBE]/80 transition-colors duration-300">Tìm hiểu thêm</button>
+              <p className="text-base sm:text-xs md:text-xs lg:text-base xl:text-lg 2xl:text-xl max-w-xl">Ngôn ngữ ký hiệu là một hình thức giao tiếp bằng thị giác, sử dụng các cử chỉ tay, biểu cảm khuôn mặt và chuyển động cơ thể để truyền đạt thông tin.</p>
+              <button className="bg-[#111827] font-light text-white px-7 py-2 sm:px-3 sm:py-2 md:px-6 md:py-2 lg:px-12 lg:py-3 xl:px-12 xl:py-3 2xl:px-12 2xl:py-3 rounded-md text-base sm:text-xs md:text-sm lg:text-base  hover:bg-[#2E4FBE]/80 transition-colors duration-300">Tìm hiểu thêm</button>
             </div>
           </div>
-          <div className="rounded-2xl h-full overflow-hidden">
+          <div className="rounded-2xl h-[300px] md:h-full overflow-hidden">
             <Image src="/image/banner-5.png" alt="Education Banner" width={500} height={500} className="object-cover w-full h-full" priority />
           </div>
         </div>
@@ -124,22 +124,22 @@ export default function EducationPage() {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-2 bg-[#F2F2F3] mb-8 h-[671px] rounded-2xl overflow-hidden">
-          <div className="flex justify-evenly flex-col h-full p-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 bg-[#F2F2F3] mb-8 h-auto sm:h-[255px] md:h-[345px] lg:h-[400px] xl:h-[495px] 2xl:h-[671px] rounded-2xl overflow-hidden mt-6">
+          <div className="flex justify-evenly flex-col p-6 md:p-12">
             <div className="space-y-6">
-              <h1 className="text-5xl font-bold leading-tight">
+              <h1 className="text-4xl sm:text-2xl md:text-2xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold leading-tight">
                 Tư vấn định hướng
                 <br />
                 học tập
               </h1>
-              <p className="text-lg max-w-xl">Tư vấn và định hướng phù hợp là cách tốt nhất để giúp người khiếm thính phát huy tiềm năng, lựa chọn đúng hướng đi, và xây dựng lộ trình học tập – nghề nghiệp phù hợp với khả năng, sở thích và điều kiện cá nhân</p>
-              <button className="bg-[#111827] font-light text-white px-12 py-3 rounded-md text-lg hover:bg-[#2E4FBE]/80 transition-colors duration-300">Tìm hiểu thêm</button>
+              <p className="text-base sm:text-xs md:text-xs lg:text-base xl:text-lg 2xl:text-xl max-w-xl">Tư vấn và định hướng phù hợp là cách tốt nhất để giúp người khiếm thính phát huy tiềm năng, lựa chọn đúng hướng đi, và xây dựng lộ trình học tập – nghề nghiệp phù hợp với khả năng, sở thích và điều kiện cá nhân</p>
+              <button className="bg-[#111827] font-light text-white px-7 py-2 sm:px-3 sm:py-2 md:px-6 md:py-2 lg:px-12 lg:py-3 xl:px-12 xl:py-3 2xl:px-12 2xl:py-3 rounded-md text-base sm:text-xs md:text-sm lg:text-base  hover:bg-[#2E4FBE]/80 transition-colors duration-300">Tìm hiểu thêm</button>
             </div>
           </div>
-          <div className="relative z-0 overflow-visible group">
-            <img src="/image/banner-6.png" alt="Education Banner" className="object-cover absolute bottom-0 left-0  hover:scale-125 hover:opacity-100 hover:z-10 transition-all duration-300 group-hover:opacity-40 group-hover:scale-90 " />
-            <img src="/image/banner-7.png" alt="Education Banner" className="object-cover absolute bottom-0 left-1/2 -translate-x-1/2 hover:scale-125 hover:opacity-100 hover:z-10 transition-all duration-300 group-hover:opacity-40 group-hover:scale-90" />
-            <img src="/image/banner-8.png" alt="Education Banner" className="object-cover absolute bottom-0 right-0 hover:scale-125 hover:opacity-100 hover:z-10 transition-all duration-300 group-hover:opacity-40 group-hover:scale-90" />
+          <div className="relative z-0 overflow-visible h-[400px] sm:h-auto group">
+            <img src="/image/banner-6.png" alt="Education Banner" className="object-cover h-full absolute bottom-0 left-0  hover:scale-125 hover:opacity-100 hover:z-10 transition-all duration-300 group-hover:opacity-40 group-hover:scale-90 " />
+            <img src="/image/banner-7.png" alt="Education Banner" className="object-cover h-full absolute bottom-0 left-1/2 -translate-x-1/2 hover:scale-125 hover:opacity-100 hover:z-10 transition-all duration-300 group-hover:opacity-40 group-hover:scale-90" />
+            <img src="/image/banner-8.png" alt="Education Banner" className="object-cover h-full absolute bottom-0 right-0 hover:scale-125 hover:opacity-100 hover:z-10 transition-all duration-300 group-hover:opacity-40 group-hover:scale-90" />
           </div>
         </div>
       </div>

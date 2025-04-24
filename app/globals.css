@@ -73,6 +73,7 @@ body {
 .animate-arrow {
   animation: arrow 2s ease-in-out infinite;
 }
+
 @keyframes finger {
   0% {
     transform: translate(0, 0);

@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { dataSukien, dataVolunteer } from "@/utils/contanst";
 import Slider from "react-slick";
+import SwiperSlider from "@/components/SwiperSlider";
 
 export default function page() {
   const volunteerCarouselSettings = {
@@ -42,31 +43,32 @@ export default function page() {
   return (
     <div className="min-h-screen bg-gray-50 pt-16 md:pt-24 pb-8">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row mb-8 h-auto md:h-[480px] rounded-2xl overflow-hidden gap-4 md:gap-8">
+        <div className="flex flex-col md:flex-row mb-8 h-[300px] sm:h-[500px] md:h-[340px] lg:h-[480px] rounded-2xl overflow-hidden gap-4 md:gap-8 mt-6">
           <div className="flex justify-evenly bg-[#F2F2F3] flex-col h-[300px] md:h-full p-6 md:p-10 basis-full md:basis-1/3 rounded-2xl">
             <div className="relative h-full w-full">
               <div className="relative h-full w-full">
                 <img 
                   src="/image/finger1.png" 
                   alt="" 
-                  className="object-cover absolute -top-2 left-8 md:left-12 z-1 animate-wiggle w-16 md:w-auto" 
+                  className="object-cover absolute top-14 sm:top-7 md:top-10 lg:top-16 xl:top-8 2xl:-top-3 left-1/2 sm:left-56 md:left-7 lg:left-10 xl:left-10 2xl:left-20 z-1 animate-wiggle w-20 sm:w-20 lg:w-30 xl:w-40 2xl:w-45" 
                 />
-                <img src="/image/finger2.png" alt="" className="object-cover absolute top-9 right-8 md:right-11 w-16 md:w-auto" />
-                <img src="/image/arrow1.png" alt="" className="object-cover absolute bottom-20 md:bottom-28 left-16 md:left-28 animate-arrow w-16 md:w-auto" />
+                <img src="/image/finger2.png" alt="" className="object-cover absolute top-14 sm:top-7 md:top-16 lg:top-24 xl:top-16 2xl:top-8 right-1/3 sm:right-1/3 md:right-1 lg:right-3 xl:right-8 2xl:right-10 w-20 sm:w-20 lg:w-30 xl:w-40 2xl:w-45 " />
+                <img src="/image/arrow1.png" alt="" className="object-cover absolute bottom-16 sm:bottom-16 md:bottom-24 lg:bottom-32 xl:bottom-28 2xl:bottom-32 left-64 sm:left-64  md:left-12 lg:left-16 xl:left-20 2xl:left-32 animate-arrow w-4 sm:w-4 md:w-5 lg:w-9 xl:w-12 2xl:w-14" />
               </div>
               <div className="absolute bottom-0 left-0 flex justify-center items-center flex-col gap-2 w-full">
-                <p className="font-light text-base md:text-lg">Ký hiệu trong ngày</p>
-                <h1 className="text-4xl md:text-5xl font-bold leading-tight">Ốm</h1>
+                <p className="font-light text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">Ký hiệu trong ngày</p>
+                <h1 className="text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold leading-tight">Ốm</h1>
               </div>
             </div>
           </div>
-          <div className="rounded-2xl h-[300px] md:h-full overflow-hidden basis-full md:basis-2/3">
+          <div className="rounded-2xl h-[300px] md:h-full overflow-hidden basis-full md:basis-2/3 hidden sm:block">
             <Image src="/image/banner-5.png" alt="Education Banner" width={500} height={500} className="object-cover w-full h-full" priority />
           </div>
         </div>
+        <SwiperSlider />
         <div className="grid grid-cols-1 md:grid-cols-[2fr,1fr] gap-4 md:gap-8">
           <div>
-            <h2 className="text-2xl md:text-3xl font-bold mb-6 md:mb-8">Trị liệu ngôn ngữ</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-6 md:mb-8">Khóa học</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
               {dataSukien.slice(0, 4).map((course, index) => (
                 <Link href={`/giao-duc/khoa-hoc/${course.slug}`} key={index}>
@@ -98,7 +100,7 @@ export default function page() {
             </div>
           </div>
           <div>
-            <h2 className="text-2xl md:text-3xl font-bold mb-6 md:mb-8">Kỹ năng mềm</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-6 md:mb-8">Khóa học trực tuyến</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
               {dataSukien.slice(0, 4).map((course, index) => (
                 <Link href={`/giao-duc/khoa-hoc/${course.slug}`} key={index}>
@@ -123,69 +125,8 @@ export default function page() {
                 </Link>
               ))}
             </div>
-            <div className="text-end mt-4 md:mt-6">
-              <Link href="/" className="inline-flex items-center text-sm font-medium hover:text-gray-900 px-5 md:px-7 py-2 rounded-sm border bg-[#FFFFFF] border-[#CFD1D4] text-[#414652]">
-                Xem thêm &rarr;
-              </Link>
-            </div>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 bg-[#F2F2F3] mb-8 h-auto md:h-[230px] xl:h-[570px] lg:h-[350px] 2xl:h-[671px] rounded-2xl overflow-hidden mt-7">
-          <div className="flex justify-evenly flex-col h-full p-6 md:p-5">
-            <div className="space-y-4 md:space-y-2 lg:space-y-4 xl:space-y-6 2xl:space-y-8">
-              <h1 className="text-3xl md:text-2xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold leading-tight">
-                Tư vấn định hướng
-                <br />
-                học tập
-              </h1>
-              <p className="md:text-[10px] lg:text-sm xl:text-lg 2xl:text-xl max-w-xl">Tư vấn và định hướng phù hợp là cách tốt nhất để giúp người khiếm thính phát huy tiềm năng, lựa chọn đúng hướng đi, và xây dựng lộ trình học tập – nghề nghiệp phù hợp với khả năng, sở thích và điều kiện cá nhân</p>
-              <button className="bg-[#111827] font-light text-white px-8 md:px-7 lg:px-10 xl:px-12 2xl:px-14 py-2 md:py-2 rounded-md text-base md:text-xs lg:text-base xl:text-lg 2xl:text-xl hover:bg-[#2E4FBE]/80 transition-colors duration-300">Tìm hiểu thêm</button>
-            </div>
-          </div>
-          <div className="relative z-0 overflow-visible group h-[300px] md:h-auto">
-            <img src="/image/banner-6.png" alt="Education Banner" className="object-cover sm:max-h-full sm:object-contain absolute bottom-0 left-0 w-1/3 xl:w-1/2 hover:scale-125 hover:opacity-100 hover:z-10 transition-all duration-300 group-hover:opacity-40 group-hover:scale-90" />
-            <img src="/image/banner-7.png" alt="Education Banner" className="object-cover sm:max-h-full sm:object-contain absolute bottom-0 left-1/2 -translate-x-1/2 w-1/3 xl:w-1/2 hover:scale-125 hover:opacity-100 hover:z-10 transition-all duration-300 group-hover:opacity-40 group-hover:scale-90" />
-            <img src="/image/banner-8.png" alt="Education Banner" className="object-cover sm:max-h-full sm:object-contain absolute bottom-0 right-0 w-1/3 xl:w-1/2 hover:scale-125 hover:opacity-100 hover:z-10 transition-all duration-300 group-hover:opacity-40 group-hover:scale-90" />
-          </div>
-        </div>
-      </div>
-      <div className="container mx-auto px-4">
-        <h2 className="text-2xl md:text-3xl font-bold mb-6 md:mb-8">Thông tin</h2>
-        <Slider {...volunteerCarouselSettings} className="volunteer-carousel -mx-3 overflow-hidden">
-          {dataVolunteer.map((item, index) => {
-            return (
-              <Link key={index} href={`/ve-chung-toi/tham-gia-chung-toi/volunteer/${item.slug}`} className="px-3 h-full">
-                <div className="bg-white overflow-hidden shadow-lg h-full group relative rounded-2xl">
-                  <div className="relative h-48 md:h-60 group-hover:h-32 md:group-hover:h-40 transition-all duration-300 rounded-2xl">
-                    <Image src={item.img} alt={item.title} fill className="object-cover" />
-                  </div>
-                  <div className="px-4 md:px-6 pt-4 pb-2">
-                    <p className="text-gray-600 font-medium text-base md:text-lg mb-4">{item.title}</p>
-                    <p className="text-gray-600 font-medium text-xs md:text-sm absolute left-0 right-0 p-4 pt-0 translate-y-full group-hover:translate-y-0 transition-all duration-300">{item.sortDesc}</p>
-                  </div>
-                </div>
-              </Link>
-            );
-          })}
-        </Slider>
-        <style jsx global>{`
-          .volunteer-carousel .slick-track {
-            display: flex !important;
-            padding: 1rem 0;
-          }
-          .volunteer-carousel .slick-slide {
-            height: inherit !important;
-            margin-bottom: 1rem;
-          }
-          .volunteer-carousel .slick-slide > div {
-            height: 100%;
-          }
-        `}</style>
-         <div className="text-end mt-4 md:mt-6">
-        <Link href="/" className="inline-flex items-center text-sm font-medium hover:text-gray-900 px-5 md:px-7 py-2 rounded-sm border bg-[#FFFFFF] border-[#CFD1D4] text-[#414652]">
-          Xem thêm &rarr;
-        </Link>
-      </div>
       </div>
      
     </div>
