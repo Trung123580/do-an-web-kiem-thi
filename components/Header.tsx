@@ -2,6 +2,7 @@
 
 import { ChevronDown } from "lucide-react"
 import Link from "next/link"
+import Image from "next/image"
 import { usePathname } from "next/navigation"
 import SearchButton from "./search-button"
 import MobileMenu from "./mobile-menu"
@@ -25,9 +26,8 @@ export default function Header() {
       <div className="container mx-auto px-4 flex items-center justify-between h-16 md:h-20">
         {/* Logo */}
         <Link href="/" className="text-[#3a63ed] text-3xl font-bold">
-          F
+        <Image src="/image/Logo.png" alt="logo" width={100} height={100} />
         </Link>
-
         {/* Desktop Navigation Links */}
         <nav className="hidden md:flex flex-1 justify-center h-full">
           <div className="relative flex space-x-4 lg:space-x-8 h-full items-center">
@@ -40,7 +40,7 @@ export default function Header() {
                 } font-medium px-3 py-2 inline-flex h-full items-center relative group h-full `}
               >
                 Về chúng tôi
-                <ChevronDown className="ml-1 h-4 w-4 transition-transform group-hover:rotate-180" />
+                
                 {isActivePath("/ve-chung-toi") ? (
                   <div className="absolute bottom-0 left-0 w-full h-1 bg-[#3a63ed]"></div>
                 ) : (
@@ -68,7 +68,7 @@ export default function Header() {
                 } font-medium px-3 py-2 inline-flex items-center relative group h-full `}
               >
                 Thông tin
-                <ChevronDown className="ml-1 h-4 w-4 transition-transform group-hover:rotate-180" />
+                
                 {isActivePath("/thong-tin") ? (
                   <div className="absolute bottom-0 left-0 w-full h-1 bg-[#3a63ed]"></div>
                 ) : (
@@ -102,7 +102,7 @@ export default function Header() {
                 } font-medium px-3 py-2 inline-flex items-center relative group h-full `}
               >
                 Giáo dục
-                <ChevronDown className="ml-1 h-4 w-4 transition-transform group-hover:rotate-180" />
+                
                 {isActivePath("/giao-duc") ? (
                   <div className="absolute bottom-0 left-0 w-full h-1 bg-[#3a63ed]"></div>
                 ) : (
@@ -139,7 +139,7 @@ export default function Header() {
                 } font-medium px-3 py-2 inline-flex items-center relative group h-full `}
               >
                 Nghề nghiệp
-                <ChevronDown className="ml-1 h-4 w-4 transition-transform group-hover:rotate-180" />
+                
                 {isActivePath("/nghe-nghiep") ? (
                   <div className="absolute bottom-0 left-0 w-full h-1 bg-[#3a63ed]"></div>
                 ) : (
@@ -166,7 +166,7 @@ export default function Header() {
         {/* Desktop Right Side Actions */}
         <div className="hidden md:flex items-center space-x-4">
           <div className="relative group h-full">
-            <button className="bg-[#3a63ed] text-white px-4 py-2 rounded-md flex items-center">
+            <button className="bg-[#3a63ed] text-white pl-8 pr-6 py-4 text-lg rounded-md flex items-center">
               Gây quỹ <ChevronDown className="ml-1 h-4 w-4 transition-transform group-hover:rotate-180" />
             </button>
             {/* Dropdown Menu */}

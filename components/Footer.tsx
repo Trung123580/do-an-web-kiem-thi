@@ -24,7 +24,7 @@ export default function DonateSection() {
       {/* Subscribe section */}
       <div className='bg-[#3B82F6] text-white px-4 py-8'>
         <div className='max-w-7xl mx-auto'>
-          <h3 className='text-xl font-semibold mb-1'>Đăng ký thông báo</h3>
+          <h3 className='text-[32px] font-semibold mb-1'>Đăng ký thông báo</h3>
           <p className='text-sm text-white/90 mb-6 md:mb-4 max-w-3xl'>
             Đăng ký nhận thông tin để cập nhật những tin tức, sự kiện và chương trình hỗ trợ giáo dục, đào tạo hướng nghiệp. Nhận các cập nhật, câu chuyện truyền cảm hứng và các tin tức mới nhất nhanh chóng.
           </p>
@@ -37,14 +37,14 @@ export default function DonateSection() {
 
           {/* Footer Links */}
           <div className='flex flex-col md:flex-row justify-between items-center mt-8 pt-6 border-t border-white/20'>
-            <div className='flex flex-wrap justify-center md:justify-start gap-4 md:gap-6 mb-4 md:mb-0 text-sm'>
-              <a href='#' className='text-white/90 hover:text-white transition-colors'>
+            <div className='flex flex-wrap justify-center md:justify-start gap-4 md:gap-6 mb-4 md:mb-0 text-2xl'>
+              <a href='#' className='text-white/80 hover:text-white transition-colors'>
                 Liên hệ với chúng tôi
               </a>
-              <a href='#' className='text-white/90 hover:text-white transition-colors'>
+              <a href='#' className='text-white/80 hover:text-white transition-colors'>
                 Quyền riêng tư và Cookie
               </a>
-              <a href='#' className='text-white/90 hover:text-white transition-colors'>
+              <a href='#' className='text-white/80 hover:text-white transition-colors'>
                 Chính sách cộng đồng
               </a>
             </div>
