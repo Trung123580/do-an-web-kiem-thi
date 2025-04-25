@@ -66,7 +66,7 @@ export default function SearchButton({ isMobile = false }: SearchButtonProps) {
             ref={inputRef}
             type="text"
             placeholder="Tìm kiếm..."
-            className="border border-[#cfd1d4] rounded-md py-1 px-3 text-sm w-[200px] focus:outline-none focus:ring-2 focus:ring-[#3a63ed] focus:border-transparent"
+            className="border border-[#cfd1d4] rounded-md py-2 px-3 text-sm w-[200px] focus:outline-none focus:ring-2 focus:ring-[#3a63ed] focus:border-transparent"
           />
           <button
             onClick={toggleSearch}

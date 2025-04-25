@@ -14,7 +14,7 @@ export default function Home() {
       <BannerSwiper />
       <section className='relative w-full'>
         <div className='max-w-[846px] mx-auto h-[568px] flex justify-center items-center flex-col gap-[30px]'>
-          <h3 className='text-header'>Hoạt động của chúng tôi</h3>
+          <h3 className='text-header font-bold text-5xl'>Hoạt động của chúng tôi</h3>
           <p className='text-description'>
             Foundation for Future cung cấp thông tin giáo dục và đào tạo hướng nghiệp trực tuyến, nhằm trang bị những kiến thức cơ bản và thiết yếu cho cộng đồng người khiếm thính. Qua đó, tổ chức hỗ trợ họ xây dựng nền tảng tự lập và phát triển bền
             vững trong cuộc sống.

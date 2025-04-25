@@ -66,32 +66,38 @@ export default function AboutPage() {
               Foundation for Future là tổ chức cung cấp thông tin hỗ trợ giáo dục và đào tạo nghề nghiệp cho người khiếm thính, thông qua nền tảng trực tuyến thân thiện, dễ tiếp cận. Chúng tôi giúp họ trang bị kiến thức, kỹ năng cơ bản để tự lập,
               phát triển bền vững và tăng bước hòa nhập vào cộng đồng.
             </p>
-            <Link href='/ve-chung-toi/tham-gia-chung-toi' className='inline-flex px-6 py-3 bg-[#3A63ED] text-white rounded-md  hover:opacity-50 transition-colors'>
+            <Link href='/ve-chung-toi/tham-gia-chung-toi' className='inline-flex px-6 py-3 bg-[#3A63ED] text-white rounded-md hover:bg-[#4338CA] transition-colors'>
               Tham gia cùng chúng tôi
             </Link>
           </div>
 
-          <div className='flex flex-col gap-4 max-h-[447px] overflow-x-hidden overflow-y-auto px-3'>
-            {[
+          <div className='flex flex-col gap-4 max-h-[447px] overflow-x-hidden overflow-y-auto px-4'>
+          {[
               {
-                description: "Cung cấp thông tin và tài nguyên giáo dục cho người khiếm thính, bao gồm khóa học ngôn ngữ ký hiệu, tài liệu ngôn ngữ, kỹ năng và tài liệu học tập phụ trợ.",
+                title: "Cung cấp thông tin và tài nguyên giáo dục cho người khiếm thính",
+                description: "bao gồm khóa học ngôn ngữ ký hiệu, tài liệu ngôn ngữ, kỹ năng và tài liệu học tập phụ trợ.",
               },
               {
-                description: "Cung cấp chương trình đào tạo nghề và thông tin tuyển dụng, nhằm giúp người khiếm thính định hướng nghề nghiệp và tìm kiếm cơ hội việc làm phù hợp.",
+                title: "Cung cấp chương trình đào tạo nghề và thông tin tuyển dụng",
+                description: "nhằm giúp người khiếm thính định hướng nghề nghiệp và tìm kiếm cơ hội việc làm phù hợp.",
               },
               {
-                description: "Cung cấp tư vấn định hướng học tập và nghề nghiệp, đặc biệt dành cho người khiếm thính và người chăm sóc.",
+                title: "Cung cấp tư vấn định hướng học tập và nghề nghiệp",
+                description: "đặc biệt dành cho người khiếm thính và người chăm sóc.",
               },
               {
-                description: "Cung cấp thông tin và thiết bị hỗ trợ, chương trình trợ giúp và phương pháp chăm sóc - giáo dục người khiếm thính.",
+                title: "Cung cấp thông tin và thiết bị hỗ trợ, chương trình trợ giúp",
+                description: "và phương pháp chăm sóc - giáo dục người khiếm thính.",
               },
               {
-                description: "Cung cấp tin tức và truyền thông xã hội góp phần nâng cao nhận thức của cộng đồng về người khiếm thính.",
+                title: "Cung cấp tin tức và truyền thông xã hội",
+                description: "góp phần nâng cao nhận thức của cộng đồng về người khiếm thính.",
               },
             ].map((item, index) => (
               <div key={index} className='bg-gray-100 p-8 rounded-lg'>
                 <p className='text-gray-800 text-lg'>
-                  {item.description}
+                  <span>{item.title}</span>
+                  {item.description && `, ${item.description}`}
                 </p>
               </div>
             ))}
