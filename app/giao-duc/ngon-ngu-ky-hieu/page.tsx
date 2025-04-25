@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { dataSukien, dataVolunteer } from "@/utils/contanst";
+import { dataSukien, dataVolunteer, khoaHoc } from "@/utils/contanst";
 import Slider from "react-slick";
 import SwiperSlider from "@/components/SwiperSlider";
 
@@ -70,7 +70,7 @@ export default function page() {
           <div>
             <h2 className="text-2xl md:text-3xl font-bold mb-6 md:mb-8">Khóa học</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
-              {dataSukien.slice(0, 4).map((course, index) => (
+              {khoaHoc.slice(0, 4).map((course, index) => (
                 <Link href={`/giao-duc/khoa-hoc/${course.slug}`} key={index}>
                   <div className="rounded-2xl overflow-hidden group cursor-pointer hover:shadow-lg hover:shadow-[#5d7deb80] transition-shadow duration-300 h-auto md:h-[472px]">
                     <div className="relative h-48 md:h-72 bg-[#CFD1D4]">
