@@ -66,3 +66,6 @@ body {
     @apply font-normal text-[18px] -tracking-tighter text-center text-[#111827] leading-[120%]
   }
 }
+.shadow-header {
+  box-shadow: 0px 1px 12.1px -3px #0000004D;
+}

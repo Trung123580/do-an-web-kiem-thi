@@ -39,7 +39,7 @@ export default function AboutPage() {
             <h2 className='text-[32px] font-bold'>
               Câu chuyện về
               <br />
-              <span className='text-[#4F46E5]'>Người khiếm thính</span>
+              <span className='text-[#3A63ED]'>Người khiếm thính</span>
             </h2>
             <p className='text-gray-600 text-lg leading-relaxed'>
               Chúng tôi bắt đầu từ một sự thật tưởng chừng đơn giản: người khiếm thính khó tiếp cận với giáo dục và đào tạo nghề. Qua quá trình thực hiện trình tìm hiểu và đồng hành cùng cộng đồng người khiếm thính, chúng tôi chứng kiến quá nhiều
@@ -66,12 +66,12 @@ export default function AboutPage() {
               Foundation for Future là tổ chức cung cấp thông tin hỗ trợ giáo dục và đào tạo nghề nghiệp cho người khiếm thính, thông qua nền tảng trực tuyến thân thiện, dễ tiếp cận. Chúng tôi giúp họ trang bị kiến thức, kỹ năng cơ bản để tự lập,
               phát triển bền vững và tăng bước hòa nhập vào cộng đồng.
             </p>
-            <Link href='/ve-chung-toi/tham-gia-chung-toi' className='inline-flex px-6 py-3 bg-[#4F46E5] text-white rounded-md hover:bg-[#4338CA] transition-colors'>
+            <Link href='/ve-chung-toi/tham-gia-chung-toi' className='inline-flex px-6 py-3 bg-[#3A63ED] text-white rounded-md hover:bg-[#4338CA] transition-colors'>
               Tham gia cùng chúng tôi
             </Link>
           </div>
 
-          <div className='flex flex-col gap-4 max-h-[447px] overflow-x-hidden overflow-y-auto'>
+          <div className='flex flex-col gap-4 max-h-[447px] overflow-x-hidden overflow-y-auto px-4'>
             {[
               {
                 title: "Cung cấp thông tin và tài nguyên giáo dục cho người khiếm thính",
@@ -96,7 +96,7 @@ export default function AboutPage() {
             ].map((item, index) => (
               <div key={index} className='bg-gray-100 p-8 rounded-lg'>
                 <p className='text-gray-800 text-lg'>
-                  <span className='font-semibold'>{item.title}</span>
+                  <span>{item.title}</span>
                   {item.description && `, ${item.description}`}
                 </p>
               </div>

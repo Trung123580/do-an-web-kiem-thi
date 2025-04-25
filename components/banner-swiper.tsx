@@ -11,7 +11,7 @@ const slides = [
     id: 1,
     title: "Hỗ trợ giáo dục cho người khiếm thính",
     description: "Chúng tôi cung cấp các chương trình giáo dục đặc biệt cho người khiếm thính.",
-    buttonText: "Tìm hiểu thêm",
+    buttonText: "Xem thêm",
     image: "/image/banner-1.png",
     color: "bg-blue-500",
   },
@@ -19,7 +19,7 @@ const slides = [
     id: 2,
     title: "Đào tạo nghề nghiệp",
     description: "Các khóa học kỹ năng nghề nghiệp giúp tạo cơ hội việc làm bền vững.",
-    buttonText: "Xem khóa học",
+    buttonText: "Xem thêm",
     image: "/image/banner-2.png",
     color: "bg-green-500",
   },
@@ -27,8 +27,16 @@ const slides = [
     id: 3,
     title: "Hòa nhập cộng đồng",
     description: "Các hoạt động xã hội giúp người khiếm thính hòa nhập tốt hơn với cộng đồng.",
-    buttonText: "Tham gia ngay",
+    buttonText: "Xem thêm",
     image: "/image/banner-3.png",
+    color: "bg-purple-500",
+  },
+  {
+    id: 3,
+    title: "Ngôn ngữ ký hiệu: Phương tiện giao tiếp",
+    description: "Ngôn ngữ ký hiệu là một phương tiện giao tiếp quan trọng cho cộng đồng người kiếm thính trên toàn thế giới",
+    buttonText: "Xem thêm",
+    image: "/image/banner-5.png",
     color: "bg-purple-500",
   },
 ]
@@ -96,8 +104,8 @@ export default function BannerSwiper() {
               />
               <div className="max-w-4xl text-white absolute left-9 bottom-10  p-4 text-2xl sm:left-11 sm:bottom-6 md:bottom-14 lg:bottom-28 md:left-16 lg:left-24">
                 <h2 className="text-2xl md:text-3xl lg:text-6xl font-bold mb-2 md:mb-4">{slide.title}</h2>
-                <p className="text-sm md:text-base lg:text-xl mb-4 md:mb-6 hidden sm:block">{slide.description}</p>
-                <Button text={slide.buttonText} className={slide.color}/>
+                <p className="text-[18px] mb-4 md:mb-6 hidden sm:block">{slide.description}</p>
+                <Button text={slide.buttonText} className="bg-[#3A63ED] text-[18px]"/>
               </div>
             </div>
           </div>
