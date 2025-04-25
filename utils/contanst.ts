@@ -2156,8 +2156,7 @@ export const stories = [
 	'text',
   ];
 
-
-  export const dataJob = [
+export const dataJob = [
 	{
 	  img: "/image/job-1.png",
 	  imgDetail: "/image/job-1-detail.png",
@@ -2342,8 +2341,6 @@ export const stories = [
 	  ]
 	  },
   ];
-
-  
 export const dataVolunteer = [
 	{
 	  img: "/image/volunteer-1.png",
@@ -2569,3 +2566,252 @@ export const dataSukien = [
 	]
 },
 ];
+export const khoaHoc = [
+	{
+		img: "/image/volunteer-1.png",
+		title: "Docker Container Practice",
+		description: "As a senior developer, achieving a balance between work and life is crucial. In this article, I will share some practical methods to achieve t...",
+		date: "14.05.25",
+		slug: "docker-container-practice-1",
+		organization: [
+			{
+				img: "/image/Ellipse-6.png",
+				title: "DNXH vì người khiếm thính Việt Nam",
+			}
+		],
+		sponsoring: [
+			{
+				img: "/image/Ellipse-7.png",
+				title: "Foundation for Future",
+			}
+		],
+		sortDesc: "Trang bị cho người khiêm thính những kiến thức và kỹ năng thực tiễn để tự tin bước vào thị trường lao động. Tạo cơ hội kết nỗi giữa người khiếm thính và chuyên gia hướng nghiệp.",
+		time: "Chủ Nhật, 20/7/2025 (09:00 – 16:00)",
+		location: "Số 15, Đường Lê Duẩn, Quận Hai Bà Trưng, Hà Nội",
+		requirements: [
+		"Kỹ năng giao tiếp: Tốt, thân thiện và nhiệt huyết",
+		"Ưu tiên: Ứng viên có kinh nghiệm làm việc trong các hoạt động hướng nghiệp, đào tạo kỹ năng mềm, hoặc biết ngôn ngữ ký hiệu",
+		"Thái độ: Năng động, có tinh thần trách nhiệm và khả năng làm việc nhóm tốt",
+		],
+		roles: [
+		"Hỗ trợ điều phối sự kiện, đăng ký và tiếp đón học viên",
+		"Hỗ trợ phiên chia sẻ và phiên dịch ngôn ngữ ký hiệu cho người tham dự nếu cần thiết",
+		"Giao tiếp hỗ trợ chuyên môn: Hỗ trợ tư vấn, cung cấp thông tin và hướng dẫn các hoạt động của workshop",
+		],
+		benefits: [
+		"Cơ hội được đào tạo kỹ năng quản lý dự án, tổ chức sự kiện chuyên nghiệp",
+		"Mở rộng mạng lưới kết nối với cộng đồng và các chuyên gia trong lĩnh vực giáo dục, hướng nghiệp",
+		"Cơ hội góp phần trực tiếp vào việc thay đổi cuộc sống của người khiếm thính",
+		]
+	},
+	{
+		img: "/image/volunteer-2.png",
+		title: "Docker Container Practice",
+		description: "As a senior developer, achieving a balance between work and life is crucial. In this article, I will share some practical methods to achieve t...",
+		date: "14.05.25",
+		slug: "docker-container-practice-1",
+		organization: [],
+		sponsoring: [
+			{
+				img: "/image/Ellipse-7.png",
+				title: "Foundation for Future",
+			}
+		],
+		sortDesc: "Gây quỹ hỗ trợ học bổng, trang thiết bị trợ tính và chương trình đào tạo cho người khiếm tính. Tăng cường nhận thức cộng của cộng đồng về vai trò và tiềm năng của người khiếm thính.",
+		time: "Thứ Bảy, ngày 28/9/2025 (09:00 – 16:00)",
+		location: "Số 123, Đường Lê Lợi, Quận 1, Thành phố Hồ Chí Minh",
+		requirements: [
+		"Đam mê hoạt động cộng đồng, ưu tiên những người có kiến thức hoặc kinh nghiệm hỗ trợ người khiếm thính.",
+		"Kỹ năng giao tiếp tốt, biết hoặc có khả năng học ngôn ngữ ký hiệu là một lợi thế.",
+		"Năng lực tổ chức, làm việc nhóm và cam kết thời gian sự kiện đầy đủ.",
+		"Có kiến thức, chuyên môn về vị trí đảm nhiệm"
+		],
+		roles: [
+		"Tình nguyện viên Truyền thông & Quảng bá: Chịu trách nhiệm tạo nội dung và lan tỏa thông điệp trên các kênh truyền thông.",
+		"Tình nguyện viên Điều phối Sự kiện: Hỗ trợ tổ chức và phối hợp hoạt động gây quỹ.",
+		"Tình nguyện viên Tiếp cận Cộng đồng: Chủ động kết nối với cá nhân, tổ chức để mời gọi và thu hút sự ủng hộ.",
+		],
+		benefits: [
+		"Chứng nhận hoặc giấy khen từ Foundation for Future.",
+		"Cơ hội trải nghiệm, học hỏi và mở rộng kết nối trong môi trường giáo dục và hướng nghiệp.",
+		"Hỗ trợ đào tạo chuyên sâu về giao tiếp với người khiếm thính và kỹ năng mềm.",
+		]
+	},
+	{
+		img: "/image/volunteer-3.png",
+		title: "Docker Container Practice",
+		description: "As a senior developer, achieving a balance between work and life is crucial. In this article, I will share some practical methods to achieve t...",
+		date: "14.05.25",
+		slug: "docker-container-practice-1",
+		organization: [
+			{
+				img: "/image/Ellipse-8.png",
+				title: "Hội Cha Mẹ Trẻ Khiếm Thính và Người Khiếm Thính Việt Nam",
+			},
+			{
+			img: "/image/Ellipse-7.png",
+			title: "Foundation For Future",
+			}
+		],
+		sponsoring: [
+			{
+				img: "/image/Ellipse-9.png",
+				title: "UNICEF Việt Nam",
+			}
+		],
+		sortDesc: "Truyền cảm hứng và chia sẻ kinh nghiệm đổi mới trong giáo dục và hỗ trợ nghề nghiệp cho người khiếm thính. Tạo sân chơi kết nối, giao lưu và hợp tác giữa người khiếm thính, chuyên gia và doanh nghiệp trong việc phát triển công nghệ, sản phẩm",
+		time: "Thứ Bảy, ngày 15/9/2025 (09:00 – 17:00)",
+		location: "Trung tâm Hội nghị & Triển lãm, Thành phố Hồ Chí Minh.",
+		requirements: [
+		"Các cá nhân năng động, có đam mê hoạt động cộng đồng và sáng tạo.",
+		"Ưu tiên ứng viên có kỹ năng giao tiếp tốt, biết ngôn ngữ ký hiệu hoặc đã có kinh nghiệm làm việc trong các hoạt động tình nguyện và quản lý sự kiện.",
+		],
+		roles: [
+		"Hỗ trợ điều phối: Giúp ban tổ chức điều phối các phiên hội thảo, workshop và phiên giao lưu.",
+		"Hỗ trợ hậu cần: Hướng dẫn người tham dự, phụ trách các gian hàng và hỗ trợ tổ chức sự kiện tại chỗ.",
+		"Truyền thông & quảng bá: Hỗ trợ tạo nội dung, quảng bá sự kiện trên các kênh truyền thông xã hội và phối hợp với các đối tác truyền thông.",
+		"Hỗ trợ kỹ thuật: Hỗ trợ các vấn đề liên quan đến công nghệ, phiên dịch ngôn ngữ ký hiệu, quản lý tài liệu sự kiện."
+		],
+		benefits: [
+		"Cơ hội trải nghiệm môi trường làm việc chuyên nghiệp trong lĩnh vực cộng đồng và giáo dục.",
+		"Phát triển kỹ năng tổ chức sự kiện, giao tiếp và kỹ năng lãnh đạo.",
+		"Kết nối với các chuyên gia, doanh nghiệp và cộng đồng sáng tạo.",
+		"Nhận giấy chứng nhận tình nguyện, hỗ trợ tích lũy kinh nghiệm và mở rộng mạng lưới quan hệ.     "
+		]
+	},
+	];
+export const boTuVung = [
+	{
+	  id: 1,
+	  src: "/image/slider-1.png",
+	  bgColor: "bg-red-500",
+	  title: "Thiên nhiên",
+	  description: "Bộ từ vựng ngôn ngữ ký hiệu về thiên nhiên",
+	  router: "thien-nhien",
+	  items: [
+		{ img: "/image/slider-1.png", title: "Thiên nhiên" },
+		{ img: "/image/slider-1.png", title: "Thiên nhiên" },
+		{ img: "/image/slider-1.png", title: "Thiên nhiên" },
+		{ img: "/image/slider-1.png", title: "Thiên nhiên" },
+		{ img: "/image/slider-1.png", title: "Thiên nhiên" },
+		{ img: "/image/slider-1.png", title: "Thiên nhiên" },
+		{ img: "/image/slider-1.png", title: "Thiên nhiên" },
+		{ img: "/image/slider-1.png", title: "Thiên nhiên" },
+		{ img: "/image/slider-1.png", title: "Thiên nhiên" },
+		{ img: "/image/slider-1.png", title: "Thiên nhiên" },
+		{ img: "/image/slider-1.png", title: "Thiên nhiên" },
+		{ img: "/image/slider-1.png", title: "Thiên nhiên" },
+	  ],
+	},
+	{
+	  id: 2,
+	  src: "/image/slider-2.png",
+	  bgColor: "bg-blue-500",
+	  title: "Quốc gia",
+	  description: "Bộ từ vựng ngôn ngữ ký hiệu tên các Quốc gia trên thế giới",
+	  router: "quoc-gia",
+	  items: [
+		{ img: "/image/slider-2.png", title: "Việt Nam  " },
+		{ img: "/image/slider-2.png", title: "Việt Nam" },
+		{ img: "/image/slider-2.png", title: "Việt Nam" },
+		{ img: "/image/slider-2.png", title: "Việt Nam" },
+		{ img: "/image/slider-2.png", title: "Việt Nam" },
+		{ img: "/image/slider-2.png", title: "Việt Nam" },
+		{ img: "/image/slider-2.png", title: "Việt Nam" },
+		{ img: "/image/slider-2.png", title: "Việt Nam" },
+		{ img: "/image/slider-2.png", title: "Việt Nam" },
+		{ img: "/image/slider-2.png", title: "Việt Nam" },
+		{ img: "/image/slider-2.png", title: "Việt Nam" },
+		{ img: "/image/slider-2.png", title: "Việt Nam" },
+	  ],
+	},
+	{
+	  id: 3,
+	  src: "/image/slider-3.png",
+	  bgColor: "bg-green-500",
+	  title: "Bảng chữ cái",
+	  description: "Bộ từ vựng ngôn ngữ ký hiệu bảng chữ cái Tiếng Việt",
+	  router: "bang-chu-cai",
+	  items: [
+		{ img: "/image/slider-3.png", title: "A" },
+		{ img: "/image/slider-3.png", title: "B" },
+		{ img: "/image/slider-3.png", title: "C" },
+		{ img: "/image/slider-3.png", title: "D" },
+		{ img: "/image/slider-3.png", title: "E" },
+		{ img: "/image/slider-3.png", title: "F" },
+		{ img: "/image/slider-3.png", title: "G" },
+		{ img: "/image/slider-3.png", title: "H" },
+		{ img: "/image/slider-3.png", title: "I" },
+		{ img: "/image/slider-3.png", title: "J" },
+		{ img: "/image/slider-3.png", title: "K" },
+		{ img: "/image/slider-3.png", title: "L" },
+	  ],
+	},
+	{
+	  id: 4,
+	  src: "/image/slider-4.png",
+	  bgColor: "bg-purple-500",
+	  title: "Ẩm thực",
+	  description: "Bộ từ vựng ngôn ngữ ký hiệu ẩm thực thông dụng bao gồm 30 từ vựng",
+	  router: "am-thuc",
+	  items: [
+		{ img: "/image/slider-4.png", title: "Bánh mì" },
+		{ img: "/image/slider-4.png", title: "Bánh mì" },
+		{ img: "/image/slider-4.png", title: "Bánh mì" },
+		{ img: "/image/slider-4.png", title: "Bánh mì" },
+		{ img: "/image/slider-4.png", title: "Bánh mì" },
+		{ img: "/image/slider-4.png", title: "Bánh mì" },
+		{ img: "/image/slider-4.png", title: "Bánh mì" },
+		{ img: "/image/slider-4.png", title: "Bánh mì" },
+		{ img: "/image/slider-4.png", title: "Bánh mì" },
+		{ img: "/image/slider-4.png", title: "Bánh mì" },
+		{ img: "/image/slider-4.png", title: "Bánh mì" },
+		{ img: "/image/slider-4.png", title: "Bánh mì" },
+	  ],
+	},
+  
+	{
+	  id: 5,
+	  src: "/image/slider-5.png",
+	  bgColor: "bg-pink-500",
+	  title: "Động vật",
+	  description: "Bộ từ vựng ngôn ngữ ký hiệu các loài động vật bao gồm 30 từ vựng thông dụng",
+	  router: "dong-vat",
+	  items: [
+		{ img: "/image/slider-5.png", title: "Chó" },
+		{ img: "/image/slider-5.png", title: "Chó" },
+		{ img: "/image/slider-5.png", title: "Chó" },
+		{ img: "/image/slider-5.png", title: "Chó" },
+		{ img: "/image/slider-5.png", title: "Chó" },
+		{ img: "/image/slider-5.png", title: "Chó" },
+		{ img: "/image/slider-5.png", title: "Chó" },
+		{ img: "/image/slider-5.png", title: "Chó" },
+		{ img: "/image/slider-5.png", title: "Chó" },
+		{ img: "/image/slider-5.png", title: "Chó" },
+		{ img: "/image/slider-5.png", title: "Chó" },
+		{ img: "/image/slider-5.png", title: "Chó" },
+	  ],
+	},
+	{
+	  id: 6,
+	  src: "/image/slider-6.png",
+	  bgColor: "bg-pink-500",
+	  title: "Nghề nghiệp",
+	  description: "Bộ từ vựng ngôn ngữ ký hiệu về nghề nghiệp",
+	  router: "nghe-nghiep",
+	  items: [
+		{ img: "/image/slider-6.png", title: "Bác sĩ"},
+		{ img: "/image/slider-6.png", title: "Bác sĩ" },
+		{ img: "/image/slider-6.png", title: "Bác sĩ" },
+		{ img: "/image/slider-6.png", title: "Bác sĩ" },
+		{ img: "/image/slider-6.png", title: "Bác sĩ" },
+		{ img: "/image/slider-6.png", title: "Bác sĩ" },
+		{ img: "/image/slider-6.png", title: "Bác sĩ" },
+		{ img: "/image/slider-6.png", title: "Bác sĩ" },
+		{ img: "/image/slider-6.png", title: "Bác sĩ" },
+		{ img: "/image/slider-6.png", title: "Bác sĩ" },
+		{ img: "/image/slider-6.png", title: "Bác sĩ" },
+		{ img: "/image/slider-6.png", title: "Bác sĩ" },
+	  ],
+	},
+  ];

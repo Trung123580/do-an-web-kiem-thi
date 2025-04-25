@@ -116,7 +116,6 @@ export default function JoinUsPage() {
       <div className="bg-gray-50 py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8">Tham gia tình nguyện</h2>
-
           <Slider {...volunteerCarouselSettings} className="volunteer-carousel -mx-3">
             {dataVolunteer.map((item, index) => {
               return (

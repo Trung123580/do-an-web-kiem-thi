@@ -27,7 +27,6 @@ export default function Header() {
         <Link href="/">
           <img src="/image/logo.png" alt="" />
         </Link>
-
         {/* Desktop Navigation Links */}
         <nav className="hidden md:flex flex-1 justify-center h-full">
           <div className="relative flex space-x-4 lg:space-x-8 h-full items-center">

@@ -67,7 +67,7 @@ export default function LatestNews() {
         ))}
       </Slider>
       <div className="flex justify-end mt-6">
-        <Link href='/thong-tin/tin-tuc' className="flex items-center px-4 py-2 text-sm border border-[#CFD1D4] text-[#414652] rounded-xs hover:bg-gray-100 transition">
+        <Link href='/thong-tin/tin-tuc' className="flex items-center px-7 py-2 text-sm border border-[#CFD1D4] text-[#414652] rounded-xs hover:bg-gray-100 transition">
           Xem thêm 
           <img src="/icon/arrow.png" alt="" />
         </Link>

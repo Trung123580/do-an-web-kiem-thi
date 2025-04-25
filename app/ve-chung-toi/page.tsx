@@ -54,7 +54,7 @@ export default function AboutPage() {
       </section>
 
       {/* Work Section */}
-      <section className='w-full bg-white py-12 md:py-24'>
+      <section className='bg-white py-12 md:py-24 container mx-auto px-4'>
         <div className='px-4 md:px-20 flex gap-7 md:gap-14 md:flex-nowrap flex-wrap'>
           <div className='max-w-[522px] '>
             <h2 className='text-[40px] md:text-[48px] font-bold mb-6'>
@@ -72,7 +72,7 @@ export default function AboutPage() {
           </div>
 
           <div className='flex flex-col gap-4 max-h-[447px] overflow-x-hidden overflow-y-auto px-4'>
-            {[
+          {[
               {
                 title: "Cung cấp thông tin và tài nguyên giáo dục cho người khiếm thính",
                 description: "bao gồm khóa học ngôn ngữ ký hiệu, tài liệu ngôn ngữ, kỹ năng và tài liệu học tập phụ trợ.",
