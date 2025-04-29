@@ -7,19 +7,34 @@ interface DonationData {
   donationType: 1 | 2;
   selectedAmount?: number;
   customAmount?: number;
+  fullName?: string;
+  email?: string;
+  phone?: string;
+  paymentMethod?: string;
 }
 
 const Donate = () => {
-  const {handles} = useApp()
+  const { handles } = useApp()
+  const [open, setOpen] = useState(false);
   const [dataSubmit, setDataSubmit] = useState<DonationData>({
     donationType: 1,
     selectedAmount: 10,
     customAmount: 0,
+    fullName: '',
+    email: '',
+    phone: '',
+    paymentMethod: ''
   });
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    await handles.onPostDonate(dataSubmit)
+    console.log(dataSubmit);
+    if (open) {
+      await handles.onPostDonate(dataSubmit)
+      setOpen(false);
+    } else {
+      setOpen(true);
+    }
   };
 
   const handleAmountSelect = (amount: number) => {
@@ -37,18 +52,30 @@ const Donate = () => {
         ...prev,
         customAmount: Number(value),
         selectedAmount: 10,
-        }));
+      }));
     }
   };
 
   const handleDonationTypeChange = (type: 1 | 2) => {
     setDataSubmit(prev => ({
       ...prev,
-      donationType: type
+      donationType: type,
+      selectedAmount: 10,
     }));
+  };
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const { name, value } = e.target;
     setDataSubmit(prev => ({
       ...prev,
-      selectedAmount: 10,
+      [name]: value
+    }));
+  };
+
+  const handlePaymentMethodChange = (method: string) => {
+    setDataSubmit(prev => ({
+      ...prev,
+      paymentMethod: method
     }));
   };
 
@@ -71,31 +98,23 @@ const Donate = () => {
         <div className='bg-white rounded-xl shadow-lg py-12 px-9'>
           <h2 className='text-center text-[#111827] font-normal mb-6 text-[32px]'>Ủng hộ để hỗ trợ người khiếm thính</h2>
 
-          {/* Toggle buttons */}
           <div className='bg-[#EEF1FF] rounded-md flex mb-2 border border-[#E5E7EB] overflow-hidden'>
-            <button 
-              type='button'
-              className={`flex-1 py-4 text-sm font-medium transition-colors ${
-                dataSubmit.donationType === 1 ? 'bg-[#EEF1FF] text-gray-900' : 'text-[#4B5563] bg-white'
-              }`}
-              onClick={() => handleDonationTypeChange(1)}
-            >
-              Một lần
-            </button>
-            <button 
-              type='button'
-              className={`flex-1 py-4 text-sm font-medium transition-colors ${
-                dataSubmit.donationType === 2 ? 'bg-[#EEF1FF] text-gray-900' : 'text-[#4B5563] bg-white'
-              }`}
-              onClick={() => handleDonationTypeChange(2)}
-            >
-              Hàng tháng
-            </button>
+            {[1, 2].map((type) => (
+              <button
+                key={type}
+                type='button'
+                className={`flex-1 py-4 text-sm font-medium transition-colors ${
+                  dataSubmit.donationType === type ? 'bg-[#EEF1FF] text-gray-900' : 'text-[#4B5563] bg-white'
+                }`}
+                onClick={() => handleDonationTypeChange(type as 1 | 2)}
+              >
+                {type === 1 ? 'Một lần' : 'Hàng tháng'}
+              </button>
+            ))}
           </div>
-          {/* Amount buttons */}
           <div className='grid grid-cols-4 mb-2 rounded-md overflow-hidden border border-[#E5E7EB]'>
             {[10, 40, 80, 200].map((amount) => (
-                <button
+              <button
                 type='button'
                 key={amount}
                 className={`py-4 text-sm transition-colors ${
@@ -110,7 +129,6 @@ const Donate = () => {
 
           <p className='text-sm text-[#6B7280] mb-6 text-center'>Mỗi đóng góp không chỉ trao cơ hội, mà tạo một tương lai công bằng hơn cho người khiếm thính.</p>
 
-          {/* Custom amount input */}
           <div className='relative'>
             <span className='absolute left-3 top-1/2 -translate-y-1/2 text-gray-500'>$</span>
             <input
@@ -122,19 +140,124 @@ const Donate = () => {
             />
           </div>
 
-          {/* Donate button */}
-          <button type='submit' className='mt-4 w-full bg-[#4F46E5] text-white py-5 rounded-[4px] text-2xl font-medium mb-4 hover:bg-[#4338CA] transition-colors'>Ủng hộ ngay</button>
-          {/* Payment methods */}
+          <button type='button' 
+           onClick={() => setOpen(true)}
+          className='mt-4 w-full bg-[#3A63ED] text-white py-5 rounded-[4px] text-2xl font-medium mb-4 hover:bg-[#4338CA] transition-colors'>Ủng hộ ngay</button>
           <div className='flex items-center flex-col justify-center gap-2 text-xs text-[#6B7280]'>
             <img src='/image/visa.png' alt='' />
-            {/* <img src='/icon/payment.png' alt='Payment methods' className='h-4' /> */}
             <span className='flex items-center gap-1 justify-center'>
               <Lock size={15} /> Khoản quyên góp của bạn được xử lý an toàn
             </span>
           </div>
         </div>
       </form>
+      {open && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/40">
+          <div className="bg-white rounded-2xl max-w-[630px] w-full p-6 h-[80%] relative shadow-lg">
+            <div className="absolute top-4 right-0 px-8 items-center  flex justify-between w-full">
+              <button className="text-left text-lg text-gray-600 font-medium">Quay lại</button>
+              <button className='text-2xl' onClick={() => setOpen(false)}>
+                &times;
+              </button>
+            </div>
+            <div className="w-full h-1 bg-gray-200 mt-7 rounded mb-6">
+              <div className="h-2 bg-blue-500 rounded" style={{ width: "50%" }} />
+            </div>
+            <form onSubmit={handleSubmit} className='px-[30px] md:px-[56px] mt-8 text-[#111827] h-[90%] overflow-y-auto '>
+              <h2 className="text-xl font-bold mb-4">Thông tin cá nhân</h2>
+              <input
+                name="fullName"
+                value={dataSubmit.fullName}
+                onChange={handleInputChange}
+                className="w-full border-2 border-[#CFD1D4] rounded-lg px-3 py-2 mb-3"
+                placeholder="Họ tên*"
+                required
+              />
+              <input
+                name="email"
+                type="email"
+                value={dataSubmit.email}
+                onChange={handleInputChange}
+                className="w-full border-2 border-[#CFD1D4] rounded-lg px-3 py-2 mb-3"
+                placeholder="Email*"
+                required
+              />
+              <input
+                name="phone"
+                value={dataSubmit.phone}
+                onChange={handleInputChange}
+                className="w-full border-2 border-[#CFD1D4] rounded-lg px-3 py-2 mb-3"
+                placeholder="Số điện thoại*"
+                required
+              />
+              <h3 className="text-xl font-bold mb-4">Phương thức thanh toán</h3>
+              <div className="space-y-2 font-normal text-[18px]">
+                <label className="flex items-start gap-2 border rounded px-3 py-2">
+                  <input
+                    type="radio"
+                    name="paymentMethod"
+                    value="momo"
+                    checked={dataSubmit.paymentMethod === 'momo'}
+                    onChange={(e) => handlePaymentMethodChange(e.target.value)}
+                  />
+                  <div className='-mt-1.5'>
+                    Ví MoMo
+                    <img src="/image/momo.png" alt="MoMo" className="h-6" />
+                  </div>
+                </label>
+                <label className="flex items-start gap-2 border rounded px-3 py-2">
+                  <input
+                    type="radio"
+                    name="paymentMethod"
+                    value="credit"
+                    checked={dataSubmit.paymentMethod === 'credit'}
+                    onChange={(e) => handlePaymentMethodChange(e.target.value)}
+                  />
+                  <div className='-mt-1.5'>
+                    Thẻ tín dụng hoặc thẻ ghi nợ
+                    <div className='flex items-center gap-2'>
+                      <img src="/image/visa-all.png" alt="Visa" className="h-6" />
+                    </div>
+                  </div>
+                </label>
+                <label className="flex items-start gap-2 border rounded px-3 py-2">
+                  <input
+                    type="radio"
+                    name="paymentMethod"
+                    value="paypal"
+                    checked={dataSubmit.paymentMethod === 'paypal'}
+                    onChange={(e) => handlePaymentMethodChange(e.target.value)}
+                  />
+                  <div className='-mt-1.5'>
+                    Thẻ tín dụng 
+                    <div className='flex items-center gap-2'>
+                      <img src="/image/paypal.png" alt="Visa" className="h-6" />
+                    </div>
+                  </div>
+                </label>
+              </div>
+              <h2 className="text-xl font-bold mb-4 mt-5">Tóm tắt</h2>
+              <div className=''>
+                <div>
+                  <span>{dataSubmit.donationType === 1 ? 'Một lần' : 'Hàng tháng'}</span>
+                  <span>${dataSubmit.customAmount || dataSubmit.selectedAmount}</span>
+                </div>
+              </div>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum quae incidunt ex obcaecati recusandae, cum molestias esse beatae nobis eaque ullam. Ad eum architecto aut totam accusamus eaque iure. Ea!</p>
+              <div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque in porro alias sequi facilis aliquid quidem quos, impedit culpa minima, maiores nemo corrupti! Vitae magnam provident explicabo ducimus quae aliquam.</p>
+                <img src="/image/momo.png" alt="" />
+                <button type="submit" className="mt-4 w-full bg-[#4F46E5] text-white py-3 rounded text-lg font-medium hover:bg-[#4338CA] transition-colors">
+                Quyên góp ngay
+              </button>
+              </div>
+              
+            </form>
+          </div>
+        </div>
+      )}
     </div>
+    
   );
 };
 

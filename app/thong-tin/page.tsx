@@ -42,7 +42,7 @@ export default function Page() {
         <section className="mb-16">
           <h2 className="text-2xl font-bold mb-8">Tin mới nhất</h2>
           <div className="w-full">
-            <Slider {...carouselSettings} className="news-carousel -mx-3">
+            <Slider {...carouselSettings} className="news-carousel -mx-3 w-full">
               {dataNews.map((news, index) => (
                 <div key={index} className="px-3">
                   <Link href={`/thong-tin/tin-tuc/${news.slug}`}>

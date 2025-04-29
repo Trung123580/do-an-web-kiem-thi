@@ -85,7 +85,7 @@ export default function page() {
       </section>
 
       {/* Law Section */}
-      <section className="py-20 px-4 md:px-20 bg-gray-50">
+      <section className="py-20 px-4 md:px-20 ">
         <div className="max-w-[1440px] mx-auto">
           <div className="grid md:grid-cols-3 gap-12">
             {/* Left Column */}
@@ -115,7 +115,7 @@ export default function page() {
             </div>
 
             {/* Right Column - Law Document Preview */}
-            <div className="bg-white md:col-span-2 p-8 rounded-xl shadow-lg max-h-[720px] overflow-x-hidden overflow-y-auto">
+            <div className="bg-white border-2 border-[#A0A3A9] md:col-span-2 p-8 rounded-xl shadow-lg max-h-[720px] overflow-x-hidden overflow-y-auto">
               <div className="pb-4 mb-4">
                 <p className="text-sm text-gray-500">Luật số 51/2010/QH12 của Quốc hội: LUẬT NGƯỜI KHUYẾT TẬT</p>
                 <div className="flex justify-between mt-2">

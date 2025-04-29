@@ -33,19 +33,19 @@ export default function DonateSection() {
               <label htmlFor='name' className={`${dataSubmit.fullName.length !== 0 ? 'hidden':'block'} text-sm absolute left-3 text-gray-500 top-1/2 -translate-y-1/2`}>
                 Họ tên <span className='text-red-600'>*</span>
               </label>
-              <input required id='name' value={dataSubmit.fullName} onChange={(e) => setDataSubmit({ ...dataSubmit, fullName: e.target.value })} type='text' className='flex-1 px-3 w-full py-2 rounded-[4px] text-black outline-none bg-white text-sm' />
+              <input required id='name' value={dataSubmit.fullName} onChange={(e) => setDataSubmit({ ...dataSubmit, fullName: e.target.value })} type='text' className='flex-1 px-3 w-full py-2 rounded-[4px] text-black outline-none bg-white text-sm border-2 border-[#CFD1D4]' />
             </div>
             <div className='relative'>
               <label htmlFor='email' className={`${dataSubmit.email.length !== 0 ? 'hidden':'block'} text-sm absolute left-3 text-gray-500 top-1/2 -translate-y-1/2`}>
                 Email <span className='text-red-600'>*</span>
               </label>
-              <input required id='email' value={dataSubmit.email} onChange={(e) => setDataSubmit({ ...dataSubmit, email: e.target.value })} type='email' className='flex-1 px-3 w-full py-2 rounded-[4px] text-black outline-none bg-white text-sm' />
+              <input required id='email' value={dataSubmit.email} onChange={(e) => setDataSubmit({ ...dataSubmit, email: e.target.value })} type='email' className='flex-1 px-3 w-full py-2 rounded-[4px] text-black outline-none bg-white text-sm border-2 border-[#CFD1D4]' />
             </div>
             <div className='relative'>
               <label htmlFor='phone' className={`${dataSubmit.phone.length !== 0 ? 'hidden':'block'} text-sm absolute left-3 text-gray-500 top-1/2 -translate-y-1/2`}>
                 Số di động <span className='text-red-600'>*</span>
               </label>
-              <input required id='phone' value={dataSubmit.phone} onChange={(e) => setDataSubmit({ ...dataSubmit, phone: e.target.value })} type='tel' className='flex-1 px-3 w-full py-2 rounded-[4px] text-black outline-none bg-white text-sm' />
+              <input required id='phone' value={dataSubmit.phone} onChange={(e) => setDataSubmit({ ...dataSubmit, phone: e.target.value })} type='tel' className='flex-1 px-3 w-full py-2 rounded-[4px] text-black outline-none bg-white text-sm border-2 border-[#CFD1D4]' />
             </div>
             <button type='submit' className='bg-[#111827] hover:bg-[#70747D] text-white px-6 py-2 rounded-[4px] text-sm font-medium transition-colors whitespace-nowrap'>
               Đăng ký
@@ -54,7 +54,7 @@ export default function DonateSection() {
 
           {/* Footer Links */}
           <div className='flex flex-col md:flex-row justify-between items-center mt-8 pt-6 border-t border-white/20'>
-            <div className='flex flex-wrap justify-center md:justify-start gap-4 md:gap-6 mb-4 md:mb-0 text-sm'>
+            <div className='flex flex-wrap *:hover:underline justify-center md:justify-start gap-4 md:gap-6 mb-4 md:mb-0 text-sm'>
               <a href='#' className='text-white/90 hover:text-white transition-colors'>
                 Liên hệ với chúng tôi
               </a>
