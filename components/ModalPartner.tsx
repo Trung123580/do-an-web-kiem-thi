@@ -54,7 +54,7 @@ export default function ModalPartner({ isOpen, closeModal }: ModalPartnerProps) 
 
   return (
     <Transition appear show={isOpen} as={Fragment}>
-      <Dialog as="div" className="relative z-50" onClose={handleClose}>
+      <Dialog as="div" className="relative z-[100]" onClose={handleClose}>
         <Transition.Child
           as={Fragment}
           enter="ease-out duration-300"
@@ -67,7 +67,7 @@ export default function ModalPartner({ isOpen, closeModal }: ModalPartnerProps) 
           <div className="fixed inset-0 bg-black/25" />
         </Transition.Child>
 
-        <div className="fixed inset-0 overflow-y-auto">
+        <div className="fixed inset-0 overflow-y-auto z-[100]">
           <div className="flex min-h-full items-center justify-center p-4">
             <Transition.Child
               as={Fragment}

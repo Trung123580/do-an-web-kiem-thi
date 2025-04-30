@@ -80,8 +80,8 @@ export default function MobileMenu({ currentPath = "/" }: MobileMenuProps) {
         }`}
       >
         <div className="flex justify-between items-center p-4 border-b">
-          <Link href="/" className="text-[#3a63ed] text-2xl font-bold" onClick={() => setIsOpen(false)}>
-            F
+          <Link href="/" onClick={() => setIsOpen(false)}>
+            <img src="/image/logo.png" alt="" />
           </Link>
           <button 
             onClick={() => {
@@ -115,14 +115,14 @@ export default function MobileMenu({ currentPath = "/" }: MobileMenuProps) {
                 <ChevronRight className={`h-4 w-4 transition-transform duration-200 ${openSubmenu === "about" ? "rotate-90" : ""}`} />
               </button>
               <div className={`pl-6 space-y-2 overflow-hidden transition-all duration-200 ${openSubmenu === "about" ? "max-h-40 mt-2" : "max-h-0"}`}>
-                <Link href="/ve-chung-toi/gioi-thieu" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
-                  Giới thiệu
+                <Link href="/ve-chung-toi" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
+                Về chúng tôi
                 </Link>
-                <Link href="/ve-chung-toi/su-menh" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
-                  Sứ mệnh
+                <Link href="/ve-chung-toi/nguoi-khiem-thinh" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
+                  Người kiếm thính
                 </Link>
-                <Link href="/ve-chung-toi/doi-ngu" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
-                  Đội ngũ
+                <Link href="/ve-chung-toi/tham-gia-chung-toi" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
+                  Tham gia cùng chúng tôi
                 </Link>
               </div>
             </div>
@@ -141,14 +141,20 @@ export default function MobileMenu({ currentPath = "/" }: MobileMenuProps) {
                 <ChevronRight className={`h-4 w-4 transition-transform duration-200 ${openSubmenu === "news" ? "rotate-90" : ""}`} />
               </button>
               <div className={`pl-6 space-y-2 overflow-hidden transition-all duration-200 ${openSubmenu === "news" ? "max-h-40 mt-2" : "max-h-0"}`}>
-                <Link href="/thong-tin/tin-tuc" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
-                  Tin tức
+                <Link href="/thong-tin" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
+                Thông tin
                 </Link>
                 <Link href="/thong-tin/su-kien" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
-                  Sự kiện
+                  Tin tức
                 </Link>
-                <Link href="/thong-tin/bao-chi" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
-                  Báo chí
+                <Link href="/thong-tin/cau-chuyen" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
+                  Câu chuyện
+                </Link>
+                <Link href="/thong-tin/to-chuc-cong-dong" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
+                  Tổ chức và cộng đồng
+                </Link>
+                <Link href="/thong-tin/hoat-dong" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
+                  Hoạt động
                 </Link>
               </div>
             </div>
@@ -167,14 +173,23 @@ export default function MobileMenu({ currentPath = "/" }: MobileMenuProps) {
                 <ChevronRight className={`h-4 w-4 transition-transform duration-200 ${openSubmenu === "education" ? "rotate-90" : ""}`} />
               </button>
               <div className={`pl-6 space-y-2 overflow-hidden transition-all duration-200 ${openSubmenu === "education" ? "max-h-40 mt-2" : "max-h-0"}`}>
-                <Link href="/giao-duc/chuong-trinh" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
-                  Chương trình
+                <Link href="/giao-duc" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
+                Giáo dục
                 </Link>
-                <Link href="/giao-duc/hoc-bong" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
-                  Học bổng
+                <Link href="/giao-duc/ngon-ngu-ky-hieu" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
+                  Ngôn ngữ ký hiệu
                 </Link>
-                <Link href="/giao-duc/dao-tao" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
-                  Đào tạo
+                <Link href="/giao-duc/tri-lieu-ngon-ngu" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
+                  Trị liệu ngôn ngữ
+                </Link>
+                <Link href="/giao-duc/ky-nang-mem" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
+                  Kỹ năng mềm
+                </Link>
+                <Link href="/giao-duc/tu-van-dinh-huong" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
+                  Tư vấn & Định hướng
+                </Link>
+                <Link href="/giao-duc/giao-duc-dac-biet" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
+                  Giáo dục đặc biệt
                 </Link>
               </div>
             </div>
@@ -193,6 +208,9 @@ export default function MobileMenu({ currentPath = "/" }: MobileMenuProps) {
                 <ChevronRight className={`h-4 w-4 transition-transform duration-200 ${openSubmenu === "career" ? "rotate-90" : ""}`} />
               </button>
               <div className={`pl-6 space-y-2 overflow-hidden transition-all duration-200 ${openSubmenu === "career" ? "max-h-40 mt-2" : "max-h-0"}`}>
+                <Link href="/nghe-nghiep" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
+                Nghề nghiệp
+                </Link>
                 <Link href="/nghe-nghiep/viec-lam" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
                   Việc làm
                 </Link>

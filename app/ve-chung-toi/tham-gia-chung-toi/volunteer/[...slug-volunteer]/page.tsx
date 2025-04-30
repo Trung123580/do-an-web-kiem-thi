@@ -1,5 +1,6 @@
 import { dataVolunteer } from "@/utils/contanst";
 import Image from "next/image";
+import Link from "next/link";
 type Params = Promise<{ 'slug-volunteer': string[] }>
 
 export default async function VolunteerDetailPage({ params }: { params: Params }) {
@@ -8,6 +9,20 @@ export default async function VolunteerDetailPage({ params }: { params: Params }
   return (
     <div className="min-h-screen pb-16 py-16 pt-32 mx-auto max-w-7xl">
       <div className="container mx-auto">
+      <nav className="bg-white">
+        <div className="mx-auto">
+          <div className="flex items-center h-12 mb-8">
+            <Link 
+              href="/ve-chung-toi/tham-gia-chung-toi"
+              className="text-[#A0A3A9] hover:text-gray-900"
+            >
+             Tham gia cùng chúng tôi
+            </Link>
+            <span className="mx-2 text-2xl text-black">&gt;</span>
+            <span className="text-[#3A63ED]">Tham gia tình nguyện</span>
+          </div>
+        </div>
+      </nav>
         <h1 className="text-4xl font-bold mb-8">{volunteerDetail?.title}</h1>
         <div className="bg-[#F2F2F3] rounded-xl shadow-sm p-8 mb-8">
           <div className="flex flex-row">
