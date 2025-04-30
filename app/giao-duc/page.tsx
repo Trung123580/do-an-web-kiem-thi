@@ -40,12 +40,12 @@ export default function EducationPage() {
     ],
   };
   return (
-    <div className="min-h-screen bg-gray-50 pt-24 pb-8">
+    <div className="min-h-screen pt-24 pb-8 max-w-7xl mx-auto">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 bg-[#F2F2F3] mb-8 h-auto md:h-[480px] rounded-2xl overflow-hidden">
           <div className="flex justify-evenly flex-col h-full p-6 md:p-8 lg:p-12">
             <div className="space-y-4 md:space-y-6">
-              <h1 className="text-4xl sm:text-2xl md:text-2xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold leading-tight">
+              <h1 className="text-4xl sm:text-2xl md:text-2xl lg:text-4xl xl:text-5xl 2xl:text-5xl font-bold leading-tight">
                 Ngôn ngữ ký hiệu là
                 <br />
                 phương tiện giao tiếp
@@ -124,7 +124,7 @@ export default function EducationPage() {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 bg-[#F2F2F3] mb-8 h-auto sm:h-[255px] md:h-[345px] lg:h-[400px] xl:h-[495px] 2xl:h-[671px] rounded-2xl overflow-hidden mt-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 bg-[#F2F2F3] mb-8 h-auto sm:h-[255px] md:h-[345px] lg:h-[400px] xl:h-[495px] 2xl:h-[545px] rounded-2xl overflow-hidden mt-6">
           <div className="flex justify-evenly flex-col p-6 md:p-12">
             <div className="space-y-6">
               <h1 className="text-4xl sm:text-2xl md:text-2xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold leading-tight">
@@ -137,9 +137,9 @@ export default function EducationPage() {
             </div>
           </div>
           <div className="relative z-0 overflow-visible h-[400px] sm:h-auto group">
-            <img src="/image/banner-6.png" alt="Education Banner" className="object-cover h-full absolute bottom-0 left-0  hover:scale-125 hover:opacity-100 hover:z-10 transition-all duration-300 group-hover:opacity-40 group-hover:scale-90 " />
-            <img src="/image/banner-7.png" alt="Education Banner" className="object-cover h-full absolute bottom-0 left-1/2 -translate-x-1/2 hover:scale-125 hover:opacity-100 hover:z-10 transition-all duration-300 group-hover:opacity-40 group-hover:scale-90" />
-            <img src="/image/banner-8.png" alt="Education Banner" className="object-cover h-full absolute bottom-0 right-0 hover:scale-125 hover:opacity-100 hover:z-10 transition-all duration-300 group-hover:opacity-40 group-hover:scale-90" />
+            <img src="/image/banner-6.png" alt="Education Banner" className="object-cover h-full absolute bottom-0 left-0  hover:scale-100 hover:opacity-100 hover:z-10 transition-all duration-300 group-hover:opacity-40 group-hover:scale-90 " />
+            <img src="/image/banner-7.png" alt="Education Banner" className="object-cover h-full absolute bottom-0 left-1/2 -translate-x-1/2 hover:scale-100 hover:opacity-100 hover:z-10 transition-all duration-300 group-hover:opacity-40 group-hover:scale-90" />
+            <img src="/image/banner-8.png" alt="Education Banner" className="object-cover h-full absolute bottom-0 right-0 hover:scale-100 hover:opacity-100 hover:z-10 transition-all duration-300 group-hover:opacity-40 group-hover:scale-90" />
           </div>
         </div>
       </div>
@@ -176,12 +176,12 @@ export default function EducationPage() {
           }
         `}</style>
         <div className="text-end mt-6">
-        <Link href="/" className="inline-flex items-center text-sm font-medium hover:text-gray-900 px-7 py-2 rounded-sm border bg-[#FFFFFF] border-[#CFD1D4] text-[#414652]">
-          Xem thêm &rarr;
-        </Link>
+          <Link href="/" className="inline-flex items-center text-sm font-medium hover:text-gray-900 px-7 py-2 rounded-sm border bg-[#FFFFFF] border-[#CFD1D4] text-[#414652]">
+            Xem thêm &rarr;
+          </Link>
+        </div>
       </div>
-      </div>
-      
+
     </div>
   );
 }

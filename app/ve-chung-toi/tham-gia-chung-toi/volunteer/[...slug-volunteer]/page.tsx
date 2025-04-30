@@ -3,10 +3,10 @@ import Image from "next/image";
 type Params = Promise<{ 'slug-volunteer': string[] }>
 
 export default async function VolunteerDetailPage({ params }: { params: Params }) {
-  const slug = ( await params)["slug-volunteer"][0]
+  const slug = (await params)["slug-volunteer"][0]
   const volunteerDetail = dataVolunteer.find((volunteer) => volunteer.slug === slug)
   return (
-    <div className="min-h-screen bg-gray-50 pb-16 py-16 pt-32">
+    <div className="min-h-screen pb-16 py-16 pt-32 mx-auto max-w-7xl">
       <div className="container mx-auto">
         <h1 className="text-4xl font-bold mb-8">{volunteerDetail?.title}</h1>
         <div className="bg-[#F2F2F3] rounded-xl shadow-sm p-8 mb-8">
@@ -54,7 +54,7 @@ export default async function VolunteerDetailPage({ params }: { params: Params }
             alt="Workshop Volunteer Image"
             width={1000}
             height={400}
-            className="w-full h-auto object-cover"
+            className="w-full rounded-xl h-auto object-cover"
           />
         </div>
 

@@ -7,7 +7,7 @@ export default async function sukienDetailPage({ params }: { params: Params }) {
   console.log(slug);
   const sukienDetail = dataSukien.find((sukien) => sukien.slug === slug);
   return (
-    <div className="min-h-screen bg-gray-50 pb-16 py-16 pt-32">
+    <div className="min-h-screen pb-16 py-16 pt-32 max-w-7xl mx-auto">
       <div className="container mx-auto">
         <h1 className="text-4xl font-bold mb-8">{sukienDetail?.title}</h1>
         <div className="bg-[#F2F2F3] rounded-xl shadow-sm p-8 mb-8">

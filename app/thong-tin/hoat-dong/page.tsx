@@ -5,7 +5,7 @@ import { dataSukien } from "@/utils/contanst";
 
 export default function EventsPage() {
   return (
-    <div className="container mx-auto px-4 py-16 pt-32">
+    <div className="container mx-auto px-4 py-16 pt-32 max-w-7xl">
       <h1 className="text-3xl font-bold mb-12">Sự kiện</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {dataSukien.map((event, index) => (

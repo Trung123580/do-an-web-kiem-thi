@@ -36,11 +36,11 @@ export default function Page() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 pt-24 pb-16">
+    <div className="min-h-screen pt-32 pb-16 max-w-7xl mx-auto">
       <div className="container mx-auto px-4">
         {/* Latest News Section */}
         <section className="mb-16">
-          <h2 className="text-2xl font-bold mb-8">Tin mới nhất</h2>
+          <h2 className="text-5xl font-bold mb-8">Tin mới nhất</h2>
           <div className="w-full">
             <Slider {...carouselSettings} className="news-carousel -mx-3 w-full">
               {dataNews.map((news, index) => (
@@ -78,7 +78,7 @@ export default function Page() {
             {stories.map((story, index) => {
               if (index === 1) {
                 return (
-                  <div key={index} className="relative h-[250px] bg-[#CFD1D4] rounded-xl flex items-center justify-center">
+                  <div key={index} className="relative h-[305px] w-[305px] bg-[#CFD1D4] rounded-xl flex items-center justify-center">
                     <h2 className="text-5xl font-light text-center px-4">
                       MỖI
                       <br />
@@ -91,7 +91,7 @@ export default function Page() {
               }
               if (index === 7) {
                 return (
-                  <div key={index} className="relative h-[250px] bg-[#CFD1D4] rounded-xl flex items-center justify-center">
+                  <div key={index} className="relative h-[305px] w-[305px] bg-[#CFD1D4] rounded-xl flex items-center justify-center">
                     <h2 className="text-5xl font-light text-center px-4">
                       LÀ MỘT
                       <br />
@@ -105,8 +105,8 @@ export default function Page() {
               if (typeof story === 'string') return null;
               return (
                 <Link key={index} href={`/thong-tin/cau-chuyen/${story.slug}`}>
-                  <div className="group cursor-pointer relative h-[250px] rounded-xl overflow-hidden">
-                    <Image src={story.img} alt={story.title} fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+                  <div className="group cursor-pointer relative h-[305px] w-[305px] rounded-xl overflow-hidden">
+                    <Image src={story.img} alt={story.title} width={305} height={305} className="object-cover group-hover:scale-105 transition-transform duration-300" />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
                       <h3 className="font-medium text-sm line-clamp-2">{story.title}</h3>
@@ -115,6 +115,11 @@ export default function Page() {
                 </Link>
               );
             })}
+          </div>
+          <div className="text-end mt-6">
+            <Link href="" className="inline-flex items-center text-sm font-medium hover:text-gray-900 px-7 py-2 rounded-sm border bg-[#FFFFFF] border-[#CFD1D4] text-[#414652]">
+              Xem thêm &rarr;
+            </Link>
           </div>
         </section>
       </div>

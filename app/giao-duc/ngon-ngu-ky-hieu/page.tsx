@@ -41,16 +41,16 @@ export default function page() {
     ],
   }
   return (
-    <div className='min-h-screen bg-gray-50 pt-16 md:pt-24 pb-8'>
-      <div className='max-w-7xl mx-auto px-4 md:px-0 py-8'>
-        <div className='flex flex-col md:flex-row mb-8 h-[300px] sm:h-[500px] md:h-[340px] lg:h-[480px] rounded-2xl overflow-hidden gap-4 md:gap-8 mt-6'>
-          <div className='flex justify-evenly bg-[#F2F2F3] flex-col h-[300px] md:h-full p-6 md:p-10 basis-full md:basis-1/3 rounded-2xl'>
-            <div className='relative h-full w-full'>
-              <div className='relative h-full w-full'>
+    <div className="min-h-screen bg-white pt-16 md:pt-24 pb-8 max-w-7xl mx-auto">
+      <div className="container mx-auto px-4">
+        <div className="flex flex-col md:flex-row mb-8 h-[300px] sm:h-[500px] md:h-[340px] lg:h-[480px] rounded-2xl overflow-hidden gap-4 md:gap-8 mt-6">
+          <div className="flex justify-evenly bg-[#F2F2F3] flex-col h-[300px] md:h-full p-6 md:p-10 basis-full md:basis-1/3 rounded-2xl">
+            <div className="relative h-full w-full">
+              <div className="relative h-full w-full">
                 <img
-                  src='/image/finger1.png'
-                  alt=''
-                  className='object-cover absolute top-14 sm:top-7 md:top-10 lg:top-16 xl:top-8 2xl:-top-3 left-1/2 sm:left-56 md:left-7 lg:left-10 xl:left-10 2xl:left-20 z-1 animate-wiggle w-20 sm:w-20 lg:w-30 xl:w-40 2xl:w-45'
+                  src="/image/finger1.png"
+                  alt=""
+                  className="object-cover absolute top-14 sm:top-7 md:top-10 lg:top-16 xl:top-8 2xl:-top-3 left-1/2 sm:left-56 md:left-7 lg:left-10 xl:left-10 2xl:left-20 z-1 animate-wiggle w-20 sm:w-20 lg:w-30 xl:w-40 2xl:w-45"
                 />
                 <img
                   src='/image/finger2.png'
@@ -69,8 +69,9 @@ export default function page() {
               </div>
             </div>
           </div>
-          <div className='rounded-2xl h-[300px] md:h-full overflow-hidden basis-full md:basis-2/3 hidden sm:block'>
-            <Image src='/image/banner-5.png' alt='Education Banner' width={500} height={500} className='object-cover w-full h-full' priority />
+          <div className='rounded-2xl relative h-[300px] md:h-full overflow-hidden basis-full md:basis-2/3 hidden sm:block'>
+            <Image src='/image/banner-9.png' alt='Education Banner' width={500} height={500} className='object-cover w-full h-full' priority />
+            <Link href={'ngon-ngu-ky-hieu/game'}><img src='/image/game1.png' alt="" className="absolute bottom-0 right-2 cursor-pointer" /></Link>
           </div>
         </div>
         <SwiperSlider />
@@ -148,6 +149,7 @@ export default function page() {
           </Link>
         </div>
       </div>
+
     </div>
   )
 }
