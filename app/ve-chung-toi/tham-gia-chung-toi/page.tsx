@@ -87,14 +87,14 @@ export default function JoinUsPage() {
           Tham gia cùng chúng tôi
         </button>
       </div>
-      <div className='container mx-auto px-4 py-16'>
-      <div className='flex justify-between items-center mb-4'>
-            <h2 className='text-3xl md:text-[48px] font-bold'>Công việc</h2>
-            <div className='flex items-center justify-center gap-1 *:cursor-pointer'>
-              <img src='/image/home/Variant3.png' alt='Previous' className='cursor-pointer' onClick={() => sliderRef.current?.slickPrev()} />
-              <img src='/image/home/Variant2.png' alt='Next' className='cursor-pointer' onClick={() => sliderRef.current?.slickNext()} />
-            </div>
+      <div className='container mx-auto px-4 py-16 max-w-7xl'>
+        <div className='flex justify-between items-center mb-4'>
+          <h2 className='text-3xl md:text-[48px] font-bold'>Công việc</h2>
+          <div className='flex items-center justify-center gap-1 *:cursor-pointer'>
+            <img src='/image/home/Variant3.png' alt='Previous' className='cursor-pointer' onClick={() => sliderRef.current?.slickPrev()} />
+            <img src='/image/home/Variant2.png' alt='Next' className='cursor-pointer' onClick={() => sliderRef.current?.slickNext()} />
           </div>
+        </div>
         <Slider ref={sliderRef} {...carouselSettings} className='job-carousel -mx-3'>
           {dataJob.map((item, index) => (
             <Link key={index} href={`/ve-chung-toi/tham-gia-chung-toi/job/${item.slug}`} className='px-3 h-full'>
@@ -123,7 +123,7 @@ export default function JoinUsPage() {
           }
         `}</style>
       </div>
-      <div className='bg-gray-50 py-16'>
+      <div className=' py-16 max-w-7xl mx-auto'>
         <div className='container mx-auto px-4'>
           <div className='flex justify-between items-center mb-4'>
             <h2 className='text-3xl md:text-[48px] font-bold'>Tham gia tình nguyện</h2>

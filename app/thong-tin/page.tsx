@@ -36,11 +36,11 @@ export default function Page() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 pt-24 pb-16">
+    <div className="min-h-screen pt-32 pb-16 max-w-7xl mx-auto">
       <div className="container mx-auto px-4">
         {/* Latest News Section */}
         <section className="mb-16">
-          <h2 className="text-2xl font-bold mb-8">Tin mới nhất</h2>
+          <h2 className="text-5xl font-bold mb-8">Tin mới nhất</h2>
           <div className="w-full">
             <Slider {...carouselSettings} className="news-carousel -mx-3 w-full">
               {dataNews.map((news, index) => (

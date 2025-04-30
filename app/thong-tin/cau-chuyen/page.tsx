@@ -20,7 +20,7 @@ const page = () => {
                     <p className="text-sm sm:text-base md:text-lg -tracking-tight leading-relaxed mt-2">Con số này phản ánh nhu cầu cấp thiết về sự hỗ trợ, đồng cảm và mỗi con số ẩn chứa cả một câu chuyện sống đầy thử thách.</p>
                 </div>
             </section>
-            <div className='container mx-auto px-4 mt-8 sm:mt-12 md:mt-16 lg:mt-20'>
+            <div className='container mx-auto px-4 mt-8 sm:mt-12 md:mt-16 lg:mt-20 max-w-7xl'>
                 <div className='flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-8'>
                     <h1 className='text-2xl sm:text-3xl md:text-4xl font-bold'>Câu chuyện nổi bật</h1>
                     <div className="relative w-full md:w-80">
@@ -41,15 +41,15 @@ const page = () => {
                     <div className="flex items-center gap-2">
                         <button className="flex items-center gap-2 px-4 py-2 rounded-lg">
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M4 10L8 14L12 10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                                <path d="M4 6L8 2L12 6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                                <path d="M4 10L8 14L12 10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                <path d="M4 6L8 2L12 6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
                             Mới nhất
                         </button>
                     </div>
                     <button className="p-2 hover:bg-gray-100 rounded-lg">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 3H10V10H3V3ZM14 3H21V10H14V3ZM3 14H10V21H3V14ZM14 14H21V21H14V14Z" stroke="currentColor" strokeWidth="1.5"/>
+                            <path d="M3 3H10V10H3V3ZM14 3H21V10H14V3ZM3 14H10V21H3V14ZM14 14H21V21H14V14Z" stroke="currentColor" strokeWidth="1.5" />
                         </svg>
                     </button>
                 </div>

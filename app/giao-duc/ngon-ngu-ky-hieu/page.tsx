@@ -41,16 +41,16 @@ export default function page() {
     ],
   };
   return (
-    <div className="min-h-screen bg-gray-50 pt-16 md:pt-24 pb-8">
+    <div className="min-h-screen bg-white pt-16 md:pt-24 pb-8 max-w-7xl mx-auto">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row mb-8 h-[300px] sm:h-[500px] md:h-[340px] lg:h-[480px] rounded-2xl overflow-hidden gap-4 md:gap-8 mt-6">
           <div className="flex justify-evenly bg-[#F2F2F3] flex-col h-[300px] md:h-full p-6 md:p-10 basis-full md:basis-1/3 rounded-2xl">
             <div className="relative h-full w-full">
               <div className="relative h-full w-full">
-                <img 
-                  src="/image/finger1.png" 
-                  alt="" 
-                  className="object-cover absolute top-14 sm:top-7 md:top-10 lg:top-16 xl:top-8 2xl:-top-3 left-1/2 sm:left-56 md:left-7 lg:left-10 xl:left-10 2xl:left-20 z-1 animate-wiggle w-20 sm:w-20 lg:w-30 xl:w-40 2xl:w-45" 
+                <img
+                  src="/image/finger1.png"
+                  alt=""
+                  className="object-cover absolute top-14 sm:top-7 md:top-10 lg:top-16 xl:top-8 2xl:-top-3 left-1/2 sm:left-56 md:left-7 lg:left-10 xl:left-10 2xl:left-20 z-1 animate-wiggle w-20 sm:w-20 lg:w-30 xl:w-40 2xl:w-45"
                 />
                 <img src="/image/finger2.png" alt="" className="object-cover absolute top-14 sm:top-7 md:top-16 lg:top-24 xl:top-16 2xl:top-8 right-1/3 sm:right-1/3 md:right-1 lg:right-3 xl:right-8 2xl:right-10 w-20 sm:w-20 lg:w-30 xl:w-40 2xl:w-45 " />
                 <img src="/image/arrow1.png" alt="" className="object-cover absolute bottom-16 sm:bottom-16 md:bottom-24 lg:bottom-32 xl:bottom-28 2xl:bottom-32 left-64 sm:left-64  md:left-12 lg:left-16 xl:left-20 2xl:left-32 animate-arrow w-4 sm:w-4 md:w-5 lg:w-9 xl:w-12 2xl:w-14" />
@@ -128,7 +128,7 @@ export default function page() {
           </div>
         </div>
       </div>
-     
+
     </div>
   );
 }

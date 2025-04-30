@@ -3,13 +3,13 @@ import { dataNews } from "@/utils/contanst";
 type Params = Promise<{ 'slug-news': string[] }>
 
 export default async function Page({ params }: { params: Params }) {
-  const slug = ( await params)["slug-news"][0]
+  const slug = (await params)["slug-news"][0]
   const newDetail = dataNews.find((newItem) => newItem.slug === slug)
   return (
     <div className="min-h-screen bg-gray-50 pt-24 pb-16">
       <div className="mb-8">
         <div className=" h-[600px] flex flex-row">
-          <div className="basis-1/2 bg-[#111827] flex flex-col justify-end items-center">
+          <div className="basis-1/2 bg-[#111827] px-14 flex flex-col justify-end items-center">
             <div className="text-6xl text-white font-bold mb-10 max-w-4xl">
               {newDetail?.title}
               <div className="text-lg text-white font-normal mt-3">{newDetail?.description}</div>

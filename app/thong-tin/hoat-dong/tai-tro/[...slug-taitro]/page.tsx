@@ -7,13 +7,13 @@ export default async function sukienDetailPage({ params }: { params: Params }) {
   console.log(slug);
   const taitroDetail = dataSukien.find((taitro) => taitro.slug === slug);
   return (
-    <div className="min-h-screen bg-gray-50 pb-16 py-16 pt-32">
+    <div className="min-h-screen bg-gray-50 pb-16 py-16 pt-32 max-w-7xl mx-auto">
       <div className="container mx-auto">
         <h1 className="text-4xl font-bold mb-8">{taitroDetail?.title}</h1>
         <div className="bg-[#F2F2F3] rounded-xl shadow-sm p-8 mb-8">
           <div className="flex flex-row">
             <div className="flex flex-col basis-1/3 gap-5">
-                {taitroDetail?.organization.map((item, index) => (
+              {taitroDetail?.organization.map((item, index) => (
                 <div key={index} className="flex items-center gap-3">
                   <Image src={item.img} alt="DNXH Logo" width={40} height={40} className="rounded-full" />
                   <div>
@@ -68,10 +68,10 @@ export default async function sukienDetailPage({ params }: { params: Params }) {
         </div>
 
         {/* Details Sections */}
-        
+
         <div className="rounded-xl p-8 space-y-8 mb-8">
-           {/* Quyền lợi */}
-           <div>
+          {/* Quyền lợi */}
+          <div>
             <h2 className="text-3xl font-bold text-[#2E4FBE] mb-4">Quyền lợi tham gia</h2>
             <ul className="list-disc list-inside text-base">
               {taitroDetail?.benefits.map((item, index) => (
@@ -96,7 +96,7 @@ export default async function sukienDetailPage({ params }: { params: Params }) {
               ))}
             </ul>
           </div>
-         
+
         </div>
         {/* Apply Button */}
         <div className="text-center">
