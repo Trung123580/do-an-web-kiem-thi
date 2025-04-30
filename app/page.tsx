@@ -7,6 +7,46 @@ import LatestNews from "@/components/LatestNews"
 import StoryGrid from "@/components/StoryGrid"
 import VietnamStatsMap from "@/components/vietnam-stats-map.tsx"
 import Link from "next/link"
+import CourseGrid from './components/CourseGrid'
+
+const sampleCourses = [
+  {
+    id: '1',
+    title: 'Docker Container Practice',
+    imageUrl: '/placeholder-course.jpg',
+    progress: 14,
+  },
+  {
+    id: '2',
+    title: 'Docker Container Practice',
+    imageUrl: '/placeholder-course.jpg',
+    progress: 25,
+  },
+  {
+    id: '3',
+    title: 'Docker Container Practice',
+    imageUrl: '/placeholder-course.jpg',
+    progress: 50,
+  },
+  {
+    id: '4',
+    title: 'Docker Container Practice',
+    imageUrl: '/placeholder-course.jpg',
+    progress: 75,
+  },
+  {
+    id: '5',
+    title: 'Docker Container Practice',
+    imageUrl: '/placeholder-course.jpg',
+    progress: 30,
+  },
+  {
+    id: '6',
+    title: 'Docker Container Practice',
+    imageUrl: '/placeholder-course.jpg',
+    progress: 45,
+  },
+]
 
 export default function Home() {
   return (
