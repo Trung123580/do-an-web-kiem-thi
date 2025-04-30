@@ -69,8 +69,9 @@ export default function page() {
               </div>
             </div>
           </div>
-          <div className='rounded-2xl h-[300px] md:h-full overflow-hidden basis-full md:basis-2/3 hidden sm:block'>
-            <Image src='/image/banner-5.png' alt='Education Banner' width={500} height={500} className='object-cover w-full h-full' priority />
+          <div className='rounded-2xl relative h-[300px] md:h-full overflow-hidden basis-full md:basis-2/3 hidden sm:block'>
+            <Image src='/image/banner-9.png' alt='Education Banner' width={500} height={500} className='object-cover w-full h-full' priority />
+            <Link href={'ngon-ngu-ky-hieu/game'}><img src='/image/game1.png' alt="" className="absolute bottom-0 right-2 cursor-pointer" /></Link>
           </div>
         </div>
         <SwiperSlider />

@@ -3165,3 +3165,102 @@ export const organizations_5 = [
     description: "Trung tâm Thính lực Cát Tường tự hào mang những thành tựu thính học hiện đại nhất từ khắp nơi trên thế giới về Việt Nam. Chúng tôi không ngừng nỗ lực để giúp trẻ em và người lớn tuổi tìm lại âm thanh, hòa nhập cộng đồng và thay đổi cuộc sống của họ.",
   },
 ];
+export const bangChuCai = [{ id: "A" }, { id: "B" }, { id: "C" }, { id: "D" }, { id: "Đ" }, { id: "E" }, { id: "G" }, { id: "H" }, { id: "I" }, { id: "K" }, { id: "L" }, { id: "M" }, { id: "N" }, { id: "O" }, { id: "P" }, { id: "Q" }, { id: "R" }, { id: "S" }, { id: "T" }, { id: "U" }, { id: "V" }, { id: "X" }, { id: "Y" }];
+export const game = [
+  {
+    level: 1,
+    title: "Ký hiệu trên là con vật nào?",
+    video: "game1",
+    idTrue: 1,
+    array: [
+      { id: 1, name: "animal1" },
+      { id: 2, name: "animal2" },
+      { id: 3, name: "animal3" },
+      { id: 4, name: "animal4" },
+    ],
+  },
+  {
+    level: 2,
+    title: "Ký hiệu trên là món ăn nào?",
+    video: "game2",
+    idTrue: 3,
+    array: [
+      { id: 1, name: "foot1" },
+      { id: 2, name: "foot2" },
+      { id: 3, name: "foot3" },
+      { id: 4, name: "foot4" },
+    ],
+  },
+  {
+    level: 3,
+    title: "Ký hiệu trên là nghề nghiệp nào?",
+    video: "game3",
+    idTrue: 4,
+    array: [
+      { id: 1, name: "work1" },
+      { id: 2, name: "work2" },
+      { id: 3, name: "work3" },
+      { id: 4, name: "work4" },
+    ],
+  },
+  {
+    level: 4,
+    title: "Ký hiệu trên là đồ uống nào?",
+    video: "game4",
+    idTrue: 4,
+    array: [
+      { id: 1, name: "drink1" },
+      { id: 2, name: "drink2" },
+      { id: 3, name: "drink3" },
+      { id: 4, name: "drink4" },
+    ],
+  },
+  {
+    level: 5,
+    title: "Ký hiệu trên là đồ vật nào?",
+    video: "game5",
+    idTrue: 2,
+    array: [
+      { id: 1, name: "object1" },
+      { id: 2, name: "object2" },
+      { id: 3, name: "object3" },
+      { id: 4, name: "object4" },
+    ],
+  },
+  {
+    level: 6,
+    title: "Ký hiệu trên là quốc gia nào?",
+    video: "game6",
+    idTrue: 4,
+    array: [
+      { id: 1, name: "country1" },
+      { id: 2, name: "country2" },
+      { id: 3, name: "country3" },
+      { id: 4, name: "country4" },
+    ],
+  },
+  {
+    level: 7,
+    title: "Ký hiệu trên là loại hoa quả nào?",
+    video: "game7",
+    idTrue: 3,
+    array: [
+      { id: 1, name: "fruit1" },
+      { id: 2, name: "fruit2" },
+      { id: 3, name: "fruit3" },
+      { id: 4, name: "fruit4" },
+    ],
+  },
+  {
+    level: 8,
+    title: "Ký hiệu trên là loại phương tiện nào?",
+    video: "game8",
+    idTrue: 1,
+    array: [
+      { id: 1, name: "vehicle1" },
+      { id: 2, name: "vehicle2" },
+      { id: 3, name: "vehicle3" },
+      { id: 4, name: "vehicle4" },
+    ],
+  },
+];
