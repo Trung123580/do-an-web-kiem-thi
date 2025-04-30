@@ -41,7 +41,7 @@ export default function page() {
     ],
   }
   return (
-    <div className="min-h-screen bg-gray-50 pt-16 md:pt-24 pb-8">
+    <div className="min-h-screen bg-white pt-16 md:pt-24 pb-8 max-w-7xl mx-auto">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row mb-8 h-[300px] sm:h-[500px] md:h-[340px] lg:h-[480px] rounded-2xl overflow-hidden gap-4 md:gap-8 mt-6">
           <div className="flex justify-evenly bg-[#F2F2F3] flex-col h-[300px] md:h-full p-6 md:p-10 basis-full md:basis-1/3 rounded-2xl">
