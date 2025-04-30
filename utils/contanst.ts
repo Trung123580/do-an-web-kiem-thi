@@ -803,19 +803,19 @@ export const docs = `<div>
 	<br />
 	 Nguyễn Ph&uacute; Trọng
 </p>
-`
+`;
 export const dataNews = [
-	{
-	  id: 1,
-	  title: "Cơ Hội Việc Làm Thách Thức và Rào Cản Đối Với Người khiếm thính/Điếc",
-	  description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
-	  author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
-	  imageAuthor: "/image/author-1.png",
-	  image: "/image/news-1.png",
-	  date: "07.03.2025",
-	  tags: ["Kiến thức", "Xã hội"],
-	  slug: "co-hoi-viec-lam-thach-thuc-va-rao-can",
-	  content: `
+  {
+    id: 1,
+    title: "Cơ Hội Việc Làm Thách Thức và Rào Cản Đối Với Người khiếm thính/Điếc",
+    description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
+    author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
+    imageAuthor: "/image/author-1.png",
+    image: "/image/news-1.png",
+    date: "07.03.2025",
+    tags: ["Kiến thức", "Xã hội"],
+    slug: "co-hoi-viec-lam-thach-thuc-va-rao-can",
+    content: `
 		<p class="text-black mb-4 leading-relaxed">
 		  Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động. Tuy nhiên, tỷ lệ người khiếm thính có việc làm vẫn còn thấp, do họ phải đối mặt với nhiều thách thức như:
 		</p>
@@ -861,18 +861,18 @@ export const dataNews = [
 		  Liên hệ <b>SHE+</b> để được tư vấn miễn phí dịch vụ hòa nhập cộng đồng, đánh giá và đưa ra các giải pháp phục hồi chức năng nghề nghiệp, sẽ rất tốt nếu gia đình có thể đi cùng với trẻ khiếm thính (từ 13 tuổi trở lên)
 		</p>
 	   `,
-	},
-	{
-	  id: 2,
-	  title: "Quán cà phê đặc biệt của người khiếm thính",
-	  description: "Không gian yên tĩnh, nụ cười thân thiện và thái độ phục vụ tận tâm của những nhân viên là người khiếm thính tại quán cà phê Flow-ee (phố Thể Giao, Q.Hai Bà Trưng, Hà Nội) đã để lại ấn tượng sâu sắc, chinh phục không ít khách hàng, dù quán mới hoạt động hơn 1 tháng.",
-	  author: "Trúc Linh",
-	  imageAuthor: "/image/author-2.png",
-	  image: "/image/news-2.png",
-	  date: "10:04 GMT+7 ",
-	  tags: ["Xã hội", "Nghề nghiệp"],
-	  slug: "quan-ca-phe-dac-biet",
-	  content: `
+  },
+  {
+    id: 2,
+    title: "Quán cà phê đặc biệt của người khiếm thính",
+    description: "Không gian yên tĩnh, nụ cười thân thiện và thái độ phục vụ tận tâm của những nhân viên là người khiếm thính tại quán cà phê Flow-ee (phố Thể Giao, Q.Hai Bà Trưng, Hà Nội) đã để lại ấn tượng sâu sắc, chinh phục không ít khách hàng, dù quán mới hoạt động hơn 1 tháng.",
+    author: "Trúc Linh",
+    imageAuthor: "/image/author-2.png",
+    image: "/image/news-2.png",
+    date: "10:04 GMT+7 ",
+    tags: ["Xã hội", "Nghề nghiệp"],
+    slug: "quan-ca-phe-dac-biet",
+    content: `
 	  <p class="text-black font-bold leading-relaxed">
 		Bất ngờ bởi sự ấm áp, thân thiện
 	  </p>
@@ -929,18 +929,18 @@ export const dataNews = [
 		Ngoài ra, sau khi Flow-ee tại Hà Nội hoạt động ổn định, nhóm cũng mong muốn mở thêm chi nhánh tại TP.HCM và bán hàng online để có thể tạo thêm nhiều cơ hội cho các bạn trẻ khiếm thính được làm việc, tạo ra giá trị cho bản thân và cộng đồng.
 	  </p>
 	 `,
-	},
-	{
-	  id: 3,
-	  title: "Các yếu tố nguy cơ gây nghe kém ở trẻ sơ sinh và trẻ nhỏ",
-	  description: "Nghe kém, giảm thính lực ở trẻ sơ sinh và trẻ nhỏ gây ảnh hưởng tới quá trình học nói, giao tiếp bằng ngôn ngữ của trẻ...",
-	  author: "Hội thính học Việt Nam",
-	  imageAuthor: "/image/author-3.png",
-	  image: "/image/news-3.png",
-	  date: "09.12.2024",
-	  tags: ["Xã hội"],
-	  slug: "cac-yeu-to-nguy-co",
-	  content: `
+  },
+  {
+    id: 3,
+    title: "Các yếu tố nguy cơ gây nghe kém ở trẻ sơ sinh và trẻ nhỏ",
+    description: "Nghe kém, giảm thính lực ở trẻ sơ sinh và trẻ nhỏ gây ảnh hưởng tới quá trình học nói, giao tiếp bằng ngôn ngữ của trẻ...",
+    author: "Hội thính học Việt Nam",
+    imageAuthor: "/image/author-3.png",
+    image: "/image/news-3.png",
+    date: "09.12.2024",
+    tags: ["Xã hội"],
+    slug: "cac-yeu-to-nguy-co",
+    content: `
 	  <p class="text-black font-bold leading-relaxed">
 		1. Nghe kém là gì?
 	  </p>
@@ -1096,18 +1096,18 @@ export const dataNews = [
 		Nếu được phát hiện nghe kém, mất thính lực muộn, trẻ có thể gặp khó khăn trong phát âm, phát triển ngôn ngữ và nhận thức so với trẻ khỏe mạnh bình thường, thậm chí phải gánh chịu những khuyết tật vĩnh viễn như câm, điếc. Vì vậy, cần cho bé tham gia khám sàng lọc khiếm thính sớm, khi nghi ngờ trẻ bị nghe kém phải đi khám chuyên sâu để can thiệp điều trị kịp thời.
 	  </p>
 	 `,
-	},
-	{
-	  id: 4,
-	  title: "Thủ tướng chung vui lễ khai giảng tại ngôi trường đặc biệt của Thủ đô",
-	  description: "(Chinhphu.vn) - Sáng 5/9, Thủ tướng Phạm Minh Chính tới dự lễ khai giảng, chung vui cùng các thầy, cô giáo, các em học sinh tại Trường Phổ thông cơ sở Nguyễn Đình Chiểu (quận Hai Bà Trưng, Hà Nội) - ngôi trường dạy hòa nhập học sinh không khuyết tật với học sinh khiếm thị duy nhất tại Hà Nội.",
-	  author: "Hà Vân",
-	  imageAuthor: "/image/author-4.png",
-	  image: "/image/news-4.png",
-	  date: "09.12.2024",
-	  tags: ["Xã hội", "Sự kiện", "Nghề nghiệp"],
-	  slug: "thu-tuong-chung-vui-le-khai-giang",
-	  content: `
+  },
+  {
+    id: 4,
+    title: "Thủ tướng chung vui lễ khai giảng tại ngôi trường đặc biệt của Thủ đô",
+    description: "(Chinhphu.vn) - Sáng 5/9, Thủ tướng Phạm Minh Chính tới dự lễ khai giảng, chung vui cùng các thầy, cô giáo, các em học sinh tại Trường Phổ thông cơ sở Nguyễn Đình Chiểu (quận Hai Bà Trưng, Hà Nội) - ngôi trường dạy hòa nhập học sinh không khuyết tật với học sinh khiếm thị duy nhất tại Hà Nội.",
+    author: "Hà Vân",
+    imageAuthor: "/image/author-4.png",
+    image: "/image/news-4.png",
+    date: "09.12.2024",
+    tags: ["Xã hội", "Sự kiện", "Nghề nghiệp"],
+    slug: "thu-tuong-chung-vui-le-khai-giang",
+    content: `
 	  <img src="/image/news-detail-6.png" class="text-black mb-2 leading-relaxed w-full"/>
 	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
 		Thủ tướng Phạm Minh Chính dự lễ khai giảng, chung vui cùng các thầy, cô giáo, các em học sinh tại Trường Phổ thông cơ sở Nguyễn Đình Chiểu (quận Hai Bà Trưng, Hà Nội) - Ảnh: VGP/Nhật Bắc
@@ -1254,19 +1254,19 @@ export const dataNews = [
 	   <p class="text-black leading-relaxed">
 	  Thủ tướng chúc toàn thể đội ngũ cán bộ quản lý giáo dục, thầy giáo, cô giáo luôn phát huy tinh thần trách nhiệm và nhiệt huyết với nghề, khắc phục mọi khó khăn, vượt qua mọi thách thức, kiên trì mục tiêu đổi mới căn bản, toàn diện giáo dục và đào tạo, tất cả vì học sinh thân yêu, đáp ứng sự mong đợi của Đảng, Nhà nước và nhân dân ta, chúc các cháu học sinh luôn khỏe mạnh, vui vẻ, học giỏi và lạc quan trong cuộc sống, đạt được ươc mơ, hoài bão của mình, góp phần đưa dân tộc Việt Nam trở thành một dân tộc thông thái - như lời dạy của Chủ tịch Hồ Chí Minh kính yêu.
 	  </p>
-	  `
-	},
-	{
-	  id: 5,
-	  title: "Phục hồi chức năng khiếm thính ở trẻ",
-	  description: "SKĐS - Khiếm thính là một bệnh ảnh hưởng rất lớn đối với cuộc sống của cá thể, nếu như không thể giao tiếp thì người bệnh sẽ gặp rất nhiều trở ngại trong cuộc sống. Việc phục hồi chức năng cho trẻ khiếm thính có vai trò quan trọng trong việc giúp trẻ ra hòa nhập cộng đồng hiệu quả.",
-	  author: "TTUT.BSCK II. Trần Văn Lý",
-	  imageAuthor: "/image/author-5.png",
-	  image: "/image/news-5.png",
-	  date: "05-12-2017",
-	  tags: ["Xã hội"],
-	  slug: "phuc-hoi-chuc-nang-khiem-thinh-o-tre",
-	  content: `
+	  `,
+  },
+  {
+    id: 5,
+    title: "Phục hồi chức năng khiếm thính ở trẻ",
+    description: "SKĐS - Khiếm thính là một bệnh ảnh hưởng rất lớn đối với cuộc sống của cá thể, nếu như không thể giao tiếp thì người bệnh sẽ gặp rất nhiều trở ngại trong cuộc sống. Việc phục hồi chức năng cho trẻ khiếm thính có vai trò quan trọng trong việc giúp trẻ ra hòa nhập cộng đồng hiệu quả.",
+    author: "TTUT.BSCK II. Trần Văn Lý",
+    imageAuthor: "/image/author-5.png",
+    image: "/image/news-5.png",
+    date: "05-12-2017",
+    tags: ["Xã hội"],
+    slug: "phuc-hoi-chuc-nang-khiem-thinh-o-tre",
+    content: `
 	  <p class="text-black font-bold leading-relaxed">
 	   Khiếm thính và phân loại khiếm thính
 	  </p>
@@ -1340,19 +1340,19 @@ export const dataNews = [
 	  <p class="text-black mb-4 leading-relaxed">
 	   Nhiều trẻ khiếm thính được can thiệp sớm đã đạt được kết quả cao trong việc phục hồi ngôn ngữ lời nói và khả năng nghe. Trẻ có thể sử dụng được ngôn ngữ lời nói trong giao tiếp và tham gia học hòa nhập được tại trường mầm non và tiểu học.
 	  </p>
-	  `
-	},
-	{
-	  id: 6,
-	  title: "\"Người đưa đò\" đặc biệt",
-	  description: "Câu chuyện về người thầy khiếm thính Võ Duy Quang (27 tuổi, giáo viên Trường Khiếm thính Lâm Đồng) là một hành trình dài của nghị lực và khát vọng vươn lên. Và chính nghị lực đó của thầy đã tiếp sức cho các học trò khiếm thính thêm tự tin, dám ước mơ và thực hiện mơ ước... - Câu chuyện đã được đăng tải trên Báo Lâm Đồng Online của tác giả Phan Nhân.",
-	  author: "PHAN NHÂN",
-	  imageAuthor: "/image/author-6.png",
-	  image: "/image/news-6.png",
-	  date: "08/12/2022",
-	  tags: ["Xã hội","Sự kiện"],
-	  slug: "nguoi-dua-do-dac-biet",
-	  content: `
+	  `,
+  },
+  {
+    id: 6,
+    title: '"Người đưa đò" đặc biệt',
+    description: "Câu chuyện về người thầy khiếm thính Võ Duy Quang (27 tuổi, giáo viên Trường Khiếm thính Lâm Đồng) là một hành trình dài của nghị lực và khát vọng vươn lên. Và chính nghị lực đó của thầy đã tiếp sức cho các học trò khiếm thính thêm tự tin, dám ước mơ và thực hiện mơ ước... - Câu chuyện đã được đăng tải trên Báo Lâm Đồng Online của tác giả Phan Nhân.",
+    author: "PHAN NHÂN",
+    imageAuthor: "/image/author-6.png",
+    image: "/image/news-6.png",
+    date: "08/12/2022",
+    tags: ["Xã hội", "Sự kiện"],
+    slug: "nguoi-dua-do-dac-biet",
+    content: `
 	  <img src="/image/news-detail-15.png" class="text-black mb-2 leading-relaxed w-full"/>
 	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
 		Thầy Võ Duy Quang dạy ngôn ngữ ký hiệu cho các em học sinh Điếc.
@@ -1375,19 +1375,19 @@ export const dataNews = [
 	  <p class="text-black mb-4 leading-relaxed">
 	  Với những người khiếm thính, việc hòa nhập với cuộc sống vốn dĩ gặp rất nhiều khó khăn. Tuy nhiên, với thầy Quang, những khó khăn đó hoàn toàn có thể khắc phục được nếu bản thân mỗi người có nghị lực vươn lên. Tấm gương của thầy Quang chắc hẳn sẽ trở thành động lực để các em học sinh khiếm thính tiếp bước và hoàn thành những hoài bão của bản thân.
 	  </p>
-	  `
-	},
-	{
-	  id: 7,
-	  title: "Sự khẩn cấp trong điều trị khiếm thính cho trẻ em",
-	  description: "Mỗi năm có thêm trung bình 5.000 trẻ khiếm thính, tuy nhiên số trẻ được phát hiện và can thiệp chỉ khoảng 10% tức là 500 trẻ. Tương lai của trẻ khiếm thính hoàn toàn phụ thuộc vào sự quan tâm của gia đình và toàn xã hội.",
-	  author: "",
-	  imageAuthor: "/image/author-7.png",
-	  image: "/image/news-7.png",
-	  date: "12/09/2022",
-	  tags: ["Xã hội"],
-	  slug: "su-khan-cap-trong-dieu-tri-khiem-thinh-cho-tre-em",
-	  content: `
+	  `,
+  },
+  {
+    id: 7,
+    title: "Sự khẩn cấp trong điều trị khiếm thính cho trẻ em",
+    description: "Mỗi năm có thêm trung bình 5.000 trẻ khiếm thính, tuy nhiên số trẻ được phát hiện và can thiệp chỉ khoảng 10% tức là 500 trẻ. Tương lai của trẻ khiếm thính hoàn toàn phụ thuộc vào sự quan tâm của gia đình và toàn xã hội.",
+    author: "",
+    imageAuthor: "/image/author-7.png",
+    image: "/image/news-7.png",
+    date: "12/09/2022",
+    tags: ["Xã hội"],
+    slug: "su-khan-cap-trong-dieu-tri-khiem-thinh-cho-tre-em",
+    content: `
 	  <p class="text-black mb-4 font-bold leading-relaxed">
 		Khiếm thính và các biện pháp can thiệp
 	  </p>
@@ -1422,19 +1422,19 @@ export const dataNews = [
 	  <p class="text-black mb-4 leading-relaxed">
 		Trẻ em hôm nay, thế giới ngày mai, tương lai của trẻ, đặc biệt trẻ em khuyết tật trong đó có trẻ khiếm thính hoàn toàn phụ thuộc vào sự quan tâm của gia đình và toàn xã hội. Để có sự can thiệp khiếm thính hiệu quả thì can thiệp càng sớm càng tốt vì kích thích thần kinh là vô cùng khẩn cấp.
 	  </p>
-	  `
-	},
-	{
-	  id: 8,
-	  title: "Người khiếm thính có nói được không? Một sự thật ít ai biết",
-	  description: "Ngày nay tình trạng người khiếm thính ngày càng nhiều, nó ảnh hưởng đến nhiều khía cạnh trong cuộc sống, đặc biệt là khả năng giao tiếp. Vậy người khiếm thính có nói được không? và cách họ chinh phục giới hạn của bản thân như thế nào? Hãy cùng Travycare tìm hiểu sau đây nhé.",
-	  author: "Hoàng Thị Ngọc Bích",
-	  imageAuthor: "/image/author-8.png",
-	  image: "/image/news-8.png",
-	  date: "Th 5 26/10/2023",
-	  tags: ["Xã hội", 'Kiến thức'],
-	  slug: "nguoi-khiem-thinh-co-noi-duoc-khong",
-	  content: `
+	  `,
+  },
+  {
+    id: 8,
+    title: "Người khiếm thính có nói được không? Một sự thật ít ai biết",
+    description: "Ngày nay tình trạng người khiếm thính ngày càng nhiều, nó ảnh hưởng đến nhiều khía cạnh trong cuộc sống, đặc biệt là khả năng giao tiếp. Vậy người khiếm thính có nói được không? và cách họ chinh phục giới hạn của bản thân như thế nào? Hãy cùng Travycare tìm hiểu sau đây nhé.",
+    author: "Hoàng Thị Ngọc Bích",
+    imageAuthor: "/image/author-8.png",
+    image: "/image/news-8.png",
+    date: "Th 5 26/10/2023",
+    tags: ["Xã hội", "Kiến thức"],
+    slug: "nguoi-khiem-thinh-co-noi-duoc-khong",
+    content: `
 	  <p class="text-black mb-4 font-bold leading-relaxed">
 		Khiếm thính là gì?
 	  </p>
@@ -1656,19 +1656,19 @@ export const dataNews = [
 	   <p class="text-black mb-4 leading-relaxed">
 	  Vậy câu trả lời cho câu hỏi người khiếm thính có nói được khônglà gì? Người khiếm thính hoàn toàn có thể nói được nhờ vào sự hỗ trợ, giáo dục và các phương pháp giao tiếp đa dạng. Và chính điều này họ đã truyền cảm hứng mạnh mẽ cho chúng ta về cuộc sống.
 	  </p>
-	  `
-	},
-	{
-	  id: 9,
-	  title: "Người khiếm thính gặp khó khăn khi muốn tìm hiểu sản phẩm công nghệ",
-	  description: "Nhóm người khiếm thính tại Việt Nam gặp không ít bất lợi trong việc tiếp cận nhiều loại dịch vụ, trong đó có việc tìm hiểu, mua bán, giải đáp về sản phẩm công nghệ.",
-	  author: "",
-	  imageAuthor: "/image/author-9.png",
-	  image: "/image/news-9.png",
-	  date: "28/01/2021",
-	  tags: ["Xã hội", "Giáo dục", "Thế giới"],
-	  slug: "nguoi-khiem-thinh-gap-kho-khan-khi-muon-tim-hieu-san-pham-cong-nghe",
-	  content: `
+	  `,
+  },
+  {
+    id: 9,
+    title: "Người khiếm thính gặp khó khăn khi muốn tìm hiểu sản phẩm công nghệ",
+    description: "Nhóm người khiếm thính tại Việt Nam gặp không ít bất lợi trong việc tiếp cận nhiều loại dịch vụ, trong đó có việc tìm hiểu, mua bán, giải đáp về sản phẩm công nghệ.",
+    author: "",
+    imageAuthor: "/image/author-9.png",
+    image: "/image/news-9.png",
+    date: "28/01/2021",
+    tags: ["Xã hội", "Giáo dục", "Thế giới"],
+    slug: "nguoi-khiem-thinh-gap-kho-khan-khi-muon-tim-hieu-san-pham-cong-nghe",
+    content: `
 	  <p class="text-black mb-4 leading-relaxed">
 		Tháng 11 năm ngoái, Samsung Vina thông báo ra mắt dịch vụ ngôn ngữ ký hiệu hỗ trợ người điếc/nghe kém tại Việt Nam. Với dịch vụ này, người khiếm thính có thể gọi video đến tổng đài của hãng để hỏi về mọi thông tin sản phẩm, thông tin bảo hành, hỗ trợ kỹ thuật... và được nhân viên giải đáp bằng ngôn ngữ ký hiệu.
 	  </p>
@@ -1710,19 +1710,19 @@ export const dataNews = [
 		Chị Hồng Hạnh, phiên dịch viên ngôn ngữ ký hiệu tại Trung tâm Nắng Mới (TP.HCM), cho rằng cần có thêm những kênh giao tiếp dành riêng cho người điếc/nghe kém, nhằm giúp họ độc lập trao đổi thông tin, bày tỏ mong muốn của cá nhân về sản phẩm, dịch vụ và những vấn đề trong cuộc sống.
 	  </p>
 	  
-	  `
-	},
-	{
-	  id: 10,
-	  title: "Giao tiếp với trẻ em khiếm thính",
-	  description: "Thông thường trẻ em sinh ra nếu không mắc các bệnh ảnh hưởng đến quá trình phát triển tiếng nói như chậm phát triển tâm thần, tự kỷ, ngắn dây thắng lưỡi...thì sau 1-2 năm nghe người thân và những người xung quanh nói chuyện sẽ tự hình thành tiếng nói. Thông qua ngôn ngữ nói, trẻ có thể giao tiếp với cộng đồng tốt hơn, nhiều người hiểu trẻ hơn. Tuy nhiên, trẻ khiếm thính lại không có may mắn này. Để có thể hỗ trợ cho con tốt hơn, người thân của những trẻ này nên nắm rõ cách giao tiếp với trẻ khiếm thính.",
-	  author: "Bác sĩ Nguyễn Thái Ngọc Châu - Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Phú Quốc.",
-	  imageAuthor: "/image/author-10.png",
-	  image: "/image/news-10.png",
-	  date: "12/09/2022",
-	  tags: ["Xã hội", "Thế giới", "Sự kiện"],
-	  slug: "giao-tiep-voi-tre-khiem-thinh",
-	  content: `
+	  `,
+  },
+  {
+    id: 10,
+    title: "Giao tiếp với trẻ em khiếm thính",
+    description: "Thông thường trẻ em sinh ra nếu không mắc các bệnh ảnh hưởng đến quá trình phát triển tiếng nói như chậm phát triển tâm thần, tự kỷ, ngắn dây thắng lưỡi...thì sau 1-2 năm nghe người thân và những người xung quanh nói chuyện sẽ tự hình thành tiếng nói. Thông qua ngôn ngữ nói, trẻ có thể giao tiếp với cộng đồng tốt hơn, nhiều người hiểu trẻ hơn. Tuy nhiên, trẻ khiếm thính lại không có may mắn này. Để có thể hỗ trợ cho con tốt hơn, người thân của những trẻ này nên nắm rõ cách giao tiếp với trẻ khiếm thính.",
+    author: "Bác sĩ Nguyễn Thái Ngọc Châu - Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Phú Quốc.",
+    imageAuthor: "/image/author-10.png",
+    image: "/image/news-10.png",
+    date: "12/09/2022",
+    tags: ["Xã hội", "Thế giới", "Sự kiện"],
+    slug: "giao-tiep-voi-tre-khiem-thinh",
+    content: `
 	  <p class="text-black mb-4 font-bold leading-relaxed">
 		1. Những khó khăn của trẻ khiếm thính
 	  </p>
@@ -1818,19 +1818,20 @@ export const dataNews = [
 	  <p class="text-black mb-4 leading-relaxed pl-4">
 		• Chăm sóc chuyên nghiệp: Ngoài việc thấu hiểu tâm lý trẻ, Vinmec còn đặc biệt quan tâm đến không gian vui chơi của các bé, giúp các bé vui chơi thoải mái và làm quen với môi trường của bệnh viện, hợp tác điều trị, nâng cao hiệu quả khám chữa bệnh
 	  </p>
-	  `
-	},
-  ];
+	  `,
+  },
+];
 export const stories = [
-	{
-	  title: "Câu chuyện của cậu bé khiếm thính",
-	  description: "Tôi là người khiếm thính. Tôi sinh ra đã như vậy. Sau một thời gian theo dõi 'Góp tự sự, gửi cánh thư' trên các trang mạng xã hội, tôi muốn bày tỏ câu chuyện của mình tới mọi người…",
-	  author: "Hoàng Phú",
-	  imageAuthor: "/image/author-11.png",
-	  date: "24/07/2024 09:00 GMT+7",
-	  img: "/image/story-1.png",
-	  slug: "cau-chuyen-cua-cau-be-khiem-thinh",
-	  content: `
+  {
+    title: "Câu chuyện của cậu bé khiếm thính",
+    description: "Tôi là người khiếm thính. Tôi sinh ra đã như vậy. Sau một thời gian theo dõi 'Góp tự sự, gửi cánh thư' trên các trang mạng xã hội, tôi muốn bày tỏ câu chuyện của mình tới mọi người…",
+    author: "Hoàng Phú",
+    imageAuthor: "/image/author-11.png",
+    date: "24/07/2024 09:00 GMT+7",
+    img: "/image/story-1.png",
+    createdAt: "2024-07-24",
+    slug: "cau-chuyen-cua-cau-be-khiem-thinh",
+    content: `
 	  <p class="text-black mb-4 leading-relaxed">
 	  	Tuổi thơ của tôi không được ai dạy bảo những kiến thức xã hội hay những kỹ năng đơn giản giúp cho một đứa trẻ phát triển. Khi còn nhỏ, bố mẹ tôi thường xuyên cãi nhau và hiếm khi quan tâm tới tôi, vì tôi bị khuyết tật nghe nói, bố mẹ không thể có cách để giao tiếp hay trao đổi với tôi. Rồi bố mẹ quyết định đưa tôi đến mầm non hòa nhập với người nghe bình thường, và tôi bị chỉ trích chỉ vì tôi không thể giao tiếp cùng các bạn.
 	  </p>
@@ -1876,17 +1877,18 @@ export const stories = [
 		Trên hành trình của mình, tôi may mắn gặp gỡ và được đồng hành cùng những người bạn tuyệt vời, những người đã cùng tôi dám biến những ấp ủ thành hiện thực. Cứ như vậy, dự án đọc sách bằng ngôn ngữ ký hiệu của chúng tôi ra đời. Tôi cũng tự hào khi mình đã, đang và sẽ tiếp tục truyền cảm hứng cho các bạn trẻ khiếm thính có thể vượt qua nhiều rào cản, khó khăn trong cuộc sống để có thể vượt lên chính mình và thành công hơn. Động lực giúp tôi trong suốt hành trình vất vả này không chỉ là đôi mắt tò mò của các bạn trẻ khiếm thính, là nụ cười hạnh phúc của các bạn khi được đắm mình trong môi trường sôi động của những đôi tay mà còn ở chỗ, tôi nhìn thấy nơi các bạn hình ảnh của chính tôi cùng những mong muốn còn dang dở.
 	  </p>
 	 `,
-	},
-	'text',
-	{
-	  title: "Câu chuyện sức sống và nữ giáo viên Mỹ giúp trẻ khiếm thính",
-	  description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
-	  author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
-	  imageAuthor: "/image/author-2.png",
-	  date: "07.03.2025",
-	  img: "/image/story-2.png",
-	  slug: "cau-chuyen-suc-song-va-nu-giao-vien-my-giup-tre-khiem-thinh",
-	  content: `
+  },
+  "text",
+  {
+    title: "Câu chuyện sức sống và nữ giáo viên Mỹ giúp trẻ khiếm thính",
+    description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
+    author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
+    imageAuthor: "/image/author-2.png",
+    date: "07.03.2025",
+    createdAt: "2025-03-07",
+    img: "/image/story-2.png",
+    slug: "cau-chuyen-suc-song-va-nu-giao-vien-my-giup-tre-khiem-thinh",
+    content: `
 	  <p class="text-black mb-4 leading-relaxed">
 		Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động. Tuy nhiên, tỷ lệ người khiếm thính có việc làm vẫn còn thấp, do họ phải đối mặt với nhiều thách thức như:
 	  </p>
@@ -1932,16 +1934,17 @@ export const stories = [
 		Liên hệ <b>SHE+</b> để được tư vấn miễn phí dịch vụ hòa nhập cộng đồng, đánh giá và đưa ra các giải pháp phục hồi chức năng nghề nghiệp, sẽ rất tốt nếu gia đình có thể đi cùng với trẻ khiếm thính (từ 13 tuổi trở lên)
 	  </p>
 	 `,
-	},
-	{
-	  title: "Những câu chuyện đẹp góp cho đời: Chuyện 'huyền thoại' ở Tiệm giặt là của người Điếc",
-	  description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
-	  author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
-	  imageAuthor: "/image/author-3.png",
-	  date: "07.03.2025",
-	  img: "/image/story-3.png",
-	  slug: "cau-chuyen-de-gop-cho-doi",
-	  content: `
+  },
+  {
+    title: "Những câu chuyện đẹp góp cho đời: Chuyện 'huyền thoại' ở Tiệm giặt là của người Điếc",
+    description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
+    author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
+    imageAuthor: "/image/author-3.png",
+    date: "07.03.2025",
+    img: "/image/story-3.png",
+    slug: "cau-chuyen-de-gop-cho-doi",
+    createdAt: "2024-05-07",
+    content: `
 	  <p class="text-black mb-4 leading-relaxed">
 		Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động. Tuy nhiên, tỷ lệ người khiếm thính có việc làm vẫn còn thấp, do họ phải đối mặt với nhiều thách thức như:
 	  </p>
@@ -1987,16 +1990,17 @@ export const stories = [
 		Liên hệ <b>SHE+</b> để được tư vấn miễn phí dịch vụ hòa nhập cộng đồng, đánh giá và đưa ra các giải pháp phục hồi chức năng nghề nghiệp, sẽ rất tốt nếu gia đình có thể đi cùng với trẻ khiếm thính (từ 13 tuổi trở lên)
 	  </p>
 	 `,
-	},
-	{
-	  title: "Người phụ nữ có con bị khiếm thính và hành trình giúp thay đổi cuộc đời của hàng nghìn người",
-	  description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
-	  author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
-	  imageAuthor: "/image/author-4.png",
-	  date: "07.03.2025",
-	  img: "/image/story-4.png",
-	  slug: "nguoi-phu-nu-co-con-bi-khiem-thinh-va-hanh-trinh-giup-thay-doi-cuoc-doi-cua-hang-nghin-nguoi",
-	  content: `
+  },
+  {
+    title: "Người phụ nữ có con bị khiếm thính và hành trình giúp thay đổi cuộc đời của hàng nghìn người",
+    description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
+    author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
+    imageAuthor: "/image/author-4.png",
+    date: "07.03.2025",
+    img: "/image/story-4.png",
+    slug: "nguoi-phu-nu-co-con-bi-khiem-thinh-va-hanh-trinh-giup-thay-doi-cuoc-doi-cua-hang-nghin-nguoi",
+    createdAt: "2025-01-07",
+    content: `
 	  <p class="text-black mb-4 leading-relaxed">
 		Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động. Tuy nhiên, tỷ lệ người khiếm thính có việc làm vẫn còn thấp, do họ phải đối mặt với nhiều thách thức như:
 	  </p>
@@ -2042,16 +2046,17 @@ export const stories = [
 		Liên hệ <b>SHE+</b> để được tư vấn miễn phí dịch vụ hòa nhập cộng đồng, đánh giá và đưa ra các giải pháp phục hồi chức năng nghề nghiệp, sẽ rất tốt nếu gia đình có thể đi cùng với trẻ khiếm thính (từ 13 tuổi trở lên)
 	  </p>
 	 `,
-	},
-	{
-	  title: "Chuyện về cô gái khiếm thính ở Việt Nam giành học bổng Mỹ",
-	  description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
-	  author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
-	  imageAuthor: "/image/author-5.png",
-	  date: "07.03.2025",
-	  img: "/image/story-5.png",
-	  slug: "chuyen-ve-co-gai-khiem-thinh-o-viet-nam-giay-hoc-bong-my",
-	  content: `
+  },
+  {
+    title: "Chuyện về cô gái khiếm thính ở Việt Nam giành học bổng Mỹ",
+    description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
+    author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
+    imageAuthor: "/image/author-5.png",
+    date: "07.03.2025",
+    img: "/image/story-5.png",
+    createdAt: "2025-03-08",
+    slug: "chuyen-ve-co-gai-khiem-thinh-o-viet-nam-giay-hoc-bong-my",
+    content: `
 	  <p class="text-black mb-4 leading-relaxed">
 		Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động. Tuy nhiên, tỷ lệ người khiếm thính có việc làm vẫn còn thấp, do họ phải đối mặt với nhiều thách thức như:
 	  </p>
@@ -2097,16 +2102,17 @@ export const stories = [
 		Liên hệ <b>SHE+</b> để được tư vấn miễn phí dịch vụ hòa nhập cộng đồng, đánh giá và đưa ra các giải pháp phục hồi chức năng nghề nghiệp, sẽ rất tốt nếu gia đình có thể đi cùng với trẻ khiếm thính (từ 13 tuổi trở lên)
 	  </p>
 	 `,
-	},
-	{
-	  title: "Họa sĩ khiếm thính Nam Long: Mẹ là người thầy đầu tiên",
-	  description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
-	  author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
-	  imageAuthor: "/image/author-6.png",
-	  date: "07.03.2025",
-	  img: "/image/story-6.png",
-	  slug: "hoa-si-khiem-thinh-nam-long",
-	  content: `
+  },
+  {
+    title: "Họa sĩ khiếm thính Nam Long: Mẹ là người thầy đầu tiên",
+    description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
+    author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
+    imageAuthor: "/image/author-6.png",
+    date: "07.03.2025",
+    img: "/image/story-6.png",
+    createdAt: "2025-05-05",
+    slug: "hoa-si-khiem-thinh-nam-long",
+    content: `
 	  <p class="text-black mb-4 leading-relaxed">
 		Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động. Tuy nhiên, tỷ lệ người khiếm thính có việc làm vẫn còn thấp, do họ phải đối mặt với nhiều thách thức như:
 	  </p>
@@ -2152,666 +2158,1010 @@ export const stories = [
 		Liên hệ <b>SHE+</b> để được tư vấn miễn phí dịch vụ hòa nhập cộng đồng, đánh giá và đưa ra các giải pháp phục hồi chức năng nghề nghiệp, sẽ rất tốt nếu gia đình có thể đi cùng với trẻ khiếm thính (từ 13 tuổi trở lên)
 	  </p>
 	 `,
-	},
-	'text',
-  ];
+  },
+  "text",
+];
+export const stories_1 = [
+  {
+    title: "Câu chuyện của cậu bé khiếm thính",
+    description: "Tôi là người khiếm thính. Tôi sinh ra đã như vậy. Sau một thời gian theo dõi 'Góp tự sự, gửi cánh thư' trên các trang mạng xã hội, tôi muốn bày tỏ câu chuyện của mình tới mọi người…",
+    author: "Hoàng Phú",
+    imageAuthor: "/image/author-11.png",
+    date: "24/07/2024 09:00 GMT+7",
+    img: "/image/story-1.png",
+    createdAt: "2024-07-24",
+    slug: "cau-chuyen-cua-cau-be-khiem-thinh",
+    content: `
+		<p class="text-black mb-4 leading-relaxed">
+			Tuổi thơ của tôi không được ai dạy bảo những kiến thức xã hội hay những kỹ năng đơn giản giúp cho một đứa trẻ phát triển. Khi còn nhỏ, bố mẹ tôi thường xuyên cãi nhau và hiếm khi quan tâm tới tôi, vì tôi bị khuyết tật nghe nói, bố mẹ không thể có cách để giao tiếp hay trao đổi với tôi. Rồi bố mẹ quyết định đưa tôi đến mầm non hòa nhập với người nghe bình thường, và tôi bị chỉ trích chỉ vì tôi không thể giao tiếp cùng các bạn.
+		</p>
+		<img src="/image/story-detail-1.png" class="text-black mb-2 leading-relaxed w-full"/>
+		<div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		  Dần dần tôi nhận ra, kiến thức là cầu nối duy nhất có thể thu hẹp khoảng cách giữa tôi và các bạn nghe đồng trang lứa
+		</div>
+		<p class="text-black mb-4 leading-relaxed">
+			Tôi chấp nhận im lặng…
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+			Khi bố mẹ đưa tôi đến học lớp 1 ở Trường PTCS dân lập dạy trẻ câm điếc Hà Nội, so với các bạn khác tôi hơi ít nói và không biết giao tiếp cùng các bạn trong lớp (do từ nhỏ tôi đã không có ngôn ngữ để giao tiếp và cũng không có người để trò chuyện). Các bạn luôn dùng ngôn ngữ ký hiệu và các bạn thể hiện sự tự tin hơn tôi. Tôi thèm lắm cảm giác được học ngôn ngữ ký hiệu để có thể nói chuyện. Nhưng tôi luôn nghe lời bố mẹ, bắt buộc dùng khẩu hình để giao tiếp, và tôi cố gắng che giấu việc tôi dùng ký hiệu.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+			Ở trường, toàn bộ giáo viên dạy bằng khẩu hình và phương pháp không phù hợp nên tôi không hiểu được những kiến thức nền tảng. Còn nhớ năm tôi học lớp 4, bạn bè đến nhà tôi chơi và chúng tôi sử dụng ngôn ngữ ký hiệu, bố mẹ tôi thấy được rồi cấm tôi sử dụng nó để giao tiếp, họ nói tôi trông giống như con khỉ. Tôi cảm thấy mình không được tôn trọng. Tôi cảm thấy mình rất không may mắn và chán nản. Có lần tôi đã từng bỏ nhà ra đi vì bố mẹ không hiểu tôi và muốn tôi làm theo những gì bố mẹ đặt ra mà hoàn toàn không phù hợp với tôi. Thứ tôi cần chỉ là tìm được một người bạn có thể thấu hiểu và hỗ trợ tôi tự tin, tiếp thu được nhiều kiến thức và tôi được sống là chính mình.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+			Sau này, chúng tôi tốt nghiệp và chuyển sang học Trường cao đẳng Sư phạm Trung ương, nơi có một trung tâm chuyên biệt cho học sinh điếc. Ở đó, tất cả các thầy cô sử dụng ngôn ngữ ký hiệu và dạy bằng những phương pháp phù hợp, tôi học hỏi thêm nhiều những kiến thức mới cùng các kỹ năng sống khác và hoàn thiện bản thân. Từ đó, tôi quyết định tham gia rất nhiều sự kiện giao lưu giữa người điếc với người điếc, người điếc với người nghe, tham gia câu lạc bộ người điếc để có nhiều hơn cơ hội được học tập và làm việc, chứng minh cho bố mẹ thấy tôi cũng có thể thành công như nhiều người khác khi tôi được sử dụng ngôn ngữ của người điếc như ngôn ngữ mẹ đẻ.
+		</p>
+		<p class="text-black font-bold leading-relaxed">
+			Kiến thức là cầu nối duy nhất
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Đó thật sự là một cột mốc quan trọng trong cuộc đời tôi. Một hành trình mới của tôi đã mở ra. Nhưng trên hành trình đó, tôi đã không ít lần thấy những người bạn của tôi phải gác lại giấc mơ kiến thức, để kiếm kế sinh nhai bởi những áp lực vô hình đến từ gia đình và xã hội. Dần dần tôi nhận ra, kiến thức là cầu nối duy nhất có thể thu hẹp khoảng cách giữa tôi và các bạn nghe đồng trang lứa, đó cũng là điều giúp tôi có thể thay đổi tương lai của mình và chứng minh cho mọi người biết rằng người điếc hoàn toàn có thể làm được.
+		  </p>
+		<p class="text-black mb-4 leading-relaxed ">
+		  Sinh ra là người điếc, tôi biết việc có thể tự học và mở rộng kiến thức rất khó khăn do không được tiếp cận với các phương pháp giáo dục phù hợp từ cả gia đình và nhà trường.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Thứ nhất, 85% trẻ điếc được sinh ra bởi cha mẹ là người nghe. Trong khi cha mẹ lại có rất ít kiến thức về ngôn ngữ ký hiệu - là "tiếng mẹ đẻ" của người điếc. Vì vậy, các bậc phụ huynh gặp nhiều khó khăn trong việc giao tiếp, truyền tải kiến thức cho con. Thứ hai, cơ hội tiếp cận bình đẳng giáo dục đối với người điếc rất hạn chế. Theo một khảo sát, ở Việt Nam có khoảng 2,5 triệu người bị khiếm thính, tuy nhiên, số trường học dành cho họ còn rất ít. Bên cạnh đó, đối với người điếc, tiếng Việt được coi là "ngôn ngữ thứ 2". Vì vậy, họ gặp nhiều thách thức khi đọc hiểu các văn bản bằng tiếng Việt. Thứ ba, hầu hết các kênh thông tin đại chúng đều không có phiên dịch ngôn ngữ ký hiệu nên người điếc gặp khó khăn trong việc tiếp cận thông tin và giao tiếp.
+		</p>
+		<img src="/image/story-detail-2.png" class="text-black mb-2 leading-relaxed w-full"/>
+		<div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		  Trên hành trình của mình, tôi may mắn gặp gỡ và được đồng hành cùng những người bạn tuyệt vời, những người đã cùng tôi dám biến những ấp ủ thành hiện thực
+		</div>
+		<p class="text-black mb-4 leading-relaxed">
+		  Trước đây, tôi nghĩ tham gia sinh hoạt của Chi hội Người điếc Hà Nội (HAD) vào chủ nhật hằng tuần và được chia sẻ rất nhiều thông tin hữu ích từ những người tiền nhiệm, có cơ hội lắng nghe các câu chuyện khác trong cuộc sống của một số hội viên. Nhờ đó tôi hiểu rõ hơn về những thách thức, khó khăn mà những người như chúng tôi (đã hoặc sẽ) gặp phải khi không nhận được sự ủng hộ của gia đình, người thân để tham gia vào các chương trình hoạt động có ý nghĩa do HAD tổ chức. Chính trải nghiệm đó giúp tôi nhận thức được vai trò của mình, sẵn sàng tham gia vào Ban chấp hành của HAD trong nhiệm kỳ đầu tiên để thay đổi tư duy, dẫn dắt các chương trình hoạt động nhằm thu hút nhiều hội viên trẻ hơn, đồng thời thúc đẩy tăng cường sự hợp tác với các đối tác, đơn vị có cùng quan tâm, kêu gọi sự tham gia của các bậc cha mẹ có con em bị khiếm thính trên địa bàn Hà Nội.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Sau một thời gian dài nỗ lực tham gia các khóa tập huấn, tổ chức các chương trình hoạt động hấp dẫn và kết hợp những kỹ năng có được trong hành trình hoạt động của mình, tôi có đề xuất ý tưởng về kế hoạch tổ chức giao lưu, chia sẻ nâng cao nhận thức về tầm quan trọng của ngôn ngữ ký hiệu đối với người điếc cho các bậc cha mẹ. Sau khi được ban lãnh đạo HAD phê duyệt và triển khai hoạt động tích cực, thu hút nhiều phụ huynh đến từ các quận/huyện tại Hà Nội tham dự, tôi tự tin trình bày rõ ràng, súc tích và nhấn mạnh vào sự tồn tại của ngôn ngữ ký hiệu là tiếng mẹ đẻ của người điếc trong các giao tiếp hằng ngày, đồng thời cung cấp các thông tin đa dạng trên nhiều phương diện khác nhau để giúp người điếc tiếp cận nội dung đầy đủ hơn. Bên cạnh đó, chúng tôi tiếp tục dẫn chứng về những thông tin giáo dục do Liên đoàn Người điếc thế giới chia sẻ, sử dụng trò chơi về câu chuyện "trẻ điếc không có ai để giao tiếp" giúp cho các cha mẹ nhận thức được những vấn đề gặp phải. Các bậc phụ huynh không khỏi xúc động và bày tỏ rằng có sự thay đổi tích cực, rằng họ đã có sự tôn trọng đối với các con em khiếm thính của mình.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Trên hành trình của mình, tôi may mắn gặp gỡ và được đồng hành cùng những người bạn tuyệt vời, những người đã cùng tôi dám biến những ấp ủ thành hiện thực. Cứ như vậy, dự án đọc sách bằng ngôn ngữ ký hiệu của chúng tôi ra đời. Tôi cũng tự hào khi mình đã, đang và sẽ tiếp tục truyền cảm hứng cho các bạn trẻ khiếm thính có thể vượt qua nhiều rào cản, khó khăn trong cuộc sống để có thể vượt lên chính mình và thành công hơn. Động lực giúp tôi trong suốt hành trình vất vả này không chỉ là đôi mắt tò mò của các bạn trẻ khiếm thính, là nụ cười hạnh phúc của các bạn khi được đắm mình trong môi trường sôi động của những đôi tay mà còn ở chỗ, tôi nhìn thấy nơi các bạn hình ảnh của chính tôi cùng những mong muốn còn dang dở.
+		</p>
+	   `,
+  },
+  {
+    title: "Câu chuyện sức sống và nữ giáo viên Mỹ giúp trẻ khiếm thính",
+    description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
+    author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
+    imageAuthor: "/image/author-2.png",
+    date: "07.03.2025",
+    createdAt: "2025-03-07",
+    img: "/image/story-2.png",
+    slug: "cau-chuyen-suc-song-va-nu-giao-vien-my-giup-tre-khiem-thinh",
+    content: `
+		<p class="text-black mb-4 leading-relaxed">
+		  Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động. Tuy nhiên, tỷ lệ người khiếm thính có việc làm vẫn còn thấp, do họ phải đối mặt với nhiều thách thức như:
+		</p>
+		<div class="text-black mb-4 leading-relaxed pl-4">
+		  • Phân biệt đối xử và định kiến: Nhiều nhà tuyển dụng còn e ngại về khả năng làm việc của người khiếm thính, dẫn đến việc họ ít được trao cơ hội việc làm.
+		</div>
+		<div class="text-black mb-4 leading-relaxed pl-4">
+		  • Thiếu kỹ năng và trình độ chuyên môn: Theo thống kê, 93,4% người khuyết tật từ 16 tuổi trở lên không có chuyên môn, chỉ 6,5% có bằng cấp từ chứng chỉ nghề trở lên. Điều này khiến người khiếm thính gặp khó khăn trong việc đáp ứng yêu cầu công việc
+		</div>
+		<div class="text-black mb-4 leading-relaxed pl-4">
+		  • Hạn chế trong tiếp cận thông tin việc làm: Người khiếm thính thường gặp khó khăn trong việc tiếp cận thông tin tuyển dụng và các dịch vụ hỗ trợ việc làm do rào cản về ngôn ngữ và công nghệ.
+		</div>
+		<p class="text-black mb-4 leading-relaxed">
+		  Để cải thiện tình hình, các doanh nghiệp xã hội như <b>SHE+</b> đang nỗ lực tạo cơ hội kết nối việc làm cho người khiếm thính, giúp họ hòa nhập và đóng góp cho xã hội.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Hiện <b>SHE+</b> đang có rất nhiều đơn vị tìm đến để tuyển dụng người khiếm thính tuy nhiên để đáp ứng yêu cầu tuyển dụng vẫn cồn một khoảng trống điều đó phụ thuộc rất nhiều vào các yếu tố khách quan và chủ quan.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Khi tìm kiếm việc làm, mối quan tâm hàng đầu của người khiếm thính thường là môi trường làm việc thân thiện và không phân biệt đối xử. Họ mong muốn được làm việc trong môi trường tôn trọng, hỗ trợ và tạo điều kiện để phát huy khả năng.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Tuy nhiên thực tế là việc đào tạo tại trường và gia đình chưa hỗ trợ nhiều về đào tạo kỹ năng chuyên môn và kỹ năng mềm, đây chính yếu tố quan trọng giúp họ tự tin và đáp ứng yêu cầu công việc.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Việc nâng cao nhận thức của cộng đồng và doanh nghiệp về khả năng và tiềm năng của người khiếm thính, cùng với việc tạo điều kiện tiếp cận giáo dục và đào tạo nghề, sẽ góp phần mở rộng cơ hội việc làm cho họ, giúp họ tự tin tham gia thị trường lao động và đóng góp cho sự phát triển của xã hội.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Việc làm là chìa khóa để người khiếm thính tự tin và độc lập trong cuộc sống. Hiện nay, nhiều doanh nghiệp, đặc biệt là <b>SHE+ Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam</b>, đang mở ra nhiều cơ hội kết nối việc làm phù hợp với khả năng và mong muốn của các bạn khiếm thính.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  SHE+ nhận được rất nhiều tin nhắn từ phụ huynh, từ các bạn khiếm thính hỏi về kết nối việc làm. Đồng thời nhận được rất nhiều ủy thác từ các doanh nghiệp mong muốn kết nối tuyển dụng người khiếm thính tạo cơ hội học nghề: may thuê, nấu ăn, vẽ từ các Doanh nghiệp trên địa bàn Hà Nội, TP Hồ Chí Minh
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Hãy tham gia khảo sát để chúng tôi kết nối công việc với đúng khả năng của bạn và nhu cầu của người tuyển dụng
+		</p>
+		<p class="text-black  leading-relaxed">
+		  Thông tin khảo sát chỉ dùng với mục đích kết nối việc làm đúng nhu cầu của các bạn và giúp chúng tôi tư vấn việc làm, môi trường tuyển dụng phù hợp với người khiếm thính tới các doanh nghiệp đang tạo cơ hội việc làm cho người khiếm thính/điếc (dạng tật Nghe Nói)<a href="https://forms.gle/E1nrk9hjs4EVA94m7" target="_blank" rel="noopener noreferrer" class="block underline  decoration-solid mb-4">
+		  https://forms.gle/E1nrk9hjs4EVA94m7
+		</a>
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Liên hệ <b>SHE+</b> để được tư vấn miễn phí dịch vụ hòa nhập cộng đồng, đánh giá và đưa ra các giải pháp phục hồi chức năng nghề nghiệp, sẽ rất tốt nếu gia đình có thể đi cùng với trẻ khiếm thính (từ 13 tuổi trở lên)
+		</p>
+	   `,
+  },
+  {
+    title: "Những câu chuyện đẹp góp cho đời: Chuyện 'huyền thoại' ở Tiệm giặt là của người Điếc",
+    description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
+    author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
+    imageAuthor: "/image/author-3.png",
+    date: "07.03.2025",
+    img: "/image/story-3.png",
+    slug: "cau-chuyen-de-gop-cho-doi",
+    createdAt: "2024-05-07",
+    content: `
+		<p class="text-black mb-4 leading-relaxed">
+		  Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động. Tuy nhiên, tỷ lệ người khiếm thính có việc làm vẫn còn thấp, do họ phải đối mặt với nhiều thách thức như:
+		</p>
+		<div class="text-black mb-4 leading-relaxed pl-4">
+		  • Phân biệt đối xử và định kiến: Nhiều nhà tuyển dụng còn e ngại về khả năng làm việc của người khiếm thính, dẫn đến việc họ ít được trao cơ hội việc làm.
+		</div>
+		<div class="text-black mb-4 leading-relaxed pl-4">
+		  • Thiếu kỹ năng và trình độ chuyên môn: Theo thống kê, 93,4% người khuyết tật từ 16 tuổi trở lên không có chuyên môn, chỉ 6,5% có bằng cấp từ chứng chỉ nghề trở lên. Điều này khiến người khiếm thính gặp khó khăn trong việc đáp ứng yêu cầu công việc
+		</div>
+		<div class="text-black mb-4 leading-relaxed pl-4">
+		  • Hạn chế trong tiếp cận thông tin việc làm: Người khiếm thính thường gặp khó khăn trong việc tiếp cận thông tin tuyển dụng và các dịch vụ hỗ trợ việc làm do rào cản về ngôn ngữ và công nghệ.
+		</div>
+		<p class="text-black mb-4 leading-relaxed">
+		  Để cải thiện tình hình, các doanh nghiệp xã hội như <b>SHE+</b> đang nỗ lực tạo cơ hội kết nối việc làm cho người khiếm thính, giúp họ hòa nhập và đóng góp cho xã hội.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Hiện <b>SHE+</b> đang có rất nhiều đơn vị tìm đến để tuyển dụng người khiếm thính tuy nhiên để đáp ứng yêu cầu tuyển dụng vẫn cồn một khoảng trống điều đó phụ thuộc rất nhiều vào các yếu tố khách quan và chủ quan.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Khi tìm kiếm việc làm, mối quan tâm hàng đầu của người khiếm thính thường là môi trường làm việc thân thiện và không phân biệt đối xử. Họ mong muốn được làm việc trong môi trường tôn trọng, hỗ trợ và tạo điều kiện để phát huy khả năng.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Tuy nhiên thực tế là việc đào tạo tại trường và gia đình chưa hỗ trợ nhiều về đào tạo kỹ năng chuyên môn và kỹ năng mềm, đây chính yếu tố quan trọng giúp họ tự tin và đáp ứng yêu cầu công việc.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Việc nâng cao nhận thức của cộng đồng và doanh nghiệp về khả năng và tiềm năng của người khiếm thính, cùng với việc tạo điều kiện tiếp cận giáo dục và đào tạo nghề, sẽ góp phần mở rộng cơ hội việc làm cho họ, giúp họ tự tin tham gia thị trường lao động và đóng góp cho sự phát triển của xã hội.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Việc làm là chìa khóa để người khiếm thính tự tin và độc lập trong cuộc sống. Hiện nay, nhiều doanh nghiệp, đặc biệt là <b>SHE+ Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam</b>, đang mở ra nhiều cơ hội kết nối việc làm phù hợp với khả năng và mong muốn của các bạn khiếm thính.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  SHE+ nhận được rất nhiều tin nhắn từ phụ huynh, từ các bạn khiếm thính hỏi về kết nối việc làm. Đồng thời nhận được rất nhiều ủy thác từ các doanh nghiệp mong muốn kết nối tuyển dụng người khiếm thính tạo cơ hội học nghề: may thuê, nấu ăn, vẽ từ các Doanh nghiệp trên địa bàn Hà Nội, TP Hồ Chí Minh
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Hãy tham gia khảo sát để chúng tôi kết nối công việc với đúng khả năng của bạn và nhu cầu của người tuyển dụng
+		</p>
+		<p class="text-black  leading-relaxed">
+		  Thông tin khảo sát chỉ dùng với mục đích kết nối việc làm đúng nhu cầu của các bạn và giúp chúng tôi tư vấn việc làm, môi trường tuyển dụng phù hợp với người khiếm thính tới các doanh nghiệp đang tạo cơ hội việc làm cho người khiếm thính/điếc (dạng tật Nghe Nói)<a href="https://forms.gle/E1nrk9hjs4EVA94m7" target="_blank" rel="noopener noreferrer" class="block underline  decoration-solid mb-4">
+		  https://forms.gle/E1nrk9hjs4EVA94m7
+		</a>
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Liên hệ <b>SHE+</b> để được tư vấn miễn phí dịch vụ hòa nhập cộng đồng, đánh giá và đưa ra các giải pháp phục hồi chức năng nghề nghiệp, sẽ rất tốt nếu gia đình có thể đi cùng với trẻ khiếm thính (từ 13 tuổi trở lên)
+		</p>
+	   `,
+  },
+  {
+    title: "Người phụ nữ có con bị khiếm thính và hành trình giúp thay đổi cuộc đời của hàng nghìn người",
+    description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
+    author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
+    imageAuthor: "/image/author-4.png",
+    date: "07.03.2025",
+    img: "/image/story-4.png",
+    slug: "nguoi-phu-nu-co-con-bi-khiem-thinh-va-hanh-trinh-giup-thay-doi-cuoc-doi-cua-hang-nghin-nguoi",
+    createdAt: "2025-01-07",
+    content: `
+		<p class="text-black mb-4 leading-relaxed">
+		  Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động. Tuy nhiên, tỷ lệ người khiếm thính có việc làm vẫn còn thấp, do họ phải đối mặt với nhiều thách thức như:
+		</p>
+		<div class="text-black mb-4 leading-relaxed pl-4">
+		  • Phân biệt đối xử và định kiến: Nhiều nhà tuyển dụng còn e ngại về khả năng làm việc của người khiếm thính, dẫn đến việc họ ít được trao cơ hội việc làm.
+		</div>
+		<div class="text-black mb-4 leading-relaxed pl-4">
+		  • Thiếu kỹ năng và trình độ chuyên môn: Theo thống kê, 93,4% người khuyết tật từ 16 tuổi trở lên không có chuyên môn, chỉ 6,5% có bằng cấp từ chứng chỉ nghề trở lên. Điều này khiến người khiếm thính gặp khó khăn trong việc đáp ứng yêu cầu công việc
+		</div>
+		<div class="text-black mb-4 leading-relaxed pl-4">
+		  • Hạn chế trong tiếp cận thông tin việc làm: Người khiếm thính thường gặp khó khăn trong việc tiếp cận thông tin tuyển dụng và các dịch vụ hỗ trợ việc làm do rào cản về ngôn ngữ và công nghệ.
+		</div>
+		<p class="text-black mb-4 leading-relaxed">
+		  Để cải thiện tình hình, các doanh nghiệp xã hội như <b>SHE+</b> đang nỗ lực tạo cơ hội kết nối việc làm cho người khiếm thính, giúp họ hòa nhập và đóng góp cho xã hội.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Hiện <b>SHE+</b> đang có rất nhiều đơn vị tìm đến để tuyển dụng người khiếm thính tuy nhiên để đáp ứng yêu cầu tuyển dụng vẫn cồn một khoảng trống điều đó phụ thuộc rất nhiều vào các yếu tố khách quan và chủ quan.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Khi tìm kiếm việc làm, mối quan tâm hàng đầu của người khiếm thính thường là môi trường làm việc thân thiện và không phân biệt đối xử. Họ mong muốn được làm việc trong môi trường tôn trọng, hỗ trợ và tạo điều kiện để phát huy khả năng.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Tuy nhiên thực tế là việc đào tạo tại trường và gia đình chưa hỗ trợ nhiều về đào tạo kỹ năng chuyên môn và kỹ năng mềm, đây chính yếu tố quan trọng giúp họ tự tin và đáp ứng yêu cầu công việc.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Việc nâng cao nhận thức của cộng đồng và doanh nghiệp về khả năng và tiềm năng của người khiếm thính, cùng với việc tạo điều kiện tiếp cận giáo dục và đào tạo nghề, sẽ góp phần mở rộng cơ hội việc làm cho họ, giúp họ tự tin tham gia thị trường lao động và đóng góp cho sự phát triển của xã hội.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Việc làm là chìa khóa để người khiếm thính tự tin và độc lập trong cuộc sống. Hiện nay, nhiều doanh nghiệp, đặc biệt là <b>SHE+ Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam</b>, đang mở ra nhiều cơ hội kết nối việc làm phù hợp với khả năng và mong muốn của các bạn khiếm thính.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  SHE+ nhận được rất nhiều tin nhắn từ phụ huynh, từ các bạn khiếm thính hỏi về kết nối việc làm. Đồng thời nhận được rất nhiều ủy thác từ các doanh nghiệp mong muốn kết nối tuyển dụng người khiếm thính tạo cơ hội học nghề: may thuê, nấu ăn, vẽ từ các Doanh nghiệp trên địa bàn Hà Nội, TP Hồ Chí Minh
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Hãy tham gia khảo sát để chúng tôi kết nối công việc với đúng khả năng của bạn và nhu cầu của người tuyển dụng
+		</p>
+		<p class="text-black  leading-relaxed">
+		  Thông tin khảo sát chỉ dùng với mục đích kết nối việc làm đúng nhu cầu của các bạn và giúp chúng tôi tư vấn việc làm, môi trường tuyển dụng phù hợp với người khiếm thính tới các doanh nghiệp đang tạo cơ hội việc làm cho người khiếm thính/điếc (dạng tật Nghe Nói)<a href="https://forms.gle/E1nrk9hjs4EVA94m7" target="_blank" rel="noopener noreferrer" class="block underline  decoration-solid mb-4">
+		  https://forms.gle/E1nrk9hjs4EVA94m7
+		</a>
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Liên hệ <b>SHE+</b> để được tư vấn miễn phí dịch vụ hòa nhập cộng đồng, đánh giá và đưa ra các giải pháp phục hồi chức năng nghề nghiệp, sẽ rất tốt nếu gia đình có thể đi cùng với trẻ khiếm thính (từ 13 tuổi trở lên)
+		</p>
+	   `,
+  },
+  {
+    title: "Chuyện về cô gái khiếm thính ở Việt Nam giành học bổng Mỹ",
+    description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
+    author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
+    imageAuthor: "/image/author-5.png",
+    date: "07.03.2025",
+    img: "/image/story-5.png",
+    createdAt: "2025-03-08",
+    slug: "chuyen-ve-co-gai-khiem-thinh-o-viet-nam-giay-hoc-bong-my",
+    content: `
+		<p class="text-black mb-4 leading-relaxed">
+		  Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động. Tuy nhiên, tỷ lệ người khiếm thính có việc làm vẫn còn thấp, do họ phải đối mặt với nhiều thách thức như:
+		</p>
+		<div class="text-black mb-4 leading-relaxed pl-4">
+		  • Phân biệt đối xử và định kiến: Nhiều nhà tuyển dụng còn e ngại về khả năng làm việc của người khiếm thính, dẫn đến việc họ ít được trao cơ hội việc làm.
+		</div>
+		<div class="text-black mb-4 leading-relaxed pl-4">
+		  • Thiếu kỹ năng và trình độ chuyên môn: Theo thống kê, 93,4% người khuyết tật từ 16 tuổi trở lên không có chuyên môn, chỉ 6,5% có bằng cấp từ chứng chỉ nghề trở lên. Điều này khiến người khiếm thính gặp khó khăn trong việc đáp ứng yêu cầu công việc
+		</div>
+		<div class="text-black mb-4 leading-relaxed pl-4">
+		  • Hạn chế trong tiếp cận thông tin việc làm: Người khiếm thính thường gặp khó khăn trong việc tiếp cận thông tin tuyển dụng và các dịch vụ hỗ trợ việc làm do rào cản về ngôn ngữ và công nghệ.
+		</div>
+		<p class="text-black mb-4 leading-relaxed">
+		  Để cải thiện tình hình, các doanh nghiệp xã hội như <b>SHE+</b> đang nỗ lực tạo cơ hội kết nối việc làm cho người khiếm thính, giúp họ hòa nhập và đóng góp cho xã hội.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Hiện <b>SHE+</b> đang có rất nhiều đơn vị tìm đến để tuyển dụng người khiếm thính tuy nhiên để đáp ứng yêu cầu tuyển dụng vẫn cồn một khoảng trống điều đó phụ thuộc rất nhiều vào các yếu tố khách quan và chủ quan.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Khi tìm kiếm việc làm, mối quan tâm hàng đầu của người khiếm thính thường là môi trường làm việc thân thiện và không phân biệt đối xử. Họ mong muốn được làm việc trong môi trường tôn trọng, hỗ trợ và tạo điều kiện để phát huy khả năng.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Tuy nhiên thực tế là việc đào tạo tại trường và gia đình chưa hỗ trợ nhiều về đào tạo kỹ năng chuyên môn và kỹ năng mềm, đây chính yếu tố quan trọng giúp họ tự tin và đáp ứng yêu cầu công việc.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Việc nâng cao nhận thức của cộng đồng và doanh nghiệp về khả năng và tiềm năng của người khiếm thính, cùng với việc tạo điều kiện tiếp cận giáo dục và đào tạo nghề, sẽ góp phần mở rộng cơ hội việc làm cho họ, giúp họ tự tin tham gia thị trường lao động và đóng góp cho sự phát triển của xã hội.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Việc làm là chìa khóa để người khiếm thính tự tin và độc lập trong cuộc sống. Hiện nay, nhiều doanh nghiệp, đặc biệt là <b>SHE+ Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam</b>, đang mở ra nhiều cơ hội kết nối việc làm phù hợp với khả năng và mong muốn của các bạn khiếm thính.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  SHE+ nhận được rất nhiều tin nhắn từ phụ huynh, từ các bạn khiếm thính hỏi về kết nối việc làm. Đồng thời nhận được rất nhiều ủy thác từ các doanh nghiệp mong muốn kết nối tuyển dụng người khiếm thính tạo cơ hội học nghề: may thuê, nấu ăn, vẽ từ các Doanh nghiệp trên địa bàn Hà Nội, TP Hồ Chí Minh
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Hãy tham gia khảo sát để chúng tôi kết nối công việc với đúng khả năng của bạn và nhu cầu của người tuyển dụng
+		</p>
+		<p class="text-black  leading-relaxed">
+		  Thông tin khảo sát chỉ dùng với mục đích kết nối việc làm đúng nhu cầu của các bạn và giúp chúng tôi tư vấn việc làm, môi trường tuyển dụng phù hợp với người khiếm thính tới các doanh nghiệp đang tạo cơ hội việc làm cho người khiếm thính/điếc (dạng tật Nghe Nói)<a href="https://forms.gle/E1nrk9hjs4EVA94m7" target="_blank" rel="noopener noreferrer" class="block underline  decoration-solid mb-4">
+		  https://forms.gle/E1nrk9hjs4EVA94m7
+		</a>
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Liên hệ <b>SHE+</b> để được tư vấn miễn phí dịch vụ hòa nhập cộng đồng, đánh giá và đưa ra các giải pháp phục hồi chức năng nghề nghiệp, sẽ rất tốt nếu gia đình có thể đi cùng với trẻ khiếm thính (từ 13 tuổi trở lên)
+		</p>
+	   `,
+  },
+  {
+    title: "Họa sĩ khiếm thính Nam Long: Mẹ là người thầy đầu tiên",
+    description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
+    author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
+    imageAuthor: "/image/author-6.png",
+    date: "07.03.2025",
+    img: "/image/story-6.png",
+    createdAt: "2025-05-05",
+    slug: "hoa-si-khiem-thinh-nam-long",
+    content: `
+		<p class="text-black mb-4 leading-relaxed">
+		  Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động. Tuy nhiên, tỷ lệ người khiếm thính có việc làm vẫn còn thấp, do họ phải đối mặt với nhiều thách thức như:
+		</p>
+		<div class="text-black mb-4 leading-relaxed pl-4">
+		  • Phân biệt đối xử và định kiến: Nhiều nhà tuyển dụng còn e ngại về khả năng làm việc của người khiếm thính, dẫn đến việc họ ít được trao cơ hội việc làm.
+		</div>
+		<div class="text-black mb-4 leading-relaxed pl-4">
+		  • Thiếu kỹ năng và trình độ chuyên môn: Theo thống kê, 93,4% người khuyết tật từ 16 tuổi trở lên không có chuyên môn, chỉ 6,5% có bằng cấp từ chứng chỉ nghề trở lên. Điều này khiến người khiếm thính gặp khó khăn trong việc đáp ứng yêu cầu công việc
+		</div>
+		<div class="text-black mb-4 leading-relaxed pl-4">
+		  • Hạn chế trong tiếp cận thông tin việc làm: Người khiếm thính thường gặp khó khăn trong việc tiếp cận thông tin tuyển dụng và các dịch vụ hỗ trợ việc làm do rào cản về ngôn ngữ và công nghệ.
+		</div>
+		<p class="text-black mb-4 leading-relaxed">
+		  Để cải thiện tình hình, các doanh nghiệp xã hội như <b>SHE+</b> đang nỗ lực tạo cơ hội kết nối việc làm cho người khiếm thính, giúp họ hòa nhập và đóng góp cho xã hội.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Hiện <b>SHE+</b> đang có rất nhiều đơn vị tìm đến để tuyển dụng người khiếm thính tuy nhiên để đáp ứng yêu cầu tuyển dụng vẫn cồn một khoảng trống điều đó phụ thuộc rất nhiều vào các yếu tố khách quan và chủ quan.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Khi tìm kiếm việc làm, mối quan tâm hàng đầu của người khiếm thính thường là môi trường làm việc thân thiện và không phân biệt đối xử. Họ mong muốn được làm việc trong môi trường tôn trọng, hỗ trợ và tạo điều kiện để phát huy khả năng.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Tuy nhiên thực tế là việc đào tạo tại trường và gia đình chưa hỗ trợ nhiều về đào tạo kỹ năng chuyên môn và kỹ năng mềm, đây chính yếu tố quan trọng giúp họ tự tin và đáp ứng yêu cầu công việc.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Việc nâng cao nhận thức của cộng đồng và doanh nghiệp về khả năng và tiềm năng của người khiếm thính, cùng với việc tạo điều kiện tiếp cận giáo dục và đào tạo nghề, sẽ góp phần mở rộng cơ hội việc làm cho họ, giúp họ tự tin tham gia thị trường lao động và đóng góp cho sự phát triển của xã hội.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Việc làm là chìa khóa để người khiếm thính tự tin và độc lập trong cuộc sống. Hiện nay, nhiều doanh nghiệp, đặc biệt là <b>SHE+ Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam</b>, đang mở ra nhiều cơ hội kết nối việc làm phù hợp với khả năng và mong muốn của các bạn khiếm thính.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  SHE+ nhận được rất nhiều tin nhắn từ phụ huynh, từ các bạn khiếm thính hỏi về kết nối việc làm. Đồng thời nhận được rất nhiều ủy thác từ các doanh nghiệp mong muốn kết nối tuyển dụng người khiếm thính tạo cơ hội học nghề: may thuê, nấu ăn, vẽ từ các Doanh nghiệp trên địa bàn Hà Nội, TP Hồ Chí Minh
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Hãy tham gia khảo sát để chúng tôi kết nối công việc với đúng khả năng của bạn và nhu cầu của người tuyển dụng
+		</p>
+		<p class="text-black  leading-relaxed">
+		  Thông tin khảo sát chỉ dùng với mục đích kết nối việc làm đúng nhu cầu của các bạn và giúp chúng tôi tư vấn việc làm, môi trường tuyển dụng phù hợp với người khiếm thính tới các doanh nghiệp đang tạo cơ hội việc làm cho người khiếm thính/điếc (dạng tật Nghe Nói)<a href="https://forms.gle/E1nrk9hjs4EVA94m7" target="_blank" rel="noopener noreferrer" class="block underline  decoration-solid mb-4">
+		  https://forms.gle/E1nrk9hjs4EVA94m7
+		</a>
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Liên hệ <b>SHE+</b> để được tư vấn miễn phí dịch vụ hòa nhập cộng đồng, đánh giá và đưa ra các giải pháp phục hồi chức năng nghề nghiệp, sẽ rất tốt nếu gia đình có thể đi cùng với trẻ khiếm thính (từ 13 tuổi trở lên)
+		</p>
+	   `,
+  },
+];
 
 export const dataJob = [
-	{
-	  img: "/image/job-1.png",
-	  imgDetail: "/image/job-1-detail.png",
-	  title: "Content Creator",
-	  titleDes: "Nhà sáng tạo nội dung",
-	  slug: "content-creator",
-	  description: "Tạo nội dung giáo dục, truyền thông và tài liệu, bài viết, infographic...",
-	  salary: "8 - 12 triệu",
-	  location: "Hà Nội",
-	  deadline: "14/7/2025",
-	  nature: "Full-time",
-	  jobDescription: [
-		  "Lên ý tưởng, xây dựng nội dung truyền thông cho các kênh của tổ chức (Facebook, Instagram, TikTok, Website…)",
-		  "Sản xuất bài viết, hình ảnh, video truyền cảm hứng, nội dung giáo dục hướng đến cộng đồng người khiếm thính và cộng đồng chung",
-		  "Hỗ trợ triển khai các chiến dịch truyền thông, sự kiện cộng đồng, hội thảo của tổ chứ",
-		  "Phối hợp cùng team thiết kế, marketing để đảm bảo nội dung nhất quán và sáng tạo",
-		  "Theo dõi hiệu quả các nội dung đã đăng tải và đề xuất hướng cải thiện",
-		  "Tham gia brainstorm, đóng góp ý tưởng phát triển thương hiệu FFF"
-	  ],
-	  candidateRequirements: [
-		  "Có kỹ năng viết tốt, tư duy sáng tạo, khả năng kể chuyện bằng hình ảnh và video",
-		  "Yêu thích làm việc vì cộng đồng, đặc biệt là với người khiếm thính hoặc nhóm yếu thế",
-		  "Thành thạo các nền tảng mạng xã hội và công cụ hỗ trợ nội dung (Canva, CapCut, Meta Business Suite…)",
-		  "Có khả năng làm việc nhóm, tiếp nhận phản hồi và cải thiện liên tục",
-		  "Ưu tiên ứng viên có kinh nghiệm ở vị trí tương đương hoặc đã từng làm trong các tổ chức phi lợi nhuận, xã hội",
-		  "Biết sử dụng ngôn ngữ ký hiệu (không bắt buộc, nhưng là một lợi thế)"
-	  ],
-	  inCome: "8.000.000 – 12.000.000 VNĐ/tháng (tùy theo năng lực và kinh nghiệm)",
-	  benefits: [
-		  "Làm việc trong môi trường thân thiện, nhân văn và sáng tạo",
-		  "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng",
-		  "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng",
-		  "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc",
-		  "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật",
-		  "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định." 
-	  ]
-	},
-	{
-	  img: "/image/job-2.png",
-	  imgDetail: "/image/job-2-detail.png",
-	  title: "Marketing",
-	  titleDes: "Chuyên viên Marketing",
-	  slug: "marketing-specialist",
-	  description: "Lập kế hoạch truyền thông, quản lý mạng xã hội, chạy chiến dịch nâng cao...",
-	  salary: "10 - 15 triệu",
-	  location: "Hà Nội",
-	  deadline: "14/7/2025",
-	  nature: "Full-time",
-	  jobDescription: [
-		  "Xây dựng và triển khai các kế hoạch truyền thông, marketing cho các chương trình giáo dục, đào tạo và sự kiện của FFF",
-		  "Quản lý và phát triển các kênh truyền thông như fanpage, website, email marketing, báo chí,…",
-		  "Viết nội dung truyền thông: bài đăng mạng xã hội, bài PR, thông cáo báo chí, nội dung cho ấn phẩm truyền thông…",
-		  "Phối hợp tổ chức sự kiện, hội thảo và các chiến dịch nâng cao nhận thức cộng đồng về người khiếm thính.",
-		  "Theo dõi, đánh giá hiệu quả các hoạt động marketing và đề xuất cải tiến.",
-	  ],
-	  candidateRequirements: [
-		  "Tốt nghiệp đại học chuyên ngành Marketing, Truyền thông, Báo chí, Quản trị kinh doanh hoặc các ngành liên quan.",
-		  "Có tối thiểu 1 năm kinh nghiệm trong lĩnh vực marketing hoặc truyền thông.",
-		  "Kỹ năng viết nội dung tốt, sáng tạo, khả năng kể chuyện truyền cảm hứng.",
-		  "Thành thạo các công cụ truyền thông số (Facebook Ads, Google Ads, Canva, Mailchimp,… là lợi thế).",
-		  "Có tinh thần trách nhiệm, chủ động, cầu tiến và yêu thích các hoạt động xã hội.",
-	  ],
-	  inCome: "10.000.000 – 15.000.000 VNĐ/tháng (tùy theo năng lực và kinh nghiệm)",
-	  benefits: [
-		  "Làm việc trong môi trường thân thiện, nhân văn và sáng tạo",
-		  "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng",
-		  "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng",
-		  "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc",
-		  "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật",
-		  "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định." 
-	  ]
-	},
-	{
-	  img: "/image/job-3.png",
-	  imgDetail: "/image/job-3-detail.png",
-	  title: "Designer",
-	  titleDes: "Nhà Thiết Kế Đồ Họa",
-	  slug: "graphic-designer",
-	  description: "Tạo ra hình ảnh thương hiệu, thiết kế bao bì, và các sản phẩm truyền thông...",
-	  salary: "10 - 15 triệu",
-	  location: "Hà Nội",
-	  deadline: "14/7/2025",
-	  nature: "Full-time",
-	  jobDescription: [
-		  "Thiết kế các ấn phẩm truyền thông (banner, poster, brochure, infographic...) phục vụ cho các chiến dịch truyền thông, sự kiện và hoạt động của tổ chức.",
-		  "Hỗ trợ xây dựng bộ nhận diện thương hiệu cho các dự án, chương trình của FFF.",
-		  "Hỗ trợ triển khai các chiến dịch truyền thông, sự kiện cộng đồng, hội thảo của tổ chứ",
-		  "Phối hợp cùng bộ phận nội dung, truyền thông và các phòng ban khác để lên ý tưởng thiết kế phù hợp với định hướng của tổ chức.",
-		  "Quản lý và cập nhật kho dữ liệu thiết kế.",
-		  "Tham gia đề xuất ý tưởng sáng tạo nhằm nâng cao hiệu quả truyền thông và hình ảnh tổ chức."
-	  ],
-	  candidateRequirements: [
-		  "Có kinh nghiệm từ 1 năm trở lên trong lĩnh vực thiết kế đồ họa.",
-		  "Thành thạo các phần mềm thiết kế như Adobe Photoshop, Illustrator, InDesign; ưu tiên biết thêm Adobe Premiere, After Effects là lợi thế.",
-		  "Có tư duy thẩm mỹ tốt, khả năng sáng tạo và nắm bắt xu hướng thiết kế hiện đại.",
-		  "Có tinh thần trách nhiệm, chủ động trong công việc, sẵn sàng học hỏi và làm việc nhóm.",
-		  "Ưu tiên ứng viên từng làm việc với các tổ chức xã hội, phi lợi nhuận hoặc có mong muốn đóng góp cho cộng đồng người khiếm thính.",
-	  ],
-	  inCome: "Từ 10 – 15 triệu đồng/tháng (tùy năng lực, có xét tăng lương định kỳ)",
-	  benefits: [
-		  "Làm việc trong môi trường thân thiện, nhân văn và sáng tạo",
-		  "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng",
-		  "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng",
-		  "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc",
-		  "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật",
-		  "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định." 
-	  ]
-	},
-	{
-	  img: "/image/job-4.png",
-	  imgDetail: "/image/job-4-detail.png",
-	  title: "Plan manager",
-	  titleDes: "Quản lý Dự án",
-	  slug: "project-manager",
-	  description: "Lên kế hoạch, triển khai và theo dõi tiến độ dự án, đảm bảo hoàn thành đúng hạn...",
-	  salary: "15 - 20 triệu",
-	  location: "Hà Nội",
-	  deadline: "14/7/2025",
-	  nature: "Full-time",
-	  jobDescription: [
-		  "Quản lý, điều phối và giám sát các dự án giáo dục – đào tạo nghề cho người khiếm thính do FFF tổ chức.",
-		  "Lập kế hoạch, triển khai và theo dõi tiến độ các hoạt động trong từng dự án.",
-		  "Làm việc với các đối tác, nhà tài trợ, chuyên gia và các bên liên quan để đảm bảo chất lượng chương trình.",
-		  "Tham gia xây dựng nội dung, thiết kế hoạt động đào tạo phù hợp với người khiếm thính.",
-		  "Theo dõi ngân sách, báo cáo tài chính và tổng kết hiệu quả dự án.",
-		  "Báo cáo định kỳ tiến độ và kết quả cho Ban lãnh đạo tổ chức."
-	  ],
-	  candidateRequirements: [
-		  "Quản lý, điều phối và giám sát các dự án giáo dục – đào tạo nghề cho người khiếm thính do FFF tổ chức.",
-		  "Lập kế hoạch, triển khai và theo dõi tiến độ các hoạt động trong từng dự án.",
-		  "Làm việc với các đối tác, nhà tài trợ, chuyên gia và các bên liên quan để đảm bảo chất lượng chương trình.",
-		  "Tham gia xây dựng nội dung, thiết kế hoạt động đào tạo phù hợp với người khiếm thính.",
-		  "Theo dõi ngân sách, báo cáo tài chính và tổng kết hiệu quả dự án.",
-		  "Báo cáo định kỳ tiến độ và kết quả cho Ban lãnh đạo tổ chức."
-	  ],
-	  inCome: "15.000.000 – 20.000.000 VNĐ/tháng (tùy theo năng lực và kinh nghiệm)",
-	  benefits: [
-		  "Làm việc trong môi trường thân thiện, nhân văn và sáng tạo",
-		  "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng",
-		  "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng",
-		  "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc",
-		  "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật",
-		  "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định." 
-	  ]
-	},
-	{
-	  img: "/image/job-5.png",
-	  imgDetail: "/image/job-5-detail.png",
-	  title: "Data Analyst",
-	  titleDes: "Phân Tích Dữ Liệu",
-	  slug: "data-analyst",
-	  description: "Phân tích số liệu để đưa ra quyết định chiến lược, tối ưu hóa hiệu suất và báo...",
-	  salary: "7 - 10 triệu",
-	  location: "Hà Nội",
-	  deadline: "14/7/2025",
-	  nature: "Full-time",
-	  jobDescription: [
-		  "Hướng dẫn và hỗ trợ học viên khiếm thính trong quá trình đào tạo kỹ năng sống, kỹ năng nghề.",
-		  "Xây dựng nội dung đào tạo phù hợp với khả năng tiếp thu của người khiếm thính.",
-		  "Phối hợp tổ chức các chương trình truyền thông, tư vấn hướng nghiệp, kết nối doanh nghiệp để tạo đầu ra việc làm.",
-		  "Quản lý hành chính, hỗ trợ vận hành trung tâm.",
-		  "Một số vị trí chuyên môn (như CNTT, thiết kế đồ họa, sản xuất video, phiên dịch ngôn ngữ ký hiệu) sẽ có mô tả riêng.",
-	  ],
-	  candidateRequirements: [
-		  "Có tâm huyết với công việc cộng đồng, đặc biệt là với người khiếm thính.",
-		  "Tốt nghiệp cao đẳng/đại học các chuyên ngành phù hợp (giáo dục đặc biệt, tâm lý học, công tác xã hội, CNTT, thiết kế, v.v.",
-		  "Thành thạo các nền tảng mạng xã hội và công cụ hỗ trợ nội dung (Canva, CapCut, Meta Business Suite…)",
-		  "Ưu tiên:",
-		  "Ứng viên biết hoặc sẵn sàng học ngôn ngữ ký hiệu",
-		  "Có kinh nghiệm làm việc trong các tổ chức phi lợi nhuận hoặc dự án cộng đồng.",
-		  "Kỹ năng giao tiếp tốt, tư duy tích cực, kiên nhẫn."
-	  ],
-	  inCome: "7.000.000 – 10.000.000 VNĐ/tháng (tùy theo năng lực và kinh nghiệm)",
-	  
-	  benefits: [
-		  "Làm việc trong môi trường thân thiện, nhân văn và sáng tạo",
-		  "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng",
-		  "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng",
-		  "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc",
-		  "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật",
-		  "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định." 
-	  ]
-	  },
-  ];
+  {
+    img: "/image/job-1.png",
+    imgDetail: "/image/job-1-detail.png",
+    title: "Content Creator",
+    titleDes: "Nhà sáng tạo nội dung",
+    slug: "content-creator",
+    description: "Tạo nội dung giáo dục, truyền thông và tài liệu, bài viết, infographic...",
+    salary: "8 - 12 triệu",
+    location: "Hà Nội",
+    deadline: "14/7/2025",
+    nature: "Full-time",
+    jobDescription: ["Lên ý tưởng, xây dựng nội dung truyền thông cho các kênh của tổ chức (Facebook, Instagram, TikTok, Website…)", "Sản xuất bài viết, hình ảnh, video truyền cảm hứng, nội dung giáo dục hướng đến cộng đồng người khiếm thính và cộng đồng chung", "Hỗ trợ triển khai các chiến dịch truyền thông, sự kiện cộng đồng, hội thảo của tổ chứ", "Phối hợp cùng team thiết kế, marketing để đảm bảo nội dung nhất quán và sáng tạo", "Theo dõi hiệu quả các nội dung đã đăng tải và đề xuất hướng cải thiện", "Tham gia brainstorm, đóng góp ý tưởng phát triển thương hiệu FFF"],
+    candidateRequirements: ["Có kỹ năng viết tốt, tư duy sáng tạo, khả năng kể chuyện bằng hình ảnh và video", "Yêu thích làm việc vì cộng đồng, đặc biệt là với người khiếm thính hoặc nhóm yếu thế", "Thành thạo các nền tảng mạng xã hội và công cụ hỗ trợ nội dung (Canva, CapCut, Meta Business Suite…)", "Có khả năng làm việc nhóm, tiếp nhận phản hồi và cải thiện liên tục", "Ưu tiên ứng viên có kinh nghiệm ở vị trí tương đương hoặc đã từng làm trong các tổ chức phi lợi nhuận, xã hội", "Biết sử dụng ngôn ngữ ký hiệu (không bắt buộc, nhưng là một lợi thế)"],
+    inCome: "8.000.000 – 12.000.000 VNĐ/tháng (tùy theo năng lực và kinh nghiệm)",
+    benefits: ["Làm việc trong môi trường thân thiện, nhân văn và sáng tạo", "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng", "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng", "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc", "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật", "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định."],
+  },
+  {
+    img: "/image/job-2.png",
+    imgDetail: "/image/job-2-detail.png",
+    title: "Marketing",
+    titleDes: "Chuyên viên Marketing",
+    slug: "marketing-specialist",
+    description: "Lập kế hoạch truyền thông, quản lý mạng xã hội, chạy chiến dịch nâng cao...",
+    salary: "10 - 15 triệu",
+    location: "Hà Nội",
+    deadline: "14/7/2025",
+    nature: "Full-time",
+    jobDescription: ["Xây dựng và triển khai các kế hoạch truyền thông, marketing cho các chương trình giáo dục, đào tạo và sự kiện của FFF", "Quản lý và phát triển các kênh truyền thông như fanpage, website, email marketing, báo chí,…", "Viết nội dung truyền thông: bài đăng mạng xã hội, bài PR, thông cáo báo chí, nội dung cho ấn phẩm truyền thông…", "Phối hợp tổ chức sự kiện, hội thảo và các chiến dịch nâng cao nhận thức cộng đồng về người khiếm thính.", "Theo dõi, đánh giá hiệu quả các hoạt động marketing và đề xuất cải tiến."],
+    candidateRequirements: ["Tốt nghiệp đại học chuyên ngành Marketing, Truyền thông, Báo chí, Quản trị kinh doanh hoặc các ngành liên quan.", "Có tối thiểu 1 năm kinh nghiệm trong lĩnh vực marketing hoặc truyền thông.", "Kỹ năng viết nội dung tốt, sáng tạo, khả năng kể chuyện truyền cảm hứng.", "Thành thạo các công cụ truyền thông số (Facebook Ads, Google Ads, Canva, Mailchimp,… là lợi thế).", "Có tinh thần trách nhiệm, chủ động, cầu tiến và yêu thích các hoạt động xã hội."],
+    inCome: "10.000.000 – 15.000.000 VNĐ/tháng (tùy theo năng lực và kinh nghiệm)",
+    benefits: ["Làm việc trong môi trường thân thiện, nhân văn và sáng tạo", "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng", "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng", "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc", "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật", "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định."],
+  },
+  {
+    img: "/image/job-3.png",
+    imgDetail: "/image/job-3-detail.png",
+    title: "Designer",
+    titleDes: "Nhà Thiết Kế Đồ Họa",
+    slug: "graphic-designer",
+    description: "Tạo ra hình ảnh thương hiệu, thiết kế bao bì, và các sản phẩm truyền thông...",
+    salary: "10 - 15 triệu",
+    location: "Hà Nội",
+    deadline: "14/7/2025",
+    nature: "Full-time",
+    jobDescription: ["Thiết kế các ấn phẩm truyền thông (banner, poster, brochure, infographic...) phục vụ cho các chiến dịch truyền thông, sự kiện và hoạt động của tổ chức.", "Hỗ trợ xây dựng bộ nhận diện thương hiệu cho các dự án, chương trình của FFF.", "Hỗ trợ triển khai các chiến dịch truyền thông, sự kiện cộng đồng, hội thảo của tổ chứ", "Phối hợp cùng bộ phận nội dung, truyền thông và các phòng ban khác để lên ý tưởng thiết kế phù hợp với định hướng của tổ chức.", "Quản lý và cập nhật kho dữ liệu thiết kế.", "Tham gia đề xuất ý tưởng sáng tạo nhằm nâng cao hiệu quả truyền thông và hình ảnh tổ chức."],
+    candidateRequirements: ["Có kinh nghiệm từ 1 năm trở lên trong lĩnh vực thiết kế đồ họa.", "Thành thạo các phần mềm thiết kế như Adobe Photoshop, Illustrator, InDesign; ưu tiên biết thêm Adobe Premiere, After Effects là lợi thế.", "Có tư duy thẩm mỹ tốt, khả năng sáng tạo và nắm bắt xu hướng thiết kế hiện đại.", "Có tinh thần trách nhiệm, chủ động trong công việc, sẵn sàng học hỏi và làm việc nhóm.", "Ưu tiên ứng viên từng làm việc với các tổ chức xã hội, phi lợi nhuận hoặc có mong muốn đóng góp cho cộng đồng người khiếm thính."],
+    inCome: "Từ 10 – 15 triệu đồng/tháng (tùy năng lực, có xét tăng lương định kỳ)",
+    benefits: ["Làm việc trong môi trường thân thiện, nhân văn và sáng tạo", "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng", "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng", "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc", "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật", "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định."],
+  },
+  {
+    img: "/image/job-4.png",
+    imgDetail: "/image/job-4-detail.png",
+    title: "Plan manager",
+    titleDes: "Quản lý Dự án",
+    slug: "project-manager",
+    description: "Lên kế hoạch, triển khai và theo dõi tiến độ dự án, đảm bảo hoàn thành đúng hạn...",
+    salary: "15 - 20 triệu",
+    location: "Hà Nội",
+    deadline: "14/7/2025",
+    nature: "Full-time",
+    jobDescription: ["Quản lý, điều phối và giám sát các dự án giáo dục – đào tạo nghề cho người khiếm thính do FFF tổ chức.", "Lập kế hoạch, triển khai và theo dõi tiến độ các hoạt động trong từng dự án.", "Làm việc với các đối tác, nhà tài trợ, chuyên gia và các bên liên quan để đảm bảo chất lượng chương trình.", "Tham gia xây dựng nội dung, thiết kế hoạt động đào tạo phù hợp với người khiếm thính.", "Theo dõi ngân sách, báo cáo tài chính và tổng kết hiệu quả dự án.", "Báo cáo định kỳ tiến độ và kết quả cho Ban lãnh đạo tổ chức."],
+    candidateRequirements: ["Quản lý, điều phối và giám sát các dự án giáo dục – đào tạo nghề cho người khiếm thính do FFF tổ chức.", "Lập kế hoạch, triển khai và theo dõi tiến độ các hoạt động trong từng dự án.", "Làm việc với các đối tác, nhà tài trợ, chuyên gia và các bên liên quan để đảm bảo chất lượng chương trình.", "Tham gia xây dựng nội dung, thiết kế hoạt động đào tạo phù hợp với người khiếm thính.", "Theo dõi ngân sách, báo cáo tài chính và tổng kết hiệu quả dự án.", "Báo cáo định kỳ tiến độ và kết quả cho Ban lãnh đạo tổ chức."],
+    inCome: "15.000.000 – 20.000.000 VNĐ/tháng (tùy theo năng lực và kinh nghiệm)",
+    benefits: ["Làm việc trong môi trường thân thiện, nhân văn và sáng tạo", "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng", "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng", "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc", "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật", "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định."],
+  },
+  {
+    img: "/image/job-5.png",
+    imgDetail: "/image/job-5-detail.png",
+    title: "Data Analyst",
+    titleDes: "Phân Tích Dữ Liệu",
+    slug: "data-analyst",
+    description: "Phân tích số liệu để đưa ra quyết định chiến lược, tối ưu hóa hiệu suất và báo...",
+    salary: "7 - 10 triệu",
+    location: "Hà Nội",
+    deadline: "14/7/2025",
+    nature: "Full-time",
+    jobDescription: ["Hướng dẫn và hỗ trợ học viên khiếm thính trong quá trình đào tạo kỹ năng sống, kỹ năng nghề.", "Xây dựng nội dung đào tạo phù hợp với khả năng tiếp thu của người khiếm thính.", "Phối hợp tổ chức các chương trình truyền thông, tư vấn hướng nghiệp, kết nối doanh nghiệp để tạo đầu ra việc làm.", "Quản lý hành chính, hỗ trợ vận hành trung tâm.", "Một số vị trí chuyên môn (như CNTT, thiết kế đồ họa, sản xuất video, phiên dịch ngôn ngữ ký hiệu) sẽ có mô tả riêng."],
+    candidateRequirements: ["Có tâm huyết với công việc cộng đồng, đặc biệt là với người khiếm thính.", "Tốt nghiệp cao đẳng/đại học các chuyên ngành phù hợp (giáo dục đặc biệt, tâm lý học, công tác xã hội, CNTT, thiết kế, v.v.", "Thành thạo các nền tảng mạng xã hội và công cụ hỗ trợ nội dung (Canva, CapCut, Meta Business Suite…)", "Ưu tiên:", "Ứng viên biết hoặc sẵn sàng học ngôn ngữ ký hiệu", "Có kinh nghiệm làm việc trong các tổ chức phi lợi nhuận hoặc dự án cộng đồng.", "Kỹ năng giao tiếp tốt, tư duy tích cực, kiên nhẫn."],
+    inCome: "7.000.000 – 10.000.000 VNĐ/tháng (tùy theo năng lực và kinh nghiệm)",
+
+    benefits: ["Làm việc trong môi trường thân thiện, nhân văn và sáng tạo", "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng", "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng", "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc", "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật", "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định."],
+  },
+];
 export const dataVolunteer = [
-	{
-	  img: "/image/volunteer-1.png",
-	  title: "Workshop Hướng nghiệp & Kỹ năng mềm",
-	  slug: "career-guidance-and-soft-skills-workshop",
-	  organization: [
-		  {
-			 img: "/image/Ellipse-6.png",
-			 title: "DNXH vì người khiếm thính Việt Nam",
-		  }
-	  ],
-	  sponsoring: [
-		  {
-			  img: "/image/Ellipse-7.png",
-			  title: "Foundation for Future",
-		  }
-	  ],
-	  description: "Workshop Hướng nghiệp & Kỹ năng mềm là chương trình đào tạo thực tiễn với các buổi hội thảo, hoạt động nhóm, trò chơi tương tác và phiên chia sẻ từ các chuyên gia. Dự án được thiết kế nhằm truyền cảm hứng, chia sẻ kinh nghiệm và cung cấp các công cụ giúp người khiếm thính phát triển toàn diện kỹ năng mềm cùng khả năng định hướng nghề nghiệp. Dự án cũng là cơ hội để các tình nguyện viên, những người có đam mê và nhiệt huyết, được tham gia vào quá trình góp phần thay đổi cuộc sống của người khiếm thính.",
-	  sortDesc: "Trang bị cho người khiêm thính những kiến thức và kỹ năng thực tiễn để tự tin bước vào thị trường lao động. Tạo cơ hội kết nỗi giữa người khiếm thính và chuyên gia hướng nghiệp.",
-	  time: "Chủ Nhật, 20/7/2025 (09:00 – 16:00)",
-	  location: "Số 15, Đường Lê Duẩn, Quận Hai Bà Trưng, Hà Nội",
-	  requirements: [
-		"Kỹ năng giao tiếp: Tốt, thân thiện và nhiệt huyết",
-		"Ưu tiên: Ứng viên có kinh nghiệm làm việc trong các hoạt động hướng nghiệp, đào tạo kỹ năng mềm, hoặc biết ngôn ngữ ký hiệu",
-		"Thái độ: Năng động, có tinh thần trách nhiệm và khả năng làm việc nhóm tốt",
-	  ],
-	  roles: [
-		"Hỗ trợ điều phối sự kiện, đăng ký và tiếp đón học viên",
-		"Hỗ trợ phiên chia sẻ và phiên dịch ngôn ngữ ký hiệu cho người tham dự nếu cần thiết",
-		"Giao tiếp hỗ trợ chuyên môn: Hỗ trợ tư vấn, cung cấp thông tin và hướng dẫn các hoạt động của workshop",
-	  ],
-	  benefits: [
-		"Cơ hội được đào tạo kỹ năng quản lý dự án, tổ chức sự kiện chuyên nghiệp",
-		"Mở rộng mạng lưới kết nối với cộng đồng và các chuyên gia trong lĩnh vực giáo dục, hướng nghiệp",
-		"Cơ hội góp phần trực tiếp vào việc thay đổi cuộc sống của người khiếm thính",
-	  ]
-	},
-	{
-	  img: "/image/volunteer-2.png",
-	  title: 'Chiến dịch Gây quỹ Cộng đồng "Ánh sáng thầm lặng"',
-	  slug: "community-fundraising-campaign",
-	  organization: [],
-	  sponsoring: [
-		  {
-			  img: "/image/Ellipse-7.png",
-			  title: "Foundation for Future",
-		  }
-	  ],
-	  description: "Dự án \"Ánh sáng thầm lặng\" nhằm gây quỹ hỗ trợ học bổng, trang thiết bị trợ thính, và các chương trình đào tạo nghề cho người khiếm thính. Trong khuôn khổ chiến dịch này, Workshop Hướng nghiệp & Kỹ năng mềm được tổ chức để trang bị kiến thức và kỹ năng cần thiết cho người khiếm thính, đồng thời là dịp tuyển dụng, huy động tinh thần và năng lực của các tình nguyện viên.",
-	  sortDesc: "Gây quỹ hỗ trợ học bổng, trang thiết bị trợ tính và chương trình đào tạo cho người khiếm tính. Tăng cường nhận thức cộng của cộng đồng về vai trò và tiềm năng của người khiếm thính.",
-	  time: "Thứ Bảy, ngày 28/9/2025 (09:00 – 16:00)",
-	  location: "Số 123, Đường Lê Lợi, Quận 1, Thành phố Hồ Chí Minh",
-	  requirements: [
-		"Đam mê hoạt động cộng đồng, ưu tiên những người có kiến thức hoặc kinh nghiệm hỗ trợ người khiếm thính.",
-		"Kỹ năng giao tiếp tốt, biết hoặc có khả năng học ngôn ngữ ký hiệu là một lợi thế.",
-		"Năng lực tổ chức, làm việc nhóm và cam kết thời gian sự kiện đầy đủ.",
-		"Có kiến thức, chuyên môn về vị trí đảm nhiệm"
-	  ],
-	  roles: [
-		"Tình nguyện viên Truyền thông & Quảng bá: Chịu trách nhiệm tạo nội dung và lan tỏa thông điệp trên các kênh truyền thông.",
-		"Tình nguyện viên Điều phối Sự kiện: Hỗ trợ tổ chức và phối hợp hoạt động gây quỹ.",
-		"Tình nguyện viên Tiếp cận Cộng đồng: Chủ động kết nối với cá nhân, tổ chức để mời gọi và thu hút sự ủng hộ.",
-	  ],
-	  benefits: [
-		"Chứng nhận hoặc giấy khen từ Foundation for Future.",
-		"Cơ hội trải nghiệm, học hỏi và mở rộng kết nối trong môi trường giáo dục và hướng nghiệp.",
-		"Hỗ trợ đào tạo chuyên sâu về giao tiếp với người khiếm thính và kỹ năng mềm.",
-	  ]
-	},
-	{
-	  img: "/image/volunteer-3.png",
-	  title: 'Festival Sáng tạo & Kết nối "Cùng Đổi Mới Tương Lai"',
-	  slug: "creative-and-discovery-festival",
-	  organization: [
-		  {
-			 img: "/image/Ellipse-8.png",
-			 title: "Hội Cha Mẹ Trẻ Khiếm Thính và Người Khiếm Thính Việt Nam",
-		  },
-		  {
-			img: "/image/Ellipse-7.png",
-			title: "Foundation For Future",
-		 }
-	  ],
-	  sponsoring: [
-		  {
-			  img: "/image/Ellipse-9.png",
-			  title: "UNICEF Việt Nam",
-		  }
-	  ],
-	  description: "Festival Sáng tạo & Kết nối \"Cùng Đổi Mới Tương Lai\" là sự kiện được tổ chức bởi Foundation for Future, nhằm tạo diễn đàn trao đổi, học hỏi và chia sẻ sáng tạo cho cộng đồng người khiếm thính và các đối tác liên quan. Dự án hướng đến việc kết nối các cá nhân, doanh nghiệp và tổ chức để cùng nhau khám phá, ứng dụng các giải pháp sáng tạo trong giáo dục và đào tạo hướng nghiệp. Đồng thời, sự kiện còn là cơ hội để người tham gia trải nghiệm, chia sẻ kinh nghiệm và xây dựng những ý tưởng đổi mới nhằm cải thiện chất lượng cuộc sống cho cộng đồng.",
-	  sortDesc: "Truyền cảm hứng và chia sẻ kinh nghiệm đổi mới trong giáo dục và hỗ trợ nghề nghiệp cho người khiếm thính. Tạo sân chơi kết nối, giao lưu và hợp tác giữa người khiếm thính, chuyên gia và doanh nghiệp trong việc phát triển công nghệ, sản phẩm",
-	  time: "Thứ Bảy, ngày 15/9/2025 (09:00 – 17:00)",
-	  location: "Trung tâm Hội nghị & Triển lãm, Thành phố Hồ Chí Minh.",
-	  requirements: [
-		"Các cá nhân năng động, có đam mê hoạt động cộng đồng và sáng tạo.",
-		"Ưu tiên ứng viên có kỹ năng giao tiếp tốt, biết ngôn ngữ ký hiệu hoặc đã có kinh nghiệm làm việc trong các hoạt động tình nguyện và quản lý sự kiện.",
-	  ],
-	  roles: [
-		"Hỗ trợ điều phối: Giúp ban tổ chức điều phối các phiên hội thảo, workshop và phiên giao lưu.",
-		"Hỗ trợ hậu cần: Hướng dẫn người tham dự, phụ trách các gian hàng và hỗ trợ tổ chức sự kiện tại chỗ.",
-		"Truyền thông & quảng bá: Hỗ trợ tạo nội dung, quảng bá sự kiện trên các kênh truyền thông xã hội và phối hợp với các đối tác truyền thông.",
-		"Hỗ trợ kỹ thuật: Hỗ trợ các vấn đề liên quan đến công nghệ, phiên dịch ngôn ngữ ký hiệu, quản lý tài liệu sự kiện."
-	  ],
-	  benefits: [
-		"Cơ hội trải nghiệm môi trường làm việc chuyên nghiệp trong lĩnh vực cộng đồng và giáo dục.",
-		"Phát triển kỹ năng tổ chức sự kiện, giao tiếp và kỹ năng lãnh đạo.",
-		"Kết nối với các chuyên gia, doanh nghiệp và cộng đồng sáng tạo.",
-		"Nhận giấy chứng nhận tình nguyện, hỗ trợ tích lũy kinh nghiệm và mở rộng mạng lưới quan hệ.     "
-	  ]
-	},
-  ];
+  {
+    img: "/image/volunteer-1.png",
+    title: "Workshop Hướng nghiệp & Kỹ năng mềm",
+    slug: "career-guidance-and-soft-skills-workshop",
+    organization: [
+      {
+        img: "/image/Ellipse-6.png",
+        title: "DNXH vì người khiếm thính Việt Nam",
+      },
+    ],
+    sponsoring: [
+      {
+        img: "/image/Ellipse-7.png",
+        title: "Foundation for Future",
+      },
+    ],
+    description: "Workshop Hướng nghiệp & Kỹ năng mềm là chương trình đào tạo thực tiễn với các buổi hội thảo, hoạt động nhóm, trò chơi tương tác và phiên chia sẻ từ các chuyên gia. Dự án được thiết kế nhằm truyền cảm hứng, chia sẻ kinh nghiệm và cung cấp các công cụ giúp người khiếm thính phát triển toàn diện kỹ năng mềm cùng khả năng định hướng nghề nghiệp. Dự án cũng là cơ hội để các tình nguyện viên, những người có đam mê và nhiệt huyết, được tham gia vào quá trình góp phần thay đổi cuộc sống của người khiếm thính.",
+    sortDesc: "Trang bị cho người khiêm thính những kiến thức và kỹ năng thực tiễn để tự tin bước vào thị trường lao động. Tạo cơ hội kết nỗi giữa người khiếm thính và chuyên gia hướng nghiệp.",
+    time: "Chủ Nhật, 20/7/2025 (09:00 – 16:00)",
+    location: "Số 15, Đường Lê Duẩn, Quận Hai Bà Trưng, Hà Nội",
+    requirements: ["Kỹ năng giao tiếp: Tốt, thân thiện và nhiệt huyết", "Ưu tiên: Ứng viên có kinh nghiệm làm việc trong các hoạt động hướng nghiệp, đào tạo kỹ năng mềm, hoặc biết ngôn ngữ ký hiệu", "Thái độ: Năng động, có tinh thần trách nhiệm và khả năng làm việc nhóm tốt"],
+    roles: ["Hỗ trợ điều phối sự kiện, đăng ký và tiếp đón học viên", "Hỗ trợ phiên chia sẻ và phiên dịch ngôn ngữ ký hiệu cho người tham dự nếu cần thiết", "Giao tiếp hỗ trợ chuyên môn: Hỗ trợ tư vấn, cung cấp thông tin và hướng dẫn các hoạt động của workshop"],
+    benefits: ["Cơ hội được đào tạo kỹ năng quản lý dự án, tổ chức sự kiện chuyên nghiệp", "Mở rộng mạng lưới kết nối với cộng đồng và các chuyên gia trong lĩnh vực giáo dục, hướng nghiệp", "Cơ hội góp phần trực tiếp vào việc thay đổi cuộc sống của người khiếm thính"],
+  },
+  {
+    img: "/image/volunteer-2.png",
+    title: 'Chiến dịch Gây quỹ Cộng đồng "Ánh sáng thầm lặng"',
+    slug: "community-fundraising-campaign",
+    organization: [],
+    sponsoring: [
+      {
+        img: "/image/Ellipse-7.png",
+        title: "Foundation for Future",
+      },
+    ],
+    description: 'Dự án "Ánh sáng thầm lặng" nhằm gây quỹ hỗ trợ học bổng, trang thiết bị trợ thính, và các chương trình đào tạo nghề cho người khiếm thính. Trong khuôn khổ chiến dịch này, Workshop Hướng nghiệp & Kỹ năng mềm được tổ chức để trang bị kiến thức và kỹ năng cần thiết cho người khiếm thính, đồng thời là dịp tuyển dụng, huy động tinh thần và năng lực của các tình nguyện viên.',
+    sortDesc: "Gây quỹ hỗ trợ học bổng, trang thiết bị trợ tính và chương trình đào tạo cho người khiếm tính. Tăng cường nhận thức cộng của cộng đồng về vai trò và tiềm năng của người khiếm thính.",
+    time: "Thứ Bảy, ngày 28/9/2025 (09:00 – 16:00)",
+    location: "Số 123, Đường Lê Lợi, Quận 1, Thành phố Hồ Chí Minh",
+    requirements: ["Đam mê hoạt động cộng đồng, ưu tiên những người có kiến thức hoặc kinh nghiệm hỗ trợ người khiếm thính.", "Kỹ năng giao tiếp tốt, biết hoặc có khả năng học ngôn ngữ ký hiệu là một lợi thế.", "Năng lực tổ chức, làm việc nhóm và cam kết thời gian sự kiện đầy đủ.", "Có kiến thức, chuyên môn về vị trí đảm nhiệm"],
+    roles: ["Tình nguyện viên Truyền thông & Quảng bá: Chịu trách nhiệm tạo nội dung và lan tỏa thông điệp trên các kênh truyền thông.", "Tình nguyện viên Điều phối Sự kiện: Hỗ trợ tổ chức và phối hợp hoạt động gây quỹ.", "Tình nguyện viên Tiếp cận Cộng đồng: Chủ động kết nối với cá nhân, tổ chức để mời gọi và thu hút sự ủng hộ."],
+    benefits: ["Chứng nhận hoặc giấy khen từ Foundation for Future.", "Cơ hội trải nghiệm, học hỏi và mở rộng kết nối trong môi trường giáo dục và hướng nghiệp.", "Hỗ trợ đào tạo chuyên sâu về giao tiếp với người khiếm thính và kỹ năng mềm."],
+  },
+  {
+    img: "/image/volunteer-3.png",
+    title: 'Festival Sáng tạo & Kết nối "Cùng Đổi Mới Tương Lai"',
+    slug: "creative-and-discovery-festival",
+    organization: [
+      {
+        img: "/image/Ellipse-8.png",
+        title: "Hội Cha Mẹ Trẻ Khiếm Thính và Người Khiếm Thính Việt Nam",
+      },
+      {
+        img: "/image/Ellipse-7.png",
+        title: "Foundation For Future",
+      },
+    ],
+    sponsoring: [
+      {
+        img: "/image/Ellipse-9.png",
+        title: "UNICEF Việt Nam",
+      },
+    ],
+    description: 'Festival Sáng tạo & Kết nối "Cùng Đổi Mới Tương Lai" là sự kiện được tổ chức bởi Foundation for Future, nhằm tạo diễn đàn trao đổi, học hỏi và chia sẻ sáng tạo cho cộng đồng người khiếm thính và các đối tác liên quan. Dự án hướng đến việc kết nối các cá nhân, doanh nghiệp và tổ chức để cùng nhau khám phá, ứng dụng các giải pháp sáng tạo trong giáo dục và đào tạo hướng nghiệp. Đồng thời, sự kiện còn là cơ hội để người tham gia trải nghiệm, chia sẻ kinh nghiệm và xây dựng những ý tưởng đổi mới nhằm cải thiện chất lượng cuộc sống cho cộng đồng.',
+    sortDesc: "Truyền cảm hứng và chia sẻ kinh nghiệm đổi mới trong giáo dục và hỗ trợ nghề nghiệp cho người khiếm thính. Tạo sân chơi kết nối, giao lưu và hợp tác giữa người khiếm thính, chuyên gia và doanh nghiệp trong việc phát triển công nghệ, sản phẩm",
+    time: "Thứ Bảy, ngày 15/9/2025 (09:00 – 17:00)",
+    location: "Trung tâm Hội nghị & Triển lãm, Thành phố Hồ Chí Minh.",
+    requirements: ["Các cá nhân năng động, có đam mê hoạt động cộng đồng và sáng tạo.", "Ưu tiên ứng viên có kỹ năng giao tiếp tốt, biết ngôn ngữ ký hiệu hoặc đã có kinh nghiệm làm việc trong các hoạt động tình nguyện và quản lý sự kiện."],
+    roles: ["Hỗ trợ điều phối: Giúp ban tổ chức điều phối các phiên hội thảo, workshop và phiên giao lưu.", "Hỗ trợ hậu cần: Hướng dẫn người tham dự, phụ trách các gian hàng và hỗ trợ tổ chức sự kiện tại chỗ.", "Truyền thông & quảng bá: Hỗ trợ tạo nội dung, quảng bá sự kiện trên các kênh truyền thông xã hội và phối hợp với các đối tác truyền thông.", "Hỗ trợ kỹ thuật: Hỗ trợ các vấn đề liên quan đến công nghệ, phiên dịch ngôn ngữ ký hiệu, quản lý tài liệu sự kiện."],
+    benefits: ["Cơ hội trải nghiệm môi trường làm việc chuyên nghiệp trong lĩnh vực cộng đồng và giáo dục.", "Phát triển kỹ năng tổ chức sự kiện, giao tiếp và kỹ năng lãnh đạo.", "Kết nối với các chuyên gia, doanh nghiệp và cộng đồng sáng tạo.", "Nhận giấy chứng nhận tình nguyện, hỗ trợ tích lũy kinh nghiệm và mở rộng mạng lưới quan hệ.     "],
+  },
+];
 export const dataSukien = [
-{
-	img: "/image/volunteer-1.png",
-	title: "Docker Container Practice",
-	description: "As a senior developer, achieving a balance between work and life is crucial. In this article, I will share some practical methods to achieve t...",
-	date: "14.05.25",
-	slug: "docker-container-practice-1",
-	organization: [
-		{
-			img: "/image/Ellipse-6.png",
-			title: "DNXH vì người khiếm thính Việt Nam",
-		}
-	],
-	sponsoring: [
-		{
-			img: "/image/Ellipse-7.png",
-			title: "Foundation for Future",
-		}
-	],
-	sortDesc: "Trang bị cho người khiêm thính những kiến thức và kỹ năng thực tiễn để tự tin bước vào thị trường lao động. Tạo cơ hội kết nỗi giữa người khiếm thính và chuyên gia hướng nghiệp.",
-	time: "Chủ Nhật, 20/7/2025 (09:00 – 16:00)",
-	location: "Số 15, Đường Lê Duẩn, Quận Hai Bà Trưng, Hà Nội",
-	requirements: [
-	"Kỹ năng giao tiếp: Tốt, thân thiện và nhiệt huyết",
-	"Ưu tiên: Ứng viên có kinh nghiệm làm việc trong các hoạt động hướng nghiệp, đào tạo kỹ năng mềm, hoặc biết ngôn ngữ ký hiệu",
-	"Thái độ: Năng động, có tinh thần trách nhiệm và khả năng làm việc nhóm tốt",
-	],
-	roles: [
-	"Hỗ trợ điều phối sự kiện, đăng ký và tiếp đón học viên",
-	"Hỗ trợ phiên chia sẻ và phiên dịch ngôn ngữ ký hiệu cho người tham dự nếu cần thiết",
-	"Giao tiếp hỗ trợ chuyên môn: Hỗ trợ tư vấn, cung cấp thông tin và hướng dẫn các hoạt động của workshop",
-	],
-	benefits: [
-	"Cơ hội được đào tạo kỹ năng quản lý dự án, tổ chức sự kiện chuyên nghiệp",
-	"Mở rộng mạng lưới kết nối với cộng đồng và các chuyên gia trong lĩnh vực giáo dục, hướng nghiệp",
-	"Cơ hội góp phần trực tiếp vào việc thay đổi cuộc sống của người khiếm thính",
-	]
-},
-{
-	img: "/image/volunteer-2.png",
-	title: "Docker Container Practice",
-	description: "As a senior developer, achieving a balance between work and life is crucial. In this article, I will share some practical methods to achieve t...",
-	date: "14.05.25",
-	slug: "docker-container-practice-1",
-	organization: [],
-	sponsoring: [
-		{
-			img: "/image/Ellipse-7.png",
-			title: "Foundation for Future",
-		}
-	],
-	sortDesc: "Gây quỹ hỗ trợ học bổng, trang thiết bị trợ tính và chương trình đào tạo cho người khiếm tính. Tăng cường nhận thức cộng của cộng đồng về vai trò và tiềm năng của người khiếm thính.",
-	time: "Thứ Bảy, ngày 28/9/2025 (09:00 – 16:00)",
-	location: "Số 123, Đường Lê Lợi, Quận 1, Thành phố Hồ Chí Minh",
-	requirements: [
-	"Đam mê hoạt động cộng đồng, ưu tiên những người có kiến thức hoặc kinh nghiệm hỗ trợ người khiếm thính.",
-	"Kỹ năng giao tiếp tốt, biết hoặc có khả năng học ngôn ngữ ký hiệu là một lợi thế.",
-	"Năng lực tổ chức, làm việc nhóm và cam kết thời gian sự kiện đầy đủ.",
-	"Có kiến thức, chuyên môn về vị trí đảm nhiệm"
-	],
-	roles: [
-	"Tình nguyện viên Truyền thông & Quảng bá: Chịu trách nhiệm tạo nội dung và lan tỏa thông điệp trên các kênh truyền thông.",
-	"Tình nguyện viên Điều phối Sự kiện: Hỗ trợ tổ chức và phối hợp hoạt động gây quỹ.",
-	"Tình nguyện viên Tiếp cận Cộng đồng: Chủ động kết nối với cá nhân, tổ chức để mời gọi và thu hút sự ủng hộ.",
-	],
-	benefits: [
-	"Chứng nhận hoặc giấy khen từ Foundation for Future.",
-	"Cơ hội trải nghiệm, học hỏi và mở rộng kết nối trong môi trường giáo dục và hướng nghiệp.",
-	"Hỗ trợ đào tạo chuyên sâu về giao tiếp với người khiếm thính và kỹ năng mềm.",
-	]
-},
-{
-	img: "/image/volunteer-3.png",
-	title: "Docker Container Practice",
-	description: "As a senior developer, achieving a balance between work and life is crucial. In this article, I will share some practical methods to achieve t...",
-	date: "14.05.25",
-	slug: "docker-container-practice-1",
-	organization: [
-		{
-			img: "/image/Ellipse-8.png",
-			title: "Hội Cha Mẹ Trẻ Khiếm Thính và Người Khiếm Thính Việt Nam",
-		},
-		{
-		img: "/image/Ellipse-7.png",
-		title: "Foundation For Future",
-		}
-	],
-	sponsoring: [
-		{
-			img: "/image/Ellipse-9.png",
-			title: "UNICEF Việt Nam",
-		}
-	],
-	sortDesc: "Truyền cảm hứng và chia sẻ kinh nghiệm đổi mới trong giáo dục và hỗ trợ nghề nghiệp cho người khiếm thính. Tạo sân chơi kết nối, giao lưu và hợp tác giữa người khiếm thính, chuyên gia và doanh nghiệp trong việc phát triển công nghệ, sản phẩm",
-	time: "Thứ Bảy, ngày 15/9/2025 (09:00 – 17:00)",
-	location: "Trung tâm Hội nghị & Triển lãm, Thành phố Hồ Chí Minh.",
-	requirements: [
-	"Các cá nhân năng động, có đam mê hoạt động cộng đồng và sáng tạo.",
-	"Ưu tiên ứng viên có kỹ năng giao tiếp tốt, biết ngôn ngữ ký hiệu hoặc đã có kinh nghiệm làm việc trong các hoạt động tình nguyện và quản lý sự kiện.",
-	],
-	roles: [
-	"Hỗ trợ điều phối: Giúp ban tổ chức điều phối các phiên hội thảo, workshop và phiên giao lưu.",
-	"Hỗ trợ hậu cần: Hướng dẫn người tham dự, phụ trách các gian hàng và hỗ trợ tổ chức sự kiện tại chỗ.",
-	"Truyền thông & quảng bá: Hỗ trợ tạo nội dung, quảng bá sự kiện trên các kênh truyền thông xã hội và phối hợp với các đối tác truyền thông.",
-	"Hỗ trợ kỹ thuật: Hỗ trợ các vấn đề liên quan đến công nghệ, phiên dịch ngôn ngữ ký hiệu, quản lý tài liệu sự kiện."
-	],
-	benefits: [
-	"Cơ hội trải nghiệm môi trường làm việc chuyên nghiệp trong lĩnh vực cộng đồng và giáo dục.",
-	"Phát triển kỹ năng tổ chức sự kiện, giao tiếp và kỹ năng lãnh đạo.",
-	"Kết nối với các chuyên gia, doanh nghiệp và cộng đồng sáng tạo.",
-	"Nhận giấy chứng nhận tình nguyện, hỗ trợ tích lũy kinh nghiệm và mở rộng mạng lưới quan hệ.     "
-	]
-},
+  {
+    img: "/image/volunteer-1.png",
+    title: "Docker Container Practice",
+    description: "As a senior developer, achieving a balance between work and life is crucial. In this article, I will share some practical methods to achieve t...",
+    date: "14.05.25",
+    slug: "docker-container-practice-1",
+    organization: [
+      {
+        img: "/image/Ellipse-6.png",
+        title: "DNXH vì người khiếm thính Việt Nam",
+      },
+    ],
+    sponsoring: [
+      {
+        img: "/image/Ellipse-7.png",
+        title: "Foundation for Future",
+      },
+    ],
+    sortDesc: "Trang bị cho người khiêm thính những kiến thức và kỹ năng thực tiễn để tự tin bước vào thị trường lao động. Tạo cơ hội kết nỗi giữa người khiếm thính và chuyên gia hướng nghiệp.",
+    time: "Chủ Nhật, 20/7/2025 (09:00 – 16:00)",
+    location: "Số 15, Đường Lê Duẩn, Quận Hai Bà Trưng, Hà Nội",
+    requirements: ["Kỹ năng giao tiếp: Tốt, thân thiện và nhiệt huyết", "Ưu tiên: Ứng viên có kinh nghiệm làm việc trong các hoạt động hướng nghiệp, đào tạo kỹ năng mềm, hoặc biết ngôn ngữ ký hiệu", "Thái độ: Năng động, có tinh thần trách nhiệm và khả năng làm việc nhóm tốt"],
+    roles: ["Hỗ trợ điều phối sự kiện, đăng ký và tiếp đón học viên", "Hỗ trợ phiên chia sẻ và phiên dịch ngôn ngữ ký hiệu cho người tham dự nếu cần thiết", "Giao tiếp hỗ trợ chuyên môn: Hỗ trợ tư vấn, cung cấp thông tin và hướng dẫn các hoạt động của workshop"],
+    benefits: ["Cơ hội được đào tạo kỹ năng quản lý dự án, tổ chức sự kiện chuyên nghiệp", "Mở rộng mạng lưới kết nối với cộng đồng và các chuyên gia trong lĩnh vực giáo dục, hướng nghiệp", "Cơ hội góp phần trực tiếp vào việc thay đổi cuộc sống của người khiếm thính"],
+  },
+  {
+    img: "/image/volunteer-2.png",
+    title: "Docker Container Practice",
+    description: "As a senior developer, achieving a balance between work and life is crucial. In this article, I will share some practical methods to achieve t...",
+    date: "14.05.25",
+    slug: "docker-container-practice-1",
+    organization: [],
+    sponsoring: [
+      {
+        img: "/image/Ellipse-7.png",
+        title: "Foundation for Future",
+      },
+    ],
+    sortDesc: "Gây quỹ hỗ trợ học bổng, trang thiết bị trợ tính và chương trình đào tạo cho người khiếm tính. Tăng cường nhận thức cộng của cộng đồng về vai trò và tiềm năng của người khiếm thính.",
+    time: "Thứ Bảy, ngày 28/9/2025 (09:00 – 16:00)",
+    location: "Số 123, Đường Lê Lợi, Quận 1, Thành phố Hồ Chí Minh",
+    requirements: ["Đam mê hoạt động cộng đồng, ưu tiên những người có kiến thức hoặc kinh nghiệm hỗ trợ người khiếm thính.", "Kỹ năng giao tiếp tốt, biết hoặc có khả năng học ngôn ngữ ký hiệu là một lợi thế.", "Năng lực tổ chức, làm việc nhóm và cam kết thời gian sự kiện đầy đủ.", "Có kiến thức, chuyên môn về vị trí đảm nhiệm"],
+    roles: ["Tình nguyện viên Truyền thông & Quảng bá: Chịu trách nhiệm tạo nội dung và lan tỏa thông điệp trên các kênh truyền thông.", "Tình nguyện viên Điều phối Sự kiện: Hỗ trợ tổ chức và phối hợp hoạt động gây quỹ.", "Tình nguyện viên Tiếp cận Cộng đồng: Chủ động kết nối với cá nhân, tổ chức để mời gọi và thu hút sự ủng hộ."],
+    benefits: ["Chứng nhận hoặc giấy khen từ Foundation for Future.", "Cơ hội trải nghiệm, học hỏi và mở rộng kết nối trong môi trường giáo dục và hướng nghiệp.", "Hỗ trợ đào tạo chuyên sâu về giao tiếp với người khiếm thính và kỹ năng mềm."],
+  },
+  {
+    img: "/image/volunteer-3.png",
+    title: "Docker Container Practice",
+    description: "As a senior developer, achieving a balance between work and life is crucial. In this article, I will share some practical methods to achieve t...",
+    date: "14.05.25",
+    slug: "docker-container-practice-1",
+    organization: [
+      {
+        img: "/image/Ellipse-8.png",
+        title: "Hội Cha Mẹ Trẻ Khiếm Thính và Người Khiếm Thính Việt Nam",
+      },
+      {
+        img: "/image/Ellipse-7.png",
+        title: "Foundation For Future",
+      },
+    ],
+    sponsoring: [
+      {
+        img: "/image/Ellipse-9.png",
+        title: "UNICEF Việt Nam",
+      },
+    ],
+    sortDesc: "Truyền cảm hứng và chia sẻ kinh nghiệm đổi mới trong giáo dục và hỗ trợ nghề nghiệp cho người khiếm thính. Tạo sân chơi kết nối, giao lưu và hợp tác giữa người khiếm thính, chuyên gia và doanh nghiệp trong việc phát triển công nghệ, sản phẩm",
+    time: "Thứ Bảy, ngày 15/9/2025 (09:00 – 17:00)",
+    location: "Trung tâm Hội nghị & Triển lãm, Thành phố Hồ Chí Minh.",
+    requirements: ["Các cá nhân năng động, có đam mê hoạt động cộng đồng và sáng tạo.", "Ưu tiên ứng viên có kỹ năng giao tiếp tốt, biết ngôn ngữ ký hiệu hoặc đã có kinh nghiệm làm việc trong các hoạt động tình nguyện và quản lý sự kiện."],
+    roles: ["Hỗ trợ điều phối: Giúp ban tổ chức điều phối các phiên hội thảo, workshop và phiên giao lưu.", "Hỗ trợ hậu cần: Hướng dẫn người tham dự, phụ trách các gian hàng và hỗ trợ tổ chức sự kiện tại chỗ.", "Truyền thông & quảng bá: Hỗ trợ tạo nội dung, quảng bá sự kiện trên các kênh truyền thông xã hội và phối hợp với các đối tác truyền thông.", "Hỗ trợ kỹ thuật: Hỗ trợ các vấn đề liên quan đến công nghệ, phiên dịch ngôn ngữ ký hiệu, quản lý tài liệu sự kiện."],
+    benefits: ["Cơ hội trải nghiệm môi trường làm việc chuyên nghiệp trong lĩnh vực cộng đồng và giáo dục.", "Phát triển kỹ năng tổ chức sự kiện, giao tiếp và kỹ năng lãnh đạo.", "Kết nối với các chuyên gia, doanh nghiệp và cộng đồng sáng tạo.", "Nhận giấy chứng nhận tình nguyện, hỗ trợ tích lũy kinh nghiệm và mở rộng mạng lưới quan hệ.     "],
+  },
 ];
 export const khoaHoc = [
-	{
-		img: "/image/volunteer-1.png",
-		title: "Docker Container Practice",
-		description: "As a senior developer, achieving a balance between work and life is crucial. In this article, I will share some practical methods to achieve t...",
-		date: "14.05.25",
-		slug: "docker-container-practice-1",
-		organization: [
-			{
-				img: "/image/Ellipse-6.png",
-				title: "DNXH vì người khiếm thính Việt Nam",
-			}
-		],
-		sponsoring: [
-			{
-				img: "/image/Ellipse-7.png",
-				title: "Foundation for Future",
-			}
-		],
-		sortDesc: "Trang bị cho người khiêm thính những kiến thức và kỹ năng thực tiễn để tự tin bước vào thị trường lao động. Tạo cơ hội kết nỗi giữa người khiếm thính và chuyên gia hướng nghiệp.",
-		time: "Chủ Nhật, 20/7/2025 (09:00 – 16:00)",
-		location: "Số 15, Đường Lê Duẩn, Quận Hai Bà Trưng, Hà Nội",
-		requirements: [
-		"Kỹ năng giao tiếp: Tốt, thân thiện và nhiệt huyết",
-		"Ưu tiên: Ứng viên có kinh nghiệm làm việc trong các hoạt động hướng nghiệp, đào tạo kỹ năng mềm, hoặc biết ngôn ngữ ký hiệu",
-		"Thái độ: Năng động, có tinh thần trách nhiệm và khả năng làm việc nhóm tốt",
-		],
-		roles: [
-		"Hỗ trợ điều phối sự kiện, đăng ký và tiếp đón học viên",
-		"Hỗ trợ phiên chia sẻ và phiên dịch ngôn ngữ ký hiệu cho người tham dự nếu cần thiết",
-		"Giao tiếp hỗ trợ chuyên môn: Hỗ trợ tư vấn, cung cấp thông tin và hướng dẫn các hoạt động của workshop",
-		],
-		benefits: [
-		"Cơ hội được đào tạo kỹ năng quản lý dự án, tổ chức sự kiện chuyên nghiệp",
-		"Mở rộng mạng lưới kết nối với cộng đồng và các chuyên gia trong lĩnh vực giáo dục, hướng nghiệp",
-		"Cơ hội góp phần trực tiếp vào việc thay đổi cuộc sống của người khiếm thính",
-		]
-	},
-	{
-		img: "/image/volunteer-2.png",
-		title: "Docker Container Practice",
-		description: "As a senior developer, achieving a balance between work and life is crucial. In this article, I will share some practical methods to achieve t...",
-		date: "14.05.25",
-		slug: "docker-container-practice-1",
-		organization: [],
-		sponsoring: [
-			{
-				img: "/image/Ellipse-7.png",
-				title: "Foundation for Future",
-			}
-		],
-		sortDesc: "Gây quỹ hỗ trợ học bổng, trang thiết bị trợ tính và chương trình đào tạo cho người khiếm tính. Tăng cường nhận thức cộng của cộng đồng về vai trò và tiềm năng của người khiếm thính.",
-		time: "Thứ Bảy, ngày 28/9/2025 (09:00 – 16:00)",
-		location: "Số 123, Đường Lê Lợi, Quận 1, Thành phố Hồ Chí Minh",
-		requirements: [
-		"Đam mê hoạt động cộng đồng, ưu tiên những người có kiến thức hoặc kinh nghiệm hỗ trợ người khiếm thính.",
-		"Kỹ năng giao tiếp tốt, biết hoặc có khả năng học ngôn ngữ ký hiệu là một lợi thế.",
-		"Năng lực tổ chức, làm việc nhóm và cam kết thời gian sự kiện đầy đủ.",
-		"Có kiến thức, chuyên môn về vị trí đảm nhiệm"
-		],
-		roles: [
-		"Tình nguyện viên Truyền thông & Quảng bá: Chịu trách nhiệm tạo nội dung và lan tỏa thông điệp trên các kênh truyền thông.",
-		"Tình nguyện viên Điều phối Sự kiện: Hỗ trợ tổ chức và phối hợp hoạt động gây quỹ.",
-		"Tình nguyện viên Tiếp cận Cộng đồng: Chủ động kết nối với cá nhân, tổ chức để mời gọi và thu hút sự ủng hộ.",
-		],
-		benefits: [
-		"Chứng nhận hoặc giấy khen từ Foundation for Future.",
-		"Cơ hội trải nghiệm, học hỏi và mở rộng kết nối trong môi trường giáo dục và hướng nghiệp.",
-		"Hỗ trợ đào tạo chuyên sâu về giao tiếp với người khiếm thính và kỹ năng mềm.",
-		]
-	},
-	{
-		img: "/image/volunteer-3.png",
-		title: "Docker Container Practice",
-		description: "As a senior developer, achieving a balance between work and life is crucial. In this article, I will share some practical methods to achieve t...",
-		date: "14.05.25",
-		slug: "docker-container-practice-1",
-		organization: [
-			{
-				img: "/image/Ellipse-8.png",
-				title: "Hội Cha Mẹ Trẻ Khiếm Thính và Người Khiếm Thính Việt Nam",
-			},
-			{
-			img: "/image/Ellipse-7.png",
-			title: "Foundation For Future",
-			}
-		],
-		sponsoring: [
-			{
-				img: "/image/Ellipse-9.png",
-				title: "UNICEF Việt Nam",
-			}
-		],
-		sortDesc: "Truyền cảm hứng và chia sẻ kinh nghiệm đổi mới trong giáo dục và hỗ trợ nghề nghiệp cho người khiếm thính. Tạo sân chơi kết nối, giao lưu và hợp tác giữa người khiếm thính, chuyên gia và doanh nghiệp trong việc phát triển công nghệ, sản phẩm",
-		time: "Thứ Bảy, ngày 15/9/2025 (09:00 – 17:00)",
-		location: "Trung tâm Hội nghị & Triển lãm, Thành phố Hồ Chí Minh.",
-		requirements: [
-		"Các cá nhân năng động, có đam mê hoạt động cộng đồng và sáng tạo.",
-		"Ưu tiên ứng viên có kỹ năng giao tiếp tốt, biết ngôn ngữ ký hiệu hoặc đã có kinh nghiệm làm việc trong các hoạt động tình nguyện và quản lý sự kiện.",
-		],
-		roles: [
-		"Hỗ trợ điều phối: Giúp ban tổ chức điều phối các phiên hội thảo, workshop và phiên giao lưu.",
-		"Hỗ trợ hậu cần: Hướng dẫn người tham dự, phụ trách các gian hàng và hỗ trợ tổ chức sự kiện tại chỗ.",
-		"Truyền thông & quảng bá: Hỗ trợ tạo nội dung, quảng bá sự kiện trên các kênh truyền thông xã hội và phối hợp với các đối tác truyền thông.",
-		"Hỗ trợ kỹ thuật: Hỗ trợ các vấn đề liên quan đến công nghệ, phiên dịch ngôn ngữ ký hiệu, quản lý tài liệu sự kiện."
-		],
-		benefits: [
-		"Cơ hội trải nghiệm môi trường làm việc chuyên nghiệp trong lĩnh vực cộng đồng và giáo dục.",
-		"Phát triển kỹ năng tổ chức sự kiện, giao tiếp và kỹ năng lãnh đạo.",
-		"Kết nối với các chuyên gia, doanh nghiệp và cộng đồng sáng tạo.",
-		"Nhận giấy chứng nhận tình nguyện, hỗ trợ tích lũy kinh nghiệm và mở rộng mạng lưới quan hệ.     "
-		]
-	},
-	];
+  {
+    img: "/image/volunteer-1.png",
+    title: "Docker Container Practice",
+    description: "As a senior developer, achieving a balance between work and life is crucial. In this article, I will share some practical methods to achieve t...",
+    date: "14.05.25",
+    slug: "docker-container-practice-1",
+    organization: [
+      {
+        img: "/image/Ellipse-6.png",
+        title: "DNXH vì người khiếm thính Việt Nam",
+      },
+    ],
+    sponsoring: [
+      {
+        img: "/image/Ellipse-7.png",
+        title: "Foundation for Future",
+      },
+    ],
+    sortDesc: "Trang bị cho người khiêm thính những kiến thức và kỹ năng thực tiễn để tự tin bước vào thị trường lao động. Tạo cơ hội kết nỗi giữa người khiếm thính và chuyên gia hướng nghiệp.",
+    time: "Chủ Nhật, 20/7/2025 (09:00 – 16:00)",
+    location: "Số 15, Đường Lê Duẩn, Quận Hai Bà Trưng, Hà Nội",
+    requirements: ["Kỹ năng giao tiếp: Tốt, thân thiện và nhiệt huyết", "Ưu tiên: Ứng viên có kinh nghiệm làm việc trong các hoạt động hướng nghiệp, đào tạo kỹ năng mềm, hoặc biết ngôn ngữ ký hiệu", "Thái độ: Năng động, có tinh thần trách nhiệm và khả năng làm việc nhóm tốt"],
+    roles: ["Hỗ trợ điều phối sự kiện, đăng ký và tiếp đón học viên", "Hỗ trợ phiên chia sẻ và phiên dịch ngôn ngữ ký hiệu cho người tham dự nếu cần thiết", "Giao tiếp hỗ trợ chuyên môn: Hỗ trợ tư vấn, cung cấp thông tin và hướng dẫn các hoạt động của workshop"],
+    benefits: ["Cơ hội được đào tạo kỹ năng quản lý dự án, tổ chức sự kiện chuyên nghiệp", "Mở rộng mạng lưới kết nối với cộng đồng và các chuyên gia trong lĩnh vực giáo dục, hướng nghiệp", "Cơ hội góp phần trực tiếp vào việc thay đổi cuộc sống của người khiếm thính"],
+  },
+  {
+    img: "/image/volunteer-2.png",
+    title: "Docker Container Practice",
+    description: "As a senior developer, achieving a balance between work and life is crucial. In this article, I will share some practical methods to achieve t...",
+    date: "14.05.25",
+    slug: "docker-container-practice-1",
+    organization: [],
+    sponsoring: [
+      {
+        img: "/image/Ellipse-7.png",
+        title: "Foundation for Future",
+      },
+    ],
+    sortDesc: "Gây quỹ hỗ trợ học bổng, trang thiết bị trợ tính và chương trình đào tạo cho người khiếm tính. Tăng cường nhận thức cộng của cộng đồng về vai trò và tiềm năng của người khiếm thính.",
+    time: "Thứ Bảy, ngày 28/9/2025 (09:00 – 16:00)",
+    location: "Số 123, Đường Lê Lợi, Quận 1, Thành phố Hồ Chí Minh",
+    requirements: ["Đam mê hoạt động cộng đồng, ưu tiên những người có kiến thức hoặc kinh nghiệm hỗ trợ người khiếm thính.", "Kỹ năng giao tiếp tốt, biết hoặc có khả năng học ngôn ngữ ký hiệu là một lợi thế.", "Năng lực tổ chức, làm việc nhóm và cam kết thời gian sự kiện đầy đủ.", "Có kiến thức, chuyên môn về vị trí đảm nhiệm"],
+    roles: ["Tình nguyện viên Truyền thông & Quảng bá: Chịu trách nhiệm tạo nội dung và lan tỏa thông điệp trên các kênh truyền thông.", "Tình nguyện viên Điều phối Sự kiện: Hỗ trợ tổ chức và phối hợp hoạt động gây quỹ.", "Tình nguyện viên Tiếp cận Cộng đồng: Chủ động kết nối với cá nhân, tổ chức để mời gọi và thu hút sự ủng hộ."],
+    benefits: ["Chứng nhận hoặc giấy khen từ Foundation for Future.", "Cơ hội trải nghiệm, học hỏi và mở rộng kết nối trong môi trường giáo dục và hướng nghiệp.", "Hỗ trợ đào tạo chuyên sâu về giao tiếp với người khiếm thính và kỹ năng mềm."],
+  },
+  {
+    img: "/image/volunteer-3.png",
+    title: "Docker Container Practice",
+    description: "As a senior developer, achieving a balance between work and life is crucial. In this article, I will share some practical methods to achieve t...",
+    date: "14.05.25",
+    slug: "docker-container-practice-1",
+    organization: [
+      {
+        img: "/image/Ellipse-8.png",
+        title: "Hội Cha Mẹ Trẻ Khiếm Thính và Người Khiếm Thính Việt Nam",
+      },
+      {
+        img: "/image/Ellipse-7.png",
+        title: "Foundation For Future",
+      },
+    ],
+    sponsoring: [
+      {
+        img: "/image/Ellipse-9.png",
+        title: "UNICEF Việt Nam",
+      },
+    ],
+    sortDesc: "Truyền cảm hứng và chia sẻ kinh nghiệm đổi mới trong giáo dục và hỗ trợ nghề nghiệp cho người khiếm thính. Tạo sân chơi kết nối, giao lưu và hợp tác giữa người khiếm thính, chuyên gia và doanh nghiệp trong việc phát triển công nghệ, sản phẩm",
+    time: "Thứ Bảy, ngày 15/9/2025 (09:00 – 17:00)",
+    location: "Trung tâm Hội nghị & Triển lãm, Thành phố Hồ Chí Minh.",
+    requirements: ["Các cá nhân năng động, có đam mê hoạt động cộng đồng và sáng tạo.", "Ưu tiên ứng viên có kỹ năng giao tiếp tốt, biết ngôn ngữ ký hiệu hoặc đã có kinh nghiệm làm việc trong các hoạt động tình nguyện và quản lý sự kiện."],
+    roles: ["Hỗ trợ điều phối: Giúp ban tổ chức điều phối các phiên hội thảo, workshop và phiên giao lưu.", "Hỗ trợ hậu cần: Hướng dẫn người tham dự, phụ trách các gian hàng và hỗ trợ tổ chức sự kiện tại chỗ.", "Truyền thông & quảng bá: Hỗ trợ tạo nội dung, quảng bá sự kiện trên các kênh truyền thông xã hội và phối hợp với các đối tác truyền thông.", "Hỗ trợ kỹ thuật: Hỗ trợ các vấn đề liên quan đến công nghệ, phiên dịch ngôn ngữ ký hiệu, quản lý tài liệu sự kiện."],
+    benefits: ["Cơ hội trải nghiệm môi trường làm việc chuyên nghiệp trong lĩnh vực cộng đồng và giáo dục.", "Phát triển kỹ năng tổ chức sự kiện, giao tiếp và kỹ năng lãnh đạo.", "Kết nối với các chuyên gia, doanh nghiệp và cộng đồng sáng tạo.", "Nhận giấy chứng nhận tình nguyện, hỗ trợ tích lũy kinh nghiệm và mở rộng mạng lưới quan hệ.     "],
+  },
+];
 export const boTuVung = [
-	{
-	  id: 1,
-	  src: "/image/slider-1.png",
-	  bgColor: "bg-red-500",
-	  title: "Thiên nhiên",
-	  description: "Bộ từ vựng ngôn ngữ ký hiệu về thiên nhiên",
-	  router: "thien-nhien",
-	  items: [
-		{ img: "/image/slider-1.png", title: "Thiên nhiên" },
-		{ img: "/image/slider-1.png", title: "Thiên nhiên" },
-		{ img: "/image/slider-1.png", title: "Thiên nhiên" },
-		{ img: "/image/slider-1.png", title: "Thiên nhiên" },
-		{ img: "/image/slider-1.png", title: "Thiên nhiên" },
-		{ img: "/image/slider-1.png", title: "Thiên nhiên" },
-		{ img: "/image/slider-1.png", title: "Thiên nhiên" },
-		{ img: "/image/slider-1.png", title: "Thiên nhiên" },
-		{ img: "/image/slider-1.png", title: "Thiên nhiên" },
-		{ img: "/image/slider-1.png", title: "Thiên nhiên" },
-		{ img: "/image/slider-1.png", title: "Thiên nhiên" },
-		{ img: "/image/slider-1.png", title: "Thiên nhiên" },
-	  ],
-	},
-	{
-	  id: 2,
-	  src: "/image/slider-2.png",
-	  bgColor: "bg-blue-500",
-	  title: "Quốc gia",
-	  description: "Bộ từ vựng ngôn ngữ ký hiệu tên các Quốc gia trên thế giới",
-	  router: "quoc-gia",
-	  items: [
-		{ img: "/image/slider-2.png", title: "Việt Nam  " },
-		{ img: "/image/slider-2.png", title: "Việt Nam" },
-		{ img: "/image/slider-2.png", title: "Việt Nam" },
-		{ img: "/image/slider-2.png", title: "Việt Nam" },
-		{ img: "/image/slider-2.png", title: "Việt Nam" },
-		{ img: "/image/slider-2.png", title: "Việt Nam" },
-		{ img: "/image/slider-2.png", title: "Việt Nam" },
-		{ img: "/image/slider-2.png", title: "Việt Nam" },
-		{ img: "/image/slider-2.png", title: "Việt Nam" },
-		{ img: "/image/slider-2.png", title: "Việt Nam" },
-		{ img: "/image/slider-2.png", title: "Việt Nam" },
-		{ img: "/image/slider-2.png", title: "Việt Nam" },
-	  ],
-	},
-	{
-	  id: 3,
-	  src: "/image/slider-3.png",
-	  bgColor: "bg-green-500",
-	  title: "Bảng chữ cái",
-	  description: "Bộ từ vựng ngôn ngữ ký hiệu bảng chữ cái Tiếng Việt",
-	  router: "bang-chu-cai",
-	  items: [
-		{ img: "/image/slider-3.png", title: "A" },
-		{ img: "/image/slider-3.png", title: "B" },
-		{ img: "/image/slider-3.png", title: "C" },
-		{ img: "/image/slider-3.png", title: "D" },
-		{ img: "/image/slider-3.png", title: "E" },
-		{ img: "/image/slider-3.png", title: "F" },
-		{ img: "/image/slider-3.png", title: "G" },
-		{ img: "/image/slider-3.png", title: "H" },
-		{ img: "/image/slider-3.png", title: "I" },
-		{ img: "/image/slider-3.png", title: "J" },
-		{ img: "/image/slider-3.png", title: "K" },
-		{ img: "/image/slider-3.png", title: "L" },
-	  ],
-	},
-	{
-	  id: 4,
-	  src: "/image/slider-4.png",
-	  bgColor: "bg-purple-500",
-	  title: "Ẩm thực",
-	  description: "Bộ từ vựng ngôn ngữ ký hiệu ẩm thực thông dụng bao gồm 30 từ vựng",
-	  router: "am-thuc",
-	  items: [
-		{ img: "/image/slider-4.png", title: "Bánh mì" },
-		{ img: "/image/slider-4.png", title: "Bánh mì" },
-		{ img: "/image/slider-4.png", title: "Bánh mì" },
-		{ img: "/image/slider-4.png", title: "Bánh mì" },
-		{ img: "/image/slider-4.png", title: "Bánh mì" },
-		{ img: "/image/slider-4.png", title: "Bánh mì" },
-		{ img: "/image/slider-4.png", title: "Bánh mì" },
-		{ img: "/image/slider-4.png", title: "Bánh mì" },
-		{ img: "/image/slider-4.png", title: "Bánh mì" },
-		{ img: "/image/slider-4.png", title: "Bánh mì" },
-		{ img: "/image/slider-4.png", title: "Bánh mì" },
-		{ img: "/image/slider-4.png", title: "Bánh mì" },
-	  ],
-	},
-  
-	{
-	  id: 5,
-	  src: "/image/slider-5.png",
-	  bgColor: "bg-pink-500",
-	  title: "Động vật",
-	  description: "Bộ từ vựng ngôn ngữ ký hiệu các loài động vật bao gồm 30 từ vựng thông dụng",
-	  router: "dong-vat",
-	  items: [
-		{ img: "/image/slider-5.png", title: "Chó" },
-		{ img: "/image/slider-5.png", title: "Chó" },
-		{ img: "/image/slider-5.png", title: "Chó" },
-		{ img: "/image/slider-5.png", title: "Chó" },
-		{ img: "/image/slider-5.png", title: "Chó" },
-		{ img: "/image/slider-5.png", title: "Chó" },
-		{ img: "/image/slider-5.png", title: "Chó" },
-		{ img: "/image/slider-5.png", title: "Chó" },
-		{ img: "/image/slider-5.png", title: "Chó" },
-		{ img: "/image/slider-5.png", title: "Chó" },
-		{ img: "/image/slider-5.png", title: "Chó" },
-		{ img: "/image/slider-5.png", title: "Chó" },
-	  ],
-	},
-	{
-	  id: 6,
-	  src: "/image/slider-6.png",
-	  bgColor: "bg-pink-500",
-	  title: "Nghề nghiệp",
-	  description: "Bộ từ vựng ngôn ngữ ký hiệu về nghề nghiệp",
-	  router: "nghe-nghiep",
-	  items: [
-		{ img: "/image/slider-6.png", title: "Bác sĩ"},
-		{ img: "/image/slider-6.png", title: "Bác sĩ" },
-		{ img: "/image/slider-6.png", title: "Bác sĩ" },
-		{ img: "/image/slider-6.png", title: "Bác sĩ" },
-		{ img: "/image/slider-6.png", title: "Bác sĩ" },
-		{ img: "/image/slider-6.png", title: "Bác sĩ" },
-		{ img: "/image/slider-6.png", title: "Bác sĩ" },
-		{ img: "/image/slider-6.png", title: "Bác sĩ" },
-		{ img: "/image/slider-6.png", title: "Bác sĩ" },
-		{ img: "/image/slider-6.png", title: "Bác sĩ" },
-		{ img: "/image/slider-6.png", title: "Bác sĩ" },
-		{ img: "/image/slider-6.png", title: "Bác sĩ" },
-	  ],
-	},
-  ];
+  {
+    id: 1,
+    src: "/image/slider-1.png",
+    bgColor: "bg-red-500",
+    title: "Thiên nhiên",
+    description: "Bộ từ vựng ngôn ngữ ký hiệu về thiên nhiên",
+    router: "thien-nhien",
+    items: [
+      { img: "/image/slider-1.png", title: "Thiên nhiên" },
+      { img: "/image/slider-1.png", title: "Thiên nhiên" },
+      { img: "/image/slider-1.png", title: "Thiên nhiên" },
+      { img: "/image/slider-1.png", title: "Thiên nhiên" },
+      { img: "/image/slider-1.png", title: "Thiên nhiên" },
+      { img: "/image/slider-1.png", title: "Thiên nhiên" },
+      { img: "/image/slider-1.png", title: "Thiên nhiên" },
+      { img: "/image/slider-1.png", title: "Thiên nhiên" },
+      { img: "/image/slider-1.png", title: "Thiên nhiên" },
+      { img: "/image/slider-1.png", title: "Thiên nhiên" },
+      { img: "/image/slider-1.png", title: "Thiên nhiên" },
+      { img: "/image/slider-1.png", title: "Thiên nhiên" },
+    ],
+  },
+  {
+    id: 2,
+    src: "/image/slider-2.png",
+    bgColor: "bg-blue-500",
+    title: "Quốc gia",
+    description: "Bộ từ vựng ngôn ngữ ký hiệu tên các Quốc gia trên thế giới",
+    router: "quoc-gia",
+    items: [
+      { img: "/image/slider-2.png", title: "Việt Nam  " },
+      { img: "/image/slider-2.png", title: "Việt Nam" },
+      { img: "/image/slider-2.png", title: "Việt Nam" },
+      { img: "/image/slider-2.png", title: "Việt Nam" },
+      { img: "/image/slider-2.png", title: "Việt Nam" },
+      { img: "/image/slider-2.png", title: "Việt Nam" },
+      { img: "/image/slider-2.png", title: "Việt Nam" },
+      { img: "/image/slider-2.png", title: "Việt Nam" },
+      { img: "/image/slider-2.png", title: "Việt Nam" },
+      { img: "/image/slider-2.png", title: "Việt Nam" },
+      { img: "/image/slider-2.png", title: "Việt Nam" },
+      { img: "/image/slider-2.png", title: "Việt Nam" },
+    ],
+  },
+  {
+    id: 3,
+    src: "/image/slider-3.png",
+    bgColor: "bg-green-500",
+    title: "Bảng chữ cái",
+    description: "Bộ từ vựng ngôn ngữ ký hiệu bảng chữ cái Tiếng Việt",
+    router: "bang-chu-cai",
+    items: [
+      { img: "/image/slider-3.png", title: "A" },
+      { img: "/image/slider-3.png", title: "B" },
+      { img: "/image/slider-3.png", title: "C" },
+      { img: "/image/slider-3.png", title: "D" },
+      { img: "/image/slider-3.png", title: "E" },
+      { img: "/image/slider-3.png", title: "F" },
+      { img: "/image/slider-3.png", title: "G" },
+      { img: "/image/slider-3.png", title: "H" },
+      { img: "/image/slider-3.png", title: "I" },
+      { img: "/image/slider-3.png", title: "J" },
+      { img: "/image/slider-3.png", title: "K" },
+      { img: "/image/slider-3.png", title: "L" },
+    ],
+  },
+  {
+    id: 4,
+    src: "/image/slider-4.png",
+    bgColor: "bg-purple-500",
+    title: "Ẩm thực",
+    description: "Bộ từ vựng ngôn ngữ ký hiệu ẩm thực thông dụng bao gồm 30 từ vựng",
+    router: "am-thuc",
+    items: [
+      { img: "/image/slider-4.png", title: "Bánh mì" },
+      { img: "/image/slider-4.png", title: "Bánh mì" },
+      { img: "/image/slider-4.png", title: "Bánh mì" },
+      { img: "/image/slider-4.png", title: "Bánh mì" },
+      { img: "/image/slider-4.png", title: "Bánh mì" },
+      { img: "/image/slider-4.png", title: "Bánh mì" },
+      { img: "/image/slider-4.png", title: "Bánh mì" },
+      { img: "/image/slider-4.png", title: "Bánh mì" },
+      { img: "/image/slider-4.png", title: "Bánh mì" },
+      { img: "/image/slider-4.png", title: "Bánh mì" },
+      { img: "/image/slider-4.png", title: "Bánh mì" },
+      { img: "/image/slider-4.png", title: "Bánh mì" },
+    ],
+  },
+
+  {
+    id: 5,
+    src: "/image/slider-5.png",
+    bgColor: "bg-pink-500",
+    title: "Động vật",
+    description: "Bộ từ vựng ngôn ngữ ký hiệu các loài động vật bao gồm 30 từ vựng thông dụng",
+    router: "dong-vat",
+    items: [
+      { img: "/image/slider-5.png", title: "Chó" },
+      { img: "/image/slider-5.png", title: "Chó" },
+      { img: "/image/slider-5.png", title: "Chó" },
+      { img: "/image/slider-5.png", title: "Chó" },
+      { img: "/image/slider-5.png", title: "Chó" },
+      { img: "/image/slider-5.png", title: "Chó" },
+      { img: "/image/slider-5.png", title: "Chó" },
+      { img: "/image/slider-5.png", title: "Chó" },
+      { img: "/image/slider-5.png", title: "Chó" },
+      { img: "/image/slider-5.png", title: "Chó" },
+      { img: "/image/slider-5.png", title: "Chó" },
+      { img: "/image/slider-5.png", title: "Chó" },
+    ],
+  },
+  {
+    id: 6,
+    src: "/image/slider-6.png",
+    bgColor: "bg-pink-500",
+    title: "Nghề nghiệp",
+    description: "Bộ từ vựng ngôn ngữ ký hiệu về nghề nghiệp",
+    router: "nghe-nghiep",
+    items: [
+      { img: "/image/slider-6.png", title: "Bác sĩ" },
+      { img: "/image/slider-6.png", title: "Bác sĩ" },
+      { img: "/image/slider-6.png", title: "Bác sĩ" },
+      { img: "/image/slider-6.png", title: "Bác sĩ" },
+      { img: "/image/slider-6.png", title: "Bác sĩ" },
+      { img: "/image/slider-6.png", title: "Bác sĩ" },
+      { img: "/image/slider-6.png", title: "Bác sĩ" },
+      { img: "/image/slider-6.png", title: "Bác sĩ" },
+      { img: "/image/slider-6.png", title: "Bác sĩ" },
+      { img: "/image/slider-6.png", title: "Bác sĩ" },
+      { img: "/image/slider-6.png", title: "Bác sĩ" },
+      { img: "/image/slider-6.png", title: "Bác sĩ" },
+    ],
+  },
+];
+export const organizations = [
+  {
+    logo: "/image/tochuc1.png",
+    title: "Hội Cha Mẹ Trẻ Khiếm Thính và Người Khiếm Thính VN",
+    description: "Hỗ trợ Trẻ khiếm thính và Người khiếm thính trong hành trình tìm âm thanh, phương tiện giao tiếp phù hợp và cơ hội hòa nhập cộng đồng, cơ hội sống độc lập và bình đẳng!",
+  },
+  {
+    logo: "/image/tochuc2.png",
+    title: "Doanh Nghiệp Xã Hội Vì Người Khiếm Thính Việt Nam",
+    description: "Mang đến cho Người khiếm thính (bao gồm cả trẻ em) một cộng đồng kết nối chia sẻ trải nghiệm học tập, cuộc sống, rút ngắn khoảng cách khác biệt, nâng cao các kỹ năng hòa nhập xã hội cũng như các hoạt động và giải pháp hướng nghiệp để trở thành người độc lập, sống có ích cho chính bản thân mình và cho xã hội.",
+  },
+  {
+    logo: "/image/tochuc3.png",
+    title: "Ban vận động Hội người Điếc Việt Nam ",
+    description: "BVĐ Hội người Điếc Việt Nam là một tổ chức phi chính phủ, được thành lập để trở thành đại diện cho tiếng nói của cộng đồng người Điếc tại Việt Nam",
+  },
+  {
+    logo: "/image/tochuc4.png",
+    title: "Chi Hội người Điếc Hà Nội-HAD",
+    description: "Chi hội người điếc Hà Nội - HAD là tổ chức xã hội của người Điếc trên địa bàn thành phố Hà Nội",
+  },
+];
+export const organizations_1 = [
+  {
+    logo: "/image/tochuc5.png",
+    title: "Liên Hiệp Hội Về Người Khuyết Tật Việt Nam (VFD)",
+    description: "Liên hiệp hội về người khuyết tật Việt Nam (sau đây gọi tắt là Liên hiệp) là tổ chức xã hội, phi lợi nhuận, tập hợp các hội, tổ chức hợp pháp của người khuyết tật và vì người khuyết tật, các cá nhân tự nguyện tham gia Liên hiệp vì mục đích bảo vệ, hỗ trợ người khuyết tật thực hiện quyền và nghĩa vụ theo quy định của pháp luật.",
+  },
+  {
+    logo: "/image/tochuc6.png",
+    title: "Viện Nghiên cứu phát triển cộng đồng (ACDC)",
+    description: "Viện Nghiên cứu phát triển cộng đồng (ACDC) tiền thân là Trung tâm Hành động vì sự phát triển cộng đồng (ACDC) là một tổ chức phi chính phủ địa phương ra đời năm 2011 làm việc vì và của người khuyết tật Việt Nam, hỗ trợ người khuyết tật và những nhóm yếu thế khác trong cộng đồng",
+  },
+  {
+    logo: "/image/tochuc7.png",
+    title: "Trung tâm Nghiên cứu và Phát triển Năng lực Người khuyết tật (DRD)",
+    description: "Trung tâm Khuyết tật và Phát triển (DRD) là tổ chức phi lợi nhuận được thành lập ngày 3 tháng 12 năm 2005, trực thuộc Khoa Công tác xã hội của trường Đại học Mở TP.HCM dưới sự hỗ trợ ban đầu của Quỹ Ford. Cho tới nay DRD là tổ chức khoa học công nghệ trực thuộc Liên Hiệp Các Hội Khoa Học Và Kĩ Thuật Việt Nam (VUSTA) theo giấy chứng nhận đăng ký hoạt động số A-906 cấp ngày 7 tháng 5 năm 2010.",
+  },
+  {
+    logo: "/image/tochuc8.png",
+    title: "Hội Thính Học Việt Nam",
+    description: "Hội Thính học Việt Nam là tổ chức xã hội – nghề nghiệp của các cá nhân, tổ chức Việt Nam hoạt động trong lĩnh vực thính học, tự nguyện thành lập.Mục đích của Hội: tập hợp, đoàn kết hội viên, bảo vệ quyền, lợi ích hợp pháp của hội viên, hỗ trợ nhau nâng cao trình độ chuyên môn, góp phần vào sự nghiệp chăm sóc, bảo vệ sức khỏe nhân dân về chuyên ngành thính học của đất nước.",
+  },
+  {
+    logo: "/image/tochuc9.png",
+    title: "HỘI NGƯỜI KHUYẾT TẬT THÀNH PHỐ HÀ NỘI",
+    description: "Hội NKT TP. Hà Nội được thành lập theo Quyết định số 266/QĐ-UBND ngày 16/1/2006 của Chủ tịch UBND TP. Hà Nội.",
+  },
+  {
+    logo: "/image/tochuc10.png",
+    title: "Hội Thanh niên khuyết tật Việt Nam",
+    description: "Hội Thanh niên Khuyết tật Việt Nam được thành lập nhằm tập hợp, đoàn kết, bảo vệ quyền, lợi ích hợp pháp của thanh niên khuyết tật, tạo môi trường, diễn đàn để tiếp tục đồng hành, hỗ trợ thanh niên khuyết tật, động viên thanh niên khuyết tật vượt qua khó khăn, phấn đấu vươn lên, tích cực đóng góp cho cộng đồng, cũng như đóng góp vào sự nghiệp xây dựng, bảo vệ Tổ quốc; bồi đắp lý tưởng sống tốt đẹp cho hội viên, thanh niên thông qua các câu chuyện về những tấm gương thanh niên khuyết tật điển hình trong xã hội, từ đó thúc đẩy sự vươn lên của thanh niên Việt Nam; kêu gọi cộng đồng xã hội tiếp tục hỗ trợ, đồng hành cùng thanh niên khuyết tật Việt Nam.",
+  },
+  {
+    logo: "/image/tochuc11.png",
+    title: "Viện Nghiên Cứu Quản Lý Phát Triển Bền Vững (MSD)",
+    description: "Viện Nghiên Cứu Quản lý Phát triển bền vững (MSD) là một tổ chức xã hội phi lợi nhuận, được thành lập vào ngày 5 tháng 3 năm 2008. Trong hơn 15 năm qua, MSD đã và luôn nỗ lực để góp phần giải quyết các vấn đề xã hội của các cộng đồng khác nhau tại Việt Nam. Là một tổ chức hàng đầu, MSD là một phần của các mạng lưới và diễn đàn trong khu vực và toàn cầu, đồng thời được các đối tác trong nước và quốc tế công nhận là một đơn vị phát triển chuyên nghiệp.Từ năm 2021, MSD chính thức trở thành United Way Việt Nam – thành viên của United Way Worldwide – Mạng lưới các tổ chức phi lợi nhuận lớn nhất toàn cầu.",
+  },
+  {
+    logo: "/image/tochuc12.png",
+    title: "Hội Bảo Vệ Quyền Trẻ Em Việt Nam",
+    description: "Hội Bảo vệ quyền trẻ em Việt Nam (Hội BVQTEVN) được thành lập theo Quyết định số 464/QĐ-BNV ngày 08 tháng 04 năm 2008 của Bộ trưởng Bộ Nội vụ. Kể từ năm 2008 đến nay, Hội đã tổ chức được 3 kỳ Đại hội (Đại hội lần thứ 1 nhiệm kỳ 2008-2013; Đại hội lần thứ 2 nhiệm kỳ 2013-2018; Đại hội lần thứ 3 nhiệm kỳ 2018-2023).",
+  },
+  {
+    logo: "/image/tochuc13.png",
+    title: "Hội Cứu trợ trẻ em tàn tật Việt Nam",
+    description: "Hội Bảo vệ quyền trẻ em Việt Nam (Hội BVQTEVN) được thành lập theo Quyết định số 464/QĐ-BNV ngày 08 tháng 04 năm 2008 của Bộ trưởng Bộ Nội vụ. Kể từ năm 2008 đến nay, Hội đã tổ chức được 3 kỳ Đại hội (Đại hội lần thứ 1 nhiệm kỳ 2008-2013; Đại hội lần thứ 2 nhiệm kỳ 2013-2018; Đại hội lần thứ 3 nhiệm kỳ 2018-2023).",
+  },
+  {
+    logo: "/image/tochuc14.png",
+    title: "Hội cứu trợ trẻ em khuyết tật thành phố Hà Nội ",
+    description: "Hội CTTEKT TP Hà Nội được thành lập ngày 02/02/2000 theo QĐ số 13/2000QĐ-UB của UBND thành phố Hà Nội với mục tiêu đề ra là làm sao cho trẻ em khuyết tật (TEKT) được chăm lo tốt nhất, được học hành và hòa nhập cộng đồng để trở thành người có ích cho xã hội, bớt đi gánh nặng cho gia đình và xã hội.",
+  },
+];
+export const organizations_2 = [
+  {
+    logo: "/image/tochuc15.png",
+    title: "Trung tâm Nghiên cứu Giáo dục người Khiếm Thính",
+    description: "Là tổ chức xã hội đầu tiên và duy nhất hiện thời tại Việt Nam do người khiếm thính thành lập và phục vụ vì người khiếm thính và được Sở Khoa Học và Công Nghệ cấp phép thành lập Số 247/ĐK-KHCN vào 15/4/2011.",
+  },
+  {
+    logo: "/image/tochuc16.png",
+    title: "Hear.Us.Now",
+    description: "Hear Us Now hỗ trợ trẻ em Điếc/Khiếm thính tại Việt Nam được tiếp cận gần hơn với thế giới tri thức thông qua những hoạt động giảng dạy Tiếng Anh, Tin học căn bản, cũng như các chương trình đào tạo kỹ năng sống và hướng nghiệp.",
+  },
+  {
+    logo: "/image/tochuc17.png",
+    title: "Trung tâm Giáo dục Đặc biệt Quốc gia (NCSE)",
+    description: "Trung tâm Giáo dục Đặc biệt Quốc gia (NCSE) trực thuộc Viện Khoa học Giáo dục Việt Nam với sứ mệnh vì sự bình đẳng tham gia giáo dục có chất lượng và học tập suốt đời cho người khuyết tật Việt Nam.",
+  },
+  {
+    logo: "/image/tochuc18.png",
+    title: "Trung tâm Giáo dục đặc biệt",
+    description: "Trung tâm Giáo dục đặc biệt trường Đại học Sư phạm Hà Nội (sau đây gọi tắt là Trung tâm) là một đơn vị chuyên môn trực thuộc Khoa Giáo dục đặc biệt, Trường Đại học Sư phạm Hà Nội hoạt động trong khuôn khổ luật pháp của Nhà nước, Quy chế tổ chức và hoạt động của Trường Đại học Sư phạm Hà Nội, phi lợi nhuận, thiện nguyện, vì lợi ích của trẻ có nhu cầu đặc biệt và gia đình của trẻ, góp phần vì sự phát triển cộng đồng, xã hội.",
+  },
+  {
+    logo: "/image/tochuc19.png",
+    title: "Trung tâm Hỗ trợ Phát triển Giáo dục Hoà nhập-SCIED",
+    description: "Trung tâm hỗ trợ phát triển giáo dục hòa nhập là cơ sở cung cấp nội dung chương trình, thiết bị, tài liệu dạy và học, các dịch vụ tư vấn, hỗ trợ giáo dục, tổ chức giáo dục phù hợp với đặc điểm và hoàn cảnh của người khuyết tật.",
+  },
+  {
+    logo: "/image/tochuc20.png",
+    title: "Hiệp hội vì Giáo dục cho mọi người Việt Nam",
+    description: "Hiệp hội hoạt động trên phạm vi cả nước, trong lĩnh vực giáo dục, đào tạo, chịu sự quản lý Nhà nước của Bộ Giáo dục và Đào tạo và các bộ, ngành có liên quan đến lĩnh vực hoạt động của Hiệp hội. ",
+  },
+];
+export const organizations_3 = [
+  {
+    logo: "/image/tochuc21.png",
+    title: "Doanh Nghiệp Xã Hội Vì Người Khiếm Thính Việt Nam",
+    description: "Mang đến cho Người khiếm thính (bao gồm cả trẻ em) một cộng đồng kết nối chia sẻ trải nghiệm học tập, cuộc sống, rút ngắn khoảng cách khác biệt, nâng cao các kỹ năng hòa nhập xã hội cũng như các hoạt động và giải pháp hướng nghiệp để trở thành người độc lập, sống có ích cho chính bản thân mình và cho xã hội.",
+  },
+  {
+    logo: "/image/tochuc22.png",
+    title: "VụnArt",
+    description: "VỤN Art là một dự án xã hội đặc biệt, nơi mà từ những mảnh vải lụa vụn tưởng chừng bỏ đi, những người lao động ở VỤN Art ghép nên các tác phẩm nghệ thuật độc đáo, đầy ý nghĩa. Đây không chỉ là một nơi tạo ra sản phẩm mà là mái nhà chung của những con người đặc biệt, những người lao động khuyết tật có cơ hội được tự hào thể hiện sự khéo léo và tài năng của mình. VụnArt không chỉ là nơi biến vải vụn thành nghệ thuật mà còn là nơi thắp lên hy vọng và sự kiên cường trong cuộc sống.",
+  },
+  {
+    logo: "/image/tochuc23.png",
+    title: "Kymviet",
+    description: "Kymviet là doanh nghiệp xã hội của người khuyết tật, vì người khuyết tật.​ Kymviet thành lập tháng 12 năm 2013, hoạt động trong lĩnh vực sản xuất đồ thủ công được làm chủ yếu từ vải: Các sản phẩm decor, quà tặng lưu niệm, sản phẩm ứng dụng. Các dịch vụ gia tăng: dịch vụ giáo dục – trải nghiệm; dịch vụ đồ uống và ẩm thực; tổ chức sự kiện.",
+  },
+  {
+    logo: "/image/tochuc24.png",
+    title: "We-Edit",
+    description: 'We-Edit được thành lập bởi 3 nhà đồng sáng lập vào tháng 2 năm 2018 với mục tiêu mang lại sự bình đẳng và cơ hội đích thực cho tất cả các nhóm người dễ bị tổn thương, đặc biệt là những người khuyết tật. Tuy nhiên, chúng tôi không bao giờ muốn sử dụng "khuyết tật" như một chiến lược để thu hút khách hàng mà sử dụng chất lượng dịch vụ của mình để xây dựng lòng tin của họ. Chúng tôi chủ yếu cung cấp dịch vụ chỉnh sửa ảnh bất động sản nhưng hiện đã mở rộng các dịch vụ khác như dàn dựng ảo, chỉnh sửa video nữa. ',
+  },
+  {
+    logo: "/image/tochuc25.png",
+    title: "Cafe Lặng Art",
+    description: "Lặng Art là một mô hình cộng đồng độc đáo tại Đà Lạt, kết hợp quán cà phê và không gian nghệ thuật, do những bạn trẻ khiếm thính vận hành. Thành lập với mong muốn tạo cơ hội việc làm bền vững và khơi dậy tài năng tiềm ẩn, Lặng Art không chỉ mang đến những ly cà phê ấm áp mà còn trưng bày và bán các sản phẩm thủ công do chính các bạn khiếm thính chế tác.",
+  },
+  {
+    logo: "/image/tochuc26.png",
+    title: "Công ty CP Nghị Lực Sống",
+    description: "Công ty Cổ phần Nghị Lực Sống – Doanh nghiệp xã hội với triết lý hoạt động nâng cao năng lực cho người khuyết tật Nghị Lực Sống (còn gọi là Nghị Lực Sống) là một DNXH phi lợi nhuận hoạt động trong lĩnh vực hỗ trợ hòa nhập toàn diện cho người khuyết tật (NKT) thông qua đào tạo nghề CNTT miễn phí và các kỹ năng sống giúp NKT tìm được việc làm phù hợp. Từ đó, NKT tự tin, dễ dàng hòa nhập hơn với cộng đồng và tự tạo dựng cuộc sống.",
+  },
+];
+export const organizations_4 = [
+  {
+    logo: "/image/tochuc27.png",
+    title: "Orphan Voice",
+    description: "Orphan Voice là một mục vụ phát triển của Cơ đốc giáo dành riêng cho trẻ em có nhu cầu đặc biệt, trẻ em có nguy cơ bị buôn bán và lạm dụng tình dục, trẻ mồ côi và góa phụ ở Việt Nam và Đông Nam Á. Các hoạt động tiếp cận chính bao gồm các trung tâm trị liệu nhu cầu đặc biệt, giáo dục khiếm thính, bảo vệ gia đình, hội thảo trường học chống buôn người, nhà phục hồi sau khi bị lạm dụng, nhà nhóm và đào tạo nghề.",
+  },
+  {
+    logo: "/image/tochuc28.png",
+    title: "Save the Children",
+    description: "Save the Children là tổ chức trẻ em độc lập đầu tiên và hàng đầu thế giới – thay đổi cuộc sống và tương lai mà chúng ta cùng chia sẻ. Chúng tôi tự hào được làm việc với trẻ em, cộng đồng của các em và các đối tác trên toàn thế giới, khám phá ra các giải pháp mới để giúp đảm bảo rằng những trẻ em dễ bị tổn thương nhất trên thế giới được sống sót, học tập và được bảo vệ.",
+  },
+  {
+    logo: "/image/tochuc29.png",
+    title: "CRS Việt Nam",
+    description: "CRS bắt đầu hoạt động tại Việt Nam vào năm 1992 và thành lập văn phòng tại Hà Nội vào năm 1994. CRS Việt Nam hỗ trợ các đối tác địa phương bao gồm các đối tác chính phủ và các tổ chức xã hội dân sự xây dựng năng lực trong các lĩnh vực hòa nhập người khuyết tật, Giáo dục rủi ro bom mìn và hỗ trợ nạn nhân, Giảm thiểu rủi ro thiên tai và thích ứng với biến đổi khí hậu.",
+  },
+  {
+    logo: "/image/tochuc30.png",
+    title: "Angels’ Haven Việt Nam ",
+    description: "Tổ chức Phi chính phủ Hàn Quốc thực hiện dự án về người khuyết tật tại Việt Nam.Angels Haven hỗ trợ cuộc sống hạnh phúc và ước mơ của trẻ em và thanh thiếu niên sống tại các cơ sở chăm sóc trẻ em (Eunpyeong Angels’ Home).",
+  },
+  {
+    logo: "/image/tochuc31.png",
+    title: "KOICA",
+    description: "Góp phần vào sự thịnh vượng chung và thúc đẩy hòa bình thế giới thông qua hợp tác phát triển toàn diện, cùng có lợi, không bỏ lại ai phía sa - Một tổ chức hợp tác phát triển toàn cầu uy tín để hiện thực hóa các giá trị toàn cầu và tạo ra sự thịnh vượng chung - Con người · Hòa bình · Thịnh vượng · Hành tinh · Quan hệ đối tác - Trở thành quốc gia trụ cột toàn cầu thông qua hợp tác phát triển tiên tiến",
+  },
+  {
+    logo: "/image/tochuc32.png",
+    title: "Blue Dragon Children's Foundation",
+    description: "Tổ chức Trẻ em Rồng Xanh là một tổ chức phi chính phủ có trụ sở tại Hà Nội, Việt Nam. Sứ mệnh của tổ chức này bao gồm giải cứu trẻ em đường phố, trẻ em, phụ nữ thoát khỏi nạn buôn bán người, lao động cưỡng bức và nô lệ, đồng thời cung cấp nơi ở, giáo dục và việc làm cho các nạn nhân sau khi được giải cứu.",
+  },
+  {
+    logo: "/image/tochuc33.png",
+    title: "Samaritan's Purse",
+    description: "Samaritan's Purse là một tổ chức Cơ đốc giáo Tin lành phi giáo phái cung cấp hỗ trợ về mặt tinh thần và vật chất cho những người đau khổ trên khắp thế giới. Từ năm 1970, Samaritan's Purse đã giúp đáp ứng nhu cầu của những người là nạn nhân của chiến tranh, đói nghèo, thiên tai, bệnh tật và nạn đói với mục đích chia sẻ tình yêu của Chúa thông qua Con của Ngài, Chúa Jesus Christ. Tổ chức này phục vụ Giáo hội trên toàn thế giới để quảng bá Phúc âm của Chúa Jesus Christ.",
+  },
+  {
+    logo: "/image/tochuc34.png",
+    title: "REACH",
+    description: "Chúng tôi cung cấp đào tạo nghề ngắn hạn bao gồm chương trình đào tạo ngắn hạn và chuyên sâu về các kỹ năng kỹ thuật, các kỹ năng mềm thiết yếu liên quan đến thị trường lao động, tiếp theo là chương trình giới thiệu việc làm cẩn thận và hỗ trợ sinh viên thường xuyên trong sáu tháng sau khi tốt nghiệp.",
+  },
+];
+export const organizations_5 = [
+  {
+    logo: "/image/tochuc35.png",
+    title: "Doanh Nghiệp Xã Hội Vì Người Khiếm Thính Việt Nam",
+    description: "Mang đến cho Người khiếm thính (bao gồm cả trẻ em) một cộng đồng kết nối chia sẻ trải nghiệm học tập, cuộc sống, rút ngắn khoảng cách khác biệt, nâng cao các kỹ năng hòa nhập xã hội cũng như các hoạt động và giải pháp hướng nghiệp để trở thành người độc lập, sống có ích cho chính bản thân mình và cho xã hội.",
+  },
+  {
+    logo: "/image/tochuc36.png",
+    title: "Trung tâm trợ thính Stella - Máy trợ thính không dây",
+    description: "Công ty TNHH Trung tâm trợ thính STELLA được thành lập năm 2002 bởi ông Huh Bang Bin - Thạc sỹ thính học người Hàn Quốc - được đào tạo tại nước ngoài, dày dặn kinh nghiệm trong lĩnh vực thính học . Trụ sở chính đặt tại 171 Xuân Hồng, phường 12, quận Tân Bình, thành phố Hồ Chí Minh.",
+  },
+  {
+    logo: "/image/tochuc37.png",
+    title: "Trợ Thính Quang Đức - Máy Trợ Thính Chính Hãng, Giá Tốt",
+    description: "Quang Đức tên đầy đủ là Công ty TNHH Dịch vụ Trợ thính Quang Đức. Là đơn vị cung cấp phân phối máy trợ thính và thực hiện một số dịch vụ về trợ thính tại Việt Nam. Chúng tôi đã phát triển rất nhiều đại lý của mình ở các tỉnh thành gồm: Hồ Chí Minh, Hà Nội,…",
+  },
+  {
+    logo: "/image/tochuc38.png",
+    title: "Trung tâm trợ thính Connect Hearing",
+    description: "Trợ thính Connect Hearing là một mạng lưới lớn mạnh bao gồm các trung tâm chăm sóc thính giác có mặt ở nhiều quốc gia trên thế giới, luôn nỗ lực tìm ra những giải pháp tốt nhất để phục vụ quý khách hàng. Đội ngũ Chuyên gia Chăm sóc Thính lực của chúng tôi là những người dày dạn kinh nghiệm trong lĩnh vực thính học của Sonova Việt Nam – những người đã, đang và sẽ luôn đồng hành cùng bạn trên hành trình tìm lại âm thanh. Connect Hearing là trung tâm trợ thính trực thuộc tập đoàn Sonova, nhà cung cấp các giải pháp chăm sóc sức khỏe thính giác sáng tạo hàng đầu thế giới.",
+  },
+  {
+    logo: "/image/tochuc39.png",
+    title: "Trung tâm trợ thính hearLIFE Việt Nam",
+    description: "Công ty TNHH Trung tâm trợ thính hearLIFE được công nhận là đơn vị dẫn đầu về chăm sóc sức nghe, máy trợ thính, thiết bị cấy ghép và hợp tác với nhiều bệnh viện trên khắp Việt Nam.",
+  },
+  {
+    logo: "/image/tochuc40.png",
+    title: "Trợ Thính Thiên Đức – Cùng lắng nghe, cùng chia sẻ.",
+    description: "Trợ thính Thiên Đức tên đầy đủ là Công ty TNHH máy trợ thính & TBYT Thiên Đức, là đơn vị phân phối máy trợ thính, thiết bị thính học và một số dịch vụ về thính học tại Việt Nam. Ngoài ra, chúng tôi còn phân phối cả thanh quản điện tử dành cho các bệnh nhân bị ung thư thanh quản.",
+  },
+  {
+    logo: "/image/tochuc41.png",
+    title: "Trung Tâm Trợ Thính Microtech",
+    description: "Trung Tâm Trợ Thính Microtech được thành lập năm 2011 chuyên khám khiếm thính và lắp đặt Máy Trợ Thính cho người lớn và trẻ em. Năm 2020 chúng tôi bổ sung thêm ngành nghề với những mong muốn giúp đỡ bệnh nhân khiếm thính nhiều hơn nữa",
+  },
+  {
+    logo: "/image/tochuc34.png",
+    title: "Máy trợ thính Cát Tường Hearing",
+    description: "Trung tâm Thính lực Cát Tường tự hào mang những thành tựu thính học hiện đại nhất từ khắp nơi trên thế giới về Việt Nam. Chúng tôi không ngừng nỗ lực để giúp trẻ em và người lớn tuổi tìm lại âm thanh, hòa nhập cộng đồng và thay đổi cuộc sống của họ.",
+  },
+];

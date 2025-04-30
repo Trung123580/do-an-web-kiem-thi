@@ -13,7 +13,7 @@ export default function Page() {
 
   const handleSort = ({ slug }: { slug: string }) => {
     console.log(slug);
-    
+
     setActiveCategories(prev => {
       // If clicking "Tất cả", clear all selections
       if (!slug) {
@@ -30,19 +30,19 @@ export default function Page() {
         newCategories = [...prev, slug];
       }
       console.log(newCategories);
-      
+
       // Filter articles based on selected categories
       if (newCategories.length === 0) {
         setDataConvert(dataNews); // Show all if no categories selected
       } else {
         const filtered = dataNews.filter((article) => {
           console.log(article);
-          
-          return article.tags?.some(tag => 
+
+          return article.tags?.some(tag =>
             newCategories.includes(tag)
           )
         }
-          
+
         );
         setDataConvert(filtered);
       }
@@ -60,7 +60,7 @@ export default function Page() {
     { name: "Sự kiện", slug: "su-kien" }
   ];
   return (
-    <div className="min-h-screen bg-gray-50 pt-24 pb-16">
+    <div className="min-h-screen pt-24 pb-16 max-w-7xl mx-auto">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-5 gap-6 mb-16">
           {/* Main Featured Article */}
@@ -83,8 +83,8 @@ export default function Page() {
                       </div>
                     )}
                   </div>
-                  <h1 className="text-2xl font-semibold transition-colors">{mainArticle.title}</h1>
-                  <p className="text-gray-600 line-clamp-2">{mainArticle.description}</p>
+                  <h1 className="text-[32px] font-bold leading-[130%] transition-colors">{mainArticle.title}</h1>
+                  <p className="text-lg font-normal line-clamp-2">{mainArticle.description}</p>
                 </div>
               </div>
             </Link>
@@ -98,8 +98,8 @@ export default function Page() {
                   <div className="relative h-[200px] rounded-xl overflow-hidden mb-4">
                     <Image src={article.image} alt={article.title} fill className="object-cover" />
                   </div>
-                  <h2 className="font-bold mb-2 text-xl transition-colors line-clamp-2">{article.title}</h2>
-                  <p className="text-sm text-gray-600 line-clamp-2">{article.description}</p>
+                  <h2 className="font-bold mb-2 text-lg transition-colors line-clamp-2">{article.title}</h2>
+                  <p className="text-sm font-normal line-clamp-2">{article.description}</p>
                 </div>
               </Link>
             ))}
@@ -117,7 +117,7 @@ export default function Page() {
               />
               <button className="absolute right-3 top-1/2 -translate-y-1/2">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                  <path d="M17.5 17.5L12.5 12.5M14.1667 8.33333C14.1667 11.555 11.555 14.1667 8.33333 14.1667C5.11167 14.1667 2.5 11.555 2.5 8.33333C2.5 5.11167 5.11167 2.5 8.33333 2.5C11.555 2.5 14.1667 5.11167 14.1667 8.33333Z" stroke="#667085" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M17.5 17.5L12.5 12.5M14.1667 8.33333C14.1667 11.555 11.555 14.1667 8.33333 14.1667C5.11167 14.1667 2.5 11.555 2.5 8.33333C2.5 5.11167 5.11167 2.5 8.33333 2.5C11.555 2.5 14.1667 5.11167 14.1667 8.33333Z" stroke="#667085" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </button>
             </div>
@@ -126,11 +126,10 @@ export default function Page() {
                 <button
                   key={index}
                   onClick={() => handleSort({ slug: category.name })}
-                  className={`px-3 py-1 text-sm rounded-sm transition-colors ${
-                    activeCategories.includes(category.name)
-                      ? 'bg-blue-500 text-white'
-                      : 'bg-gray-100 hover:bg-gray-200'
-                  }`}
+                  className={`px-6 py-2 text-sm rounded-lg border-2 border-[#CFD1D4] transition-colors ${activeCategories.includes(category.name)
+                    ? 'bg-blue-500 text-white'
+                    : 'bg-white hover:bg-gray-200'
+                    }`}
                 >
                   {category.name}
                 </button>
@@ -140,11 +139,11 @@ export default function Page() {
 
           {/* News List */}
           <div className="lg:col-span-3">
-            <div className="space-y-6 max-h-[800px] overflow-y-auto pr-4 scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100">
+            <div className="space-y-2 max-h-[800px] overflow-y-auto pr-4 scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100">
               {dataConvert.map((item) => (
                 <Link href={`/thong-tin/tin-tuc/${item.slug}`} key={item.id}>
-                  <div className="flex gap-6 group cursor-pointer mb-4  rounded-xl p-4">
-                    <div className="relative w-[300px] h-[200px] rounded-xl overflow-hidden flex-shrink-0">
+                  <div className="flex gap-6 group cursor-pointer mb-3  rounded-xl px-4 py-1">
+                    <div className="relative w-[260px] h-[260px] rounded-xl overflow-hidden flex-shrink-0">
                       <Image
                         src={item.image}
                         alt={item.title}
@@ -166,7 +165,7 @@ export default function Page() {
                             {item.tags.map((tag, index) => (
                               <span
                                 key={index}
-                                className="text-sm px-3 py-1 bg-gray-100 rounded-sm"
+                                className="text-sm px-6 py-2 bg-gray-100 rounded-sm"
                               >
                                 {tag}
                               </span>
