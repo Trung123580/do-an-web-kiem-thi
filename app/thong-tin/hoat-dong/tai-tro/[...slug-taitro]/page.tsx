@@ -45,24 +45,24 @@ export default async function sukienDetailPage({ params }: { params: Params }) {
             </div>
           </div>
         </div>
-
+        {/* em comment tam nhe */}
         {/* Banner Image */}
-        <div>
+        {/* <div>
           <h2 className="text-3xl font-bold text-[#2E4FBE] mb-4">Giới thiệu chương trình</h2>
           <ul className="list-disc list-inside text-base ml-4 mb-16">
             {taitroDetail?.requirements.map((item, index) => (
               <li key={index}>{item}</li>
             ))}
           </ul>
-        </div>
-        <div>
+        </div> */}
+        {/* <div>
           <h2 className="text-3xl font-bold text-[#2E4FBE] mb-4">Tiêu chuẩn tham gia</h2>
           <ul className="list-disc list-inside text-base ml-4 mb-16">
             {taitroDetail?.requirements.map((item, index) => (
               <li key={index}>{item}</li>
             ))}
           </ul>
-        </div>
+        </div> */}
         <div className="rounded-xl overflow-hidden mb-8 shadow-sm">
           <Image src={taitroDetail?.img || ""} alt="Workshop Volunteer Image" width={1000} height={400} className="w-full h-auto object-cover" />
         </div>
@@ -71,31 +71,31 @@ export default async function sukienDetailPage({ params }: { params: Params }) {
 
         <div className="rounded-xl p-8 space-y-8 mb-8">
           {/* Quyền lợi */}
-          <div>
+          {/* <div>
             <h2 className="text-3xl font-bold text-[#2E4FBE] mb-4">Quyền lợi tham gia</h2>
             <ul className="list-disc list-inside text-base">
               {taitroDetail?.benefits.map((item, index) => (
                 <li key={index}>{item}</li>
               ))}
             </ul>
-          </div>
-          <div>
+          </div> */}
+          {/* <div>
             <h2 className="text-3xl font-bold text-[#2E4FBE] mb-4">Nghĩa vụ tham gia</h2>
             <ul className="list-disc list-inside text-base">
               {taitroDetail?.benefits.map((item, index) => (
                 <li key={index}>{item}</li>
               ))}
             </ul>
-          </div>
+          </div> */}
           {/* Yêu cầu */}
-          <div>
+          {/* <div>
             <h2 className="text-3xl font-bold text-[#2E4FBE] mb-4">Quy trình xét duyệt</h2>
             <ul className="list-disc list-inside text-base">
               {taitroDetail?.requirements.map((item, index) => (
                 <li key={index}>{item}</li>
               ))}
             </ul>
-          </div>
+          </div> */}
 
         </div>
         {/* Apply Button */}
