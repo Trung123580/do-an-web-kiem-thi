@@ -3887,6 +3887,452 @@ export const dataSukien = [
   		`,
   },
 ];
+export const dataTaiTro = [
+  {
+    img: "/image/taitro1.jpg",
+    title: "Chương trình Tài trợ Máy trợ thính 2025",
+    description: "hear.us.now là một tổ chức xã hội phi lợi nhuận hoạt động vì quyền lợi và chất lượng cuộc sống của người khiếm thính tại Việt Nam. Với mong muốn đem lại cơ hội hòa nhập và phát triển toàn diện cho người khiếm thính, chúng tôi triển khai Chương trình Tài trợ Máy trợ thính 2025 – “Nghe để Gắn Kết” nhằm hỗ trợ những người có hoàn cảnh khó khăn được tiếp cận với thiết bị hỗ trợ thính lực phù hợp.",
+    slug: "chuong-trinh-tai-tro-may-tro-thinh",
+    organization: [
+      {
+        img: "/image/Ellipse-12.png",
+        title: "Hear.us.now",
+      },
+    ],
+    sponsoring: [],
+    sortDesc: "hear.us.now là một tổ chức xã hội phi lợi nhuận hoạt động vì quyền lợi và chất lượng cuộc sống của người khiếm thính tại Việt Nam. Với mong muốn đem lại cơ hội hòa nhập và phát triển toàn diện cho người khiếm thính, chúng tôi triển khai Chương trình Tài trợ Máy trợ thính 2025 – “Nghe để Gắn Kết” nhằm hỗ trợ những người có hoàn cảnh khó khăn được tiếp cận với thiết bị hỗ trợ thính lực phù hợp.",
+    content: `
+	  <div class="mb-10">
+		  <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Giới thiệu chương trình</h2>
+		  <p class="text-black text-sm leading-relaxed">
+			  “Nghe để Gắn Kết” là chương trình tài trợ máy trợ thính năm 2025 do hear.us.now – tổ chức xã hội vì người khiếm thính Việt Nam – triển khai nhằm hỗ trợ thiết bị thính lực cho những người khiếm thính có hoàn cảnh khó khăn.
+		  </p>
+		  <p class="text-black text-sm mb-4 leading-relaxed">
+			  Thông qua việc cung cấp máy trợ thính và tư vấn chuyên môn, chương trình mong muốn cải thiện khả năng giao tiếp, học tập, làm việc và hòa nhập xã hội cho người khiếm thính, đặc biệt là trẻ em và thanh thiếu niên.
+		  </p>
+		  <div class="text-sm flex"><div class="font-bold">Tên chương trình:</div>“Nghe để Gắn Kết” – Quỹ tài trợ máy trợ thính 2025</div>
+		  <div class="text-sm flex"><div class="font-bold">Đơn vị tổ chức:</div>hear.us.now</div>
+		  <div class="text-sm flex"><div class="font-bold">Thời gian triển khai:</div>01/06/2025 – 30/09/2025</div>
+		  <div class="text-sm flex"><div class="font-bold">Phạm vi:</div>Toàn quốc</div>
+	  </div>
+	  <div class="mb-10">
+		  <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Tiêu chuẩn tham gia</h2>
+		  <p class="text-black text-sm font-bold leading-relaxed">
+			  Người đăng ký cần đáp ứng đủ các tiêu chí sau:
+		  </p>
+		  <p class="text-black text-sm  leading-relaxed pl-4">
+			• Là công dân Việt Nam, sinh sống tại Việt Nam.
+		  </p>
+		  <p class="text-black text-sm  leading-relaxed pl-4">
+			• Có giấy xác nhận khuyết tật thính lực (cấp bởi bệnh viện chuyên khoa hoặc cơ quan có thẩm quyền).
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Có hoàn cảnh kinh tế khó khăn (hộ nghèo/cận nghèo, con mồ côi, dân tộc thiểu số, hoặc hoàn cảnh đặc biệt).
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Chưa từng sử dụng máy trợ thính, hoặc thiết bị đang dùng không còn hoạt động hiệu quả.
+		  </p>
+		    <p class="text-black text-sm  leading-relaxed pl-4">
+			• Có nhu cầu sử dụng máy trợ thính để phục vụ học tập, làm việc hoặc giao tiếp xã hội.
+		  </p>
+	  </div>
+	   <div class="mb-10">
+		  <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Quyền lợi tham gia</h2>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• 1 máy trợ thính kỹ thuật số (1 hoặc 2 bên tai tùy theo chỉ định).
+		  </p>
+		  <p class="text-black text-sm  leading-relaxed pl-4">
+			• Đo thính lực, khám chuyên môn và tư vấn hoàn toàn miễn phí.
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Hướng dẫn sử dụng máy và tư vấn thính lực cá nhân.
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Hỗ trợ kỹ thuật sau khi cấp phát trong vòng 6 tháng.
+		  </p>
+		    <p class="text-black text-sm  leading-relaxed pl-4">
+			• Ưu tiên tham gia các chương trình đào tạo kỹ năng, hướng nghiệp, giáo dục hòa nhập do hear.us.now và các đối tác tổ chức.
+		  </p>
+	  </div>
+	   <div class="mb-10">
+		  <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Nghĩa vụ tham gia</h2>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Hợp tác đầy đủ với đội ngũ chuyên môn trong quá trình khám, đo, đánh giá.
+		  </p>
+		  <p class="text-black text-sm  leading-relaxed pl-4">
+			• Cam kết sử dụng máy đúng hướng dẫn và không chuyển nhượng, bán lại thiết bị được tài trợ.
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Tham gia các buổi theo dõi định kỳ (trực tiếp hoặc trực tuyến) trong vòng 6 tháng.
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Cung cấp thông tin trung thực trong hồ sơ đăng ký và khi được yêu cầu kiểm tra lại.
+		  </p>
+	  </div>
+	     <div class="mb-10">
+		  <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Quy trình xét duyệt</h2>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Nộp hồ sơ đăng ký: qua form trực tuyến hoặc email từ 01/06 – 30/08/2025.
+		  </p>
+		  <p class="text-black text-sm  leading-relaxed pl-4">
+			• Sơ tuyển hồ sơ: Xem xét các điều kiện cơ bản (hoàn cảnh, giấy tờ).
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Khám đo thính lực và phỏng vấn: Tổ chức khám tại địa phương hoặc trung tâm đối tác.
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Công bố kết quả: Danh sách nhận tài trợ sẽ được thông báo qua email và website vào ngày 15/09/2025.
+		  </p>
+		  <p class="text-black text-sm  leading-relaxed pl-4">
+			• Trao máy và hướng dẫn sử dụng: Tháng 9 – 10/2025, tùy theo khu vực.
+		  </p>
+	  </div>
+	   <div>
+		  <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Cách thức nộp hồ sơ</h2>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Đăng ký online: <a href="www.hearusnow.vn/dangky2025" class="text-blue-500">www.hearusnow.vn/dangky2025</a>.
+		  </p>
+		  <p class="text-black text-sm  leading-relaxed pl-4">
+			• Gửi hồ sơ qua email: trogiup@hearusnow.vn (Tiêu đề: Đăng ký máy trợ thính 2025)
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Hồ sơ gồm: Giấy xác nhận khiếm thính, đơn đăng ký, bản sao CMND/hộ khẩu và 1 ảnh cá nhân.
+		  </p>
+		  
+	  </div>
+	  `,
+  },
+  {
+    img: "/image/taitro2.jpg",
+    title: "Khóa “Trị Liệu Ngôn Ngữ Dành Cho Trẻ Mới Trang Bị Máy Trợ Thính”",
+    description: "Tóm tắt khóa “Trị Liệu Ngôn Ngữ Dành Cho Trẻ Mới Trang Bị Máy Trợ Thính” (100 chữ): Khóa trị liệu ngôn ngữ 12 tuần do CED phối hợp Bệnh viện Nhi Trung Ương tổ chức, dành cho trẻ 2–6 tuổi vừa nhận máy trợ thính hoặc cấy ốc tai trong vòng 6 tháng. Trẻ sẽ được trị liệu 3 buổi/tuần theo phương pháp nghe-nói (AVT) kết hợp tư vấn chuyên sâu. Khóa học miễn phí, có lớp hỗ trợ phụ huynh. Yêu cầu đảm bảo chuyên cần ≥85% và phụ huynh tham dự ít nhất 2 buổi. Xét duyệt thông qua phỏng vấn và kiểm tra năng lực ngôn ngữ của trẻ.",
+    slug: "khoa-tri-lieu-ngon-ngu-danh-cho-tre-moi-trang-bi-may-tro-thinh",
+    organization: [
+      {
+        img: "/image/Ellipse-6.png",
+        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+      },
+    ],
+    sponsoring: [],
+    sortDesc: "Tóm tắt khóa “Trị Liệu Ngôn Ngữ Dành Cho Trẻ Mới Trang Bị Máy Trợ Thính” (100 chữ): Khóa trị liệu ngôn ngữ 12 tuần do CED phối hợp Bệnh viện Nhi Trung Ương tổ chức, dành cho trẻ 2–6 tuổi vừa nhận máy trợ thính hoặc cấy ốc tai trong vòng 6 tháng. Trẻ sẽ được trị liệu 3 buổi/tuần theo phương pháp nghe-nói (AVT) kết hợp tư vấn chuyên sâu. Khóa học miễn phí, có lớp hỗ trợ phụ huynh. Yêu cầu đảm bảo chuyên cần ≥85% và phụ huynh tham dự ít nhất 2 buổi. Xét duyệt thông qua phỏng vấn và kiểm tra năng lực ngôn ngữ của trẻ.",
+    content: `
+	  <div class="mb-10">
+		  <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Giới thiệu chương trình</h2>
+		  <p class="text-black text-sm leading-relaxed">
+			  Khóa “Trị Liệu Ngôn Ngữ Dành Cho Trẻ Mới Trang Bị Máy Trợ Thính” là chương trình hỗ trợ chuyên sâu do Doanh Nghiệp Xã Hội Vì Người Khiếm Thính Việt Nam tổ chức, với mục tiêu giúp trẻ khiếm thính vừa được trang bị máy trợ thính có thể tiếp cận, làm quen và phát triển ngôn ngữ một cách hiệu quả, từ đó nâng cao khả năng giao tiếp và hòa nhập cộng đồng. Chương trình được xây dựng bởi đội ngũ chuyên gia ngôn ngữ trị liệu và giáo dục đặc biệt, mang lại phương pháp học tập thân thiện, khoa học và phù hợp với từng độ tuổi, từng mức độ khiếm thính.
+		  </p>
+  </div>
+	  <div class="mb-10">
+		  <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Tiêu chuẩn tham gia</h2>
+		 <p class="text-black text-sm  leading-relaxed pl-4">
+			• Trẻ từ 1 đến 6 tuổi mới được trang bị máy trợ thính (dưới 6 tháng kể từ ngày sử dụng).
+		  </p>
+		  <p class="text-black text-sm  leading-relaxed pl-4">
+			• Có chẩn đoán về mức độ khiếm thính từ các cơ sở y tế có thẩm quyền.
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Có nhu cầu can thiệp ngôn ngữ sớm và sự cam kết đồng hành từ phụ huynh.
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Ưu tiên hộ gia đình khó khăn, hộ nghèo/cận nghèo.
+		  </p>
+	  </div>
+	   <div class="mb-10">
+		  <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Quyền lợi tham gia</h2>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Tham gia miễn phí các buổi trị liệu chuyên sâu trong 3 tháng đầu.
+		  </p>
+		  <p class="text-black text-sm  leading-relaxed pl-4">
+			• Được đánh giá và theo dõi tiến trình phát triển ngôn ngữ định kỳ.
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Nhận tư vấn cá nhân hóa từ chuyên gia dành cho trẻ và phụ huynh.
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Cung cấp tài liệu, đồ dùng hỗ trợ trị liệu phù hợp từng giai đoạn.
+		  </p>
+		    <p class="text-black text-sm  leading-relaxed pl-4">
+			• Tham gia nhóm hỗ trợ phụ huynh – nơi kết nối và chia sẻ hành trình can thiệp.
+		  </p>
+	  </div>
+	   <div class="mb-10">
+		  <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Nghĩa vụ tham gia</h2>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Tham gia đầy đủ và đúng giờ các buổi trị liệu theo lịch trình đã thống nhất.
+		  </p>
+		  <p class="text-black text-sm  leading-relaxed pl-4">
+			• Phối hợp với chuyên gia trong việc theo dõi và thực hiện các bài tập tại nhà.
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Cung cấp thông tin chính xác về tình trạng của trẻ và phản hồi kịp thời khi có yêu cầu.
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Không tự ý sử dụng tài liệu chương trình vào mục đích thương mại hoặc không phù hợp.
+		  </p>
+	  </div>
+	     <div class="mb-10">
+		  <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Quy trình xét duyệt</h2>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Nộp hồ sơ đăng ký: Điền form đăng ký trực tuyến hoặc gửi hồ sơ giấy về văn phòng chương trình.
+		  </p>
+		  <p class="text-black text-sm  leading-relaxed pl-4">
+			• Xác minh thông tin: Ban tổ chức liên hệ gia đình để xác minh tình trạng và nhu cầu hỗ trợ..
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Đánh giá ban đầu: Trẻ được mời tham gia buổi đánh giá khả năng ngôn ngữ và mức độ đáp ứng với máy trợ thính.
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Thông báo kết quả: Gia đình nhận thông báo tham gia chính thức qua email hoặc điện thoại.
+		  </p>
+		  <p class="text-black text-sm  leading-relaxed pl-4">
+			• Ký cam kết: Ký thỏa thuận tham gia và bắt đầu lịch trị liệu. 
+		  </p>
+	  </div>
+	   <div>
+		  <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Đăng ký tham gia chương trình</h2>
+		  <p class="text-black text-sm mb-4 leading-relaxed ">
+			Phụ huynh hoặc người giám hộ quan tâm vui lòng đăng ký theo hướng dẫn dưới đây. Chúng tôi khuyến khích quý vị cung cấp đầy đủ và chính xác thông tin để việc xét duyệt diễn ra thuận lợi.
+		  </p>
+		   <p class="text-black text-sm font-bold leading-relaxed ">
+			📌 Cách đăng ký:
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Điền form trực tuyến (nếu có) hoặc gửi hồ sơ bao gồm:
+		  </p>
+		  <p class="text-black text-sm  leading-relaxed pl-4">
+			• Thông tin cá nhân và liên hệ của phụ huynh
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Giấy xác nhận khiếm thính từ cơ sở y tế
+		  </p>
+		    <p class="text-black text-sm  leading-relaxed pl-4">
+			• Thông tin về thời gian bắt đầu sử dụng máy trợ thính
+		  </p>
+		    <p class="text-black text-sm mb-4 leading-relaxed pl-4">
+			• Cam kết tham gia đầy đủ khóa học
+		  </p>
+		 <p class="text-black text-sm font-bold leading-relaxed ">
+			📬 Gửi hồ sơ đến:
+		  </p>
+		    <p class="text-black text-sm leading-relaxed pl-4">
+			📧 Email: hlcsvietnam@gmail.com
+		  </p>
+		    <p class="text-black text-sm leading-relaxed pl-4">
+			📞 Hotline: 0936 253 215
+		  </p>
+		    <p class="text-black text-sm leading-relaxed pl-4">
+			📍 Fanpage chính thức: Doanh nghiệp xã hội vì người khiếm thính Việt Nam
+		  </p>
+		  
+	  </div>
+	  `,
+  },
+  {
+    img: "/image/taitro3.jpg",
+    title: "Chương Trình “Ngày Hội Đo Thính Lực Miễn Phí”",
+    description: 'Chương trình "Ngày Hội Đo Thính Lực Miễn Phí" được tổ chức bởi Doanh Nghiệp Xã Hội Vì Người Khiếm Thính Việt Nam nhằm mục đích nâng cao nhận thức cộng đồng về các vấn đề liên quan đến sức khỏe thính giác. Đây là cơ hội để các cá nhân, đặc biệt là người khiếm thính, có thể kiểm tra khả năng nghe của mình miễn phí và nhận được các tư vấn hỗ trợ từ các chuyên gia về thính lực.',
+    slug: "chuong-trinh-ngay-hoi-do-thinh-luc-mien-phi",
+    organization: [
+      {
+        img: "/image/Ellipse-6.png",
+        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+      },
+    ],
+    sponsoring: [],
+    sortDesc: 'Chương trình "Ngày Hội Đo Thính Lực Miễn Phí" được tổ chức bởi Doanh Nghiệp Xã Hội Vì Người Khiếm Thính Việt Nam nhằm mục đích nâng cao nhận thức cộng đồng về các vấn đề liên quan đến sức khỏe thính giác. Đây là cơ hội để các cá nhân, đặc biệt là người khiếm thính, có thể kiểm tra khả năng nghe của mình miễn phí và nhận được các tư vấn hỗ trợ từ các chuyên gia về thính lực.',
+    content: `
+	  <div class="mb-10">
+		  <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Giới thiệu chương trình</h2>
+		  <p class="text-black text-sm leading-relaxed">
+			 Chương trình "Ngày Hội Đo Thính Lực Miễn Phí" được tổ chức bởi Doanh Nghiệp Xã Hội Vì Người Khiếm Thính Việt Nam nhằm mục đích nâng cao nhận thức cộng đồng về các vấn đề liên quan đến sức khỏe thính giác. Đây là cơ hội để các cá nhân, đặc biệt là người khiếm thính, có thể kiểm tra khả năng nghe của mình miễn phí và nhận được các tư vấn hỗ trợ từ các chuyên gia về thính lực.
+		  </p>
+  	  </div>
+	  <div class="mb-10">
+		  <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Tiêu chuẩn tham gia</h2>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Đối tượng tham gia: Chương trình mở rộng cho mọi cá nhân, đặc biệt là người khiếm thính, trẻ em và người lớn gặp phải các vấn đề về thính giác.
+		  </p>
+		  <p class="text-black text-sm  leading-relaxed pl-4">
+			• Yêu cầu: Người tham gia cần mang theo giấy tờ tùy thân hợp lệ. Mọi thông tin cá nhân sẽ được bảo mật và chỉ sử dụng cho mục đích chương trình.
+		  </p>
+	  </div>
+	   <div class="mb-10">
+		  <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Quyền lợi tham gia</h2>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Kiểm tra thính lực miễn phí: Mỗi người tham gia sẽ được kiểm tra thính lực miễn phí bởi các bác sĩ chuyên khoa thính học.
+		  </p>
+		  <p class="text-black text-sm  leading-relaxed pl-4">
+			• Tư vấn chuyên môn: Các chuyên gia thính học sẽ tư vấn cụ thể về tình trạng thính lực của từng cá nhân và cung cấp các giải pháp cải thiện thính lực (nếu cần).
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Hỗ trợ về thiết bị hỗ trợ thính giác: Cung cấp thông tin và hướng dẫn sử dụng các thiết bị hỗ trợ thính giác hiện đại (nếu có)
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Nhận quà tặng: Mỗi người tham gia sẽ nhận được những món quà nhỏ từ chương trình, nhằm khích lệ tinh thần tham gia.
+		  </p>
+	  </div>
+	   <div class="mb-10">
+		  <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Nghĩa vụ tham gia</h2>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Cung cấp thông tin chính xác: Người tham gia cần cung cấp đầy đủ và chính xác thông tin cá nhân để quá trình xét duyệt và kiểm tra thính lực diễn ra thuận lợi.
+		  </p>
+		  <p class="text-black text-sm  leading-relaxed pl-4">
+			• Tuân thủ quy trình và thời gian đăng ký: Người tham gia cần đến đúng giờ đã đăng ký và tuân thủ các chỉ dẫn của Ban tổ chức.
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Chia sẻ trải nghiệm: Người tham gia được khuyến khích chia sẻ những trải nghiệm của mình sau khi tham gia chương trình để giúp cải thiện các chương trình hỗ trợ trong tương lai.
+		  </p>
+	  </div>
+	     <div>
+		  <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Quy trình xét duyệt</h2>
+		  <div class="text-sm"><div class="font-bold inline">Đăng ký trực tuyến:</div>Người tham gia có thể đăng ký tham gia chương trình thông qua form đăng ký trên website của chúng tôi hoặc qua email: hlcsvietnam@gmail.com. Vui lòng điền đầy đủ các thông tin yêu cầu và chọn lịch hẹn phù hợp.</div>
+		  <div class="text-sm"><div class="font-bold inline">Xét duyệt đăng ký:</div>Sau khi nhận được đăng ký, chúng tôi sẽ tiến hành xét duyệt thông tin và gửi thông báo xác nhận qua email hoặc tin nhắn.</div>
+	      <div class="text-sm"><div class="font-bold inline">Xác nhận lịch hẹn:</div> Một khi đăng ký được xét duyệt, người tham gia sẽ nhận thông báo xác nhận lịch hẹn cụ thể, cùng các hướng dẫn về địa điểm và thủ tục tham gia.</div>
+	      <div class="text-sm"><div class="font-bold inline">Tham gia chương trình:</div>Người tham gia đến đúng giờ theo lịch hẹn để tiến hành kiểm tra thính lực và nhận tư vấn từ các chuyên gia.</div>
+		</div>
+	  `,
+  },
+  {
+    img: "/image/taitro4.jpg",
+    title: "Chương Trình “Đào Tạo Phụ Huynh Trẻ Khiếm Thính”",
+    description: 'Chương trình "Đào Tạo Phụ Huynh Trẻ Khiếm Thính" được tổ chức với mục đích cung cấp kiến thức và kỹ năng cần thiết cho phụ huynh có con em bị khiếm thính, giúp họ hiểu rõ hơn về tình trạng của trẻ và hỗ trợ trẻ phát triển trong môi trường giáo dục và cuộc sống. Chương trình sẽ cung cấp các kiến thức về ngôn ngữ ký hiệu, cách chăm sóc sức khỏe thính giác và các phương pháp giáo dục hiệu quả cho trẻ khiếm thính.',
+    slug: "chuong-trinh-dao-tao-phu-huynh-tre-khiem-thinh",
+    organization: [
+      {
+        img: "/image/Ellipse-6.png",
+        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+      },
+    ],
+    sponsoring: [],
+    sortDesc: 'Chương trình "Đào Tạo Phụ Huynh Trẻ Khiếm Thính" được tổ chức với mục đích cung cấp kiến thức và kỹ năng cần thiết cho phụ huynh có con em bị khiếm thính, giúp họ hiểu rõ hơn về tình trạng của trẻ và hỗ trợ trẻ phát triển trong môi trường giáo dục và cuộc sống. Chương trình sẽ cung cấp các kiến thức về ngôn ngữ ký hiệu, cách chăm sóc sức khỏe thính giác và các phương pháp giáo dục hiệu quả cho trẻ khiếm thính.',
+    content: `
+	  <div class="mb-10">
+		  <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Giới thiệu chương trình</h2>
+		  <p class="text-black text-sm mb-4 leading-relaxed">
+			 Chương trình "Đào Tạo Phụ Huynh Trẻ Khiếm Thính" được tổ chức với mục đích cung cấp kiến thức và kỹ năng cần thiết cho phụ huynh có con em bị khiếm thính, giúp họ hiểu rõ hơn về tình trạng của trẻ và hỗ trợ trẻ phát triển trong môi trường giáo dục và cuộc sống. Chương trình sẽ cung cấp các kiến thức về ngôn ngữ ký hiệu, cách chăm sóc sức khỏe thính giác và các phương pháp giáo dục hiệu quả cho trẻ khiếm thính.
+		  </p>
+		  <div class="text-sm flex"><div class="font-bold">Ngày tổ chức:</div> 15 tháng 5, 2025</div>
+		  <p class="text-black text-sm  leading-relaxed">
+			 Từ 8:30 sáng đến 5:00 chiều
+		  </p>
+		  <p class="text-black text-sm  leading-relaxed">
+			 (Giới thiệu và mở đầu chương trình: 8:30 - 9:00 sáng; Các buổi đào tạo và thảo luận: 9:00 sáng - 12:00 trưa; Nghỉ trưa: 12:00 - 1:30 chiều; Tiếp tục đào tạo: 1:30 chiều - 4:30 chiều; Tổng kết và trao chứng nhận: 4:30 - 5:00 chiều)
+		  </p>
+  	  </div>
+	  <div class="mb-10">
+		  <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Tiêu chuẩn tham gia</h2>
+		  <p class="text-black text-sm  leading-relaxed pl-4">
+			• Đối tượng tham gia: Chương trình dành cho các phụ huynh có con em bị khiếm thính hoặc có nhu cầu tìm hiểu về cách hỗ trợ trẻ khiếm thính trong quá trình phát triển.
+		  </p>
+		  <p class="text-black text-sm  leading-relaxed pl-4">
+			• Yêu cầu: Phụ huynh tham gia cần cung cấp thông tin đầy đủ về tình trạng thính lực của trẻ và cam kết tham gia đầy đủ các buổi đào tạo.
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Số lượng: 20 phụ huynh
+		  </p>
+	  </div>
+	   <div class="mb-10">
+		  <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Quyền lợi tham gia</h2>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Kiến thức chuyên sâu: Phụ huynh sẽ được cung cấp những kiến thức cơ bản và nâng cao về việc chăm sóc trẻ khiếm thính, bao gồm các phương pháp giáo dục đặc biệt và giao tiếp qua ngôn ngữ ký hiệu.
+		  </p>
+		  <p class="text-black text-sm  leading-relaxed pl-4">
+			• Hỗ trợ trực tiếp từ các chuyên gia: Các chuyên gia về thính học và giáo dục sẽ trực tiếp đào tạo và giải đáp thắc mắc, giúp phụ huynh trang bị những kỹ năng thực tế để hỗ trợ con em mình.
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Tài liệu học tập: Mỗi phụ huynh tham gia sẽ nhận được bộ tài liệu hướng dẫn chi tiết, giúp áp dụng vào công việc chăm sóc và giáo dục trẻ khiếm thính tại nhà.
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Chứng nhận hoàn thành khóa học: Phụ huynh tham gia đầy đủ sẽ nhận chứng nhận từ chương trình.
+		  </p>
+	  </div>
+	   <div class="mb-10">
+		  <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Nghĩa vụ tham gia</h2>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Cung cấp thông tin chính xác: Phụ huynh cần cung cấp đầy đủ và chính xác thông tin về tình trạng của trẻ để quá trình đào tạo diễn ra hiệu quả.
+		  </p>
+		  <p class="text-black text-sm  leading-relaxed pl-4">
+			• Tuân thủ quy trình và thời gian đăng ký: Phụ huynh cần đến đúng giờ đã đăng ký và tham gia đầy đủ các buổi đào tạo.
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Chia sẻ trải nghiệm: Phụ huynh được khuyến khích chia sẻ những trải nghiệm và khó khăn của mình trong quá trình nuôi dưỡng trẻ khiếm thính để hỗ trợ nhau trong cộng đồng.
+		  </p>
+	  </div>
+	     <div>
+		  <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Quy trình xét duyệt</h2>
+		  <div class="text-sm"><div class="font-bold inline">Đăng ký trực tuyến:</div>Phụ huynh có thể đăng ký tham gia chương trình thông qua form đăng ký trên website của chúng tôi hoặc qua email: hlcsvietnam@gmail.com. Vui lòng điền đầy đủ các thông tin yêu cầu và chọn lịch hẹn phù hợp.</div>
+		  <div class="text-sm"><div class="font-bold inline">Xét duyệt đăng ký:</div>Sau khi nhận được đăng ký, chúng tôi sẽ tiến hành xét duyệt thông tin và gửi thông báo xác nhận qua email hoặc tin nhắn.</div>
+	      <div class="text-sm"><div class="font-bold inline">Xác nhận lịch hẹn:</div>Một khi đăng ký được xét duyệt, phụ huynh sẽ nhận thông báo xác nhận lịch hẹn cụ thể, cùng các hướng dẫn về địa điểm và thủ tục tham gia.</div>
+	      <div class="text-sm"><div class="font-bold inline">Tham gia chương trình:</div>Phụ huynh đến đúng giờ theo lịch hẹn để tham gia chương trình đào tạo.</div>
+		</div>
+	  `,
+  },
+  {
+    img: "/image/taitro5.jpg",
+    title: "Đào Tạo Nghề Cho Thanh Thiếu Niên Khiếm Thính – Sản Phẩm Thủ Công Từ Vỏ Mỳ Tôm",
+    description: 'Dự án "Đào Tạo Nghề Cho Thanh Thiếu Niên Khiếm Thính – Sản Phẩm Thủ Công Từ Vỏ Mỳ Tôm" nhằm mang lại cơ hội nghề nghiệp cho thanh thiếu niên khiếm thính, giúp các em phát huy khả năng sáng tạo, rèn luyện kỹ năng thủ công và cải thiện chất lượng cuộc sống thông qua việc sản xuất các sản phẩm thủ công từ vỏ mỳ tôm. Đây là một chương trình đào tạo nghề đầy sáng tạo, thân thiện với môi trường, và đặc biệt góp phần xây dựng cộng đồng người khiếm thính vững mạnh.',
+    slug: "dao-tao-nghe-cho-thanh-thieu-nien-khiem-thinh-san-pham-thu-cong-tu-vo-my-tom",
+    organization: [
+      {
+        img: "/image/Ellipse-6.png",
+        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+      },
+    ],
+    sponsoring: [],
+    sortDesc: 'Dự án "Đào Tạo Nghề Cho Thanh Thiếu Niên Khiếm Thính – Sản Phẩm Thủ Công Từ Vỏ Mỳ Tôm" nhằm mang lại cơ hội nghề nghiệp cho thanh thiếu niên khiếm thính, giúp các em phát huy khả năng sáng tạo, rèn luyện kỹ năng thủ công và cải thiện chất lượng cuộc sống thông qua việc sản xuất các sản phẩm thủ công từ vỏ mỳ tôm. Đây là một chương trình đào tạo nghề đầy sáng tạo, thân thiện với môi trường, và đặc biệt góp phần xây dựng cộng đồng người khiếm thính vững mạnh.',
+    content: `
+	  <div class="mb-10">
+		  <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Giới thiệu chương trình</h2>
+		  <p class="text-black text-sm mb-4 leading-relaxed">
+			 Dự án "Đào Tạo Nghề Cho Thanh Thiếu Niên Khiếm Thính – Sản Phẩm Thủ Công Từ Vỏ Mỳ Tôm" nhằm mang lại cơ hội nghề nghiệp cho thanh thiếu niên khiếm thính, giúp các em phát huy khả năng sáng tạo, rèn luyện kỹ năng thủ công và cải thiện chất lượng cuộc sống thông qua việc sản xuất các sản phẩm thủ công từ vỏ mỳ tôm. Đây là một chương trình đào tạo nghề đầy sáng tạo, thân thiện với môi trường, và đặc biệt góp phần xây dựng cộng đồng người khiếm thính vững mạnh.
+		  </p>
+  	  </div>
+	  <div class="mb-10">
+		  <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Tiêu chuẩn tham gia</h2>
+		  <p class="text-black text-sm  leading-relaxed pl-4">
+			• Đối tượng tham gia: Chương trình dành cho thanh thiếu niên khiếm thính trong độ tuổi từ 15 đến 25, có mong muốn học nghề thủ công và phát triển kỹ năng.
+		  </p>
+		  <p class="text-black text-sm  leading-relaxed pl-4">
+			• Yêu cầu: Người tham gia cần có niềm đam mê với công việc thủ công, khả năng học hỏi nhanh và tuân thủ các quy định của chương trình. Những ai chưa từng tham gia các lớp đào tạo nghề thủ công sẽ được ưu tiên.
+		  </p>
+	  </div>
+	   <div class="mb-10">
+		  <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Quyền lợi tham gia</h2>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Được đào tạo miễn phí: Các học viên sẽ được tham gia các lớp đào tạo nghề hoàn toàn miễn phí, với giáo trình chất lượng và giáo viên chuyên môn.
+		  </p>
+		  <p class="text-black text-sm  leading-relaxed pl-4">
+			• Học kỹ năng thủ công: Các em sẽ được hướng dẫn cách làm các sản phẩm thủ công độc đáo từ vỏ mỳ tôm, bao gồm các sản phẩm trang trí, quà tặng, vật dụng hữu ích, v.v.
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Cơ hội việc làm: Sau khi hoàn thành khóa đào tạo, học viên có thể tham gia vào các dự án sản xuất sản phẩm thủ công, có cơ hội hợp tác và phát triển nghề nghiệp lâu dài.
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Tư vấn nghề nghiệp: Các em cũng sẽ nhận được sự tư vấn về các cơ hội nghề nghiệp và phát triển sự nghiệp sau khóa học.
+		  </p>
+	  </div>
+	   <div class="mb-10">
+		  <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Nghĩa vụ tham gia</h2>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Thực hiện đầy đủ chương trình đào tạo: Người tham gia cần cam kết tham gia đầy đủ các buổi học, thực hành và các hoạt động liên quan đến chương trình.
+		  </p>
+		  <p class="text-black text-sm  leading-relaxed pl-4">
+			• Chấp hành nội quy: Tuân thủ các quy định của chương trình và thực hiện đúng giờ giấc, đảm bảo môi trường học tập hiệu quả.
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Giới thiệu sản phẩm: Người tham gia cần tích cực giới thiệu các sản phẩm thủ công của mình trong các sự kiện triển lãm hoặc hoạt động quảng bá.
+		  </p>
+	  </div>
+	     <div>
+		  <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Quy trình xét duyệt</h2>
+		  <div class="text-sm"><div class="font-bold inline">Đăng ký trực tuyến:</div>Người tham gia có thể đăng ký tham gia chương trình thông qua form đăng ký trên website của chúng tôi hoặc qua email: hlcsvietnam@gmail.com. Vui lòng điền đầy đủ các thông tin yêu cầu và chọn lớp học phù hợp.</div>
+		  <div class="text-sm"><div class="font-bold inline">Xét duyệt đăng ký:</div>Sau khi nhận được đăng ký, chúng tôi sẽ tiến hành xét duyệt thông tin và gửi thông báo xác nhận qua email hoặc tin nhắn.</div>
+	      <div class="text-sm"><div class="font-bold inline">Xác nhận lịch hẹn:</div>Sau khi đăng ký được xét duyệt, học viên sẽ nhận thông báo xác nhận lịch học và các thông tin chi tiết về chương trình.</div>
+	      <div class="text-sm"><div class="font-bold inline">Tham gia chương trình:</div>Người tham gia đến đúng giờ và địa điểm đã được xác nhận để tham gia khóa đào tạo.</div>
+		</div>
+	  `,
+  },
+];
 export const khoaHoc = [
   {
     img: "/image/volunteer-1.png",
