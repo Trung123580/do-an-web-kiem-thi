@@ -185,19 +185,19 @@ export default function JobDetailPage() {
                 </div>
                 <ul className='flex justify-center flex-col w-full space-y-6 text-gray-600 text-base mt-4'>
                   <li className='flex text-lg font-bold text-[#3A63ED] items-center justify-center gap-2 group'>
-                    <Link href={""} className='group-hover:-translate-x-1 transition-all duration-1000'>
+                    <Link href={"/ve-chung-toi/tham-gia-chung-toi"} className='group-hover:-translate-x-1 transition-all duration-1000'>
                       Tìm hiểu các cơ hội hợp tác khác
                     </Link>
                     <img className='group-hover:translate-x-1 transition-all duration-1000' src='/image/arrow2.png' alt='' />
                   </li>
                   <li className='flex text-lg font-bold text-[#3A63ED] items-center justify-center gap-2 group'>
-                    <Link href={""} className='group-hover:-translate-x-1 transition-all duration-1000'>
+                    <Link href={"/ve-chung-toi"} className='group-hover:-translate-x-1 transition-all duration-1000'>
                       Về chúng tôi
                     </Link>
                     <img src='/image/arrow2.png' alt='' className='group-hover:translate-x-1 transition-all duration-1000' />
                   </li>
                   <li className='flex text-lg font-bold text-[#3A63ED] items-center justify-center gap-2 group'>
-                    <Link href={""} className='group-hover:-translate-x-1 transition-all duration-1000'>
+                    <Link href={"/thong-tin/tin-tuc"} className='group-hover:-translate-x-1 transition-all duration-1000'>
                       Các tin tức mới
                     </Link>
                     <img src='/image/arrow2.png' alt='' className='group-hover:translate-x-1 transition-all duration-1000' />

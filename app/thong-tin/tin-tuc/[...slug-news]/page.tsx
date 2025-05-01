@@ -24,7 +24,7 @@ export default async function Page({ params }: { params: Params }) {
         <div className="max-w-4xl mx-auto">
           <div className="flex flex-row gap-2">
             <div>
-              <Image src={newDetail?.imageAuthor ?? ""} fill alt="" className="object-cover !relative" />
+              <Image src={newDetail?.imageAuthor ?? ""} width={48} height={48} alt="" className="object-cover !relative" />
             </div>
             <div>
               <div>

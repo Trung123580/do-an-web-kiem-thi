@@ -1,13 +1,13 @@
 "use client";
 import Image from "next/image";
-import { stories } from "@/utils/contanst";
+import { stories_1 } from "@/utils/contanst";
 type Params = Promise<{ 'slug-story': string[] }>
 
 export default async function Page({ params }: { params: Params }) {
   const slug = (await params)["slug-story"][0]
-  const storyDetail: any = stories.find((storyItem: any) => storyItem.slug === slug)
+  const storyDetail: any = stories_1.find((storyItem: any) => storyItem.slug === slug)
   return (
-    <div className="min-h-screen bg-gray-50 pt-24 pb-16">
+    <div className="min-h-screen bg-gray-50 pt-20 pb-16">
       <div className="mb-8">
         <div className=" h-[600px] flex flex-row">
           <div className="basis-1/2 bg-[#111827] px-14 flex flex-col justify-end items-center">
@@ -25,7 +25,7 @@ export default async function Page({ params }: { params: Params }) {
         <div className="max-w-4xl mx-auto">
           <div className="flex flex-row gap-2">
             <div>
-              <Image src={storyDetail?.imageAuthor ?? ""} fill alt="" className="object-cover !relative" />
+              <Image src={storyDetail?.imageAuthor ?? ""} width={48} height={48} alt="" className="object-cover !relative" />
             </div>
             <div>
               <div>

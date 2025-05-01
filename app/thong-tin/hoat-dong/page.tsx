@@ -20,11 +20,11 @@ export default function EventsPage() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="font-semibold text-2xl mb-2">{event.title}</h3>
+                <h3 className="font-semibold text-2xl mb-2 line-clamp-2">{event.title}</h3>
                 <p className="text-gray-600 text-base mb-4 line-clamp-2">{event.description}</p>
-                <div className="flex justify-between items-center">
-                  <span className="text-gray-500 text-base">Ngày kết thúc: {event.date}</span>
-                  <button className="bg-black text-white px-5 py-2 font-light rounded-md text-sm hover:bg-gray-800 transition-colors duration-300">
+                <div className="flex flex-grow justify-between items-center">
+                  <span className="text-gray-500 text-base basis-2/3">Ngày kết thúc: 14.05.25</span>
+                  <button className="basis-1/3 bg-black text-white px-5 py-2 font-light rounded-md text-sm hover:bg-gray-800 transition-colors duration-300">
                     Tham gia
                   </button>
                 </div>

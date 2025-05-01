@@ -1820,6 +1820,194 @@ export const dataNews = [
 	  </p>
 	  `,
   },
+  {
+    id: 11,
+    title: "Những nơi giúp trẻ khiếm thính tiếp cận chuẩn giáo dục như học sinh bình thường",
+    description: "Mở rộng cơ hội hòa nhập là mục tiêu của những trường cùng tổ chức giáo dục trẻ khiếm thính để giúp các em không dừng bước học tập, tạo sự nghiệp trong tương lai.",
+    author: "Ngọc Long",
+    imageAuthor: "/image/author-11.png",
+    image: "/image/news-11.png",
+    date: "17/12/2022 09:53 GMT+7",
+    tags: ["Xã hội", "Thế giới", "Sự kiện"],
+    slug: "nhung-noi-giup-tre-khiem-thinh-tiep-can-chuan-giao-duc-nhu-hoc-sinh-binh-thuong",
+    content: `
+	  <p class="text-black font-bold leading-relaxed">
+		Dạy tiếng Anh, hướng nghiệp từ THCS
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Từ năm học 2022-2023, học sinh khối THCS tại Trường chuyên biệt Anh Minh, Trường chuyên biệt khiếm thính Hy Vọng (đều ở Q.Bình Thạnh, TP.HCM) đã được dạy phổ cập tiếng Anh như một công cụ giao tiếp với giáo án chuẩn quốc tế, bám sát các tiêu chí của Bộ GD-ĐT.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Nhà trường nỗ lực hướng đến chuẩn đầu ra là học sinh đáp ứng yêu cầu ngữ pháp, từ vựng cũng như khả năng hiểu hội thoại cơ bản, từ đó sử dụng tiếng Anh hiệu quả ở đa lĩnh vực bằng cách viết hoặc nhắn tin.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+	  	Bên cạnh đó, những học sinh có tiềm năng thì được đào tạo tin học sâu hơn (như tin học văn phòng, lập trình...) hay thể thao (gồm cờ vua, bóng đá, bóng rổ, đá cầu, thể dục động tác) và còn được tạo điều kiện đến doanh nghiệp học nghề, tức lồng ghép hướng nghiệp vào các môn học.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+	   Điều này giúp trẻ khiếm thính sớm có được những kỹ năng cần thiết để đáp ứng nhu cầu việc làm, hoặc theo đuổi con đường vận động viên chuyên nghiệp.
+	  </p>
+	  <img src="/image/news-detail-30.png" class="text-black mb-2 leading-relaxed w-full"/>
+	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		Giáo viên sử dụng ngôn ngữ ký hiệu để hướng dẫn học sinh chuyên biệt trong một sự kiện mừng lễ trung thu được tổ chức bởi Hear.Us.Now
+	  </div>
+	  <p class="text-black mb-4 leading-relaxed">
+	  	Đây là những nỗ lực của các trường chuyên biệt và tổ chức giáo dục người khiếm thính Hear.Us.Now từ nhiều năm qua. Theo cô Trần Huỳnh Bảo Ngọc, phụ trách học thuật Hear.Us.Now, các thầy cô tham gia giảng dạy đều là những chuyên gia giàu kinh nghiệm, có thâm niên trong nghề, bên cạnh đó còn có sự giúp sức của nhiều tình nguyện viên đang là sinh viên.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+	  	Cô Ngọc chia sẻ điều khó khăn nhất trong giảng dạy cho trẻ chuyên biệt là vấn đề giao tiếp vì một số giáo viên thiện nguyện chưa thành thạo ngôn ngữ ký hiệu. Tuy nhiên, thầy cô đều có phương pháp, cách thức riêng để truyền tải kiến thức đến các em nên không ảnh hưởng đến kết quả học tập.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+	  	Riêng ở môn tiếng Anh, theo cô Ngọc, giáo án không có phần nghe, nói vì 2 kỹ năng này là “không thể với trẻ chuyên biệt”. Dù vậy, giáo viên đứng lớp vẫn giao tiếp bằng tiếng Anh bình thường để học sinh có thể đọc tín hiệu môi và phát triển khả năng phát âm, nếu có thể.
+	  </p>
+	  <img src="/image/news-detail-31.png" class="text-black mb-2 leading-relaxed w-full"/>
+	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		Học sinh khiếm thính tham gia chế tạo đài phun nước áp dụng nguyên tắc bình thông nhau ở lớp STEM/STEAM
+	  </div>
+	  <p class="text-black mb-4 leading-relaxed">
+	  	“Thông qua giảng dạy những môn học mang tính định hướng nghề nghiệp, chúng tôi kỳ vọng học sinh chuyên biệt khi hòa nhập vào xã hội có nghề nghiệp ổn định, cảm thấy bản thân là người có ích, nhất là từ những điều mình yêu thích”, cô Ngọc nói.
+	  </p>
+	   <p class="text-black font-bold leading-relaxed">
+		Phát triển kỹ năng hòa nhập
+	  </p>
+	  <p class="text-black leading-relaxed">
+        Với phương châm lấy trẻ làm trung tâm, Trung tâm nghiên cứu giáo dục người khiếm thính (Q.Phú Nhuận, TP.HCM) cũng có nhiều hoạt động giúp học sinh có khả năng hòa nhập trong trường học và cộng đồng.
+	  </p>
+	    <p class="text-black leading-relaxed">
+		Thầy Danh Minh Trí, giáo viên lớp 1 dự bị, cho hay từ năm học này, chương trình áp dụng sách giáo khoa mới bộ Chân trời sáng tạo. Hiện tại, các em khiếm thính được học các môn toán, tiếng Việt, hát, vẽ, qua đó phát triển các kỹ năng giao tiếp, đặc biệt là ngôn ngữ ký hiệu.
+	  </p>
+	  <p class="text-black leading-relaxed">
+		“Do đa phần độ tuổi các em trong lớp là từ 6 đến 13 nên việc dạy kỹ năng sống như yêu cầu trợ giúp, biết hỏi khi không hiểu, tự chăm sóc sức khỏe bản thân… là cần thiết nhất. Ngoài ra, mỗi tuần trung tâm cũng tổ chức hoạt động ngoại khóa với những chủ đề khác nhau cho các em học tập, vui chơi, đồng thời hướng dẫn vận động cơ xương khớp”, thầy Trí thông tin. Chia sẻ thêm về hoạt động giảng dạy, cô Bùi Thị Ngọc, giáo viên lớp STEM, cho hay cuối mỗi chương là tiết thực hành STEM/STEAM như tạo màu an toàn cho thực phẩm, máy phát điện bằng rau, củ, quả...
+	  </p>
+	  <img src="/image/news-detail-32.png" class="text-black mb-2 leading-relaxed w-full"/>
+	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		Thầy Minh Trí đeo khẩu trang trong suốt hướng dẫn học sinh khiếm thính phát âm tiếng Việt
+	  </div>
+	  <p class="text-black mb-4 leading-relaxed">
+		“Những bài học không đi sâu vào bản chất, nguyên lý khoa học mà chủ yếu rèn cho các em những kỹ năng sống khi hòa nhập cộng đồng để không bị thua thiệt”, cô Ngọc thông tin.
+	  </p>
+	   <p class="text-black mb-4 leading-relaxed">
+	    Tham gia những tiết học của trung tâm, người viết còn quan sát thấy tất cả thầy cô đều sử dụng loại khẩu trang trong suốt khi giảng bài. Chia sẻ về phụ kiện này, cô Ngọc kể rằng trẻ khiếm thính giao tiếp qua thị giác chiếm đến 60-70% lượng thông tin, vì vậy đọc tín hiệu môi là một trong những cách giúp học sinh “nghe” được.
+	  </p>
+	   <p class="text-black mb-4 leading-relaxed">
+	   	“Nếu sử dụng khẩu trang thông thường, các em sẽ gặp rào cản trong giao tiếp vì không thể xem khẩu hình miệng của người đối diện. Để đảm bảo an toàn sức khỏe hậu Covid-19 cũng như bình đẳng trong tiếp cận giáo dục và việc làm của người khiếm thính, hãy sử dụng khẩu trang trong suốt khi giao tiếp với họ”, nữ giáo viên lưu ý.
+	  </p>
+	    <p class="text-black font-bold leading-relaxed">
+		Nhiều nghiên cứu phát triển năng lực học tập
+	  </p>
+	   <p class="text-black mb-4 leading-relaxed">
+	   	Giải thưởng Sinh viên nghiên cứu khoa học Euréka năm 2022 vừa qua ghi nhận không ít đề tài hướng đến nâng cao năng lực học tập cho trẻ chuyên biệt. Chẳng hạn, nhóm sinh viên do Đinh Thị Anh Thảo (Trường ĐH Sư phạm, ĐH Đà Nẵng) phụ trách đã đưa ra các phương pháp dạy học để phát triển năng lực đọc, viết trong ngữ văn cho học sinh khiếm thính.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		 Còn nhóm trưởng Đỗ Yến Nhi (Trường ĐH Sư phạm, ĐH Đà Nẵng) cùng các thành viên chọn chế tạo những bộ dụng cụ thí nghiệm cho trẻ khiếm thị sử dụng trong dạy học vật lý các chủ đề lực, điện học.
+	  </p>
+	     <p class="text-black mb-4 leading-relaxed">
+		 Nhóm sinh viên do Bùi Ngọc Lan (Trường ĐH Sư phạm Hà Nội) phụ trách thì nghiên cứu phát triển kỹ năng hội thoại cho trẻ rối loạn phổ tự kỷ giai đoạn tiền tiểu học và đầu tiểu học thông qua kịch vải (panel theater), một hoạt động giảng dạy kể chuyện bằng bảng vải còn khá mới ở Việt Nam
+	  </p>
+	  `,
+  },
+  {
+    id: 12,
+    title: "Cải thiện trải nghiệm giao tiếp giữa người chăm sóc và bệnh nhân khiếm thính",
+    description: "Mất thính lực là vô hình – đôi khi ngay cả với người bị mất thính lực. Các mẹo giao tiếp sau đây sẽ cải thiện tương tác giữa bệnh nhân và người chăm sóc, và nên được sử dụng bất cứ khi nào có thể.",
+    author: " Cleverland Clinic",
+    imageAuthor: "/image/author-12.png",
+    image: "/image/news-12.png",
+    date: "",
+    tags: ["Xã hội", "Thế giới", "Sự kiện"],
+    slug: "cai-thien-trai-nghiem-giao-tiep-giua-nguoi-cham-soc-va-benh-nhan-khiem-thinh",
+    content: `
+	  <p class="text-black font-bold leading-relaxed">
+		Giao tiếp rõ ràng
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		1. Nói chậm và rõ ràng. Đừng cường điệu lời nói của bạn quá mức, nhưng hãy nói rõ ràng.
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		2. Hãy lên tiếng nhưng đừng hét lớn.
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		3. Diễn đạt lại, đừng chỉ lặp lại. Hãy tìm cách khác để diễn đạt những gì bạn cần truyền đạt.
+	  </p>
+	   <p class="text-black leading-relaxed pl-4">
+		4. Diễn đạt lại, đừng chỉ lặp lại. Hãy tìm cách khác để diễn đạt những gì bạn cần truyền đạt.
+	  </p>
+	    <p class="text-black mb-4 leading-relaxed pl-4">
+		5. Nói một cách đơn giản và trực tiếp. Đừng sử dụng câu phức tạp nếu không cần thiết
+	  </p>
+	   <img src="/image/news-detail-33.png" class="text-black mb-2 leading-relaxed w-full"/>
+	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		Kiên nhẫn trong giao tiếp với người khiếm thính.
+	  </div>
+	    <p class="text-black font-bold leading-relaxed">
+		Giao tiếp trực quan
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		1. Đảm bảo rằng môi của bạn được nhìn thấy rõ – không đưa tay lên trước mặt; nhìn trực tiếp vào người mà bạn đang nói chuyện; không nói chuyện trong khi nhìn xuống hoặc nhìn xa màn hình máy tính.
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		2. Nếu có thể, hãy đeo khẩu trang trong suốt.
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		3. Việc nhai thức ăn hoặc kẹo cao su trong khi nói chuyện có thể khiến việc đọc lời nói trở nên khó khăn hơn.
+	  </p>
+	   <p class="text-black mb-4 leading-relaxed pl-4">
+		4. Ngôn ngữ cơ thể có thể giúp truyền tải thông điệp của bạn – hãy sử dụng cử chỉ. Đảm bảo ánh sáng tốt, chiếu vào mặt người nói chứ không phải vào mắt người nghe.
+	  </p>
+	   <p class="text-black font-bold leading-relaxed">
+		Tối ưu hóa môi trường
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		1. Giảm thiểu tiếng ồn xung quanh – tiền sảnh, phòng chờ, khoảng cách từ quầy làm thủ tục hoặc quầy tiếp tân đều là những nơi khó nghe hơn. Nếu có thể, hãy chuyển cuộc trò chuyện đến nơi yên tĩnh hơn, giảm tiếng ồn hoặc dựa vào danh sách nhắc nhở bằng văn bản.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed pl-4">
+		2. Nếu bạn đang truyền đạt các chữ cái, số hoặc thời gian, hãy yêu cầu người nghe lặp lại những gì họ đã nghe.
+	  </p>
+	   <p class="text-black font-bold leading-relaxed">
+		Làm cho nó nhiều hơn là thính giác
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		1. Cung cấp các bước tiếp theo và hướng dẫn quan trọng bằng văn bản
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		2. Thỉnh thoảng hãy dừng lại để xác nhận thông điệp đã được hiểu.
+	  </p>
+	   <p class="text-black mb-4 leading-relaxed pl-4">
+		3. Đừng hỏi những câu hỏi có/không – hãy yêu cầu người nhận phản hồi để xác nhận rằng bạn đã nhận được tin nhắn chính xác.
+	  </p>
+	  <p class="text-black font-bold leading-relaxed">
+		Tối ưu hóa việc sử dụng thiết bị
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		1. Nếu bệnh nhân sử dụng máy trợ thính hoặc ốc tai điện tử, hãy đảm bảo họ đeo chúng và sử dụng pin mới bất cứ khi nào có cuộc giao tiếp diễn ra – trong phòng phẫu thuật, khi các nhóm lâm sàng đang đi thăm khám, v.v.
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed pl-4">
+		2. Một số người bị mất thính lực sử dụng micrô từ xa hoặc hệ thống FM – một thiết bị nhỏ có thể cầm tay hoặc kẹp vào ve áo. Thiết bị này gửi giọng nói của người nói trực tiếp đến thiết bị trợ thính của họ, giúp giảm tiếng ồn, trong nhóm, ở khoảng cách xa và trong phòng có tiếng vang. Nếu ai đó yêu cầu bạn đeo nó, vui lòng làm theo! Sau đó, chỉ cần nói bình thường.
+	  </p>
+	  <img src="/image/news-detail-34.png" class="text-black mb-2 leading-relaxed w-full"/>
+	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		Nguồn: CDC
+	  </div>
+	    <p class="text-black font-bold leading-relaxed">
+		Mất thính lực sẽ mất năng lượng
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		1. Người bị mất thính lực phải cố gắng hơn để theo dõi cuộc trò chuyện so với người có thính lực bình thường. Nhận ra rằng điều đó có thể không để lại nhiều năng lượng, sự kiên nhẫn hoặc sự tập trung cho những việc khác.
+	  </p>
+	  <p class="text-black  leading-relaxed pl-4">
+		2. Cảm giác mệt mỏi khi nghe có thể trở nên trầm trọng hơn khi một người cảm thấy không khỏe.
+	  </p>
+	   <p class="text-black leading-relaxed pl-4">
+		3. Lần lượt nói nếu ở trong một nhóm.
+	  </p>
+	     <p class="text-black leading-relaxed pl-4">
+		4. Một số người bị mất thính lực gặp khó khăn trong việc biết âm thanh phát ra từ đâu và có thể phải tìm loa. Hãy giúp họ bằng cách đến gặp họ nếu bạn thấy họ đang tìm kiếm.
+	  </p>
+	     <p class="text-black mb-4 leading-relaxed pl-4">
+		5. Một số người bị mất thính lực cũng bị ù tai (tiếng chuông trong tai) có thể gây mất tập trung và gây căng thẳng
+	  </p>
+	 
+	  `,
+  },
 ];
 export const stories = [
   {
@@ -2166,7 +2354,7 @@ export const stories_1 = [
     title: "Câu chuyện của cậu bé khiếm thính",
     description: "Tôi là người khiếm thính. Tôi sinh ra đã như vậy. Sau một thời gian theo dõi 'Góp tự sự, gửi cánh thư' trên các trang mạng xã hội, tôi muốn bày tỏ câu chuyện của mình tới mọi người…",
     author: "Hoàng Phú",
-    imageAuthor: "/image/author-11.png",
+    imageAuthor: "/image/author-13.png",
     date: "24/07/2024 09:00 GMT+7",
     img: "/image/story-1.png",
     createdAt: "2024-07-24",
@@ -2219,284 +2407,899 @@ export const stories_1 = [
 	   `,
   },
   {
-    title: "Câu chuyện sức sống và nữ giáo viên Mỹ giúp trẻ khiếm thính",
-    description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
-    author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
-    imageAuthor: "/image/author-2.png",
-    date: "07.03.2025",
-    createdAt: "2025-03-07",
+    title: "Câu chuyện xúc động về nữ giáo viên Mỹ giúp trò khiếm thính có bằng cử nhân",
+    description: "(Dân trí) - Anne Sullivan là một trong những nữ giáo viên nổi tiếng nhất trong lịch sử nước Mỹ. Bà đã giúp học trò Helen Keller trở thành người khiếm thính - khiếm thị đầu tiên có bằng cử nhân Nghệ thuật.",
+    author: "Vĩnh Ngọc",
+    imageAuthor: "/image/author-14.png",
+    date: "Thứ sáu, 18/11/2022 - 13:59",
+    createdAt: "2022-11-18",
     img: "/image/story-2.png",
-    slug: "cau-chuyen-suc-song-va-nu-giao-vien-my-giup-tre-khiem-thinh",
+    slug: "cau-chuyen-xuc-dong-ve-nu-giao-vien-my-giup-tro-khiem-thinh-co-bang-cu-nhan",
     content: `
 		<p class="text-black mb-4 leading-relaxed">
-		  Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động. Tuy nhiên, tỷ lệ người khiếm thính có việc làm vẫn còn thấp, do họ phải đối mặt với nhiều thách thức như:
+		  Anne Sullivan sinh ngày 14/4/1866 tại Feeding Hills, Agawam, Massachusetts, Mỹ. Khi mới 5 tuổi, Sullivan đã mắc bệnh mắt hột do vi khuẩn gây ra. Sau thời gian dài nhiễm trùng, bà gần như mù lòa.
 		</p>
-		<div class="text-black mb-4 leading-relaxed pl-4">
-		  • Phân biệt đối xử và định kiến: Nhiều nhà tuyển dụng còn e ngại về khả năng làm việc của người khiếm thính, dẫn đến việc họ ít được trao cơ hội việc làm.
+		<div class="text-black mb-4 leading-relaxed">
+		 Khi Anne Sullivan lên 8 tuổi, mẹ bà qua đời vì bệnh lao và cha bà đã gửi bà và em trai tới một nhà tế bần tồi tàn và đông đúc ở Tewksbury, Massachusetts, Mỹ. Em trai của Anne qua đời vì bệnh lao sau 4 tháng sống ở nhà tế bần và Anne tiếp tục sống tại đó một mình.
+	    </div>
+		<div class="text-black mb-4 leading-relaxed">
+		 Vào tháng 2/1877, Anne được gửi đến bệnh viện Soeurs de la Charité ở Lowell, Massachusetts, Mỹ để phẫu thuật mắt nhưng ca phẫu thuật không thành công.
+		<div class="text-black mb-4 leading-relaxed">
+		  Trong khi ở bệnh viện, Anne Sullivan giúp đỡ các nữ tu và làm những công việc lặt vặt cho đến tháng 7 năm đó, khi bà được gửi đến bệnh xá thành phố, nơi bà có thêm một ca phẫu thuật không thành công và sau đó được chuyển trở lại Tewksbury.
 		</div>
-		<div class="text-black mb-4 leading-relaxed pl-4">
-		  • Thiếu kỹ năng và trình độ chuyên môn: Theo thống kê, 93,4% người khuyết tật từ 16 tuổi trở lên không có chuyên môn, chỉ 6,5% có bằng cấp từ chứng chỉ nghề trở lên. Điều này khiến người khiếm thính gặp khó khăn trong việc đáp ứng yêu cầu công việc
+		<p class="text-black mb-4 leading-relaxed">
+		  Thay vì trở lại cơ sở dành cho những bệnh nhân chủ yếu là bệnh tật và mất trí, Anne Sullivan chọn ở với những bà mẹ đơn thân và những phụ nữ mang thai chưa lập gia đình.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Năm 1880, Anne xin được học ở trường Người mù Perkins. Trong vòng vài tháng, lời đề nghị của bà đã được chấp nhận.  
+		</p>
+		<img src="/image/story-detail-3.png" class="text-black mb-2 leading-relaxed w-full"/>
+		<div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		 Nhà giáo nổi tiếng người Mỹ Anne Sullivan (Ảnh: Alamy).
 		</div>
-		<div class="text-black mb-4 leading-relaxed pl-4">
-		  • Hạn chế trong tiếp cận thông tin việc làm: Người khiếm thính thường gặp khó khăn trong việc tiếp cận thông tin tuyển dụng và các dịch vụ hỗ trợ việc làm do rào cản về ngôn ngữ và công nghệ.
+		<p class="text-black mb-4 leading-relaxed">
+		  Khi Sullivan bắt đầu học tại trường dành cho Người mù Perkins, bà thậm chí không thể viết tên của chính mình khiến các giáo viên của bà rất thất vọng. Tuy nhiên, một số người đã nhận ra sự thông minh và quyết tâm của Anne Sullivan và với sự giúp đỡ của họ, Anne đã tiến bộ rất nhanh.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Anne Sullivan cũng đã được phẫu thuật để cải thiện thị lực của mình, đủ để bà có thể đọc sách. Trong vòng hai năm, bà đã bắt kịp những người khác trong trường.
+		</p>
+			<p class="text-black mb-4 leading-relaxed">
+		  Anne Sullivan dành thời gian học bảng chữ cái diễn đạt bằng cử chỉ bàn tay (của người câm điếc) với mong muốn sau này có thể giúp những học sinh khuyết tật không bị gạt ra ngoài lề xã hội. Vào tháng 6/1886, Anne Sullivan tốt nghiệp ở tuổi 20 với tư cách là thủ khoa của lớp.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Mùa hè sau lễ tốt nghiệp của Sullivan, gia đình Keller đến từ Alabama, liên lạc với Michael Anagnos, hiệu trưởng của trường Perkins, và nhờ ông tìm kiếm một giáo viên cho Helen, cô con gái 7 tuổi bị mù và điếc sau một trận ốm nặng. Anagnos ngay lập tức tiến cử Sullivan cho vị trí này và Anne Sullivan bắt đầu công việc của mình vào năm 1887, tại nhà của Keller ở Tuscumbia, Alabama.
+		</p>
+		<img src="/image/story-detail-4.png" class="text-black mb-2 leading-relaxed w-full"/>
+		<div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+			Anne Sullivan và học trò cưng Helen Keller (Ảnh: Alamy).
 		</div>
 		<p class="text-black mb-4 leading-relaxed">
-		  Để cải thiện tình hình, các doanh nghiệp xã hội như <b>SHE+</b> đang nỗ lực tạo cơ hội kết nối việc làm cho người khiếm thính, giúp họ hòa nhập và đóng góp cho xã hội.
+		  Sullivan đã tận tâm dạy Keller nói, đọc và viết. Bà chạm vào mọi thứ bằng một tay và tay kia, bà viết bằng chính ngón tay của mình. Ví dụ, trong khi Keller để một tay dưới vòi nước chảy, Sullivan đã giúp cô đánh vần từ "nước" với tay kia.
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  Hiện <b>SHE+</b> đang có rất nhiều đơn vị tìm đến để tuyển dụng người khiếm thính tuy nhiên để đáp ứng yêu cầu tuyển dụng vẫn cồn một khoảng trống điều đó phụ thuộc rất nhiều vào các yếu tố khách quan và chủ quan.
+		  Chương trình giảng dạy của Sullivan bao gồm một lịch trình nghiêm ngặt, với việc giới thiệu liên tục các từ vựng mới. Tuy nhiên bà cũng thay đổi phương pháp giảng dạy của mình sau khi thấy nó không phù hợp với Keller.
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  Khi tìm kiếm việc làm, mối quan tâm hàng đầu của người khiếm thính thường là môi trường làm việc thân thiện và không phân biệt đối xử. Họ mong muốn được làm việc trong môi trường tôn trọng, hỗ trợ và tạo điều kiện để phát huy khả năng.
+		  Anne Sullivan cũng dạy học trò từ vựng dựa trên sở thích của mình, bằng cách đánh vần từng từ vào lòng bàn tay của Keller. Trong vòng sáu tháng, phương pháp này tỏ ra có hiệu quả vì Keller đã học được 575 từ, một số bảng cửu chương và hệ thống chữ nổi Braille.
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  Tuy nhiên thực tế là việc đào tạo tại trường và gia đình chưa hỗ trợ nhiều về đào tạo kỹ năng chuyên môn và kỹ năng mềm, đây chính yếu tố quan trọng giúp họ tự tin và đáp ứng yêu cầu công việc.
+		  Keller đã học đọc từng chút một và để viết, cô ấy có một tấm bảng đặc biệt để cô ấy có thể tạo các chữ cái bằng bút chì.
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  Việc nâng cao nhận thức của cộng đồng và doanh nghiệp về khả năng và tiềm năng của người khiếm thính, cùng với việc tạo điều kiện tiếp cận giáo dục và đào tạo nghề, sẽ góp phần mở rộng cơ hội việc làm cho họ, giúp họ tự tin tham gia thị trường lao động và đóng góp cho sự phát triển của xã hội.
+		  Để dạy học trò của mình nói, Sullivan sẽ đặt tay Keller lên cổ họng cô ấy để cảm nhận những rung động và khuyến khích cô ấy cố gắng lặp lại chúng.
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  Việc làm là chìa khóa để người khiếm thính tự tin và độc lập trong cuộc sống. Hiện nay, nhiều doanh nghiệp, đặc biệt là <b>SHE+ Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam</b>, đang mở ra nhiều cơ hội kết nối việc làm phù hợp với khả năng và mong muốn của các bạn khiếm thính.
+		  Đây là bài tập khó nhất và vì không thấy học trò tiến bộ nhiều, Sullivan đã tìm đến sự giúp đỡ của một giáo viên dạy nói để giúp Helen có thể nói rõ ràng và họ đã thành công.
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  SHE+ nhận được rất nhiều tin nhắn từ phụ huynh, từ các bạn khiếm thính hỏi về kết nối việc làm. Đồng thời nhận được rất nhiều ủy thác từ các doanh nghiệp mong muốn kết nối tuyển dụng người khiếm thính tạo cơ hội học nghề: may thuê, nấu ăn, vẽ từ các Doanh nghiệp trên địa bàn Hà Nội, TP Hồ Chí Minh
+		  Sullivan cũng khuyến khích cha mẹ của Helen gửi cô đến trường Perkins, nơi cô có thể có một nền giáo dục phù hợp. Khi họ đồng ý, Sullivan đã đưa Keller đến Boston vào năm 1888 và sống cùng học trò của mình.
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  Hãy tham gia khảo sát để chúng tôi kết nối công việc với đúng khả năng của bạn và nhu cầu của người tuyển dụng
-		</p>
-		<p class="text-black  leading-relaxed">
-		  Thông tin khảo sát chỉ dùng với mục đích kết nối việc làm đúng nhu cầu của các bạn và giúp chúng tôi tư vấn việc làm, môi trường tuyển dụng phù hợp với người khiếm thính tới các doanh nghiệp đang tạo cơ hội việc làm cho người khiếm thính/điếc (dạng tật Nghe Nói)<a href="https://forms.gle/E1nrk9hjs4EVA94m7" target="_blank" rel="noopener noreferrer" class="block underline  decoration-solid mb-4">
-		  https://forms.gle/E1nrk9hjs4EVA94m7
-		</a>
+		  Helen Keller nhanh chóng trở nên nổi tiếng vì sự tiến bộ vượt bậc của mình. Với sự giúp đỡ của hiệu trưởng trường Perkins là Anagnos, Keller đã trở thành một biểu tượng của trường, giúp trường nhận được nhiều khoản tài trợ và trở thành ngôi trường nổi tiếng nhất nước Mỹ dành cho người mù.
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  Liên hệ <b>SHE+</b> để được tư vấn miễn phí dịch vụ hòa nhập cộng đồng, đánh giá và đưa ra các giải pháp phục hồi chức năng nghề nghiệp, sẽ rất tốt nếu gia đình có thể đi cùng với trẻ khiếm thính (từ 13 tuổi trở lên)
+		  Sullivan cũng là người bạn đồng hành thân thiết với Keller và tiếp tục hỗ trợ học sinh của mình trong quá trình học tập. Helen Keller thậm chí còn được nhận vào trường Cao đẳng Radcliffe. Cô tốt nghiệp loại xuất sắc, trở thành người khiếm thính - khiếm thị đầu tiên có bằng cử nhân Nghệ thuật.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Sullivan và Keller không bao giờ tách rời nhau và trở thành bạn thân của nhau trong suốt cuộc đời. Cặp đôi cô - trò còn xuất bản một cuốn sách nói về cuộc đời của họ.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Năm 1932, Keller và Sullivan từng được trao học bổng danh dự của Học viện Giáo dục Scotland. Họ cũng được trao bằng danh dự của Đại học Temple, Mỹ. Năm 1955, Keller được trao bằng danh dự của Đại học Harvard. Năm 2003, Sullivan được vinh danh vào Đại sảnh Danh vọng Phụ nữ Quốc gia (Mỹ).
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		 Vào ngày 15/10/1936, Anne Sullivan bị huyết khối động mạch vành, hôn mê và qua đời 5 ngày sau đó ở tuổi 70. Keller đã ở bên cô giáo của mình cho tới những giây phút cuối cùng. Keller mô tả Sullivan rất dễ bị kích động trong tháng cuối cùng của cuộc đời, nhưng trước khi mất chừng một tuần, bà trở lại là người vui vẻ, thoải mái.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		 Cô giáo Sullivan được hỏa táng và tro cốt của bà được quàn trong đài tưởng niệm tại Nhà thờ Quốc gia ở Washington, Mỹ
+		</p>
+		<p class="text-black mb-6 leading-relaxed">
+		 Anne Sullivan là một nhân vật truyền cảm hứng cho nhiều thế hệ người Mỹ và sau khi bà qua đời, cuộc đời bà được dựng thành nhiều bộ phim và vở kịch ăn khách. Năm 1962, Hollywood đã thực hiện một bộ phim điện ảnh về hai cô trò Anne Sullivan - Helen Keller. Bộ phim mang tên Người thầy kỳ diệu đã giành được hai giải Oscar danh giá.
+		</p>
+		<img src="/image/story-detail-5.png" class="text-black mb-2 leading-relaxed w-full"/>
+		<div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		   Anne Sullivan (trái) và Helen Keller gắn bó với nhau suốt cả cuộc đời (Ảnh: Alamy).
+		</div>
+		<p class="text-black mb-4 leading-relaxed">
+		  Về phía Helen Adams Keller, cô từng làm việc cho Tổ chức Người mù Mỹ (AFB) từ năm 1924-1968. Trong thời gian này, cô đã đi đến 35 quốc gia trên toàn cầu để tham gia các chiến dịch kêu gọi ủng hộ cho những người bị mất thị lực.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Keller cũng là một tác giả nổi tiếng. Cô từng viết 14 cuốn sách và hàng trăm bài phát biểu, tiểu luận về các chủ đề khác nhau. Keller đã vận động cho những người khuyết tật, cho quyền bầu cử của phụ nữ, quyền lao động và hòa bình thế giới.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Năm 1909, Helen gia nhập Đảng Xã hội chủ nghĩa Mỹ. Cô cũng là thành viên sáng lập của Liên đoàn Tự do Dân sự Mỹ.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Nơi sinh của Helen Keller đã được chỉ định và bảo tồn như một địa danh lịch sử Quốc gia của Mỹ. Kể từ năm 1954, nơi này trở thành một bảo tàng tư nhân và tài trợ cho "Ngày Helen Keller" hàng năm. Keller được giới thiệu vào Đại sảnh Danh vọng của phụ nữ tiểu bang Alabama vào năm 1971.  
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Keller từng bị đột quỵ vào năm 1961 và sống những năm cuối đời tại nhà riêng. Vào năm 1964, Tổng thống Mỹ Lyndon B. Johnson đã trao tặng cho cô Huân chương Tự do Tổng thống, một trong hai danh hiệu dân sự cao quý nhất của Mỹ. Năm 1965, cô được bầu vào Đại sảnh Danh vọng Phụ nữ Quốc gia tại New York.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Keller đã dành phần lớn cuộc đời để gây quỹ ủng hộ người mù Mỹ. Cô qua đời trong giấc ngủ vào ngày 1/6/1968 tại nhà riêng ở Easton, Connecticut, vài tuần trước sinh nhật lần thứ 88.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Tang lễ của Helen Keller được tổ chức trang trọng tại Nhà thờ Quốc gia Washington, Mỹ. Thi thể của cô được hỏa táng và tro cốt được chôn bên cạnh người luôn đồng hành với cô, nhà giáo ưu tú Anne Sullivan.
 		</p>
 	   `,
   },
   {
     title: "Những câu chuyện đẹp góp cho đời: Chuyện 'huyền thoại' ở Tiệm giặt là của người Điếc",
-    description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
-    author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
-    imageAuthor: "/image/author-3.png",
-    date: "07.03.2025",
+    description: "Hơn 20 năm qua, sống trong một thế giới không có âm thanh nhưng chị Lương Thị Kiều Thúy (31 tuổi, ở Hà Nội ) đã nỗ lực khởi nghiệp vì cộng đồng bằng Tiệm giặt là của người Điếc, giúp nhiều mảnh đời bất hạnh hồi sinh.",
+    author: "Vũ Thơ",
+    imageAuthor: "/image/author-15.png",
+    date: "13/10/2022 09:30 GMT+7",
     img: "/image/story-3.png",
     slug: "cau-chuyen-de-gop-cho-doi",
-    createdAt: "2024-05-07",
+    createdAt: "2022-10-13",
     content: `
-		<p class="text-black mb-4 leading-relaxed">
-		  Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động. Tuy nhiên, tỷ lệ người khiếm thính có việc làm vẫn còn thấp, do họ phải đối mặt với nhiều thách thức như:
+		<p class="text-black leading-relaxed">
+		  Hành trình khởi nghiệp của cô gái khiếm thính
 		</p>
-		<div class="text-black mb-4 leading-relaxed pl-4">
-		  • Phân biệt đối xử và định kiến: Nhiều nhà tuyển dụng còn e ngại về khả năng làm việc của người khiếm thính, dẫn đến việc họ ít được trao cơ hội việc làm.
-		</div>
-		<div class="text-black mb-4 leading-relaxed pl-4">
-		  • Thiếu kỹ năng và trình độ chuyên môn: Theo thống kê, 93,4% người khuyết tật từ 16 tuổi trở lên không có chuyên môn, chỉ 6,5% có bằng cấp từ chứng chỉ nghề trở lên. Điều này khiến người khiếm thính gặp khó khăn trong việc đáp ứng yêu cầu công việc
-		</div>
-		<div class="text-black mb-4 leading-relaxed pl-4">
-		  • Hạn chế trong tiếp cận thông tin việc làm: Người khiếm thính thường gặp khó khăn trong việc tiếp cận thông tin tuyển dụng và các dịch vụ hỗ trợ việc làm do rào cản về ngôn ngữ và công nghệ.
+		<p class="text-black mb-4 leading-relaxed">
+		  “Tôi bị khiếm thính từ năm 10 tuổi, mỗi ngày nặng thêm, cho đến giờ thì không nghe được gì nữa”, chị Thúy mở đầu câu chuyện về số phận của mình. Vượt qua nhiều khó khăn để đi học, Thúy mơ ước trở thành nhà báo và đã tốt nghiệp một trường đào tạo về báo chí. Thế nhưng sau khi hoàn thành chương trình học, chị Thúy nhận ra rằng nghề báo không dành cho người khiếm thính, nên phải chuyển nghề để mưu sinh.
+		</p>
+		<img src="/image/story-detail-6.png" class="text-black mb-2 leading-relaxed w-full"/>
+		<div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+			Chị Thúy dạy ngôn ngữ và kỹ năng cho các bạn trẻ điếc đến làm việc tại tiệm
 		</div>
 		<p class="text-black mb-4 leading-relaxed">
-		  Để cải thiện tình hình, các doanh nghiệp xã hội như <b>SHE+</b> đang nỗ lực tạo cơ hội kết nối việc làm cho người khiếm thính, giúp họ hòa nhập và đóng góp cho xã hội.
+		  NVCC
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  Hiện <b>SHE+</b> đang có rất nhiều đơn vị tìm đến để tuyển dụng người khiếm thính tuy nhiên để đáp ứng yêu cầu tuyển dụng vẫn cồn một khoảng trống điều đó phụ thuộc rất nhiều vào các yếu tố khách quan và chủ quan.
+		  Suốt 5 năm rẽ ngang với bao công việc khác nhau, dù có thu nhập ổn định nhưng chị Thúy vẫn không cảm thấy thoải mái bởi luôn phải sống một cuộc sống rất cô đơn, lặng lẽ vì khó khăn trong giao tiếp. Khi thực hiện “Nghiên cứu về tình trạng việc làm của người điếc tại Hà Nội năm 2019” cùng Viện iSEE, chị Thúy càng hiểu rõ hơn về thực trạng, khó khăn trong việc làm của người đồng cảnh, cũng như những tâm tư, nguyện vọng của họ. Câu hỏi liệu có ngành nghề phù hợp để người điếc có thể làm việc cứ xoay trong tâm trí Thúy và chị luôn tìm cho mình cơ hội được học tập, được tham gia vào các hoạt động vì người khuyết tật.
+		</p>
+		<img src="/image/story-detail-7.png" class="text-black mb-2 leading-relaxed w-full"/>
+		<div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+			Trên hành trình của mình, tôi may mắn gặp gỡ và được đồng hành cùng những người bạn tuyệt vời, những người đã cùng tôi dám biến những ấp ủ thành hiện thực
+		</div>
+		<p class="text-black mb-4 leading-relaxed">
+		  Chị Lương Kiều Thúy (thứ hai từ trái qua) và những nhân viên tại Tiệm giặt là của người Điếc
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  Khi tìm kiếm việc làm, mối quan tâm hàng đầu của người khiếm thính thường là môi trường làm việc thân thiện và không phân biệt đối xử. Họ mong muốn được làm việc trong môi trường tôn trọng, hỗ trợ và tạo điều kiện để phát huy khả năng.
+		  NVCC
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  Tuy nhiên thực tế là việc đào tạo tại trường và gia đình chưa hỗ trợ nhiều về đào tạo kỹ năng chuyên môn và kỹ năng mềm, đây chính yếu tố quan trọng giúp họ tự tin và đáp ứng yêu cầu công việc.
+		  “Nhờ một mối quan hệ xã hội, tôi được biết đến công việc giặt là. Khi qua lớp tập huấn, tôi nhận thấy công việc này phù hợp với người điếc/khiếm thính, nên tôi đã quyết định nghỉ công việc chính của mình để trải nghiệm công việc giặt là”, chị Thúy kể. Sau một thời gian đi làm và học các kỹ năng khởi nghiệp, chị đã ấp ủ xây dựng mô hình giặt là, tạo cơ hội việc làm cho người điếc.
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  Việc nâng cao nhận thức của cộng đồng và doanh nghiệp về khả năng và tiềm năng của người khiếm thính, cùng với việc tạo điều kiện tiếp cận giáo dục và đào tạo nghề, sẽ góp phần mở rộng cơ hội việc làm cho họ, giúp họ tự tin tham gia thị trường lao động và đóng góp cho sự phát triển của xã hội.
+			“Thành quả những ngày thu hoạch kiến thức không chỉ là giấy chứng nhận, tôi đã cố gắng xây dựng dự án khởi nghiệp của cá nhân. Có lẽ phải cố gắng thật nhiều, thật nhiều nữa…”, cô gái quyết tâm.
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  Việc làm là chìa khóa để người khiếm thính tự tin và độc lập trong cuộc sống. Hiện nay, nhiều doanh nghiệp, đặc biệt là <b>SHE+ Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam</b>, đang mở ra nhiều cơ hội kết nối việc làm phù hợp với khả năng và mong muốn của các bạn khiếm thính.
+		 Từ những thành công bước đầu, chị Thúy quyết định mở Tiệm giặt là của người Điếc vào tháng 12.2020 và đã dệt lên nhiều câu chuyện huyền thoại ở đây.
+		</p>
+		<p class="text-black font-bold leading-relaxed">
+		 Hồi sinh những mảnh đời bất hạnh
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  SHE+ nhận được rất nhiều tin nhắn từ phụ huynh, từ các bạn khiếm thính hỏi về kết nối việc làm. Đồng thời nhận được rất nhiều ủy thác từ các doanh nghiệp mong muốn kết nối tuyển dụng người khiếm thính tạo cơ hội học nghề: may thuê, nấu ăn, vẽ từ các Doanh nghiệp trên địa bàn Hà Nội, TP Hồ Chí Minh
+		 	“Mô hình này, tất cả nhân sự làm việc đều là người điếc hoặc khiếm thính. Những người bị điếc hay khiếm thính đều hội nhập khó lắm. Gia đình thường giấu, giữ trong nhà không cho ra đường. Đi học không có trường chuyên biệt, mà học trường chung thì không theo kịp, nên hầu hết các bạn bỏ học. Việc làm thì khó tìm, nên các bạn rơi vào cuộc sống đầy khó khăn”, chị Thúy tâm sự.
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  Hãy tham gia khảo sát để chúng tôi kết nối công việc với đúng khả năng của bạn và nhu cầu của người tuyển dụng
-		</p>
-		<p class="text-black  leading-relaxed">
-		  Thông tin khảo sát chỉ dùng với mục đích kết nối việc làm đúng nhu cầu của các bạn và giúp chúng tôi tư vấn việc làm, môi trường tuyển dụng phù hợp với người khiếm thính tới các doanh nghiệp đang tạo cơ hội việc làm cho người khiếm thính/điếc (dạng tật Nghe Nói)<a href="https://forms.gle/E1nrk9hjs4EVA94m7" target="_blank" rel="noopener noreferrer" class="block underline  decoration-solid mb-4">
-		  https://forms.gle/E1nrk9hjs4EVA94m7
-		</a>
+		 	Đó cũng là những câu chuyện của hầu hết những người đang làm việc ở Tiệm giặt là của người Điếc, trong đó có những số phận rất éo le. Đạt (17 tuổi, ở Điện Biên) là một thanh niên to cao, đẹp trai. Nhìn Đạt chăm chỉ, hiền lành, không ai biết em đã suýt bị gia đình đưa vào trại giáo dưỡng vì tưởng em hư hỏng.
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  Liên hệ <b>SHE+</b> để được tư vấn miễn phí dịch vụ hòa nhập cộng đồng, đánh giá và đưa ra các giải pháp phục hồi chức năng nghề nghiệp, sẽ rất tốt nếu gia đình có thể đi cùng với trẻ khiếm thính (từ 13 tuổi trở lên)
+		 	Người nhà Đạt chia sẻ em bị điếc bẩm sinh. Năm lên 6 tuổi thì bố mẹ ly hôn, Đạt ở với ông bà nội (ở H.Ba Vì, TP.Hà Nội), đến năm lớp 10 thì theo bố lên Điện Biên sinh sống. Do không thể giao tiếp bình thường nên em bị mọi người xa lánh và cho là đứa trẻ hư, khi em có những hành động tò mò ở lứa tuổi dậy thì. Bị bố mắng chửi nhiều, em bắt đầu “bật lại” thì càng bị xem là không dạy được. Đạt cũng đã rơi vào trạng thái buông thả khi sa vào chơi game, hút thuốc lá điện tử và bất cần… Gia đình nghĩ không thể dạy Đạt được nữa nên muốn đưa em vào trại giáo dưỡng.
+		</p>
+		<img src="/image/story-detail-8.png" class="text-black mb-2 leading-relaxed w-full"/>
+		<div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+			Các bạn trẻ được dạy ngôn ngữ ký hiệu miễn phí
+		</div>
+		<p class="text-black mb-4 leading-relaxed">
+		May mắn, một người thím của Đạt đã đưa em xuống Hà Nội và tìm đến tiệm giặt là của chị Thúy để xin việc. Vào đây, em được dạy ngôn ngữ giao tiếp, được học nghề, học kỹ năng và đã được sống một cuộc đời bình thường mà bấy lâu em không có được. “Từ khi vào tiệm giặt là, Đạt đã thay đổi bất ngờ. Em không còn chơi điện tử, hút thuốc, lại còn chăm chỉ làm việc và rất yêu đời. Gia đình tôi vui lắm vì Đạt như được hồi sinh”, người thím của Đạt chia sẻ.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		 	Đến đây, nhìn thấy sự say mê công việc của những người khuyết tật, khi họ tỉ mỉ làm sạch từng đôi giày hay những con gấu bông thì mới cảm nhận được hết sự thiệt thòi mà họ phải chịu đựng. “Thật không dám tưởng tượng cảnh bạn Đạt phải vào trại giáo dưỡng, trong khi không nghe được gì. Mình luôn tin rằng những người điếc vẫn có những đam mê, nhưng họ không thể diễn tả được bằng ngôn ngữ và đôi khi đi vào ngõ cụt khi xã hội không thấu cảm với họ”, chị Thúy chia sẻ.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		 	Lan tỏa tinh thần vì cộng đồng <br/> Tiệm giặt là của người Điếc hiện có hai cơ sở ở Hà Nội. Khách hàng đến đây sẽ được trải nghiệm những điều thú vị, mà ở đó bao trùm là một thông điệp ấm áp: tinh thần vì cộng đồng. Hằng ngày, tiệm mở cửa từ rất sớm, các thành viên lặng lẽ, miệt mài, cẩn thận giặt là từng bộ quần áo, đôi giày của khách hàng. Trong không gian yên lặng đó là những nụ cười rạng rỡ cùng cử chỉ thân thiện. “Ban đầu, giao tiếp với khách hàng chúng tôi cũng gặp nhiều khó khăn, vì họ không hiểu chúng tôi nói gì. Nhưng rồi thông qua Zalo, Facebook nói chuyện, kết hợp viết và dùng ngôn ngữ ký hiệu, nên bây giờ trở ngại đó đã được xóa bỏ”, chị Thúy kể.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		 	Đỗ Thùy Linh, một cô gái 18 tuổi (ở Hà Nội) bị khiếm thính bẩm sinh, phấn khởi chia sẻ: “Được làm việc ở tiệm giặt, em thấy rất hạnh phúc. Chị Thúy tận tình chỉ dạy cho em các kiến thức rất dễ hiểu. Em yêu thích công việc này và cảm thấy cuộc sống của mình sang một trang mới”. Lê Thu Ngân (19 tuổi), một thành viên của Tiệm giặt là của người Điếc, cũng tâm sự: “Chị Thúy là người hiểu tâm lý của người điếc và luôn coi chúng em như người thân. Chị dạy chúng em ngôn ngữ ký hiệu nên em đã biết giao tiếp và tự tin khi tiếp xúc với khách hàng. Rất nhiều thứ tuyệt vời em đã học được ở đây”.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		 	Không chỉ dạy người điếc, chị Thúy còn lan tỏa ngôn ngữ ký hiệu cho những người bình thường để họ giao tiếp thuận lợi với người điếc. Bước vào bên trong tiệm giặt, bạn sẽ bắt gặp những tấm thiệp mà trên đó là những lời chúc, cảm nhận, suy nghĩ của các khách hàng, như: “Tiệm xinh xắn như chị Thúy ạ. Mọi người có thể tới đây thư giãn và học ngôn ngữ mới. Đáng yêu lắm ạ!”; “Một nơi tuyệt vời để bạn có thể trải nghiệm một ngôn ngữ mới, có thể là cả một cách sống mới”; “Mọi thứ thật tuyệt vời. Sẽ ủng hộ các bạn nhiều”…
 		</p>
 	   `,
   },
   {
-    title: "Người phụ nữ có con bị khiếm thính và hành trình giúp thay đổi cuộc đời của hàng nghìn người",
-    description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
-    author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
-    imageAuthor: "/image/author-4.png",
-    date: "07.03.2025",
+    title: "Công nghệ và câu chuyện truyền cảm hứng của chàng trai khiếm thính",
+    description: "Dân trí) - Cơn bạo bệnh ngày bé khiến Phạm Minh Chiến từ một cậu bé bình thường trở thành người khiếm thính. Không đầu hàng số phận, Chiến nỗ lực học tập, rồi bén duyên với công nghệ.",
+    author: "Trường Thịnh",
+    imageAuthor: "/image/author-16.png",
+    date: "Thứ năm, 07/11/2024 - 19:00",
     img: "/image/story-4.png",
-    slug: "nguoi-phu-nu-co-con-bi-khiem-thinh-va-hanh-trinh-giup-thay-doi-cuoc-doi-cua-hang-nghin-nguoi",
-    createdAt: "2025-01-07",
+    createdAt: "2024-11-07",
+    slug: "cong-nghe-va-cau-chuyen-truyen-cam-hung-cua-chang-trai-khiem-thinh",
     content: `
 		<p class="text-black mb-4 leading-relaxed">
-		  Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động. Tuy nhiên, tỷ lệ người khiếm thính có việc làm vẫn còn thấp, do họ phải đối mặt với nhiều thách thức như:
+		  Sau khóa học tại AWS, Chiến trở thành nhân viên của TechX, với ước mơ hỗ trợ cộng đồng khiếm thính.
 		</p>
-		<div class="text-black mb-4 leading-relaxed pl-4">
-		  • Phân biệt đối xử và định kiến: Nhiều nhà tuyển dụng còn e ngại về khả năng làm việc của người khiếm thính, dẫn đến việc họ ít được trao cơ hội việc làm.
+		<p class="text-black mb-4 leading-relaxed">
+		  Từ "code" đã dẫn lối đưa Chiến đến với công nghệ
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Sinh ra là một cậu bé bình thường như bao em bé khác, nhưng đến năm 1-3 tuổi, Phạm Minh Chiến bị ốm, cơn sốt đã ảnh hưởng đến sức khỏe của em, rồi từ đó Chiến không nghe được nữa.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Chiến chia sẻ, tốt nghiệp cấp 3, đứng trước ngưỡng cửa lựa chọn một con đường sự nghiệp cho mình, bạn đã rất băn khoăn trước hai ngã rẽ: học ngành kinh doanh hay ngành công nghệ. Thế rồi, rất tình cờ, Chiến đã đến với ngành công nghệ qua từ "code".
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  "Em gặp từ code, em không hiểu đó là gì. Thế rồi em quyết tâm tìm hiểu, để rồi sau khi hiểu code là gì thì ngay lập tức, em chọn theo đuổi ngành công nghệ luôn", Chiến nói.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Khởi đầu chỉ đơn giản như vậy thôi, nhưng giờ đây Chiến đã tốt nghiệp trường Đại học Nguyễn Tất Thành ở TPHCM, chuyên ngành công nghệ thông tin. Chiến đã trưởng thành và là một Data Steward (chuyên viên quy trình và chính sách quản trị dữ liệu) tại TechX. Trong hành trình học tập, ra trường làm việc của mình, Chiến cho biết giao tiếp là một trong những khó khăn lớn nhất. Điều này cũng dễ hiểu khi Chiến là một người khiếm thính - tiếng mẹ đẻ ngôn ngữ ký hiệu từ bé.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Nhưng công nghệ đã giúp Chiến vượt qua rào cản giao tiếp, bạn đã sử dụng tin nhắn, phần mềm chuyển đổi từ giọng nói sang văn bản, cả nhờ người phiên dịch để trao đổi với mọi người. "Khi hòa nhập và làm việc chung với mọi người, em cảm thấy rất thú vị, luôn muốn cố gắng học hỏi thêm. Thực sự, học lập trình rất khó nhưng em muốn học và vượt qua thử thách, khó khăn để mọi người biết rằng người điếc có thể làm được", Chiến tâm sự
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		 Chiến bắt đầu học AWS qua chương trình First Cloud Journey, với sự hỗ trợ tận tình của "sư phụ Gia Hưng".
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Theo lời kể của Chiến, thầy Gia Hưng đã cho Chiến biết "AWS chấp nhận người điếc, khiếm thính". Vì thế, Chiến đã nộp đơn, xin gia nhập vào chương trình AWS First Cloud Journey, trở thành thành viên của cộng đồng AWS Study Group. Anh Gia Hưng đã hỗ trợ, hướng dẫn và Chiến gọi anh bằng cái tên thân mật "sư phụ Gia Hưng".
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  "Thầy Gia Hưng là trưởng bộ phận kiến trúc sư điện toán đám mây của AWS. Thầy và các bạn trong nhóm First Cloud Journey như Hoàng Kha, Thanh Hiệp, Hạnh Phạm, Bảo Châu đã hướng dẫn em, đồng hành hỗ trợ em rất nhiệt tình suốt gần 1 năm, giúp đỡ em tiến bộ rất nhiều từ thái độ, tác phong làm việc đến kiến thức chuyên môn. Em thật sự rất biết ơn thầy Gia Hưng, thầy không bao giờ nói em tệ hay trách mắng, thầy luôn có những cách nói động viên tích cực để em vượt qua khó khăn và tiến bộ hơn", Chiến kể.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  AWS Hoa Kỳ đã chấp nhận những người điếc, khiếm thính hoặc những người khuyết tật. Và bây giờ, những chương trình hỗ trợ người điếc, khiếm thính đang được mở rộng tại Việt Nam. "Điều quan trọng là các bạn điếc, khiếm thính muốn học và muốn làm", Chiến nói. Chiến là người điếc đầu tiên tham gia chương trình AWS First Cloud Journey ở Việt Nam.
+		</p>
+		<img src="/image/story-detail-9.png" class="text-black mb-2 leading-relaxed w-full"/>
+		<div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+			Dần dần tôi nhận ra, kiến thức là cầu nối duy nhất có thể thu hẹp khoảng cách giữa tôi và các bạn nghe đồng trang lứa
 		</div>
-		<div class="text-black mb-4 leading-relaxed pl-4">
-		  • Thiếu kỹ năng và trình độ chuyên môn: Theo thống kê, 93,4% người khuyết tật từ 16 tuổi trở lên không có chuyên môn, chỉ 6,5% có bằng cấp từ chứng chỉ nghề trở lên. Điều này khiến người khiếm thính gặp khó khăn trong việc đáp ứng yêu cầu công việc
+		<p class="text-black mb-4 leading-relaxed">
+		  Ông Ngô Mạnh Hà, CTO kiêm đồng CEO của TechX, cũng là "sếp của Chiến", cho biết trải qua 5 năm thành lập, TechX đã từng bước phát triển, muốn làm một điều gì đó khác biệt với thị trường, một điều mà trước giờ chưa ai làm.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Đó là dùng công nghệ để thay đổi trải nghiệm và thói quen của người dùng ở Việt Nam. Theo ông Hà, TechX luôn nỗ lực để xây dựng một môi trường làm việc khuyến khích sự khác biệt, giúp các bạn trẻ phát huy tối đa sở trường, các kỹ năng cá nhân. Văn hóa tại TechX đề cao bản sắc cá nhân, khích lệ mỗi thành viên tự do thể hiện cá tính mà không sợ gò bó. Nhờ sứ mệnh này, TechX đã thu hút nhiều bạn trẻ tiềm năng với năng lượng và kỹ năng đa dạng.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Câu chuyện về Chiến là minh chứng cho sự trưởng thành của TechX, cho thấy TechX ngày càng chuyên nghiệp và sẵn sàng đón nhận những cá nhân có sự khác biệt lớn hơn. "Trường hợp của Chiến cũng là trường hợp đầu tiên để xem liệu TechX, hay công nghệ, làm được gì cho những hoàn cảnh khó khăn đặc biệt như Chiến", đồng CEO TechX chia sẻ.
+		</p>
+		<img src="/image/story-detail-10.png" class="text-black mb-2 leading-relaxed w-full"/>
+		<div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+			Phạm Minh Chiến tại TechX (ảnh do nhân vật cung cấp).
 		</div>
-		<div class="text-black mb-4 leading-relaxed pl-4">
-		  • Hạn chế trong tiếp cận thông tin việc làm: Người khiếm thính thường gặp khó khăn trong việc tiếp cận thông tin tuyển dụng và các dịch vụ hỗ trợ việc làm do rào cản về ngôn ngữ và công nghệ.
+		<p class="text-black mb-4 leading-relaxed">
+		  Ước mơ dùng công nghệ để hỗ trợ cộng đồng người điếc, khiếm thính
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Chiến cho biết, trước khi tốt nghiệp vẫn chưa có ước mơ gì rõ ràng, cũng không nghĩ nhiều đến tương lai. "Nhưng đi làm và tiếp xúc với công nghệ, em bắt đầu nảy ra ý tưởng: tại sao mình không tạo ra một ứng dụng dành cho cộng đồng người khiếm thính?", Chiến nói.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Chiến cho biết thêm: "Em mong muốn ứng dụng AI vào những công cụ như Zoom hoặc các nền tảng video để tạo phụ đề hoặc hiển thị thông tin giúp cộng đồng người điếc, khiếm thính có thể đọc và tiếp cận dễ dàng hơn". Đây là mục tiêu của Phạm Minh Chiến trong 5 năm tới.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  "Cộng đồng người khiếm thính thường gặp nhiều khó khăn trong giao tiếp, việc nhờ người phiên dịch ngôn ngữ ký hiệu đôi khi cũng gặp trở ngại do thiếu nguồn lực phiên dịch viên hoặc liên quan đến những vấn đề cần sự bảo mật thông tin, như các giao dịch ngân hàng, và đặc biệt là người điếc sẽ không thể chủ động trong mọi tình huống của cuộc sống. Vì vậy, một ứng dụng có thể chuyển đổi ngôn ngữ ký hiệu thành văn bản sẽ giúp người điếc tự chủ hơn, cho phép họ dễ dàng giao tiếp và tự giải quyết vấn đề mà không cần qua trung gian", Phạm Minh Chiến nói.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		 Hiện tại, với Chiến, hạnh phúc nhất là được hỗ trợ cộng đồng người điếc và khiếm thính mỗi ngày, được phát biểu, được chia sẻ cho tất cả các bạn cùng học hỏi. Chiến mong muốn có thể xây dựng môi trường sống và làm việc thuận lợi hơn cho người khuyết tật, đặc biệt là người điếc.
+		</p>
+		<p class="text-black leading-relaxed">
+			"Công nghệ sẽ giúp cuộc sống của những người khuyết tật trở nên dễ dàng và tốt đẹp hơn nhiều", Chiến nói.
+		</p>
+		
+	   `,
+  },
+  {
+    title: "Chuyện về cô giáo có tình yêu đặc biệt với trẻ đặc biệt",
+    description: "(Dân trí) - Cô Nguyễn Thị Tú Trân (sinh năm 1981) đã có hơn 20 năm công tác trong ngành giáo dục đặc biệt dành cho trẻ khuyết tật.",
+    author: "Tú Như",
+    imageAuthor: "/image/author-17.png",
+    date: "Chủ nhật, 22/12/2024 - 13:00",
+    img: "/image/story-5.png",
+    createdAt: "2024-12-22",
+    slug: "chuyen-ve-co-giao-co-tinh-yeu-dac-biet-voi-tre-dac-biet",
+    content: `
+		<p class="text-black mb-4 leading-relaxed">
+		  Trước đây, cô Nguyễn Thị Tú Trân (Tây Ninh) có mong muốn được theo dạy bộ môn sinh học. Khi cố Tổng Bí thư Đỗ Mười về địa phương chỉ đạo xây dựng trường học dành cho trẻ khuyết tật, cô Trân đã quyết định chuyển hướng theo đuổi sự nghiệp giáo dục đặc biệt.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Quyết định mang tính bước ngoặt này đã dẫn cô đến một con đường giáo dục đầy ý nghĩa, nơi cô dành trọn 21 năm để chăm sóc, giảng dạy và hỗ trợ những học sinh đặc biệt.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Hiện tại, cô Nguyễn Thị Tú Trân là Hiệu trưởng Trường khuyết tật tỉnh Tây Ninh. Mới đây nhất, cô có vinh dự được nhận danh hiệu "Nhà giáo tiêu biểu năm 2024" cao quý.
+		</p>
+		<img src="/image/story-detail-11.png" class="text-black mb-2 leading-relaxed w-full"/>
+		<div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+			Cô Nguyễn Thị Tú Trân (áo xanh dương) đọc sách cùng với các em học sinh Trường Khuyết tật tỉnh Tây Ninh (Ảnh: NVCC).
+		</div>
+		<p class="text-black font-bold mb-4 leading-relaxed">
+		  Ngôn ngữ ký hiệu, chữ Braille và toán Soroban
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Cô Nguyễn Thị Tú Trân học khoa giáo dục đặc biệt chuyên ngành khiếm thính. Nhưng vào năm 2003, khi mới về Trường Khuyết tật tỉnh Tây Ninh, cô Trân lại được phân vào lớp trẻ khiếm thị.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Chia sẻ cảm xúc của mình ở thời điểm ấy, cô Trân cho biết: "Tôi có phần hơi lo lắng vì tôi không có các kiến thức và kỹ năng dạy học dành cho trẻ khiếm thị. Song, hiểu được khi công tác tại Trường Khuyết tật tỉnh Tây Ninh, thì người đứng lớp phải hiểu biết và có khả năng dạy cho trẻ ở tất cả dạng khuyết tật.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Tôi đã dành nhiều thời gian để nghiên cứu chữ Braille và toán Soroban. Hai kiến thức và kỹ năng cần thiết cho người khiếm thị để có thể giảng dạy cho các em".
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		 Chữ Braille là hệ thống chữ nổi được đa số người mù và người khiếm thị sử dụng. Còn toán Soroban là một phương pháp tính nhẩm.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Cô Trân vừa học thêm các kỹ năng, vừa đứng lớp. Thời điểm mới ra trường, cô Trân không có nhiều kinh nghiệm, nhưng chính sự ân cần và chăm chỉ đã giúp cô tiến bộ hơn.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  "Trong hành trình giảng dạy, tôi đã học được rằng mỗi học sinh sẽ có một thế giới riêng, đòi hỏi phương pháp tiếp cận khác nhau. Có những học sinh lớn tuổi hơn tôi, nhưng tôi không để điều đó trở thành rào cản.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Thay vào đó, tôi luôn điều chỉnh linh hoạt phương pháp giảng dạy: với học sinh nhỏ tuổi, tôi chọn nhịp độ chậm rãi, từ tốn; còn với những em có năng lực nhận thức tốt hơn, tôi nâng tầm bài giảng, tạo ra những thách thức và không gian để các em phát triển tối đa năng lực của mình", cô Trân nói.
+		</p>
+		<p class="text-black mb-6 leading-relaxed">
+			Trường Khuyết tật tỉnh Tây Ninh có 3 đối tượng học sinh, bao gồm: khiếm thính, khiếm thị và chậm phát triển. Năm 2000, khi mới thành lập, trường chỉ tiếp nhận đối tượng học sinh là khiếm thính và khiếm thị. Cho đến năm 2015, trường mở rộng và đón thêm các em chậm phát triển.
+		</p>
+		<img src="/image/story-detail-12.png" class="text-black mb-2 leading-relaxed w-full"/>
+		<div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+			Cô Nguyễn Thị Tú Trân (bên phải) luôn ân cần quan tâm đến học sinh (Ảnh: NVCC).
 		</div>
 		<p class="text-black mb-4 leading-relaxed">
-		  Để cải thiện tình hình, các doanh nghiệp xã hội như <b>SHE+</b> đang nỗ lực tạo cơ hội kết nối việc làm cho người khiếm thính, giúp họ hòa nhập và đóng góp cho xã hội.
+		  Tại giờ học của cô Trân, các em sẽ được học và tương tác với đa dạng dụng cụ. Trong không gian học tập đặc biệt của mình, cô Trân luôn chú trọng việc thiết kế giáo cụ phù hợp với từng nhóm học sinh.
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  Hiện <b>SHE+</b> đang có rất nhiều đơn vị tìm đến để tuyển dụng người khiếm thính tuy nhiên để đáp ứng yêu cầu tuyển dụng vẫn cồn một khoảng trống điều đó phụ thuộc rất nhiều vào các yếu tố khách quan và chủ quan.
+		  Ở lớp khiếm thính, cô thường sử dụng những hình ảnh đa sắc màu, sinh động để kích thích và hỗ trợ quá trình tiếp nhận thông tin. Còn với lớp khiếm thị, cô chuyển trọng tâm sang các yếu tố âm thanh, tạo nên những trải nghiệm học tập phong phú qua âm thanh.
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  Khi tìm kiếm việc làm, mối quan tâm hàng đầu của người khiếm thính thường là môi trường làm việc thân thiện và không phân biệt đối xử. Họ mong muốn được làm việc trong môi trường tôn trọng, hỗ trợ và tạo điều kiện để phát huy khả năng.
+		  Khi có học sinh gặp khó khăn, cô sẽ kiên nhẫn nắm tay, từng bước hướng dẫn: "Nếu con vẫn chưa hiểu, tôi sẽ kiên nhẫn giải thích cho đến khi nào con hiểu mới thôi".
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  Tuy nhiên thực tế là việc đào tạo tại trường và gia đình chưa hỗ trợ nhiều về đào tạo kỹ năng chuyên môn và kỹ năng mềm, đây chính yếu tố quan trọng giúp họ tự tin và đáp ứng yêu cầu công việc.
+		  Phụ huynh em Phương Duyên, học sinh đã từng được cô Trân dìu dắt, chia sẻ: "Trước đây, Phương Duyên có tính cách rụt rè và nhút nhát. Con đi không vững và đọc chưa tròn vành rõ chữ. Nhưng nhờ những lời động viên, khuyên nhủ của cô Tú Trân mà còn đã trở nên tự tin hơn.
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  Việc nâng cao nhận thức của cộng đồng và doanh nghiệp về khả năng và tiềm năng của người khiếm thính, cùng với việc tạo điều kiện tiếp cận giáo dục và đào tạo nghề, sẽ góp phần mở rộng cơ hội việc làm cho họ, giúp họ tự tin tham gia thị trường lao động và đóng góp cho sự phát triển của xã hội.
+		  Từ một cô bé rụt rè, khép kín vì chậm phát triển, con đã từng bước tiến bộ hơn. Con học được cách giao tiếp tự tin mà còn có thể đứng trên sân khấu trường đọc diễn văn. Tình cảm và sự tận tâm của cô đã thắp lên trong con ngọn lửa nghị lực, giúp một đứa trẻ nhiều thiệt thòi như con tìm thấy đôi cánh ước mơ của chính mình.
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  Việc làm là chìa khóa để người khiếm thính tự tin và độc lập trong cuộc sống. Hiện nay, nhiều doanh nghiệp, đặc biệt là <b>SHE+ Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam</b>, đang mở ra nhiều cơ hội kết nối việc làm phù hợp với khả năng và mong muốn của các bạn khiếm thính.
+		  Từ một bé gái chậm phát triển, con có thể giao tiếp và hoạt bát hơn với mọi người. Con từng bước được cô Trân hướng dẫn, giúp đỡ đọc diễn văn hay thậm chí là hát trước toàn trường. Sự ân cần của cô đã giúp một đứa trẻ có nhiều khiếm khuyết trở nên ý chí hơn".
+		</p>
+		<img src="/image/story-detail-13.png" class="text-black mb-2 leading-relaxed w-full"/>
+		<div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+			Cô Nguyễn Thị Tú Trân (áo dài màu xanh lá cây) luôn được các đồng nghiệp yêu quý, kính trọng (Ảnh: NVCC).
+		</div>
+		<p class="text-black font-bold mb-4 leading-relaxed">
+		  Tận tâm với trẻ đặc biệt
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  SHE+ nhận được rất nhiều tin nhắn từ phụ huynh, từ các bạn khiếm thính hỏi về kết nối việc làm. Đồng thời nhận được rất nhiều ủy thác từ các doanh nghiệp mong muốn kết nối tuyển dụng người khiếm thính tạo cơ hội học nghề: may thuê, nấu ăn, vẽ từ các Doanh nghiệp trên địa bàn Hà Nội, TP Hồ Chí Minh
+		  Khi trở thành Hiệu trưởng của trường, cô Trân cũng gặp không ít khó khăn: "Vào năm học mới, tôi sẽ tiến hành chia đối tượng học sinh theo dạng tật. Đôi lúc một lớp học sẽ có các em từ chậm phát triển đến khiếm thính. Tùy vào trình độ của các em mà tôi sẽ sắp xếp sao cho các em vừa có thể hiểu bài mà các thầy cô cũng đỡ vất vả".
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  Hãy tham gia khảo sát để chúng tôi kết nối công việc với đúng khả năng của bạn và nhu cầu của người tuyển dụng
-		</p>
-		<p class="text-black  leading-relaxed">
-		  Thông tin khảo sát chỉ dùng với mục đích kết nối việc làm đúng nhu cầu của các bạn và giúp chúng tôi tư vấn việc làm, môi trường tuyển dụng phù hợp với người khiếm thính tới các doanh nghiệp đang tạo cơ hội việc làm cho người khiếm thính/điếc (dạng tật Nghe Nói)<a href="https://forms.gle/E1nrk9hjs4EVA94m7" target="_blank" rel="noopener noreferrer" class="block underline  decoration-solid mb-4">
-		  https://forms.gle/E1nrk9hjs4EVA94m7
-		</a>
+		  Cô Trân cũng tích cực tham gia hội thi làm sách hình minh họa nổi cho học sinh khiếm thị vào năm 2018 do Thư viện Khoa học tổng hợp Thành phố Hồ Chí Minh tổ chức và đạt giải nhì. Ngoài ra, cô còn tham gia hỗ trợ, chia sẻ kinh nghiệm qua báo cáo tham luận hội thảo khoa học về ngôn ngữ ký hiệu tại Trường Đại học Sư phạm TPHCM.
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  Liên hệ <b>SHE+</b> để được tư vấn miễn phí dịch vụ hòa nhập cộng đồng, đánh giá và đưa ra các giải pháp phục hồi chức năng nghề nghiệp, sẽ rất tốt nếu gia đình có thể đi cùng với trẻ khiếm thính (từ 13 tuổi trở lên)
+		  Cô Trần Thị Phi Tú, đồng nghiệp của cô Trân, nhận xét: "Cô Trân là một người hiệu trưởng nhiệt tình trong công việc. Cô yêu nghề, tận tâm với học trò, có nhiều ý tưởng sáng tạo và đổi mới trong công tác giảng dạy.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		 Khi đi dạy tại ngôi trường đặc biệt như thế này, tôi chưa từng nhìn thấy cô Trân nản lòng. Cô có năng lực quản lý tốt, nhạy bén và hoàn thành xuất sắc mọi việc được giao. Cô Trân luôn là hình mẫu lý tưởng của một nhà giáo đạo đức chuẩn mực mà bất kỳ một người thầy, người cô nào cũng nên có".
+		</p>
+		<p class="text-black leading-relaxed">
+		  Một số em học sinh khi đã có thể đọc hiểu cơ bản, sẽ có tình trạng bỏ học, đi làm đồng áng. Cô Tú Trân đã chủ động đến từng gia đình vận động phụ huynh cho con tiếp tục học tập. Nếu có em nào muốn đi làm, cô Trân liền liên hệ với các xưởng hoặc xí nghiệp dành cho người khuyết tật để hỗ trợ các em.
+		</p>
+		<p class="text-black leading-relaxed">
+		  Cô Trân bộc bạch: "Sự chăm chỉ và nỗ lực của các em chính là động lực mỗi ngày để tôi cố gắng hơn. Đối với các em học sinh đặc biệt thì giáo dục yêu thương chính là chìa khóa để giúp các em bước ra khỏi sự tự ti mà vượt lên chính mình.
+		</p>
+		<p class="text-black leading-relaxed">
+		  Cho đến thời điểm hiện tại, lựa chọn ngành giáo dục đặc biệt vẫn luôn là một quyết định đúng đắn trong cuộc đời tôi".
+		</p>
+	   `,
+  },
+  {
+    title: "Cô Choi 9 năm nói chuyện với trẻ câm điếc",
+    description: "Từ bỏ sự nghiệp hanh thông ở quê nhà, vợ chồng nữ tiến sĩ Hàn Quốc Choi Yong Sook đã chọn Đà Lạt làm quê hương thứ hai, nguyện gắn bó trọn đời với trẻ em nghèo, khuyết tật nơi đây.",
+    author: "Kim Anh",
+    imageAuthor: "/image/author-18.png",
+    date: "Thứ hai, 08/06/2020 - 07:29",
+    img: "/image/story-6.png",
+    createdAt: "2020-06-08",
+    slug: "co-choi-9-nam-noi-chuyen-voi-tre-cam-diec",
+    content: `
+		<p class="text-black mb-4 leading-relaxed">
+		  Nhác thấy bóng cô Choi Yong Sook (gần 60 tuổi) cùng chồng là ông Kwon Jang Soo ở cổng trường Khiếm thính Lâm Đồng, nhiều học sinh ùa ra chào đón.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Hầu hết học sinh bị câm điếc bẩm sinh, không nói được câu “Chào thầy, chào cô”, nhưng gương mặt em nào cũng rạng rỡ, mắt sáng long lanh. Cô Choi liền quẳng túi xách để vui đùa cùng lũ trẻ.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  “Mỗi khi gặp các em học sinh, cô Choi thường múa hát, đùa giỡn... với chúng rất tự nhiên, như bạn bè. Tuy không nói được thành lời nhưng bằng biểu cảm trên gương mặt có thể thấy các em rất quý cô. Người câm điếc thường quan sát rất tốt, cảm nhận được ai yêu thương mình thật lòng”, cô Nguyễn Thị Ngọc Minh, hiệu trưởng trường Khiếm thính Lâm Đồng, nói.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Cô Choi kể năm 2009, Hàn Quốc kỷ niệm 100 năm ngành giáo dục đặc biệt. Người ta nhắc nhiều đến nữ bác sĩ người Mỹ hơn 100 năm trước tình nguyện đến Hàn Quốc mở trường khiếm thính, sống ở xứ người suốt 29 năm để làm thay đổi căn bản phương pháp giáo dục trẻ khuyết tật.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Điều này khiến cô chợt nhớ đến trường Khiếm thính Lâm Đồng, nơi cô đã đến thăm 4 năm trước.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  “Nhớ lại cảnh học sinh học tập trong điều kiện quá khó khăn, thiếu thốn; giáo viên không được đào tạo chuyên ngành giáo dục đặc biệt nên chưa có phương pháp can thiệp, tôi trăn trở mãi. Tôi bàn với chồng để cuộc sống có ý nghĩa hơn thì nên xin nghỉ hưu sớm, dùng toàn bộ thời gian còn lại giúp trẻ em khuyết tật Việt Nam”, cô Choi thổ lộ.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Cô mời giám đốc Sở GD&ĐT Lâm Đồng và hiệu trưởng các trường Khiếm thính và Thiểu năng Hoa Phong Lan sang Hàn Quốc làm việc với lãnh đạo ngành giáo dục của thành phố Busan và Đại học Daegu, nơi nổi tiếng về giáo dục đặc biệt.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Sau đó, phía Lâm Đồng đồng ý để nữ tiến sĩ Choi Yong Sook đưa giáo dục đặc biệt về trường Khiếm thính Lâm Đồng. Cô Choi xin nghỉ hưu sớm và dùng toàn bộ số tiền được hưởng khi nghỉ hưu để mua máy móc, thiết bị phục vụ việc nuôi dạy trẻ khuyết tật, chất đầy 2 container rồi đưa sang Việt Nam vào năm 2011.
+		</p>
+		<img src="/image/story-detail-14.png" class="text-black mb-2 leading-relaxed w-full"/>
+		<div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+			Cô Choi Yong Sook tặng xe lăn cho người khuyết tật
+		</div>
+		<p class="text-black  mb-4 leading-relaxed">
+		  Đã 9 năm trôi qua nhưng giáo viên trong trường vẫn nhớ như in cái ngày vợ chồng cô Choi thuê 2 xe tải chở mấy tấn máy móc, thiết bị phục vụ việc nuôi dạy trẻ khuyết tật đến trường.
+		</p>
+		<p class="text-black  mb-4 leading-relaxed">
+		  Sau giây phút choáng ngợp, nhà trường lúng túng vì không đủ chỗ chứa số thiết bị này. Các giáo viên tìm cách giúp vợ chồng cô Choi thuê căn nhà gần đó để bảo quản máy móc, giáo cụ.
+		</p>
+		<p class="text-black font-bold mb-4 leading-relaxed">
+		  Giáo dục hạnh phúc
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Việc đầu tiên, cô Choi đề xuất giảm bớt tần suất “múa tay” trong giao tiếp mà cho học sinh đeo máy trợ thính nhiều hơn; đồng thời chú trọng các phương pháp kích thích trẻ phản ứng với ngôn ngữ, âm nhạc...
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  “Theo quy định, học sinh chỉ được đeo máy trợ thính một số giờ trong ngày, sau đó phải tháo ra cất đi. Nếu cho trẻ đeo nhiều thì máy chóng hỏng trong khi máy đắt tiền lắm!”, có người buột miệng nói. Cô Choi đáp trả: “Cái máy mắc đến chừng nào, có bằng cái tai của học sinh bị hư đi không?”.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		 Vậy là cách giáo dục của trường thay đổi dần. Học sinh được đeo máy trợ thính nhiều hơn, làm quen việc nghe, phản ứng với ngôn ngữ, âm nhạc... để có thể giao tiếp nhiều hơn. Thấy chương trình học trước đó quá nghiêm, cô Choi cho trẻ vừa học vừa chơi.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Những buổi học nhàm chán dần được thay bằng những tiết học sinh động với âm nhạc, trò chơi để kích thích trí não hoạt động, giúp các em hứng thú hơn trong học tập. “Đừng nghĩ những đứa trẻ khiếm thính không thể nghe được ta nói gì, mà hãy nói chuyện, giao tiếp với chúng thật nhiều. Nói một lần không nghe được thì 10 lần, 20 lần, 100 lần, 1.000 lần”, cô Choi bảo.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Ngoài giờ học, cô còn đề xuất chuyện dạy nghề cho học sinh, hướng dẫn các em trồng hoa, cây cảnh, vẽ tranh làm bánh, làm xà phòng…; đồng thời dạy cho trẻ quay phim, chụp hình chính những hoạt động của mình rồi chiếu lại cho các em xem để kích thích nói. Cô cho học sinh đi dã ngoại và quay phim, chụp ảnh lại.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Khi trở về nhà, bọn trẻ ồ lên khi xem lại hình ảnh của mình trong chuyến đi rồi bật lên tiếng nói. Những sản phẩm do học sinh làm ra, cô Choi chào bán cho bạn bè, doanh nghiệp Hàn Quốc, dẫu không thu được nhiều tiền nhưng điều quan trọng là bọn trẻ thấy mình có ích, tự tin hẳn lên.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Cô Choi đã vận động phía Hàn Quốc hỗ trợ hình thành một trung tâm giáo dục đặc biệt trị giá nhiều tỷ đồng tại Lâm Đồng để học sinh khuyết tật có điều kiện học tập, vui chơi, học nghề… Cô Võ Thị Tuyết, Hiệu phó trường Thiểu năng Hoa Phong Lan, người từng được đi tập huấn tại Hàn Quốc, cho biết trung tâm này được trang bị những thiết bị hiện đại nhất hệt như trung tâm dành cho trẻ khuyết tật ở Hàn Quốc.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Hãy tin trẻ khiếm thính có thể phục hồi
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Nữ tiến sĩ kể rằng, năm 1988, khi cô nói có thể can thiệp để những đứa trẻ dưới 3 tuổi bị khiếm thính bẩm sinh có thể nghe nói được, nhiều người không tin, ngay cả các giáo sư chuyên ngành giáo dục đặc biệt cũng vậy.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  “Khi thấy tôi cho trẻ khiếm thính tiếp cận với âm nhạc, có người cho rằng tôi không bình thường, nhưng cuối cùng tôi đã làm được. Nhờ vậy giờ đây ở Hàn Quốc, việc can thiệp để trẻ khiếm thính dưới 3 tuổi có thể nghe nói được đã trở thành bình thường”, cô Choi nói. Có thể khẳng định một đứa trẻ dưới 3 tuổi được can thiệp đúng cách có thể nghe nói được, tỉ lệ thành công là 80%, cô quả quyết.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Trả lời câu hỏi về khả năng hồi phục của trẻ khiếm thị từ 0 đến 5 tuổi ở Lâm Đồng, cô Choi trầm ngâm nói: “Điều kiện ở đây không được như Hàn Quốc, nhưng tôi nghĩ sẽ làm được. Khó khăn lớn nhất là người lớn, đặc biệt là phụ huynh không tin trẻ khiếm thính có thể phục hồi. Do đó, phải chú trọng thuyết phục và hướng dẫn kỹ năng cho phụ huynh. Người có thể làm tốt nhất việc này không phải giáo viên đâu, mà là những người mẹ. Chỉ có mẹ mới ở bên trẻ nhiều nhất và đủ kiên nhẫn để huấn luyện cho con mình”.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		 Thời gian qua, cô Choi cùng chồng còn vận động xây 14 căn nhà tình thương cho người nghèo ở Lâm Đồng (từ 100-200 triệu đồng/nhà), tặng 383 xe lăn cho người tàn tật và 679 xe đạp (1,5 triệu đồng/chiếc), trao 53 học bổng cho học sinh nghèo (mỗi tháng 500 ngàn đồng/học sinh) cho đến khi các em ra trường…
+		</p>
+	   `,
+  },
+  {
+    title: "Mỹ: Người khiếm thị, khiếm thính đầu tiên giành học vị Cử nhân Nghệ thuật",
+    description: "(Dân trí) - Helen Keller là nhà văn, giảng viên, nhà hoạt động xã hội, diễn giả nổi tiếng nước Mỹ. Bà là người khiếm thị, khiếm thính đầu tiên giành học vị Cử nhân Nghệ thuật.",
+    author: "Vĩnh Ngọc",
+    imageAuthor: "/image/author-19.png",
+    date: "Thứ sáu, 17/03/2023 - 16:44",
+    img: "/image/story-7.png",
+    createdAt: "2023-03-17",
+    slug: "my-nguoi-khiem-thi-khiem-thinh-dau-tien-gianh-hoc-vi-cu-nhan-nghe-thuat",
+    content: `
+		<p class="text-black mb-4 leading-relaxed">
+		  Helen Keller sinh năm 1880, mất năm 1968, là một tác giả người Mỹ, nhà hoạt động xã hội, diễn giả, người ủng hộ quyền của người khuyết tật.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Sinh ra ở West Tuscumbia, Alabama, Mỹ, Helen Keller bị mất thị lực và thính giác sau một trận ốm khi mới 19 tháng tuổi. Sau đó, bà giao tiếp chủ yếu bằng cách sử dụng các dấu hiệu cho đến năm 7 tuổi, khi bà gặp người thầy đầu tiên và cũng là người bạn đồng hành suốt đời Anne Sullivan.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Cô giáo Anne Sullivan đã dạy Keller ngôn ngữ, bao gồm cả đọc và viết. Sau khi học ở cả trường đặc biệt và trường chính thống, Keller theo học Đại học Radcliffe thuộc Đại học Harvard và trở thành người khiếm thị, khiếm thính đầu tiên lấy bằng Cử nhân Nghệ thuật. 
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Keller làm việc cho tổ chức Người Khiếm thị Mỹ từ năm 1924 đến năm 1968. Trong thời gian này, bà đã đến hàng chục quốc gia trên toàn thế giới để vận động ủng hộ cho những người bị mất thị lực. 
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Keller cũng là tác giả của 14 cuốn sách, hàng trăm bài phát biểu và tiểu luận về nhiều chủ đề khác nhau. Bà tham gia vận động cho người khuyết tật, quyền bầu cử của phụ nữ, quyền lao động và hòa bình thế giới. Năm 1909, bà gia nhập Đảng Xã hội chủ nghĩa Mỹ. Bà là thành viên sáng lập của Liên minh Tự do Dân sự Mỹ
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Cuốn tự truyện của Keller, Câu chuyện về cuộc đời tôi (1903), đã kể về quá trình bà được dạy dỗ bởi cô giáo Anne Sullivan. Câu chuyện sau đó đã được chuyển thể thành một vở kịch và một bộ phim. 
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Keller được giới thiệu vào Đại sảnh Danh vọng Phụ nữ Alabama vào năm 1971. Bà là một trong 12 người đầu tiên được giới thiệu vào Đại sảnh Danh vọng Nhà văn Alabama.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Lúc 19 tháng tuổi, Keller mắc phải một căn bệnh không rõ nguyên nhân. Căn bệnh khiến Keller bị điếc và mù. Bà đã miêu tả trong cuốn tự truyện của mình là bà từng "sống như trong sương mù dày đặc trên biển".
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Năm 1886, cha của Keller đã đưa con gái đi gặp bác sĩ và vị bác sĩ này đã giới thiệu bố con Keller với Alexander Graham Bell, người đang làm việc với trẻ em khiếm thính vào thời điểm đó.
+		</p>
+		<p class="text-black mb-6 leading-relaxed">
+		  Bell khuyên cha của Keller liên hệ với Viện Người mù Perkins và giám đốc của ngôi trường, đã đề nghị Anne Sullivan, một sinh viên 20 tuổi cũng bị khiếm thị, học sinh cũ của trường, trở thành người hướng dẫn của Keller. Đó là khởi đầu của một mối quan hệ kéo dài gần 50 năm: Sullivan trở thành gia sư của Keller và sau đó là bạn đồng hành suốt đời của bà.
+		</p>
+		<img src="/image/story-detail-15.png" class="text-black mb-2 leading-relaxed w-full"/>
+		<div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+			Helen Keller và cô giáo Anne Sullivan (Ảnh: Alamy).
+		</div>
+		<p class="text-black mb-4 leading-relaxed">
+		  Cô giáo Anne Sullivan dạy học cho Keller từ năm 1887. Sullivan đã tận tâm dạy Keller nói, đọc và viết. Bà chạm vào mọi thứ bằng một tay và tay kia, bà viết bằng chính ngón tay của mình. Ví dụ, trong khi Keller để một tay dưới vòi nước chảy, Sullivan đã giúp học sinh đánh vần từ "nước" với tay kia.
+		</p>
+		<p class="text-black  mb-4 leading-relaxed">
+		  Chương trình giảng dạy của Sullivan bao gồm một lịch trình nghiêm ngặt, với việc giới thiệu liên tục các từ vựng mới. Tuy nhiên bà cũng thay đổi phương pháp giảng dạy của mình sau khi thấy nó không phù hợp với Keller.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Anne Sullivan cũng dạy học trò từ vựng dựa trên sở thích của mình, bằng cách đánh vần từng từ vào lòng bàn tay của Keller. Trong vòng sáu tháng, phương pháp này tỏ ra có hiệu quả vì Keller đã học được 575 từ, bảng cửu chương và hệ thống chữ nổi Braille.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Keller đã học đọc từng chút một và để viết, bà có một tấm bảng đặc biệt để bà có thể tạo ra các chữ cái bằng bút chì.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Để dạy học trò của mình nói, cô giáo Sullivan sẽ đặt tay Keller lên cổ họng mình để cảm nhận những rung động và khuyến khích học sinh cố gắng lặp lại chúng.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		 Đây là bài tập khó nhất và vì không thấy học trò tiến bộ nhiều, Sullivan đã tìm đến sự giúp đỡ của một giáo viên dạy nói để giúp Helen có thể nói rõ ràng hơn và họ đã thành công.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Sullivan cũng khuyến khích cha mẹ của Helen gửi học sinh của mình đến trường Perkins, nơi Helen có thể có một nền giáo dục phù hợp. Khi họ đồng ý, Sullivan đã đưa Keller đến Boston vào năm 1888 và sống tại đó cùng học trò của mình.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Helen Keller từng được coi là người cô lập nhưng thực ra bà rất biết cách kết nối với thế giới bên ngoài. Bà có thể thưởng thức âm nhạc bằng cách cảm nhận nhịp điệu và có thể có mối liên hệ chặt chẽ với động vật thông qua xúc giác. Bà chậm tiếp thu ngôn ngữ, nhưng điều đó không ngăn cản bà có tiếng nói của riêng mình.
+		</p>
+		<img src="/image/story-detail-16.png" class="text-black mb-2 leading-relaxed w-full"/>
+		<div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+			Helen Keller là người khiếm thị, khiếm thính đầu tiên giành học vị Cử nhân Nghệ thuật (Ảnh: Alamy).
+		</div>
+		<p class="text-black mb-4 leading-relaxed">
+		 Vào năm 1888, Keller bắt đầu học tại Viện Perkins. Năm 1896, Helen Keller và cô giáo quay trở lại Massachusetts và Keller nhập học vào trường Cambridge trước khi được nhận vào Đại học Radcliffe thuộc Đại học Harvard vào năm 1900.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Ở tuổi 24, Keller tốt nghiệp đại học và trở thành người khiếm thị, khiếm thính đầu tiên lấy bằng Cử nhân Nghệ thuật. Thời điểm đó, bà duy trì trao đổi thư từ với triết gia và nhà sư phạm người Áo Wilhelm Jerusalem, một trong những người đầu tiên phát hiện ra tài năng văn chương của bà.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Quyết tâm giao tiếp với người khác theo cách thông thường nhất có thể, Keller đã học nói và dành phần lớn cuộc đời để diễn thuyết và thuyết trình về mọi khía cạnh của cuộc sống.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Bà học cách "nghe" lời nói của mọi người bằng phương pháp Tadoma, nghĩa là dùng ngón tay để cảm nhận môi và cổ họng của người nói. Bà rất thành thạo trong việc sử dụng chữ nổi và dùng ngón tay để giao tiếp.
+		</p>
+		<img src="/image/story-detail-17.png" class="text-black mb-2 leading-relaxed w-full"/>
+		<div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+			Helen Keller đã nỗ lực hết mình để vượt qua khó khăn trong cuộc sống (Ảnh: Alamy).
+		</div>
+		<p class="text-black mb-4 leading-relaxed">
+		  Nhiều năm sau đó, Keller trở thành diễn giả và tác giả nổi tiếng thế giới. Bà tham gia hàng loạt hoạt động ủng hộ người khuyết tật. Bà đến thăm 25 quốc gia và có những bài phát biểu gây xúc động về người khuyết tật.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Helen Keller là một người theo chủ nghĩa hòa bình, theo chủ nghĩa xã hội cấp tiến. Năm 1915, bà và George A. Kessler thành lập tổ chức Helen Keller International (HKI), tổ chức chuyên nghiên cứu về thị lực, sức khỏe và dinh dưỡng.  
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		 Helen Keller đã cùng cô giáo của mình Sullivan tới thăm hơn 40 quốc gia trong đó có một số chuyến đi đến Nhật Bản. Cặp cô trò người Mỹ đã trở thành nhân vật được yêu thích của người dân xứ hoa anh đào.  
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		 Keller rất ủng hộ người nghèo. Bà từng phát biểu rằng, bà muốn những đứa trẻ sinh ra trong các gia đình nghèo cũng có cơ hội thành công như bà.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		 Năm 1909, Keller trở thành thành viên của Đảng xã hội chủ nghĩa Mỹ; bà tích cực vận động và viết bài ủng hộ giai cấp công nhân. Nhiều bài phát biểu và bài viết của bà gây ấn tượng khi nói về quyền bầu cử của phụ nữ và tác động xấu của chiến tranh.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		 Keller đã viết tổng cộng 14 cuốn sách và rất nhiều bài báo. Một trong những tác phẩm đầu tiên của bà là The Frost King, truyện ngắn ra mắt khi bà mới 11 tuổi.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		 Ở tuổi 22, Keller xuất bản cuốn tự truyện của mình, Câu chuyện về cuộc đời tôi với sự giúp đỡ của vợ chồng cô giáo Sullivan. Cuốn sách kể lại câu chuyện về cuộc đời của Helen Keller từ bé cho đến năm 21 tuổi và được viết trong thời gian bà học đại học. Cuốn tự truyện của bà đã được dịch ra 50 ngôn ngữ và vẫn còn được tái bản cho đến ngày nay
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		 Trong một bài báo Keller viết vào năm 1907, bà đã thu hút sự chú ý của công chúng khi viết rằng, có thể ngăn ngừa nhiều trường hợp mù lòa ở trẻ em bằng cách rửa mắt cho mọi trẻ sơ sinh bằng dung dịch khử trùng.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		 Vào thời điểm đó, chỉ một phần nhỏ bác sĩ và nữ hộ sinh làm việc này. Nhờ sự ủng hộ của Keller, biện pháp hợp lý này đã nhanh chóng được áp dụng rộng rãi.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		 Ngày 14 tháng 9 năm 1964, Tổng thống Mỹ Lyndon B. Johnson trao tặng bà Huân chương Tự do Tổng thống, một trong hai huân chương dân sự cao quý nhất của Mỹ. Năm 1965, bà được bầu vào Đại sảnh Danh vọng Phụ nữ Quốc gia tại Hội chợ Thế giới New York, Mỹ.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		 Keller đã dành phần lớn cuộc đời của mình để gây quỹ cho tổ chức Người Khiếm thị Mỹ. Bà qua đời trong giấc ngủ vào ngày 1 tháng 6 năm 1968 tại nhà riêng ở Connecticut, Mỹ, chỉ vài tuần trước sinh nhật lần thứ 88 của bà.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		 Là một trong những người khuyết tật nổi tiếng nhất nước Mỹ, Helen Keller từng lọt Top Những nhân vật được ngưỡng mộ nhất của thế kỷ 20 do công ty tư vấn và phân tích của Mỹ Gallup bình chọn.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		 Tại Alabama, quê hương của Helen Keller có bệnh viện mang tên bà. Đồng xu của bang Alabama là đồng xu duy nhất của Mỹ có chữ nổi.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		 Đường phố được đặt theo tên của Helen Keller không chỉ có ở Mỹ mà còn có ở Thụy Sĩ, Tây Ban Nha, Israel, Bồ Đào Nha, Pháp... Một trường mầm non dành cho người khiếm thính ở Mysore, Ấn Độ cũng từng được đặt theo tên của Helen Keller.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		 Năm 1973, Helen Keller được giới thiệu vào Đại sảnh Vinh danh Phụ nữ Quốc gia của Mỹ. Một con tem đặc biệt được phát hành vào năm 1980 bởi Bưu điện Mỹ để kỷ niệm 100 năm ngày sinh của Keller. Hàng năm, tiểu bang Pennsylvania, Mỹ đều tổ chức lễ kỷ niệm sinh nhật của bà (27/6).
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		 Năm 2009, tiểu bang Alabama đã tặng một bức tượng Helen Keller bằng đồng cho Bộ sưu tập Tượng đài Quốc gia ở Tòa nhà Quốc hội Mỹ. Các bức tượng ở Tòa nhà Quốc hội Mỹ do các bang tặng để tôn vinh những người nổi tiếng trong lịch sử của bang.
 		</p>
 	   `,
   },
   {
     title: "Chuyện về cô gái khiếm thính ở Việt Nam giành học bổng Mỹ",
-    description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
-    author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
-    imageAuthor: "/image/author-5.png",
-    date: "07.03.2025",
-    img: "/image/story-5.png",
-    createdAt: "2025-03-08",
-    slug: "chuyen-ve-co-gai-khiem-thinh-o-viet-nam-giay-hoc-bong-my",
+    description: 'Chương trình "Đời rất đẹp" mới đây kể lại câu chuyện về chị Nguyễn Trần Thủy Tiên - người nhận học bổng toàn phần ở Mỹ và trở về cống hiến cho cộng đồng người khiếm thính tại Việt Nam.',
+    author: "ĐÔNG DU",
+    imageAuthor: "/image/author-20.png",
+    date: "Thứ năm, 26/09/2024 20:30 (GMT+7)",
+    img: "/image/story-8.png",
+    createdAt: "2024-09-26",
+    slug: "chuyen-ve-co-gai-khiem-thinh-o-viet-nam-gianh-hoc-bong-my",
     content: `
-		<p class="text-black mb-4 leading-relaxed">
-		  Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động. Tuy nhiên, tỷ lệ người khiếm thính có việc làm vẫn còn thấp, do họ phải đối mặt với nhiều thách thức như:
-		</p>
-		<div class="text-black mb-4 leading-relaxed pl-4">
-		  • Phân biệt đối xử và định kiến: Nhiều nhà tuyển dụng còn e ngại về khả năng làm việc của người khiếm thính, dẫn đến việc họ ít được trao cơ hội việc làm.
-		</div>
-		<div class="text-black mb-4 leading-relaxed pl-4">
-		  • Thiếu kỹ năng và trình độ chuyên môn: Theo thống kê, 93,4% người khuyết tật từ 16 tuổi trở lên không có chuyên môn, chỉ 6,5% có bằng cấp từ chứng chỉ nghề trở lên. Điều này khiến người khiếm thính gặp khó khăn trong việc đáp ứng yêu cầu công việc
-		</div>
-		<div class="text-black mb-4 leading-relaxed pl-4">
-		  • Hạn chế trong tiếp cận thông tin việc làm: Người khiếm thính thường gặp khó khăn trong việc tiếp cận thông tin tuyển dụng và các dịch vụ hỗ trợ việc làm do rào cản về ngôn ngữ và công nghệ.
+		<img src="/image/story-detail-18.png" class="text-black mb-2 leading-relaxed w-full"/>
+		<div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+			Chị Thủy Tiên là người khiếm thính hiếm hoi ở Việt Nam giành học bổng Mỹ. Ảnh: NSX
 		</div>
 		<p class="text-black mb-4 leading-relaxed">
-		  Để cải thiện tình hình, các doanh nghiệp xã hội như <b>SHE+</b> đang nỗ lực tạo cơ hội kết nối việc làm cho người khiếm thính, giúp họ hòa nhập và đóng góp cho xã hội.
+		  MC Ngọc Lan mở chiếc hộp ký ức lấy ra một bức ảnh có đôi bàn tay, mang ý nghĩa là ngôn ngữ ký hiệu chính đầu tiên của người khiếm thính. Chị Nguyễn Trần Thủy Tiên là người khiếm thính bẩm sinh. Từ nhỏ, chị dùng những điệu bộ, ngôn ngữ ký hiệu trong gia đình để giao tiếp với mọi người.
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  Hiện <b>SHE+</b> đang có rất nhiều đơn vị tìm đến để tuyển dụng người khiếm thính tuy nhiên để đáp ứng yêu cầu tuyển dụng vẫn cồn một khoảng trống điều đó phụ thuộc rất nhiều vào các yếu tố khách quan và chủ quan.
+		  Khi bắt đầu đi học, nhà trường chỉ dạy nói cho người khiếm thính chứ không dạy ngôn ngữ ký hiệu nên vẫn phải đeo máy trợ thính để tập nghe, tập nói.
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  Khi tìm kiếm việc làm, mối quan tâm hàng đầu của người khiếm thính thường là môi trường làm việc thân thiện và không phân biệt đối xử. Họ mong muốn được làm việc trong môi trường tôn trọng, hỗ trợ và tạo điều kiện để phát huy khả năng.
+		  Chị chia sẻ: “Tôi không cảm nhận được điều gì về bản thân mình cả”. Khi gặp những người khiếm thính dùng ký hiệu để nói chuyện với nhau chị đã học theo vì bản thân không thích tập nói. Khi được sử dụng kí hiệu để giao tiếp, chị cảm thấy rất vui vì đó là ngôn ngữ đầu tiên của mình.
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  Tuy nhiên thực tế là việc đào tạo tại trường và gia đình chưa hỗ trợ nhiều về đào tạo kỹ năng chuyên môn và kỹ năng mềm, đây chính yếu tố quan trọng giúp họ tự tin và đáp ứng yêu cầu công việc.
+		  Theo lời chị Nguyễn Trần Thủy Tiên chia sẻ, người khiếm thính có trực quan rất tốt và tiếp thu thông tin thông qua ánh mắt rất nhanh nhưng không thể phân biệt được âm thanh dù có máy trợ thính hỗ trợ, tập nói cũng gây ra những trở ngại nhất định.
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  Việc nâng cao nhận thức của cộng đồng và doanh nghiệp về khả năng và tiềm năng của người khiếm thính, cùng với việc tạo điều kiện tiếp cận giáo dục và đào tạo nghề, sẽ góp phần mở rộng cơ hội việc làm cho họ, giúp họ tự tin tham gia thị trường lao động và đóng góp cho sự phát triển của xã hội.
+		  Khi được tiếp xúc với ngôn ngữ kí hiệu, chị đã rất thích thú và học rất nhanh, không chỉ ngôn ngữ kí hiệu Việt Nam mà còn cả ngôn ngữ kí hiệu Mỹ và quốc tế.
+		</p>
+<img src="/image/story-detail-19.png" class="text-black mb-2 leading-relaxed w-full"/>
+		<div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+			Chị Tiên chia sẻ với Ngọc Lan. Ảnh: NSX.
+		</div>
+		<p class="text-black mb-4 leading-relaxed">
+		  Sau khi theo học hết cấp 3, chị Thủy Tiên chọn ngành sư phạm tiểu học dành cho những học sinh đặc biệt giống mình và có cơ hội nhận học bổng toàn phần của một trường đại học ở Mỹ. Chị rất vui và tự hào điều đó vì học bổng dành cho người điếc rất ít và trường chỉ chọn 2 người trong 100 người để trao suất học bổng đặc biệt này.
+		</p>
+		<p class="text-black  mb-4 leading-relaxed">
+		  Chị cho biết, ngành học rất phù hợp với mong muốn của mình, và cam kết trở về Việt Nam sau khi học xong hai năm để phục vụ và cống hiến cho cộng đồng người khiếm thính ở Việt Nam.
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  Việc làm là chìa khóa để người khiếm thính tự tin và độc lập trong cuộc sống. Hiện nay, nhiều doanh nghiệp, đặc biệt là <b>SHE+ Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam</b>, đang mở ra nhiều cơ hội kết nối việc làm phù hợp với khả năng và mong muốn của các bạn khiếm thính.
+		  Chị làm giáo viên cho một trường dành cho trẻ khiếm thính ở Đồng Nai và sau đó tiếp tục chuyển lên Đà Lạt để đồng hành cùng những học sinh đặc biệt này. Nguyễn Trần Thủy Tiên đang nỗ lực để có thể nâng cao năng lực của những người khiếm thính, đặc biệt là thông qua ngôn ngữ kí hiệu và những dịch vụ quan trọng trong đời sống hàng ngày. Chị hy vọng trong tương lai sẽ thành lập được hội người khiếm thính quốc gia ở Việt Nam.
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  SHE+ nhận được rất nhiều tin nhắn từ phụ huynh, từ các bạn khiếm thính hỏi về kết nối việc làm. Đồng thời nhận được rất nhiều ủy thác từ các doanh nghiệp mong muốn kết nối tuyển dụng người khiếm thính tạo cơ hội học nghề: may thuê, nấu ăn, vẽ từ các Doanh nghiệp trên địa bàn Hà Nội, TP Hồ Chí Minh
+		  Đến với đồ vật thứ hai trong chiếc hộp ký ức, MC Ngọc Lan lấy ra một “bông hoa” bàn tay kèm theo từ “PARD”, đây là tên viết tắt của Trung tâm Nghiên cứu và ứng dụng giáo dục vì người khiếm thính do chị Nguyễn Trần Thủy Tiên là người sáng lập. Đây là tổ chức vì người khiếm thính đầu tiên được hợp thức hóa ở Việt Nam với mục tiêu mong muốn người khiếm thính có một cuộc sống bình đẳng, hòa nhập vào xã hội như những người khác.
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  Hãy tham gia khảo sát để chúng tôi kết nối công việc với đúng khả năng của bạn và nhu cầu của người tuyển dụng
-		</p>
-		<p class="text-black  leading-relaxed">
-		  Thông tin khảo sát chỉ dùng với mục đích kết nối việc làm đúng nhu cầu của các bạn và giúp chúng tôi tư vấn việc làm, môi trường tuyển dụng phù hợp với người khiếm thính tới các doanh nghiệp đang tạo cơ hội việc làm cho người khiếm thính/điếc (dạng tật Nghe Nói)<a href="https://forms.gle/E1nrk9hjs4EVA94m7" target="_blank" rel="noopener noreferrer" class="block underline  decoration-solid mb-4">
-		  https://forms.gle/E1nrk9hjs4EVA94m7
-		</a>
+		  Vì cộng đồng người khiếm thính còn gặp rất nhiều khó khăn nên chị đã gác lại ước mơ làm giáo viên của mình để có thể hỗ trợ và giúp đỡ những người trong cộng đồng người khiếm thính. Trung tâm của chị hướng tới rất nhiều đề tài trong cuộc sống để những thành viên trong “ngôi nhà chung” có thể dễ dàng tiếp cận thông tin.
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  Liên hệ <b>SHE+</b> để được tư vấn miễn phí dịch vụ hòa nhập cộng đồng, đánh giá và đưa ra các giải pháp phục hồi chức năng nghề nghiệp, sẽ rất tốt nếu gia đình có thể đi cùng với trẻ khiếm thính (từ 13 tuổi trở lên)
+		 Cuối chương trình, chị Nguyễn Trần Thủy Tiên gửi thông điệp đến với mọi người: “Tuy chúng ta gặp nhiều rào cản và khó khăn nhưng chúng ta phải là người chủ động để vượt qua, để có thể hòa nhập tốt hơn vào xã hội”.
 		</p>
-	   `,
+		`,
   },
   {
-    title: "Họa sĩ khiếm thính Nam Long: Mẹ là người thầy đầu tiên",
-    description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
-    author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
-    imageAuthor: "/image/author-6.png",
-    date: "07.03.2025",
-    img: "/image/story-6.png",
-    createdAt: "2025-05-05",
-    slug: "hoa-si-khiem-thinh-nam-long",
+    title: "Người phụ nữ có con bị khiếm thính và hành trình giúp thay đổi cuộc đời của hàng nghìn người",
+    description: "Gặp cú sốc lớn khi biết con bị khiếm thính, cố gắng không chỉ vì con, mà còn vì hy vọng một ngày nghe thấy con gọi tiếng mẹ. Bước ngoặt quyết định thành lập cộng đồng cho người khiếm thính, đó chính là hành trình chứa đầy cảm xúc của bà Chử Thị Thanh Hương - người phụ nữ đã truyền cảm hứng mạnh mẽ đến hàng nghìn người.",
+    author: "Nguyệt Minh",
+    imageAuthor: "/image/author-21.png",
+    date: "Thứ hai, ngày 06/05/2024 06:05 GMT+7",
+    img: "/image/story-9.png",
+    createdAt: "2024-05-06",
+    slug: "nguoi-phu-nu-co-con-bi-khiem-thinh-va-hanh-trinh-giup-thay-doi-cuoc-doi-cua-hang-nghin-nguoi",
     content: `
-		<p class="text-black mb-4 leading-relaxed">
-		  Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động. Tuy nhiên, tỷ lệ người khiếm thính có việc làm vẫn còn thấp, do họ phải đối mặt với nhiều thách thức như:
+	  <p class="text-black leading-relaxed">
+		  Từ một người mẹ có con bị khiếm thính, bà Chử Thị Thanh Hương hiện đang là Chủ tịch của Hội Cha Mẹ Trẻ Khiếm Thính và Người Khiếm thính Việt Nam (VNAP HLC) được thành lập năm 2012 với hơn 6.000 thành viên. Đây là tổ chức vì người khiếm thính đầu tiên tại Việt Nam. Đồng thời, bà cũng là CEO của Công Ty TNHH Doanh Nghiệp Xã Hội Vì Người Khiếm Thính Việt Nam (She+) được thành lập năm 2018. VNAP HLC và She+ là nơi đã đồng hành cùng hàng nghìn phụ huynh có con bị khiếm thính và người khiếm thính trong hành trình tìm lại âm thanh và hòa nhập cộng đồng.
 		</p>
-		<div class="text-black mb-4 leading-relaxed pl-4">
-		  • Phân biệt đối xử và định kiến: Nhiều nhà tuyển dụng còn e ngại về khả năng làm việc của người khiếm thính, dẫn đến việc họ ít được trao cơ hội việc làm.
+		<p class="text-black leading-relaxed">
+		  “Tôi đã khóc vì nghe được tiếng con gọi “mẹ" trong mơ"
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Mỗi khi nhớ lại hành trình đồng hành cùng con gái tìm lại âm thanh của cuộc sống, bà Chử Thị Thanh Hương không giấu nổi những giọt nước mắt. Đối với bà, đó là hành trình dài đầy gian nan, nhưng cũng khiến bà hạnh phúc đến vỡ oà vì những thành quả ngọt ngào.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Lần đầu nghe con gọi 2 tiếng “mẹ ơi", khoảnh khắc con được đến trường và có bạn bè, hay con vẽ lên những ước mơ của chính mình - với một người mẹ có con bị khiếm thính, thật khó để diễn ra được cảm xúc hạnh phúc đặc biệt này.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  “Khi phát hiện ra Hồng Anh bị khiếm thính là lúc con gần 2 tuổi. Hành trình bên con có rất nhiều cảm xúc. Từ sốc, thất vọng, bi quan, sau đó chấp nhận thực tại và phải đủ bản lĩnh để vượt lên trên cú sốc đó, đi tìm phương pháp đồng hành cùng con” - bà Thanh Hương kể lại.
+		</p>
+		<img src="/image/story-detail-20.png" class="text-black mb-2 leading-relaxed w-full"/>
+		<div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+			Bà Chử Thị Thanh Hương (áo dài xanh) cùng con gái Nguyễn Hồng Anh (áo dài đỏ) tham gia Gala Việc Tử Tế tháng 4 năm 2023.
 		</div>
-		<div class="text-black mb-4 leading-relaxed pl-4">
-		  • Thiếu kỹ năng và trình độ chuyên môn: Theo thống kê, 93,4% người khuyết tật từ 16 tuổi trở lên không có chuyên môn, chỉ 6,5% có bằng cấp từ chứng chỉ nghề trở lên. Điều này khiến người khiếm thính gặp khó khăn trong việc đáp ứng yêu cầu công việc
+		<p class="text-black mb-4 leading-relaxed">
+		  Bà Hương cho biết, quá trình đồng hành cùng Hồng Anh gặp muôn vàn khó khăn. Năm 2008, phương pháp hỗ trợ cho trẻ bị khiếm thính ở Việt Nam còn chưa có nhiều nguồn thông tin. Phải mất 3 năm tìm hiểu, bà Hương lần đầu đưa con sang Singapore với niềm hy vọng có thể tìm được cách khắc phục cho con. Thế nhưng, đây cũng là lúc bà gặp phải cú sốc tiếp theo khi biết, con đã qua thời điểm vàng để phát triển ngôn ngữ. Để Hồng Anh nghe nói được như các bạn bằng độ tuổi là rất khó và thực sự phải chạy đua với thời gian.
+		</p>
+		<p class="text-black  mb-4 leading-relaxed">
+		  “Các bác sĩ nói một bên tai của con không nghe được thiết bị trợ thính. Phương pháp tốt nhất là cấy điện cực ốc tai, nhưng chi phí lên tới 100.000 USD - đó là một số tiền nằm ngoài khả năng của tôi khi đó. Không có nhiều thời gian để ở lại Singapore, tôi quyết định mua thiết bị trợ thính cho bên tai còn lại của con” - bà Hương tâm sự.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Trở về Việt Nam, bà Hương quyết định nghỉ công việc mình yêu thích với tương lai rộng mở để dành toàn bộ thời gian đồng hành cùng con. Những tưởng những tháng ngày êm đẹp sẽ kéo dài, Hồng Anh có thể đi học và hoà nhập như các bạn khác. Nhưng một lần nữa, như một sự an bài của số phận, Hồng Anh đột ngột bị điếc một bên tai phải. Ngay lúc đó, bà Hương biết rằng bản thân không thể chần chừ, bằng mọi giá bà phải cho con mình đi cấy điện cực ốc tai.
+		</p>
+		<img src="/image/story-detail-21.png" class="text-black mb-2 leading-relaxed w-full"/>
+		<div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+			Giờ đây, Nguyễn Hồng Anh đã trở thành cô sinh viên năm nhất tại trường Cao đẳng Văn hoá Nghệ thuật Hà Nội chuyên ngành hội hoạ.
 		</div>
-		<div class="text-black mb-4 leading-relaxed pl-4">
-		  • Hạn chế trong tiếp cận thông tin việc làm: Người khiếm thính thường gặp khó khăn trong việc tiếp cận thông tin tuyển dụng và các dịch vụ hỗ trợ việc làm do rào cản về ngôn ngữ và công nghệ.
+		<p class="text-black mb-4 leading-relaxed">
+		  Bà Hương tâm sự: “Tỉ lệ thành công của ca phẫu thuật chỉ có 50%, nên tôi vô cùng lo lắng. Sau khi phẫu thuật xong, tôi phải chờ đợi 1 tháng trước khi máy được kích hoạt. 1 tháng ấy với tôi vô cùng dài, như đứng trên đống lửa. Thật may, điều kì diệu đã đến khi con thích ứng với máy rất tốt".
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Hiện tại, Nguyễn Hồng Anh (SN 2006) đang theo học tại Trường Cao đẳng Văn hoá Nghệ thuật Hà Nội chuyên ngành Hội hoạ (hệ trung cấp). Từ những trải nghiệm cùng con, chính bản thân bà Hương cũng đã có sự thay đổi rõ rệt: “Từ khi có Hồng Anh nhân sinh quan của tôi đã thay đổi rất nhiều. Tôi muốn giúp đỡ những đứa trẻ, những gia đình có những đứa trẻ như con tôi. Đây cũng là lý do để tôi thành lập VNAP HLC và sau này còn có cả She+. Tôi rất cảm ơn cô con gái thứ hai này bởi khi đồng hành cùng con đi tìm lại âm thanh, tôi đã ngộ ra được giá trị của sự cho đi”.
+		</p>
+		<p class="text-black font-bold leading-relaxed">
+		  Tầm nhìn giúp 2 triệu người khiếm thính Việt Nam được trang bị kiến thức
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		 Hiện tại, cả VNAP HLC và She+ đều đang hoạt động tích cực và đạt được những thành tựu đáng khích lệ. Nơi đây đã trở thành ngôi nhà chung ấm áp cho rất nhiều phụ huynh có con bị khiếm thính.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		 Bà Bành Thị Thuỷ - Thành viên tại VNAP HLC chia sẻ: “Trước khi tham gia VNAP HLC, tôi đã biết đến câu chuyện đồng hành cùng con gái của chị Hương. Câu chuyện đã truyền cảm hứng mạnh mẽ đến tôi và khiến tôi quyết tâm tham gia hội. Nhờ có mọi người ở đây, tôi đã có thêm nhiều kiến thức để đồng hành cùng cháu mình, rất may mắn khi cháu đã ngày càng tự tin và có thể hòa nhập cộng đồng".
+		</p>
+		<img src="/image/story-detail-22.png" class="text-black mb-2 leading-relaxed w-full"/>
+		<div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		  Bà Chử Thị Thanh Hương (áo dài xanh) trong một sự kiện dành cho trẻ khiếm thính do Hội Cha Mẹ Trẻ Khiếm Thính và Người Khiếm thính Việt Nam (VNAP HLC) và Công Ty TNHH Doanh Nghiệp Xã Hội Vì Người Khiếm Thính Việt Nam (She+) tổ chức.
 		</div>
 		<p class="text-black mb-4 leading-relaxed">
-		  Để cải thiện tình hình, các doanh nghiệp xã hội như <b>SHE+</b> đang nỗ lực tạo cơ hội kết nối việc làm cho người khiếm thính, giúp họ hòa nhập và đóng góp cho xã hội.
+		  Theo báo cáo thường niên, đến nay She+ đã cùng với VNAP HLC kêu gọi quyên góp tặng hơn 50 thiết bị trợ thính cho trẻ khiếm thính thuộc gia cảnh khó khăn tại Việt Nam; các chương trình trao học bổng ngày tựu trường cho hàng trăm trẻ khuyết tật có hoàn cảnh khó khăn; các hoạt động thực tế nhằm giúp trẻ khuyết tật cải thiện kỹ năng sống và giao tiếp.
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  Hiện <b>SHE+</b> đang có rất nhiều đơn vị tìm đến để tuyển dụng người khiếm thính tuy nhiên để đáp ứng yêu cầu tuyển dụng vẫn cồn một khoảng trống điều đó phụ thuộc rất nhiều vào các yếu tố khách quan và chủ quan.
+		 SHE+ đã kêu gọi để hỗ trợ các thành viên VNAP HLC trong mùa dịch như: Lớp trị liệu ngôn ngữ online (hỗ trợ các trẻ khiếm thính có gia cảnh khó khăn hơn 200 tiết học trị liệu ngôn ngữ) chương trình này đã đạt giải khuyến khích trong cuộc thi Sáng kiến trong mùa dịch; tặng khẩu trang cho các trường dạy trẻ khuyết tật tại Khánh Hoà- Quảng Bình- Hà Nội- Bắc Ninh.
+		</p>
+		<img src="/image/story-detail-23.png" class="text-black mb-2 leading-relaxed w-full"/>
+		<div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		  Những sản phẩm thủ công xinh đẹp được chính tay những bạn trẻ bị khiếm thính làm ra.
+		</div>
+		<p class="text-black mb-4 leading-relaxed">
+		  Đặc biệt một số nhân sự chính của VNAP HLC cũng là thành viên của She+ đã tham gia tích cực các dự án về Quyền Trẻ em khuyết tật để trở thành tập huấn viên của chương trình. Từ đây, họ còn tiếp tục tập huấn cho các thành viên của mình ngoài phạm vi của dự án như: Lâm Đồng- Dak Lak- Thái Nguyên- Thừa Thiên Huế- Hậu Giang.
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  Khi tìm kiếm việc làm, mối quan tâm hàng đầu của người khiếm thính thường là môi trường làm việc thân thiện và không phân biệt đối xử. Họ mong muốn được làm việc trong môi trường tôn trọng, hỗ trợ và tạo điều kiện để phát huy khả năng.
+		 SHE+ đã hỗ trợ tổ chức nhiều lớp hướng nghiệp giúp cho các thành viên Hội, mang lại tác động tích cực sự thúc đẩy niềm tin và gia tăng sự lựa chọn nghề phù hợp với người khuyết tật hướng đến đích có việc làm và sống độc lập cho người khiếm thính đến tuổi trưởng thành.
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  Tuy nhiên thực tế là việc đào tạo tại trường và gia đình chưa hỗ trợ nhiều về đào tạo kỹ năng chuyên môn và kỹ năng mềm, đây chính yếu tố quan trọng giúp họ tự tin và đáp ứng yêu cầu công việc.
+		 Gần đây nhất, VNAP HLC đã kêu gọi kết nối tổ chức hoạt động giao lưu trải nghiệm, tặng quà tết cho học sinh toàn Trường Chuyên Biệt Bình Minh (Đông Anh, Hà Nội) năm 2023 và 5 trường hợp có gia cảnh khó khăn năm 2024 tổng giá trị hơn 200.000.000 đồng.
+		</p>
+		<img src="/image/story-detail-24.png" class="text-black mb-2 leading-relaxed w-full"/>
+		<div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		  Các sự kiện dành cho các bạn trẻ bị khiếm thính vẫn luôn được VNAP HLC và She+ tổ chức đều đặn hàng năm.
+		</div>
+		<p class="text-black mb-4 leading-relaxed">
+			Dù đã đạt được những thành công nhất định, song bà Chử Thị Thanh Hương vẫn luôn đau đáu để VNAP HLC và She+ có thể phát triển bền vững: “Sau 1 trận ốm rất nặng, tôi mới bắt đầu nghĩ nếu có chuyện gì xảy ra với tôi thì cộng đồng này sẽ đi về đâu. Đó là lí do mà tôi đã thành lập She+. Tôi sẽ cố gắng đồng hành, phát triển cùng nó để sau này khi đã nghỉ hưu hay dù tôi không còn trên cõi đời này nữa, thì bất kì một ai đó tiếp quản doanh nghiệp này sẽ tiếp tục sứ mệnh và mục tiêu để hỗ trợ cho cộng đồng người khiếm thính Việt Nam”.
+		</p>
+		`,
+  },
+  {
+    title: "Đưa “âm thanh” đến người khiếm thính",
+    description: "“Khó lắm, các em không hợp tác với tôi, thậm chí vứt màu vẽ, tác phẩm lung tung, đánh nhau, xé bài mẫu… Vài em giao tiếp được thì lại nói trống không” - người thầy, người họa sĩ Văn Y (72 tuổi) hồi tưởng về những ngày đầu mở lớp dạy vẽ 0 đồng để mang “âm thanh hội họa” đến với người khiếm thính.",
+    author: "Thuỷ Tiên - Mai Thi",
+    imageAuthor: "/image/author-22.png",
+    date: "Thứ bảy, 01/10/2022 10:36 (GMT+7)",
+    img: "/image/story-10.png",
+    createdAt: "2022-10-01",
+    slug: "dua-am-thanh-den-nguoi-khiem-thinh",
+    content: `
+		<img src="/image/story-detail-25.png" class="text-black mb-2 leading-relaxed w-full"/>
+		<div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+			Lớp "Âm thanh hội họa" do họa sĩ Văn Y thành lập. Ảnh: NVCC
+		</div>
+	  	<p class="text-black font-bold mb-4 leading-relaxed">
+		 Cơ duyên biến thành tâm huyết
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  Việc nâng cao nhận thức của cộng đồng và doanh nghiệp về khả năng và tiềm năng của người khiếm thính, cùng với việc tạo điều kiện tiếp cận giáo dục và đào tạo nghề, sẽ góp phần mở rộng cơ hội việc làm cho họ, giúp họ tự tin tham gia thị trường lao động và đóng góp cho sự phát triển của xã hội.
+		  Nhiều năm về trước, trong một lần đi dạo ở công viên, hoạ sĩ Văn Y (quận Phú Nhuận, TPHCM) tình cờ chứng kiến nhóm bạn trẻ câm điếc đứng múa bằng kí hiệu với mong muốn đổi lấy sự giúp đỡ từ những tấm lòng hảo tâm. Những gương mặt ấy dù đang cười tươi nhưng vẫn có nét buồn tủi, ông tiến lại gần và cố gắng bắt chuyện, giao tiếp với các em.
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  Việc làm là chìa khóa để người khiếm thính tự tin và độc lập trong cuộc sống. Hiện nay, nhiều doanh nghiệp, đặc biệt là <b>SHE+ Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam</b>, đang mở ra nhiều cơ hội kết nối việc làm phù hợp với khả năng và mong muốn của các bạn khiếm thính.
+		  Mỗi ngày các em được chia nhau chỉ vài chục nghìn từ công việc này. Xót xa thay, người họa sĩ hỏi thăm những bạn nhỏ có hứng thú tham gia lớp học vẽ do mình dạy không. Bởi, dù không thể nghe, không thể nói nhưng họ có thể thổ lộ bằng nét vẽ. Từ đó, lớp “Âm thanh hội họa” ra đời.
+		</p>
+		<img src="/image/story-detail-26.png" class="text-black mb-2 leading-relaxed w-full"/>
+		<div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+			Thứ bảy mỗi tuần, các học viên khiếm thính sẽ tập trung học tập và sáng tác những tác phẩm tại lớp “Âm thanh hội họa”. Ảnh: NVCC
+		</div>
+		<p class="text-black mb-4 leading-relaxed">
+		  Khởi đầu từ tháng 3.2017, lớp dạy vẽ miễn phí “Âm thanh hội họa” thuộc câu lạc bộ Mekong Art, ban đầu chỉ có 10 học viên là người khiếm thính, đến nay con số đó là hơn 30 em từ nhiều tỉnh thành, hoàn cảnh và độ tuổi khác nhau. Em trẻ nhất chỉ mới 17 tuổi, cũng có học viên đã sắp sửa bước qua tuổi 65.
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  SHE+ nhận được rất nhiều tin nhắn từ phụ huynh, từ các bạn khiếm thính hỏi về kết nối việc làm. Đồng thời nhận được rất nhiều ủy thác từ các doanh nghiệp mong muốn kết nối tuyển dụng người khiếm thính tạo cơ hội học nghề: may thuê, nấu ăn, vẽ từ các Doanh nghiệp trên địa bàn Hà Nội, TP Hồ Chí Minh
+		  Nói về cái tên của lớp, hoạ sĩ Văn Y bộc bạch: “Các em câm, điếc thường rất mặc cảm, bức bối đè nén trong lòng. Tôi muốn dùng hội họa là một cách thức, ngôn ngữ giao tiếp để xóa đi rào cản ấy, giúp họ có đủ dũng khí, tự tin, hòa nhập với cộng đồng, vượt lên số phận, sống và làm việc như những người bình thường”.
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  Hãy tham gia khảo sát để chúng tôi kết nối công việc với đúng khả năng của bạn và nhu cầu của người tuyển dụng
+		  Với thầy, các em có thể không nghe được những gì chúng ta nói hằng ngày nhưng hội họa cũng có thể là một thứ âm thanh diệu kì, mượn những nét vẽ để nói lên lòng mình.
+		</p>
+		<img src="/image/story-detail-27.png" class="text-black mb-2 leading-relaxed w-full"/>
+		<div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+			Người thầy, người họa sĩ Văn Y được học trò yêu quý và biết ơn. Ảnh: NVCC
+		</div>
+		<p class="text-black mb-4 leading-relaxed">
+		 Cô Thúy Vân gắn bó với tư cách là cộng sự của hoạ sĩ Văn Y từ năm 2019. Chứng kiến nhiều lần tưởng chừng lớp học dừng hoạt động, cô chia sẻ: “Thầy là họa sĩ với tâm hồn bay bổng nhưng luôn đặt tình thương, sự ưu tiên là lợi ích dành cho các em học trò đặc biệt của mình”.
+		</p>
+		<p class="text-black  mb-4 leading-relaxed">
+		 Từ cơ duyên gặp gỡ những phận đời khó khăn, người thầy chăm sóc các em như con cái trong nhà, coi đây là tâm huyết của cuộc đời mình.
+		</p>
+		<p class="text-black mb-4 font-bold leading-relaxed">
+		 Trời không lấy đi của ai tất cả
+		</p>
+	  <p class="text-black mb-4 leading-relaxed">
+		 Thời gian đầu, những khó khăn trong giao tiếp làm cả thầy lẫn trò khá “sốc”, nhưng thầy không nản chí, kiên nhẫn thấu hiểu các em.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		 “Nhiều hành động “quậy phá” là do các em đang muốn được “xả” ra. Bởi, các em chất chứa quá nhiều sự tự ti, mặc cảm giao tiếp. Bây giờ học trò của tôi ngoan và nề nếp lắm, đến lớp, ra về đều thưa thầy, thưa cô”, thầy cười hiền, nói thêm.
+		</p>
+		<p class="text-black font-bold leading-relaxed">
+		  Lối diễn đạt khác người bình thường, không thể dùng lối đào tạo theo khuôn mẫu mỹ thuật thông thường, thầy để người học thoải mái với những cây cọ, bút màu mà không vẽ theo một chủ đề cố định.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		 Thầy Văn Y tự hào: “Trời không lấy đi của ai tất cả, mất cái này, họ được bù cái khác, vẽ cũng là một trong những tài năng đó. Nhiều em vẽ có hồn lắm!”.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+			Tất cả các học viên của lớp “Âm thanh hội họa” đều được Hội Mỹ thuật TPHCM công nhận là họa sĩ khuyết tật. Qua những buổi triển lãm, một số bức tranh đã được bán. Với số tiền thu được, lớp học đã trích 25% số tiền đi từ thiện nhiều nơi, giúp đỡ nhiều mảnh đời khó khăn trên tinh thần nhân ái và chia sẻ; 50% thuộc về tác giả; 25% còn lại dùng để tiếp tục nuôi dưỡng lớp học.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+			Chị Đinh Bảo Trân (36 tuổi) theo học tại đây được 5 năm và đã bán được 6 bức tranh trong những buổi triển lãm. Lau vội giọt nước mắt, chị bối rối dùng những kí hiệu, bày tỏ: “Được đến lớp học vẽ “Âm thanh hội họa” là niềm vui của tôi. Tôi được gặp nhiều bạn bè, họ thân thiện và giúp đỡ tôi rất nhiều. Hơn hết, tôi biết ơn khi có thầy cô dìu dắt, đổ mồ hôi nước mắt để tôi biết vẽ, được đi trại sáng tác, có cái nghề tạo thêm thu nhập”.
+		</p>
+		<img src="/image/story-detail-28.png" class="text-black mb-2 leading-relaxed w-full"/>
+		<div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+		  Em Bảo Trân và ba của mình. Ảnh: Mai Thi
+		</div>
+		<p class="text-black mb-4 leading-relaxed">
+		  Ông Đinh Công Đức (ngụ quận 12, TPHCM) là ba của chị Bảo Trân kể về những thay đổi lớn trong nhận thức, thái độ, hành động của con mình sau quãng thời gian theo học tại lớp vẽ.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Ông nói thêm: “Quả thực, thầy Văn Y hay cô Vân ở đây đều đã rất hi sinh vì tương lai lớp trẻ. Rất hiếm những người làm được như vậy, lớp học 0 đồng làm tôi cũng như những phụ huynh khác rất cảm động và biết ơn. Tôi cũng mong các cháu có những khiếm khuyết như con tôi, tham gia lớp học có thể hội nhập xã hội trong tương lai gần, đứng được trên đôi bàn chân của chính mình hay có những hành trình vươn xa hơn”.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Ngày hôm nay, tại “Âm thanh hội họa”, hơn một trăm bức tranh của các họa sĩ khiếm thính ra đời là thành quả của sự miệt mài trau chuốt trên từng nét cọ, những gam màu tươi sáng.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  “Có một loại âm thanh không thể chạm đến nhưng sống động và đẹp đẽ vô cùng, đó là âm thanh hội họa và tình người”, người thầy 72 tuổi mãn nguyện.
+		</p>
+		`,
+  },
+  {
+    title: "Câu chuyện của một giáo viên người Điếc nghị lực vượt qua rào cản để hòa nhập xã hội",
+    description: "Là người điếc bẩm sinh, lớn lên với rào cản ngôn ngữ và cảm giác bị cô lập, Nguyễn Thị Ngọc Anh đã không bỏ cuộc. Cô đã trở thành một giáo viên dạy trẻ điếc và nỗ lực không mệt mỏi và hy vọng một tương lai tương sáng cho những trẻ em cũng là trẻ điếc như mình.",
+    author: "Nguyễn Thi Ngọc Anh",
+    imageAuthor: "/image/author-23.png",
+    date: " 13 Tháng 4 Năm 2021",
+    img: "/image/story-11.png",
+    createdAt: "2021-04-13",
+    slug: "cau-chuyen-cua-mot-giao-vien-nguoi-diec-nghi-luc-vuot-qua-rao-can-de-hoa-nhap-xa-hoi",
+    content: `
+	  	<p class="text-black font-bold mb-4 leading-relaxed">
+		 Tuổi thơ tập nói theo những khuôn miệng chuyển động
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Dù rất buồn khi biết tin con gái bị điếc bẩm sinh, bố mẹ của Ngọc Anh vẫn quyết tâm cho em đi học để có cơ hội phát triển như những đứa trẻ khác. Bắt đầu vào học lớp mầm non dành cho nghe ở Hà Nội, bé Ngọc Anh khi đó luôn bị bỏ lại phía sau trong các cuộc chơi bởi em không thể hiểu được bạn bè đang nói gì. Bố mẹ Ngọc Anh lại cất công đưa em tới trường Xã Đàn, là trường nuôi dạy trẻ điếc và nghe kém. Tại đây, cô bé và các học sinh khác được đọc hình miệng và liên kết âm đọc với từ vựng. Ngày qua ngày, kiên trì nhìn theo những khuôn miệng mấp máy của giáo viên, Ngọc Anh cũng bập bẹ theo được những từ cơ bản.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Đọc theo khẩu hình miệng chỉ giúp Ngọc Anh một phần trong quá trình giao tiếp cơ bản hàng ngày. Rào cản về ngôn ngữ và kiến thức vẫn là bức tường thành mà em cần phải vượt qua để hòa nhập với bạn bè, gia đình và những người xung quanh.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		 Quẩn quanh trong nỗi vô định về tương lai khi chỉ giao tiếp cơ bản được với những người xung quanh bằng hình miệng không tròn tiếng, không viết được câu đầy đủ, có nhiều từ vựng mới, Ngọc Anh luôn khao khát được giao tiếp, được hiểu, được hòa nhập cộng đồng. Em ước mình có thể tìm được một ngôi trường có hệ thống giảng dạy đầy đủ bằng ngôn ngữ ký hiệu để mở mang kiến thức, phát triển hết khả năng của mình.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		 Ngôn ngữ ký hiệu: “Ánh sáng và niềm tin” của cuộc đời tôi
+		</p>
+	  <p class="text-black mb-4 leading-relaxed">
+		  Việc thông thạo ngôn ngữ ký hiệu nhờ học hỏi từ các bạn cùng cảnh ngộ đã mở ra con đường tri thức cho Ngọc Anh tại trường Cao đẳng Sư phạm Trung ương. Ở đó, các sinh viên người điếc giúp phong phú thêm ký hiệu cho giảng viên, để họ có thể sử dụng ngôn ngữ kết hợp với các phương pháp trực quan trong các bài giảng cho học sinh. Đó là một môi trường hợp tác và hỗ trợ cho các sinh viên người điếc.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Được học tập và tích lũy thêm kiến thức khiến Ngọc Anh tự tin hơn. Cô tham gia sinh hoạt ngoài cộng đồng với Câu lạc bộ người Điếc Hà Nội – từng hoạt động dưới sự hỗ trợ của Dự án giáo dục trẻ điếc trước tuổi đến trường (IDEO, một dự án do Ngân hàng Thế giới tài trợ). Một trong những dự án khiến cô tự hào nhất và nhớ mãi không quên đó là dự án IDEO - giáo dục trẻ điếc trước tuổi đến trường. Ngọc Anh nhận định: “Nếu trẻ điếc được học ngôn ngữ ký hiệu sớm từ khi phát hiện thì trẻ sẽ tiếp thu đầy đủ kiến thức ngang bằng với trẻ nghe được. Khi các con được đi học sớm, có ký hiệu thì các con sẽ tiếp thu bài học rất nhanh để sẵn sàng vào lớp 1. Nền tảng ngôn ngữ chính là để giúp trẻ học mở rộng thêm các kiến thức ở các cấp học sau này”.
+		</p>
+		<img src="/image/story-detail-29.png" class="text-black mb-2 leading-relaxed w-full"/>
+		<div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+			Cô giáo Ngọc Anh đang hướng dẫn môn tiếng Việt cho em Nguyễn Ngọc Bảo Châu (7 tuổi) tại trường Cao đẳng Sư phạm TW. Ảnh: Lê Thắng/Ngân hàng Thế giới 
+		</div>
+		<p class="text-black leading-relaxed">
+		 "Quá trình đi học, tôi viết được Tiếng Việt cơ bản, phần nhiều là những từ đơn, vốn từ Tiếng Việt tôi học được không đủ để viết được câu có nghĩa và bộc lộ đầy đủ cảm xúc, hoặc bày tỏ hết điều bản thân mong muốn. Điều này khiến tôi vô cùng chán nản. Tôi cứ mãi thắc mắc không hiểu sao bố mẹ nói chuyện với nhau, những người xung quanh nói rất nhiều, còn mình thì nói không ai hiểu."
+		</p>
+		<p class="text-black leading-relaxed">
+		 Nguyễn Thi Ngọc Anh
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		  Phương pháp giảng dạy trực quan để hỗ trợ học sinh điếc và nghe kém học tập tốt hơn
+		</p>
+		<p class="text-black mb-4  leading-relaxed">
+		 Với kiến thức và niềm đam mê của mình, Ngọc Anh hiện là một trong 500 giáo viên giảng dạy bằng ngôn ngữ ký hiệu đang được tập huấn sử dụng danh mục 4.000 ngôn ngữ ký hiệu tiếng Việt và 150 video bài giảng Toán và tiếng Việt dành cho giáo viên dạy trẻ điếc.
+		</p>
+	  	<p class="text-black mb-4 leading-relaxed">
+		 Các tài liệu này được xây dựng trong khuôn khổ Dự án Nâng cao chất lượng giáo dục học sinh khiếm thính cấp tiểu học thông qua ngôn ngữ ký hiệu (QIPEDC) , do Quỹ Hợp tác Toàn cầu tài trợ theo kết quả đầu ra (GPRBA) ủy thác thông qua Ngân hàng Thế giới và Bộ Ngoại giao và Thương mại Australia tài trợ. Mục tiêu của dự án là tăng cường khả năng tiếp cận cho học sinh khiếm thính cấp tiểu học thông qua việc sử dụng ngôn ngữ ký hiệu tiếng Việt nhằm nâng cao kết quả học tập của trẻ. Dự án được Bộ Giáo dục và Đào tạo triển khai tại 20 tỉnh thành.
+		</p>
+		<p class="text-black mb-4 leading-relaxed">
+		 Việc sử dụng ngôn ngữ ký hiệu chính là đóng vai trò tạo dựng nền tảng trong giáo dục trẻ điếc và nghe kém. Ngọc Anh cho rằng, “nếu các thầy cô cứ áp dụng phương pháp của trẻ nghe cho trẻ điếc, thì đây là cách cứng nhắc và trẻ điếc sẽ không thể tiếp thu được kiến thức. Do đó, phương pháp phù hợp nhất với trẻ điếc là sử dụng phương pháp trực quan.”
 		</p>
 		<p class="text-black  leading-relaxed">
-		  Thông tin khảo sát chỉ dùng với mục đích kết nối việc làm đúng nhu cầu của các bạn và giúp chúng tôi tư vấn việc làm, môi trường tuyển dụng phù hợp với người khiếm thính tới các doanh nghiệp đang tạo cơ hội việc làm cho người khiếm thính/điếc (dạng tật Nghe Nói)<a href="https://forms.gle/E1nrk9hjs4EVA94m7" target="_blank" rel="noopener noreferrer" class="block underline  decoration-solid mb-4">
-		  https://forms.gle/E1nrk9hjs4EVA94m7
-		</a>
+		 Ngoài ra, sự kết hợp giáo dục cho trẻ giữa gia đình và nhà trường có vai trò quan trọng trong quá trình bồi đắp kiến thức, hiểu biết ở trẻ để các em phát triển thành công. Phụ huynh rất cần học ký hiệu để có thể giao tiếp với trẻ và khuyến khích các em thể hiện nhu cầu, mong muốn của bản thân. Điều đó cũng giúp các em có thể giao tiếp các vấn đề hằng ngày như việc nhà, vệ sinh, bày tỏ ý kiến cũng như khám phá tài năng và sở thích của mình.
+		</p>
+		<img src="/image/story-detail-30.png" class="text-black mb-2 leading-relaxed w-full"/>
+		<div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
+			Cô giáo Ngọc Anh đang hướng dẫn môn tiếng Việt cho em Đàm Thị Minh Nguyệt (8 tuổi) tại trường Cao đẳng Sư phạm TW. Ảnh: Huỳnh Cường/Ngân hàng Thế giới
+		</div>
+		<p class="text-black mb-4 leading-relaxed">
+			Câu chuyện về hành trình trở thành giáo viên của Ngọc Anh vừa là minh chứng về nội lực vượt qua nghịch cảnh, nhưng cũng là khẳng định về vai trò của ngôn ngữ ký hiệu - một công cụ quan trọng trong sự phát triển năng lực của trẻ điếc. Ngôn ngữ ký hiệu chính là phương tiện giao tiếp, là văn hóa và bản sắc của cộng đồng người điếc. Thông qua giảng dạy, học tập ngôn ngữ ký hiệu, trẻ điếc có cơ hội giao tiếp, học hỏi, tiếp thu tri thức và xóa bỏ rào cản để sẵn sàng hòa nhập vào xã hội.
 		</p>
 		<p class="text-black mb-4 leading-relaxed">
-		  Liên hệ <b>SHE+</b> để được tư vấn miễn phí dịch vụ hòa nhập cộng đồng, đánh giá và đưa ra các giải pháp phục hồi chức năng nghề nghiệp, sẽ rất tốt nếu gia đình có thể đi cùng với trẻ khiếm thính (từ 13 tuổi trở lên)
+			Ngọc Anh tin rằng: “Trẻ điếc cần được học ngôn ngữ ký hiệu, cũng giống như trẻ nghe được cần được học ngôn ngữ nói.”
 		</p>
-	   `,
+		`,
   },
 ];
 
@@ -2658,11 +3461,11 @@ export const dataVolunteer = [
 ];
 export const dataSukien = [
   {
-    img: "/image/volunteer-1.png",
-    title: "Docker Container Practice",
-    description: "As a senior developer, achieving a balance between work and life is crucial. In this article, I will share some practical methods to achieve t...",
-    date: "14.05.25",
-    slug: "docker-container-practice-1",
+    img: "/image/sukien1.png",
+    title: "Workshop Hướng nghiệp & Kỹ năng mềm",
+    description: "Workshop Hướng nghiệp & Kỹ năng mềm là chương trình đào tạo thực tiễn với các buổi hội thảo, hoạt động nhóm, trò chơi tương tác và phiên chia sẻ từ các chuyên gia. Dự án được thiết kế nhằm truyền cảm hứng, chia sẻ kinh nghiệm và cung cấp các công cụ giúp người khiếm thính phát triển toàn diện kỹ năng mềm cùng khả năng định hướng nghề nghiệp. Dự án cũng là cơ hội để các tình nguyện viên, những người có đam mê và nhiệt huyết, được tham gia vào quá trình góp phần thay đổi cuộc sống của người khiếm thính.",
+    date: "Chủ Nhật, 20/7/2025 (09:00 – 16:00)",
+    slug: "workshop-huong-nghiep-ky-nang-mem",
     organization: [
       {
         img: "/image/Ellipse-6.png",
@@ -2675,39 +3478,129 @@ export const dataSukien = [
         title: "Foundation for Future",
       },
     ],
-    sortDesc: "Trang bị cho người khiêm thính những kiến thức và kỹ năng thực tiễn để tự tin bước vào thị trường lao động. Tạo cơ hội kết nỗi giữa người khiếm thính và chuyên gia hướng nghiệp.",
+    sortDesc: "Workshop Hướng nghiệp & Kỹ năng mềm là chương trình đào tạo thực tiễn với các buổi hội thảo, hoạt động nhóm, trò chơi tương tác và phiên chia sẻ từ các chuyên gia. Dự án được thiết kế nhằm truyền cảm hứng, chia sẻ kinh nghiệm và cung cấp các công cụ giúp người khiếm thính phát triển toàn diện kỹ năng mềm cùng khả năng định hướng nghề nghiệp. Dự án cũng là cơ hội để các tình nguyện viên, những người có đam mê và nhiệt huyết, được tham gia vào quá trình góp phần thay đổi cuộc sống của người khiếm thính.",
     time: "Chủ Nhật, 20/7/2025 (09:00 – 16:00)",
     location: "Số 15, Đường Lê Duẩn, Quận Hai Bà Trưng, Hà Nội",
-    requirements: ["Kỹ năng giao tiếp: Tốt, thân thiện và nhiệt huyết", "Ưu tiên: Ứng viên có kinh nghiệm làm việc trong các hoạt động hướng nghiệp, đào tạo kỹ năng mềm, hoặc biết ngôn ngữ ký hiệu", "Thái độ: Năng động, có tinh thần trách nhiệm và khả năng làm việc nhóm tốt"],
-    roles: ["Hỗ trợ điều phối sự kiện, đăng ký và tiếp đón học viên", "Hỗ trợ phiên chia sẻ và phiên dịch ngôn ngữ ký hiệu cho người tham dự nếu cần thiết", "Giao tiếp hỗ trợ chuyên môn: Hỗ trợ tư vấn, cung cấp thông tin và hướng dẫn các hoạt động của workshop"],
-    benefits: ["Cơ hội được đào tạo kỹ năng quản lý dự án, tổ chức sự kiện chuyên nghiệp", "Mở rộng mạng lưới kết nối với cộng đồng và các chuyên gia trong lĩnh vực giáo dục, hướng nghiệp", "Cơ hội góp phần trực tiếp vào việc thay đổi cuộc sống của người khiếm thính"],
+    content: `
+	<div class="mb-10">
+		<h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Giới thiệu</h2>
+		<p class="text-black text-sm mb-4 leading-relaxed">
+			Foundation for Future hân hạnh giới thiệu sự kiện Workshop Hướng nghiệp & Kỹ năng mềm, một chương trình thiết thực nhằm trang bị kiến thức, kỹ năng và động lực cho cộng đồng người khiếm thính trên hành trình chinh phục ước mơ nghề nghiệp.
+		</p>
+		<p class="text-black text-sm mb-4 leading-relaxed">
+			Sự kiện được thiết kế với nhiều hoạt động đa dạng như hội thảo chuyên đề, hoạt động nhóm, trò chơi tương tác và chia sẻ thực tế từ các chuyên gia. Qua đó, người tham dự sẽ được phát triển kỹ năng mềm thiết yếu như giao tiếp, tư duy phản biện, làm việc nhóm và định hướng nghề nghiệp rõ ràng hơn cho bản thân
+		</p>
+		<p class="text-black text-sm leading-relaxed">
+			Đặc biệt, đây cũng là cơ hội để các tình nguyện viên trẻ đam mê công tác cộng đồng trực tiếp tham gia hỗ trợ, lan tỏa yêu thương và góp phần tạo nên sự thay đổi tích cực cho cuộc sống của người khiếm thính.
+		</p>
+	</div>
+	<div class="mb-10">
+		<h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Thông tin sự kiện</h2>
+		<div class="text-sm flex"><div class="font-bold">Thời gian:</div>Thứ Bảy, ngày 28/9/2025 (09:00 – 16:00)</div>
+		<div class="text-sm flex"><div class="font-bold">Địa điểm:</div>Số 123, Đường Lê Lợi, Quận 1, Thành phố Hồ Chí Minh</div>
+	</div>
+	 <div class="mb-10">
+		<h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Nội dung nổi bật</h2>
+		<ul class="list-disc text-sm list-inside">
+			<li>Hội thảo định hướng nghề nghiệp và phát triển kỹ năng mềm</li>
+			  <li>Hoạt động nhóm, trò chơi tăng cường tương tác và kỹ năng</li>
+			<li>Chia sẻ kinh nghiệm thực tế từ chuyên gia trong các lĩnh vực</li>
+			<li>Giao lưu, kết nối cộng đồng và cơ hội việc làm</li>
+		</ul>
+	</div>
+	 <div>
+		<h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Đối tượng tham gia</h2>
+		<ul class="list-disc text-sm list-inside">
+			  <li>Người khiếm thính mong muốn phát triển kỹ năng nghề nghiệp</li>
+			<li>Tình nguyện viên có mong muốn đồng hành và hỗ trợ cộng đồng</li>
+		</ul>
+	</div>
+	`,
   },
   {
-    img: "/image/volunteer-2.png",
-    title: "Docker Container Practice",
-    description: "As a senior developer, achieving a balance between work and life is crucial. In this article, I will share some practical methods to achieve t...",
-    date: "14.05.25",
-    slug: "docker-container-practice-1",
-    organization: [],
-    sponsoring: [
+    img: "/image/sukien2.png",
+    title: 'Chiến dịch Gây quỹ Cộng đồng "Ánh sáng thầm lặng"',
+    description: "Dự án “Ánh sáng thầm lặng” nhằm gây quỹ hỗ trợ học bổng, trang thiết bị trợ thính, và các chương trình đào tạo nghề cho người khiếm thính. Trong khuôn khổ chiến dịch này, Workshop Hướng nghiệp & Kỹ năng mềm được tổ chức để trang bị kiến thức và kỹ năng cần thiết cho người khiếm thính, đồng thời là dịp tuyển dụng, huy động tinh thần và năng lực của các tình nguyện viên.",
+    date: "Thứ Bảy, ngày 28/9/2025 (09:00 – 16:00)",
+    slug: "chien-dich-gay-quy-cong-dong",
+    organization: [
       {
         img: "/image/Ellipse-7.png",
         title: "Foundation for Future",
       },
     ],
-    sortDesc: "Gây quỹ hỗ trợ học bổng, trang thiết bị trợ tính và chương trình đào tạo cho người khiếm tính. Tăng cường nhận thức cộng của cộng đồng về vai trò và tiềm năng của người khiếm thính.",
+    sponsoring: [],
+    sortDesc: "Dự án “Ánh sáng thầm lặng” nhằm gây quỹ hỗ trợ học bổng, trang thiết bị trợ thính, và các chương trình đào tạo nghề cho người khiếm thính. Trong khuôn khổ chiến dịch này, Workshop Hướng nghiệp & Kỹ năng mềm được tổ chức để trang bị kiến thức và kỹ năng cần thiết cho người khiếm thính, đồng thời là dịp tuyển dụng, huy động tinh thần và năng lực của các tình nguyện viên.",
     time: "Thứ Bảy, ngày 28/9/2025 (09:00 – 16:00)",
     location: "Số 123, Đường Lê Lợi, Quận 1, Thành phố Hồ Chí Minh",
-    requirements: ["Đam mê hoạt động cộng đồng, ưu tiên những người có kiến thức hoặc kinh nghiệm hỗ trợ người khiếm thính.", "Kỹ năng giao tiếp tốt, biết hoặc có khả năng học ngôn ngữ ký hiệu là một lợi thế.", "Năng lực tổ chức, làm việc nhóm và cam kết thời gian sự kiện đầy đủ.", "Có kiến thức, chuyên môn về vị trí đảm nhiệm"],
-    roles: ["Tình nguyện viên Truyền thông & Quảng bá: Chịu trách nhiệm tạo nội dung và lan tỏa thông điệp trên các kênh truyền thông.", "Tình nguyện viên Điều phối Sự kiện: Hỗ trợ tổ chức và phối hợp hoạt động gây quỹ.", "Tình nguyện viên Tiếp cận Cộng đồng: Chủ động kết nối với cá nhân, tổ chức để mời gọi và thu hút sự ủng hộ."],
-    benefits: ["Chứng nhận hoặc giấy khen từ Foundation for Future.", "Cơ hội trải nghiệm, học hỏi và mở rộng kết nối trong môi trường giáo dục và hướng nghiệp.", "Hỗ trợ đào tạo chuyên sâu về giao tiếp với người khiếm thính và kỹ năng mềm."],
+    content: `
+  		<div class="mb-10">
+  			<h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Giới thiệu</h2>
+  			<p class="text-black text-sm leading-relaxed">
+  				Foundation for Future hân hạnh phát động Chiến dịch Gây quỹ Cộng đồng "Ánh sáng thầm lặng" – một chương trình ý nghĩa nhằm hỗ trợ người khiếm thính tại Việt Nam. Thông qua chiến dịch, chúng tôi hướng tới mục tiêu:
+  			</p>
+			<p class="text-black text-sm  leading-relaxed pl-4">
+  				• Cấp học bổng cho học viên khiếm thính có hoàn cảnh khó khăn.
+  			</p>
+			<p class="text-black text-sm  leading-relaxed pl-4">
+  				• Trang bị thiết bị trợ thính nhằm hỗ trợ khả năng giao tiếp và học tập.
+  			</p>
+			<p class="text-black text-sm  leading-relaxed pl-4">
+  				• Tổ chức các khóa đào tạo nghề thiết thực, giúp người khiếm thính tự tin hòa nhập thị trường lao động.
+  			</p>
+  			<p class="text-black text-sm leading-relaxed">
+  				Chúng tôi tin rằng, với sự chung tay của cộng đồng, những "ánh sáng thầm lặng" sẽ được thắp lên, giúp người khiếm thính vững bước trên hành trình phát triển bản thân.
+  			</p>
+  		</div>
+  		<div class="mb-10">
+              <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Workshop Hướng nghiệp & Kỹ năng mềm</h2>
+              <p class="text-black text-sm leading-relaxed">
+  				Nằm trong khuôn khổ chiến dịch, Workshop Hướng nghiệp & Kỹ năng mềm được tổ chức nhằm:
+  			</p>
+			<p class="text-black text-sm  leading-relaxed pl-4">
+  				• Trang bị kiến thức về nghề nghiệp, kỹ năng mềm và kỹ năng sống cho người khiếm thính.
+  			</p>
+			<p class="text-black text-sm  leading-relaxed pl-4">
+  				• Kết nối, tuyển chọn và huấn luyện các tình nguyện viên đồng hành cùng các hoạt động hỗ trợ lâu dài.
+  			</p>
+			<p class="text-black text-sm  leading-relaxed pl-4">
+  				• Tạo cơ hội giao lưu, định hướng nghề nghiệp và xây dựng cộng đồng đoàn kết.
+  			</p>
+        </div>
+		<div class="mb-10">
+			<h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Thông tin sự kiện</h2>
+			<div class="text-sm flex"><div class="font-bold">Thời gian:</div>Thứ Bảy, ngày 28/9/2025 (09:00 – 16:00)</div>
+			<div class="text-sm flex"><div class="font-bold">Địa điểm:</div>Số 123, Đường Lê Lợi, Quận 1, Thành phố Hồ Chí Minh</div>
+		</div>
+  		 <div>
+              <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Tham gia và lan tỏa yêu thương</h2>
+              <p class="text-black text-sm leading-relaxed">
+  				Chúng tôi rất mong được chào đón:
+			  </p>
+				<p class="text-black text-sm  leading-relaxed pl-4">
+					• Các bạn người khiếm thính tham dự chương trình học tập, kết nối cơ hội nghề nghiệp.
+				</p>
+				<p class="text-black text-sm  leading-relaxed pl-4">
+					• Các tình nguyện viên sẵn sàng đồng hành và hỗ trợ cộng đồng.
+				</p>
+				<p class="text-black text-sm  leading-relaxed pl-4">
+					• Các nhà hảo tâm cùng chung tay gây quỹ, tạo nên sự thay đổi tích cực.
+				</p>
+				 <p class="text-black text-sm leading-relaxed">
+  				Hãy cùng chúng tôi lan tỏa yêu thương, trao đi cơ hội, và thắp sáng những ước mơ thầm lặng!
+			  </p>
+			  <p class="text-black text-sm leading-relaxed">
+  				👉 Đăng ký tham gia và ủng hộ ngay hôm nay!
+			  </p>
+          </div>
+  		`,
   },
   {
-    img: "/image/volunteer-3.png",
-    title: "Docker Container Practice",
-    description: "As a senior developer, achieving a balance between work and life is crucial. In this article, I will share some practical methods to achieve t...",
-    date: "14.05.25",
-    slug: "docker-container-practice-1",
+    img: "/image/sukien3.png",
+    title: 'Festival Sáng tạo & Kết nối "Cùng Đổi Mới Tương Lai"',
+    description: 'Festival Sáng tạo & Kết nối "Cùng Đổi Mới Tương Lai" là sự kiện được tổ chức bởi Foundation for Future, nhằm tạo diễn đàn trao đổi, học hỏi và chia sẻ sáng tạo cho cộng đồng người khiếm thính và các đối tác liên quan. Dự án hướng đến việc kết nối các cá nhân, doanh nghiệp và tổ chức để cùng nhau khám phá, ứng dụng các giải pháp sáng tạo trong giáo dục và đào tạo hướng nghiệp. Đồng thời, sự kiện còn là cơ hội để người tham gia trải nghiệm, chia sẻ kinh nghiệm và xây dựng những ý tưởng đổi mới nhằm cải thiện chất lượng cuộc sống cho cộng đồng.',
+    date: "Thứ Bảy, ngày 15/9/2025 (09:00 – 17:00)",
+    slug: "festival-sang-tao-ket-noi",
     organization: [
       {
         img: "/image/Ellipse-8.png",
@@ -2724,12 +3617,274 @@ export const dataSukien = [
         title: "UNICEF Việt Nam",
       },
     ],
-    sortDesc: "Truyền cảm hứng và chia sẻ kinh nghiệm đổi mới trong giáo dục và hỗ trợ nghề nghiệp cho người khiếm thính. Tạo sân chơi kết nối, giao lưu và hợp tác giữa người khiếm thính, chuyên gia và doanh nghiệp trong việc phát triển công nghệ, sản phẩm",
+    sortDesc: "Dự án “Ánh sáng thầm lặng” nhằm gây quỹ hỗ trợ học bổng, trang thiết bị trợ thính, và các chương trình đào tạo nghề cho người khiếm thính. Trong khuôn khổ chiến dịch này, Workshop Hướng nghiệp & Kỹ năng mềm được tổ chức để trang bị kiến thức và kỹ năng cần thiết cho người khiếm thính, đồng thời là dịp tuyển dụng, huy động tinh thần và năng lực của các tình nguyện viên.",
     time: "Thứ Bảy, ngày 15/9/2025 (09:00 – 17:00)",
     location: "Trung tâm Hội nghị & Triển lãm, Thành phố Hồ Chí Minh.",
-    requirements: ["Các cá nhân năng động, có đam mê hoạt động cộng đồng và sáng tạo.", "Ưu tiên ứng viên có kỹ năng giao tiếp tốt, biết ngôn ngữ ký hiệu hoặc đã có kinh nghiệm làm việc trong các hoạt động tình nguyện và quản lý sự kiện."],
-    roles: ["Hỗ trợ điều phối: Giúp ban tổ chức điều phối các phiên hội thảo, workshop và phiên giao lưu.", "Hỗ trợ hậu cần: Hướng dẫn người tham dự, phụ trách các gian hàng và hỗ trợ tổ chức sự kiện tại chỗ.", "Truyền thông & quảng bá: Hỗ trợ tạo nội dung, quảng bá sự kiện trên các kênh truyền thông xã hội và phối hợp với các đối tác truyền thông.", "Hỗ trợ kỹ thuật: Hỗ trợ các vấn đề liên quan đến công nghệ, phiên dịch ngôn ngữ ký hiệu, quản lý tài liệu sự kiện."],
-    benefits: ["Cơ hội trải nghiệm môi trường làm việc chuyên nghiệp trong lĩnh vực cộng đồng và giáo dục.", "Phát triển kỹ năng tổ chức sự kiện, giao tiếp và kỹ năng lãnh đạo.", "Kết nối với các chuyên gia, doanh nghiệp và cộng đồng sáng tạo.", "Nhận giấy chứng nhận tình nguyện, hỗ trợ tích lũy kinh nghiệm và mở rộng mạng lưới quan hệ.     "],
+    content: `
+  		<div class="mb-10">
+  			<h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Giới thiệu</h2>
+  			<p class="text-black text-sm mb-4 leading-relaxed">
+  				Festival Sáng tạo & Kết nối "Cùng Đổi Mới Tương Lai", nơi hội tụ những ý tưởng đổi mới, cơ hội kết nối và sẻ chia dành cho cộng đồng người khiếm thính cùng các đối tác, tổ chức đồng hành.
+  			</p>
+			<p class="text-black text-sm mb-4 leading-relaxed">
+  				Sự kiện được tổ chức nhằm tạo ra một diễn đàn mở, khuyến khích trao đổi sáng tạo và chia sẻ kinh nghiệm giữa người khiếm thính, doanh nghiệp, tổ chức giáo dục, và những cá nhân quan tâm. Festival không chỉ giới thiệu các giải pháp sáng tạo trong giáo dục và đào tạo hướng nghiệp, mà còn khơi nguồn cảm hứng cho những sáng kiến mới nhằm nâng cao chất lượng cuộc sống cho cộng đồng.
+  			</p>
+  		</div>
+		<div class="mb-10">
+			<h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Thông tin sự kiện</h2>
+			<div class="text-sm flex"><div class="font-bold">Thời gian:</div>Thứ Bảy, ngày 15/9/2025 (09:00 – 17:00)</div>
+			<div class="text-sm flex"><div class="font-bold">Địa điểm:</div>Trung tâm Hội nghị & Triển lãm, Thành phố Hồ Chí Minh</div>
+		</div>
+  		<div class="mb-10">
+              <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Những điểm nổi bật tại Festival</h2>
+              <div class="text-sm flex"><div class="font-bold">Khu trải nghiệm sáng tạo:</div>Trưng bày các sản phẩm, giải pháp công nghệ hỗ trợ người khiếm thính.</div>
+			  <div class="text-sm flex"><div class="font-bold">Hội thảo chuyên đề: </div>Chia sẻ từ các chuyên gia về xu hướng giáo dục, nghề nghiệp và đổi mới sáng tạo.</div>
+			  <div class="text-sm flex"><div class="font-bold">Kết nối hợp tác: </div>Cơ hội gặp gỡ, giao lưu và mở rộng mạng lưới giữa cá nhân, doanh nghiệp và tổ chức.</div>
+			  <div class="text-sm flex"><div class="font-bold">Sân chơi sáng tạo: </div>Các hoạt động tương tác, cuộc thi ý tưởng đổi mới vì cộng đồng.</div>
+        </div>
+  		 <div>
+              <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Đối tượng tham gia</h2>
+              <p class="text-black text-sm leading-relaxed">
+  				Người khiếm thính, sinh viên, giáo viên, các nhà sáng tạo, tổ chức phi lợi nhuận, doanh nghiệp và tất cả những ai quan tâm tới đổi mới sáng tạo trong giáo dục và hướng nghiệp
+				</p>
+</div>
+  		`,
+  },
+  {
+    img: "/image/sukien4.png",
+    title: 'Hội thảo "Đồng Hành Bảo Vệ Quyền Trẻ Em – Từ Nhận Thức đến Hành Động"',
+    description: 'Hội thảo "Đồng Hành Bảo Vệ Quyền Trẻ Em – Từ Nhận Thức đến Hành Động" là sự kiện do Hội Bảo Vệ Quyền Trẻ Em Việt Nam tổ chức, nhằm nâng cao nhận thức, thúc đẩy hành động cụ thể và xây dựng mạng lưới phối hợp bảo vệ quyền lợi cho trẻ em tại Việt Nam. Hội thảo là dịp quy tụ các chuyên gia, nhà hoạch định chính sách, tổ chức xã hội và cộng đồng để cùng trao đổi, chia sẻ thực tiễn và đề xuất giải pháp hiệu quả trong công tác bảo vệ trẻ em, đặc biệt là trẻ em dễ bị tổn thương.',
+    date: "Thứ Sáu, ngày 22/8/2025 (08:30 – 17:00)",
+    slug: "hoi-thao-dong-hanh-bao-ve-quyen-tre-em",
+    organization: [
+      {
+        img: "/image/Ellipse-10.png",
+        title: "Hội Bảo Vệ Quyền Trẻ Em VN",
+      },
+    ],
+    sponsoring: [],
+    sortDesc: 'Hội thảo "Đồng Hành Bảo Vệ Quyền Trẻ Em – Từ Nhận Thức đến Hành Động" là sự kiện do Hội Bảo Vệ Quyền Trẻ Em Việt Nam tổ chức, nhằm nâng cao nhận thức, thúc đẩy hành động cụ thể và xây dựng mạng lưới phối hợp bảo vệ quyền lợi cho trẻ em tại Việt Nam. Hội thảo là dịp quy tụ các chuyên gia, nhà hoạch định chính sách, tổ chức xã hội và cộng đồng để cùng trao đổi, chia sẻ thực tiễn và đề xuất giải pháp hiệu quả trong công tác bảo vệ trẻ em, đặc biệt là trẻ em dễ bị tổn thương.',
+    time: "Thứ Sáu, ngày 22/8/2025 (08:30 – 17:00)",
+    location: "Khách sạn Melia, số 44B Lý Thường Kiệt, Hoàn Kiếm, Hà Nội",
+    content: `
+  		<div class="mb-10">
+  			<h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Giới thiệu</h2>
+  			<p class="text-black text-sm leading-relaxed">
+  				Chung tay vì một tương lai an toàn và hạnh phúc cho trẻ em Việt Nam
+  			</p>
+			<p class="text-black text-sm mb-4 leading-relaxed">
+  				Hội Bảo Vệ Quyền Trẻ Em Việt Nam trân trọng tổ chức hội thảo chuyên đề "Đồng Hành Bảo Vệ Quyền Trẻ Em – Từ Nhận Thức đến Hành Động" với mục tiêu nâng cao nhận thức, thúc đẩy cam kết và chia sẻ các sáng kiến hiệu quả trong việc bảo vệ quyền trẻ em tại Việt Nam.
+  			</p>
+			<p class="text-black text-sm mb-4 leading-relaxed">
+  				Hội thảo là dịp để các chuyên gia, tổ chức xã hội, doanh nghiệp, cơ quan nhà nước và cộng đồng cùng trao đổi kinh nghiệm, giới thiệu mô hình thực tiễn và đề xuất giải pháp nhằm đảm bảo trẻ em được sống trong môi trường an toàn, phát triển toàn diện cả về thể chất lẫn tinh thần
+  			</p>
+  		</div>
+		<div class="mb-10">
+			<h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Thông tin sự kiện</h2>
+			<div class="text-sm flex"><div class="font-bold">Thời gian:</div>Thứ Sáu, ngày 22/8/2025</div>
+			<div class="text-sm flex"><div class="font-bold">Khung giờ:</div>08:30 – 17:00</div>
+			<div class="text-sm flex"><div class="font-bold">Địa điểm:</div>Khách sạn Melia, số 44B Lý Thường Kiệt, Hoàn Kiếm, Hà Nội</div>
+		</div>
+  		<div class="mb-10">
+              <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Các nội dung chính</h2>
+			  <p class="text-black text-sm leading-relaxed pl-4">
+  				• Phiên toàn thể: Thực trạng và thách thức trong công tác bảo vệ quyền trẻ em hiện nay.
+  			  </p>
+			  <p class="text-black text-sm leading-relaxed pl-4">
+  				• Các phiên thảo luận chuyên đề:
+  			  </p>
+			   <p class="text-black text-sm leading-relaxed pl-6">
+  				• Phòng ngừa và xử lý bạo lực, xâm hại trẻ em.
+  			  </p>
+			   <p class="text-black text-sm leading-relaxed pl-6">
+  				• Thúc đẩy quyền tiếp cận giáo dục và chăm sóc y tế cho trẻ em yếu thế.
+  			  </p>
+			   <p class="text-black text-sm leading-relaxed pl-6">
+  				• Vai trò của doanh nghiệp và cộng đồng trong bảo vệ quyền trẻ em.
+  			  </p>
+			  <p class="text-black text-sm leading-relaxed pl-4">
+  				• Chia sẻ mô hình tiêu biểu: Các sáng kiến địa phương trong việc hỗ trợ trẻ em bị ảnh hưởng bởi thiên tai, dịch bệnh và di cư.
+  			  </p>
+			  <p class="text-black text-sm leading-relaxed pl-4">
+  				• Kết nối và xây dựng mạng lưới: Thảo luận mở, tìm kiếm sự hợp tác giữa các bên liên quan.
+  			  </p>
+        </div>
+  		<div class="mb-10">
+              <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Đối tượng tham gia</h2>
+              <p class="text-black text-sm leading-relaxed pl-4">
+  				• Các tổ chức xã hội, tổ chức phi chính phủ, cơ quan nhà nước.
+			  </p>
+			  <p class="text-black text-sm leading-relaxed pl-4">
+  				• Nhà trường, giáo viên, chuyên gia tâm lý, y tế, pháp luật.
+			  </p>
+			  <p class="text-black text-sm leading-relaxed pl-4">
+  				• Đại diện doanh nghiệp quan tâm đến trách nhiệm xã hội.
+			  </p>
+			  <p class="text-black text-sm leading-relaxed pl-4">
+  				• Các cá nhân, tình nguyện viên và cộng đồng yêu trẻ em.
+			  </p>
+        </div>
+		<div>
+              <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Mục tiêu của hội thảo</h2>
+              <p class="text-black text-sm leading-relaxed pl-4">
+  				• Nâng cao nhận thức: Về tầm quan trọng và tính cấp thiết của việc bảo vệ quyền trẻ em.
+			  </p>
+			  <p class="text-black text-sm leading-relaxed pl-4">
+  				• Huy động nguồn lực: Kêu gọi sự tham gia chủ động từ nhiều thành phần xã hội.
+			  </p>
+			  <p class="text-black text-sm leading-relaxed pl-4">
+  				• Hành động cụ thể: Đề xuất các chương trình, sáng kiến mới thúc đẩy quyền và phúc lợi trẻ em.
+			  </p>
+        </div>
+  		`,
+  },
+  {
+    img: "/image/sukien5.png",
+    title: "Workshop Nghệ Thuật Tái Chế: “Từ Vụn Vặt Thành Giá Trị”",
+    description: 'Workshop Nghệ Thuật Tái Chế "Từ Vụn Vặt Thành Giá Trị" là sự kiện do Vụn Art tổ chức, nhằm lan tỏa tinh thần sáng tạo, bảo vệ môi trường và trao quyền cho người khuyết tật thông qua nghệ thuật tranh ghép vải thủ công. Sự kiện tạo không gian giao lưu, học hỏi và trải nghiệm thực hành sáng tạo giữa cộng đồng, nghệ nhân khuyết tật và những người yêu nghệ thuật thủ công. Đây cũng là dịp để cùng nhìn nhận lại giá trị của tái chế, sự bền vững và tình người trong từng mảnh vải tưởng chừng vụn vặt.',
+    date: "Chủ Nhật, ngày 11/08/2025 (09:00 – 16:00)",
+    slug: "workshop-nghe-thuat-tai-che",
+    organization: [
+      {
+        img: "/image/Ellipse-11.png",
+        title: "Vụn Art",
+      },
+    ],
+    sponsoring: [],
+    sortDesc: 'Workshop Nghệ Thuật Tái Chế "Từ Vụn Vặt Thành Giá Trị" là sự kiện do Vụn Art tổ chức, nhằm lan tỏa tinh thần sáng tạo, bảo vệ môi trường và trao quyền cho người khuyết tật thông qua nghệ thuật tranh ghép vải thủ công. Sự kiện tạo không gian giao lưu, học hỏi và trải nghiệm thực hành sáng tạo giữa cộng đồng, nghệ nhân khuyết tật và những người yêu nghệ thuật thủ công. Đây cũng là dịp để cùng nhìn nhận lại giá trị của tái chế, sự bền vững và tình người trong từng mảnh vải tưởng chừng vụn vặt.',
+    time: "Chủ Nhật, ngày 11/08/2025",
+    location: "Xưởng Vụn Art, Trung tâm Văn hóa Phúc Xá, số 1 Vĩnh Phúc, Ba Đình, Hà Nội",
+    content: `
+  		<div class="mb-10">
+  			<h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Giới thiệu</h2>
+  			<p class="text-black text-sm leading-relaxed">
+  				Biến những mảnh vải thừa thành thông điệp yêu thương và sáng tạo
+  			</p>
+			<p class="text-black text-sm mb-4 leading-relaxed">
+  				VỤN ART – Tổ chức tiên phong trong việc đào tạo nghề và trao quyền cho người khuyết tật qua nghệ thuật tái chế – trân trọng giới thiệu Workshop Nghệ Thuật Tái Chế “Từ Vụn Vặt Thành Giá Trị”, một hành trình trải nghiệm đầy cảm hứng dành cho mọi lứa tuổi.
+  			</p>
+			<p class="text-black text-sm mb-4 leading-relaxed">
+  				Sự kiện không chỉ là không gian sáng tạo mà còn là cầu nối giữa nghệ thuật dân gian, môi trường và cộng đồng yếu thế, nơi mọi người được tham gia trực tiếp vào quy trình làm tranh ghép vải thủ công – nét đặc trưng mang dấu ấn Vụn Art.
+  			</p>
+  		</div>
+		<div class="mb-10">
+			<h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Thông tin sự kiện</h2>
+			<div class="text-sm flex"><div class="font-bold">Thời gian:</div>Thứ Sáu, ngày 22/8/2025</div>
+			<div class="text-sm flex"><div class="font-bold">Giờ:</div>09:00 – 16:00</div>
+			<div class="text-sm flex"><div class="font-bold">Địa điểm:</div>Xưởng Vụn Art, Trung tâm Văn hóa Phúc Xá, số 1 Vĩnh Phúc, Ba Đình, Hà Nội</div>
+			<p class="text-black text-sm  leading-relaxed">
+  				🎁 Mỗi người tham gia sẽ mang về một tác phẩm do chính mình sáng tạo!
+  			</p>
+			<p class="text-black text-sm  leading-relaxed">
+  				🎟 Phí tham dự: 150.000 VNĐ/người (đã bao gồm nguyên vật liệu, dụng cụ và nước uống)
+  			</p>
+		</div>
+  		<div class="mb-10">
+              <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Nội dung chương trình</h2>
+	 		  <div class="text-sm flex"><div class="font-bold">Giới thiệu hành trình Vụn Art:</div>Câu chuyện khởi nguồn từ “những mảnh vải không lời” đến những tác phẩm nghệ thuật có hồn</div>
+			  <div class="text-sm flex"><div class="font-bold">Trải nghiệm thực hành:</div>Hướng dẫn cách làm tranh ghép vải thủ công theo chủ đề dân gian Việt Nam.</div>
+			  <div class="text-sm flex"><div class="font-bold">Giao lưu cùng nghệ nhân khuyết tật:</div>Lắng nghe câu chuyện vượt khó và hành trình làm nghề của các thành viên Vụn Art.</div>
+			  <div class="text-sm flex"><div class="font-bold">Triển lãm mini:</div>Trưng bày những tác phẩm độc đáo từ vải vụn – mỗi bức tranh là một câu chuyện.</div>
+			  <div class="text-sm flex"><div class="font-bold">Hoạt động kết nối:</div>Không gian chia sẻ, sáng tạo và kết nối cộng đồng yêu nghệ thuật, yêu môi trường.</div>
+		</div>
+  		<div class="mb-10">
+              <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Đối tượng tham gia</h2>
+              <p class="text-black text-sm leading-relaxed pl-4">
+  				• Các bạn trẻ yêu thích thủ công và nghệ thuật dân gian.
+			  </p>
+			  <p class="text-black text-sm leading-relaxed pl-4">
+  				• Người quan tâm đến phát triển bền vững, giáo dục sáng tạo và hỗ trợ cộng đồng yếu thế.
+			  </p>
+			  <p class="text-black text-sm leading-relaxed pl-4">
+  				• Phụ huynh – học sinh muốn có hoạt động trải nghiệm ý nghĩa cuối tuần.
+			  </p>
+			  <p class="text-black text-sm leading-relaxed pl-4">
+  				• Các tổ chức, doanh nghiệp đang tìm kiếm mô hình CSR sáng tạo, nhân văn.
+			  </p>
+        </div>
+		<div>
+              <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Mục tiêu của workshop</h2>
+              <p class="text-black text-sm leading-relaxed pl-4">
+  				• Gìn giữ văn hóa dân gian thông qua hình thức nghệ thuật hiện đại, thân thiện.
+			  </p>
+			  <p class="text-black text-sm leading-relaxed pl-4">
+  				• Lan tỏa tinh thần tái chế và bảo vệ môi trường từ những hành động nhỏ.
+			  </p>
+			  <p class="text-black text-sm leading-relaxed pl-4">
+  				• Trao quyền cho người khuyết tật bằng việc ghi nhận và lan tỏa giá trị công việc thủ công.
+			  </p>
+			   <p class="text-black text-sm leading-relaxed pl-4">
+  				• Tăng cường kết nối cộng đồng, thúc đẩy tinh thần sẻ chia và đồng hành bền vững.
+			  </p>
+        </div>
+  		`,
+  },
+  {
+    img: "/image/sukien6.png",
+    title: "WORKSHOP – Chương Trình Truyền Thông Chăm Sóc Sức Khỏe Đúng Cách; Đo và Tư vấn Thính lực",
+    description: "WORKSHOP – Chương Trình Truyền Thông Chăm Sóc Sức Khỏe Đúng Cách: Đo và Tư Vấn Thính Lực là sự kiện do Doanh nghiệp xã hội vì người khiếm thính Việt Nam tổ chức, nhằm nâng cao nhận thức cộng đồng về chăm sóc sức khỏe, đặc biệt là sức khỏe thính lực. Sự kiện không chỉ cung cấp kiến thức y tế thiết thực mà còn triển khai đo thính lực miễn phí và tư vấn cá nhân hóa từ đội ngũ chuyên gia. Đây là cơ hội để người khiếm thính, gia đình và cộng đồng tiếp cận các giải pháp chăm sóc sớm, phòng ngừa suy giảm thính lực, và kết nối cùng nhau vì một cộng đồng khỏe mạnh, chủ động.",
+    date: "Chủ Nhật, ngày 18/8/2025 (09:00 – 16:00)",
+    slug: "workshop-chuong-trinh-truyen-thong-cham-soc-suc-khoe",
+    organization: [
+      {
+        img: "/image/Ellipse-6.png",
+        title: "DNXH vì người khiếm thính Việt Nam",
+      },
+    ],
+    sponsoring: [],
+    sortDesc: "WORKSHOP – Chương Trình Truyền Thông Chăm Sóc Sức Khỏe Đúng Cách: Đo và Tư Vấn Thính Lực là sự kiện do Doanh nghiệp xã hội vì người khiếm thính Việt Nam tổ chức, nhằm nâng cao nhận thức cộng đồng về chăm sóc sức khỏe, đặc biệt là sức khỏe thính lực. Sự kiện không chỉ cung cấp kiến thức y tế thiết thực mà còn triển khai đo thính lực miễn phí và tư vấn cá nhân hóa từ đội ngũ chuyên gia. Đây là cơ hội để người khiếm thính, gia đình và cộng đồng tiếp cận các giải pháp chăm sóc sớm, phòng ngừa suy giảm thính lực, và kết nối cùng nhau vì một cộng đồng khỏe mạnh, chủ động.",
+    time: "Chủ Nhật, ngày 18/8/2025 (09:00 – 16:00)",
+    location: "Nhà Văn hóa Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội",
+    content: `
+  		<div class="mb-10">
+  			<h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Giới thiệu</h2>
+  			<p class="text-black text-sm leading-relaxed">
+  				Đo và Tư Vấn Thính Lực Cho Cộng Đồng
+  			</p>
+			<p class="text-black text-sm mb-4 leading-relaxed">
+  				Doanh nghiệp xã hội vì người khiếm thính Việt Nam hân hạnh tổ chức Workshop – Chăm sóc sức khỏe đúng cách: Đo và tư vấn thính lực, một chương trình truyền thông cộng đồng nhằm nâng cao nhận thức về vai trò của sức khỏe tổng thể – đặc biệt là sức khỏe thính giác – đối với chất lượng cuộc sống người khiếm thính và cộng đồng có nguy cơ cao.
+  			</p>
+			<p class="text-black text-sm leading-relaxed">
+  				"Lắng nghe cơ thể – Bắt đầu từ đôi tai"
+  			</p>
+			<p class="text-black text-sm mb-4 leading-relaxed">
+  				 Hành trình chăm sóc sức khỏe bắt đầu bằng nhận thức đúng đắn và hành động kịp thời. Hãy cùng chúng tôi tạo dựng một cộng đồng khỏe mạnh, chủ động và kết nối
+  			</p>
+  		</div>
+		<div class="mb-10">
+			<h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Thông tin sự kiện</h2>
+			<div class="text-sm flex"><div class="font-bold">Thời gian:</div>Chủ Nhật, ngày 18/8/2025</div>
+			<div class="text-sm flex"><div class="font-bold">Giờ:</div>09:00 – 16:00</div>
+			<div class="text-sm flex"><div class="font-bold">Địa chỉ:</div>Nhà Văn hóa Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội</div>
+		</div>
+  		<div class="mb-10">
+              <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Mục tiêu sự kiện</h2>
+	 		    <p class="text-black text-sm leading-relaxed pl-4">
+  				• Cung cấp kiến thức y tế cơ bản và thực tế về cách chăm sóc sức khỏe đúng cách cho người khiếm thính và người thân.
+			  </p>
+			  <p class="text-black text-sm leading-relaxed pl-4">
+  				• Thực hiện đo thính lực miễn phí với sự hỗ trợ từ các chuyên gia y tế và kỹ thuật viên uy tín trong lĩnh vực thính học.
+			  </p>
+			  <p class="text-black text-sm leading-relaxed pl-4">
+  				• Tư vấn cá nhân hóa về kết quả đo thính lực và giới thiệu các giải pháp can thiệp sớm, phục hồi chức năng thính giác phù hợp.
+			  </p>
+			  <p class="text-black text-sm leading-relaxed pl-4">
+  				• Truyền thông thay đổi nhận thức trong cộng đồng về việc phát hiện sớm và chăm sóc sức khỏe tai – thính lực.
+			  </p>
+		</div>
+  		<div class="mb-10">
+              <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Đối tượng tham gia</h2>
+              <p class="text-black text-sm leading-relaxed pl-4">
+  				• Người khiếm thính và người có nguy cơ suy giảm thính lực
+			  </p>
+			  <p class="text-black text-sm leading-relaxed pl-4">
+  				• Phụ huynh, người chăm sóc, giáo viên và cộng đồng quan tâm
+			  </p>
+			  <p class="text-black text-sm leading-relaxed pl-4">
+  				• Tình nguyện viên, sinh viên ngành y, giáo dục đặc biệt
+			  </p>
+        </div>
+  		`,
   },
 ];
 export const khoaHoc = [
