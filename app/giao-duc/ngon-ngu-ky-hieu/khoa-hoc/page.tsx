@@ -2,45 +2,7 @@
 
 import Link from 'next/link';
 import CourseGrid from "@/app/components/CourseGrid";
-
-const sampleCourses = [
-  {
-    id: '1',
-    title: 'Docker Container Practice',
-    imageUrl: '/placeholder-course.jpg',
-    endDate: '14.05.25',
-  },
-  {
-    id: '2',
-    title: 'Docker Container Practice',
-    imageUrl: '/placeholder-course.jpg',
-    endDate: '14.05.25',
-  },
-  {
-    id: '3',
-    title: 'Docker Container Practice',
-    imageUrl: '/placeholder-course.jpg',
-    endDate: '14.05.25',
-  },
-  {
-    id: '4',
-    title: 'Docker Container Practice',
-    imageUrl: '/placeholder-course.jpg',
-    endDate: '14.05.25',
-  },
-  {
-    id: '5',
-    title: 'Docker Container Practice',
-    imageUrl: '/placeholder-course.jpg',
-    endDate: '14.05.25',
-  },
-  {
-    id: '6',
-    title: 'Docker Container Practice',
-    imageUrl: '/placeholder-course.jpg',
-    endDate: '14.05.25',
-  },
-];
+import { khoaHoc } from "@/utils/contanst";
 
 export default function CoursePage() {
   return (
@@ -49,7 +11,7 @@ export default function CoursePage() {
       <nav className="bg-white mt-16">
         <div className="mx-auto px-4">
           <div className="flex items-center h-12">
-            <Link 
+            <Link
               href="/giao-duc/ngon-ngu-ky-hieu"
               className="text-[#A0A3A9] hover:text-gray-900"
             >
@@ -62,7 +24,7 @@ export default function CoursePage() {
       </nav>
 
       {/* Course grid */}
-      <CourseGrid courses={sampleCourses} />
+      <CourseGrid courses={khoaHoc} />
     </section>
   );
 }
