@@ -4335,78 +4335,579 @@ export const dataTaiTro = [
 ];
 export const khoaHoc = [
   {
-    img: "/image/volunteer-1.png",
-    title: "Docker Container Practice",
-    description: "As a senior developer, achieving a balance between work and life is crucial. In this article, I will share some practical methods to achieve t...",
-    date: "14.05.25",
-    slug: "docker-container-practice-1",
+    img: "/image/khoahoc1.jpg",
+    title: "Ngôn ngữ ký hiệu cơ bản Offline",
+    description: "Khóa học giúp học viên làm quen với ngôn ngữ ký hiệu – công cụ giao tiếp chính của người khiếm thính. Đây là bước khởi đầu để xây dựng sự thấu hiểu và hòa nhập trong cộng đồng.",
+    date: "19:00 - 20:30",
+    schoolSchedule: "Thứ 3, Thứ 6",
+    day: "10 buổi",
+    form: "Lớp học trực tiếp",
+    price: "1.500.000 VNĐ",
+    slug: "ngon-ngu-ky-hieu-co-ban-offline",
     organization: [
       {
         img: "/image/Ellipse-6.png",
-        title: "DNXH vì người khiếm thính Việt Nam",
+        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
       },
     ],
-    sponsoring: [
+    courseIntroduction: `
+		  <p class="text-black text-sm leading-relaxed">
+			Khóa học Ngôn ngữ ký hiệu cơ bản giúp học viên làm quen với ngôn ngữ ký hiệu – công cụ giao tiếp chính của người khiếm thính. Đây là bước khởi đầu để xây dựng sự thấu hiểu và hòa nhập trong cộng đồng.
+		  </p>
+		  <p class="text-black text-sm leading-relaxed">
+			Phù hợp với: người thân của người khiếm thính, giáo viên, tình nguyện viên, nhân viên xã hội, và tất cả những ai muốn học ngôn ngữ ký hiệu.
+		  </p>
+		  <p class="text-black text-sm  leading-relaxed pl-4">
+			• Lịch học: Thứ 3 và Thứ 6
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Số buổi: 10 buổi
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Thời gian: 19:00 – 20:30
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Hình thức: Lớp học trực tiếp (10 người)
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Học phí: 1.500.000 VNĐ
+		  </p>
+	 	  `,
+    output: `
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Giao tiếp được các tình huống cơ bản bằng ngôn ngữ ký hiệu.
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Nắm vững từ vựng thuộc nhiều chủ đề thường ngày.
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Hiểu nền tảng văn hóa giao tiếp của cộng đồng người khiếm thính.
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Tự tin sử dụng ngôn ngữ ký hiệu để tạo cầu nối trong công việc và cuộc sống.
+		</p>
+	`,
+    content: `<p class="text-black text-sm  leading-relaxed pl-4">
+			• Buổi 1–2: Ký hiệu chào hỏi, giới thiệu bản thân
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Buổi 3–4: Từ vựng chủ đề động vật & đồ ăn
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Buổi 5–6: Câu giao tiếp đơn giản thường gặp
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Buổi 7–8: Biểu cảm và ngữ cảnh giao tiếp
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Buổi 9: Văn hóa người khiếm thính
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Buổi 10: Ôn tập và thực hành tình huống thực tế
+		</p>`,
+    commnents: [
       {
-        img: "/image/Ellipse-7.png",
-        title: "Foundation for Future",
+        name: "Chị Linh",
+        avatar: "/image/comment1.png",
+        content: `“Khóa học thực sự dễ hiểu và hữu ích. Tôi có thể giao tiếp cơ bản với con trai mình ngay sau khi kết thúc.”`,
+      },
+      {
+        name: "Anh Minh",
+        avatar: "/image/comment1.png",
+        content: `“Giáo viên rất thân thiện và thực tế, tôi đã học được rất nhiều điều ngoài ngôn ngữ ký hiệu.”`,
+      },
+      {
+        name: "Thảo",
+        avatar: "/image/comment1.png",
+        content: `“Tôi cảm thấy mình được kết nối hơn với cộng đồng khiếm thính. Một trải nghiệm tuyệt vời!”`,
       },
     ],
-    sortDesc: "Trang bị cho người khiêm thính những kiến thức và kỹ năng thực tiễn để tự tin bước vào thị trường lao động. Tạo cơ hội kết nỗi giữa người khiếm thính và chuyên gia hướng nghiệp.",
-    time: "Chủ Nhật, 20/7/2025 (09:00 – 16:00)",
-    location: "Số 15, Đường Lê Duẩn, Quận Hai Bà Trưng, Hà Nội",
-    requirements: ["Kỹ năng giao tiếp: Tốt, thân thiện và nhiệt huyết", "Ưu tiên: Ứng viên có kinh nghiệm làm việc trong các hoạt động hướng nghiệp, đào tạo kỹ năng mềm, hoặc biết ngôn ngữ ký hiệu", "Thái độ: Năng động, có tinh thần trách nhiệm và khả năng làm việc nhóm tốt"],
-    roles: ["Hỗ trợ điều phối sự kiện, đăng ký và tiếp đón học viên", "Hỗ trợ phiên chia sẻ và phiên dịch ngôn ngữ ký hiệu cho người tham dự nếu cần thiết", "Giao tiếp hỗ trợ chuyên môn: Hỗ trợ tư vấn, cung cấp thông tin và hướng dẫn các hoạt động của workshop"],
-    benefits: ["Cơ hội được đào tạo kỹ năng quản lý dự án, tổ chức sự kiện chuyên nghiệp", "Mở rộng mạng lưới kết nối với cộng đồng và các chuyên gia trong lĩnh vực giáo dục, hướng nghiệp", "Cơ hội góp phần trực tiếp vào việc thay đổi cuộc sống của người khiếm thính"],
+    scienceRegistration: `
+		<p class="text-black text-sm mb-4 leading-relaxed pl-4">
+			Nếu bạn quan tâm đến việc học ngôn ngữ ký hiệu để giao tiếp và thấu hiểu người khiếm thính, hãy đăng ký tham gia ngay hôm nay!
+		</p>	
+		<p class="text-black text-sm leading-relaxed pl-4">
+			🔹 Cách đăng ký:
+		</p>
+		<p class="text-black text-sm leading-relaxed pl-4">
+			Vui lòng gửi Họ tên – Ngày sinh – Nghề nghiệp – Lý do tham gia – Số điện thoại liên hệ đến:
+		</p>
+		<p class="text-black text-sm leading-relaxed pl-4">
+			📩 Email: hlcsvietnam@gmail.com
+		</p>
+		<p class="text-black text-sm leading-relaxed pl-4">
+			📞 Điện thoại/Zalo: 0936 253 215
+		</p>
+		<p class="text-black text-sm mb-4 leading-relaxed pl-4">
+			📱 Facebook: <a href='https://www.facebook.com/DNXH.VI.NGUOI.KHIEM.THINH.VIETNAM'>Doanh Nghiệp Xã Hội vì Người Khiếm Thính Việt Nam</a>
+		</p>
+		<p class="text-black text-sm leading-relaxed pl-4">
+			👉 Số lượng có hạn – Ưu tiên người đăng ký sớm!
+		</p>
+		<p class="text-black text-sm leading-relaxed pl-4">
+			Hạn chót đăng ký: (bạn có thể điền ngày cụ thể nếu có)
+		</p>
+	`,
   },
   {
-    img: "/image/volunteer-2.png",
-    title: "Docker Container Practice",
-    description: "As a senior developer, achieving a balance between work and life is crucial. In this article, I will share some practical methods to achieve t...",
-    date: "14.05.25",
-    slug: "docker-container-practice-1",
-    organization: [],
-    sponsoring: [
-      {
-        img: "/image/Ellipse-7.png",
-        title: "Foundation for Future",
-      },
-    ],
-    sortDesc: "Gây quỹ hỗ trợ học bổng, trang thiết bị trợ tính và chương trình đào tạo cho người khiếm tính. Tăng cường nhận thức cộng của cộng đồng về vai trò và tiềm năng của người khiếm thính.",
-    time: "Thứ Bảy, ngày 28/9/2025 (09:00 – 16:00)",
-    location: "Số 123, Đường Lê Lợi, Quận 1, Thành phố Hồ Chí Minh",
-    requirements: ["Đam mê hoạt động cộng đồng, ưu tiên những người có kiến thức hoặc kinh nghiệm hỗ trợ người khiếm thính.", "Kỹ năng giao tiếp tốt, biết hoặc có khả năng học ngôn ngữ ký hiệu là một lợi thế.", "Năng lực tổ chức, làm việc nhóm và cam kết thời gian sự kiện đầy đủ.", "Có kiến thức, chuyên môn về vị trí đảm nhiệm"],
-    roles: ["Tình nguyện viên Truyền thông & Quảng bá: Chịu trách nhiệm tạo nội dung và lan tỏa thông điệp trên các kênh truyền thông.", "Tình nguyện viên Điều phối Sự kiện: Hỗ trợ tổ chức và phối hợp hoạt động gây quỹ.", "Tình nguyện viên Tiếp cận Cộng đồng: Chủ động kết nối với cá nhân, tổ chức để mời gọi và thu hút sự ủng hộ."],
-    benefits: ["Chứng nhận hoặc giấy khen từ Foundation for Future.", "Cơ hội trải nghiệm, học hỏi và mở rộng kết nối trong môi trường giáo dục và hướng nghiệp.", "Hỗ trợ đào tạo chuyên sâu về giao tiếp với người khiếm thính và kỹ năng mềm."],
-  },
-  {
-    img: "/image/volunteer-3.png",
-    title: "Docker Container Practice",
-    description: "As a senior developer, achieving a balance between work and life is crucial. In this article, I will share some practical methods to achieve t...",
-    date: "14.05.25",
-    slug: "docker-container-practice-1",
+    img: "/image/khoahoc2.jpg",
+    title: "Ngôn ngữ ký hiệu cơ bản Online",
+    description: "Khóa học giúp học viên làm quen với ngôn ngữ ký hiệu – công cụ giao tiếp chính của người khiếm thính. Đây là bước khởi đầu để xây dựng sự thấu hiểu và hòa nhập trong cộng đồng.",
+    date: "19:00 - 20:30",
+    day: "10 buổi",
+    schoolSchedule: "Thứ 2, thứ 4",
+    form: "Lớp học trực tiếp",
+    price: "1.500.000 VNĐ",
+    slug: "ngon-ngu-ky-hieu-co-ban-online",
     organization: [
       {
-        img: "/image/Ellipse-8.png",
-        title: "Hội Cha Mẹ Trẻ Khiếm Thính và Người Khiếm Thính Việt Nam",
-      },
-      {
-        img: "/image/Ellipse-7.png",
-        title: "Foundation For Future",
+        img: "/image/Ellipse-6.png",
+        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
       },
     ],
-    sponsoring: [
+    courseIntroduction: `
+		  <p class="text-black text-sm mb-4 leading-relaxed">
+			Khóa học Ngôn ngữ ký hiệu cơ bản giúp học viên làm quen với ngôn ngữ ký hiệu – công cụ giao tiếp chính của người khiếm thính. Đây là bước khởi đầu để xây dựng sự thấu hiểu và hòa nhập trong cộng đồng.
+		  </p>
+		  <p class="text-black text-sm leading-relaxed">
+			Phù hợp với: người thân của người khiếm thính, giáo viên, tình nguyện viên, nhân viên xã hội, và tất cả những ai muốn học ngôn ngữ ký hiệu.
+		  </p>
+		  <p class="text-black text-sm  leading-relaxed pl-4">
+			• Lịch học: Thứ 3 và Thứ 6
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Số buổi: 10 buổi
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Thời gian: 19:00 – 20:30
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Hình thức: Lớp học trực tiếp (10 người)
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Học phí: 1.500.000 VNĐ
+		  </p>
+	 	  `,
+    output: `
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Giao tiếp được các tình huống cơ bản bằng ngôn ngữ ký hiệu.
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Nắm vững từ vựng thuộc nhiều chủ đề thường ngày.
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Hiểu nền tảng văn hóa giao tiếp của cộng đồng người khiếm thính.
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Tự tin sử dụng ngôn ngữ ký hiệu để tạo cầu nối trong công việc và cuộc sống.
+		</p>
+	`,
+    content: `<p class="text-black text-sm  leading-relaxed pl-4">
+			• Buổi 1–2: Ký hiệu chào hỏi, giới thiệu bản thân
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Buổi 3–4: Từ vựng chủ đề động vật & đồ ăn
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Buổi 5–6: Câu giao tiếp đơn giản thường gặp
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Buổi 7–8: Biểu cảm và ngữ cảnh giao tiếp
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Buổi 9: Văn hóa người khiếm thính
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Buổi 10: Ôn tập và thực hành tình huống thực tế
+		</p>`,
+    commnents: [
       {
-        img: "/image/Ellipse-9.png",
-        title: "UNICEF Việt Nam",
+        name: "Chị Linh",
+        avatar: "/image/comment1.png",
+        content: `“Khóa học thực sự dễ hiểu và hữu ích. Tôi có thể giao tiếp cơ bản với con trai mình ngay sau khi kết thúc.”`,
+      },
+      {
+        name: "Anh Minh",
+        avatar: "/image/comment1.png",
+        content: `“Giáo viên rất thân thiện và thực tế, tôi đã học được rất nhiều điều ngoài ngôn ngữ ký hiệu.”`,
+      },
+      {
+        name: "Thảo",
+        avatar: "/image/comment1.png",
+        content: `“Tôi cảm thấy mình được kết nối hơn với cộng đồng khiếm thính. Một trải nghiệm tuyệt vời!”`,
       },
     ],
-    sortDesc: "Truyền cảm hứng và chia sẻ kinh nghiệm đổi mới trong giáo dục và hỗ trợ nghề nghiệp cho người khiếm thính. Tạo sân chơi kết nối, giao lưu và hợp tác giữa người khiếm thính, chuyên gia và doanh nghiệp trong việc phát triển công nghệ, sản phẩm",
-    time: "Thứ Bảy, ngày 15/9/2025 (09:00 – 17:00)",
-    location: "Trung tâm Hội nghị & Triển lãm, Thành phố Hồ Chí Minh.",
-    requirements: ["Các cá nhân năng động, có đam mê hoạt động cộng đồng và sáng tạo.", "Ưu tiên ứng viên có kỹ năng giao tiếp tốt, biết ngôn ngữ ký hiệu hoặc đã có kinh nghiệm làm việc trong các hoạt động tình nguyện và quản lý sự kiện."],
-    roles: ["Hỗ trợ điều phối: Giúp ban tổ chức điều phối các phiên hội thảo, workshop và phiên giao lưu.", "Hỗ trợ hậu cần: Hướng dẫn người tham dự, phụ trách các gian hàng và hỗ trợ tổ chức sự kiện tại chỗ.", "Truyền thông & quảng bá: Hỗ trợ tạo nội dung, quảng bá sự kiện trên các kênh truyền thông xã hội và phối hợp với các đối tác truyền thông.", "Hỗ trợ kỹ thuật: Hỗ trợ các vấn đề liên quan đến công nghệ, phiên dịch ngôn ngữ ký hiệu, quản lý tài liệu sự kiện."],
-    benefits: ["Cơ hội trải nghiệm môi trường làm việc chuyên nghiệp trong lĩnh vực cộng đồng và giáo dục.", "Phát triển kỹ năng tổ chức sự kiện, giao tiếp và kỹ năng lãnh đạo.", "Kết nối với các chuyên gia, doanh nghiệp và cộng đồng sáng tạo.", "Nhận giấy chứng nhận tình nguyện, hỗ trợ tích lũy kinh nghiệm và mở rộng mạng lưới quan hệ.     "],
+    scienceRegistration: `
+		<p class="text-black text-sm mb-4 leading-relaxed pl-4">
+			Nếu bạn quan tâm đến việc học ngôn ngữ ký hiệu để giao tiếp và thấu hiểu người khiếm thính, hãy đăng ký tham gia ngay hôm nay!
+		</p>	
+		<p class="text-black text-sm leading-relaxed pl-4">
+			🔹 Cách đăng ký:
+		</p>
+		<p class="text-black text-sm leading-relaxed pl-4">
+			Vui lòng gửi Họ tên – Ngày sinh – Nghề nghiệp – Lý do tham gia – Số điện thoại liên hệ đến:
+		</p>
+		<p class="text-black text-sm leading-relaxed pl-4">
+			📩 Email: hlcsvietnam@gmail.com
+		</p>
+		<p class="text-black text-sm leading-relaxed pl-4">
+			📞 Điện thoại/Zalo: 0936 253 215
+		</p>
+		<p class="text-black text-sm mb-4 leading-relaxed pl-4">
+			📱 Facebook: <a href='https://www.facebook.com/DNXH.VI.NGUOI.KHIEM.THINH.VIETNAM'>Doanh Nghiệp Xã Hội vì Người Khiếm Thính Việt Nam</a>
+		</p>
+		<p class="text-black text-sm leading-relaxed pl-4">
+			👉 Số lượng có hạn – Ưu tiên người đăng ký sớm!
+		</p>
+		<p class="text-black text-sm leading-relaxed pl-4">
+			Hạn chót đăng ký: (bạn có thể điền ngày cụ thể nếu có)
+		</p>
+	`,
+  },
+  {
+    img: "/image/khoahoc3.jpg",
+    title: "Ngôn ngữ ký hiệu nhập môn Offline",
+    description: "Khóa học giúp học viên làm quen với ngôn ngữ ký hiệu – công cụ giao tiếp chính của người khiếm thính. Đây là bước khởi đầu để xây dựng sự thấu hiểu và hòa nhập trong cộng đồng.",
+    date: "19:00 - 20:30",
+    day: "10 buổi",
+    schoolSchedule: "Thứ 5, thứ 7",
+    form: "Lớp học trực tiếp",
+    price: "1.500.000 VNĐ",
+    slug: "ngon-ngu-ky-hieu-nhap-mon-offline",
+    organization: [
+      {
+        img: "/image/Ellipse-6.png",
+        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+      },
+    ],
+    courseIntroduction: `
+		  <p class="text-black text-sm mb-4 leading-relaxed">
+			Khóa học Ngôn ngữ ký hiệu cơ bản giúp học viên làm quen với ngôn ngữ ký hiệu – công cụ giao tiếp chính của người khiếm thính. Đây là bước khởi đầu để xây dựng sự thấu hiểu và hòa nhập trong cộng đồng.
+		  </p>
+		  <p class="text-black text-sm leading-relaxed">
+			Phù hợp với: người thân của người khiếm thính, giáo viên, tình nguyện viên, nhân viên xã hội, và tất cả những ai muốn học ngôn ngữ ký hiệu.
+		  </p>
+		  <p class="text-black text-sm  leading-relaxed pl-4">
+			• Lịch học: Thứ 3 và Thứ 6
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Số buổi: 10 buổi
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Thời gian: 19:00 – 20:30
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Hình thức: Lớp học trực tiếp (10 người)
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Học phí: 1.500.000 VNĐ
+		  </p>
+	 	  `,
+    output: `
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Giao tiếp được các tình huống cơ bản bằng ngôn ngữ ký hiệu.
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Nắm vững từ vựng thuộc nhiều chủ đề thường ngày.
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Hiểu nền tảng văn hóa giao tiếp của cộng đồng người khiếm thính.
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Tự tin sử dụng ngôn ngữ ký hiệu để tạo cầu nối trong công việc và cuộc sống.
+		</p>
+	`,
+    content: `<p class="text-black text-sm  leading-relaxed pl-4">
+			• Buổi 1–2: Ký hiệu chào hỏi, giới thiệu bản thân
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Buổi 3–4: Từ vựng chủ đề động vật & đồ ăn
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Buổi 5–6: Câu giao tiếp đơn giản thường gặp
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Buổi 7–8: Biểu cảm và ngữ cảnh giao tiếp
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Buổi 9: Văn hóa người khiếm thính
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Buổi 10: Ôn tập và thực hành tình huống thực tế
+		</p>`,
+    commnents: [
+      {
+        name: "Chị Linh",
+        avatar: "/image/comment1.png",
+        content: `“Khóa học thực sự dễ hiểu và hữu ích. Tôi có thể giao tiếp cơ bản với con trai mình ngay sau khi kết thúc.”`,
+      },
+      {
+        name: "Anh Minh",
+        avatar: "/image/comment1.png",
+        content: `“Giáo viên rất thân thiện và thực tế, tôi đã học được rất nhiều điều ngoài ngôn ngữ ký hiệu.”`,
+      },
+      {
+        name: "Thảo",
+        avatar: "/image/comment1.png",
+        content: `“Tôi cảm thấy mình được kết nối hơn với cộng đồng khiếm thính. Một trải nghiệm tuyệt vời!”`,
+      },
+    ],
+    scienceRegistration: `
+		<p class="text-black text-sm mb-4 leading-relaxed pl-4">
+			Nếu bạn quan tâm đến việc học ngôn ngữ ký hiệu để giao tiếp và thấu hiểu người khiếm thính, hãy đăng ký tham gia ngay hôm nay!
+		</p>	
+		<p class="text-black text-sm leading-relaxed pl-4">
+			🔹 Cách đăng ký:
+		</p>
+		<p class="text-black text-sm leading-relaxed pl-4">
+			Vui lòng gửi Họ tên – Ngày sinh – Nghề nghiệp – Lý do tham gia – Số điện thoại liên hệ đến:
+		</p>
+		<p class="text-black text-sm leading-relaxed pl-4">
+			📩 Email: hlcsvietnam@gmail.com
+		</p>
+		<p class="text-black text-sm leading-relaxed pl-4">
+			📞 Điện thoại/Zalo: 0936 253 215
+		</p>
+		<p class="text-black text-sm mb-4 leading-relaxed pl-4">
+			📱 Facebook: <a href='https://www.facebook.com/DNXH.VI.NGUOI.KHIEM.THINH.VIETNAM'>Doanh Nghiệp Xã Hội vì Người Khiếm Thính Việt Nam</a>
+		</p>
+		<p class="text-black text-sm leading-relaxed pl-4">
+			👉 Số lượng có hạn – Ưu tiên người đăng ký sớm!
+		</p>
+		<p class="text-black text-sm leading-relaxed pl-4">
+			Hạn chót đăng ký: (bạn có thể điền ngày cụ thể nếu có)
+		</p>
+	`,
+  },
+  {
+    img: "/image/khoahoc4.jpg",
+    title: "Ngôn ngữ ký hiệu nâng cao Offline",
+    description: "Khóa học giúp học viên làm quen với ngôn ngữ ký hiệu – công cụ giao tiếp chính của người khiếm thính. Đây là bước khởi đầu để xây dựng sự thấu hiểu và hòa nhập trong cộng đồng.",
+    date: "19:00 - 20:30",
+    day: "10 buổi",
+    schoolSchedule: "Thứ 3, thứ 6",
+    form: "Lớp học trực tiếp",
+    price: "1.500.000 VNĐ",
+    slug: "ngon-ngu-ky-hieu-nang-cao-offline",
+    organization: [
+      {
+        img: "/image/Ellipse-6.png",
+        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+      },
+    ],
+    courseIntroduction: `
+		  <p class="text-black text-sm mb-4 leading-relaxed">
+			Khóa học Ngôn ngữ ký hiệu cơ bản giúp học viên làm quen với ngôn ngữ ký hiệu – công cụ giao tiếp chính của người khiếm thính. Đây là bước khởi đầu để xây dựng sự thấu hiểu và hòa nhập trong cộng đồng.
+		  </p>
+		  <p class="text-black text-sm leading-relaxed">
+			Phù hợp với: người thân của người khiếm thính, giáo viên, tình nguyện viên, nhân viên xã hội, và tất cả những ai muốn học ngôn ngữ ký hiệu.
+		  </p>
+		  <p class="text-black text-sm  leading-relaxed pl-4">
+			• Lịch học: Thứ 3 và Thứ 6
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Số buổi: 10 buổi
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Thời gian: 19:00 – 20:30
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Hình thức: Lớp học trực tiếp (10 người)
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Học phí: 1.500.000 VNĐ
+		  </p>
+	 	  `,
+    output: `
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Giao tiếp được các tình huống cơ bản bằng ngôn ngữ ký hiệu.
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Nắm vững từ vựng thuộc nhiều chủ đề thường ngày.
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Hiểu nền tảng văn hóa giao tiếp của cộng đồng người khiếm thính.
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Tự tin sử dụng ngôn ngữ ký hiệu để tạo cầu nối trong công việc và cuộc sống.
+		</p>
+	`,
+    content: `<p class="text-black text-sm  leading-relaxed pl-4">
+			• Buổi 1–2: Ký hiệu chào hỏi, giới thiệu bản thân
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Buổi 3–4: Từ vựng chủ đề động vật & đồ ăn
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Buổi 5–6: Câu giao tiếp đơn giản thường gặp
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Buổi 7–8: Biểu cảm và ngữ cảnh giao tiếp
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Buổi 9: Văn hóa người khiếm thính
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Buổi 10: Ôn tập và thực hành tình huống thực tế
+		</p>`,
+    commnents: [
+      {
+        name: "Chị Linh",
+        avatar: "/image/comment1.png",
+        content: `“Khóa học thực sự dễ hiểu và hữu ích. Tôi có thể giao tiếp cơ bản với con trai mình ngay sau khi kết thúc.”`,
+      },
+      {
+        name: "Anh Minh",
+        avatar: "/image/comment1.png",
+        content: `“Giáo viên rất thân thiện và thực tế, tôi đã học được rất nhiều điều ngoài ngôn ngữ ký hiệu.”`,
+      },
+      {
+        name: "Thảo",
+        avatar: "/image/comment1.png",
+        content: `“Tôi cảm thấy mình được kết nối hơn với cộng đồng khiếm thính. Một trải nghiệm tuyệt vời!”`,
+      },
+    ],
+    scienceRegistration: `
+		<p class="text-black text-sm mb-4 leading-relaxed pl-4">
+			Nếu bạn quan tâm đến việc học ngôn ngữ ký hiệu để giao tiếp và thấu hiểu người khiếm thính, hãy đăng ký tham gia ngay hôm nay!
+		</p>	
+		<p class="text-black text-sm leading-relaxed pl-4">
+			🔹 Cách đăng ký:
+		</p>
+		<p class="text-black text-sm leading-relaxed pl-4">
+			Vui lòng gửi Họ tên – Ngày sinh – Nghề nghiệp – Lý do tham gia – Số điện thoại liên hệ đến:
+		</p>
+		<p class="text-black text-sm leading-relaxed pl-4">
+			📩 Email: hlcsvietnam@gmail.com
+		</p>
+		<p class="text-black text-sm leading-relaxed pl-4">
+			📞 Điện thoại/Zalo: 0936 253 215
+		</p>
+		<p class="text-black text-sm mb-4 leading-relaxed pl-4">
+			📱 Facebook: <a href='https://www.facebook.com/DNXH.VI.NGUOI.KHIEM.THINH.VIETNAM'>Doanh Nghiệp Xã Hội vì Người Khiếm Thính Việt Nam</a>
+		</p>
+		<p class="text-black text-sm leading-relaxed pl-4">
+			👉 Số lượng có hạn – Ưu tiên người đăng ký sớm!
+		</p>
+		<p class="text-black text-sm leading-relaxed pl-4">
+			Hạn chót đăng ký: (bạn có thể điền ngày cụ thể nếu có)
+		</p>
+	`,
+  },
+  {
+    img: "/image/khoahoc5.jpg",
+    title: "Ngôn ngữ ký hiệu nâng cao Online",
+    description: "Khóa học giúp học viên làm quen với ngôn ngữ ký hiệu – công cụ giao tiếp chính của người khiếm thính. Đây là bước khởi đầu để xây dựng sự thấu hiểu và hòa nhập trong cộng đồng.",
+    date: "19:00 - 20:30",
+    day: "10 buổi",
+    schoolSchedule: "Thứ 3, thứ 6",
+    form: "Lớp học trực tiếp",
+    price: "1.500.000 VNĐ",
+    slug: "ngon-ngu-ky-hieu-nang-cao-online",
+    organization: [
+      {
+        img: "/image/Ellipse-6.png",
+        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+      },
+    ],
+    courseIntroduction: `
+		  <p class="text-black text-sm mb-4 leading-relaxed">
+			Khóa học Ngôn ngữ ký hiệu cơ bản giúp học viên làm quen với ngôn ngữ ký hiệu – công cụ giao tiếp chính của người khiếm thính. Đây là bước khởi đầu để xây dựng sự thấu hiểu và hòa nhập trong cộng đồng.
+		  </p>
+		  <p class="text-black text-sm leading-relaxed">
+			Phù hợp với: người thân của người khiếm thính, giáo viên, tình nguyện viên, nhân viên xã hội, và tất cả những ai muốn học ngôn ngữ ký hiệu.
+		  </p>
+		  <p class="text-black text-sm  leading-relaxed pl-4">
+			• Lịch học: Thứ 3 và Thứ 6
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Số buổi: 10 buổi
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Thời gian: 19:00 – 20:30
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Hình thức: Lớp học trực tiếp (10 người)
+		  </p>
+		   <p class="text-black text-sm  leading-relaxed pl-4">
+			• Học phí: 1.500.000 VNĐ
+		  </p>
+	 	  `,
+    output: `
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Giao tiếp được các tình huống cơ bản bằng ngôn ngữ ký hiệu.
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Nắm vững từ vựng thuộc nhiều chủ đề thường ngày.
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Hiểu nền tảng văn hóa giao tiếp của cộng đồng người khiếm thính.
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Tự tin sử dụng ngôn ngữ ký hiệu để tạo cầu nối trong công việc và cuộc sống.
+		</p>
+	`,
+    content: `<p class="text-black text-sm  leading-relaxed pl-4">
+			• Buổi 1–2: Ký hiệu chào hỏi, giới thiệu bản thân
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Buổi 3–4: Từ vựng chủ đề động vật & đồ ăn
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Buổi 5–6: Câu giao tiếp đơn giản thường gặp
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Buổi 7–8: Biểu cảm và ngữ cảnh giao tiếp
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Buổi 9: Văn hóa người khiếm thính
+		</p>
+		<p class="text-black text-sm  leading-relaxed pl-4">
+			• Buổi 10: Ôn tập và thực hành tình huống thực tế
+		</p>`,
+    commnents: [
+      {
+        name: "Chị Linh",
+        avatar: "/image/comment1.png",
+        content: `“Khóa học thực sự dễ hiểu và hữu ích. Tôi có thể giao tiếp cơ bản với con trai mình ngay sau khi kết thúc.”`,
+      },
+      {
+        name: "Anh Minh",
+        avatar: "/image/comment1.png",
+        content: `“Giáo viên rất thân thiện và thực tế, tôi đã học được rất nhiều điều ngoài ngôn ngữ ký hiệu.”`,
+      },
+      {
+        name: "Thảo",
+        avatar: "/image/comment1.png",
+        content: `“Tôi cảm thấy mình được kết nối hơn với cộng đồng khiếm thính. Một trải nghiệm tuyệt vời!”`,
+      },
+    ],
+    scienceRegistration: `
+		<p class="text-black text-sm mb-4 leading-relaxed pl-4">
+			Nếu bạn quan tâm đến việc học ngôn ngữ ký hiệu để giao tiếp và thấu hiểu người khiếm thính, hãy đăng ký tham gia ngay hôm nay!
+		</p>	
+		<p class="text-black text-sm leading-relaxed pl-4">
+			🔹 Cách đăng ký:
+		</p>
+		<p class="text-black text-sm leading-relaxed pl-4">
+			Vui lòng gửi Họ tên – Ngày sinh – Nghề nghiệp – Lý do tham gia – Số điện thoại liên hệ đến:
+		</p>
+		<p class="text-black text-sm leading-relaxed pl-4">
+			📩 Email: hlcsvietnam@gmail.com
+		</p>
+		<p class="text-black text-sm leading-relaxed pl-4">
+			📞 Điện thoại/Zalo: 0936 253 215
+		</p>
+		<p class="text-black text-sm mb-4 leading-relaxed pl-4">
+			📱 Facebook: <a href='https://www.facebook.com/DNXH.VI.NGUOI.KHIEM.THINH.VIETNAM'>Doanh Nghiệp Xã Hội vì Người Khiếm Thính Việt Nam</a>
+		</p>
+		<p class="text-black text-sm leading-relaxed pl-4">
+			👉 Số lượng có hạn – Ưu tiên người đăng ký sớm!
+		</p>
+		<p class="text-black text-sm leading-relaxed pl-4">
+			Hạn chót đăng ký: (bạn có thể điền ngày cụ thể nếu có)
+		</p>
+	`,
   },
 ];
 export const boTuVung = [

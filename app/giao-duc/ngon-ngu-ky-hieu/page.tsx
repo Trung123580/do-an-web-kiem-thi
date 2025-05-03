@@ -79,7 +79,7 @@ export default function page() {
           <div>
             <h2 className='text-2xl md:text-3xl font-bold mb-6 md:mb-8'>Khóa học</h2>
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6'>
-              {khoaHoc.slice(0, 4).map((course, index) => (
+              {khoaHoc.slice(0, 3).map((course, index) => (
                 <Link href={`/giao-duc/khoa-hoc/${course.slug}`} key={index}>
                   <div className='rounded-2xl overflow-hidden group cursor-pointer hover:shadow-lg hover:shadow-[#5d7deb80] transition-shadow duration-300 h-auto md:h-[472px]'>
                     <div className='relative h-48 md:h-72 bg-[#CFD1D4]'>
@@ -90,10 +90,10 @@ export default function page() {
                       <p className='text-gray-600 text-sm mb-4 line-clamp-2'>Ngày kết thúc: {course.date}</p>
                       <div className='flex justify-between items-center'>
                         <div className='flex items-center gap-3 w-full'>
-                          <Image src={"/image/Ellipse-7.png"} alt='DNXH Logo' width={32} height={32} className='rounded-full w-8 h-8 md:w-10 md:h-10' />
+                          <Image src={course.organization[0].img} alt='DNXH Logo' width={32} height={32} className='rounded-full w-8 h-8 md:w-10 md:h-10' />
                           <div>
                             <div className='text-xs text-gray-500'>Đơn vị tổ chức</div>
-                            <div className='font-medium text-sm md:text-base'>Foundation For Future</div>
+                            <div className='font-medium text-sm md:text-base'>{course.organization[0].title}</div>
                           </div>
                         </div>
                       </div>
