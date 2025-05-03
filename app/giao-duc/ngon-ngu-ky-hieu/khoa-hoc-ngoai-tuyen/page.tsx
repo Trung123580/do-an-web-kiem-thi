@@ -49,7 +49,7 @@ export default function CoursePage() {
       <nav className="bg-white mt-16">
         <div className="mx-auto px-4">
           <div className="flex items-center h-12">
-            <Link 
+            <Link
               href="/giao-duc/ngon-ngu-ky-hieu"
               className="text-[#A0A3A9] hover:text-gray-900"
             >
@@ -62,7 +62,7 @@ export default function CoursePage() {
       </nav>
 
       {/* Course grid */}
-      <CourseGrid courses={sampleCourses} />
+      {/* <CourseGrid courses={sampleCourses} /> */}
     </section>
   );
 }
