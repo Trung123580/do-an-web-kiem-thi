@@ -86,8 +86,8 @@ export default function page() {
                       <Image src={course.img} alt={course.title} fill className='object-cover' />
                     </div>
                     <div className='px-4 md:px-6 pt-4 md:pt-6 pb-4'>
-                      <h3 className='font-semibold text-lg md:text-xl mb-2'>{course.title}</h3>
-                      <p className='text-gray-600 text-sm mb-4 line-clamp-2'>Ngày kết thúc: {course.date}</p>
+                      <h3 className='font-semibold text-lg md:text-xl mb-2 line-clamp-2'>{course.title}</h3>
+                      <p className='text-gray-600 text-sm mb-4 line-clamp-1'>Ngày kết thúc: {course.date}</p>
                       <div className='flex justify-between items-center'>
                         <div className='flex items-center gap-3 w-full'>
                           <Image src={course.organization[0].img} alt='DNXH Logo' width={32} height={32} className='rounded-full w-8 h-8 md:w-10 md:h-10' />
@@ -124,8 +124,8 @@ export default function page() {
                       <Image src={course.img} alt={course.title} fill className='object-cover' />
                     </div>
                     <div className='px-4 md:px-6 pt-4 md:pt-6 pb-4'>
-                      <h3 className='font-semibold text-lg md:text-xl mb-2'>{course.title}</h3>
-                      <p className='text-gray-600 text-sm mb-4 line-clamp-2'>Ngày kết thúc: {course.date}</p>
+                      <h3 className='font-semibold text-lg md:text-xl mb-2 line-clamp-2'>{course.title}</h3>
+                      <p className='text-gray-600 text-sm mb-4 line-clamp-1'>Ngày kết thúc: {course.date}</p>
                       <div className='flex justify-between items-center'>
                         <div className='flex items-center gap-3 w-full'>
                           <Image src={"/image/Ellipse-7.png"} alt='DNXH Logo' width={32} height={32} className='rounded-full w-8 h-8 md:w-10 md:h-10' />
