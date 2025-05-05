@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 interface Course {
   id: string;
@@ -15,8 +15,18 @@ interface CourseGridProps {
   courses: Course[];
 }
 
-export default function CourseGrid({ courses }: any) {
+export default function CourseGrid({ courses, path }: any) {
   const [searchTerm, setSearchTerm] = useState('');
+  const [dataRender, setDataRender] = useState(courses)
+  const defaultData = courses as any[]
+
+  useEffect(() => {
+    if (searchTerm !== '') {
+      setDataRender(defaultData.filter((item) => item.title.toLowerCase().includes(searchTerm.trim().toLowerCase()) ))
+    }else{
+      setDataRender(defaultData)
+    }
+  }, [searchTerm])
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -38,8 +48,8 @@ export default function CourseGrid({ courses }: any) {
         </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {courses.map((course: any) => (
-          <Link href={`khoa-hoc/${course.slug}`} key={course.id} className="block group">
+        {dataRender.map((course: any) => (
+          <Link href={`${path}/${course.slug}` || `${path}/${course.slug}` || `khoa-hoc/${course.slug}`} key={course.id} className="block group">
             <div className="bg-white rounded-2xl shadow-sm group-hover:shadow-md transition-shadow duration-300 overflow-hidden">
               <div className="relative aspect-video w-full">
                 <Image

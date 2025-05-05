@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import CourseGrid from "@/app/components/CourseGrid";
+import { dataSukien } from '@/utils/contanst';
 
 const sampleCourses = [
   {
@@ -56,13 +57,13 @@ export default function CoursePage() {
               Ngôn ngữ ký hiệu
             </Link>
             <span className="mx-2 text-2xl text-black">&gt;</span>
-            <span className="text-[#3A63ED]">Khóa học ngoại tuyến</span>
+            <span className="text-[#3A63ED]">Khóa học trực tuyến</span>
           </div>
         </div>
       </nav>
 
       {/* Course grid */}
-      {/* <CourseGrid courses={sampleCourses} /> */}
+      <CourseGrid courses={dataSukien} path="khoa-hoc-ngoai-tuyen" />
     </section>
   );
 }
