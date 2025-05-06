@@ -43,7 +43,7 @@ export default function page() {
   return (
     <div className="min-h-screen bg-white pt-16 md:pt-24 pb-8 max-w-7xl mx-auto">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row mb-8 h-[300px] sm:h-[500px] md:h-[340px] lg:h-[480px] rounded-2xl overflow-hidden gap-4 md:gap-8 mt-6">
+        <div className="flex flex-col md:flex-row mb-8 h-[500px] rounded-2xl overflow-hidden gap-4 md:gap-8 mt-6">
           <div className="flex justify-evenly bg-[#F2F2F3] flex-col h-[300px] md:h-full p-6 md:p-10 basis-full md:basis-1/3 rounded-2xl">
             <div className="relative h-full w-full">
               <div className="relative h-full w-full">
@@ -69,8 +69,17 @@ export default function page() {
               </div>
             </div>
           </div>
-          <div className='rounded-2xl relative h-[300px] md:h-full overflow-hidden basis-full md:basis-2/3 hidden sm:block'>
-            <Image src='/image/banner-9.png' alt='Education Banner' width={500} height={500} className='object-cover w-full h-full' priority />
+          <div className='rounded-2xl relative h-[300px] md:h-full overflow-hidden basis-full md:basis-2/3 block'>
+            {/* <Image src='/image/banner-9.png' alt='Education Banner'  priority /> */}
+            <video
+                    src="/ngonngukyhieu.mp4"
+                    className="w-full h-full object-cover"
+                    autoPlay
+                    loop
+                    // width={500} height={500}
+                    muted
+                    playsInline
+                />
             <Link href={'ngon-ngu-ky-hieu/game'}><img src='/image/game1.png' alt="" className="absolute bottom-0 right-2 cursor-pointer" /></Link>
           </div>
         </div>

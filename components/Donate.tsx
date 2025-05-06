@@ -153,15 +153,15 @@ const Donate = () => {
       </form>
       {open && (
         <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/40">
-          <div className="bg-white rounded-2xl max-w-[630px] w-full p-6 h-[80%] relative shadow-lg">
+          <div className="bg-white rounded-2xl py-16 max-w-[630px] w-full p-6 h-[80%] relative shadow-lg">
             <div className="absolute top-4 right-0 px-8 items-center  flex justify-between w-full">
-              <button className="text-left text-lg text-gray-600 font-medium">Quay lại</button>
+              <button className="text-left text-lg text-gray-600 font-medium" onClick={() => setOpen(false)}>Quay lại</button>
               <button className='text-2xl' onClick={() => setOpen(false)}>
                 &times;
               </button>
             </div>
             <div className="w-full h-1 bg-gray-200 mt-7 rounded mb-6">
-              <div className="h-2 bg-blue-500 rounded" style={{ width: "50%" }} />
+              <div className="h-1 bg-blue-500 rounded" style={{ width: "50%" }} />
             </div>
             <form onSubmit={handleSubmit} className='px-[30px] md:px-[56px] mt-8 text-[#111827] h-[90%] overflow-y-auto '>
               <h2 className="text-xl font-bold mb-4">Thông tin cá nhân</h2>
@@ -237,17 +237,21 @@ const Donate = () => {
                 </label>
               </div>
               <h2 className="text-xl font-bold mb-4 mt-5">Tóm tắt</h2>
-              <div className=''>
+              <div className='bg-[#FEF5D0] *:flex  *:items-center *:justify-between p-4 rounded-lg gap-1 flex flex-col'>
                 <div>
                   <span>{dataSubmit.donationType === 1 ? 'Một lần' : 'Hàng tháng'}</span>
-                  <span>${dataSubmit.customAmount || dataSubmit.selectedAmount}</span>
+                  <span className='font-bold'>${dataSubmit.customAmount || dataSubmit.selectedAmount}</span>
+                </div>
+                <div>
+                  <span>phương thức thanh toán</span>
+                  <span className='font-bold'>{dataSubmit.paymentMethod}</span>
                 </div>
               </div>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum quae incidunt ex obcaecati recusandae, cum molestias esse beatae nobis eaque ullam. Ad eum architecto aut totam accusamus eaque iure. Ea!</p>
-              <div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque in porro alias sequi facilis aliquid quidem quos, impedit culpa minima, maiores nemo corrupti! Vitae magnam provident explicabo ducimus quae aliquam.</p>
+              <p className='text-[10px] text-[#A0A3A9] my-2'>Bạn xác nhận rằng bạn đã trên 18 tuổi và đồng ý nhận email từ Foundation for Future về công việc của chúng tôi và cách bạn có thể giúp đỡ. Nếu bạn cung cấp số điện thoại của mình, chúng tôi cũng có thể gọi cho bạn. Bạn có thể chọn không tham gia bất cứ lúc nào. Đối với gây quỹ hằng tháng chúng tôi sẽ tự động tính phí cho đến khi bạn huỷ đăng ký, hãy liên hệ đến chúng tôi để huỷ đăng ký.</p>
+              <div className='bg-[#F2F2F3] gap-2 p-6 rounded-lg flex flex-col items-center justify-center'>
+                <p className=''>Sau khi bạn hoàn tất và gửi biểu mẫu này, bạn sẽ được chuyển hướng đến PayPal để hoàn tất khoản quyên góp của mình</p>
                 <img src="/image/momo.png" alt="" />
-                <button type="submit" className="mt-4 w-full bg-[#4F46E5] text-white py-3 rounded text-lg font-medium hover:bg-[#4338CA] transition-colors">
+                <button type="submit" className="mt-4 w-max px-14 bg-[#3A63ED] text-white py-3 rounded text-lg font-medium hover:bg-[#4338CA] transition-colors">
                 Quyên góp ngay
               </button>
               </div>

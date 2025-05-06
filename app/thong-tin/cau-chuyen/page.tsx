@@ -23,7 +23,7 @@ const page = () => {
         <div className="min-h-screen pt-16 pb-16">
             <section className="relative overflow-hidden w-full h-[113px] sm:h-[276px] md:h-[329px] lg:h-[437px] xl:h-[500px] 2xl:h-[500px]">
                 <video
-                    src="/image/bannerVideo.mp4"
+                    src="/VideoBannerCauChuyen.mp4"
                     className="w-full h-full object-cover"
                     autoPlay
                     loop
@@ -52,9 +52,9 @@ const page = () => {
                     </div>
                 </div>
 
-                <div className="flex justify-end items-center mb-2 gap-4">
-                    <div className="flex items-center gap-2">
-                        <button className="flex items-center text-[#70747D] gap-2 px-4 py-2 rounded-lg" onClick={() => { shortStories(sortState === 'latest' ? 'oldest' : 'latest') }}>
+                <div className="flex justify-end items-center mb-2 gap-2">
+                    <div className="flex items-center gap-2 my-2">
+                        <button className="flex items-center hover:bg-[#70747D]/10 text-[#70747D] gap-2 px-4 py-2 rounded-lg" onClick={() => { shortStories(sortState === 'latest' ? 'oldest' : 'latest') }}>
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M4 10L8 14L12 10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M4 6L8 2L12 6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -62,7 +62,7 @@ const page = () => {
                             {sortState === 'latest' ? 'Nổi bật' : 'Mới nhất'}
                         </button>
                     </div>
-                    <button className="p-2 hover:bg-gray-100 rounded-lg text-[#70747D]" onClick={() => { setgridState(gridState === 4 ? 2 : 4) }}>
+                    <button className=" hover:bg-[#70747D]/10 rounded-lg text-[#70747D]" onClick={() => { setgridState(gridState === 4 ? 2 : 4) }}>
                         {gridState === 4 ? <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
                             <path d="M13 19C12.45 19 11.9792 18.8042 11.5875 18.4125C11.1958 18.0208 11 17.55 11 17V13C11 12.45 11.1958 11.9792 11.5875 11.5875C11.9792 11.1958 12.45 11 13 11H27C27.55 11 28.0208 11.1958 28.4125 11.5875C28.8042 11.9792 29 12.45 29 13V17C29 17.55 28.8042 18.0208 28.4125 18.4125C28.0208 18.8042 27.55 19 27 19H13ZM13 17H27V13H13V17ZM13 29C12.45 29 11.9792 28.8042 11.5875 28.4125C11.1958 28.0208 11 27.55 11 27V23C11 22.45 11.1958 21.9792 11.5875 21.5875C11.9792 21.1958 12.45 21 13 21H27C27.55 21 28.0208 21.1958 28.4125 21.5875C28.8042 21.9792 29 22.45 29 23V27C29 27.55 28.8042 28.0208 28.4125 28.4125C28.0208 28.8042 27.55 29 27 29H13ZM13 27H27V23H13V27Z" fill="#70747D" />
                         </svg> : <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
@@ -71,14 +71,15 @@ const page = () => {
                     </button>
                 </div>
                 <section className="mb-16">
-                    <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-${gridState} gap-4`}>
+                    <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-${gridState} gap-5`}>
                         {storiesData.map((story, index) => {
                             return (
                                 <Link key={index} href={`/thong-tin/cau-chuyen/${story.slug}`}>
-                                    <div className={`group cursor-pointer relative  ${gridState === 4 ? 'h-[305px]' : 'h-[391px]'} ${gridState === 4 ? 'w-[305px]' : 'w-[616px]'} rounded-xl overflow-hidden`}>
-                                        <Image src={story.img} alt={story.title} width={gridState === 4 ? 305 : 616} height={gridState === 4 ? 305 : 391} className="object-cover !h-full group-hover:scale-115 transition-transform duration-500" />
+                                    <div className={`group cursor-pointer relative  ${gridState === 4 ? 'h-[305px]' : 'h-[391px]'} rounded-xl overflow-hidden`}>
+                                        <img src={story.img} alt={story.title} height={gridState === 4 ? 305 : 391} className="object-cover w-full !h-full group-hover:scale-115 transition-transform duration-500" />
                                         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
-                                        <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
+                                        <div className="absolute bottom-0 left-0 right-0 p-4 text-white group-hover:bg-[#3A63ED] group-hover:blur-2xl scale-125 h-16"></div>
+                                        <div className="absolute bottom-0 left-0 right-0 p-4 text-white ">
                                             <h3 className="font-medium text-lg line-clamp-2">{story.title}</h3>
                                         </div>
                                     </div>

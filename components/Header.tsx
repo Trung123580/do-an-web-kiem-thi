@@ -43,7 +43,7 @@ export default function Header() {
                 {isActivePath("/ve-chung-toi") ? (
                   <div className="absolute bottom-0 left-0 w-full h-1 bg-[#3a63ed]"></div>
                 ) : (
-                  <div className="absolute bottom-0 left-0 w-full h-1 bg-transparent group-hover:bg-[#3a63ed] opacity-50 transition-all duration-200"></div>
+                  <div className="absolute bottom-0 left-0 w-full h-1 bg-transparent group-hover:bg-[#3a63ed] transition-all duration-200"></div>
                 )}
               </Link>
               <div className="absolute left-1/2 -translate-x-1/2 mt-1 w-56 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0">
@@ -71,12 +71,12 @@ export default function Header() {
                 {isActivePath("/thong-tin") ? (
                   <div className="absolute bottom-0 left-0 w-full h-1 bg-[#3a63ed]"></div>
                 ) : (
-                  <div className="absolute bottom-0 left-0 w-full h-1 bg-transparent group-hover:bg-[#3a63ed] opacity-50 transition-all duration-200"></div>
+                  <div className="absolute bottom-0 left-0 w-full h-1 bg-transparent group-hover:bg-[#3a63ed] transition-all duration-200"></div>
                 )}
               </Link>
               <div className="absolute left-1/2 -translate-x-1/2 mt-1 w-56 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0">
                 <div className="py-2">
-                  <Link href="/thong-tin/tin-tuc" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                  <Link href="/thong-tin" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
                     Tin tức
                   </Link>
                   <Link href="/thong-tin/cau-chuyen" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
@@ -105,7 +105,7 @@ export default function Header() {
                 {isActivePath("/giao-duc") ? (
                   <div className="absolute bottom-0 left-0 w-full h-1 bg-[#3a63ed]"></div>
                 ) : (
-                  <div className="absolute bottom-0 left-0 w-full h-1 bg-transparent group-hover:bg-[#3a63ed] opacity-50 transition-all duration-200"></div>
+                  <div className="absolute bottom-0 left-0 w-full h-1 bg-transparent group-hover:bg-[#3a63ed] transition-all duration-200"></div>
                 )}
               </Link>
               <div className="absolute left-1/2 -translate-x-1/2 mt-1 w-56 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0">
@@ -142,7 +142,7 @@ export default function Header() {
                 {isActivePath("/nghe-nghiep") ? (
                   <div className="absolute bottom-0 left-0 w-full h-1 bg-[#3a63ed]"></div>
                 ) : (
-                  <div className="absolute bottom-0 left-0 w-full h-1 bg-transparent group-hover:bg-[#3a63ed] opacity-50 transition-all duration-200"></div>
+                  <div className="absolute bottom-0 left-0 w-full h-1 bg-transparent group-hover:bg-[#3a63ed] transition-all duration-200"></div>
                 )}
               </Link>
               <div className="absolute left-1/2 -translate-x-1/2 mt-1 w-56 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0">

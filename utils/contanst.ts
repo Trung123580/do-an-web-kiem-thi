@@ -768,33 +768,270 @@ export const docs = `<div>
 	<br />
 	 11. Ủy ban nh&acirc;n d&acirc;n c&aacute;c cấp trong phạm vi nhiệm vụ, quyền hạn của m&igrave;nh thực hiện quản l&yacute; nh&agrave; nước về c&ocirc;ng t&aacute;c người khuyết tật; lồng gh&eacute;p c&ocirc;ng t&aacute;c người khuyết tật v&agrave;o kế hoạch ph&aacute;t triển kinh tế - x&atilde; hội của địa phương; bảo đảm điều kiện để người khuyết tật thực hiện quyền, nghĩa vụ v&agrave; tr&aacute;ch nhiệm của m&igrave;nh; tạo điều kiện cho tổ chức, c&aacute; nh&acirc;n tham gia hỗ trợ người khuyết tật.
 	<br />
-	 CHƯƠNG X
+   <p class="text-center font-bold mt-6 mb-2" id="chuong-6">
+      CHƯƠNG VI
 	<br />
-	 ĐIỀU KHOẢN THI H&Agrave;NH
+		VĂN HÓA, THỂ DỤC, THỂ THAO, GIẢI TRÍ VÀ DU LỊCH
+     </p>
+<p>&#272;i&#7873;u 36. Ho&#7841;t &#273;&#7897;ng v&#259;n h&oacute;a, th&#7875; d&#7909;c, th&#7875; thao, gi&#7843;i tr&iacute; v&agrave; du l&#7883;ch &#273;&#7889;i v&#7899;i ng&#432;&#7901;i khuy&#7871;t t&#7853;t</p>
+
+<p>1. Nh&agrave; n&#432;&#7899;c h&#7895; tr&#7907; ho&#7841;t &#273;&#7897;ng v&#259;n h&oacute;a, th&#7875; d&#7909;c, th&#7875; thao, gi&#7843;i tr&iacute; v&agrave; du l&#7883;ch ph&ugrave; h&#7907;p v&#7899;i &#273;&#7863;c &#273;i&#7875;m c&#7911;a ng&#432;&#7901;i khuy&#7871;t t&#7853;t; t&#7841;o &#273;i&#7873;u ki&#7879;n &#273;&#7875; ng&#432;&#7901;i khuy&#7871;t t&#7853;t &#273;&#432;&#7907;c h&#432;&#7903;ng th&#7909; v&#259;n h&oacute;a, th&#7875; d&#7909;c, th&#7875; thao, gi&#7843;i tr&iacute; v&agrave; du l&#7883;ch.</p>
+
+<p>2. Ng&#432;&#7901;i khuy&#7871;t t&#7853;t &#273;&#7863;c bi&#7879;t n&#7863;ng &#273;&#432;&#7907;c mi&#7877;n, ng&#432;&#7901;i khuy&#7871;t t&#7853;t n&#7863;ng &#273;&#432;&#7907;c gi&#7843;m gi&aacute; v&eacute; v&agrave; gi&aacute; d&#7883;ch v&#7909; khi s&#7917; d&#7909;ng m&#7897;t s&#7889; d&#7883;ch v&#7909; v&#259;n h&oacute;a, th&#7875; d&#7909;c, th&#7875; thao, gi&#7843;i tr&iacute; v&agrave; du l&#7883;ch theo quy &#273;&#7883;nh c&#7911;a Ch&iacute;nh ph&#7911;.</p>
+
+<p>3. Nh&agrave; n&#432;&#7899;c v&agrave; x&atilde; h&#7897;i t&#7841;o &#273;i&#7873;u ki&#7879;n cho ng&#432;&#7901;i khuy&#7871;t t&#7853;t ph&aacute;t tri&#7875;n t&agrave;i n&#259;ng, n&#259;ng khi&#7871;u v&#7873; v&#259;n h&oacute;a, ngh&#7879; thu&#7853;t v&agrave; th&#7875; thao; tham gia s&aacute;ng t&aacute;c, bi&#7875;u di&#7877;n ngh&#7879; thu&#7853;t, t&#7853;p luy&#7879;n, thi &#273;&#7845;u th&#7875; thao.</p>
+
+<p>4. Nh&agrave; n&#432;&#7899;c h&#7895; tr&#7907; ho&#7841;t &#273;&#7897;ng thi&#7871;t k&#7871;, ch&#7871; t&#7841;o v&agrave; s&#7843;n xu&#7845;t d&#7909;ng c&#7909;, trang thi&#7871;t b&#7883; ph&#7909;c v&#7909; ho&#7841;t &#273;&#7897;ng v&#259;n h&oacute;a, th&#7875; thao; khuy&#7871;n kh&iacute;ch c&#417; quan, t&#7893; ch&#7913;c, c&aacute; nh&acirc;n thi&#7871;t k&#7871;, ch&#7871; t&#7841;o, s&#7843;n xu&#7845;t d&#7909;ng c&#7909;, trang thi&#7871;t b&#7883; ph&#7909;c v&#7909; ho&#7841;t &#273;&#7897;ng v&#259;n h&oacute;a, th&#7875; d&#7909;c, th&#7875; thao, gi&#7843;i tr&iacute; v&agrave; du l&#7883;ch ph&ugrave; h&#7907;p v&#7899;i ng&#432;&#7901;i khuy&#7871;t t&#7853;t.</p>
+
+<p>&#272;i&#7873;u 37. T&#7893; ch&#7913;c ho&#7841;t &#273;&#7897;ng v&#259;n h&oacute;a, th&#7875; d&#7909;c, th&#7875; thao, gi&#7843;i tr&iacute; v&agrave; du l&#7883;ch c&#7911;a ng&#432;&#7901;i khuy&#7871;t t&#7853;t</p>
+
+<p>1. Ho&#7841;t &#273;&#7897;ng v&#259;n h&oacute;a, th&#7875; d&#7909;c, th&#7875; thao, gi&#7843;i tr&iacute; v&agrave; du l&#7883;ch c&#7911;a ng&#432;&#7901;i khuy&#7871;t t&#7853;t &#273;&#432;&#7907;c l&#7891;ng gh&eacute;p v&agrave;o &#273;&#7901;i s&#7889;ng v&#259;n h&oacute;a c&#7897;ng &#273;&#7891;ng, &#273;&#432;&#7907;c t&#7893; ch&#7913;c &#273;a d&#7841;ng v&#7873; lo&#7841;i h&igrave;nh, &#273;&aacute;p &#7913;ng nhu c&#7847;u th&#432;&#7903;ng th&#7913;c v&#259;n h&oacute;a, th&#7875; d&#7909;c, th&#7875; thao, gi&#7843;i tr&iacute; v&agrave; du l&#7883;ch c&#7911;a ng&#432;&#7901;i khuy&#7871;t t&#7853;t.</p>
+
+<p>2. &#272;&#7841;i h&#7897;i th&#7875; thao ng&#432;&#7901;i khuy&#7871;t t&#7853;t to&agrave;n qu&#7889;c, gi&#7843;i thi &#273;&#7845;u th&#7875; thao, h&#7897;i thi v&#259;n ngh&#7879; c&#7911;a ng&#432;&#7901;i khuy&#7871;t t&#7853;t &#273;&#432;&#7907;c t&#7893; ch&#7913;c ph&ugrave; h&#7907;p v&#7899;i &#273;&#7863;c &#273;i&#7875;m, nhu c&#7847;u c&#7911;a ng&#432;&#7901;i khuy&#7871;t t&#7853;t v&agrave; &#273;i&#7873;u ki&#7879;n kinh t&#7871; - x&atilde; h&#7897;i.</p>
+
+<p>&#272;i&#7873;u 38. Tr&aacute;ch nhi&#7879;m c&#7911;a c&#417; s&#7903; v&#259;n h&oacute;a, th&#7875; d&#7909;c, th&#7875; thao, gi&#7843;i tr&iacute; v&agrave; du l&#7883;ch</p>
+
+<p>1. &#272;&#7847;u t&#432; c&#417; s&#7903; v&#7853;t ch&#7845;t, ph&#432;&#417;ng ti&#7879;n tr&#7907; gi&uacute;p v&agrave; t&#7841;o &#273;i&#7873;u ki&#7879;n thu&#7853;n l&#7907;i &#273;&#7875; ng&#432;&#7901;i khuy&#7871;t t&#7853;t tham gia sinh ho&#7841;t v&#259;n h&oacute;a, t&#7853;p luy&#7879;n th&#7875; d&#7909;c, th&#7875; thao, gi&#7843;i tr&iacute; v&agrave; du l&#7883;ch; b&#7889; tr&iacute; nh&acirc;n l&#7921;c, ph&#432;&#417;ng ti&#7879;n, c&ocirc;ng c&#7909; h&#7895; tr&#7907; ng&#432;&#7901;i khuy&#7871;t t&#7853;t khi t&#7893; ch&#7913;c nh&#7919;ng ho&#7841;t &#273;&#7897;ng v&#259;n h&oacute;a, th&#7875; d&#7909;c, th&#7875; thao, gi&#7843;i tr&iacute; v&agrave; du l&#7883;ch.</p>
+
+<p>2. Th&#7921;c hi&#7879;n c&#7843;i t&#7841;o, n&acirc;ng c&#7845;p c&#417; s&#7903; v&#7853;t ch&#7845;t ch&#432;a b&#7843;o &#273;&#7843;m &#273;i&#7873;u ki&#7879;n ti&#7871;p c&#7853;n &#273;&#7889;i v&#7899;i ng&#432;&#7901;i khuy&#7871;t t&#7853;t.</p>
+
+<p>3. D&#7909;ng c&#7909;, trang thi&#7871;t b&#7883; ph&#7909;c v&#7909; cho ho&#7841;t &#273;&#7897;ng v&#259;n h&oacute;a, th&#7875; d&#7909;c, th&#7875; thao, gi&#7843;i tr&iacute; v&agrave; du l&#7883;ch c&#7911;a ng&#432;&#7901;i khuy&#7871;t t&#7853;t ph&#7843;i b&#7843;o &#273;&#7843;m an to&agrave;n, thu&#7853;n ti&#7879;n v&agrave; ph&ugrave; h&#7907;p v&#7899;i &#273;&#7863;c &#273;i&#7875;m c&#7911;a ng&#432;&#7901;i khuy&#7871;t t&#7853;t.</p>
+<p class="text-center font-bold mt-6 mb-2" id="chuong-7">
+      CHƯƠNG VII
 	<br />
-	 **Điều 51. &Aacute;p dụng ph&aacute;p luật**
+		NHÀ CHUNG CƯ, CÔNG TRÌNH CÔNG CỘNG,
+<br />
+GIAO THÔNG, CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG
+     </p>
+	 <p>&#272;i&#7873;u 39. Nh&agrave; chung c&#432; v&agrave; c&ocirc;ng tr&igrave;nh c&ocirc;ng c&#7897;ng</p>
+
+<p>1. Vi&#7879;c ph&ecirc; duy&#7879;t thi&#7871;t k&#7871;, x&acirc;y d&#7921;ng, nghi&#7879;m thu c&ocirc;ng tr&igrave;nh x&acirc;y d&#7921;ng m&#7899;i, c&#7843;i t&#7841;o v&agrave; n&acirc;ng c&#7845;p nh&agrave; chung c&#432;, tr&#7909; s&#7903; l&agrave;m vi&#7879;c v&agrave; c&ocirc;ng tr&igrave;nh h&#7841; t&#7847;ng k&#7929; thu&#7853;t, c&ocirc;ng tr&igrave;nh h&#7841; t&#7847;ng x&atilde; h&#7897;i ph&#7843;i tu&acirc;n th&#7911; h&#7879; th&#7889;ng quy chu&#7849;n k&#7929; thu&#7853;t qu&#7889;c gia v&#7873; x&acirc;y d&#7921;ng &#273;&#7875; b&#7843;o &#273;&#7843;m ng&#432;&#7901;i khuy&#7871;t t&#7853;t ti&#7871;p c&#7853;n.</p>
+
+<p>2. Nh&agrave; chung c&#432;, tr&#7909; s&#7903; l&agrave;m vi&#7879;c v&agrave; c&ocirc;ng tr&igrave;nh h&#7841; t&#7847;ng k&#7929; thu&#7853;t c&ocirc;ng c&#7897;ng, c&ocirc;ng tr&igrave;nh h&#7841; t&#7847;ng x&atilde; h&#7897;i &#273;&#432;&#417;&#803;c x&acirc;y d&#432;&#803;ng tr&#432;&#417;&#769;c nga&#768;y Lu&acirc;&#803;t na&#768;y co&#769; hi&ecirc;&#803;u l&#432;&#803;c ma&#768; ch&#432;a b&#7843;o &#273;&#7843;m c&aacute;c &#273;i&#7873;u ki&#7879;n ti&#7871;p c&#7853;n &#273;&#7889;i v&#7899;i ng&#432;&#7901;i khuy&#7871;t t&#7853;t ph&#7843;i &#273;&#432;&#7907;c ca&#777;i ta&#803;o, n&acirc;ng c&acirc;&#769;p &#273;&ecirc;&#777; b&#7843;o &#273;&#7843;m &#273;i&#7873;u ki&#7879;n ti&#7871;p c&#7853;n theo l&ocirc;&#803; tri&#768;nh quy &#273;i&#803;nh ta&#803;i &#272;i&ecirc;&#768;u 40 cu&#777;a Lu&acirc;&#803;t na&#768;y.</p>
+
+<p>&#272;i&#7873;u 40. L&#7897; tr&igrave;nh c&#7843;i t&#7841;o nha&#768; chung c&#432;, c&ocirc;ng tr&igrave;nh c&ocirc;ng c&#7897;ng</p>
+
+<p>1. &#272;&#7871;n ng&agrave;y 01 th&aacute;ng 01 n&#259;m 2020, c&aacute;c c&ocirc;ng tr&igrave;nh c&ocirc;ng c&#7897;ng sau &#273;&acirc;y ph&#7843;i b&#7843;o &#273;&#7843;m &#273;i&#7873;u ki&#7879;n ti&#7871;p c&#7853;n &#273;&ocirc;&#769;i v&#417;&#769;i ng&#432;&#7901;i khuy&#7871;t t&#7853;t:</p>
+
+<p>a) Tr&#7909; s&#7903; l&agrave;m vi&#7879;c c&#7911;a c&#417; quan nh&agrave; n&#432;&#7899;c;</p>
+
+<p>b) Nh&agrave; ga, b&#7871;n xe, b&#7871;n t&agrave;u;</p>
+
+<p>c) C&#417; s&#7903; kh&aacute;m b&#7879;nh, ch&#7919;a b&#7879;nh;</p>
+
+<p>d) C&#417; s&#7903; gi&aacute;o d&#7909;c, d&#7841;y ngh&#7873;;</p>
+
+<p>&#273;) C&ocirc;ng tr&igrave;nh v&#259;n h&oacute;a, th&#7875; d&#7909;c, th&#7875; thao.</p>
+
+<p>2. &#272;&#7871;n ng&agrave;y 01 th&aacute;ng 01 n&#259;m 2025, t&#7845;t c&#7843; nh&agrave; chung c&#432;, tr&#7909; s&#7903; l&agrave;m vi&#7879;c, c&ocirc;ng tr&igrave;nh h&#7841; t&#7847;ng k&#7929; thu&#7853;t c&ocirc;ng c&#7897;ng, c&ocirc;ng tr&igrave;nh h&#7841; t&#7847;ng x&atilde; h&#7897;i kh&ocirc;ng thu&ocirc;&#803;c tr&#432;&#417;&#768;ng h&#417;&#803;p quy &#273;&#7883;nh t&#7841;i kho&#7843;n 1 &#272;i&#7873;u n&agrave;y ph&#7843;i b&#7843;o &#273;&#7843;m &#273;i&#7873;u ki&#7879;n ti&#7871;p c&#7853;n &#273;&ocirc;&#769;i v&#417;&#769;i ng&#432;&#7901;i khuy&#7871;t t&#7853;t.</p>
+
+<p>3. Ch&iacute;nh ph&#7911; quy &#273;&#7883;nh chi ti&#7871;t vi&ecirc;&#803;c th&#432;&#803;c hi&ecirc;&#803;n l&#7897; tr&igrave;nh ca&#777;i ta&#803;o &#273;&#7889;i v&#7899;i t&#7915;ng lo&#7841;i c&ocirc;ng tr&igrave;nh quy &#273;&#7883;nh t&#7841;i kho&#7843;n 1 v&agrave; kho&#7843;n 2 &#272;i&#7873;u n&agrave;y.</p>
+
+<p>&#272;i&#7873;u 41. Tham gia giao th&ocirc;ng c&#7911;a ng&#432;&#7901;i khuy&#7871;t t&#7853;t</p>
+
+<p>1. Ph&#432;&#417;ng ti&#7879;n giao th&ocirc;ng c&aacute; nh&acirc;n cu&#777;a ng&#432;&#417;&#768;i khuy&ecirc;&#769;t t&acirc;&#803;t khi tham gia giao th&ocirc;ng ph&#7843;i b&#7843;o &#273;&#7843;m quy chu&#7849;n k&#7929; thu&#7853;t qu&#7889;c gia v&agrave; ph&ugrave; h&#7907;p v&#7899;i &#273;i&#7873;u ki&#7879;n s&#7913;c kh&#7887;e cu&#777;a ng&#432;&#417;&#768;i khuy&ecirc;&#769;t t&acirc;&#803;t. Ph&#432;&#417;ng ti&#7879;n giao th&ocirc;ng c&aacute; nh&acirc;n &#273;&ograve;i h&#7887;i ph&#7843;i c&oacute; gi&#7845;y ph&eacute;p &#273;i&ecirc;&#768;u khi&ecirc;&#777;n th&igrave; ng&#432;&#7901;i khuy&#7871;t t&#7853;t &#273;&#432;&#7907;c h&#7885;c v&agrave; c&#7845;p gi&#7845;y ph&eacute;p &#273;i&#7873;u khi&#7875;n &#273;&#7889;i v&#7899;i ph&#432;&#417;ng ti&#7879;n &#273;&oacute;.</p>
+
+<p>2. Ng&#432;&#7901;i khuy&#7871;t t&#7853;t khi tham gia giao th&ocirc;ng b&#7857;ng c&aacute;c ph&#432;&#417;ng ti&#7879;n giao th&ocirc;ng c&ocirc;ng c&#7897;ng &#273;&#432;&#7907;c s&#7917; d&#7909;ng c&aacute;c ph&#432;&#417;ng ti&#7879;n h&#7895; tr&#7907; ho&#7863;c s&#7921; tr&#7907; gi&uacute;p t&#432;&#417;ng &#7913;ng; &#273;&#432;&#7907;c ph&eacute;p mang theo v&agrave; mi&#7877;n ph&iacute; khi mang ph&#432;&#417;ng ti&#7879;n, thi&#7871;t b&#7883; h&#7895; tr&#7907; ph&ugrave; h&#7907;p.</p>
+
+<p>3. Ng&#432;&#7901;i khuy&#7871;t t&#7853;t &#273;&#7863;c bi&#7879;t n&#7863;ng v&agrave; ng&#432;&#7901;i khuy&#7871;t t&#7853;t n&#7863;ng &#273;&#432;&#7907;c mi&ecirc;&#771;n, gi&#7843;m gi&aacute; v&eacute;, gi&aacute; d&#7883;ch v&#7909; khi tham gia giao th&ocirc;ng b&#7857;ng m&ocirc;&#803;t s&ocirc;&#769; ph&#432;&#417;ng ti&#7879;n giao th&ocirc;ng c&ocirc;ng c&#7897;ng theo quy &#273;&#7883;nh c&#7911;a Ch&iacute;nh ph&#7911;.</p>
+
+<p>4. Ng&#432;&#7901;i khuy&#7871;t t&#7853;t &#273;&#432;&#7907;c &#432;u ti&ecirc;n mua v&eacute;, &#273;&#432;&#7907;c gi&uacute;p &#273;&#7905;, s&#7855;p x&#7871;p ch&#7895; ng&#7891;i thu&#7853;n ti&#7879;n khi s&#7917; d&#7909;ng c&aacute;c ph&#432;&#417;ng ti&#7879;n giao th&ocirc;ng c&ocirc;ng c&#7897;ng.</p>
+
+<p>&#272;i&#7873;u 42. Ph&#432;&#417;ng ti&#7879;n giao th&ocirc;ng c&ocirc;ng c&#7897;ng</p>
+
+<p>1. Ph&#432;&#417;ng ti&#7879;n giao th&ocirc;ng c&ocirc;ng c&#7897;ng ph&#7843;i c&oacute; ch&#7895; &#432;u ti&ecirc;n cho ng&#432;&#7901;i khuy&#7871;t t&#7853;t; c&oacute; c&ocirc;ng c&#7909; h&#7895; tr&#7907; l&ecirc;n, xu&#7889;ng thu&#7853;n ti&#7879;n ho&#7863;c s&#7921; tr&#7907; gi&uacute;p ph&ugrave; h&#7907;p v&#7899;i &#273;&#7863;c &#273;i&#7875;m c&#7911;a ng&#432;&#7901;i khuy&#7871;t t&#7853;t.</p>
+
+<p>2. Ph&#432;&#417;ng ti&#7879;n giao th&ocirc;ng c&ocirc;ng c&#7897;ng &#273;&#7875; ng&#432;&#7901;i khuy&#7871;t t&#7853;t ti&#7871;p c&#7853;n s&#7917; d&#7909;ng ph&#7843;i &#273;&aacute;p &#7913;ng quy chu&#7849;n k&#7929; thu&#7853;t qu&#7889;c gia v&#7873; giao th&ocirc;ng ti&#7871;p c&#7853;n do c&#417; quan nh&agrave; n&#432;&#7899;c c&oacute; th&#7849;m quy&#7873;n ban h&agrave;nh.</p>
+
+<p>3. &#272;&#417;n v&#7883; tham gia v&#7853;n t&#7843;i c&ocirc;ng c&#7897;ng ph&#7843;i &#273;&#7847;u t&#432; v&agrave; b&#7889; tr&iacute; ph&#432;&#417;ng ti&#7879;n b&#7843;o &#273;&#7843;m quy chu&#7849;n k&#7929; thu&#7853;t v&#7873; giao th&ocirc;ng ti&#7871;p c&#7853;n tr&ecirc;n c&aacute;c tuy&#7871;n v&#7853;n t&#7843;i theo t&#7927; l&#7879; do Ch&iacute;nh ph&#7911; quy &#273;&#7883;nh trong t&#7915;ng th&#7901;i k&#7923;.</p>
+
+<p>4. Ph&#432;&#417;ng ti&#7879;n giao th&ocirc;ng c&ocirc;ng c&#7897;ng &#273;&aacute;p &#7913;ng quy chu&#7849;n k&#7929; thu&#7853;t qu&#7889;c gia v&#7873; giao th&ocirc;ng ti&#7871;p c&#7853;n &#273;&#432;&#7907;c mi&#7877;n, gi&#7843;m thu&#7871; theo quy &#273;&#7883;nh c&#7911;a ph&aacute;p lu&#7853;t v&#7873; thu&#7871; khi s&#7843;n xu&#7845;t, nh&#7853;p kh&#7849;u.</p>
+
+<p>&#272;i&#7873;u 43. C&ocirc;ng ngh&#7879; th&ocirc;ng tin v&agrave; truy&#7873;n th&ocirc;ng</p>
+
+<p>1. Nh&agrave; n&#432;&#7899;c khuy&#7871;n kh&iacute;ch c&#417; quan, t&#7893; ch&#7913;c, doanh nghi&#7879;p, c&aacute; nh&acirc;n ho&#7841;t &#273;&#7897;ng trong l&#297;nh v&#7921;c c&ocirc;ng ngh&#7879; th&ocirc;ng tin &#7913;ng d&#7909;ng v&agrave; ph&aacute;t tri&#7875;n c&ocirc;ng ngh&#7879; th&ocirc;ng tin d&agrave;nh cho ng&#432;&#7901;i khuy&#7871;t t&#7853;t.</p>
+
+<p>2. C&#417; quan th&ocirc;ng tin &#273;&#7841;i ch&uacute;ng c&oacute; tr&aacute;ch nhi&#7879;m ph&#7843;n &aacute;nh &#273;&#7901;i s&#7889;ng v&#7853;t ch&#7845;t v&agrave; tinh th&#7847;n c&#7911;a ng&#432;&#7901;i khuy&#7871;t t&#7853;t.</p>
+
+<p>&#272;&agrave;i truy&#7873;n h&igrave;nh Vi&#7879;t Nam c&oacute; tr&aacute;ch nhi&#7879;m th&#7921;c hi&#7879;n ch&#432;&#417;ng tr&igrave;nh ph&aacute;t s&oacute;ng c&oacute; ph&#7909; &#273;&#7873; ti&#7871;ng Vi&#7879;t v&agrave; ng&ocirc;n ng&#7919; ky&#769; hi&#7879;u d&agrave;nh cho ng&#432;&#7901;i khuy&#7871;t t&#7853;t theo quy &#273;&#7883;nh c&#7911;a B&#7897; tr&#432;&#7903;ng B&#7897; Th&ocirc;ng tin v&agrave; Truy&#7873;n th&ocirc;ng.</p>
+
+<p>3. Nh&agrave; n&#432;&#7899;c c&oacute; ch&iacute;nh s&aacute;ch mi&#7877;n, gi&#7843;m thu&#7871;, cho vay v&#7889;n v&#7899;i l&atilde;i su&#7845;t &#432;u &#273;&atilde;i v&agrave; h&#7895; tr&#7907; kh&aacute;c cho ho&#7841;t &#273;&#7897;ng nghi&ecirc;n c&#7913;u, ch&#7871; t&#7841;o, s&#7843;n xu&#7845;t v&agrave; cung c&#7845;p d&#7883;ch v&#7909;, ph&#432;&#417;ng ti&#7879;n h&#7895; tr&#7907; ng&#432;&#7901;i khuy&#7871;t t&#7853;t ti&#7871;p c&#7853;n c&ocirc;ng ngh&#7879; th&ocirc;ng tin v&agrave; truy&#7873;n th&ocirc;ng; h&#7895; tr&#7907; vi&#7879;c thu th&#7853;p, bi&ecirc;n so&#7841;n v&agrave; xu&#7845;t b&#7843;n t&agrave;i li&#7879;u in ch&#7919; n&#7893;i Braille d&agrave;nh cho ng&#432;&#7901;i khuy&#7871;t t&#7853;t nh&igrave;n, t&agrave;i li&#7879;u &#273;&#7885;c d&agrave;nh cho ng&#432;&#7901;i khuy&#7871;t t&#7853;t nghe, n&oacute;i v&agrave; ng&#432;&#7901;i khuy&#7871;t t&#7853;t tr&iacute; tu&#7879;.</p>
+	 <p class="text-center font-bold mt-6 mb-2" id="chuong-8">
+      CHƯƠNG VIII
 	<br />
-	 1. Người khuyết tật đang hưởng ch&iacute;nh s&aacute;ch ưu đ&atilde;i người c&oacute; c&ocirc;ng với c&aacute;ch mạng; đang hưởng lương hưu, trợ cấp bảo hiểm x&atilde; hội h&agrave;ng th&aacute;ng th&igrave; kh&ocirc;ng hưởng ch&iacute;nh s&aacute;ch quy định tại khoản 1 Điều 44 của Luật n&agrave;y nhưng được hưởng ch&iacute;nh s&aacute;ch quy định tại Luật n&agrave;y nếu ph&aacute;p luật về người c&oacute; c&ocirc;ng với c&aacute;ch mạng hoặc ph&aacute;p luật về bảo hiểm x&atilde; hội chưa quy định.
+		BẢO TRỢ XÃ HỘI
+     </p>
+	 <p>&#272;i&#7873;u 44. Tr&#7907; c&#7845;p x&atilde; h&#7897;i, h&ocirc;&#771; tr&#417;&#803; kinh phi&#769; ch&#259;m so&#769;c h&agrave;ng th&aacute;ng</p>
+
+<p>1. &#272;&#7889;i t&#432;&#7907;ng h&#432;&#7903;ng tr&#7907; c&#7845;p x&atilde; h&#7897;i ha&#768;ng th&aacute;ng bao g&#7891;m:</p>
+
+<p>a) Ng&#432;&#7901;i khuy&#7871;t t&#7853;t &#273;&#7863;c bi&#7879;t n&#7863;ng, tr&#7915; tr&#432;&#7901;ng h&#7907;p quy &#273;&#7883;nh t&#7841;i &#272;i&#7873;u 45 c&#7911;a Lu&#7853;t n&agrave;y;</p>
+
+<p>b) Ng&#432;&#7901;i khuy&#7871;t t&#7853;t n&#7863;ng.</p>
+
+<p>2. &#272;&ocirc;&#769;i t&#432;&#417;&#803;ng &#273;&#432;&#417;&#803;c h&ocirc;&#771; tr&#417;&#803; kinh phi&#769; ch&#259;m so&#769;c ha&#768;ng tha&#769;ng bao g&#7891;m:</p>
+
+<p>a) Gia &#273;i&#768;nh co&#769; ng&#432;&#417;&#768;i khuy&ecirc;&#769;t t&acirc;&#803;t &#273;&#259;&#803;c bi&ecirc;&#803;t n&#259;&#803;ng &#273;ang tr&#432;&#803;c ti&ecirc;&#769;p nu&ocirc;i d&#432;&#417;&#771;ng, ch&#259;m so&#769;c ng&#432;&#417;&#768;i &#273;o&#769;;</p>
+
+<p>b) Ng&#432;&#417;&#768;i nh&acirc;&#803;n nu&ocirc;i d&#432;&#417;&#771;ng, ch&#259;m so&#769;c ng&#432;&#417;&#768;i khuy&ecirc;&#769;t t&acirc;&#803;t &#273;&#259;&#803;c bi&ecirc;&#803;t n&#259;&#803;ng;</p>
+
+<p>c) Ng&#432;&#417;&#768;i khuy&ecirc;&#769;t t&acirc;&#803;t quy &#273;i&#803;nh ta&#803;i khoa&#777;n 1 &#272;i&ecirc;&#768;u na&#768;y &#273;ang mang thai ho&#259;&#803;c nu&ocirc;i con d&#432;&#417;&#769;i 36 tha&#769;ng tu&ocirc;&#777;i.</p>
+
+<p>3. Ng&#432;&#7901;i khuy&#7871;t t&#7853;t quy &#273;&#7883;nh t&#7841;i kho&#7843;n 1 &#272;i&#7873;u n&agrave;y l&agrave; tr&#7867; em, ng&#432;&#7901;i cao tu&#7893;i &#273;&#432;&#7907;c h&#432;&#7903;ng m&#7913;c tr&#7907; c&#7845;p cao h&#417;n &#273;&#7889;i t&#432;&#7907;ng kh&aacute;c c&ugrave;ng m&#7913;c &#273;&#7897; khuy&#7871;t t&#7853;t.</p>
+
+<p>4. M&#7913;c tr&#7907; c&#7845;p x&atilde; h&#7897;i h&agrave;ng th&aacute;ng, m&#432;&#769;c h&ocirc;&#771; tr&#417;&#803; kinh phi&#769; ch&#259;m so&#769;c ha&#768;ng tha&#769;ng &#273;&#7889;i v&#7899;i t&#7915;ng lo&#7841;i &#273;&#7889;i t&#432;&#7907;ng theo quy &#273;&#7883;nh t&#7841;i &#272;i&#7873;u n&agrave;y do Ch&iacute;nh ph&#7911; quy &#273;&#7883;nh.</p>
+
+<p>&#272;i&#7873;u 45. Nu&ocirc;i d&#432;&#7905;ng ng&#432;&#7901;i khuy&#7871;t t&#7853;t trong c&#417; s&#7903; b&#7843;o tr&#7907; x&atilde; h&#7897;i</p>
+
+<p>1. Ng&#432;&#7901;i khuy&#7871;t t&#7853;t &#273;&#7863;c bi&#7879;t n&#7863;ng kh&ocirc;ng n&#417;i n&#432;&#417;ng t&#7921;a, kh&ocirc;ng t&#7921; lo &#273;&#432;&#7907;c cu&#7897;c s&#7889;ng &#273;&#432;&#7907;c ti&#7871;p nh&#7853;n v&agrave;o nu&ocirc;i d&#432;&#7905;ng t&#7841;i c&#417; s&#7903; b&#7843;o tr&#7907; x&atilde; h&#7897;i.</p>
+
+<p>2. Nh&agrave; n&#432;&#7899;c c&#7845;p kinh ph&iacute; nu&ocirc;i d&#432;&#7905;ng ng&#432;&#7901;i khuy&#7871;t t&#7853;t quy &#273;i&#803;nh ta&#803;i khoa&#777;n 1 &#272;i&ecirc;&#768;u na&#768;y cho c&aacute;c c&#417; s&#7903; b&#7843;o tr&#7907; x&atilde; h&#7897;i bao g&#7891;m:</p>
+
+<p>a) Tr&#7907; c&#7845;p nu&ocirc;i d&#432;&#7905;ng h&agrave;ng th&aacute;ng;</p>
+
+<p>b) Mua s&#7855;m t&#432; trang, v&#7853;t d&#7909;ng ph&#7909;c v&#7909; cho sinh ho&#7841;t th&#432;&#417;&#768;ng ng&agrave;y;</p>
+
+<p>c) Mua th&#7867; b&#7843;o hi&#7875;m y t&#7871;;</p>
+
+<p>d) Mua thu&#7889;c ch&#7919;a b&#7879;nh th&ocirc;ng th&#432;&#7901;ng;</p>
+
+<p>&#273;) Mua d&#7909;ng c&#7909;, ph&#432;&#417;ng ti&#7879;n h&#7895; tr&#7907; ph&#7909;c h&#7891;i ch&#7913;c n&#259;ng;</p>
+
+<p>e) Mai t&aacute;ng khi ch&#7871;t;</p>
+
+<p>g) V&#7879; sinh c&aacute; nh&acirc;n h&agrave;ng th&aacute;ng &#273;&#7889;i v&#7899;i ng&#432;&#7901;i khuy&#7871;t t&#7853;t l&agrave; n&#7919;.</p>
+
+<p>3. Ch&iacute;nh ph&#7911; quy &#273;&#7883;nh m&#7913;c tr&#7907; c&#7845;p nu&ocirc;i d&#432;&#7905;ng h&agrave;ng th&aacute;ng v&agrave; kinh ph&iacute; quy &#273;&#7883;nh t&#7841;i kho&#7843;n 2 &#272;i&#7873;u n&agrave;y.</p>
+
+<p>&#272;i&#7873;u 46. Ch&#7871; &#273;&#7897; mai t&aacute;ng ph&iacute;</p>
+
+<p>Ng&#432;&#7901;i khuy&#7871;t t&#7853;t &#273;ang h&#432;&#7903;ng tr&#7907; c&#7845;p x&atilde; h&#7897;i h&agrave;ng th&aacute;ng &#273;&#432;&#7907;c h&#7895; tr&#7907; chi ph&iacute; mai t&aacute;ng khi ch&#7871;t. Ch&iacute;nh ph&#7911; quy &#273;&#7883;nh m&#7913;c h&#7895; tr&#7907; chi ph&iacute; mai t&aacute;ng.</p>
+
+<p>&#272;i&#7873;u 47. C&#417; s&#7903; ch&#259;m s&oacute;c ng&#432;&#7901;i khuy&#7871;t t&#7853;t</p>
+
+<p>1. C&#417; s&#7903; ch&#259;m s&oacute;c ng&#432;&#7901;i khuy&#7871;t t&#7853;t l&agrave; c&#417; s&#7903; nu&ocirc;i d&#432;&#7905;ng, cung c&#7845;p d&#7883;ch v&#7909; t&#432; v&#7845;n, tr&#7907; gi&uacute;p ng&#432;&#7901;i khuy&#7871;t t&#7853;t.</p>
+
+<p>2. C&#417; s&#7903; ch&#259;m s&oacute;c ng&#432;&#7901;i khuy&#7871;t t&#7853;t bao g&#7891;m:</p>
+
+<p>a) C&#417; s&#7903; b&#7843;o tr&#7907; x&atilde; h&#7897;i;</p>
+
+<p>b) C&#417; s&#7903; d&#7883;ch v&#7909; h&#7895; tr&#7907; ng&#432;&#7901;i khuy&#7871;t t&#7853;t;</p>
+
+<p>c) Trung t&acirc;m h&#7895; tr&#7907; ng&#432;&#7901;i khuy&#7871;t t&#7853;t s&#7889;ng &#273;&#7897;c l&#7853;p;</p>
+
+<p>d) C&#417; s&#7903; ch&#259;m s&oacute;c ng&#432;&#7901;i khuy&#7871;t t&#7853;t kh&aacute;c.</p>
+
+<p>3. Ch&iacute;nh ph&#7911; quy &#273;&#7883;nh &#273;i&#7873;u ki&#7879;n th&agrave;nh l&#7853;p, ho&#7841;t &#273;&#7897;ng, gi&#7843;i th&#7875; c&#417; s&#7903; ch&#259;m s&oacute;c ng&#432;&#7901;i khuy&#7871;t t&#7853;t.</p>
+
+<p>4. Nh&agrave; n&#432;&#7899;c &#273;&#7847;u t&#432; c&#417; s&#7903; v&#7853;t ch&#7845;t v&agrave; ba&#777;o &#273;a&#777;m kinh ph&iacute; ho&#7841;t &#273;&#7897;ng cho c&#417; s&#7903; ch&#259;m s&oacute;c ng&#432;&#7901;i khuy&#7871;t t&#7853;t c&ocirc;ng l&#7853;p.</p>
+
+<p>&#272;i&#7873;u 48. Tr&aacute;ch nhi&#7879;m c&#7911;a c&#417; s&#7903; ch&#259;m s&oacute;c ng&#432;&#7901;i khuy&#7871;t t&#7853;t</p>
+
+<p>1. Tu&acirc;n th&#7911; &#273;i&#7873;u ki&#7879;n ho&#7841;t &#273;&#7897;ng c&#7911;a c&#417; s&#7903; ch&#259;m s&oacute;c ng&#432;&#7901;i khuy&#7871;t t&#7853;t; th&#7921;c hi&#7879;n &#273;&#7847;y &#273;&#7911; c&aacute;c quy chu&#7849;n v&#7873; nu&ocirc;i d&#432;&#7905;ng, cung c&#7845;p d&#7883;ch v&#7909; t&#432; v&#7845;n, tr&#7907; gi&uacute;p ng&#432;&#7901;i khuy&#7871;t t&#7853;t t&#432;&#417;ng &#7913;ng v&#7899;i t&#7915;ng lo&#7841;i c&#417; s&#7903;.</p>
+
+<p>2. Th&#432;&#803;c hi&ecirc;&#803;n c&#7843;i t&#7841;o, n&acirc;ng c&#7845;p c&#417; s&#7903; v&#7853;t ch&#7845;t ch&#432;a b&#7843;o &#273;&#7843;m &#273;i&#7873;u ki&#7879;n ti&#7871;p c&#7853;n &#273;&#7889;i v&#7899;i ng&#432;&#7901;i khuy&#7871;t t&#7853;t.</p>
+<p class="text-center font-bold mt-6 mb-2" id="chuong-9">
+      CHƯƠNG IX
 	<br />
-	 2. Người khuyết tật thuộc đối tượng được hưởng nhiều ch&iacute;nh s&aacute;ch trợ gi&uacute;p c&aacute;c đối tượng bảo trợ x&atilde; hội c&ugrave;ng loại chỉ được hưởng một ch&iacute;nh s&aacute;ch trợ gi&uacute;p cao nhất.
+		TRÁCH NHIỆM CỦA CƠ QUAN
 	<br />
-	 3. Người khuyết tật đang được hưởng chế độ nu&ocirc;i dưỡng, chăm s&oacute;c tại cơ sở bảo trợ x&atilde; hội trước ng&agrave;y Luật n&agrave;y c&oacute; hiệu lực th&igrave; được tiếp tục nu&ocirc;i dưỡng, chăm s&oacute;c tại cơ sở bảo trợ x&atilde; hội theo quy định tại khoản 2 Điều 45 của Luật n&agrave;y.
+NHÀ NƯỚC VỀ CÔNG TÁC NGƯỜI KHUYẾT TẬT
+     </p>
+	 <p>&#272;i&#7873;u 49. C&#417; quan qu&#7843;n l&yacute; nh&agrave; n&#432;&#7899;c v&#7873; c&ocirc;ng t&aacute;c ng&#432;&#7901;i khuy&#7871;t t&#7853;t</p>
+
+<p>1. Ch&iacute;nh ph&#7911; th&#7889;ng nh&#7845;t qu&#7843;n l&yacute; nh&agrave; n&#432;&#7899;c v&#7873; c&ocirc;ng t&aacute;c ng&#432;&#7901;i khuy&#7871;t t&#7853;t.</p>
+
+<p>2. B&#7897; Lao &#273;&#7897;ng - Th&#432;&#417;ng binh v&agrave; X&atilde; h&#7897;i ch&#7883;u tr&aacute;ch nhi&#7879;m tr&#432;&#7899;c Ch&iacute;nh ph&#7911; th&#7921;c hi&#7879;n ch&#7913;c n&#259;ng qu&#7843;n l&yacute; nh&agrave; n&#432;&#7899;c v&#7873; c&ocirc;ng t&aacute;c ng&#432;&#7901;i khuy&#7871;t t&#7853;t.</p>
+
+<p>3. C&aacute;c b&#7897;, c&#417; quan ngang b&#7897; trong ph&#7841;m vi nhi&#7879;m v&#7909;, quy&#7873;n h&#7841;n c&#7911;a m&igrave;nh c&oacute; tr&aacute;ch nhi&#7879;m ph&#7889;i h&#7907;p v&#7899;i B&#7897; Lao &#273;&#7897;ng - Th&#432;&#417;ng binh v&agrave; X&atilde; h&#7897;i th&#7921;c hi&#7879;n qu&#7843;n l&yacute; nh&agrave; n&#432;&#7899;c v&#7873; c&ocirc;ng t&aacute;c ng&#432;&#7901;i khuy&#7871;t t&#7853;t.</p>
+
+<p>4. &#7910;y ban nh&acirc;n d&acirc;n c&aacute;c c&#7845;p trong ph&#7841;m vi nhi&#7879;m v&#7909;, quy&#7873;n h&#7841;n c&#7911;a m&igrave;nh c&oacute; tr&aacute;ch nhi&#7879;m th&#7921;c hi&#7879;n qu&#7843;n l&yacute; nh&agrave; n&#432;&#7899;c v&#7873; c&ocirc;ng t&aacute;c ng&#432;&#7901;i khuy&#7871;t t&#7853;t.</p>
+
+<p>&#272;i&#7873;u 50. Tr&aacute;ch nhi&#7879;m c&#7911;a b&#7897;, c&#417; quan ngang b&#7897; v&agrave; &#7910;y ban nh&acirc;n d&acirc;n c&aacute;c c&#7845;p</p>
+
+<p>1. B&#7897; Lao &#273;&#7897;ng - Th&#432;&#417;ng binh v&agrave; X&atilde; h&#7897;i c&oacute; tr&aacute;ch nhi&#7879;m sau &#273;&acirc;y:</p>
+
+<p>a) X&acirc;y d&#7921;ng v&agrave; tr&igrave;nh c&#417; quan c&oacute; th&#7849;m quy&#7873;n ban h&agrave;nh ho&#7863;c ban h&agrave;nh theo th&#7849;m quy&#7873;n v&#259;n b&#7843;n quy ph&#7841;m ph&aacute;p lu&#7853;t, ch&#432;&#417;ng tr&igrave;nh, &#273;&#7873; &aacute;n, k&#7871; ho&#7841;ch v&#7873; c&ocirc;ng t&aacute;c ng&#432;&#7901;i khuy&#7871;t t&#7853;t;</p>
+
+<p>b) Ch&#7911; tr&igrave; va&#768; ph&#7889;i h&#7907;p v&#7899;i c&aacute;c b&#7897;, c&#417; quan ngang b&#7897; v&agrave; &#7910;y ban nh&acirc;n d&acirc;n t&#7881;nh, th&agrave;nh ph&#7889; tr&#7921;c thu&#7897;c trung &#432;&#417;ng t&#7893; ch&#7913;c th&#7921;c hi&#7879;n v&#259;n b&#7843;n quy ph&#7841;m ph&aacute;p lu&#7853;t v&#7873; ng&#432;&#7901;i khuy&#7871;t t&#7853;t; ch&#432;&#417;ng tr&igrave;nh, &#273;&#7873; &aacute;n, k&#7871; ho&#7841;ch v&#7873; c&ocirc;ng t&aacute;c ng&#432;&#7901;i khuy&#7871;t t&#7853;t;</p>
+
+<p>c) X&acirc;y d&#7921;ng v&agrave; tr&igrave;nh Ch&iacute;nh ph&#7911; ban h&agrave;nh th&#7911; t&#7909;c, h&#7891; s&#417;, th&#7901;i gian v&agrave; quy tr&igrave;nh gia&#777;i quy&ecirc;&#769;t ch&ecirc;&#769; &#273;&ocirc;&#803; tr&#7907; c&#7845;p x&atilde; h&#7897;i, ch&ecirc;&#769; &#273;&ocirc;&#803; mai t&aacute;ng ph&iacute;; quy tr&igrave;nh, th&#7911; t&#7909;c, h&#7891; s&#417; ti&#7871;p nh&#7853;n v&agrave; &#273;i&#7873;u ki&#7879;n d&#7915;ng nu&ocirc;i d&#432;&#7905;ng, ch&#259;m s&oacute;c ng&#432;&#7901;i khuy&#7871;t t&#7853;t trong c&#417; s&#7903; ch&#259;m s&oacute;c ng&#432;&#7901;i khuy&#7871;t t&#7853;t;</p>
+
+<p>d) X&acirc;y d&#7921;ng v&agrave; tr&igrave;nh Ch&iacute;nh ph&#7911; ban h&agrave;nh quy &#273;&#7883;nh v&#7873; ch&#7871; &#273;&#7897;, ch&iacute;nh s&aacute;ch &#273;&#7889;i v&#7899;i ng&#432;&#7901;i l&agrave;m c&ocirc;ng t&aacute;c ng&#432;&#7901;i khuy&#7871;t t&#7853;t; c&aacute;n b&#7897;, c&ocirc;ng ch&#7913;c, nh&acirc;n vi&ecirc;n ch&#259;m s&oacute;c, nh&acirc;n vi&ecirc;n ph&#7909;c h&#7891;i ch&#7913;c n&#259;ng, c&aacute;n b&#7897; chuy&ecirc;n tr&aacute;ch c&#7911;a t&#7893; ch&#7913;c ng&#432;&#7901;i khuy&#7871;t t&#7853;t;</p>
+
+<p>&#273;) Quy &#273;&#7883;nh ti&ecirc;u chu&#7849;n nghi&#7879;p v&#7909; &#273;&#7889;i v&#7899;i c&aacute;n b&#7897;, c&ocirc;ng ch&#7913;c, nh&acirc;n vi&ecirc;n ch&#259;m s&oacute;c ng&#432;&#7901;i khuy&#7871;t t&#7853;t trong c&#417; s&#7903; ch&#259;m s&oacute;c ng&#432;&#7901;i khuy&#7871;t t&#7853;t;</p>
+
+<p>e) &#272;&agrave;o t&#7841;o nghi&#7879;p v&#7909; c&aacute;n b&#7897;, c&ocirc;ng ch&#7913;c, nh&acirc;n vi&ecirc;n l&agrave;m c&ocirc;ng t&aacute;c ng&#432;&#7901;i khuy&#7871;t t&#7853;t v&agrave; nh&acirc;n vi&ecirc;n ch&#259;m s&oacute;c ng&#432;&#7901;i khuy&#7871;t t&#7853;t t&#7841;i gia &#273;&igrave;nh, c&#7897;ng &#273;&#7891;ng v&agrave; trong c&#417; s&#7903; ch&#259;m s&oacute;c ng&#432;&#7901;i khuy&#7871;t t&#7853;t;</p>
+
+<p>g) X&acirc;y d&#7921;ng v&agrave; th&#7921;c hi&#7879;n ch&#432;&#417;ng tr&igrave;nh n&acirc;ng cao nh&#7853;n th&#7913;c v&#7873; ng&#432;&#7901;i khuy&#7871;t t&#7853;t v&agrave; c&ocirc;ng t&aacute;c ng&#432;&#7901;i khuy&#7871;t t&#7853;t;</p>
+
+<p>h) Ki&#7875;m tra, thanh tra vi&#7879;c th&#7921;c hi&#7879;n ph&aacute;p lu&#7853;t v&#7873; ng&#432;&#7901;i khuy&#7871;t t&#7853;t;</p>
+
+<p>i) Th&#7921;c hi&#7879;n h&#7907;p t&aacute;c qu&#7889;c t&#7871; v&#7873; ng&#432;&#7901;i khuy&#7871;t t&#7853;t;</p>
+
+<p>k) X&acirc;y d&#7921;ng v&agrave; tr&igrave;nh Th&#7911; t&#432;&#7899;ng Ch&iacute;nh ph&#7911; ph&ecirc; duy&#7879;t &#273;&#7873; &aacute;n tr&#7907; gi&uacute;p ng&#432;&#7901;i khuy&#7871;t t&#7853;t;</p>
+
+<p>l) Th&#7921;c hi&#7879;n kh&#7843;o s&aacute;t, th&#7889;ng k&ecirc;, x&acirc;y d&#7921;ng v&agrave; qu&#7843;n l&yacute; c&#417; s&#7903; d&#7919; li&#7879;u v&agrave; th&ocirc;ng tin, &#273;&#7883;nh k&#7923; c&ocirc;ng b&#7889; b&aacute;o c&aacute;o v&#7873; ng&#432;&#7901;i khuy&#7871;t t&#7853;t;</p>
+
+<p>m) Quy ho&#7841;ch v&agrave; qu&#7843;n l&yacute; h&#7879; th&#7889;ng c&#417; s&#7903; ch&#7881;nh h&igrave;nh, ph&#7909;c h&#7891;i ch&#7913;c n&#259;ng v&agrave; c&#417; s&#7903; ch&#259;m s&oacute;c ng&#432;&#7901;i khuy&#7871;t t&#7853;t thu&#7897;c th&#7849;m quy&#7873;n.</p>
+
+<p>2. B&#7897; Y t&#7871; c&oacute; tr&aacute;ch nhi&#7879;m sau &#273;&acirc;y:</p>
+
+<p>a) Th&#7921;c hi&#7879;n qu&#7843;n l&yacute; nh&agrave; n&#432;&#7899;c v&#7873; ch&#259;m s&oacute;c s&#7913;c kh&#7887;e ng&#432;&#7901;i khuy&#7871;t t&#7853;t;</p>
+
+<p>b) Ch&#7911; tr&igrave; va&#768; ph&#7889;i h&#7907;p v&#7899;i B&#7897; Lao &#273;&#7897;ng - Th&#432;&#417;ng binh v&agrave; X&atilde; h&#7897;i quy &#273;&#7883;nh chi ti&#7871;t ho&#7841;t &#273;&#7897;ng ph&#7909;c h&#7891;i ch&#7913;c n&#259;ng ng&#432;&#7901;i khuy&#7871;t t&#7853;t; &#273;&agrave;o t&#7841;o v&#7873; ph&#7909;c h&#7891;i ch&#7913;c n&#259;ng; th&#7921;c hi&#7879;n ch&#432;&#417;ng tr&igrave;nh ph&ograve;ng ng&#7915;a khuy&#7871;t t&#7853;t; h&#432;&#7899;ng d&#7851;n th&#7921;c hi&#7879;n ph&#7909;c h&#7891;i ch&#7913;c n&#259;ng d&#7921;a v&agrave;o c&#7897;ng &#273;&#7891;ng &#273;&#7889;i v&#7899;i ng&#432;&#7901;i khuy&#7871;t t&#7853;t.</p>
+
+<p>3. B&#7897; Gi&aacute;o d&#7909;c v&agrave; &#272;&agrave;o t&#7841;o c&oacute; tr&aacute;ch nhi&#7879;m sau &#273;&acirc;y:</p>
+
+<p>a) Th&#7921;c hi&#7879;n qu&#7843;n l&yacute; nh&agrave; n&#432;&#7899;c v&#7873; gi&aacute;o d&#7909;c &#273;&#7889;i v&#7899;i ng&#432;&#7901;i khuy&#7871;t t&#7853;t;</p>
+
+<p>b) Quy &#273;&#7883;nh chu&#7849;n qu&#7889;c gia v&#7873; ng&ocirc;n ng&#7919; k&yacute; hi&#7879;u v&agrave; ch&#7919; n&#7893;i Braille cho ng&#432;&#7901;i khuy&#7871;t t&#7853;t;</p>
+
+<p>c) Th&#7921;c hi&#7879;n quy ho&#7841;ch h&#7879; th&#7889;ng c&aacute;c c&#417; s&#7903; gi&aacute;o d&#7909;c chuy&ecirc;n bi&#7879;t &#273;&#7889;i v&#7899;i ng&#432;&#7901;i khuy&#7871;t t&#7853;t v&agrave; h&#7879; th&#7889;ng trung t&acirc;m h&#7895; tr&#7907; ph&aacute;t tri&#7875;n gi&aacute;o d&#7909;c h&ograve;a nh&#7853;p;</p>
+
+<p>d) &#272;&agrave;o t&#7841;o gi&aacute;o vi&ecirc;n, nh&acirc;n vi&ecirc;n h&#7895; tr&#7907; gi&aacute;o d&#7909;c, bi&ecirc;n so&#7841;n ch&#432;&#417;ng tr&igrave;nh, t&agrave;i li&#7879;u, gi&aacute;o tr&igrave;nh v&agrave; s&aacute;ch gi&aacute;o khoa &aacute;p d&#7909;ng cho ng&#432;&#7901;i h&#7885;c l&agrave; ng&#432;&#7901;i khuy&#7871;t t&#7853;t; ch&#7881; &#273;&#7841;o nghi&ecirc;n c&#7913;u, s&#7843;n xu&#7845;t v&agrave; cung &#7913;ng thi&#7871;t b&#7883; d&#7841;y h&#7885;c ph&ugrave; h&#7907;p v&#7899;i t&#7915;ng d&#7841;ng t&#7853;t v&agrave; m&#7913;c &#273;&#7897; khuy&#7871;t t&#7853;t;</p>
+
+<p>&#273;) Ch&#7911; tr&igrave; va&#768; ph&#7889;i h&#7907;p v&#7899;i B&#7897; Lao &#273;&#7897;ng - Th&#432;&#417;ng binh v&agrave; X&atilde; h&#7897;i, B&#7897; Y t&#7871; th&#7921;c hi&#7879;n ch&#432;&#417;ng tr&igrave;nh gi&aacute;o d&#7909;c &#273;&#7863;c bi&#7879;t &#273;&#7889;i v&#7899;i tr&#7867; em khuy&#7871;t t&#7853;t.</p>
+
+<p>4. B&#7897; V&#259;n h&oacute;a, Th&#7875; thao v&agrave; Du l&#7883;ch c&oacute; tr&aacute;ch nhi&#7879;m th&#7921;c hi&#7879;n qu&#7843;n l&yacute; nh&agrave; n&#432;&#7899;c v&#7873; c&ocirc;ng t&aacute;c v&#259;n h&oacute;a, th&#7875; thao, gi&#7843;i tr&iacute; v&agrave; du l&#7883;ch &#273;&#7889;i v&#7899;i ng&#432;&#7901;i khuy&#7871;t t&#7853;t; ch&#7881; &#273;&#7841;o, h&#432;&#7899;ng d&#7851;n v&agrave; t&#7893; ch&#7913;c th&#7921;c hi&#7879;n c&aacute;c ho&#7841;t &#273;&#7897;ng n&acirc;ng cao &#273;&#7901;i s&#7889;ng v&#259;n h&oacute;a, tinh th&#7847;n cho ng&#432;&#7901;i khuy&#7871;t t&#7853;t.</p>
+
+<p>5. B&#7897; X&acirc;y d&#7921;ng c&oacute; tr&aacute;ch nhi&#7879;m ch&#7911; tr&igrave; v&agrave; ph&#7889;i h&#7907;p v&#7899;i c&aacute;c b&#7897;, c&#417; quan ngang b&ocirc;&#803; co&#769; li&ecirc;n quan ban h&agrave;nh, h&#432;&#7899;ng d&#7851;n v&agrave; t&#7893; ch&#7913;c th&#7921;c hi&#7879;n quy chu&#7849;n k&#7929; thu&#7853;t qu&#7889;c gia v&#7873; x&acirc;y d&#7921;ng nha&#768; &#417;&#777; chung c&#432;, tru&#803; s&#417;&#777; la&#768;m vi&ecirc;&#803;c, c&ocirc;ng tri&#768;nh ha&#803; t&acirc;&#768;ng ky&#771; thu&acirc;&#803;t, c&ocirc;ng tri&#768;nh ha&#803; t&acirc;&#768;ng xa&#771; h&ocirc;&#803;i b&#7843;o &#273;&#7843;m &#273;i&#7873;u ki&#7879;n ti&#7871;p c&#7853;n &#273;&ocirc;&#769;i v&#417;&#769;i ng&#432;&#7901;i khuy&#7871;t t&#7853;t.</p>
+
+<p>6. B&#7897; Giao th&ocirc;ng v&#7853;n t&#7843;i c&oacute; tr&aacute;ch nhi&#7879;m ch&#7911; tr&igrave; va&#768; ph&#7889;i h&#7907;p v&#7899;i c&aacute;c b&#7897;, c&#417; quan ngang b&ocirc;&#803; co&#769; li&ecirc;n quan ban h&agrave;nh, h&#432;&#7899;ng d&#7851;n v&agrave; t&#7893; ch&#7913;c th&#7921;c hi&#7879;n quy chu&#7849;n k&#7929; thu&#7853;t qu&#7889;c gia v&#7873; k&#7871;t c&#7845;u h&#7841; t&#7847;ng giao th&ocirc;ng, c&aacute;c c&ocirc;ng c&#7909; h&#7895; tr&#7907; v&agrave; ch&iacute;nh s&aacute;ch &#432;u ti&ecirc;n ng&#432;&#7901;i khuy&#7871;t t&#7853;t tham gia giao th&ocirc;ng c&ocirc;ng c&#7897;ng.</p>
+
+<p>7. B&#7897; Th&ocirc;ng tin v&agrave; Truy&#7873;n th&ocirc;ng c&oacute; tr&aacute;ch nhi&#7879;m ban h&agrave;nh, h&#432;&#7899;ng d&#7851;n v&agrave; t&#7893; ch&#7913;c th&#7921;c hi&#7879;n quy chu&#7849;n k&#7929; thu&#7853;t qu&#7889;c gia v&#7873; ti&#7871;p c&#7853;n th&ocirc;ng tin &#273;&#7889;i v&#7899;i ng&#432;&#7901;i khuy&#7871;t t&#7853;t; ch&#7881; &#273;&#7841;o, h&#432;&#7899;ng d&#7851;n c&#417; quan th&ocirc;ng tin &#273;&#7841;i ch&uacute;ng th&#7921;c hi&#7879;n tuy&ecirc;n truy&#7873;n, ph&#7893; bi&#7871;n ch&iacute;nh s&aacute;ch, ph&aacute;p lu&#7853;t &#273;&#7889;i v&#7899;i ng&#432;&#7901;i khuy&#7871;t t&#7853;t.</p>
+
+<p>8. B&#7897; Khoa h&#7885;c v&agrave; C&ocirc;ng ngh&#7879; ch&#7911; tr&igrave; v&agrave; ph&#7889;i h&#7907;p v&#7899;i c&aacute;c b&#7897;, c&#417; quan ngang b&ocirc;&#803; co&#769; li&ecirc;n quan ban h&agrave;nh, h&#432;&#7899;ng d&#7851;n v&agrave; t&#7893; ch&#7913;c th&#7921;c hi&#7879;n quy &#273;&#7883;nh khuy&#7871;n kh&iacute;ch nghi&ecirc;n c&#7913;u, s&#7843;n xu&#7845;t v&agrave; &#7913;ng d&#7909;ng s&#7843;n ph&#7849;m h&#7895; tr&#7907; ng&#432;&#7901;i khuy&#7871;t t&#7853;t s&#7917; d&#7909;ng.</p>
+
+<p>9. B&#7897; T&agrave;i ch&iacute;nh b&#7889; tr&iacute; ng&acirc;n s&aacute;ch th&#7921;c hi&#7879;n c&aacute;c ch&iacute;nh s&aacute;ch, ch&#432;&#417;ng tr&igrave;nh, &#273;&#7873; &aacute;n, d&#7921; &aacute;n tr&#7907; gi&uacute;p ng&#432;&#7901;i khuy&#7871;t t&#7853;t; b&#7889; tr&iacute; ng&acirc;n s&aacute;ch &#273;i&#7873;u tra, kh&#7843;o s&aacute;t v&agrave; th&#7889;ng k&ecirc; ng&#432;&#7901;i khuy&#7871;t t&#7853;t theo quy &#273;&#7883;nh c&#7911;a ph&aacute;p lu&#7853;t v&#7873; ng&acirc;n s&aacute;ch nh&agrave; n&#432;&#7899;c.</p>
+
+<p>10. B&#7897; K&#7871; ho&#7841;ch v&agrave; &#272;&#7847;u t&#432; th&acirc;&#777;m &#273;i&#803;nh, ph&ecirc; duy&ecirc;&#803;t c&aacute;c d&#7921; &aacute;n nh&agrave; n&#432;&#7899;c &#273;&#7847;u t&#432; ch&#259;m s&oacute;c, nu&ocirc;i d&#432;&#7905;ng, ch&#7881;nh h&igrave;nh, ph&#7909;c h&#7891;i ch&#7913;c n&#259;ng ng&#432;&#7901;i khuy&#7871;t t&#7853;t; ch&#7911; tr&igrave; va&#768; ph&#7889;i h&#7907;p v&#7899;i B&#7897; Lao &#273;&#7897;ng - Th&#432;&#417;ng binh v&agrave; X&atilde; h&#7897;i &#273;i&#7873;u tra, kh&#7843;o s&aacute;t v&agrave; th&#7889;ng k&ecirc; ng&#432;&#7901;i khuy&#7871;t t&#7853;t.</p>
+
+<p>11. &#7910;y ban nh&acirc;n d&acirc;n ca&#769;c c&#7845;p trong ph&#7841;m vi nhi&#7879;m v&#7909;, quy&#7873;n h&#7841;n c&#7911;a m&igrave;nh th&#7921;c hi&#7879;n qu&#7843;n l&yacute; nh&agrave; n&#432;&#7899;c v&#7873; c&ocirc;ng t&aacute;c ng&#432;&#7901;i khuy&#7871;t t&#7853;t; l&#7891;ng gh&eacute;p c&ocirc;ng t&aacute;c ng&#432;&#7901;i khuy&#7871;t t&#7853;t v&agrave;o k&#7871; ho&#7841;ch ph&aacute;t tri&#7875;n kinh t&#7871; - x&atilde; h&#7897;i c&#7911;a &#273;&#7883;a ph&#432;&#417;ng; b&#7843;o &#273;&#7843;m &#273;i&#7873;u ki&#7879;n &#273;&#7875; ng&#432;&#7901;i khuy&#7871;t t&#7853;t th&#7921;c hi&#7879;n quy&#7873;n, ngh&#297;a v&#7909; v&agrave; tr&aacute;ch nhi&#7879;m c&#7911;a m&igrave;nh; t&#7841;o &#273;i&#7873;u ki&#7879;n cho t&#7893; ch&#7913;c, c&aacute; nh&acirc;n tham gia h&#7895; tr&#7907; ng&#432;&#7901;i khuy&#7871;t t&#7853;t.</p>
+	 <p class="text-center font-bold mt-6 mb-2" id="chuong-10">
+      CHƯƠNG X
 	<br />
-	<br />
-	 **Điều 52. Hiệu lực thi h&agrave;nh**
-	<br />
-	 1. Luật n&agrave;y c&oacute; hiệu lực thi h&agrave;nh từ ng&agrave;y 01 th&aacute;ng 01 năm 2011.
-	<br />
-	 2. Ph&aacute;p lệnh về người t&agrave;n tật năm 1998 hết hiệu lực kể từ ng&agrave;y Luật n&agrave;y c&oacute; hiệu lực.
-	<br />
-	<br />
-	 **Điều 53. Quy định chi tiết v&agrave; hướng dẫn thi h&agrave;nh**
-	<br />
-	 Ch&iacute;nh phủ quy định chi tiết v&agrave; hướng dẫn thi h&agrave;nh c&aacute;c điều, khoản được giao trong Luật; hướng dẫn những nội dung cần thiết kh&aacute;c của Luật n&agrave;y để đ&aacute;p ứng y&ecirc;u cầu quản l&yacute; nh&agrave; nước.
-	<br />
-	<br />
-	 Luật n&agrave;y đ&atilde; được Quốc hội nước Cộng h&ograve;a x&atilde; hội chủ nghĩa Việt Nam kh&oacute;a XII, kỳ họp thứ 7 th&ocirc;ng qua ng&agrave;y 17 th&aacute;ng 6 năm 2010.
-	<br />
+		ĐIỀU KHOẢN THI HÀNH
+     </p>
+	 <p>&#272;i&#7873;u 51. &Aacute;p d&#7909;ng ph&aacute;p lu&#7853;t</p>
+
+<p>1. Ng&#432;&#7901;i khuy&#7871;t t&#7853;t &#273;ang h&#432;&#7903;ng ch&iacute;nh s&aacute;ch &#432;u &#273;&atilde;i ng&#432;&#7901;i c&oacute; c&ocirc;ng v&#7899;i c&aacute;ch m&#7841;ng; &#273;ang h&#432;&#417;&#777;ng l&#432;&#417;ng h&#432;u, tr&#7907; c&#7845;p b&#7843;o hi&#7875;m x&atilde; h&#7897;i h&agrave;ng th&aacute;ng th&igrave; kh&ocirc;ng h&#432;&#7903;ng ch&iacute;nh s&aacute;ch quy &#273;&#7883;nh t&#7841;i kho&#7843;n 1 &#272;i&#7873;u 44 c&#7911;a Lu&#7853;t n&agrave;y nh&#432;ng &#273;&#432;&#7907;c h&#432;&#7903;ng ch&iacute;nh s&aacute;ch quy &#273;&#7883;nh t&#7841;i Lu&#7853;t n&agrave;y n&#7871;u ph&aacute;p lu&#7853;t v&#7873; ng&#432;&#7901;i c&oacute; c&ocirc;ng v&#7899;i c&aacute;ch m&#7841;ng ho&#7863;c ph&aacute;p lu&#7853;t v&#7873; b&#7843;o hi&#7875;m x&atilde; h&#7897;i ch&#432;a quy &#273;&#7883;nh.</p>
+
+<p>2. Ng&#432;&#7901;i khuy&#7871;t t&#7853;t thu&#7897;c &#273;&#7889;i t&#432;&#7907;ng &#273;&#432;&#7907;c h&#432;&#7903;ng nhi&#7873;u ch&iacute;nh s&aacute;ch tr&#7907; gi&uacute;p c&aacute;c &#273;&#7889;i t&#432;&#7907;ng b&#7843;o tr&#7907; x&atilde; h&#7897;i c&ugrave;ng lo&#7841;i ch&#7881; &#273;&#432;&#7907;c h&#432;&#7903;ng m&#7897;t ch&iacute;nh s&aacute;ch tr&#7907; gi&uacute;p cao nh&#7845;t.</p>
+
+<p>3. Ng&#432;&#417;&#768;i khuy&ecirc;&#769;t t&acirc;&#803;t &#273;ang &#273;&#432;&#417;&#803;c h&#432;&#417;&#777;ng ch&ecirc;&#769; &#273;&ocirc;&#803; nu&ocirc;i d&#432;&#417;&#771;ng, ch&#259;m so&#769;c ta&#803;i c&#417; s&#417;&#777; ba&#777;o tr&#417;&#803; xa&#771; h&ocirc;&#803;i tr&#432;&#417;&#769;c ng&agrave;y Lu&acirc;&#803;t na&#768;y co&#769; hi&ecirc;&#803;u l&#432;&#803;c thi&#768; &#273;&#432;&#417;&#803;c ti&ecirc;&#769;p tu&#803;c nu&ocirc;i d&#432;&#417;&#771;ng, ch&#259;m so&#769;c ta&#803;i c&#417; s&#417;&#777; ba&#777;o tr&#417;&#803; xa&#771; h&ocirc;&#803;i theo quy &#273;i&#803;nh ta&#803;i khoa&#777;n 2 &#272;i&ecirc;&#768;u 45 cu&#777;a Lu&acirc;&#803;t na&#768;y.</p>
+
+<p>&#272;i&#7873;u 52. Hi&#7879;u l&#7921;c thi h&agrave;nh</p>
+
+<p>1. Lu&#7853;t n&agrave;y c&oacute; hi&#7879;u l&#7921;c thi h&agrave;nh t&#7915; ng&agrave;y 01 th&aacute;ng 01 n&#259;m 2011.</p>
+
+<p>2. Ph&aacute;p l&#7879;nh v&#7873; ng&#432;&#7901;i t&agrave;n t&#7853;t n&#259;m 1998 h&#7871;t hi&#7879;u l&#7921;c k&#7875; t&#7915; ng&agrave;y Lu&#7853;t n&agrave;y c&oacute; hi&#7879;u l&#7921;c.</p>
+
+<p>&#272;i&#7873;u 53. Quy &#273;&#7883;nh chi ti&#7871;t v&agrave; h&#432;&#7899;ng d&#7851;n thi h&agrave;nh</p>
+
+<p>Ch&iacute;nh ph&#7911; quy &#273;&#7883;nh chi ti&#7871;t v&agrave; h&#432;&#7899;ng d&#7851;n thi h&agrave;nh c&aacute;c &#273;i&#7873;u, kho&#7843;n &#273;&#432;&#7907;c giao trong Lu&#7853;t; h&#432;&#7899;ng d&#7851;n nh&#7919;ng n&#7897;i dung c&#7847;n thi&#7871;t kh&aacute;c c&#7911;a Lu&#7853;t n&agrave;y &#273;&#7875; &#273;&aacute;p &#7913;ng y&ecirc;u c&#7847;u qu&#7843;n l&yacute; nh&agrave; n&#432;&#7899;c.</p>
+
+<p>Lu&#7853;t n&agrave;y &#273;&atilde; &#273;&#432;&#7907;c Qu&#7889;c h&#7897;i n&#432;&#7899;c C&#7897;ng h&ograve;a x&atilde; h&#7897;i ch&#7911; ngh&#297;a Vi&#7879;t Nam kh&oacute;a XII, k&#7923; h&#7885;p th&#7913; 7 th&ocirc;ng qua ng&agrave;y 17 th&aacute;ng 6 n&#259;m 2010.</p>
 	 CHỦ TỊCH QUỐC HỘI
 	<br />
 	 &nbsp;&nbsp;
@@ -5047,21 +5284,25 @@ export const boTuVung = [
 ];
 export const organizations = [
   {
+	link: 'https://www.facebook.com/HoiChaMeTreKhiemThinhVietNam/?locale=vi_VN',
     logo: "/image/tochuc1.png",
     title: "Hội Cha Mẹ Trẻ Khiếm Thính và Người Khiếm Thính VN",
     description: "Hỗ trợ Trẻ khiếm thính và Người khiếm thính trong hành trình tìm âm thanh, phương tiện giao tiếp phù hợp và cơ hội hòa nhập cộng đồng, cơ hội sống độc lập và bình đẳng!",
   },
   {
+	link: 'https://hlcsvietnam.com/',
     logo: "/image/tochuc2.png",
     title: "Doanh Nghiệp Xã Hội Vì Người Khiếm Thính Việt Nam",
     description: "Mang đến cho Người khiếm thính (bao gồm cả trẻ em) một cộng đồng kết nối chia sẻ trải nghiệm học tập, cuộc sống, rút ngắn khoảng cách khác biệt, nâng cao các kỹ năng hòa nhập xã hội cũng như các hoạt động và giải pháp hướng nghiệp để trở thành người độc lập, sống có ích cho chính bản thân mình và cho xã hội.",
   },
   {
+	link: 'https://www.facebook.com/bvdeafvietnam/',
     logo: "/image/tochuc3.png",
     title: "Ban vận động Hội người Điếc Việt Nam ",
     description: "BVĐ Hội người Điếc Việt Nam là một tổ chức phi chính phủ, được thành lập để trở thành đại diện cho tiếng nói của cộng đồng người Điếc tại Việt Nam",
   },
   {
+	link: 'https://www.facebook.com/hadeaf2000/',
     logo: "/image/tochuc4.png",
     title: "Chi Hội người Điếc Hà Nội-HAD",
     description: "Chi hội người điếc Hà Nội - HAD là tổ chức xã hội của người Điếc trên địa bàn thành phố Hà Nội",
@@ -5069,51 +5310,61 @@ export const organizations = [
 ];
 export const organizations_1 = [
   {
+	link: '#',
     logo: "/image/tochuc5.png",
     title: "Liên Hiệp Hội Về Người Khuyết Tật Việt Nam (VFD)",
     description: "Liên hiệp hội về người khuyết tật Việt Nam (sau đây gọi tắt là Liên hiệp) là tổ chức xã hội, phi lợi nhuận, tập hợp các hội, tổ chức hợp pháp của người khuyết tật và vì người khuyết tật, các cá nhân tự nguyện tham gia Liên hiệp vì mục đích bảo vệ, hỗ trợ người khuyết tật thực hiện quyền và nghĩa vụ theo quy định của pháp luật.",
   },
   {
+	link: 'https://acdc.vn',
     logo: "/image/tochuc6.png",
     title: "Viện Nghiên cứu phát triển cộng đồng (ACDC)",
     description: "Viện Nghiên cứu phát triển cộng đồng (ACDC) tiền thân là Trung tâm Hành động vì sự phát triển cộng đồng (ACDC) là một tổ chức phi chính phủ địa phương ra đời năm 2011 làm việc vì và của người khuyết tật Việt Nam, hỗ trợ người khuyết tật và những nhóm yếu thế khác trong cộng đồng",
   },
   {
+	link: 'https://www.drdvietnam.org/',
     logo: "/image/tochuc7.png",
     title: "Trung tâm Nghiên cứu và Phát triển Năng lực Người khuyết tật (DRD)",
     description: "Trung tâm Khuyết tật và Phát triển (DRD) là tổ chức phi lợi nhuận được thành lập ngày 3 tháng 12 năm 2005, trực thuộc Khoa Công tác xã hội của trường Đại học Mở TP.HCM dưới sự hỗ trợ ban đầu của Quỹ Ford. Cho tới nay DRD là tổ chức khoa học công nghệ trực thuộc Liên Hiệp Các Hội Khoa Học Và Kĩ Thuật Việt Nam (VUSTA) theo giấy chứng nhận đăng ký hoạt động số A-906 cấp ngày 7 tháng 5 năm 2010.",
   },
   {
+	link: 'https://hoithinhhocvietnam.vn/',
     logo: "/image/tochuc8.png",
     title: "Hội Thính Học Việt Nam",
     description: "Hội Thính học Việt Nam là tổ chức xã hội – nghề nghiệp của các cá nhân, tổ chức Việt Nam hoạt động trong lĩnh vực thính học, tự nguyện thành lập.Mục đích của Hội: tập hợp, đoàn kết hội viên, bảo vệ quyền, lợi ích hợp pháp của hội viên, hỗ trợ nhau nâng cao trình độ chuyên môn, góp phần vào sự nghiệp chăm sóc, bảo vệ sức khỏe nhân dân về chuyên ngành thính học của đất nước.",
   },
   {
+	link: 'http://www.dphanoi.org.vn/',
     logo: "/image/tochuc9.png",
     title: "HỘI NGƯỜI KHUYẾT TẬT THÀNH PHỐ HÀ NỘI",
     description: "Hội NKT TP. Hà Nội được thành lập theo Quyết định số 266/QĐ-UBND ngày 16/1/2006 của Chủ tịch UBND TP. Hà Nội.",
   },
   {
+	link: 'https://www.facebook.com/tnktvn/',
     logo: "/image/tochuc10.png",
     title: "Hội Thanh niên khuyết tật Việt Nam",
     description: "Hội Thanh niên Khuyết tật Việt Nam được thành lập nhằm tập hợp, đoàn kết, bảo vệ quyền, lợi ích hợp pháp của thanh niên khuyết tật, tạo môi trường, diễn đàn để tiếp tục đồng hành, hỗ trợ thanh niên khuyết tật, động viên thanh niên khuyết tật vượt qua khó khăn, phấn đấu vươn lên, tích cực đóng góp cho cộng đồng, cũng như đóng góp vào sự nghiệp xây dựng, bảo vệ Tổ quốc; bồi đắp lý tưởng sống tốt đẹp cho hội viên, thanh niên thông qua các câu chuyện về những tấm gương thanh niên khuyết tật điển hình trong xã hội, từ đó thúc đẩy sự vươn lên của thanh niên Việt Nam; kêu gọi cộng đồng xã hội tiếp tục hỗ trợ, đồng hành cùng thanh niên khuyết tật Việt Nam.",
   },
   {
+	link: 'https://msdvietnam.org/',
     logo: "/image/tochuc11.png",
     title: "Viện Nghiên Cứu Quản Lý Phát Triển Bền Vững (MSD)",
     description: "Viện Nghiên Cứu Quản lý Phát triển bền vững (MSD) là một tổ chức xã hội phi lợi nhuận, được thành lập vào ngày 5 tháng 3 năm 2008. Trong hơn 15 năm qua, MSD đã và luôn nỗ lực để góp phần giải quyết các vấn đề xã hội của các cộng đồng khác nhau tại Việt Nam. Là một tổ chức hàng đầu, MSD là một phần của các mạng lưới và diễn đàn trong khu vực và toàn cầu, đồng thời được các đối tác trong nước và quốc tế công nhận là một đơn vị phát triển chuyên nghiệp.Từ năm 2021, MSD chính thức trở thành United Way Việt Nam – thành viên của United Way Worldwide – Mạng lưới các tổ chức phi lợi nhuận lớn nhất toàn cầu.",
   },
   {
+	link: 'https://treemviet.vn/',
     logo: "/image/tochuc12.png",
     title: "Hội Bảo Vệ Quyền Trẻ Em Việt Nam",
     description: "Hội Bảo vệ quyền trẻ em Việt Nam (Hội BVQTEVN) được thành lập theo Quyết định số 464/QĐ-BNV ngày 08 tháng 04 năm 2008 của Bộ trưởng Bộ Nội vụ. Kể từ năm 2008 đến nay, Hội đã tổ chức được 3 kỳ Đại hội (Đại hội lần thứ 1 nhiệm kỳ 2008-2013; Đại hội lần thứ 2 nhiệm kỳ 2013-2018; Đại hội lần thứ 3 nhiệm kỳ 2018-2023).",
   },
   {
+	link: 'https://cuutrotreemtantat.com.vn/',
     logo: "/image/tochuc13.png",
     title: "Hội Cứu trợ trẻ em tàn tật Việt Nam",
     description: "Hội Bảo vệ quyền trẻ em Việt Nam (Hội BVQTEVN) được thành lập theo Quyết định số 464/QĐ-BNV ngày 08 tháng 04 năm 2008 của Bộ trưởng Bộ Nội vụ. Kể từ năm 2008 đến nay, Hội đã tổ chức được 3 kỳ Đại hội (Đại hội lần thứ 1 nhiệm kỳ 2008-2013; Đại hội lần thứ 2 nhiệm kỳ 2013-2018; Đại hội lần thứ 3 nhiệm kỳ 2018-2023).",
   },
   {
+	link: 'https://hoicuutrotreemkhuyettathanoi.vn/',
     logo: "/image/tochuc14.png",
     title: "Hội cứu trợ trẻ em khuyết tật thành phố Hà Nội ",
     description: "Hội CTTEKT TP Hà Nội được thành lập ngày 02/02/2000 theo QĐ số 13/2000QĐ-UB của UBND thành phố Hà Nội với mục tiêu đề ra là làm sao cho trẻ em khuyết tật (TEKT) được chăm lo tốt nhất, được học hành và hòa nhập cộng đồng để trở thành người có ích cho xã hội, bớt đi gánh nặng cho gia đình và xã hội.",
@@ -5121,31 +5372,37 @@ export const organizations_1 = [
 ];
 export const organizations_2 = [
   {
+	link: 'https://www.ced.org.vn/',
     logo: "/image/tochuc15.png",
     title: "Trung tâm Nghiên cứu Giáo dục người Khiếm Thính",
     description: "Là tổ chức xã hội đầu tiên và duy nhất hiện thời tại Việt Nam do người khiếm thính thành lập và phục vụ vì người khiếm thính và được Sở Khoa Học và Công Nghệ cấp phép thành lập Số 247/ĐK-KHCN vào 15/4/2011.",
   },
   {
+	link: 'https://www.hearusnow.vn/',
     logo: "/image/tochuc16.png",
     title: "Hear.Us.Now",
     description: "Hear Us Now hỗ trợ trẻ em Điếc/Khiếm thính tại Việt Nam được tiếp cận gần hơn với thế giới tri thức thông qua những hoạt động giảng dạy Tiếng Anh, Tin học căn bản, cũng như các chương trình đào tạo kỹ năng sống và hướng nghiệp.",
   },
   {
+	link: 'http://ncse.edu.vn/',
     logo: "/image/tochuc17.png",
     title: "Trung tâm Giáo dục Đặc biệt Quốc gia (NCSE)",
     description: "Trung tâm Giáo dục Đặc biệt Quốc gia (NCSE) trực thuộc Viện Khoa học Giáo dục Việt Nam với sứ mệnh vì sự bình đẳng tham gia giáo dục có chất lượng và học tập suốt đời cho người khuyết tật Việt Nam.",
   },
   {
+	link: 'https://gddb.hnue.edu.vn/Trung-t%C3%A2m-GD%C4%90B/p/gioi-thieu-trung-tam-giao-duc-dac-biet-khoa-giao-duc-dac-biet-truong-dai-hoc-su-pham-ha-noi-9806',
     logo: "/image/tochuc18.png",
     title: "Trung tâm Giáo dục đặc biệt",
     description: "Trung tâm Giáo dục đặc biệt trường Đại học Sư phạm Hà Nội (sau đây gọi tắt là Trung tâm) là một đơn vị chuyên môn trực thuộc Khoa Giáo dục đặc biệt, Trường Đại học Sư phạm Hà Nội hoạt động trong khuôn khổ luật pháp của Nhà nước, Quy chế tổ chức và hoạt động của Trường Đại học Sư phạm Hà Nội, phi lợi nhuận, thiện nguyện, vì lợi ích của trẻ có nhu cầu đặc biệt và gia đình của trẻ, góp phần vì sự phát triển cộng đồng, xã hội.",
   },
   {
+	link: 'https://www.facebook.com/sciedvn/',
     logo: "/image/tochuc19.png",
     title: "Trung tâm Hỗ trợ Phát triển Giáo dục Hoà nhập-SCIED",
     description: "Trung tâm hỗ trợ phát triển giáo dục hòa nhập là cơ sở cung cấp nội dung chương trình, thiết bị, tài liệu dạy và học, các dịch vụ tư vấn, hỗ trợ giáo dục, tổ chức giáo dục phù hợp với đặc điểm và hoàn cảnh của người khuyết tật.",
   },
   {
+	link: 'https://vaefa.edu.vn/',
     logo: "/image/tochuc20.png",
     title: "Hiệp hội vì Giáo dục cho mọi người Việt Nam",
     description: "Hiệp hội hoạt động trên phạm vi cả nước, trong lĩnh vực giáo dục, đào tạo, chịu sự quản lý Nhà nước của Bộ Giáo dục và Đào tạo và các bộ, ngành có liên quan đến lĩnh vực hoạt động của Hiệp hội. ",
@@ -5153,31 +5410,37 @@ export const organizations_2 = [
 ];
 export const organizations_3 = [
   {
+	link: 'https://hlcsvietnam.com/',
     logo: "/image/tochuc21.png",
     title: "Doanh Nghiệp Xã Hội Vì Người Khiếm Thính Việt Nam",
     description: "Mang đến cho Người khiếm thính (bao gồm cả trẻ em) một cộng đồng kết nối chia sẻ trải nghiệm học tập, cuộc sống, rút ngắn khoảng cách khác biệt, nâng cao các kỹ năng hòa nhập xã hội cũng như các hoạt động và giải pháp hướng nghiệp để trở thành người độc lập, sống có ích cho chính bản thân mình và cho xã hội.",
   },
   {
+	link: 'https://vunart.vn/',
     logo: "/image/tochuc22.png",
     title: "VụnArt",
     description: "VỤN Art là một dự án xã hội đặc biệt, nơi mà từ những mảnh vải lụa vụn tưởng chừng bỏ đi, những người lao động ở VỤN Art ghép nên các tác phẩm nghệ thuật độc đáo, đầy ý nghĩa. Đây không chỉ là một nơi tạo ra sản phẩm mà là mái nhà chung của những con người đặc biệt, những người lao động khuyết tật có cơ hội được tự hào thể hiện sự khéo léo và tài năng của mình. VụnArt không chỉ là nơi biến vải vụn thành nghệ thuật mà còn là nơi thắp lên hy vọng và sự kiên cường trong cuộc sống.",
   },
   {
+	link: 'https://www.kymviet.com.vn/',
     logo: "/image/tochuc23.png",
     title: "Kymviet",
     description: "Kymviet là doanh nghiệp xã hội của người khuyết tật, vì người khuyết tật.​ Kymviet thành lập tháng 12 năm 2013, hoạt động trong lĩnh vực sản xuất đồ thủ công được làm chủ yếu từ vải: Các sản phẩm decor, quà tặng lưu niệm, sản phẩm ứng dụng. Các dịch vụ gia tăng: dịch vụ giáo dục – trải nghiệm; dịch vụ đồ uống và ẩm thực; tổ chức sự kiện.",
   },
   {
+	link: 'https://we-edit.com.vn/',
     logo: "/image/tochuc24.png",
     title: "We-Edit",
     description: 'We-Edit được thành lập bởi 3 nhà đồng sáng lập vào tháng 2 năm 2018 với mục tiêu mang lại sự bình đẳng và cơ hội đích thực cho tất cả các nhóm người dễ bị tổn thương, đặc biệt là những người khuyết tật. Tuy nhiên, chúng tôi không bao giờ muốn sử dụng "khuyết tật" như một chiến lược để thu hút khách hàng mà sử dụng chất lượng dịch vụ của mình để xây dựng lòng tin của họ. Chúng tôi chủ yếu cung cấp dịch vụ chỉnh sửa ảnh bất động sản nhưng hiện đã mở rộng các dịch vụ khác như dàn dựng ảo, chỉnh sửa video nữa. ',
   },
   {
+	link: 'https://www.facebook.com/cafelangart/',
     logo: "/image/tochuc25.png",
     title: "Cafe Lặng Art",
     description: "Lặng Art là một mô hình cộng đồng độc đáo tại Đà Lạt, kết hợp quán cà phê và không gian nghệ thuật, do những bạn trẻ khiếm thính vận hành. Thành lập với mong muốn tạo cơ hội việc làm bền vững và khơi dậy tài năng tiềm ẩn, Lặng Art không chỉ mang đến những ly cà phê ấm áp mà còn trưng bày và bán các sản phẩm thủ công do chính các bạn khiếm thính chế tác.",
   },
   {
+	link: 'https://www.nghilucsong.net/',
     logo: "/image/tochuc26.png",
     title: "Công ty CP Nghị Lực Sống",
     description: "Công ty Cổ phần Nghị Lực Sống – Doanh nghiệp xã hội với triết lý hoạt động nâng cao năng lực cho người khuyết tật Nghị Lực Sống (còn gọi là Nghị Lực Sống) là một DNXH phi lợi nhuận hoạt động trong lĩnh vực hỗ trợ hòa nhập toàn diện cho người khuyết tật (NKT) thông qua đào tạo nghề CNTT miễn phí và các kỹ năng sống giúp NKT tìm được việc làm phù hợp. Từ đó, NKT tự tin, dễ dàng hòa nhập hơn với cộng đồng và tự tạo dựng cuộc sống.",
@@ -5185,41 +5448,49 @@ export const organizations_3 = [
 ];
 export const organizations_4 = [
   {
+	link: 'https://orphanvoice.org/',
     logo: "/image/tochuc27.png",
     title: "Orphan Voice",
     description: "Orphan Voice là một mục vụ phát triển của Cơ đốc giáo dành riêng cho trẻ em có nhu cầu đặc biệt, trẻ em có nguy cơ bị buôn bán và lạm dụng tình dục, trẻ mồ côi và góa phụ ở Việt Nam và Đông Nam Á. Các hoạt động tiếp cận chính bao gồm các trung tâm trị liệu nhu cầu đặc biệt, giáo dục khiếm thính, bảo vệ gia đình, hội thảo trường học chống buôn người, nhà phục hồi sau khi bị lạm dụng, nhà nhóm và đào tạo nghề.",
   },
   {
+	link: 'https://www.savethechildren.net/vi/vietnam',
     logo: "/image/tochuc28.png",
     title: "Save the Children",
     description: "Save the Children là tổ chức trẻ em độc lập đầu tiên và hàng đầu thế giới – thay đổi cuộc sống và tương lai mà chúng ta cùng chia sẻ. Chúng tôi tự hào được làm việc với trẻ em, cộng đồng của các em và các đối tác trên toàn thế giới, khám phá ra các giải pháp mới để giúp đảm bảo rằng những trẻ em dễ bị tổn thương nhất trên thế giới được sống sót, học tập và được bảo vệ.",
   },
   {
+	link: 'https://www.crs.org/our-work-overseas/where-we-work/vietnam',
     logo: "/image/tochuc29.png",
     title: "CRS Việt Nam",
     description: "CRS bắt đầu hoạt động tại Việt Nam vào năm 1992 và thành lập văn phòng tại Hà Nội vào năm 1994. CRS Việt Nam hỗ trợ các đối tác địa phương bao gồm các đối tác chính phủ và các tổ chức xã hội dân sự xây dựng năng lực trong các lĩnh vực hòa nhập người khuyết tật, Giáo dục rủi ro bom mìn và hỗ trợ nạn nhân, Giảm thiểu rủi ro thiên tai và thích ứng với biến đổi khí hậu.",
   },
   {
+	link: 'https://www.facebook.com/angelshavenvietnam/',
     logo: "/image/tochuc30.png",
     title: "Angels’ Haven Việt Nam ",
     description: "Tổ chức Phi chính phủ Hàn Quốc thực hiện dự án về người khuyết tật tại Việt Nam.Angels Haven hỗ trợ cuộc sống hạnh phúc và ước mơ của trẻ em và thanh thiếu niên sống tại các cơ sở chăm sóc trẻ em (Eunpyeong Angels’ Home).",
   },
   {
+	link: 'https://www.koica.go.kr/sites/vnm_na/index.do',
     logo: "/image/tochuc31.png",
     title: "KOICA",
     description: "Góp phần vào sự thịnh vượng chung và thúc đẩy hòa bình thế giới thông qua hợp tác phát triển toàn diện, cùng có lợi, không bỏ lại ai phía sa - Một tổ chức hợp tác phát triển toàn cầu uy tín để hiện thực hóa các giá trị toàn cầu và tạo ra sự thịnh vượng chung - Con người · Hòa bình · Thịnh vượng · Hành tinh · Quan hệ đối tác - Trở thành quốc gia trụ cột toàn cầu thông qua hợp tác phát triển tiên tiến",
   },
   {
+	link: 'https://www.bluedragon.org/',
     logo: "/image/tochuc32.png",
     title: "Blue Dragon Children's Foundation",
     description: "Tổ chức Trẻ em Rồng Xanh là một tổ chức phi chính phủ có trụ sở tại Hà Nội, Việt Nam. Sứ mệnh của tổ chức này bao gồm giải cứu trẻ em đường phố, trẻ em, phụ nữ thoát khỏi nạn buôn bán người, lao động cưỡng bức và nô lệ, đồng thời cung cấp nơi ở, giáo dục và việc làm cho các nạn nhân sau khi được giải cứu.",
   },
   {
+	link: 'https://www.samaritanspurse.org/',
     logo: "/image/tochuc33.png",
     title: "Samaritan's Purse",
     description: "Samaritan's Purse là một tổ chức Cơ đốc giáo Tin lành phi giáo phái cung cấp hỗ trợ về mặt tinh thần và vật chất cho những người đau khổ trên khắp thế giới. Từ năm 1970, Samaritan's Purse đã giúp đáp ứng nhu cầu của những người là nạn nhân của chiến tranh, đói nghèo, thiên tai, bệnh tật và nạn đói với mục đích chia sẻ tình yêu của Chúa thông qua Con của Ngài, Chúa Jesus Christ. Tổ chức này phục vụ Giáo hội trên toàn thế giới để quảng bá Phúc âm của Chúa Jesus Christ.",
   },
   {
+	link: 'https://www.reach-vietnam.org/',
     logo: "/image/tochuc34.png",
     title: "REACH",
     description: "Chúng tôi cung cấp đào tạo nghề ngắn hạn bao gồm chương trình đào tạo ngắn hạn và chuyên sâu về các kỹ năng kỹ thuật, các kỹ năng mềm thiết yếu liên quan đến thị trường lao động, tiếp theo là chương trình giới thiệu việc làm cẩn thận và hỗ trợ sinh viên thường xuyên trong sáu tháng sau khi tốt nghiệp.",
@@ -5227,41 +5498,49 @@ export const organizations_4 = [
 ];
 export const organizations_5 = [
   {
+	link: 'https://hlcsvietnam.com/',
     logo: "/image/tochuc35.png",
     title: "Doanh Nghiệp Xã Hội Vì Người Khiếm Thính Việt Nam",
     description: "Mang đến cho Người khiếm thính (bao gồm cả trẻ em) một cộng đồng kết nối chia sẻ trải nghiệm học tập, cuộc sống, rút ngắn khoảng cách khác biệt, nâng cao các kỹ năng hòa nhập xã hội cũng như các hoạt động và giải pháp hướng nghiệp để trở thành người độc lập, sống có ích cho chính bản thân mình và cho xã hội.",
   },
   {
+	link: 'https://maytrothinhstella.com/',
     logo: "/image/tochuc36.png",
     title: "Trung tâm trợ thính Stella - Máy trợ thính không dây",
     description: "Công ty TNHH Trung tâm trợ thính STELLA được thành lập năm 2002 bởi ông Huh Bang Bin - Thạc sỹ thính học người Hàn Quốc - được đào tạo tại nước ngoài, dày dặn kinh nghiệm trong lĩnh vực thính học . Trụ sở chính đặt tại 171 Xuân Hồng, phường 12, quận Tân Bình, thành phố Hồ Chí Minh.",
   },
   {
+	link: 'https://quangduc.vn/',
     logo: "/image/tochuc37.png",
     title: "Trợ Thính Quang Đức - Máy Trợ Thính Chính Hãng, Giá Tốt",
     description: "Quang Đức tên đầy đủ là Công ty TNHH Dịch vụ Trợ thính Quang Đức. Là đơn vị cung cấp phân phối máy trợ thính và thực hiện một số dịch vụ về trợ thính tại Việt Nam. Chúng tôi đã phát triển rất nhiều đại lý của mình ở các tỉnh thành gồm: Hồ Chí Minh, Hà Nội,…",
   },
   {
+	link: 'https://trothinhthuysi.com/',
     logo: "/image/tochuc38.png",
     title: "Trung tâm trợ thính Connect Hearing",
     description: "Trợ thính Connect Hearing là một mạng lưới lớn mạnh bao gồm các trung tâm chăm sóc thính giác có mặt ở nhiều quốc gia trên thế giới, luôn nỗ lực tìm ra những giải pháp tốt nhất để phục vụ quý khách hàng. Đội ngũ Chuyên gia Chăm sóc Thính lực của chúng tôi là những người dày dạn kinh nghiệm trong lĩnh vực thính học của Sonova Việt Nam – những người đã, đang và sẽ luôn đồng hành cùng bạn trên hành trình tìm lại âm thanh. Connect Hearing là trung tâm trợ thính trực thuộc tập đoàn Sonova, nhà cung cấp các giải pháp chăm sóc sức khỏe thính giác sáng tạo hàng đầu thế giới.",
   },
   {
+	link: 'https://hearlifevietnam.com/',
     logo: "/image/tochuc39.png",
     title: "Trung tâm trợ thính hearLIFE Việt Nam",
     description: "Công ty TNHH Trung tâm trợ thính hearLIFE được công nhận là đơn vị dẫn đầu về chăm sóc sức nghe, máy trợ thính, thiết bị cấy ghép và hợp tác với nhiều bệnh viện trên khắp Việt Nam.",
   },
   {
+	link: 'https://maytrothinhthienduc.com.vn/',
     logo: "/image/tochuc40.png",
     title: "Trợ Thính Thiên Đức – Cùng lắng nghe, cùng chia sẻ.",
     description: "Trợ thính Thiên Đức tên đầy đủ là Công ty TNHH máy trợ thính & TBYT Thiên Đức, là đơn vị phân phối máy trợ thính, thiết bị thính học và một số dịch vụ về thính học tại Việt Nam. Ngoài ra, chúng tôi còn phân phối cả thanh quản điện tử dành cho các bệnh nhân bị ung thư thanh quản.",
   },
   {
+	link: 'https://trothinhmicrotech.com/',
     logo: "/image/tochuc41.png",
     title: "Trung Tâm Trợ Thính Microtech",
     description: "Trung Tâm Trợ Thính Microtech được thành lập năm 2011 chuyên khám khiếm thính và lắp đặt Máy Trợ Thính cho người lớn và trẻ em. Năm 2020 chúng tôi bổ sung thêm ngành nghề với những mong muốn giúp đỡ bệnh nhân khiếm thính nhiều hơn nữa",
   },
   {
+	link: 'https://cattuonghearing.vn/',
     logo: "/image/tochuc34.png",
     title: "Máy trợ thính Cát Tường Hearing",
     description: "Trung tâm Thính lực Cát Tường tự hào mang những thành tựu thính học hiện đại nhất từ khắp nơi trên thế giới về Việt Nam. Chúng tôi không ngừng nỗ lực để giúp trẻ em và người lớn tuổi tìm lại âm thanh, hòa nhập cộng đồng và thay đổi cuộc sống của họ.",
