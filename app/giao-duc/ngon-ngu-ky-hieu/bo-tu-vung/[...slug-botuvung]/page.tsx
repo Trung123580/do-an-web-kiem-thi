@@ -60,8 +60,15 @@ export default async function page({ params }: { params: Params }) {
         <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-y-5 gap-4 mt-20">
           {boTuVungDetail?.items.map((item: any, index: number) => {
             return (
-              <div key={index} className="rounded-2xl" >
-                <img src={item.img} alt="Education Banner" className="object-cover w-full" />
+              <div key={index} className="" >
+                <video
+                  src={item.img}
+                  className="object-cover rounded-2xl w-[305px] h-[305px]"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                />
                 <h2 className="text-[32px] font-normal mt-2 text-center">{item.title}</h2>
               </div>
             );
