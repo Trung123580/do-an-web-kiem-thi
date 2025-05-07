@@ -222,7 +222,7 @@ export default function page() {
             <h2 className='text-[32px] font-bold text-[#2E4FBE] mb-2 mt-10'>Nội dung khóa học</h2>
             <div className='text-base space-y-2'>
               {khoahocDetail.lectures.map((lecture: any, index: number) => (
-                <div key={index} className='flex gap-[90px] items-start cursor-pointer' onClick={() => { goToVideo(lecture.slug) }}>
+                <div key={index} className='flex gap-[90px] items-start cursor-pointer hover:text-[#2E4FBE]' onClick={() => { goToVideo(lecture.slug) }}>
                   <div className='flex gap-1'>
                     <span className='font-bold text-nowrap'>Bài giảng {index + 1}:</span> <span className='grow line-clamp-1'>{lecture.title}</span>
                   </div>
