@@ -265,7 +265,7 @@ const VideoControls = ({linkPlay, handleChangeSlots}: {handleChangeSlots:any, li
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [refPlayer.current, volume, isPlay])
   return (
-    <div className='max-w-3xl mx-auto p-4' id="wrapperVideo-iframe">
+    <div className='mx-auto p-4' id="wrapperVideo-iframe">
       <div className="relative rounded-lg overflow-hidden">
         <ReactPlayer
           ref={refPlayer}
