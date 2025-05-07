@@ -2,46 +2,7 @@
 
 import Link from 'next/link';
 import CourseGrid from "@/app/components/CourseGrid";
-import { dataSukien } from '@/utils/contanst';
-
-const sampleCourses = [
-  {
-    id: '1',
-    title: 'Docker Container Practice',
-    imageUrl: '/placeholder-course.jpg',
-    endDate: '14.05.25',
-  },
-  {
-    id: '2',
-    title: 'Docker Container Practice',
-    imageUrl: '/placeholder-course.jpg',
-    endDate: '14.05.25',
-  },
-  {
-    id: '3',
-    title: 'Docker Container Practice',
-    imageUrl: '/placeholder-course.jpg',
-    endDate: '14.05.25',
-  },
-  {
-    id: '4',
-    title: 'Docker Container Practice',
-    imageUrl: '/placeholder-course.jpg',
-    endDate: '14.05.25',
-  },
-  {
-    id: '5',
-    title: 'Docker Container Practice',
-    imageUrl: '/placeholder-course.jpg',
-    endDate: '14.05.25',
-  },
-  {
-    id: '6',
-    title: 'Docker Container Practice',
-    imageUrl: '/placeholder-course.jpg',
-    endDate: '14.05.25',
-  },
-];
+import { khoaHocTrucTuyen } from '@/utils/contanst';
 
 export default function CoursePage() {
   return (
@@ -63,7 +24,7 @@ export default function CoursePage() {
       </nav>
 
       {/* Course grid */}
-      <CourseGrid courses={dataSukien} path="khoa-hoc-ngoai-tuyen" />
+      <CourseGrid courses={khoaHocTrucTuyen} path="khoa-hoc-ngoai-tuyen" />
     </section>
   );
 }
