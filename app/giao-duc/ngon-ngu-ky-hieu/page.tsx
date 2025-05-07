@@ -80,7 +80,7 @@ export default function page() {
             <h2 className='text-2xl md:text-3xl font-bold mb-6 md:mb-8'>Khóa học</h2>
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6'>
               {khoaHoc.slice(0, 3).map((course, index) => (
-                <Link href={`/giao-duc/khoa-hoc/${course.slug}`} key={index}>
+                <Link href={`ngon-ngu-ky-hieu/khoa-hoc/${course.slug}`} key={index}>
                   <div className='rounded-2xl overflow-hidden group cursor-pointer hover:shadow-lg hover:shadow-[#5d7deb80] transition-shadow duration-300 h-auto md:h-[472px]'>
                     <div className='relative h-48 md:h-72 bg-[#CFD1D4]'>
                       <Image src={course.img} alt={course.title} fill className='object-cover' />
@@ -102,11 +102,6 @@ export default function page() {
                 </Link>
               ))}
             </div>
-            {/* <div className="text-end mt-4 md:mt-6">
-              <Link href="/giao-duc/ngon-ngu-ky-hieu/khoa-hoc" className="inline-flex items-center text-sm font-medium hover:text-gray-900 px-5 md:px-7 py-2 rounded-sm border bg-[#FFFFFF] border-[#CFD1D4] text-[#414652]">
-                Xem thêm &rarr;
-              </Link>
-            </div> */}
             <div className='flex justify-end mt-6'>
               <Link href={`/giao-duc/ngon-ngu-ky-hieu/khoa-hoc`} className='flex items-center px-7 py-2 text-sm border-2 border-[#CFD1D4] text-[#414652] rounded-lg hover:bg-gray-100 transition'>
                 Xem thêm
