@@ -36,7 +36,7 @@ export default function AboutPage() {
 
           {/* Content Column */}
           <div className='flex flex-col justify-center space-y-6 px-4 md:px-16 bg-[#D8E0FB]'>
-            <h2 className='text-[32px] font-bold'>
+            <h2 className='text-[48px] font-bold'>
               Câu chuyện về
               <br />
               <span className='text-[#3A63ED]'>Người khiếm thính</span>
@@ -55,14 +55,14 @@ export default function AboutPage() {
 
       {/* Work Section */}
       <section className='bg-white py-12 md:py-24 container mx-auto px-4'>
-        <div className='px-4 md:px-20 flex gap-7 md:gap-14 md:flex-nowrap flex-wrap'>
+        <div className='px-4 max-w-7xl mx-auto flex gap-7 md:gap-14 md:flex-nowrap flex-wrap'>
           <div className='max-w-[522px] '>
             <h2 className='text-[40px] md:text-[48px] font-bold mb-6'>
               Công việc của
               <br />
               chúng tôi
             </h2>
-            <p className='text-gray-600 text-lg mb-8'>
+            <p className='text-[#111827] text-lg mb-8 font-normal'>
               Foundation for Future là tổ chức cung cấp thông tin hỗ trợ giáo dục và đào tạo nghề nghiệp cho người khiếm thính, thông qua nền tảng trực tuyến thân thiện, dễ tiếp cận. Chúng tôi giúp họ trang bị kiến thức, kỹ năng cơ bản để tự lập,
               phát triển bền vững và tăng bước hòa nhập vào cộng đồng.
             </p>

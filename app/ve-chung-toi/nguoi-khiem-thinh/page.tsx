@@ -7,7 +7,7 @@ import FAQItem from '@/app/components/FAQItem';
 export default function page() {
   const chapters = [
     'Chương I', 'Chương II', 'Chương III', 'Chương IV',
-    'Chương V',
+    'Chương V', 'Chương VI', 'Chương VII', 'Chương VII', 'Chương IX', 'Chương X'
   ];
   // 'Chương VI', 'Chương VII', 'Chương VIII',
   //     'Chương IX', 'Chương X'
@@ -41,7 +41,7 @@ export default function page() {
       </section>
 
       {/* Statistics Section */}
-      <section className="py-20 px-4 md:px-20">
+      <section className="py-20 px-4 max-w-7xl mx-auto">
         <div className="max-w-[1440px] mx-auto">
           {/* Title and Description */}
           <div className="text-center mb-16">
@@ -58,7 +58,7 @@ export default function page() {
           {/* Statistics Grid */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {/* Statistic 1 */}
-            <div className="bg-[#EEF1FF] p-8 rounded-xl h-[413px] flex flex-col items-center justify-center">
+            <div className="bg-[#D8E0FB] p-8 rounded-xl h-[413px] flex flex-col items-center justify-center">
               <h3 className="text-2xl font-bold mb-4">1.200 đến 1.400</h3>
               <p className="text-gray-600 text-center">
                 Theo báo cáo của trẻ em người khuyết tật của Tổng cục Thống kê năm có từ 1.200 - 1.400 trẻ khiếm thính ra đời.
@@ -66,7 +66,7 @@ export default function page() {
             </div>
 
             {/* Statistic 2 */}
-            <div className="bg-[#EEF1FF] p-8 rounded-xl h-[413px] flex flex-col items-center justify-center">
+            <div className="bg-[#D8E0FB] p-8 rounded-xl h-[413px] flex flex-col items-center justify-center">
               <h3 className="text-2xl font-bold mb-4">Giảm thính lực</h3>
               <p className="text-gray-600 text-center">
                 Tỷ lệ giảm thính lực ở độ tuổi từ 65 - 75 chiếm khoảng 30% - 40%, trên 75 tuổi chiếm khoảng 40% - 50%.
@@ -74,7 +74,7 @@ export default function page() {
             </div>
 
             {/* Statistic 3 */}
-            <div className="bg-[#EEF1FF] p-8 rounded-xl h-[413px] flex flex-col items-center justify-center">
+            <div className="bg-[#D8E0FB] p-8 rounded-xl h-[413px] flex flex-col items-center justify-center">
               <h3 className="text-2xl font-bold mb-4">Can thiệp</h3>
               <p className="text-gray-600 text-center">
                 Chỉ khoảng 30% trẻ sơ sinh được sàng lọc thính lực sau sinh tại Việt Nam. Mục tiêu đến năm 2030 là 90% trẻ sơ sinh được làm sàng lọc thính lực sớm, bao gồm khiếm thính.
@@ -85,7 +85,7 @@ export default function page() {
       </section>
 
       {/* Law Section */}
-      <section className="py-20 px-4 md:px-20 ">
+      <section className="pb-20 px-4 max-w-7xl mx-auto">
         <div className="max-w-[1440px] mx-auto">
           <div className="grid md:grid-cols-3 gap-12">
             {/* Left Column */}
@@ -115,7 +115,7 @@ export default function page() {
             </div>
 
             {/* Right Column - Law Document Preview */}
-            <div className="bg-white border-2 border-[#A0A3A9] md:col-span-2 p-8 rounded-xl shadow-lg max-h-[720px] overflow-x-hidden overflow-y-auto">
+            <div className="bg-white border-2 border-[#A0A3A9] md:col-span-2 p-8 rounded-xl max-h-[720px] overflow-x-hidden overflow-y-auto">
               <div className="pb-4 mb-4">
                 <p className="text-sm text-gray-500">Luật số 51/2010/QH12 của Quốc hội: LUẬT NGƯỜI KHUYẾT TẬT</p>
                 <div className="flex justify-between mt-2">
@@ -146,7 +146,7 @@ export default function page() {
           </div>
         </div>
       </section>
-      <section className="py-20 px-4 md:px-20">
+      <section className="pb-20 px-4 max-w-7xl mx-auto">
         <div className="max-w-[1440px] mx-auto">
           <h2 className="text-3xl font-bold mb-10">Câu hỏi thường gặp</h2>
 

@@ -27,7 +27,23 @@ export default function page() {
   }
   return (
     <>
-      <div className="mt-20 bg-[#D8E0FB]">
+     <nav className="bg-white py-10 max-w-7xl mx-auto relative mt-20 ">
+        <div className="mx-auto px-4">
+          <div className="flex items-center ">
+            <Link
+              href="/giao-duc/ngon-ngu-ky-hieu"
+              className="text-[#A0A3A9] hover:text-gray-900 line-clamp-1"
+            >
+              Ngôn ngữ ký hiệu
+            </Link>
+            <span className="mx-2 text-2xl text-black">&gt;</span>
+            <Link href={'/giao-duc/ngon-ngu-ky-hieu/khoa-hoc'} className="text-[#A0A3A9] line-clamp-1">Khóa học</Link>
+            <span className="mx-2 text-2xl text-black">&gt;</span>
+            <span className="text-[#3A63ED] line-clamp-1">{khoahocDetail?.title}</span>
+          </div>
+        </div>
+      </nav>
+      <div className="bg-[#D8E0FB] px-4">
         <div className="py-14 max-w-7xl mx-auto relative">
           <div className="mb-6">
             {khoahocDetail?.organization.map((item: any, index: number) => (
@@ -68,7 +84,7 @@ export default function page() {
           </div>
         </div>
       </div>
-      <div className="min-h-screen pb-16 py-16 pt-32 max-w-7xl mx-auto">
+      <div className="min-h-screen pb-16 py-16 pt-32 max-w-7xl mx-auto px-4">
         <div className="container mx-auto">
           <h2 className="text-[32px] font-bold text-[#2E4FBE] mb-2">Giới thiệu khóa học</h2>
           <div className="text-base" dangerouslySetInnerHTML={{ __html: khoahocDetail?.courseIntroduction ?? "" }} />
