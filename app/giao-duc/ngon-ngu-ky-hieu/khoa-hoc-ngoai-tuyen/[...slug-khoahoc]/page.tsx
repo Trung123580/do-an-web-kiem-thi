@@ -97,6 +97,7 @@ export default function page() {
     // })
   }
   const goToVideo = (lecture: string) => {
+    if (!khoahocDetail.free) return
     router.push(`/giao-duc/ngon-ngu-ky-hieu/khoa-hoc-ngoai-tuyen/${khoahocDetail.slug}/${lecture}`)
   }
   if (slug?.length === 2) return <Lesson />
