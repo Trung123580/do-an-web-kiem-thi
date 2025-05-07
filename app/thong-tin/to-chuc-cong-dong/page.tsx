@@ -29,15 +29,15 @@ const page = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
           {organizations.map((org, index) => (
             <div key={index} className="bg-white py-2 w-[305px] px-4">
-              <div className="relative w-[305px] h-32 mx-auto mb-6">
-                <Image
+              <div className="relative h-32 mx-auto mb-6 flex flex-col items-center">
+                <img
                   src={org.logo}
                   alt={org.title}
-                  fill
+                  // fill
                   className="object-contain"
                 />
               </div>
-              <h3 className="text-lg font-semibold mb-4 leading-[130%]">{org.title}</h3>
+              <a target="_blank" href={org.link} className="text-lg font-semibold block mb-4 leading-[130%]">{org.title}</a>
               <p className=" text-[10px]">{org.description}</p>
             </div>
           ))}
@@ -54,7 +54,7 @@ const page = () => {
                   className="object-contain"
                 />
               </div>
-              <h3 className="text-lg font-semibold mb-4 leading-[130%]">{org.title}</h3>
+              <a target="_blank" href={org.link} className="text-lg font-semibold block mb-4 leading-[130%]">{org.title}</a>
               <p className="text-[10px]">{org.description}</p>
             </div>
           ))}
@@ -71,7 +71,7 @@ const page = () => {
                   className="object-contain"
                 />
               </div>
-              <h3 className="text-lg font-semibold mb-4 leading-[130%]">{org.title}</h3>
+              <a target="_blank" href={org.link} className="text-lg font-semibold block mb-4 leading-[130%]">{org.title}</a>
               <p className="text-[10px]">{org.description}</p>
             </div>
           ))}
@@ -88,7 +88,7 @@ const page = () => {
                   className="object-contain"
                 />
               </div>
-              <h3 className="text-lg font-semibold mb-4 leading-[130%]">{org.title}</h3>
+              <a target="_blank" href={org.link} className="text-lg font-semibold block mb-4 leading-[130%]">{org.title}</a>
               <p className="text-[10px]">{org.description}</p>
             </div>
           ))}
@@ -105,7 +105,7 @@ const page = () => {
                   className="object-contain"
                 />
               </div>
-              <h3 className="text-lg font-semibold mb-4 leading-[130%]">{org.title}</h3>
+              <a target="_blank" href={org.link} className="text-lg font-semibold block mb-4 leading-[130%]">{org.title}</a>
               <p className="text-[10px]">{org.description}</p>
             </div>
           ))}
@@ -122,7 +122,7 @@ const page = () => {
                   className="object-contain"
                 />
               </div>
-              <h3 className="text-lg font-semibold mb-4 leading-[130%]">{org.title}</h3>
+              <a target="_blank" href={org.link} className="text-lg font-semibold block mb-4 leading-[130%]">{org.title}</a>
               <p className="text-[10px]">{org.description}</p>
             </div>
           ))}

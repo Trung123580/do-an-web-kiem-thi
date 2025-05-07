@@ -43,7 +43,7 @@ export default function page() {
   return (
     <div className="min-h-screen bg-white pt-16 md:pt-24 pb-8 max-w-7xl mx-auto">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row mb-8 h-[300px] sm:h-[500px] md:h-[340px] lg:h-[480px] rounded-2xl overflow-hidden gap-4 md:gap-8 mt-6">
+        <div className="flex flex-col md:flex-row mb-8 h-[500px] rounded-2xl overflow-hidden gap-4 md:gap-8 mt-6">
           <div className="flex justify-evenly bg-[#F2F2F3] flex-col h-[300px] md:h-full p-6 md:p-10 basis-full md:basis-1/3 rounded-2xl">
             <div className="relative h-full w-full">
               <div className="relative h-full w-full">
@@ -69,8 +69,17 @@ export default function page() {
               </div>
             </div>
           </div>
-          <div className='rounded-2xl relative h-[300px] md:h-full overflow-hidden basis-full md:basis-2/3 hidden sm:block'>
-            <Image src='/image/banner-9.png' alt='Education Banner' width={500} height={500} className='object-cover w-full h-full' priority />
+          <div className='rounded-2xl relative h-[300px] md:h-full overflow-hidden basis-full md:basis-2/3 block'>
+            {/* <Image src='/image/banner-9.png' alt='Education Banner'  priority /> */}
+            <video
+                    src="/ngonngukyhieu.mp4"
+                    className="w-full h-full object-cover"
+                    autoPlay
+                    loop
+                    // width={500} height={500}
+                    muted
+                    playsInline
+                />
             <Link href={'ngon-ngu-ky-hieu/game'}><img src='/image/game1.png' alt="" className="absolute bottom-0 right-2 cursor-pointer" /></Link>
           </div>
         </div>
@@ -80,7 +89,7 @@ export default function page() {
             <h2 className='text-2xl md:text-3xl font-bold mb-6 md:mb-8'>Khóa học</h2>
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6'>
               {khoaHoc.slice(0, 3).map((course, index) => (
-                <Link href={`/giao-duc/khoa-hoc/${course.slug}`} key={index}>
+                <Link href={`/giao-duc/ngon-ngu-ky-hieu/khoa-hoc/${course.slug}`} key={index}>
                   <div className='rounded-2xl overflow-hidden group cursor-pointer hover:shadow-lg hover:shadow-[#5d7deb80] transition-shadow duration-300 h-auto md:h-[472px]'>
                     <div className='relative h-48 md:h-72 bg-[#CFD1D4]'>
                       <Image src={course.img} alt={course.title} fill className='object-cover' />
@@ -118,7 +127,7 @@ export default function page() {
             <h2 className='text-2xl md:text-3xl font-bold mb-6 md:mb-8'>Khóa học trực tuyến</h2>
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6'>
               {dataSukien.slice(0, 4).map((course, index) => (
-                <Link href={`/giao-duc/khoa-hoc/${course.slug}`} key={index}>
+                <Link href={`/giao-duc/ngon-ngu-ky-hieu/khoa-hoc-ngoai-tuyen/${course.slug}`} key={index}>
                   <div className='rounded-2xl overflow-hidden group cursor-pointer hover:shadow-lg hover:shadow-[#5d7deb80] transition-shadow duration-300 h-auto md:h-[472px]'>
                     <div className='relative h-48 md:h-72 bg-[#CFD1D4]'>
                       <Image src={course.img} alt={course.title} fill className='object-cover' />
