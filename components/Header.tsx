@@ -34,9 +34,8 @@ export default function Header() {
             <div className="relative group h-full">
               <Link
                 href="/ve-chung-toi"
-                className={`${
-                  isActivePath("/ve-chung-toi") ? "text-[#111827]" : "text-[#414652]"
-                } font-medium px-3 py-2 inline-flex items-center relative group h-full `}
+                className={`${isActivePath("/ve-chung-toi") ? "text-[#111827]" : "text-[#414652]"
+                  } font-medium px-3 py-2 inline-flex items-center relative group h-full `}
               >
                 Về chúng tôi
                 {/* <ChevronDown className="ml-1 h-4 w-4 transition-transform group-hover:rotate-180" /> */}
@@ -62,9 +61,8 @@ export default function Header() {
             <div className="relative group h-full">
               <Link
                 href="/thong-tin"
-                className={`${
-                  isActivePath("/thong-tin") ? "text-[#111827]" : "text-[#414652]"
-                } font-medium px-3 py-2 inline-flex items-center relative group h-full `}
+                className={`${isActivePath("/thong-tin") ? "text-[#111827]" : "text-[#414652]"
+                  } font-medium px-3 py-2 inline-flex items-center relative group h-full `}
               >
                 Thông tin
                 {/* <ChevronDown className="ml-1 h-4 w-4 transition-transform group-hover:rotate-180" /> */}
@@ -96,9 +94,8 @@ export default function Header() {
             <div className="relative group h-full">
               <Link
                 href="/giao-duc"
-                className={`${
-                  isActivePath("/giao-duc") ? "text-[#111827]" : "text-[#414652]"
-                } font-medium px-3 py-2 inline-flex items-center relative group h-full `}
+                className={`${isActivePath("/giao-duc") ? "text-[#111827]" : "text-[#414652]"
+                  } font-medium px-3 py-2 inline-flex items-center relative group h-full `}
               >
                 Giáo dục
                 {/* <ChevronDown className="ml-1 h-4 w-4 transition-transform group-hover:rotate-180" /> */}
@@ -133,9 +130,8 @@ export default function Header() {
             <div className="relative group h-full">
               <Link
                 href="/nghe-nghiep"
-                className={`${
-                  isActivePath("/nghe-nghiep") ? "text-[#111827]" : "text-[#414652]"
-                } font-medium px-3 py-2 inline-flex items-center relative group h-full `}
+                className={`${isActivePath("/nghe-nghiep") ? "text-[#111827]" : "text-[#414652]"
+                  } font-medium px-3 py-2 inline-flex items-center relative group h-full `}
               >
                 Nghề nghiệp
                 {/* <ChevronDown className="ml-1 h-4 w-4 transition-transform group-hover:rotate-180" /> */}
@@ -166,7 +162,7 @@ export default function Header() {
         <div className="hidden md:flex items-center space-x-4 h-full">
           <div className="relative group h-full flex flex-col items-center justify-center">
             <button className="bg-[#3a63ed] text-white px-4 py-2 rounded-md flex items-center">
-              Gây quỹ 
+              Gây quỹ
               {/* <ChevronDown className="ml-1 h-4 w-4 transition-transform group-hover:rotate-180" /> */}
             </button>
             {/* Dropdown Menu */}

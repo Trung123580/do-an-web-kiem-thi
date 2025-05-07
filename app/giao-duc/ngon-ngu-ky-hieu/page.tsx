@@ -2,7 +2,7 @@
 import React from "react"
 import Image from "next/image"
 import Link from "next/link"
-import { dataSukien, dataVolunteer, khoaHoc } from "@/utils/contanst"
+import { khoaHocTrucTuyen, khoaHoc } from "@/utils/contanst"
 import Slider from "react-slick"
 import SwiperSlider from "@/components/SwiperSlider"
 
@@ -72,14 +72,14 @@ export default function page() {
           <div className='rounded-2xl relative h-[300px] md:h-full overflow-hidden basis-full md:basis-2/3 block'>
             {/* <Image src='/image/banner-9.png' alt='Education Banner'  priority /> */}
             <video
-                    src="/ngonngukyhieu.mp4"
-                    className="w-full h-full object-cover"
-                    autoPlay
-                    loop
-                    // width={500} height={500}
-                    muted
-                    playsInline
-                />
+              src="/ngonngukyhieu.mp4"
+              className="w-full h-full object-cover"
+              autoPlay
+              loop
+              // width={500} height={500}
+              muted
+              playsInline
+            />
             <Link href={'ngon-ngu-ky-hieu/game'}><img src='/image/game1.png' alt="" className="absolute bottom-0 right-2 cursor-pointer" /></Link>
           </div>
         </div>
@@ -95,8 +95,8 @@ export default function page() {
                       <Image src={course.img} alt={course.title} fill className='object-cover' />
                     </div>
                     <div className='px-4 md:px-6 pt-4 md:pt-6 pb-4'>
-                      <h3 className='font-semibold text-lg md:text-xl mb-2'>{course.title}</h3>
-                      <p className='text-gray-600 text-sm mb-4 line-clamp-2'>Ngày kết thúc: {course.date}</p>
+                      <h3 className='font-semibold text-lg md:text-xl mb-2 line-clamp-2'>{course.title}</h3>
+                      <p className='text-gray-600 text-sm mb-4 line-clamp-1'>Ngày kết thúc: {course.date}</p>
                       <div className='flex justify-between items-center'>
                         <div className='flex items-center gap-3 w-full'>
                           <Image src={course.organization[0].img} alt='DNXH Logo' width={32} height={32} className='rounded-full w-8 h-8 md:w-10 md:h-10' />
@@ -126,15 +126,15 @@ export default function page() {
           <div>
             <h2 className='text-2xl md:text-3xl font-bold mb-6 md:mb-8'>Khóa học trực tuyến</h2>
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6'>
-              {dataSukien.slice(0, 4).map((course, index) => (
+              {khoaHocTrucTuyen.slice(0, 3).map((course, index) => (
                 <Link href={`/giao-duc/ngon-ngu-ky-hieu/khoa-hoc-ngoai-tuyen/${course.slug}`} key={index}>
                   <div className='rounded-2xl overflow-hidden group cursor-pointer hover:shadow-lg hover:shadow-[#5d7deb80] transition-shadow duration-300 h-auto md:h-[472px]'>
                     <div className='relative h-48 md:h-72 bg-[#CFD1D4]'>
                       <Image src={course.img} alt={course.title} fill className='object-cover' />
                     </div>
                     <div className='px-4 md:px-6 pt-4 md:pt-6 pb-4'>
-                      <h3 className='font-semibold text-lg md:text-xl mb-2'>{course.title}</h3>
-                      <p className='text-gray-600 text-sm mb-4 line-clamp-2'>Ngày kết thúc: {course.date}</p>
+                      <h3 className='font-semibold text-lg md:text-xl mb-2 line-clamp-2'>{course.title}</h3>
+                      <p className='text-gray-600 text-sm mb-4 line-clamp-1'>Ngày kết thúc: 14.05</p>
                       <div className='flex justify-between items-center'>
                         <div className='flex items-center gap-3 w-full'>
                           <Image src={"/image/Ellipse-7.png"} alt='DNXH Logo' width={32} height={32} className='rounded-full w-8 h-8 md:w-10 md:h-10' />
