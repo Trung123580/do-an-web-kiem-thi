@@ -5031,121 +5031,6 @@ export const khoaHoc = [
 		</p>
 	`,
   },
-  {
-    img: "/image/khoahoc5.jpg",
-    title: "Ngôn ngữ ký hiệu nâng cao Online",
-    description: "Khóa học giúp học viên làm quen với ngôn ngữ ký hiệu – công cụ giao tiếp chính của người khiếm thính. Đây là bước khởi đầu để xây dựng sự thấu hiểu và hòa nhập trong cộng đồng.",
-    date: "19:00 - 20:30",
-    day: "10 buổi",
-    schoolSchedule: "Thứ 3, thứ 6",
-    form: "Lớp học trực tiếp",
-    price: "1.500.000 VNĐ",
-    slug: "ngon-ngu-ky-hieu-nang-cao-online",
-    organization: [
-      {
-        img: "/image/Ellipse-6.png",
-        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
-      },
-    ],
-    courseIntroduction: `
-		  <p class="text-black text-sm mb-4 leading-relaxed">
-			Khóa học Ngôn ngữ ký hiệu cơ bản giúp học viên làm quen với ngôn ngữ ký hiệu – công cụ giao tiếp chính của người khiếm thính. Đây là bước khởi đầu để xây dựng sự thấu hiểu và hòa nhập trong cộng đồng.
-		  </p>
-		  <p class="text-black text-sm leading-relaxed">
-			Phù hợp với: người thân của người khiếm thính, giáo viên, tình nguyện viên, nhân viên xã hội, và tất cả những ai muốn học ngôn ngữ ký hiệu.
-		  </p>
-		  <p class="text-black text-sm  leading-relaxed pl-4">
-			• Lịch học: Thứ 3 và Thứ 6
-		  </p>
-		   <p class="text-black text-sm  leading-relaxed pl-4">
-			• Số buổi: 10 buổi
-		  </p>
-		   <p class="text-black text-sm  leading-relaxed pl-4">
-			• Thời gian: 19:00 – 20:30
-		  </p>
-		   <p class="text-black text-sm  leading-relaxed pl-4">
-			• Hình thức: Lớp học trực tiếp (10 người)
-		  </p>
-		   <p class="text-black text-sm  leading-relaxed pl-4">
-			• Học phí: 1.500.000 VNĐ
-		  </p>
-	 	  `,
-    output: `
-		<p class="text-black text-sm  leading-relaxed pl-4">
-			• Giao tiếp được các tình huống cơ bản bằng ngôn ngữ ký hiệu.
-		</p>
-		<p class="text-black text-sm  leading-relaxed pl-4">
-			• Nắm vững từ vựng thuộc nhiều chủ đề thường ngày.
-		</p>
-		<p class="text-black text-sm  leading-relaxed pl-4">
-			• Hiểu nền tảng văn hóa giao tiếp của cộng đồng người khiếm thính.
-		</p>
-		<p class="text-black text-sm  leading-relaxed pl-4">
-			• Tự tin sử dụng ngôn ngữ ký hiệu để tạo cầu nối trong công việc và cuộc sống.
-		</p>
-	`,
-    content: `<p class="text-black text-sm  leading-relaxed pl-4">
-			• Buổi 1–2: Ký hiệu chào hỏi, giới thiệu bản thân
-		</p>
-		<p class="text-black text-sm  leading-relaxed pl-4">
-			• Buổi 3–4: Từ vựng chủ đề động vật & đồ ăn
-		</p>
-		<p class="text-black text-sm  leading-relaxed pl-4">
-			• Buổi 5–6: Câu giao tiếp đơn giản thường gặp
-		</p>
-		<p class="text-black text-sm  leading-relaxed pl-4">
-			• Buổi 7–8: Biểu cảm và ngữ cảnh giao tiếp
-		</p>
-		<p class="text-black text-sm  leading-relaxed pl-4">
-			• Buổi 9: Văn hóa người khiếm thính
-		</p>
-		<p class="text-black text-sm  leading-relaxed pl-4">
-			• Buổi 10: Ôn tập và thực hành tình huống thực tế
-		</p>`,
-    commnents: [
-      {
-        name: "Chị Linh",
-        avatar: "/image/comment1.png",
-        content: `“Khóa học thực sự dễ hiểu và hữu ích. Tôi có thể giao tiếp cơ bản với con trai mình ngay sau khi kết thúc.”`,
-      },
-      {
-        name: "Anh Minh",
-        avatar: "/image/comment1.png",
-        content: `“Giáo viên rất thân thiện và thực tế, tôi đã học được rất nhiều điều ngoài ngôn ngữ ký hiệu.”`,
-      },
-      {
-        name: "Thảo",
-        avatar: "/image/comment1.png",
-        content: `“Tôi cảm thấy mình được kết nối hơn với cộng đồng khiếm thính. Một trải nghiệm tuyệt vời!”`,
-      },
-    ],
-    scienceRegistration: `
-		<p class="text-black text-sm mb-4 leading-relaxed pl-4">
-			Nếu bạn quan tâm đến việc học ngôn ngữ ký hiệu để giao tiếp và thấu hiểu người khiếm thính, hãy đăng ký tham gia ngay hôm nay!
-		</p>	
-		<p class="text-black text-sm leading-relaxed pl-4">
-			🔹 Cách đăng ký:
-		</p>
-		<p class="text-black text-sm leading-relaxed pl-4">
-			Vui lòng gửi Họ tên – Ngày sinh – Nghề nghiệp – Lý do tham gia – Số điện thoại liên hệ đến:
-		</p>
-		<p class="text-black text-sm leading-relaxed pl-4">
-			📩 Email: hlcsvietnam@gmail.com
-		</p>
-		<p class="text-black text-sm leading-relaxed pl-4">
-			📞 Điện thoại/Zalo: 0936 253 215
-		</p>
-		<p class="text-black text-sm mb-4 leading-relaxed pl-4">
-			📱 Facebook: <a href='https://www.facebook.com/DNXH.VI.NGUOI.KHIEM.THINH.VIETNAM'>Doanh Nghiệp Xã Hội vì Người Khiếm Thính Việt Nam</a>
-		</p>
-		<p class="text-black text-sm leading-relaxed pl-4">
-			👉 Số lượng có hạn – Ưu tiên người đăng ký sớm!
-		</p>
-		<p class="text-black text-sm leading-relaxed pl-4">
-			Hạn chót đăng ký: (bạn có thể điền ngày cụ thể nếu có)
-		</p>
-	`,
-  },
 ];
 export const khoaHocTrucTuyen = [
   {
@@ -5666,6 +5551,756 @@ export const khoaHocTrucTuyen = [
 		📱 hoặc liên hệ Foundation for Future để được hỗ trợ
 	</p>
 `,
+  },
+];
+export const triLieuNgonNgu = [
+  {
+    img: "/image/trilieu1.jpg",
+    title: "Trị liệu ngôn ngữ cá nhân",
+    description: "Cải thiện kỹ năng giao tiếp và ngôn ngữ cho trẻ và thanh thiếu niên khiếm thính – hướng dẫn bởi chuyên viên ngôn ngữ giàu kinh nghiệm.",
+    day: "12 bài giảng",
+    free: false,
+    price: "100.000 VND",
+    time: "45 phút",
+    form: "Trị liệu cá nhân",
+    objectives: "Mọi độ tuổi",
+    teacher: "Ths. Đỗ Thị Hảo",
+    slug: "tri-lieu-ngon-ngu-ca-nhan",
+    organization: [
+      {
+        img: "/image/Ellipse-6.png",
+        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+      },
+    ],
+    courseIntroduction: `
+		  <p class="text-black text-base leading-relaxed">
+			Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam tổ chức các buổi trị liệu ngôn ngữ 1:1 dành cho trẻ em và thanh thiếu niên khiếm thính nhằm phát triển khả năng giao tiếp, phát âm, sử dụng ngôn ngữ ký hiệu và hiểu ngôn ngữ nói.
+		  </p>
+		  <p class="text-black text-base  leading-relaxed pl-4">
+			• Đối tượng: Trẻ em, thanh thiếu niên khiếm thính hoặc gặp khó khăn về giao tiếp/ngôn ngữ.
+		  </p>
+		   <p class="text-black text-base  leading-relaxed pl-4">
+			• Hình thức: Gặp trực tiếp với chuyên viên trị liệu ngôn ngữ tại trung tâm.
+		  </p>
+		   <p class="text-black text-base  leading-relaxed pl-4">
+			• Nội dung cá nhân hóa: Xây dựng chương trình phù hợp với từng học viên (theo độ tuổi, mức độ khiếm thính và nhu cầu cụ thể).
+		  </p>
+		   <p class="text-black text-base  leading-relaxed pl-4">
+			• Thời lượng: 1 buổi/tuần, mỗi buổi 45–60 phút.
+		  </p>
+		   <p class="text-black text-base  leading-relaxed pl-4">
+			• Đội ngũ chuyên môn: Chuyên viên trị liệu có chứng chỉ và kinh nghiệm làm việc với trẻ khiếm thính.
+		  </p>
+		   <p class="text-black text-base  leading-relaxed pl-4 mb-6">
+			• Mục tiêu: Giúp học viên tự tin hơn trong giao tiếp, tăng khả năng hòa nhập xã hội và chuẩn bị tốt cho học tập hoặc nghề nghiệp tương lai.
+		  </p>
+		    <p class="text-black text-base  leading-relaxed">
+			📍 Địa điểm: Tại văn phòng Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam
+		  </p>
+		   <p class="text-black text-base  leading-relaxed">
+			📞 Liên hệ tư vấn: 0936 253 215
+		  </p>
+	 	  `,
+    output: `
+			<p class="text-black text-base  leading-relaxed">
+				Phương pháp AVT hướng đến việc giúp trẻ khiếm thính phát triển kỹ năng ngôn ngữ nói và hiểu lời nói thông qua việc sử dụng khả năng nghe (ngay cả khi đã hỗ trợ bằng máy trợ thính hoặc cấy ốc tai điện tử). Đầu ra kỳ vọng bao gồm:
+			</p>
+			<p class="text-black text-base font-bold leading-relaxed">
+				1. Giao tiếp bằng lời nói
+			</p>
+			<p class="text-black text-base  leading-relaxed">
+				Trẻ có khả năng sử dụng lời nói để giao tiếp thay vì chỉ dựa vào ký hiệu hoặc hình ảnh.
+			</p>
+			<p class="text-black text-base  leading-relaxed">
+				Phát triển ngữ âm, từ vựng, cú pháp và ngữ nghĩa gần ngang bằng với trẻ nghe bình thường cùng độ tuổi.
+			</p>
+			<p class="text-black text-base font-bold leading-relaxed">
+				2. Phát triển kỹ năng nghe
+			</p>
+			<p class="text-black text-base  leading-relaxed">
+				Có khả năng nghe hiểu lời nói trong môi trường yên tĩnh và dần tiến tới môi trường có tiếng ồn.
+			</p>
+			<p class="text-black text-base  leading-relaxed">
+				Phân biệt âm thanh, từ đơn, câu nói và cảm xúc qua giọng nói.
+			</p>
+			<p class="text-black text-base font-bold leading-relaxed">
+				3. Phát triển ngôn ngữ tiếp thu (receptive) và ngôn ngữ diễn đạt (expressive)
+			</p>
+			<p class="text-black text-base  leading-relaxed">
+				Hiểu ngôn ngữ người khác nói (receptive language).
+			</p>
+			<p class="text-black text-base  leading-relaxed">
+				Biết cách diễn đạt suy nghĩ, cảm xúc và mong muốn của mình bằng lời nói (expressive language).
+			</p>
+			<p class="text-black text-base font-bold leading-relaxed">
+				4. Hòa nhập học đường và xã hội
+			</p>
+			<p class="text-black text-base  leading-relaxed">
+				Trẻ có thể học trong lớp học phổ thông mà không cần thông dịch viên ngôn ngữ ký hiệu.
+			</p>
+			<p class="text-black text-base  leading-relaxed">
+				Có khả năng tham gia vào các hoạt động cộng đồng, giao tiếp tự tin với bạn bè và người thân.
+			</p>
+			
+		`,
+    content: `
+			<p class="text-black text-base font-bold leading-relaxed">
+				1. Kích hoạt và phát triển kỹ năng nghe
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Nhận biết âm thanh môi trường
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Phân biệt âm thanh và giọng nói
+			</p>
+			<p class="text-black text-base mb-4 leading-relaxed pl-4">
+				• Phát hiện, nhận dạng, định vị nguồn âm thanh
+			</p>
+			<p class="text-black text-base font-bold leading-relaxed">
+				2. Phát triển kỹ năng nói cơ bản
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Học cách tạo âm, từ đơn, câu ngắn
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Thực hành phát âm đúng thông qua nghe phản hồi
+			</p>
+			<p class="text-black text-base mb-4 leading-relaxed pl-4">
+				• Điều chỉnh hơi thở, âm lượng và ngữ điệu khi nói
+			</p>
+			<p class="text-black text-base font-bold leading-relaxed">
+				3. Mở rộng vốn từ và ngữ pháp
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Học từ mới theo chủ đề: gia đình, trường học, đồ vật, hành động…
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Thực hành đặt câu đơn và câu phức
+			</p>
+			<p class="text-black text-base mb-4 leading-relaxed pl-4">
+				• Phát triển ngôn ngữ tự nhiên qua kể chuyện, miêu tả hình ảnh
+			</p>
+			<p class="text-black text-base font-bold leading-relaxed">
+				4. Giao tiếp thực tế
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Thực hành qua tình huống hàng ngày: đi chợ, ăn uống, chơi cùng bạn bè
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Dạy trẻ cách đặt câu hỏi, đưa ra ý kiến, giải quyết mâu thuẫn bằng lời nói
+			</p>
+			<p class="text-black text-base mb-4 leading-relaxed pl-4">
+				• Kết hợp ngôn ngữ cảm xúc (ví dụ: buồn, vui, tức giận…)
+			</p>
+			<p class="text-black text-base font-bold leading-relaxed">
+				5. Hướng dẫn phụ huynh
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Phụ huynh được đào tạo cách hỗ trợ trị liệu tại nhà
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Ghi nhận và phản hồi tiến trình giao tiếp hàng ngày
+			</p>
+			<p class="text-black text-base mb-4 leading-relaxed pl-4">
+				• Thực hành cùng con thông qua chơi, đọc sách, đối thoại
+			</p>
+		`,
+    commnents: [
+      {
+        name: "Nguyễn Thị Hạnh",
+        avatar: "/image/comment1.png",
+        content: `"Sau 3 tháng tham gia lớp trị liệu 1:1, con tôi đã bắt đầu nói được những từ đơn giản như “mẹ”, “ăn”, “đi chơi” và hiểu nhiều hơn khi người lớn nói chuyện. Giáo viên rất kiên nhẫn và biết cách khuyến khích con học mà không áp lực. Tôi cảm thấy rất biết ơn vì con đang có cơ hội hòa nhập tốt hơn."`,
+      },
+      {
+        name: "Phạm Thu Trà",
+        avatar: "/image/comment1.png",
+        content: `"Tôi rất hài lòng với lớp trị liệu ngôn ngữ cá nhân. Con tôi ban đầu rất ít nói, nhưng sau một thời gian học đã bắt đầu sử dụng từ ngữ rõ ràng hơn và chủ động giao tiếp với người thân. Chuyên viên trị liệu rất tận tâm, kiên nhẫn và hướng dẫn kỹ cho cả gia đình cùng hỗ trợ."`,
+      },
+      {
+        name: "Trần Minh Thư",
+        avatar: "/image/comment1.png",
+        content: `"Tôi thấy chương trình trị liệu cá nhân rất bài bản, có lộ trình rõ ràng và phù hợp với từng học sinh. Học sinh của tôi tiến bộ rõ về khả năng nghe hiểu và diễn đạt. Tôi đặc biệt đánh giá cao sự phối hợp chặt chẽ giữa giáo viên, phụ huynh và chuyên viên trị liệu."`,
+      },
+    ],
+    scienceRegistration: `
+			<p class="text-black text-base leading-relaxed">
+				🔹 Cách đăng ký:
+			</p>	
+			<p class="text-black text-base leading-relaxed">
+				Vui lòng gửi Họ tên – Ngày sinh – Mối quan hệ với học viên (nếu đăng ký thay) – Tình trạng hiện tại – Mục tiêu tham gia – Số điện thoại liên hệ đến:
+			</p>
+			<p class="text-black text-base leading-relaxed">
+				📩 Email: hlcsvietnam@gmail.com
+			</p>
+			<p class="text-black text-base leading-relaxed">
+				📞 Điện thoại/Zalo: 0936 253 215
+			</p>
+			<p class="text-black text-base leading-relaxed">
+				📱 Facebook: Doanh Nghiệp Xã Hội vì Người Khiếm Thính Việt Nam
+			</p>
+	
+		`,
+  },
+  {
+    img: "/image/trilieu2.jpg",
+    title: "Trị liệu ngôn ngữ",
+    description: "Cải thiện kỹ năng giao tiếp và ngôn ngữ cho trẻ và thanh thiếu niên khiếm thính – hướng dẫn bởi chuyên viên ngôn ngữ giàu kinh nghiệm.",
+    day: "12 bài giảng",
+    free: false,
+    price: "100.000 VND",
+    time: "45 phút",
+    form: "Trị liệu cá nhân",
+    objectives: "Mọi độ tuổi",
+    teacher: "Ths. Đỗ Thị Hảo",
+    slug: "tri-lieu-ngon-ngu",
+    organization: [
+      {
+        img: "/image/Ellipse-6.png",
+        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+      },
+    ],
+    courseIntroduction: `
+		  <p class="text-black text-base leading-relaxed">
+			Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam tổ chức các buổi trị liệu ngôn ngữ 1:1 dành cho trẻ em và thanh thiếu niên khiếm thính nhằm phát triển khả năng giao tiếp, phát âm, sử dụng ngôn ngữ ký hiệu và hiểu ngôn ngữ nói.
+		  </p>
+		  <p class="text-black text-base  leading-relaxed pl-4">
+			• Đối tượng: Trẻ em, thanh thiếu niên khiếm thính hoặc gặp khó khăn về giao tiếp/ngôn ngữ.
+		  </p>
+		   <p class="text-black text-base  leading-relaxed pl-4">
+			• Hình thức: Gặp trực tiếp với chuyên viên trị liệu ngôn ngữ tại trung tâm.
+		  </p>
+		   <p class="text-black text-base  leading-relaxed pl-4">
+			• Nội dung cá nhân hóa: Xây dựng chương trình phù hợp với từng học viên (theo độ tuổi, mức độ khiếm thính và nhu cầu cụ thể).
+		  </p>
+		   <p class="text-black text-base  leading-relaxed pl-4">
+			• Thời lượng: 1 buổi/tuần, mỗi buổi 45–60 phút.
+		  </p>
+		   <p class="text-black text-base  leading-relaxed pl-4">
+			• Đội ngũ chuyên môn: Chuyên viên trị liệu có chứng chỉ và kinh nghiệm làm việc với trẻ khiếm thính.
+		  </p>
+		   <p class="text-black text-base  leading-relaxed pl-4 mb-6">
+			• Mục tiêu: Giúp học viên tự tin hơn trong giao tiếp, tăng khả năng hòa nhập xã hội và chuẩn bị tốt cho học tập hoặc nghề nghiệp tương lai.
+		  </p>
+		    <p class="text-black text-base  leading-relaxed">
+			📍 Địa điểm: Tại văn phòng Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam
+		  </p>
+		   <p class="text-black text-base  leading-relaxed">
+			📞 Liên hệ tư vấn: 0936 253 215
+		  </p>
+	 	  `,
+    output: `
+			<p class="text-black text-base  leading-relaxed">
+				Phương pháp AVT hướng đến việc giúp trẻ khiếm thính phát triển kỹ năng ngôn ngữ nói và hiểu lời nói thông qua việc sử dụng khả năng nghe (ngay cả khi đã hỗ trợ bằng máy trợ thính hoặc cấy ốc tai điện tử). Đầu ra kỳ vọng bao gồm:
+			</p>
+			<p class="text-black text-base font-bold leading-relaxed">
+				1. Giao tiếp bằng lời nói
+			</p>
+			<p class="text-black text-base  leading-relaxed">
+				Trẻ có khả năng sử dụng lời nói để giao tiếp thay vì chỉ dựa vào ký hiệu hoặc hình ảnh.
+			</p>
+			<p class="text-black text-base  leading-relaxed">
+				Phát triển ngữ âm, từ vựng, cú pháp và ngữ nghĩa gần ngang bằng với trẻ nghe bình thường cùng độ tuổi.
+			</p>
+			<p class="text-black text-base font-bold leading-relaxed">
+				2. Phát triển kỹ năng nghe
+			</p>
+			<p class="text-black text-base  leading-relaxed">
+				Có khả năng nghe hiểu lời nói trong môi trường yên tĩnh và dần tiến tới môi trường có tiếng ồn.
+			</p>
+			<p class="text-black text-base  leading-relaxed">
+				Phân biệt âm thanh, từ đơn, câu nói và cảm xúc qua giọng nói.
+			</p>
+			<p class="text-black text-base font-bold leading-relaxed">
+				3. Phát triển ngôn ngữ tiếp thu (receptive) và ngôn ngữ diễn đạt (expressive)
+			</p>
+			<p class="text-black text-base  leading-relaxed">
+				Hiểu ngôn ngữ người khác nói (receptive language).
+			</p>
+			<p class="text-black text-base  leading-relaxed">
+				Biết cách diễn đạt suy nghĩ, cảm xúc và mong muốn của mình bằng lời nói (expressive language).
+			</p>
+			<p class="text-black text-base font-bold leading-relaxed">
+				4. Hòa nhập học đường và xã hội
+			</p>
+			<p class="text-black text-base  leading-relaxed">
+				Trẻ có thể học trong lớp học phổ thông mà không cần thông dịch viên ngôn ngữ ký hiệu.
+			</p>
+			<p class="text-black text-base  leading-relaxed">
+				Có khả năng tham gia vào các hoạt động cộng đồng, giao tiếp tự tin với bạn bè và người thân.
+			</p>
+			
+		`,
+    content: `
+			<p class="text-black text-base font-bold leading-relaxed">
+				1. Kích hoạt và phát triển kỹ năng nghe
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Nhận biết âm thanh môi trường
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Phân biệt âm thanh và giọng nói
+			</p>
+			<p class="text-black text-base mb-4 leading-relaxed pl-4">
+				• Phát hiện, nhận dạng, định vị nguồn âm thanh
+			</p>
+			<p class="text-black text-base font-bold leading-relaxed">
+				2. Phát triển kỹ năng nói cơ bản
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Học cách tạo âm, từ đơn, câu ngắn
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Thực hành phát âm đúng thông qua nghe phản hồi
+			</p>
+			<p class="text-black text-base mb-4 leading-relaxed pl-4">
+				• Điều chỉnh hơi thở, âm lượng và ngữ điệu khi nói
+			</p>
+			<p class="text-black text-base font-bold leading-relaxed">
+				3. Mở rộng vốn từ và ngữ pháp
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Học từ mới theo chủ đề: gia đình, trường học, đồ vật, hành động…
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Thực hành đặt câu đơn và câu phức
+			</p>
+			<p class="text-black text-base mb-4 leading-relaxed pl-4">
+				• Phát triển ngôn ngữ tự nhiên qua kể chuyện, miêu tả hình ảnh
+			</p>
+			<p class="text-black text-base font-bold leading-relaxed">
+				4. Giao tiếp thực tế
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Thực hành qua tình huống hàng ngày: đi chợ, ăn uống, chơi cùng bạn bè
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Dạy trẻ cách đặt câu hỏi, đưa ra ý kiến, giải quyết mâu thuẫn bằng lời nói
+			</p>
+			<p class="text-black text-base mb-4 leading-relaxed pl-4">
+				• Kết hợp ngôn ngữ cảm xúc (ví dụ: buồn, vui, tức giận…)
+			</p>
+			<p class="text-black text-base font-bold leading-relaxed">
+				5. Hướng dẫn phụ huynh
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Phụ huynh được đào tạo cách hỗ trợ trị liệu tại nhà
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Ghi nhận và phản hồi tiến trình giao tiếp hàng ngày
+			</p>
+			<p class="text-black text-base mb-4 leading-relaxed pl-4">
+				• Thực hành cùng con thông qua chơi, đọc sách, đối thoại
+			</p>
+		`,
+    commnents: [
+      {
+        name: "Nguyễn Thị Hạnh",
+        avatar: "/image/comment1.png",
+        content: `"Sau 3 tháng tham gia lớp trị liệu 1:1, con tôi đã bắt đầu nói được những từ đơn giản như “mẹ”, “ăn”, “đi chơi” và hiểu nhiều hơn khi người lớn nói chuyện. Giáo viên rất kiên nhẫn và biết cách khuyến khích con học mà không áp lực. Tôi cảm thấy rất biết ơn vì con đang có cơ hội hòa nhập tốt hơn."`,
+      },
+      {
+        name: "Phạm Thu Trà",
+        avatar: "/image/comment1.png",
+        content: `"Tôi rất hài lòng với lớp trị liệu ngôn ngữ cá nhân. Con tôi ban đầu rất ít nói, nhưng sau một thời gian học đã bắt đầu sử dụng từ ngữ rõ ràng hơn và chủ động giao tiếp với người thân. Chuyên viên trị liệu rất tận tâm, kiên nhẫn và hướng dẫn kỹ cho cả gia đình cùng hỗ trợ."`,
+      },
+      {
+        name: "Trần Minh Thư",
+        avatar: "/image/comment1.png",
+        content: `"Tôi thấy chương trình trị liệu cá nhân rất bài bản, có lộ trình rõ ràng và phù hợp với từng học sinh. Học sinh của tôi tiến bộ rõ về khả năng nghe hiểu và diễn đạt. Tôi đặc biệt đánh giá cao sự phối hợp chặt chẽ giữa giáo viên, phụ huynh và chuyên viên trị liệu."`,
+      },
+    ],
+    scienceRegistration: `
+			<p class="text-black text-base leading-relaxed">
+				🔹 Cách đăng ký:
+			</p>	
+			<p class="text-black text-base leading-relaxed">
+				Vui lòng gửi Họ tên – Ngày sinh – Mối quan hệ với học viên (nếu đăng ký thay) – Tình trạng hiện tại – Mục tiêu tham gia – Số điện thoại liên hệ đến:
+			</p>
+			<p class="text-black text-base leading-relaxed">
+				📩 Email: hlcsvietnam@gmail.com
+			</p>
+			<p class="text-black text-base leading-relaxed">
+				📞 Điện thoại/Zalo: 0936 253 215
+			</p>
+			<p class="text-black text-base leading-relaxed">
+				📱 Facebook: Doanh Nghiệp Xã Hội vì Người Khiếm Thính Việt Nam
+			</p>
+	
+		`,
+  },
+  {
+    img: "/image/trilieu3.jpg",
+    title: "Âm ngữ trị liệu",
+    description: "Cải thiện kỹ năng giao tiếp và ngôn ngữ cho trẻ và thanh thiếu niên khiếm thính – hướng dẫn bởi chuyên viên ngôn ngữ giàu kinh nghiệm.",
+    day: "12 bài giảng",
+    free: false,
+    price: "100.000 VND",
+    time: "45 phút",
+    form: "Trị liệu cá nhân",
+    objectives: "Mọi độ tuổi",
+    teacher: "Ths. Đỗ Thị Hảo",
+    slug: "am-ngu-tri-lieu",
+    organization: [
+      {
+        img: "/image/Ellipse-6.png",
+        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+      },
+    ],
+    courseIntroduction: `
+		  <p class="text-black text-base leading-relaxed">
+			Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam tổ chức các buổi trị liệu ngôn ngữ 1:1 dành cho trẻ em và thanh thiếu niên khiếm thính nhằm phát triển khả năng giao tiếp, phát âm, sử dụng ngôn ngữ ký hiệu và hiểu ngôn ngữ nói.
+		  </p>
+		  <p class="text-black text-base  leading-relaxed pl-4">
+			• Đối tượng: Trẻ em, thanh thiếu niên khiếm thính hoặc gặp khó khăn về giao tiếp/ngôn ngữ.
+		  </p>
+		   <p class="text-black text-base  leading-relaxed pl-4">
+			• Hình thức: Gặp trực tiếp với chuyên viên trị liệu ngôn ngữ tại trung tâm.
+		  </p>
+		   <p class="text-black text-base  leading-relaxed pl-4">
+			• Nội dung cá nhân hóa: Xây dựng chương trình phù hợp với từng học viên (theo độ tuổi, mức độ khiếm thính và nhu cầu cụ thể).
+		  </p>
+		   <p class="text-black text-base  leading-relaxed pl-4">
+			• Thời lượng: 1 buổi/tuần, mỗi buổi 45–60 phút.
+		  </p>
+		   <p class="text-black text-base  leading-relaxed pl-4">
+			• Đội ngũ chuyên môn: Chuyên viên trị liệu có chứng chỉ và kinh nghiệm làm việc với trẻ khiếm thính.
+		  </p>
+		   <p class="text-black text-base  leading-relaxed pl-4 mb-6">
+			• Mục tiêu: Giúp học viên tự tin hơn trong giao tiếp, tăng khả năng hòa nhập xã hội và chuẩn bị tốt cho học tập hoặc nghề nghiệp tương lai.
+		  </p>
+		    <p class="text-black text-base  leading-relaxed">
+			📍 Địa điểm: Tại văn phòng Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam
+		  </p>
+		   <p class="text-black text-base  leading-relaxed">
+			📞 Liên hệ tư vấn: 0936 253 215
+		  </p>
+	 	  `,
+    output: `
+			<p class="text-black text-base  leading-relaxed">
+				Phương pháp AVT hướng đến việc giúp trẻ khiếm thính phát triển kỹ năng ngôn ngữ nói và hiểu lời nói thông qua việc sử dụng khả năng nghe (ngay cả khi đã hỗ trợ bằng máy trợ thính hoặc cấy ốc tai điện tử). Đầu ra kỳ vọng bao gồm:
+			</p>
+			<p class="text-black text-base font-bold leading-relaxed">
+				1. Giao tiếp bằng lời nói
+			</p>
+			<p class="text-black text-base  leading-relaxed">
+				Trẻ có khả năng sử dụng lời nói để giao tiếp thay vì chỉ dựa vào ký hiệu hoặc hình ảnh.
+			</p>
+			<p class="text-black text-base  leading-relaxed">
+				Phát triển ngữ âm, từ vựng, cú pháp và ngữ nghĩa gần ngang bằng với trẻ nghe bình thường cùng độ tuổi.
+			</p>
+			<p class="text-black text-base font-bold leading-relaxed">
+				2. Phát triển kỹ năng nghe
+			</p>
+			<p class="text-black text-base  leading-relaxed">
+				Có khả năng nghe hiểu lời nói trong môi trường yên tĩnh và dần tiến tới môi trường có tiếng ồn.
+			</p>
+			<p class="text-black text-base  leading-relaxed">
+				Phân biệt âm thanh, từ đơn, câu nói và cảm xúc qua giọng nói.
+			</p>
+			<p class="text-black text-base font-bold leading-relaxed">
+				3. Phát triển ngôn ngữ tiếp thu (receptive) và ngôn ngữ diễn đạt (expressive)
+			</p>
+			<p class="text-black text-base  leading-relaxed">
+				Hiểu ngôn ngữ người khác nói (receptive language).
+			</p>
+			<p class="text-black text-base  leading-relaxed">
+				Biết cách diễn đạt suy nghĩ, cảm xúc và mong muốn của mình bằng lời nói (expressive language).
+			</p>
+			<p class="text-black text-base font-bold leading-relaxed">
+				4. Hòa nhập học đường và xã hội
+			</p>
+			<p class="text-black text-base  leading-relaxed">
+				Trẻ có thể học trong lớp học phổ thông mà không cần thông dịch viên ngôn ngữ ký hiệu.
+			</p>
+			<p class="text-black text-base  leading-relaxed">
+				Có khả năng tham gia vào các hoạt động cộng đồng, giao tiếp tự tin với bạn bè và người thân.
+			</p>
+			
+		`,
+    content: `
+			<p class="text-black text-base font-bold leading-relaxed">
+				1. Kích hoạt và phát triển kỹ năng nghe
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Nhận biết âm thanh môi trường
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Phân biệt âm thanh và giọng nói
+			</p>
+			<p class="text-black text-base mb-4 leading-relaxed pl-4">
+				• Phát hiện, nhận dạng, định vị nguồn âm thanh
+			</p>
+			<p class="text-black text-base font-bold leading-relaxed">
+				2. Phát triển kỹ năng nói cơ bản
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Học cách tạo âm, từ đơn, câu ngắn
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Thực hành phát âm đúng thông qua nghe phản hồi
+			</p>
+			<p class="text-black text-base mb-4 leading-relaxed pl-4">
+				• Điều chỉnh hơi thở, âm lượng và ngữ điệu khi nói
+			</p>
+			<p class="text-black text-base font-bold leading-relaxed">
+				3. Mở rộng vốn từ và ngữ pháp
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Học từ mới theo chủ đề: gia đình, trường học, đồ vật, hành động…
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Thực hành đặt câu đơn và câu phức
+			</p>
+			<p class="text-black text-base mb-4 leading-relaxed pl-4">
+				• Phát triển ngôn ngữ tự nhiên qua kể chuyện, miêu tả hình ảnh
+			</p>
+			<p class="text-black text-base font-bold leading-relaxed">
+				4. Giao tiếp thực tế
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Thực hành qua tình huống hàng ngày: đi chợ, ăn uống, chơi cùng bạn bè
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Dạy trẻ cách đặt câu hỏi, đưa ra ý kiến, giải quyết mâu thuẫn bằng lời nói
+			</p>
+			<p class="text-black text-base mb-4 leading-relaxed pl-4">
+				• Kết hợp ngôn ngữ cảm xúc (ví dụ: buồn, vui, tức giận…)
+			</p>
+			<p class="text-black text-base font-bold leading-relaxed">
+				5. Hướng dẫn phụ huynh
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Phụ huynh được đào tạo cách hỗ trợ trị liệu tại nhà
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Ghi nhận và phản hồi tiến trình giao tiếp hàng ngày
+			</p>
+			<p class="text-black text-base mb-4 leading-relaxed pl-4">
+				• Thực hành cùng con thông qua chơi, đọc sách, đối thoại
+			</p>
+		`,
+    commnents: [
+      {
+        name: "Nguyễn Thị Hạnh",
+        avatar: "/image/comment1.png",
+        content: `"Sau 3 tháng tham gia lớp trị liệu 1:1, con tôi đã bắt đầu nói được những từ đơn giản như “mẹ”, “ăn”, “đi chơi” và hiểu nhiều hơn khi người lớn nói chuyện. Giáo viên rất kiên nhẫn và biết cách khuyến khích con học mà không áp lực. Tôi cảm thấy rất biết ơn vì con đang có cơ hội hòa nhập tốt hơn."`,
+      },
+      {
+        name: "Phạm Thu Trà",
+        avatar: "/image/comment1.png",
+        content: `"Tôi rất hài lòng với lớp trị liệu ngôn ngữ cá nhân. Con tôi ban đầu rất ít nói, nhưng sau một thời gian học đã bắt đầu sử dụng từ ngữ rõ ràng hơn và chủ động giao tiếp với người thân. Chuyên viên trị liệu rất tận tâm, kiên nhẫn và hướng dẫn kỹ cho cả gia đình cùng hỗ trợ."`,
+      },
+      {
+        name: "Trần Minh Thư",
+        avatar: "/image/comment1.png",
+        content: `"Tôi thấy chương trình trị liệu cá nhân rất bài bản, có lộ trình rõ ràng và phù hợp với từng học sinh. Học sinh của tôi tiến bộ rõ về khả năng nghe hiểu và diễn đạt. Tôi đặc biệt đánh giá cao sự phối hợp chặt chẽ giữa giáo viên, phụ huynh và chuyên viên trị liệu."`,
+      },
+    ],
+    scienceRegistration: `
+			<p class="text-black text-base leading-relaxed">
+				🔹 Cách đăng ký:
+			</p>	
+			<p class="text-black text-base leading-relaxed">
+				Vui lòng gửi Họ tên – Ngày sinh – Mối quan hệ với học viên (nếu đăng ký thay) – Tình trạng hiện tại – Mục tiêu tham gia – Số điện thoại liên hệ đến:
+			</p>
+			<p class="text-black text-base leading-relaxed">
+				📩 Email: hlcsvietnam@gmail.com
+			</p>
+			<p class="text-black text-base leading-relaxed">
+				📞 Điện thoại/Zalo: 0936 253 215
+			</p>
+			<p class="text-black text-base leading-relaxed">
+				📱 Facebook: Doanh Nghiệp Xã Hội vì Người Khiếm Thính Việt Nam
+			</p>
+	
+		`,
+  },
+  {
+    img: "/image/trilieu4.jpg",
+    title: "Trị liệu thính giác– Lời nói AVT",
+    description: "Cải thiện kỹ năng giao tiếp và ngôn ngữ cho trẻ và thanh thiếu niên khiếm thính – hướng dẫn bởi chuyên viên ngôn ngữ giàu kinh nghiệm.",
+    day: "12 bài giảng",
+    free: false,
+    price: "100.000 VND",
+    time: "45 phút",
+    form: "Trị liệu cá nhân",
+    objectives: "Mọi độ tuổi",
+    teacher: "Ths. Đỗ Thị Hảo",
+    slug: "tri-lieu-thinh-giac-loi-noi-atv",
+    organization: [
+      {
+        img: "/image/Ellipse-6.png",
+        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+      },
+    ],
+    courseIntroduction: `
+		  <p class="text-black text-base leading-relaxed">
+			Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam tổ chức các buổi trị liệu ngôn ngữ 1:1 dành cho trẻ em và thanh thiếu niên khiếm thính nhằm phát triển khả năng giao tiếp, phát âm, sử dụng ngôn ngữ ký hiệu và hiểu ngôn ngữ nói.
+		  </p>
+		  <p class="text-black text-base  leading-relaxed pl-4">
+			• Đối tượng: Trẻ em, thanh thiếu niên khiếm thính hoặc gặp khó khăn về giao tiếp/ngôn ngữ.
+		  </p>
+		   <p class="text-black text-base  leading-relaxed pl-4">
+			• Hình thức: Gặp trực tiếp với chuyên viên trị liệu ngôn ngữ tại trung tâm.
+		  </p>
+		   <p class="text-black text-base  leading-relaxed pl-4">
+			• Nội dung cá nhân hóa: Xây dựng chương trình phù hợp với từng học viên (theo độ tuổi, mức độ khiếm thính và nhu cầu cụ thể).
+		  </p>
+		   <p class="text-black text-base  leading-relaxed pl-4">
+			• Thời lượng: 1 buổi/tuần, mỗi buổi 45–60 phút.
+		  </p>
+		   <p class="text-black text-base  leading-relaxed pl-4">
+			• Đội ngũ chuyên môn: Chuyên viên trị liệu có chứng chỉ và kinh nghiệm làm việc với trẻ khiếm thính.
+		  </p>
+		   <p class="text-black text-base  leading-relaxed pl-4 mb-6">
+			• Mục tiêu: Giúp học viên tự tin hơn trong giao tiếp, tăng khả năng hòa nhập xã hội và chuẩn bị tốt cho học tập hoặc nghề nghiệp tương lai.
+		  </p>
+		    <p class="text-black text-base  leading-relaxed">
+			📍 Địa điểm: Tại văn phòng Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam
+		  </p>
+		   <p class="text-black text-base  leading-relaxed">
+			📞 Liên hệ tư vấn: 0936 253 215
+		  </p>
+	 	  `,
+    output: `
+			<p class="text-black text-base  leading-relaxed">
+				Phương pháp AVT hướng đến việc giúp trẻ khiếm thính phát triển kỹ năng ngôn ngữ nói và hiểu lời nói thông qua việc sử dụng khả năng nghe (ngay cả khi đã hỗ trợ bằng máy trợ thính hoặc cấy ốc tai điện tử). Đầu ra kỳ vọng bao gồm:
+			</p>
+			<p class="text-black text-base font-bold leading-relaxed">
+				1. Giao tiếp bằng lời nói
+			</p>
+			<p class="text-black text-base  leading-relaxed">
+				Trẻ có khả năng sử dụng lời nói để giao tiếp thay vì chỉ dựa vào ký hiệu hoặc hình ảnh.
+			</p>
+			<p class="text-black text-base  leading-relaxed">
+				Phát triển ngữ âm, từ vựng, cú pháp và ngữ nghĩa gần ngang bằng với trẻ nghe bình thường cùng độ tuổi.
+			</p>
+			<p class="text-black text-base font-bold leading-relaxed">
+				2. Phát triển kỹ năng nghe
+			</p>
+			<p class="text-black text-base  leading-relaxed">
+				Có khả năng nghe hiểu lời nói trong môi trường yên tĩnh và dần tiến tới môi trường có tiếng ồn.
+			</p>
+			<p class="text-black text-base  leading-relaxed">
+				Phân biệt âm thanh, từ đơn, câu nói và cảm xúc qua giọng nói.
+			</p>
+			<p class="text-black text-base font-bold leading-relaxed">
+				3. Phát triển ngôn ngữ tiếp thu (receptive) và ngôn ngữ diễn đạt (expressive)
+			</p>
+			<p class="text-black text-base  leading-relaxed">
+				Hiểu ngôn ngữ người khác nói (receptive language).
+			</p>
+			<p class="text-black text-base  leading-relaxed">
+				Biết cách diễn đạt suy nghĩ, cảm xúc và mong muốn của mình bằng lời nói (expressive language).
+			</p>
+			<p class="text-black text-base font-bold leading-relaxed">
+				4. Hòa nhập học đường và xã hội
+			</p>
+			<p class="text-black text-base  leading-relaxed">
+				Trẻ có thể học trong lớp học phổ thông mà không cần thông dịch viên ngôn ngữ ký hiệu.
+			</p>
+			<p class="text-black text-base  leading-relaxed">
+				Có khả năng tham gia vào các hoạt động cộng đồng, giao tiếp tự tin với bạn bè và người thân.
+			</p>
+			
+		`,
+    content: `
+			<p class="text-black text-base font-bold leading-relaxed">
+				1. Kích hoạt và phát triển kỹ năng nghe
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Nhận biết âm thanh môi trường
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Phân biệt âm thanh và giọng nói
+			</p>
+			<p class="text-black text-base mb-4 leading-relaxed pl-4">
+				• Phát hiện, nhận dạng, định vị nguồn âm thanh
+			</p>
+			<p class="text-black text-base font-bold leading-relaxed">
+				2. Phát triển kỹ năng nói cơ bản
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Học cách tạo âm, từ đơn, câu ngắn
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Thực hành phát âm đúng thông qua nghe phản hồi
+			</p>
+			<p class="text-black text-base mb-4 leading-relaxed pl-4">
+				• Điều chỉnh hơi thở, âm lượng và ngữ điệu khi nói
+			</p>
+			<p class="text-black text-base font-bold leading-relaxed">
+				3. Mở rộng vốn từ và ngữ pháp
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Học từ mới theo chủ đề: gia đình, trường học, đồ vật, hành động…
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Thực hành đặt câu đơn và câu phức
+			</p>
+			<p class="text-black text-base mb-4 leading-relaxed pl-4">
+				• Phát triển ngôn ngữ tự nhiên qua kể chuyện, miêu tả hình ảnh
+			</p>
+			<p class="text-black text-base font-bold leading-relaxed">
+				4. Giao tiếp thực tế
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Thực hành qua tình huống hàng ngày: đi chợ, ăn uống, chơi cùng bạn bè
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Dạy trẻ cách đặt câu hỏi, đưa ra ý kiến, giải quyết mâu thuẫn bằng lời nói
+			</p>
+			<p class="text-black text-base mb-4 leading-relaxed pl-4">
+				• Kết hợp ngôn ngữ cảm xúc (ví dụ: buồn, vui, tức giận…)
+			</p>
+			<p class="text-black text-base font-bold leading-relaxed">
+				5. Hướng dẫn phụ huynh
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Phụ huynh được đào tạo cách hỗ trợ trị liệu tại nhà
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+				• Ghi nhận và phản hồi tiến trình giao tiếp hàng ngày
+			</p>
+			<p class="text-black text-base mb-4 leading-relaxed pl-4">
+				• Thực hành cùng con thông qua chơi, đọc sách, đối thoại
+			</p>
+		`,
+    commnents: [
+      {
+        name: "Nguyễn Thị Hạnh",
+        avatar: "/image/comment1.png",
+        content: `"Sau 3 tháng tham gia lớp trị liệu 1:1, con tôi đã bắt đầu nói được những từ đơn giản như “mẹ”, “ăn”, “đi chơi” và hiểu nhiều hơn khi người lớn nói chuyện. Giáo viên rất kiên nhẫn và biết cách khuyến khích con học mà không áp lực. Tôi cảm thấy rất biết ơn vì con đang có cơ hội hòa nhập tốt hơn."`,
+      },
+      {
+        name: "Phạm Thu Trà",
+        avatar: "/image/comment1.png",
+        content: `"Tôi rất hài lòng với lớp trị liệu ngôn ngữ cá nhân. Con tôi ban đầu rất ít nói, nhưng sau một thời gian học đã bắt đầu sử dụng từ ngữ rõ ràng hơn và chủ động giao tiếp với người thân. Chuyên viên trị liệu rất tận tâm, kiên nhẫn và hướng dẫn kỹ cho cả gia đình cùng hỗ trợ."`,
+      },
+      {
+        name: "Trần Minh Thư",
+        avatar: "/image/comment1.png",
+        content: `"Tôi thấy chương trình trị liệu cá nhân rất bài bản, có lộ trình rõ ràng và phù hợp với từng học sinh. Học sinh của tôi tiến bộ rõ về khả năng nghe hiểu và diễn đạt. Tôi đặc biệt đánh giá cao sự phối hợp chặt chẽ giữa giáo viên, phụ huynh và chuyên viên trị liệu."`,
+      },
+    ],
+    scienceRegistration: `
+			<p class="text-black text-base leading-relaxed">
+				🔹 Cách đăng ký:
+			</p>	
+			<p class="text-black text-base leading-relaxed">
+				Vui lòng gửi Họ tên – Ngày sinh – Mối quan hệ với học viên (nếu đăng ký thay) – Tình trạng hiện tại – Mục tiêu tham gia – Số điện thoại liên hệ đến:
+			</p>
+			<p class="text-black text-base leading-relaxed">
+				📩 Email: hlcsvietnam@gmail.com
+			</p>
+			<p class="text-black text-base leading-relaxed">
+				📞 Điện thoại/Zalo: 0936 253 215
+			</p>
+			<p class="text-black text-base leading-relaxed">
+				📱 Facebook: Doanh Nghiệp Xã Hội vì Người Khiếm Thính Việt Nam
+			</p>
+	
+		`,
   },
 ];
 export const boTuVung = [

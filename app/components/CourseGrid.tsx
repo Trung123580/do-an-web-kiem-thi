@@ -15,15 +15,15 @@ interface CourseGridProps {
   courses: Course[];
 }
 
-export default function CourseGrid({ courses, path }: any) {
+export default function CourseGrid({ courses, path, title }: any) {
   const [searchTerm, setSearchTerm] = useState('');
   const [dataRender, setDataRender] = useState(courses)
   const defaultData = courses as any[]
 
   useEffect(() => {
     if (searchTerm !== '') {
-      setDataRender(defaultData.filter((item) => item.title.toLowerCase().includes(searchTerm.trim().toLowerCase()) ))
-    }else{
+      setDataRender(defaultData.filter((item) => item.title.toLowerCase().includes(searchTerm.trim().toLowerCase())))
+    } else {
       setDataRender(defaultData)
     }
   }, [searchTerm])
@@ -31,7 +31,7 @@ export default function CourseGrid({ courses, path }: any) {
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="flex flex-col md:flex-row md:items-center justify-between mb-8 gap-4">
-        <h1 className="text-2xl md:text-[48px] font-bold">Khóa học</h1>
+        <h1 className="text-2xl md:text-[48px] font-bold">{title}</h1>
         <div className="relative w-full md:w-[263px]">
           <input
             type="text"
@@ -49,7 +49,7 @@ export default function CourseGrid({ courses, path }: any) {
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {dataRender.map((course: any) => (
-          <Link href={`${path}/${course.slug}` || `${path}/${course.slug}` || `khoa-hoc/${course.slug}`} key={course.id} className="block group">
+          <Link href={`${path}/${course.slug}` || `${path}/${course.slug}` || `khoa-hoc/${course.slug}`} key={course.slug} className="block group">
             <div className="bg-white rounded-2xl shadow-sm group-hover:shadow-md transition-shadow duration-300 overflow-hidden">
               <div className="relative aspect-video w-full">
                 <Image
@@ -74,7 +74,7 @@ export default function CourseGrid({ courses, path }: any) {
                       className="object-contain"
                     />
                   </div>
-                  <span className="text-[#4B5563] text-sm">{course.organization[0].title}</span>
+                  <span className="text-[#4B5563] text-sm line-clamp-1">{course.organization[0].title}</span>
                 </div>
               </div>
             </div>
