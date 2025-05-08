@@ -1,5 +1,5 @@
 'use client'
-import { triLieuNgonNgu } from "@/utils/contanst";
+import { kynangmem } from "@/utils/contanst";
 import Image from "next/image";
 import { useParams } from "next/navigation"
 import { useState } from "react"
@@ -7,8 +7,8 @@ import Link from "next/link"
 
 export default function page() {
     const params = useParams()
-    const slug: any = params["slug-trilieu"]
-    const khoahocDetail: any = triLieuNgonNgu.find((khoahoc) => khoahoc.slug === slug[0]);
+    const slug: any = params["slug-kynangmem"]
+    const khoahocDetail: any = kynangmem.find((khoahoc) => khoahoc.slug === slug[0]);
     const [step, setStep] = useState(1)
     const [dataSubmit, setDataSubmit] = useState({
         fullName: "",
@@ -37,7 +37,7 @@ export default function page() {
                             Giáo dục
                         </Link>
                         <span className="mx-2 text-2xl text-black">&gt;</span>
-                        <Link href={'/giao-duc/tri-lieu-ngon-ngu'} className="text-[#A0A3A9] line-clamp-1">Trị liệu ngôn ngữ</Link>
+                        <Link href={'/giao-duc/ky-nang-mem'} className="text-[#A0A3A9] line-clamp-1">Kỹ năng mềm</Link>
                         <span className="mx-2 text-2xl text-black">&gt;</span>
                         <span className="text-[#3A63ED] line-clamp-1">{khoahocDetail?.title}</span>
                     </div>
