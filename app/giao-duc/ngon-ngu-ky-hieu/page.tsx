@@ -41,7 +41,7 @@ export default function page() {
     ],
   }
   return (
-    <div className="min-h-screen bg-white pt-16 md:pt-24 pb-8 max-w-7xl mx-auto">
+    <div className="min-h-screen bg-white pt-16 md:pt-24 pb-24 max-w-7xl mx-auto">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row mb-8 h-[500px] rounded-2xl overflow-hidden gap-4 md:gap-8 mt-6">
           <div className="flex justify-evenly bg-[#F2F2F3] flex-col h-[300px] md:h-full p-6 md:p-10 basis-full md:basis-1/3 rounded-2xl">
@@ -95,14 +95,14 @@ export default function page() {
                       <Image src={course.img} alt={course.title} fill className='object-cover' />
                     </div>
                     <div className='px-4 md:px-6 pt-4 md:pt-6 pb-4'>
-                      <h3 className='font-semibold text-lg md:text-xl mb-2 line-clamp-2'>{course.title}</h3>
-                      <p className='text-gray-600 text-sm mb-4 line-clamp-1'>Ngày kết thúc: {course.date}</p>
+                      <h3 className='font-semibold text-lg md:text-xl mb-2 line-clamp-1'>{course.title}</h3>
+                      <p className='text-gray-600 text-sm mb-8 line-clamp-1'>Ngày kết thúc: {course.date}</p>
                       <div className='flex justify-between items-center'>
                         <div className='flex items-center gap-3 w-full'>
                           <Image src={course.organization[0].img} alt='DNXH Logo' width={32} height={32} className='rounded-full w-8 h-8 md:w-10 md:h-10' />
                           <div>
-                            <div className='text-xs text-gray-500'>Đơn vị tổ chức</div>
-                            <div className='font-medium text-sm md:text-base'>{course.organization[0].title}</div>
+                            <div className='text-xs text-gray-500  mb-1'>Đơn vị tổ chức</div>
+                            <div className='font-medium text-sm md:text-base line-clamp-1'>{course.organization[0].title}</div>
                           </div>
                         </div>
                       </div>
@@ -116,7 +116,7 @@ export default function page() {
                 Xem thêm &rarr;
               </Link>
             </div> */}
-            <div className='flex justify-end mt-6'>
+            <div className='flex justify-end mt-4'>
               <Link href={`/giao-duc/ngon-ngu-ky-hieu/khoa-hoc`} className='flex items-center px-7 py-2 text-sm border-2 border-[#CFD1D4] text-[#414652] rounded-lg hover:bg-gray-100 transition'>
                 Xem thêm
                 <img src='/icon/arrow.png' alt='' />
@@ -133,14 +133,14 @@ export default function page() {
                       <Image src={course.img} alt={course.title} fill className='object-cover' />
                     </div>
                     <div className='px-4 md:px-6 pt-4 md:pt-6 pb-4'>
-                      <h3 className='font-semibold text-lg md:text-xl mb-2 line-clamp-2'>{course.title}</h3>
-                      <p className='text-gray-600 text-sm mb-4 line-clamp-1'>Ngày kết thúc: 14.05</p>
+                      <h3 className='font-semibold text-lg md:text-xl mb-2 line-clamp-1'>{course.title}</h3>
+                      <p className='text-gray-600 text-sm mb-8 line-clamp-1'>{course.day}</p>
                       <div className='flex justify-between items-center'>
                         <div className='flex items-center gap-3 w-full'>
                           <Image src={"/image/Ellipse-7.png"} alt='DNXH Logo' width={32} height={32} className='rounded-full w-8 h-8 md:w-10 md:h-10' />
                           <div>
-                            <div className='text-xs text-gray-500'>Đơn vị tổ chức</div>
-                            <div className='font-medium text-sm md:text-base'>Foundation For Future</div>
+                            <div className='text-xs text-gray-500 mb-1'>Đơn vị tổ chức</div>
+                            <div className='font-medium text-sm md:text-base line-clamp-1'>Foundation For Future</div>
                           </div>
                         </div>
                       </div>
@@ -151,7 +151,7 @@ export default function page() {
             </div>
           </div>
         </div>
-        <div className='flex justify-end mt-6'>
+        <div className='flex justify-end mt-4'>
           <Link href={`/giao-duc/ngon-ngu-ky-hieu/khoa-hoc-ngoai-tuyen`} className='flex items-center px-7 py-2 text-sm border-2 border-[#CFD1D4] text-[#414652] rounded-lg hover:bg-gray-100 transition'>
             Xem thêm
             <img src='/icon/arrow.png' alt='' />

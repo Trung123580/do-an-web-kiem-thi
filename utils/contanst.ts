@@ -4682,7 +4682,7 @@ export const khoaHoc = [
 			👉 Số lượng có hạn – Ưu tiên người đăng ký sớm!
 		</p>
 		<p class="text-black text-sm leading-relaxed pl-4">
-			Hạn chót đăng ký: (bạn có thể điền ngày cụ thể nếu có)
+			Hạn chót đăng ký: 26/05/2025
 		</p>
 	`,
   },
@@ -4797,7 +4797,7 @@ export const khoaHoc = [
 			👉 Số lượng có hạn – Ưu tiên người đăng ký sớm!
 		</p>
 		<p class="text-black text-sm leading-relaxed pl-4">
-			Hạn chót đăng ký: (bạn có thể điền ngày cụ thể nếu có)
+			Hạn chót đăng ký: 26/05/2025
 		</p>
 	`,
   },
@@ -4912,7 +4912,7 @@ export const khoaHoc = [
 			👉 Số lượng có hạn – Ưu tiên người đăng ký sớm!
 		</p>
 		<p class="text-black text-sm leading-relaxed pl-4">
-			Hạn chót đăng ký: (bạn có thể điền ngày cụ thể nếu có)
+			Hạn chót đăng ký: 26/05/2025
 		</p>
 	`,
   },
@@ -5027,7 +5027,7 @@ export const khoaHoc = [
 			👉 Số lượng có hạn – Ưu tiên người đăng ký sớm!
 		</p>
 		<p class="text-black text-sm leading-relaxed pl-4">
-			Hạn chót đăng ký: (bạn có thể điền ngày cụ thể nếu có)
+			Hạn chót đăng ký: 26/05/2025
 		</p>
 	`,
   },
