@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { dataSukien, dataVolunteer } from "@/utils/contanst";
 import Slider from "react-slick";
+import { FaArrowRight } from "react-icons/fa";
 
 export default function EducationPage() {
   const volunteerCarouselSettings = {
@@ -87,7 +88,7 @@ export default function EducationPage() {
             </div>
             <div className="text-end mt-6">
               <Link href="/" className="inline-flex items-center text-sm font-medium hover:text-gray-900 px-7 py-2 rounded-sm border bg-[#FFFFFF] border-[#CFD1D4] text-[#414652]">
-                Xem thêm &rarr;
+                Xem thêm <img src="/icon/arrow.png" alt="" />
               </Link>
             </div>
           </div>
@@ -119,7 +120,7 @@ export default function EducationPage() {
             </div>
             <div className="text-end mt-6">
               <Link href="/" className="inline-flex items-center text-sm font-medium hover:text-gray-900 px-7 py-2 rounded-sm border bg-[#FFFFFF] border-[#CFD1D4] text-[#414652]">
-                Xem thêm &rarr;
+                Xem thêm <img src="/icon/arrow.png" alt="" />
               </Link>
             </div>
           </div>
@@ -177,7 +178,7 @@ export default function EducationPage() {
         `}</style>
         <div className="text-end mt-6">
           <Link href="/" className="inline-flex items-center text-sm font-medium hover:text-gray-900 px-7 py-2 rounded-sm border bg-[#FFFFFF] border-[#CFD1D4] text-[#414652]">
-            Xem thêm &rarr;
+            Xem thêm <img src="/icon/arrow.png" alt="" />
           </Link>
         </div>
       </div>

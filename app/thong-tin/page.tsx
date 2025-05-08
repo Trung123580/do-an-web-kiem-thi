@@ -6,6 +6,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { dataNews, stories } from "@/utils/contanst";
+import { FaArrowRight } from "react-icons/fa";
 
 export default function Page() {
   const carouselSettings = {
@@ -69,7 +70,7 @@ export default function Page() {
           </div>
           <div className="text-end mt-6">
             <Link href="/thong-tin/tin-tuc" className="inline-flex items-center text-sm font-medium hover:text-gray-900 px-7 py-2 rounded-sm border bg-[#FFFFFF] border-[#CFD1D4] text-[#414652]">
-              Xem thêm &rarr;
+              Xem thêm <img src="/icon/arrow.png" alt="" />
             </Link>
           </div>
         </section>
@@ -118,7 +119,7 @@ export default function Page() {
           </div>
           <div className="text-end mt-6">
             <Link href="/thong-tin/cau-chuyen" className="inline-flex items-center text-sm font-medium hover:text-gray-900 px-7 py-2 rounded-sm border bg-[#FFFFFF] border-[#CFD1D4] text-[#414652]">
-              Xem thêm &rarr;
+              Xem thêm <img src="/icon/arrow.png" alt="" />
             </Link>
           </div>
         </section>
