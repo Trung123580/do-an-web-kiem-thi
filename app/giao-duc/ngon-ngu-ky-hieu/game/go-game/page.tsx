@@ -38,7 +38,7 @@ const page = () => {
                         <img src="/image/game-done.png" alt="" />
                         <ul className="flex justify-center flex-col w-full space-y-6 text-gray-600 text-base mt-11 mb-11">
                             <li className="flex text-lg font-bold text-[#3A63ED] items-center justify-center gap-2 group">
-                                <Link href={""} className="group-hover:-translate-x-1 transition-all duration-1000">
+                                <Link href={"/giao-duc/ngon-ngu-ky-hieu"} className="group-hover:-translate-x-1 transition-all duration-1000">
                                     Tham gia học ngôn ngữ ký hiệu để biết thêm nhiều từ vựng mới
                                 </Link>
                                 <img className="group-hover:translate-x-1 transition-all duration-1000" src="/image/arrow2.png" alt="" />
