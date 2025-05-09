@@ -24,7 +24,7 @@ export default function page() {
       </nav>
 
       {/* Course grid */}
-      <CourseGrid courses={triLieuNgonNgu} path="tri-lieu-ngon-ngu" title="Trị liệu ngôn ngữ" />
+      <CourseGrid courses={triLieuNgonNgu} status={'Trị liệu cá nhân'} path="tri-lieu-ngon-ngu" title="Trị liệu ngôn ngữ" />
     </section>
   );
 }
