@@ -7,7 +7,7 @@ const page = () => {
     
   return (
     <>
-      <div className='pb-[96px]'>
+      <div className='pb-[96px] min-h-screen pt-16 max-w-7xl mx-auto'>
         <div className='relative h-[400px]'>
           <img src='/image/lien-he.jpg' className='h-full w-full object-top object-cover' alt='' />
           <h3 className='absolute bottom-[30px] left-[80px] text-5xl font-bold text-white'>Liên hệ với chúng tôi</h3>
@@ -34,7 +34,7 @@ const page = () => {
         <div className='bg-[#4263EB] mx-auto px-4 py-16 text-center w-[80%] rounded-2xl'>
           <h2 className='text-3xl font-bold text-white mb-4'>Trở thành một phần của chúng tôi</h2>
           <p className='text-white/90 max-w-2xl mx-auto mb-8'>Góp phần hỗ trợ người khiếm thính bằng cách trở thành nhà tuyển dụng, đối tác tổ chức sự kiện và nhiều hình thức hợp tác khác.</p>
-          <button onClick={()=> setIsOpen} className='bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-900 transition-colors'>Tham gia cùng chúng tôi</button>
+          <button onClick={()=> setIsOpen(true)} className='bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-900 transition-colors'>Tham gia cùng chúng tôi</button>
         </div>
       </div>
       <ModalPartner isOpen={isOpen} closeModal={() => setIsOpen(false)} />
