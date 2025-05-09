@@ -27,7 +27,7 @@ export default function page() {
   }
   return (
     <>
-     <nav className="bg-white py-10 max-w-7xl mx-auto relative mt-20 ">
+      <nav className="bg-white py-10 max-w-7xl mx-auto relative mt-20 ">
         <div className="mx-auto px-4">
           <div className="flex items-center ">
             <Link
@@ -74,7 +74,7 @@ export default function page() {
               </div>
               <div className="flex justify-center gap-1 flex-col px-5 border-r border-[#CFD1D4]">
                 <span className="text-sm text-[#70747D]">Hình thức</span>
-                <span className="text-2xl">{khoahocDetail?.form}</span>
+                <span className="text-2xl text-nowrap">{khoahocDetail?.form}</span>
               </div>
               <div className="flex justify-center gap-1 flex-col px-5">
                 <span className="text-sm text-[#70747D]">Chi phí khóa học</span>
@@ -84,7 +84,7 @@ export default function page() {
           </div>
         </div>
       </div>
-      <div className="min-h-screen pb-16 py-16 pt-32 max-w-7xl mx-auto px-4">
+      <div className="min-h-screen pb-[96px] py-16 pt-32 max-w-7xl mx-auto px-4">
         <div className="container mx-auto">
           <h2 className="text-[32px] font-bold text-[#2E4FBE] mb-2">Giới thiệu khóa học</h2>
           <div className="text-base" dangerouslySetInnerHTML={{ __html: khoahocDetail?.courseIntroduction ?? "" }} />
@@ -95,7 +95,7 @@ export default function page() {
           <h2 className="text-[32px] font-bold text-[#2E4FBE] mb-2 mt-10">Phản hồi về khóa học</h2>
           <div className="flex gap-3.5">
             {khoahocDetail?.commnents.map((item: any, index: number) => (
-              <div key={index} className="flex flex-col p-6 items-start gap-3 mb-5  border-2 border-[#CFD1D4] rounded-lg">
+              <div key={index} className="flex flex-col p-6 items-start gap-3 border-2 border-[#CFD1D4] rounded-lg">
                 <div className="flex">
                   <Image src={item.avatar} alt="DNXH Logo" width={48} height={48} className="rounded-full" />
                   <div className="flex flex-col justify-center ml-3">
@@ -107,7 +107,7 @@ export default function page() {
               </div>
             ))}
           </div>
-          <div className="flex flex-col mt-18 gap-3.5 bg-[#F2F2F3] py-12 px-[72px] rounded-lg">
+          <div className="flex flex-col mt-24 gap-3.5 bg-[#F2F2F3] py-12 px-[72px] rounded-lg">
             <h2 className="text-[32px] font-bold text-[#2E4FBE] mb-2">Đăng ký khóa học</h2>
             <div className="text-base" dangerouslySetInnerHTML={{ __html: khoahocDetail?.scienceRegistration ?? "" }} />
           </div>
