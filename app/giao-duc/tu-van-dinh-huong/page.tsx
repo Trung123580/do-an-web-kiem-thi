@@ -1,8 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import CourseGrid from "@/app/components/CourseGrid";
-import { kynangmem } from "@/utils/contanst";
 
 const data = [
   {
