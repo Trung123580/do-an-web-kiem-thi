@@ -55,13 +55,13 @@ export default function DonateSection() {
           {/* Footer Links */}
           <div className='flex flex-col md:flex-row justify-between items-center mt-8 pt-6 border-t border-white/20'>
             <div className='flex flex-wrap *:hover:underline justify-center md:justify-start gap-4 md:gap-6 mb-4 md:mb-0 text-sm'>
-              <a href='#' className='text-white/90 hover:text-white transition-colors'>
+              <a href='/lien-he' className='text-white/90 hover:text-white transition-colors'>
                 Liên hệ với chúng tôi
               </a>
-              <a href='#' className='text-white/80 hover:text-white transition-colors'>
+              <a href='/rieng-tu' className='text-white/80 hover:text-white transition-colors'>
                 Quyền riêng tư và Cookie
               </a>
-              <a href='#' className='text-white/80 hover:text-white transition-colors'>
+              <a href='/chinh-sach' className='text-white/80 hover:text-white transition-colors'>
                 Chính sách cộng đồng
               </a>
             </div>

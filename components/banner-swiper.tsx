@@ -89,7 +89,7 @@ export default function BannerSwiper() {
       <div className="h-full relative">
         {slides.map((slide, index) => (
           <div
-            key={slide.id}
+            key={index + '12390x2'}
             className={`absolute inset-0 transition-opacity duration-1000 ${
               index === currentSlide ? "opacity-100 z-10" : "opacity-0 z-0"
             }`}
@@ -132,7 +132,7 @@ export default function BannerSwiper() {
       <div className="absolute bottom-4 md:bottom-6 left-1/2 -translate-x-1/2 z-20 flex space-x-2">
         {slides.map((_, index) => (
           <button
-            key={index}
+            key={index + '12312'}
             onClick={() => goToSlide(index)}
             className={`w-2 h-2 md:w-3 md:h-3 rounded-full transition-all ${
               index === currentSlide ? "bg-white scale-125" : "bg-white bg-opacity-50"
