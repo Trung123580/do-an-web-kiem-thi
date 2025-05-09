@@ -7562,3 +7562,1638 @@ export const game = [
     ],
   },
 ];
+export const kynangmem = [
+	{
+	  img: "/image/ky-nang-mem/kynang1.png",
+	  title: "Kỹ Năng Giao Tiếp Ứng Xử Trong Cuộc Sống",
+	  description: "Giúp học viên học cách lắng nghe, bày tỏ cảm xúc, xử lý mâu thuẫn và giao tiếp hiệu quả trong đời sống hàng ngày.",
+	  day: "12 bài giảng",
+	  free: false,
+	  price: "100.000 VND",
+	  time: "90 phút",
+	  form: "6 buổi",
+	  objectives: "Mọi độ tuổi",
+	  teacher: "Ths. Đỗ Thị Hảo",
+	  slug: "ky-nang-giao-tiep-ung-xu-trong-cuoc-song",
+	  organization: [
+		{
+		  img: "/image/Ellipse-6.png",
+		  title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+		},
+	  ],
+	  courseIntroduction: `
+			<p class="text-black text-base leading-relaxed">
+			  Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam tổ chức các buổi trị liệu ngôn ngữ 1:1 dành cho trẻ em và thanh thiếu niên khiếm thính nhằm phát triển khả năng giao tiếp, phát âm, sử dụng ngôn ngữ ký hiệu và hiểu ngôn ngữ nói.
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+			  • Đối tượng: Trẻ em, thanh thiếu niên khiếm thính hoặc gặp khó khăn về giao tiếp/ngôn ngữ.
+			</p>
+			 <p class="text-black text-base  leading-relaxed pl-4">
+			  • Hình thức: Gặp trực tiếp với chuyên viên trị liệu ngôn ngữ tại trung tâm.
+			</p>
+			 <p class="text-black text-base  leading-relaxed pl-4">
+			  • Nội dung cá nhân hóa: Xây dựng chương trình phù hợp với từng học viên (theo độ tuổi, mức độ khiếm thính và nhu cầu cụ thể).
+			</p>
+			 <p class="text-black text-base  leading-relaxed pl-4">
+			  • Thời lượng: 1 buổi/tuần, mỗi buổi 45–60 phút.
+			</p>
+			 <p class="text-black text-base  leading-relaxed pl-4">
+			  • Đội ngũ chuyên môn: Chuyên viên trị liệu có chứng chỉ và kinh nghiệm làm việc với trẻ khiếm thính.
+			</p>
+			 <p class="text-black text-base  leading-relaxed pl-4 mb-6">
+			  • Mục tiêu: Giúp học viên tự tin hơn trong giao tiếp, tăng khả năng hòa nhập xã hội và chuẩn bị tốt cho học tập hoặc nghề nghiệp tương lai.
+			</p>
+			  <p class="text-black text-base  leading-relaxed">
+			  📍 Địa điểm: Tại văn phòng Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam
+			</p>
+			 <p class="text-black text-base  leading-relaxed">
+			  📞 Liên hệ tư vấn: 0936 253 215
+			</p>
+			 `,
+	  output: `
+			  <p class="text-black text-base  leading-relaxed">
+				  Phương pháp AVT hướng đến việc giúp trẻ khiếm thính phát triển kỹ năng ngôn ngữ nói và hiểu lời nói thông qua việc sử dụng khả năng nghe (ngay cả khi đã hỗ trợ bằng máy trợ thính hoặc cấy ốc tai điện tử). Đầu ra kỳ vọng bao gồm:
+			  </p>
+			  <p class="text-black text-base font-bold leading-relaxed">
+				  1. Giao tiếp bằng lời nói
+			  </p>
+			  <p class="text-black text-base  leading-relaxed">
+				  Trẻ có khả năng sử dụng lời nói để giao tiếp thay vì chỉ dựa vào ký hiệu hoặc hình ảnh.
+			  </p>
+			  <p class="text-black text-base  leading-relaxed">
+				  Phát triển ngữ âm, từ vựng, cú pháp và ngữ nghĩa gần ngang bằng với trẻ nghe bình thường cùng độ tuổi.
+			  </p>
+			  <p class="text-black text-base font-bold leading-relaxed">
+				  2. Phát triển kỹ năng nghe
+			  </p>
+			  <p class="text-black text-base  leading-relaxed">
+				  Có khả năng nghe hiểu lời nói trong môi trường yên tĩnh và dần tiến tới môi trường có tiếng ồn.
+			  </p>
+			  <p class="text-black text-base  leading-relaxed">
+				  Phân biệt âm thanh, từ đơn, câu nói và cảm xúc qua giọng nói.
+			  </p>
+			  <p class="text-black text-base font-bold leading-relaxed">
+				  3. Phát triển ngôn ngữ tiếp thu (receptive) và ngôn ngữ diễn đạt (expressive)
+			  </p>
+			  <p class="text-black text-base  leading-relaxed">
+				  Hiểu ngôn ngữ người khác nói (receptive language).
+			  </p>
+			  <p class="text-black text-base  leading-relaxed">
+				  Biết cách diễn đạt suy nghĩ, cảm xúc và mong muốn của mình bằng lời nói (expressive language).
+			  </p>
+			  <p class="text-black text-base font-bold leading-relaxed">
+				  4. Hòa nhập học đường và xã hội
+			  </p>
+			  <p class="text-black text-base  leading-relaxed">
+				  Trẻ có thể học trong lớp học phổ thông mà không cần thông dịch viên ngôn ngữ ký hiệu.
+			  </p>
+			  <p class="text-black text-base  leading-relaxed">
+				  Có khả năng tham gia vào các hoạt động cộng đồng, giao tiếp tự tin với bạn bè và người thân.
+			  </p>
+			  
+		  `,
+	  content: `
+			  <p class="text-black text-base font-bold leading-relaxed">
+				  1. Kích hoạt và phát triển kỹ năng nghe
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Nhận biết âm thanh môi trường
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Phân biệt âm thanh và giọng nói
+			  </p>
+			  <p class="text-black text-base mb-4 leading-relaxed pl-4">
+				  • Phát hiện, nhận dạng, định vị nguồn âm thanh
+			  </p>
+			  <p class="text-black text-base font-bold leading-relaxed">
+				  2. Phát triển kỹ năng nói cơ bản
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Học cách tạo âm, từ đơn, câu ngắn
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Thực hành phát âm đúng thông qua nghe phản hồi
+			  </p>
+			  <p class="text-black text-base mb-4 leading-relaxed pl-4">
+				  • Điều chỉnh hơi thở, âm lượng và ngữ điệu khi nói
+			  </p>
+			  <p class="text-black text-base font-bold leading-relaxed">
+				  3. Mở rộng vốn từ và ngữ pháp
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Học từ mới theo chủ đề: gia đình, trường học, đồ vật, hành động…
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Thực hành đặt câu đơn và câu phức
+			  </p>
+			  <p class="text-black text-base mb-4 leading-relaxed pl-4">
+				  • Phát triển ngôn ngữ tự nhiên qua kể chuyện, miêu tả hình ảnh
+			  </p>
+			  <p class="text-black text-base font-bold leading-relaxed">
+				  4. Giao tiếp thực tế
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Thực hành qua tình huống hàng ngày: đi chợ, ăn uống, chơi cùng bạn bè
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Dạy trẻ cách đặt câu hỏi, đưa ra ý kiến, giải quyết mâu thuẫn bằng lời nói
+			  </p>
+			  <p class="text-black text-base mb-4 leading-relaxed pl-4">
+				  • Kết hợp ngôn ngữ cảm xúc (ví dụ: buồn, vui, tức giận…)
+			  </p>
+			  <p class="text-black text-base font-bold leading-relaxed">
+				  5. Hướng dẫn phụ huynh
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Phụ huynh được đào tạo cách hỗ trợ trị liệu tại nhà
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Ghi nhận và phản hồi tiến trình giao tiếp hàng ngày
+			  </p>
+			  <p class="text-black text-base mb-4 leading-relaxed pl-4">
+				  • Thực hành cùng con thông qua chơi, đọc sách, đối thoại
+			  </p>
+		  `,
+	  commnents: [
+		{
+		  name: "Lê Văn Trường",
+		  avatar: "/image/comment1.png",
+		  content: `"Tôi biết cách nói lời xin lỗi và cảm ơn đúng lúc. Trước kia tôi hay im lặng khi có vấn đề."`,
+		},
+		{
+		  name: "Nguyễn Hoài An",
+		  avatar: "/image/comment1.png",
+		  content: `"Cô giáo dạy bằng ký hiệu rõ ràng, dễ hiểu. Em rất thích giờ đóng vai."`,
+		},
+		{
+		  name: "Trần Minh Hòa",
+		  avatar: "/image/comment1.png",
+		  content: `"Giờ tôi nói chuyện với đồng nghiệp không còn ngại ngùng nữa."`,
+		},
+	  ],
+	  scienceRegistration: `
+			  <p class="text-black text-base leading-relaxed">
+				  🔹 Cách đăng ký:
+			  </p>	
+			  <p class="text-black text-base leading-relaxed">
+				  Vui lòng gửi Họ tên – Ngày sinh – Mối quan hệ với học viên (nếu đăng ký thay) – Tình trạng hiện tại – Mục tiêu tham gia – Số điện thoại liên hệ đến:
+			  </p>
+			  <p class="text-black text-base leading-relaxed">
+				  📩 Email: hlcsvietnam@gmail.com
+			  </p>
+			  <p class="text-black text-base leading-relaxed">
+				  📞 Điện thoại/Zalo: 0936 253 215
+			  </p>
+			  <p class="text-black text-base leading-relaxed">
+				  📱 Facebook: Doanh Nghiệp Xã Hội vì Người Khiếm Thính Việt Nam
+			  </p>
+	  
+		  `,
+	},
+	{
+	  img: "/image/ky-nang-mem/kynang2.png",
+	  title: "Kỹ Năng Làm Việc Nhóm",
+	  description: "Giúp học viên học cách lắng nghe, bày tỏ cảm xúc, xử lý mâu thuẫn và giao tiếp hiệu quả trong đời sống hàng ngày.",
+	  day: "12 bài giảng",
+	  free: false,
+	  price: "100.000 VND",
+	  time: "90 phút",
+	  form: "6 buổi",
+	  objectives: "Mọi độ tuổi",
+	  teacher: "Ths. Đỗ Thị Hảo",
+	  slug: "ky-nang-lam-viec-nhom",
+	  organization: [
+		{
+		  img: "/image/Ellipse-6.png",
+		  title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+		},
+	  ],
+	  courseIntroduction: `
+			<p class="text-black text-base leading-relaxed">
+			  Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam tổ chức các buổi trị liệu ngôn ngữ 1:1 dành cho trẻ em và thanh thiếu niên khiếm thính nhằm phát triển khả năng giao tiếp, phát âm, sử dụng ngôn ngữ ký hiệu và hiểu ngôn ngữ nói.
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+			  • Đối tượng: Trẻ em, thanh thiếu niên khiếm thính hoặc gặp khó khăn về giao tiếp/ngôn ngữ.
+			</p>
+			 <p class="text-black text-base  leading-relaxed pl-4">
+			  • Hình thức: Gặp trực tiếp với chuyên viên trị liệu ngôn ngữ tại trung tâm.
+			</p>
+			 <p class="text-black text-base  leading-relaxed pl-4">
+			  • Nội dung cá nhân hóa: Xây dựng chương trình phù hợp với từng học viên (theo độ tuổi, mức độ khiếm thính và nhu cầu cụ thể).
+			</p>
+			 <p class="text-black text-base  leading-relaxed pl-4">
+			  • Thời lượng: 1 buổi/tuần, mỗi buổi 45–60 phút.
+			</p>
+			 <p class="text-black text-base  leading-relaxed pl-4">
+			  • Đội ngũ chuyên môn: Chuyên viên trị liệu có chứng chỉ và kinh nghiệm làm việc với trẻ khiếm thính.
+			</p>
+			 <p class="text-black text-base  leading-relaxed pl-4 mb-6">
+			  • Mục tiêu: Giúp học viên tự tin hơn trong giao tiếp, tăng khả năng hòa nhập xã hội và chuẩn bị tốt cho học tập hoặc nghề nghiệp tương lai.
+			</p>
+			  <p class="text-black text-base  leading-relaxed">
+			  📍 Địa điểm: Tại văn phòng Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam
+			</p>
+			 <p class="text-black text-base  leading-relaxed">
+			  📞 Liên hệ tư vấn: 0936 253 215
+			</p>
+			 `,
+	  output: `
+			  <p class="text-black text-base  leading-relaxed">
+				  Phương pháp AVT hướng đến việc giúp trẻ khiếm thính phát triển kỹ năng ngôn ngữ nói và hiểu lời nói thông qua việc sử dụng khả năng nghe (ngay cả khi đã hỗ trợ bằng máy trợ thính hoặc cấy ốc tai điện tử). Đầu ra kỳ vọng bao gồm:
+			  </p>
+			  <p class="text-black text-base font-bold leading-relaxed">
+				  1. Giao tiếp bằng lời nói
+			  </p>
+			  <p class="text-black text-base  leading-relaxed">
+				  Trẻ có khả năng sử dụng lời nói để giao tiếp thay vì chỉ dựa vào ký hiệu hoặc hình ảnh.
+			  </p>
+			  <p class="text-black text-base  leading-relaxed">
+				  Phát triển ngữ âm, từ vựng, cú pháp và ngữ nghĩa gần ngang bằng với trẻ nghe bình thường cùng độ tuổi.
+			  </p>
+			  <p class="text-black text-base font-bold leading-relaxed">
+				  2. Phát triển kỹ năng nghe
+			  </p>
+			  <p class="text-black text-base  leading-relaxed">
+				  Có khả năng nghe hiểu lời nói trong môi trường yên tĩnh và dần tiến tới môi trường có tiếng ồn.
+			  </p>
+			  <p class="text-black text-base  leading-relaxed">
+				  Phân biệt âm thanh, từ đơn, câu nói và cảm xúc qua giọng nói.
+			  </p>
+			  <p class="text-black text-base font-bold leading-relaxed">
+				  3. Phát triển ngôn ngữ tiếp thu (receptive) và ngôn ngữ diễn đạt (expressive)
+			  </p>
+			  <p class="text-black text-base  leading-relaxed">
+				  Hiểu ngôn ngữ người khác nói (receptive language).
+			  </p>
+			  <p class="text-black text-base  leading-relaxed">
+				  Biết cách diễn đạt suy nghĩ, cảm xúc và mong muốn của mình bằng lời nói (expressive language).
+			  </p>
+			  <p class="text-black text-base font-bold leading-relaxed">
+				  4. Hòa nhập học đường và xã hội
+			  </p>
+			  <p class="text-black text-base  leading-relaxed">
+				  Trẻ có thể học trong lớp học phổ thông mà không cần thông dịch viên ngôn ngữ ký hiệu.
+			  </p>
+			  <p class="text-black text-base  leading-relaxed">
+				  Có khả năng tham gia vào các hoạt động cộng đồng, giao tiếp tự tin với bạn bè và người thân.
+			  </p>
+			  
+		  `,
+	  content: `
+			  <p class="text-black text-base font-bold leading-relaxed">
+				  1. Kích hoạt và phát triển kỹ năng nghe
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Nhận biết âm thanh môi trường
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Phân biệt âm thanh và giọng nói
+			  </p>
+			  <p class="text-black text-base mb-4 leading-relaxed pl-4">
+				  • Phát hiện, nhận dạng, định vị nguồn âm thanh
+			  </p>
+			  <p class="text-black text-base font-bold leading-relaxed">
+				  2. Phát triển kỹ năng nói cơ bản
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Học cách tạo âm, từ đơn, câu ngắn
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Thực hành phát âm đúng thông qua nghe phản hồi
+			  </p>
+			  <p class="text-black text-base mb-4 leading-relaxed pl-4">
+				  • Điều chỉnh hơi thở, âm lượng và ngữ điệu khi nói
+			  </p>
+			  <p class="text-black text-base font-bold leading-relaxed">
+				  3. Mở rộng vốn từ và ngữ pháp
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Học từ mới theo chủ đề: gia đình, trường học, đồ vật, hành động…
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Thực hành đặt câu đơn và câu phức
+			  </p>
+			  <p class="text-black text-base mb-4 leading-relaxed pl-4">
+				  • Phát triển ngôn ngữ tự nhiên qua kể chuyện, miêu tả hình ảnh
+			  </p>
+			  <p class="text-black text-base font-bold leading-relaxed">
+				  4. Giao tiếp thực tế
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Thực hành qua tình huống hàng ngày: đi chợ, ăn uống, chơi cùng bạn bè
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Dạy trẻ cách đặt câu hỏi, đưa ra ý kiến, giải quyết mâu thuẫn bằng lời nói
+			  </p>
+			  <p class="text-black text-base mb-4 leading-relaxed pl-4">
+				  • Kết hợp ngôn ngữ cảm xúc (ví dụ: buồn, vui, tức giận…)
+			  </p>
+			  <p class="text-black text-base font-bold leading-relaxed">
+				  5. Hướng dẫn phụ huynh
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Phụ huynh được đào tạo cách hỗ trợ trị liệu tại nhà
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Ghi nhận và phản hồi tiến trình giao tiếp hàng ngày
+			  </p>
+			  <p class="text-black text-base mb-4 leading-relaxed pl-4">
+				  • Thực hành cùng con thông qua chơi, đọc sách, đối thoại
+			  </p>
+		  `,
+	  commnents: [
+		{
+		  name: "Lê Văn Trường",
+		  avatar: "/image/comment1.png",
+		  content: `"Tôi biết cách nói lời xin lỗi và cảm ơn đúng lúc. Trước kia tôi hay im lặng khi có vấn đề."`,
+		},
+		{
+		  name: "Nguyễn Hoài An",
+		  avatar: "/image/comment1.png",
+		  content: `"Cô giáo dạy bằng ký hiệu rõ ràng, dễ hiểu. Em rất thích giờ đóng vai."`,
+		},
+		{
+		  name: "Trần Minh Hòa",
+		  avatar: "/image/comment1.png",
+		  content: `"Giờ tôi nói chuyện với đồng nghiệp không còn ngại ngùng nữa."`,
+		},
+	  ],
+	  scienceRegistration: `
+			  <p class="text-black text-base leading-relaxed">
+				  🔹 Cách đăng ký:
+			  </p>	
+			  <p class="text-black text-base leading-relaxed">
+				  Vui lòng gửi Họ tên – Ngày sinh – Mối quan hệ với học viên (nếu đăng ký thay) – Tình trạng hiện tại – Mục tiêu tham gia – Số điện thoại liên hệ đến:
+			  </p>
+			  <p class="text-black text-base leading-relaxed">
+				  📩 Email: hlcsvietnam@gmail.com
+			  </p>
+			  <p class="text-black text-base leading-relaxed">
+				  📞 Điện thoại/Zalo: 0936 253 215
+			  </p>
+			  <p class="text-black text-base leading-relaxed">
+				  📱 Facebook: Doanh Nghiệp Xã Hội vì Người Khiếm Thính Việt Nam
+			  </p>
+	  
+		  `,
+	},
+	{
+	  img: "/image/ky-nang-mem/kynang3.png",
+	  title: "Kỹ Năng Quản Lý Cảm Xúc Và Căng Thẳng",
+	  description: "Giúp học viên học cách lắng nghe, bày tỏ cảm xúc, xử lý mâu thuẫn và giao tiếp hiệu quả trong đời sống hàng ngày.",
+	  day: "12 bài giảng",
+	  free: false,
+	  price: "100.000 VND",
+	  time: "90 phút",
+	  form: "6 buổi",
+	  objectives: "Mọi độ tuổi",
+	  teacher: "Ths. Đỗ Thị Hảo",
+	  slug: "ky-nang-quan-ly-cam-xuc-va-cang-thang",
+	  organization: [
+		{
+		  img: "/image/Ellipse-6.png",
+		  title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+		},
+	  ],
+	  courseIntroduction: `
+			<p class="text-black text-base leading-relaxed">
+			  Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam tổ chức các buổi trị liệu ngôn ngữ 1:1 dành cho trẻ em và thanh thiếu niên khiếm thính nhằm phát triển khả năng giao tiếp, phát âm, sử dụng ngôn ngữ ký hiệu và hiểu ngôn ngữ nói.
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+			  • Đối tượng: Trẻ em, thanh thiếu niên khiếm thính hoặc gặp khó khăn về giao tiếp/ngôn ngữ.
+			</p>
+			 <p class="text-black text-base  leading-relaxed pl-4">
+			  • Hình thức: Gặp trực tiếp với chuyên viên trị liệu ngôn ngữ tại trung tâm.
+			</p>
+			 <p class="text-black text-base  leading-relaxed pl-4">
+			  • Nội dung cá nhân hóa: Xây dựng chương trình phù hợp với từng học viên (theo độ tuổi, mức độ khiếm thính và nhu cầu cụ thể).
+			</p>
+			 <p class="text-black text-base  leading-relaxed pl-4">
+			  • Thời lượng: 1 buổi/tuần, mỗi buổi 45–60 phút.
+			</p>
+			 <p class="text-black text-base  leading-relaxed pl-4">
+			  • Đội ngũ chuyên môn: Chuyên viên trị liệu có chứng chỉ và kinh nghiệm làm việc với trẻ khiếm thính.
+			</p>
+			 <p class="text-black text-base  leading-relaxed pl-4 mb-6">
+			  • Mục tiêu: Giúp học viên tự tin hơn trong giao tiếp, tăng khả năng hòa nhập xã hội và chuẩn bị tốt cho học tập hoặc nghề nghiệp tương lai.
+			</p>
+			  <p class="text-black text-base  leading-relaxed">
+			  📍 Địa điểm: Tại văn phòng Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam
+			</p>
+			 <p class="text-black text-base  leading-relaxed">
+			  📞 Liên hệ tư vấn: 0936 253 215
+			</p>
+			 `,
+	  output: `
+			  <p class="text-black text-base  leading-relaxed">
+				  Phương pháp AVT hướng đến việc giúp trẻ khiếm thính phát triển kỹ năng ngôn ngữ nói và hiểu lời nói thông qua việc sử dụng khả năng nghe (ngay cả khi đã hỗ trợ bằng máy trợ thính hoặc cấy ốc tai điện tử). Đầu ra kỳ vọng bao gồm:
+			  </p>
+			  <p class="text-black text-base font-bold leading-relaxed">
+				  1. Giao tiếp bằng lời nói
+			  </p>
+			  <p class="text-black text-base  leading-relaxed">
+				  Trẻ có khả năng sử dụng lời nói để giao tiếp thay vì chỉ dựa vào ký hiệu hoặc hình ảnh.
+			  </p>
+			  <p class="text-black text-base  leading-relaxed">
+				  Phát triển ngữ âm, từ vựng, cú pháp và ngữ nghĩa gần ngang bằng với trẻ nghe bình thường cùng độ tuổi.
+			  </p>
+			  <p class="text-black text-base font-bold leading-relaxed">
+				  2. Phát triển kỹ năng nghe
+			  </p>
+			  <p class="text-black text-base  leading-relaxed">
+				  Có khả năng nghe hiểu lời nói trong môi trường yên tĩnh và dần tiến tới môi trường có tiếng ồn.
+			  </p>
+			  <p class="text-black text-base  leading-relaxed">
+				  Phân biệt âm thanh, từ đơn, câu nói và cảm xúc qua giọng nói.
+			  </p>
+			  <p class="text-black text-base font-bold leading-relaxed">
+				  3. Phát triển ngôn ngữ tiếp thu (receptive) và ngôn ngữ diễn đạt (expressive)
+			  </p>
+			  <p class="text-black text-base  leading-relaxed">
+				  Hiểu ngôn ngữ người khác nói (receptive language).
+			  </p>
+			  <p class="text-black text-base  leading-relaxed">
+				  Biết cách diễn đạt suy nghĩ, cảm xúc và mong muốn của mình bằng lời nói (expressive language).
+			  </p>
+			  <p class="text-black text-base font-bold leading-relaxed">
+				  4. Hòa nhập học đường và xã hội
+			  </p>
+			  <p class="text-black text-base  leading-relaxed">
+				  Trẻ có thể học trong lớp học phổ thông mà không cần thông dịch viên ngôn ngữ ký hiệu.
+			  </p>
+			  <p class="text-black text-base  leading-relaxed">
+				  Có khả năng tham gia vào các hoạt động cộng đồng, giao tiếp tự tin với bạn bè và người thân.
+			  </p>
+			  
+		  `,
+	  content: `
+			  <p class="text-black text-base font-bold leading-relaxed">
+				  1. Kích hoạt và phát triển kỹ năng nghe
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Nhận biết âm thanh môi trường
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Phân biệt âm thanh và giọng nói
+			  </p>
+			  <p class="text-black text-base mb-4 leading-relaxed pl-4">
+				  • Phát hiện, nhận dạng, định vị nguồn âm thanh
+			  </p>
+			  <p class="text-black text-base font-bold leading-relaxed">
+				  2. Phát triển kỹ năng nói cơ bản
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Học cách tạo âm, từ đơn, câu ngắn
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Thực hành phát âm đúng thông qua nghe phản hồi
+			  </p>
+			  <p class="text-black text-base mb-4 leading-relaxed pl-4">
+				  • Điều chỉnh hơi thở, âm lượng và ngữ điệu khi nói
+			  </p>
+			  <p class="text-black text-base font-bold leading-relaxed">
+				  3. Mở rộng vốn từ và ngữ pháp
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Học từ mới theo chủ đề: gia đình, trường học, đồ vật, hành động…
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Thực hành đặt câu đơn và câu phức
+			  </p>
+			  <p class="text-black text-base mb-4 leading-relaxed pl-4">
+				  • Phát triển ngôn ngữ tự nhiên qua kể chuyện, miêu tả hình ảnh
+			  </p>
+			  <p class="text-black text-base font-bold leading-relaxed">
+				  4. Giao tiếp thực tế
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Thực hành qua tình huống hàng ngày: đi chợ, ăn uống, chơi cùng bạn bè
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Dạy trẻ cách đặt câu hỏi, đưa ra ý kiến, giải quyết mâu thuẫn bằng lời nói
+			  </p>
+			  <p class="text-black text-base mb-4 leading-relaxed pl-4">
+				  • Kết hợp ngôn ngữ cảm xúc (ví dụ: buồn, vui, tức giận…)
+			  </p>
+			  <p class="text-black text-base font-bold leading-relaxed">
+				  5. Hướng dẫn phụ huynh
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Phụ huynh được đào tạo cách hỗ trợ trị liệu tại nhà
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Ghi nhận và phản hồi tiến trình giao tiếp hàng ngày
+			  </p>
+			  <p class="text-black text-base mb-4 leading-relaxed pl-4">
+				  • Thực hành cùng con thông qua chơi, đọc sách, đối thoại
+			  </p>
+		  `,
+	  commnents: [
+		{
+		  name: "Lê Văn Trường",
+		  avatar: "/image/comment1.png",
+		  content: `"Tôi biết cách nói lời xin lỗi và cảm ơn đúng lúc. Trước kia tôi hay im lặng khi có vấn đề."`,
+		},
+		{
+		  name: "Nguyễn Hoài An",
+		  avatar: "/image/comment1.png",
+		  content: `"Cô giáo dạy bằng ký hiệu rõ ràng, dễ hiểu. Em rất thích giờ đóng vai."`,
+		},
+		{
+		  name: "Trần Minh Hòa",
+		  avatar: "/image/comment1.png",
+		  content: `"Giờ tôi nói chuyện với đồng nghiệp không còn ngại ngùng nữa."`,
+		},
+	  ],
+	  scienceRegistration: `
+			  <p class="text-black text-base leading-relaxed">
+				  🔹 Cách đăng ký:
+			  </p>	
+			  <p class="text-black text-base leading-relaxed">
+				  Vui lòng gửi Họ tên – Ngày sinh – Mối quan hệ với học viên (nếu đăng ký thay) – Tình trạng hiện tại – Mục tiêu tham gia – Số điện thoại liên hệ đến:
+			  </p>
+			  <p class="text-black text-base leading-relaxed">
+				  📩 Email: hlcsvietnam@gmail.com
+			  </p>
+			  <p class="text-black text-base leading-relaxed">
+				  📞 Điện thoại/Zalo: 0936 253 215
+			  </p>
+			  <p class="text-black text-base leading-relaxed">
+				  📱 Facebook: Doanh Nghiệp Xã Hội vì Người Khiếm Thính Việt Nam
+			  </p>
+	  
+		  `,
+	},
+	{
+	  img: "/image/ky-nang-mem/kynang4.png",
+	  title: "Kỹ Năng Tự Chăm Sóc Bản Thân",
+	  description: "Giúp học viên học cách lắng nghe, bày tỏ cảm xúc, xử lý mâu thuẫn và giao tiếp hiệu quả trong đời sống hàng ngày.",
+	  day: "12 bài giảng",
+	  free: false,
+	  price: "100.000 VND",
+	  time: "90 phút",
+	  form: "6 buổi",
+	  objectives: "Mọi độ tuổi",
+	  teacher: "Ths. Đỗ Thị Hảo",
+	  slug: "ky-nang-tu-cham-soc-ban-than",
+	  organization: [
+		{
+		  img: "/image/Ellipse-6.png",
+		  title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+		},
+	  ],
+	  courseIntroduction: `
+			<p class="text-black text-base leading-relaxed">
+			  Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam tổ chức các buổi trị liệu ngôn ngữ 1:1 dành cho trẻ em và thanh thiếu niên khiếm thính nhằm phát triển khả năng giao tiếp, phát âm, sử dụng ngôn ngữ ký hiệu và hiểu ngôn ngữ nói.
+			</p>
+			<p class="text-black text-base  leading-relaxed pl-4">
+			  • Đối tượng: Trẻ em, thanh thiếu niên khiếm thính hoặc gặp khó khăn về giao tiếp/ngôn ngữ.
+			</p>
+			 <p class="text-black text-base  leading-relaxed pl-4">
+			  • Hình thức: Gặp trực tiếp với chuyên viên trị liệu ngôn ngữ tại trung tâm.
+			</p>
+			 <p class="text-black text-base  leading-relaxed pl-4">
+			  • Nội dung cá nhân hóa: Xây dựng chương trình phù hợp với từng học viên (theo độ tuổi, mức độ khiếm thính và nhu cầu cụ thể).
+			</p>
+			 <p class="text-black text-base  leading-relaxed pl-4">
+			  • Thời lượng: 1 buổi/tuần, mỗi buổi 45–60 phút.
+			</p>
+			 <p class="text-black text-base  leading-relaxed pl-4">
+			  • Đội ngũ chuyên môn: Chuyên viên trị liệu có chứng chỉ và kinh nghiệm làm việc với trẻ khiếm thính.
+			</p>
+			 <p class="text-black text-base  leading-relaxed pl-4 mb-6">
+			  • Mục tiêu: Giúp học viên tự tin hơn trong giao tiếp, tăng khả năng hòa nhập xã hội và chuẩn bị tốt cho học tập hoặc nghề nghiệp tương lai.
+			</p>
+			  <p class="text-black text-base  leading-relaxed">
+			  📍 Địa điểm: Tại văn phòng Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam
+			</p>
+			 <p class="text-black text-base  leading-relaxed">
+			  📞 Liên hệ tư vấn: 0936 253 215
+			</p>
+			 `,
+	  output: `
+			  <p class="text-black text-base  leading-relaxed">
+				  Phương pháp AVT hướng đến việc giúp trẻ khiếm thính phát triển kỹ năng ngôn ngữ nói và hiểu lời nói thông qua việc sử dụng khả năng nghe (ngay cả khi đã hỗ trợ bằng máy trợ thính hoặc cấy ốc tai điện tử). Đầu ra kỳ vọng bao gồm:
+			  </p>
+			  <p class="text-black text-base font-bold leading-relaxed">
+				  1. Giao tiếp bằng lời nói
+			  </p>
+			  <p class="text-black text-base  leading-relaxed">
+				  Trẻ có khả năng sử dụng lời nói để giao tiếp thay vì chỉ dựa vào ký hiệu hoặc hình ảnh.
+			  </p>
+			  <p class="text-black text-base  leading-relaxed">
+				  Phát triển ngữ âm, từ vựng, cú pháp và ngữ nghĩa gần ngang bằng với trẻ nghe bình thường cùng độ tuổi.
+			  </p>
+			  <p class="text-black text-base font-bold leading-relaxed">
+				  2. Phát triển kỹ năng nghe
+			  </p>
+			  <p class="text-black text-base  leading-relaxed">
+				  Có khả năng nghe hiểu lời nói trong môi trường yên tĩnh và dần tiến tới môi trường có tiếng ồn.
+			  </p>
+			  <p class="text-black text-base  leading-relaxed">
+				  Phân biệt âm thanh, từ đơn, câu nói và cảm xúc qua giọng nói.
+			  </p>
+			  <p class="text-black text-base font-bold leading-relaxed">
+				  3. Phát triển ngôn ngữ tiếp thu (receptive) và ngôn ngữ diễn đạt (expressive)
+			  </p>
+			  <p class="text-black text-base  leading-relaxed">
+				  Hiểu ngôn ngữ người khác nói (receptive language).
+			  </p>
+			  <p class="text-black text-base  leading-relaxed">
+				  Biết cách diễn đạt suy nghĩ, cảm xúc và mong muốn của mình bằng lời nói (expressive language).
+			  </p>
+			  <p class="text-black text-base font-bold leading-relaxed">
+				  4. Hòa nhập học đường và xã hội
+			  </p>
+			  <p class="text-black text-base  leading-relaxed">
+				  Trẻ có thể học trong lớp học phổ thông mà không cần thông dịch viên ngôn ngữ ký hiệu.
+			  </p>
+			  <p class="text-black text-base  leading-relaxed">
+				  Có khả năng tham gia vào các hoạt động cộng đồng, giao tiếp tự tin với bạn bè và người thân.
+			  </p>
+			  
+		  `,
+	  content: `
+			  <p class="text-black text-base font-bold leading-relaxed">
+				  1. Kích hoạt và phát triển kỹ năng nghe
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Nhận biết âm thanh môi trường
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Phân biệt âm thanh và giọng nói
+			  </p>
+			  <p class="text-black text-base mb-4 leading-relaxed pl-4">
+				  • Phát hiện, nhận dạng, định vị nguồn âm thanh
+			  </p>
+			  <p class="text-black text-base font-bold leading-relaxed">
+				  2. Phát triển kỹ năng nói cơ bản
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Học cách tạo âm, từ đơn, câu ngắn
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Thực hành phát âm đúng thông qua nghe phản hồi
+			  </p>
+			  <p class="text-black text-base mb-4 leading-relaxed pl-4">
+				  • Điều chỉnh hơi thở, âm lượng và ngữ điệu khi nói
+			  </p>
+			  <p class="text-black text-base font-bold leading-relaxed">
+				  3. Mở rộng vốn từ và ngữ pháp
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Học từ mới theo chủ đề: gia đình, trường học, đồ vật, hành động…
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Thực hành đặt câu đơn và câu phức
+			  </p>
+			  <p class="text-black text-base mb-4 leading-relaxed pl-4">
+				  • Phát triển ngôn ngữ tự nhiên qua kể chuyện, miêu tả hình ảnh
+			  </p>
+			  <p class="text-black text-base font-bold leading-relaxed">
+				  4. Giao tiếp thực tế
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Thực hành qua tình huống hàng ngày: đi chợ, ăn uống, chơi cùng bạn bè
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Dạy trẻ cách đặt câu hỏi, đưa ra ý kiến, giải quyết mâu thuẫn bằng lời nói
+			  </p>
+			  <p class="text-black text-base mb-4 leading-relaxed pl-4">
+				  • Kết hợp ngôn ngữ cảm xúc (ví dụ: buồn, vui, tức giận…)
+			  </p>
+			  <p class="text-black text-base font-bold leading-relaxed">
+				  5. Hướng dẫn phụ huynh
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Phụ huynh được đào tạo cách hỗ trợ trị liệu tại nhà
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				  • Ghi nhận và phản hồi tiến trình giao tiếp hàng ngày
+			  </p>
+			  <p class="text-black text-base mb-4 leading-relaxed pl-4">
+				  • Thực hành cùng con thông qua chơi, đọc sách, đối thoại
+			  </p>
+		  `,
+	  commnents: [
+		{
+		  name: "Lê Văn Trường",
+		  avatar: "/image/comment1.png",
+		  content: `"Tôi biết cách nói lời xin lỗi và cảm ơn đúng lúc. Trước kia tôi hay im lặng khi có vấn đề."`,
+		},
+		{
+		  name: "Nguyễn Hoài An",
+		  avatar: "/image/comment1.png",
+		  content: `"Cô giáo dạy bằng ký hiệu rõ ràng, dễ hiểu. Em rất thích giờ đóng vai."`,
+		},
+		{
+		  name: "Trần Minh Hòa",
+		  avatar: "/image/comment1.png",
+		  content: `"Giờ tôi nói chuyện với đồng nghiệp không còn ngại ngùng nữa."`,
+		},
+	  ],
+	  scienceRegistration: `
+			  <p class="text-black text-base leading-relaxed">
+				  🔹 Cách đăng ký:
+			  </p>	
+			  <p class="text-black text-base leading-relaxed">
+				  Vui lòng gửi Họ tên – Ngày sinh – Mối quan hệ với học viên (nếu đăng ký thay) – Tình trạng hiện tại – Mục tiêu tham gia – Số điện thoại liên hệ đến:
+			  </p>
+			  <p class="text-black text-base leading-relaxed">
+				  📩 Email: hlcsvietnam@gmail.com
+			  </p>
+			  <p class="text-black text-base leading-relaxed">
+				  📞 Điện thoại/Zalo: 0936 253 215
+			  </p>
+			  <p class="text-black text-base leading-relaxed">
+				  📱 Facebook: Doanh Nghiệp Xã Hội vì Người Khiếm Thính Việt Nam
+			  </p>
+	  
+		  `,
+	},
+	{
+		img: "/image/ky-nang-mem/kynang5.png",
+		title: "Giáo dục giới tính",
+		description: "Giúp học viên học cách lắng nghe, bày tỏ cảm xúc, xử lý mâu thuẫn và giao tiếp hiệu quả trong đời sống hàng ngày.",
+		day: "12 bài giảng",
+		free: false,
+		price: "100.000 VND",
+		time: "90 phút",
+		form: "6 buổi",
+		objectives: "Mọi độ tuổi",
+		teacher: "Ths. Đỗ Thị Hảo",
+		slug: "giao-duc-gioi-tinh",
+		organization: [
+		  {
+			img: "/image/Ellipse-6.png",
+			title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+		  },
+		],
+		courseIntroduction: `
+			  <p class="text-black text-base leading-relaxed">
+				Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam tổ chức các buổi trị liệu ngôn ngữ 1:1 dành cho trẻ em và thanh thiếu niên khiếm thính nhằm phát triển khả năng giao tiếp, phát âm, sử dụng ngôn ngữ ký hiệu và hiểu ngôn ngữ nói.
+			  </p>
+			  <p class="text-black text-base  leading-relaxed pl-4">
+				• Đối tượng: Trẻ em, thanh thiếu niên khiếm thính hoặc gặp khó khăn về giao tiếp/ngôn ngữ.
+			  </p>
+			   <p class="text-black text-base  leading-relaxed pl-4">
+				• Hình thức: Gặp trực tiếp với chuyên viên trị liệu ngôn ngữ tại trung tâm.
+			  </p>
+			   <p class="text-black text-base  leading-relaxed pl-4">
+				• Nội dung cá nhân hóa: Xây dựng chương trình phù hợp với từng học viên (theo độ tuổi, mức độ khiếm thính và nhu cầu cụ thể).
+			  </p>
+			   <p class="text-black text-base  leading-relaxed pl-4">
+				• Thời lượng: 1 buổi/tuần, mỗi buổi 45–60 phút.
+			  </p>
+			   <p class="text-black text-base  leading-relaxed pl-4">
+				• Đội ngũ chuyên môn: Chuyên viên trị liệu có chứng chỉ và kinh nghiệm làm việc với trẻ khiếm thính.
+			  </p>
+			   <p class="text-black text-base  leading-relaxed pl-4 mb-6">
+				• Mục tiêu: Giúp học viên tự tin hơn trong giao tiếp, tăng khả năng hòa nhập xã hội và chuẩn bị tốt cho học tập hoặc nghề nghiệp tương lai.
+			  </p>
+				<p class="text-black text-base  leading-relaxed">
+				📍 Địa điểm: Tại văn phòng Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam
+			  </p>
+			   <p class="text-black text-base  leading-relaxed">
+				📞 Liên hệ tư vấn: 0936 253 215
+			  </p>
+			   `,
+		output: `
+				<p class="text-black text-base  leading-relaxed">
+					Phương pháp AVT hướng đến việc giúp trẻ khiếm thính phát triển kỹ năng ngôn ngữ nói và hiểu lời nói thông qua việc sử dụng khả năng nghe (ngay cả khi đã hỗ trợ bằng máy trợ thính hoặc cấy ốc tai điện tử). Đầu ra kỳ vọng bao gồm:
+				</p>
+				<p class="text-black text-base font-bold leading-relaxed">
+					1. Giao tiếp bằng lời nói
+				</p>
+				<p class="text-black text-base  leading-relaxed">
+					Trẻ có khả năng sử dụng lời nói để giao tiếp thay vì chỉ dựa vào ký hiệu hoặc hình ảnh.
+				</p>
+				<p class="text-black text-base  leading-relaxed">
+					Phát triển ngữ âm, từ vựng, cú pháp và ngữ nghĩa gần ngang bằng với trẻ nghe bình thường cùng độ tuổi.
+				</p>
+				<p class="text-black text-base font-bold leading-relaxed">
+					2. Phát triển kỹ năng nghe
+				</p>
+				<p class="text-black text-base  leading-relaxed">
+					Có khả năng nghe hiểu lời nói trong môi trường yên tĩnh và dần tiến tới môi trường có tiếng ồn.
+				</p>
+				<p class="text-black text-base  leading-relaxed">
+					Phân biệt âm thanh, từ đơn, câu nói và cảm xúc qua giọng nói.
+				</p>
+				<p class="text-black text-base font-bold leading-relaxed">
+					3. Phát triển ngôn ngữ tiếp thu (receptive) và ngôn ngữ diễn đạt (expressive)
+				</p>
+				<p class="text-black text-base  leading-relaxed">
+					Hiểu ngôn ngữ người khác nói (receptive language).
+				</p>
+				<p class="text-black text-base  leading-relaxed">
+					Biết cách diễn đạt suy nghĩ, cảm xúc và mong muốn của mình bằng lời nói (expressive language).
+				</p>
+				<p class="text-black text-base font-bold leading-relaxed">
+					4. Hòa nhập học đường và xã hội
+				</p>
+				<p class="text-black text-base  leading-relaxed">
+					Trẻ có thể học trong lớp học phổ thông mà không cần thông dịch viên ngôn ngữ ký hiệu.
+				</p>
+				<p class="text-black text-base  leading-relaxed">
+					Có khả năng tham gia vào các hoạt động cộng đồng, giao tiếp tự tin với bạn bè và người thân.
+				</p>
+				
+			`,
+		content: `
+				<p class="text-black text-base font-bold leading-relaxed">
+					1. Kích hoạt và phát triển kỹ năng nghe
+				</p>
+				<p class="text-black text-base  leading-relaxed pl-4">
+					• Nhận biết âm thanh môi trường
+				</p>
+				<p class="text-black text-base  leading-relaxed pl-4">
+					• Phân biệt âm thanh và giọng nói
+				</p>
+				<p class="text-black text-base mb-4 leading-relaxed pl-4">
+					• Phát hiện, nhận dạng, định vị nguồn âm thanh
+				</p>
+				<p class="text-black text-base font-bold leading-relaxed">
+					2. Phát triển kỹ năng nói cơ bản
+				</p>
+				<p class="text-black text-base  leading-relaxed pl-4">
+					• Học cách tạo âm, từ đơn, câu ngắn
+				</p>
+				<p class="text-black text-base  leading-relaxed pl-4">
+					• Thực hành phát âm đúng thông qua nghe phản hồi
+				</p>
+				<p class="text-black text-base mb-4 leading-relaxed pl-4">
+					• Điều chỉnh hơi thở, âm lượng và ngữ điệu khi nói
+				</p>
+				<p class="text-black text-base font-bold leading-relaxed">
+					3. Mở rộng vốn từ và ngữ pháp
+				</p>
+				<p class="text-black text-base  leading-relaxed pl-4">
+					• Học từ mới theo chủ đề: gia đình, trường học, đồ vật, hành động…
+				</p>
+				<p class="text-black text-base  leading-relaxed pl-4">
+					• Thực hành đặt câu đơn và câu phức
+				</p>
+				<p class="text-black text-base mb-4 leading-relaxed pl-4">
+					• Phát triển ngôn ngữ tự nhiên qua kể chuyện, miêu tả hình ảnh
+				</p>
+				<p class="text-black text-base font-bold leading-relaxed">
+					4. Giao tiếp thực tế
+				</p>
+				<p class="text-black text-base  leading-relaxed pl-4">
+					• Thực hành qua tình huống hàng ngày: đi chợ, ăn uống, chơi cùng bạn bè
+				</p>
+				<p class="text-black text-base  leading-relaxed pl-4">
+					• Dạy trẻ cách đặt câu hỏi, đưa ra ý kiến, giải quyết mâu thuẫn bằng lời nói
+				</p>
+				<p class="text-black text-base mb-4 leading-relaxed pl-4">
+					• Kết hợp ngôn ngữ cảm xúc (ví dụ: buồn, vui, tức giận…)
+				</p>
+				<p class="text-black text-base font-bold leading-relaxed">
+					5. Hướng dẫn phụ huynh
+				</p>
+				<p class="text-black text-base  leading-relaxed pl-4">
+					• Phụ huynh được đào tạo cách hỗ trợ trị liệu tại nhà
+				</p>
+				<p class="text-black text-base  leading-relaxed pl-4">
+					• Ghi nhận và phản hồi tiến trình giao tiếp hàng ngày
+				</p>
+				<p class="text-black text-base mb-4 leading-relaxed pl-4">
+					• Thực hành cùng con thông qua chơi, đọc sách, đối thoại
+				</p>
+			`,
+		commnents: [
+		  {
+			name: "Lê Văn Trường",
+			avatar: "/image/comment1.png",
+			content: `"Tôi biết cách nói lời xin lỗi và cảm ơn đúng lúc. Trước kia tôi hay im lặng khi có vấn đề."`,
+		  },
+		  {
+			name: "Nguyễn Hoài An",
+			avatar: "/image/comment1.png",
+			content: `"Cô giáo dạy bằng ký hiệu rõ ràng, dễ hiểu. Em rất thích giờ đóng vai."`,
+		  },
+		  {
+			name: "Trần Minh Hòa",
+			avatar: "/image/comment1.png",
+			content: `"Giờ tôi nói chuyện với đồng nghiệp không còn ngại ngùng nữa."`,
+		  },
+		],
+		scienceRegistration: `
+				<p class="text-black text-base leading-relaxed">
+					🔹 Cách đăng ký:
+				</p>	
+				<p class="text-black text-base leading-relaxed">
+					Vui lòng gửi Họ tên – Ngày sinh – Mối quan hệ với học viên (nếu đăng ký thay) – Tình trạng hiện tại – Mục tiêu tham gia – Số điện thoại liên hệ đến:
+				</p>
+				<p class="text-black text-base leading-relaxed">
+					📩 Email: hlcsvietnam@gmail.com
+				</p>
+				<p class="text-black text-base leading-relaxed">
+					📞 Điện thoại/Zalo: 0936 253 215
+				</p>
+				<p class="text-black text-base leading-relaxed">
+					📱 Facebook: Doanh Nghiệp Xã Hội vì Người Khiếm Thính Việt Nam
+				</p>
+		
+			`,
+	  },
+  ];
+
+export const phuongPhap = [
+	{
+		image: '/image/giao-duc-dac-biet/item-1.jpg',
+		name: 'Can thiệp sớm và những ảnh hưởng tích cực',
+		note: 'Can thiệp sớm trong lĩnh vực ngôn ngữ và thính giác đã trở thành một phần quan trọng trong sự phát triển của trẻ khiếm thính.',
+		slug: 'can-thiep-som-va-nhung-anh-huong-tich-cuc',
+		descript: `<p class="text-black font-bold leading-relaxed">
+		 Mở đầu
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Can thiệp sớm là một phương pháp tiếp cận mang tính quyết định trong hành trình phát triển của trẻ khiếm thính. Nghiên cứu đã chỉ ra rằng những năm đầu đời là giai đoạn quan trọng nhất trong quá trình hình thành ngôn ngữ và nhận thức của trẻ. Trong trường hợp trẻ khiếm thính, việc phát hiện và can thiệp trong giai đoạn này có ý nghĩa vô cùng quan trọng. Các nghiên cứu chỉ ra rằng trẻ khiếm thính được can thiệp trước 6 tháng tuổi thường đạt được kết quả phát triển ngôn ngữ tốt hơn đáng kể so với những trẻ được can thiệp muộn hơn. Bài viết này sẽ phân tích những lợi ích của việc can thiệp sớm và tác động tích cực của nó đối với sự phát triển toàn diện của trẻ khiếm thính.
+	  </p>
+	<p class="text-black font-bold leading-relaxed">
+		Tầm quan trọng của phát hiện sớm
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		Phát hiện sớm là bước đầu tiên và quan trọng nhất trong quá trình can thiệp. Hiện nay, nhiều quốc gia đã triển khai chương trình sàng lọc thính lực sơ sinh toàn dân, giúp phát hiện các vấn đề về thính giác ngay từ những ngày đầu tiên sau khi trẻ chào đời. Quy trình này thường bao gồm:
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		 1. Sàng lọc thính lực tại bệnh viện: Thực hiện ngay sau khi trẻ chào đời, thường trong vòng 48 giờ đầu tiên.
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		 2. Kiểm tra chẩn đoán: Nếu trẻ không vượt qua bài kiểm tra sàng lọc, sẽ được chuyển đến bác sĩ chuyên khoa tai mũi họng để đánh giá chi tiết.
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		 3. Đánh giá mức độ khiếm thính: Xác định loại và mức độ khiếm thính để lập kế hoạch can thiệp phù hợp.
+	  </p>
+	  <p class="text-black leading-relaxed pl-0">
+		 Việc phát hiện sớm giúp gia đình và chuyên gia có thời gian quý báu để xây dựng chiến lược can thiệp phù hợp, trước khi trẻ bỏ lỡ những cơ hội phát triển ngôn ngữ quan trọng.
+	  </p>
+	  
+	  <img src="/image/giao-duc-dac-biet/post-1/post-1.jpg" class="text-black mb-2 mt-5 leading-relaxed w-full"/>
+	  <p class="text-black font-bold leading-relaxed">
+		Các phương pháp can thiệp sớm hiệu quả
+	  </p>
+	  <p class="text-black font-bold leading-relaxed">
+		1. Hỗ trợ công nghệ
+	  </p>
+	  <p class="text-black leading-relaxed pl-0">
+		Tùy thuộc vào mức độ và loại khiếm thính, trẻ có thể được hỗ trợ bằng:
+	  </p>
+	   <p class="text-black leading-relaxed pl-4">
+		 • Máy trợ thính: Được cá nhân hóa theo đặc điểm thính giác của trẻ, giúp khuếch đại âm thanh.
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		 • Cấy ốc tai điện tử: Đối với những trường hợp khiếm thính nặng đến sâu, cấy ốc tai điện tử có thể cung cấp kích thích thính giác trực tiếp cho dây thần kinh thính giác.
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		 • Hệ thống FM: Giúp giảm thiểu tác động của tiếng ồn xung quanh, đặc biệt hữu ích trong môi trường học tập.
+	  </p>
+	   <p class="text-black font-bold leading-relaxed">
+		2. Phát triển ngôn ngữ và giao tiếp
+	  </p>
+	   <p class="text-black leading-relaxed pl-4">
+		 • Học ngôn ngữ ký hiệu: Nhiều chương trình can thiệp sớm khuyến khích cả gia đình học ngôn ngữ ký hiệu để tạo môi trường giao tiếp phong phú cho trẻ.
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		 • Phương pháp thính-khẩu (Auditory-Verbal): Tập trung vào việc phát triển kỹ năng lắng nghe và nói thông qua sử dụng công nghệ trợ thính và hoạt động giao tiếp thường xuyên.
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		 • Phương pháp song ngữ-song văn hóa: Kết hợp việc học ngôn ngữ ký hiệu và ngôn ngữ nói, giúp trẻ phát triển kỹ năng giao tiếp đa dạng.
+	  </p>
+	  <p class="text-black font-bold leading-relaxed">
+		3. Hỗ trợ gia đình
+	  </p>
+	   <p class="text-black leading-relaxed pl-4">
+		 • Đào tạo cho phụ huynh: Cung cấp kiến thức và kỹ năng cần thiết để hỗ trợ con em mình tại nhà.
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		 • Nhóm hỗ trợ gia đình: Kết nối các gia đình có con khiếm thính để chia sẻ kinh nghiệm và tạo mạng lưới hỗ trợ.
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		 • Tư vấn tâm lý: Giúp gia đình đối mặt với những thách thức cảm xúc sau khi nhận được chẩn đoán.
+	  </p>
+	   <p class="text-black font-bold leading-relaxed">
+  Những ảnh hưởng tích cực của can thiệp sớm
+</p>
+
+<p class="text-black font-bold leading-relaxed">
+  1. Phát triển ngôn ngữ vượt trội
+</p>
+<p class="text-black leading-relaxed pl-0">
+		Nghiên cứu của Yoshinaga-Itano và cộng sự (2017) chỉ ra rằng trẻ khiếm thính được can thiệp trước 6 tháng tuổi có khả năng phát triển ngôn ngữ gần ngang bằng với trẻ nghe bình thường cùng độ tuổi. Cụ thể:
+	  </p>
+<p class="text-black leading-relaxed pl-4">
+  • Vốn từ vựng phong phú hơn  
+</p>
+<p class="text-black leading-relaxed pl-4">
+  • Khả năng hiểu và diễn đạt ngôn ngữ tốt hơn  
+</p>
+<p class="text-black leading-relaxed pl-4">
+  • Cấu trúc ngữ pháp phát triển rõ ràng  
+</p>
+<p class="text-black leading-relaxed pl-4">
+  • Kỹ năng đọc hiểu phát triển tốt hơn trong tương lai  
+</p>
+
+<p class="text-black font-bold leading-relaxed">
+  2. Phát triển nhận thức và học tập
+</p>
+<p class="text-black leading-relaxed pl-0">
+		Can thiệp sớm không chỉ tác động đến ngôn ngữ mà còn ảnh hưởng tích cực đến sự phát triển nhận thức tổng thể:
+	  </p>
+<p class="text-black leading-relaxed pl-4">
+  • Khả năng giải quyết vấn đề tốt hơn  
+</p>
+<p class="text-black leading-relaxed pl-4">
+  • Khả năng tư duy trừu tượng phát triển mạnh  
+</p>
+<p class="text-black leading-relaxed pl-4">
+  • Thích nghi học tập cải thiện  
+</p>
+<p class="text-black leading-relaxed pl-4">
+  • Giảm khoảng cách học tập so với bạn bè cùng trang lứa  
+</p>
+
+<p class="text-black font-bold leading-relaxed">
+  3. Phát triển xã hội - cảm xúc
+</p>
+<p class="text-black leading-relaxed pl-0">
+		Trẻ được can thiệp sớm thường có sự phát triển xã hội-cảm xúc tốt hơn:
+	  </p>
+<p class="text-black leading-relaxed pl-4">
+  • Khả năng tương tác xã hội tốt hơn  
+</p>
+<p class="text-black leading-relaxed pl-4">
+  • Sự tự tin và lòng tự trọng cao hơn  
+</p>
+<p class="text-black leading-relaxed pl-4">
+  • Giảm cảm giác cô lập và lo âu  
+</p>
+<p class="text-black leading-relaxed pl-4">
+  • Mối quan hệ gia đình gắn kết hơn  
+</p>
+
+<p class="text-black font-bold leading-relaxed">
+  4. Tiết kiệm chi phí dài hạn
+</p>
+<p class="text-black leading-relaxed pl-0">
+		Mặc dù việc can thiệp sớm đòi hỏi đầu tư ban đầu, nhưng các nghiên cứu kinh tế đã chứng minh rằng đây là cách tiếp cận hiệu quả về chi phí:
+Giảm nhu cầu giáo dục đặc biệt chuyên sâu sau này
+	  </p>
+<p class="text-black leading-relaxed pl-4">
+  • Giảm nhu cầu giáo dục đặc biệt chuyên sâu sau này  
+</p>
+<p class="text-black leading-relaxed pl-4">
+  • Tăng khả năng theo học đại học và đi làm  
+</p> 
+<p class="text-black leading-relaxed pl-4">
+  • Có tiềm năng trở thành người lao động độc lập tài chính trong tương lai  
+</p>
+<p class="text-black leading-relaxed pl-4">
+  • Giảm gánh nặng cho hệ thống y tế và xã hội  
+</p>
+	  <img src="/image/giao-duc-dac-biet/post-1/post-2.jpg" class="text-black mb-2 mt-5 leading-relaxed w-full"/>
+<p class="text-black font-bold leading-relaxed">
+  Thách thức và giải pháp trong can thiệp sớm
+</p>
+
+<p class="text-black font-bold leading-relaxed">
+  Thách thức
+</p>
+<p class="text-black leading-relaxed pl-4">
+  • Tiếp cận dịch vụ: Nhiều gia đình, đặc biệt ở vùng nông thôn hoặc có hoàn cảnh kinh tế khó khăn, gặp khó khăn trong việc tiếp cận các dịch vụ can thiệp sớm.
+</p>
+<p class="text-black leading-relaxed pl-4">
+  • Thiếu chuyên gia: Số lượng chuyên gia đủ năng lực trong lĩnh vực khiếm thính ở trẻ em còn hạn chế ở nhiều quốc gia.
+</p>
+<p class="text-black leading-relaxed pl-4">
+  • Thiếu nhận thức: Nhiều gia đình và thậm chí cả nhân viên y tế chưa nhận thức đầy đủ về tầm quan trọng của can thiệp sớm.
+</p>
+
+<p class="text-black font-bold leading-relaxed mt-4">
+  Giải pháp
+</p>
+<p class="text-black leading-relaxed pl-4">
+  • Chương trình sàng lọc toàn diện: Đảm bảo mọi trẻ sơ sinh đều được sàng lọc khiếm thính.
+</p>
+<p class="text-black leading-relaxed pl-4">
+  • Đào tạo chuyên gia: Tăng cường đào tạo chuyên gia về lĩnh vực can thiệp sớm cho trẻ khiếm thính.
+</p>
+<p class="text-black leading-relaxed pl-4">
+  • Hỗ trợ từ xa: Phát triển các mô hình hỗ trợ từ xa để giúp các gia đình ở vùng sâu vùng xa tiếp cận với dịch vụ.
+</p>
+<p class="text-black leading-relaxed pl-4">
+  • Chính sách hỗ trợ: Xây dựng chính sách hỗ trợ tài chính cho các gia đình có con khiếm thính để đảm bảo tiếp cận với dịch vụ can thiệp.
+</p>
+
+<p class="text-black font-bold leading-relaxed mt-4">
+  Kết luận
+</p>
+<p class="text-black leading-relaxed">
+  Can thiệp sớm đóng vai trò then chốt trong việc mở ra tiềm năng tối đa cho trẻ khiếm thính. Bằng chứng khoa học đã chứng minh rõ ràng rằng việc phát hiện sớm và can thiệp kịp thời tạo nên sự khác biệt đáng kể trong quá trình phát triển ngôn ngữ, nhận thức và xã hội của trẻ.
+</p>
+<p class="text-black leading-relaxed">
+  Mục tiêu cuối cùng của can thiệp sớm không chỉ là giải quyết vấn đề khiếm thính, mà còn tạo nên tảng vững chắc để trẻ phát triển toàn diện và hòa nhập trọn vẹn vào xã hội. Chúng ta cần tiếp tục nâng cao nhận thức về tầm quan trọng của can thiệp sớm, đồng thời đầu tư nguồn lực để đảm bảo mọi trẻ khiếm thính đều được tiếp cận với dịch vụ can thiệp chất lượng cao càng sớm càng tốt.
+</p>
+
+	`,
+	},
+	{
+		image: '/image/giao-duc-dac-biet/item-2.png',
+		name: 'Giáo dục đúng cách cho trẻ khiếm thính',
+		note: 'Giáo dục cho trẻ khiếm thính đòi hỏi sự quan tâm và phương pháp phù hợp để giúp trẻ phát triển toàn diện và hòa nhập vào cộng đồng.',
+		slug: 'giao-duc-dung-cach-cho-tre-khiem-thinh',
+		descript: `
+			<p class="text-black font-bold leading-relaxed">
+			Mở đầu
+			</p>
+			<p class="text-black leading-relaxed">
+			Giáo dục đóng vai trò then chốt trong việc phát triển tiềm năng của mỗi đứa trẻ, và điều này càng trở nên quan trọng đối với trẻ khiếm thính. Nghiên cứu đã chỉ ra rằng với phương pháp giáo dục phù hợp, trẻ khiếm thính có thể đạt được thành tựu học tập và phát triển ngang bằng với trẻ nghe bình thường. Tuy nhiên, để đạt được điều này, chúng ta cần một hệ thống giáo dục được thiết kế đặc biệt, đáp ứng những nhu cầu riêng biệt của học sinh khiếm thính. Bài viết này sẽ phân tích các phương pháp giáo dục hiệu quả, mô hình trường học phù hợp, và những chiến lược dạy học tối ưu cho trẻ khiếm thính.
+			</p>
+			<p class="text-black font-bold leading-relaxed mt-4">
+			Hiện có các mô hình giáo dục cho trẻ khiếm thính
+			</p>
+			<p class="text-black leading-relaxed">
+			Hiện nay, có nhiều mô hình giáo dục khác nhau dành cho trẻ khiếm thính, mỗi mô hình đều có những ưu điểm và hạn chế riêng. Việc lựa chọn mô hình phù hợp phụ thuộc vào nhiều yếu tố như mức độ khiếm thính, khả năng ngôn ngữ, nhu cầu cá nhân của trẻ và nguồn lực sẵn có.
+			</p>
+
+			<p class="text-black font-bold leading-relaxed mt-4">
+			1. Trường chuyên biệt cho người khiếm thính
+			</p>
+			<p class="text-black leading-relaxed">
+			Đây là mô hình trường học được thiết kế riêng cho học sinh khiếm thính, với đội ngũ giáo viên được đào tạo chuyên sâu và cơ sở vật chất đáp ứng nhu cầu đặc biệt.
+			</p>
+			<p class="text-black font-semibold leading-relaxed pl-4">Ưu điểm:</p>
+			<p class="text-black leading-relaxed pl-4">• Môi trường học tập được thiết kế tối ưu cho người khiếm thính</p>
+			<p class="text-black leading-relaxed pl-4">• Giáo viên có chuyên môn cao trong giáo dục đặc biệt</p>
+			<p class="text-black leading-relaxed pl-4">• Cơ hội phát triển bản sắc văn hóa Điếc và kết nối với cộng đồng</p>
+			<p class="text-black leading-relaxed pl-4">• Sĩ số lớp học nhỏ, đảm bảo sự quan tâm cá nhân hóa</p>
+			<p class="text-black font-semibold leading-relaxed pl-4">Hạn chế:</p>
+			<p class="text-black leading-relaxed pl-4">• Có thể hạn chế tương tác với học sinh nghe bình thường</p>
+			<p class="text-black leading-relaxed pl-4">• Khả năng hòa nhập xã hội bị rối rộng hơn do kiến thức</p>
+			<p class="text-black leading-relaxed pl-4">• Không phải khu vực nào cũng có trường chuyên biệt</p>
+
+			<p class="text-black font-bold leading-relaxed mt-4">
+			2. Mô hình hòa nhập toàn phần
+			</p>
+			<p class="text-black leading-relaxed">
+			Trong mô hình này, học sinh khiếm thính tham gia học tập trong các lớp học thông thường cùng với học sinh nghe bình thường, với sự hỗ trợ bổ sung khi cần thiết.
+			</p>
+			<p class="text-black font-semibold leading-relaxed pl-4">Ưu điểm:</p>
+			<p class="text-black leading-relaxed pl-4">• Tăng cường khả năng hòa nhập xã hội</p>
+			<p class="text-black leading-relaxed pl-4">• Tiếp cận chương trình giáo dục phổ thông đầy đủ</p>
+			<p class="text-black leading-relaxed pl-4">• Phát triển kỹ năng thích nghi với môi trường đa dạng</p>
+			<p class="text-black font-semibold leading-relaxed pl-4">Hạn chế:</p>
+			<p class="text-black leading-relaxed pl-4">• Có thể gặp khó khăn trong việc tiếp cận thông tin nếu không có hỗ trợ đầy đủ</p>
+			<p class="text-black leading-relaxed pl-4">• Khả năng cảm thấy cô lập trong môi trường chủ yếu dành cho người nghe</p>
+			<p class="text-black leading-relaxed pl-4">• Đòi hỏi sự hỗ trợ chuyên biệt từ giáo viên và nhà trường</p>
+
+			<p class="text-black font-bold leading-relaxed mt-4">
+			3. Mô hình hòa nhập một phần
+			</p>
+			<p class="text-black leading-relaxed">
+			Đây là mô hình kết hợp, trong đó học sinh khiếm thính học một số môn học trong lớp thông thường và được hỗ trợ hoặc học riêng các môn chuyên biệt.
+			</p>
+			<p class="text-black font-semibold leading-relaxed pl-4">Ưu điểm:</p>
+			<p class="text-black leading-relaxed pl-4">• Kết hợp lợi ích của cả hai mô hình trên</p>
+			<p class="text-black leading-relaxed pl-4">• Linh hoạt đáp ứng nhu cầu cá nhân của từng học sinh</p>
+			<p class="text-black leading-relaxed pl-4">• Học sinh vẫn có môi trường hòa nhập mà không bị tách biệt hoàn toàn</p>
+			<p class="text-black font-semibold leading-relaxed pl-4">Hạn chế:</p>
+			<p class="text-black leading-relaxed pl-4">• Đòi hỏi điều phối phức tạp giữa các giáo viên và chương trình học</p>
+			<p class="text-black leading-relaxed pl-4">• Cần sự phối hợp hiệu quả giữa các bộ phận trong nhà trường</p>
+	  		<img src="/image/giao-duc-dac-biet/post-2/post-1.jpg" class="text-black mb-2 mt-5 leading-relaxed w-full"/>
+			<p class="text-black font-bold leading-relaxed mt-4">
+			Chiến lược giảng dạy hiệu quả cho trẻ khiếm thính
+			</p>
+			<p class="text-black leading-relaxed">
+			Dù áp dụng mô hình giáo dục nào, việc sử dụng các chiến lược giảng dạy phù hợp là yếu tố quyết định đến sự thành công của quá trình học tập. Dưới đây là những phương pháp đã được nghiên cứu chứng minh hiệu quả:
+			</p>
+
+			<p class="text-black font-bold leading-relaxed mt-4">
+			1. Phương pháp tiếp cận đa giác quan
+			</p>
+			<p class="text-black leading-relaxed">
+			Học sinh khiếm thính cần tiếp cận thông tin qua nhiều kênh giác quan khác nhau để bù đắp cho khả năng nghe hạn chế.
+			</p>
+			<p class="text-black leading-relaxed pl-4">• Hình ảnh và đồ họa: Sử dụng biểu đồ, hình ảnh, video có phụ đề để truyền tải nội dung học tập</p>
+			<p class="text-black leading-relaxed pl-4">• Trải nghiệm thực tế: Cho phép học sinh tiếp cận kiến thức thông qua các hoạt động thực hành</p>
+			<p class="text-black leading-relaxed pl-4">• Công nghệ hỗ trợ: Sử dụng các ứng dụng và thiết bị hỗ trợ như phần mềm chuyển giọng nói thành văn bản</p>
+
+			<p class="text-black font-bold leading-relaxed mt-4">
+			2. Tối ưu hóa môi trường học tập
+			</p>
+			<p class="text-black leading-relaxed">
+			Môi trường lớp học cần được thiết kế để tối đa hóa khả năng tiếp cận thông tin cho học sinh khiếm thính.
+			</p>
+			<p class="text-black leading-relaxed pl-4">• Sắp xếp chỗ ngồi: Đảm bảo học sinh có thể nhìn thấy giáo viên và bảng một cách rõ ràng</p>
+			<p class="text-black leading-relaxed pl-4">• Giảm thiểu tiếng ồn nền: Sử dụng vật liệu hấp thụ âm thanh, thảm trải sàn để giảm tiếng vang</p>
+			<p class="text-black leading-relaxed pl-4">• Ánh sáng đầy đủ: Đảm bảo ánh sáng đủ để học sinh đọc được khẩu hình và ngôn ngữ cơ thể</p>
+			<p class="text-black leading-relaxed pl-4">• Hệ thống FM: Sử dụng hệ thống FM để truyền âm thanh trực tiếp đến máy trợ thính của học sinh</p>
+
+			<p class="text-black font-bold leading-relaxed mt-4">
+			3. Điều chỉnh phương pháp giao tiếp
+			</p>
+			<p class="text-black leading-relaxed">
+			Giáo viên cần điều chỉnh cách thức giao tiếp để đảm bảo thông tin được truyền đạt hiệu quả.
+			</p>
+			<p class="text-black leading-relaxed pl-4">• Nói chậm và rõ ràng: Duy trì tốc độ nói vừa phải, phát âm rõ ràng</p>
+			<p class="text-black leading-relaxed pl-4">• Sử dụng ngôn ngữ cơ thể: Kết hợp cử chỉ, biểu cảm khuôn mặt để làm rõ thông điệp</p>
+			<p class="text-black leading-relaxed pl-4">• Cung cấp tài liệu trước: Cho học sinh tiếp cận với tài liệu giảng dạy trước giờ học để chuẩn bị</p>
+			<p class="text-black leading-relaxed pl-4">• Kiểm tra sự hiểu biết: Thường xuyên đảm bảo học sinh hiểu nội dung bằng cách đặt câu hỏi</p>
+
+			<p class="text-black font-bold leading-relaxed mt-4">
+			4. Trợ giúp giao tiếp chuyên nghiệp
+			</p>
+			<p class="text-black leading-relaxed">
+			Tùy thuộc vào nhu cầu của học sinh, các dịch vụ hỗ trợ chuyên nghiệp có thể được cung cấp:
+			</p>
+			<p class="text-black leading-relaxed pl-4">• Phiên dịch ngôn ngữ ký hiệu: Dịch nội dung lớp học sang ngôn ngữ ký hiệu</p>
+			<p class="text-black leading-relaxed pl-4">• Người ghi chép: Cung cấp bản ghi chép chi tiết về nội dung bài giảng</p>
+			<p class="text-black leading-relaxed pl-4">• Phụ đề thời gian thực: Sử dụng công nghệ chuyển lời nói thành văn bản hiển thị trên màn hình</p>
+			<p class="text-black font-bold leading-relaxed mt-6">
+			Các phương pháp giáo dục trẻ khiếm thính
+			</p>
+
+			<p class="text-black font-bold leading-relaxed mt-4">
+			1. Phương pháp thính-khẩu (Auditory-Verbal)
+			</p>
+			<p class="text-black leading-relaxed">
+			Phương pháp này tập trung vào việc phát triển kỹ năng nghe và nói thông qua việc sử dụng công nghệ trợ thính.
+			</p>
+			<p class="text-black font-semibold leading-relaxed">Đặc điểm:</p>
+			<ul class="list-disc pl-6 text-black leading-relaxed">
+			<li>Nhấn mạnh vào việc sử dụng thính giác còn lại để học ngôn ngữ nói</li>
+			<li>Hạn chế sử dụng gợi ý trực quan và đọc khẩu hình</li>
+			<li>Khuyến khích phụ huynh tham gia tích cực vào quá trình giáo dục</li>
+			<li>Hướng tới hòa nhập trong môi trường người nghe</li>
+			</ul>
+			<p class="text-black font-semibold leading-relaxed">Phù hợp với:</p>
+			<ul class="list-disc pl-6 text-black leading-relaxed">
+			<li>Trẻ được can thiệp sớm, được cấy ốc tai điện tử hoặc máy trợ thính hiệu quả</li>
+			<li>Gia đình có điều kiện và cam kết hỗ trợ mạnh mẽ</li>
+			</ul>
+
+			<p class="text-black font-bold leading-relaxed mt-4">
+			2. Phương pháp song ngữ-song văn hóa
+			</p>
+			<p class="text-black leading-relaxed">
+			Phương pháp này xem ngôn ngữ ký hiệu là ngôn ngữ đầu tiên và ngôn ngữ viết của người nghe là ngôn ngữ thứ hai.
+			</p>
+			<p class="text-black font-semibold leading-relaxed">Đặc điểm:</p>
+			<ul class="list-disc pl-6 text-black leading-relaxed">
+			<li>Sử dụng ngôn ngữ ký hiệu làm phương tiện giảng dạy chính</li>
+			<li>Phát triển kỹ năng đọc viết thông qua so sánh ngôn ngữ ký hiệu và ngôn ngữ viết</li>
+			<li>Đề cao văn hóa Điếc và bản sắc cộng đồng người khiếm thính</li>
+			<li>Tạo môi trường giao tiếp tự nhiên thông qua ngôn ngữ ký hiệu</li>
+			</ul>
+			<p class="text-black font-semibold leading-relaxed">Phù hợp với:</p>
+			<ul class="list-disc pl-6 text-black leading-relaxed">
+			<li>Trẻ khiếm thính nặng đến sâu</li>
+			<li>Gia đình sẵn sàng học và sử dụng ngôn ngữ ký hiệu</li>
+			<li>Trẻ có tiếp xúc với cộng đồng người khiếm thính</li>
+			</ul>
+
+			<p class="text-black font-bold leading-relaxed mt-4">
+			3. Phương pháp giao tiếp tổng hợp
+			</p>
+			<p class="text-black leading-relaxed">
+			Đây là phương pháp linh hoạt, kết hợp nhiều phương tiện giao tiếp khác nhau để tối đa hóa khả năng tiếp cận thông tin.
+			</p>
+			<p class="text-black font-semibold leading-relaxed">Đặc điểm:</p>
+			<ul class="list-disc pl-6 text-black leading-relaxed">
+			<li>Kết hợp ngôn ngữ nói, ngôn ngữ ký hiệu, đọc khẩu hình, cử chỉ</li>
+			<li>Sử dụng phương tiện giao tiếp phù hợp với từng tình huống cụ thể</li>
+			<li>Chủ trương tiếp cận hiệu quả giao tiếp hơn là phương pháp cụ thể</li>
+			<li>Linh hoạt thích ứng với nhu cầu thay đổi của trẻ</li>
+			</ul>
+			<p class="text-black font-semibold leading-relaxed">Phù hợp với:</p>
+			<ul class="list-disc pl-6 text-black leading-relaxed">
+			<li>Đa dạng đối tượng trẻ khiếm thính</li>
+			<li>Môi trường giáo dục đa dạng, linh hoạt</li>
+			<li>Trẻ có khả năng thích nghi với nhiều phương thức giao tiếp</li>
+			</ul>
+
+			<p class="text-black font-bold leading-relaxed mt-6">
+			Chương trình giáo dục cá nhân hóa (IEP)
+			</p>
+			<p class="text-black leading-relaxed">
+			Một yếu tố quan trọng trong giáo dục trẻ khiếm thính là Chương trình Giáo dục Cá nhân hóa (Individualized Education Program - IEP). Đây là kế hoạch giáo dục được thiết kế riêng cho từng học sinh, dựa trên nhu cầu, khả năng và mục tiêu phát triển cụ thể.
+			</p>
+			<p class="text-black font-bold leading-relaxed mt-6">
+			Các thành phần của IEP
+			</p>
+			<ul class="list-disc pl-6 text-black leading-relaxed">
+			<li>Đánh giá hiện trạng: Xác định mức độ phát triển hiện tại của trẻ về ngôn ngữ, học tập, xã hội</li>
+			<li>Mục tiêu dài hạn và ngắn hạn: Thiết lập các mục tiêu cụ thể, đo lường được</li>
+			<li>Phương pháp giảng dạy: Xác định phương pháp giảng dạy phù hợp nhất cho trẻ</li>
+			<li>Dịch vụ hỗ trợ: Liệt kê các dịch vụ bổ sung cần thiết (trị liệu ngôn ngữ, phiên dịch...)</li>
+			<li>Đánh giá tiến bộ: Phương pháp theo dõi và đánh giá tiến bộ của trẻ</li>
+			<li>Kế hoạch chuyển tiếp: Chuẩn bị cho các giai đoạn học tập tiếp theo</li>
+			</ul>
+
+			<p class="text-black font-bold leading-relaxed mt-6">
+			Quy trình xây dựng IEP
+			</p>
+			<ul class="list-disc pl-6 text-black leading-relaxed">
+			<li>Họp đa chuyên ngành: Gồm giáo viên, chuyên gia giáo dục đặc biệt, phụ huynh, và khi phù hợp, có sự tham gia của học sinh</li>
+			<li>Đánh giá toàn diện: Sử dụng các phương pháp đánh giá khác nhau để hiểu rõ nhu cầu của trẻ</li>
+			<li>Thiết kế chương trình: Xây dựng kế hoạch giáo dục dựa trên kết quả đánh giá</li>
+			<li>Thực hiện và giám sát: Triển khai kế hoạch và thường xuyên đánh giá hiệu quả</li>
+			<li>Điều chỉnh khi cần thiết: Linh hoạt điều chỉnh IEP dựa trên tiến bộ của trẻ</li>
+			</ul>
+
+			<p class="text-black font-bold leading-relaxed mt-6">
+			Vai trò của công nghệ trong giáo dục trẻ khiếm thính
+			</p>
+			<p class="text-black font-bold leading-relaxed mt-4">
+			1. Công nghệ hỗ trợ trong lớp học
+			</p>
+			<ul class="list-disc pl-6 text-black leading-relaxed">
+			<li>Hệ thống vòng cảm ứng từ: Truyền âm thanh trực tiếp đến máy trợ thính của học sinh, giảm thiểu tiếng ồn nền</li>
+			<li>Hệ thống FM: Giúp học sinh nghe rõ giọng nói của giáo viên dù ở bất kỳ vị trí nào trong lớp</li>
+			<li>Phần mềm chuyển lời nói thành văn bản: Tạo phụ đề thời gian thực cho các bài giảng</li>
+			<li>Bảng tương tác thông minh: Cho phép trình chiếu bài giảng với hình ảnh, văn bản và video</li>
+			</ul>
+
+			<p class="text-black font-bold leading-relaxed mt-4">
+			2. Ứng dụng học tập và phần mềm chuyên biệt
+			</p>
+			<ul class="list-disc pl-6 text-black leading-relaxed">
+			<li>Ứng dụng học ngôn ngữ ký hiệu: Giúp cả giáo viên và học sinh học và thực hành ngôn ngữ ký hiệu</li>
+			<li>Phần mềm trực quan hóa âm thanh: Chuyển đổi âm thanh thành biểu đồ trực quan giúp học sinh khiếm thính cảm nhận âm thanh</li>
+			<li>Sách điện tử tương tác: Kết hợp văn bản, hình ảnh, video có phụ đề và diễn giải ngôn ngữ ký hiệu</li>
+			<li>Nền tảng học tập trực tuyến: Cung cấp tài nguyên giáo dục với nhiều định dạng tiếp cận khác nhau</li>
+			</ul>
+			<p class="text-black font-bold leading-relaxed mt-6">
+			3. Đánh giá và theo dõi tiến bộ
+			</p>
+			<p class="text-black leading-relaxed">
+			Đánh giá đóng vai trò quan trọng trong quá trình giáo dục trẻ khiếm thính, giúp xác định hiệu quả của phương pháp giảng dạy và điều chỉnh kịp thời.
+			</p>
+
+			<p class="text-black font-bold leading-relaxed mt-4">
+			Nguyên tắc đánh giá
+			</p>
+			<ul class="list-disc pl-6 text-black leading-relaxed">
+			<li>Đa dạng phương pháp: Sử dụng nhiều phương pháp đánh giá khác nhau để có cái nhìn toàn diện</li>
+			<li>Tính tiếp cận: Đảm bảo phương pháp đánh giá không tạo ra bất lợi cho học sinh khiếm thính</li>
+			<li>Đánh giá liên tục: Theo dõi tiến bộ thường xuyên, không chỉ dựa vào các kỳ thi chính thức</li>
+			<li>Đánh giá toàn diện: Xem xét cả kỹ năng học thuật và kỹ năng giao tiếp xã hội</li>
+			</ul>
+
+			<p class="text-black font-bold leading-relaxed mt-4">
+			Phương pháp đánh giá phù hợp
+			</p>
+			<ul class="list-disc pl-6 text-black leading-relaxed">
+			<li>Bài tập thực hành: Đánh giá thông qua các dự án, bài tập thực tế</li>
+			<li>Portfolio: Tập hợp các sản phẩm học tập của học sinh theo thời gian</li>
+			<li>Đánh giá dựa trên quan sát: Ghi chép và phân tích hành vi, tương tác của học sinh</li>
+			<li>Tự đánh giá: Khuyến khích học sinh tham gia vào quá trình đánh giá học tập của mình</li>
+			<li>Điều chỉnh bài kiểm tra: Cung cấp thêm thời gian, sử dụng ngôn ngữ đơn giản, rõ ràng</li>
+			</ul>
+			<p class="text-black font-bold leading-relaxed mt-6">
+			Hợp tác giữa nhà trường và gia đình
+			</p>
+			<p class="text-black leading-relaxed">
+			Sự hợp tác chặt chẽ giữa nhà trường và gia đình là yếu tố then chốt quyết định thành công trong giáo dục trẻ khiếm thính.
+			</p>
+
+			<p class="text-black font-bold leading-relaxed mt-4">
+			1. Vai trò của gia đình
+			</p>
+			<ul class="list-disc pl-6 text-black leading-relaxed">
+			<li>Môi trường ngôn ngữ phong phú: Tạo môi trường giao tiếp tích cực tại nhà</li>
+			<li>Củng cố kiến thức: Hỗ trợ học sinh thực hành và áp dụng kiến thức đã học</li>
+			<li>Phát triển kỹ năng xã hội: Tạo cơ hội cho trẻ tương tác với nhiều đối tượng khác nhau</li>
+			<li>Hỗ trợ tiếp cận: Đảm bảo trẻ nhận được các dịch vụ hỗ trợ cần thiết</li>
+			</ul>
+
+			<p class="text-black font-bold leading-relaxed mt-4">
+			2. Chiến lược thúc đẩy hợp tác
+			</p>
+			<ul class="list-disc pl-6 text-black leading-relaxed">
+			<li>Giao tiếp thường xuyên: Tạo các kênh giao tiếp hai chiều giữa giáo viên và phụ huynh</li>
+			<li>Hội thảo cho phụ huynh: Cung cấp kiến thức và kỹ năng hỗ trợ con tại nhà</li>
+			<li>Tham dự phụ huynh tham gia lớp học: Cho phép phụ huynh quan sát và tham gia vào các hoạt động học tập</li>
+			<li>Báo cáo tiến bộ chi tiết: Cung cấp thông tin cụ thể về thành tích và thách thức của trẻ</li>
+			</ul>
+
+			<p class="text-black font-bold leading-relaxed mt-4">
+			3. Chuẩn bị cho tương lai
+			</p>
+			<p class="text-black leading-relaxed">
+			Giáo dục đúng cách cho trẻ khiếm thính không chỉ dừng lại ở việc hỗ trợ học tập hiện tại mà còn chuẩn bị cho trẻ kỹ năng cần thiết trong tương lai.
+			</p>
+
+			<p class="text-black font-bold leading-relaxed mt-4">
+			Phát triển kỹ năng độc lập
+			</p>
+			<ul class="list-disc pl-6 text-black leading-relaxed">
+			<li>Tự vận động: Dạy trẻ cách tự vận động cho nhu cầu của mình</li>
+			<li>Quản lý công nghệ hỗ trợ: Hướng dẫn trẻ cách sử dụng và bảo quản các thiết bị hỗ trợ</li>
+			<li>Kỹ năng giải quyết vấn đề: Phát triển khả năng đối mặt với thách thức trong giao tiếp</li>
+			</ul>
+
+			<p class="text-black font-bold leading-relaxed mt-4">
+			Chuẩn bị cho giáo dục đại học và nghề nghiệp
+			</p>
+			<ul class="list-disc pl-6 text-black leading-relaxed">
+			<li>Định hướng nghề nghiệp sớm: Giới thiệu các lựa chọn nghề nghiệp phù hợp</li>
+			<li>Kỹ năng sống tự lập: Phát triển các kỹ năng cần thiết cho cuộc sống độc lập</li>
+			<li>Tư vấn và kết nối: Cung cấp thông tin về các chương trình hỗ trợ tại đại học</li>
+			<li>Thực tập và tình nguyện: Tạo cơ hội trải nghiệm môi trường làm việc thực tế</li>
+			</ul>
+
+			<p class="text-black font-bold leading-relaxed mt-4">
+			Kết luận
+			</p>
+			<p class="text-black leading-relaxed">
+			Giáo dục đúng cách cho trẻ khiếm thính đòi hỏi một phương pháp tiếp cận toàn diện, cá nhân hóa và linh hoạt. Không có một mô hình hay phương pháp “một kích cỡ phù hợp cho tất cả”, thay vào đó, chúng ta cần đánh giá cẩn thận nhu cầu cụ thể của từng trẻ và thiết kế chương trình giáo dục phù hợp.
+			</p>
+			<p class="text-black leading-relaxed">
+			Sự kết hợp giữa môi trường học tập tiếp cận, phương pháp giảng dạy hiệu quả, công nghệ hỗ trợ phù hợp và sự hợp tác chặt chẽ giữa nhà trường và gia đình sẽ tạo nên nền tảng vững chắc để trẻ khiếm thính phát triển toàn diện. Mục tiêu cuối cùng không chỉ là thành tích học tập mà còn là việc trang bị cho trẻ những kỹ năng và sự tự tin cần thiết để trở thành những công dân độc lập, thành công và đóng góp cho xã hội.
+			</p>
+
+		`,
+	},
+	{
+		image: '/image/giao-duc-dac-biet/item-3.jpg',
+		name: 'Ngôn ngữ ký hiệu: Phương tiện giao tiếp',
+		note: 'Ngôn ngữ ký hiệu là một phương tiện giao tiếp quan trọng cho cộng đồng người khiếm thính trên toàn thế giới.',
+		slug: 'ngon-ngu-ky-hieu-phuong-tien-giao-tiep',
+		descript: `
+			<p class="text-black font-bold leading-relaxed mt-6">
+			Giới thiệu
+			</p>
+			<p class="text-black leading-relaxed">
+			Ngôn ngữ ký hiệu (NNKH) là công cụ giao tiếp đặc thù và quan trọng nhất đối với người khiếm thính. Đây không chỉ là phương tiện truyền đạt thông tin mà còn là chìa khóa giúp phát triển tư duy, trí tuệ và khả năng hòa nhập xã hội của người khiếm thính.
+			</p>
+
+			<p class="text-black font-bold leading-relaxed mt-4">
+			Quá trình hình thành và phát triển ngôn ngữ ký hiệu
+			</p>
+			<p class="text-black leading-relaxed">
+			Ngôn ngữ ký hiệu không phải là ngôn ngữ phụ trợ mà là ngôn ngữ tự nhiên, bẩm sinh của cộng đồng người điếc. Qua nhiều thế kỷ, NNKH đã trải qua quá trình hình thành và phát triển phức tạp, trở thành hệ thống biểu đạt toàn diện, phong phú và có cấu trúc ngữ pháp riêng biệt.
+			</p>
+			<p class="text-black leading-relaxed">
+			Ở Việt Nam, các ký hiệu được sử dụng có sự khác biệt vùng miền, nhưng hiện nay đã có dự thảo chuẩn quốc gia về ngôn ngữ ký hiệu nhằm thống nhất và phát triển hệ thống này trên toàn quốc.
+			</p>
+	  		<img src="/image/giao-duc-dac-biet/post-3/post-1.jpg" class="text-black mb-2 mt-5 leading-relaxed w-full"/>
+			<p class="text-black font-bold leading-relaxed mt-6">
+			Vai trò của ngôn ngữ ký hiệu trong giáo dục và phát triển người khiếm thính
+			</p>
+			<p class="text-black leading-relaxed">
+			Ngôn ngữ có vai trò cực kỳ quan trọng trong sự phát triển trí tuệ và khả năng nhận thức của con người. Với người khiếm thính, nếu không được tiếp xúc và học NNKH sớm, não bộ sẽ không có ngôn ngữ để phát triển các chức năng tư duy trừu tượng, lưu giữ ký ức và tư nhận thức, dẫn đến những hạn chế về trí tuệ và khả năng học tập.
+			</p>
+			<p class="text-black leading-relaxed">
+			Trước đây, phương pháp dạy người khiếm thính chủ yếu dựa vào khẩu hình (đọc môi) kéo dài gần 100 năm, nhưng đã được thay thế bằng chương trình “song ngữ” – người khiếm thính học ngôn ngữ ký hiệu như ngôn ngữ chính và khẩu hình như ngôn ngữ thứ hai. Điều này giúp người khiếm thính phát triển toàn diện hơn về ngôn ngữ và giao tiếp.
+			</p>
+
+			<p class="text-black font-bold leading-relaxed mt-4">
+			Phương pháp dạy và học ngôn ngữ ký hiệu
+			</p>
+			<p class="text-black leading-relaxed">
+			Việc dạy ngôn ngữ ký hiệu cho trẻ khiếm thính cần được thực hiện từ sớm, trong môi trường giáo dục chuyên biệt hoặc hòa nhập với sự hỗ trợ của giáo viên chuyên môn. Giáo viên sử dụng ngôn ngữ ký hiệu kết hợp khẩu hình và hình ảnh minh họa để giúp trẻ tiếp thu hiệu quả.
+			</p>
+			<p class="text-black leading-relaxed">
+			Ngoài ra, việc phụ huynh học ngôn ngữ ký hiệu để giao tiếp với con cũng rất quan trọng, tạo môi trường giao tiếp tích cực và giúp trẻ phát triển kỹ năng ngôn ngữ nhanh hơn.
+			</p>
+
+			<p class="text-black font-bold leading-relaxed mt-4">
+			Lợi ích của ngôn ngữ ký hiệu
+			</p>
+			<ul class="list-disc pl-6 text-black leading-relaxed">
+			<li>Phát triển tư duy trí tuệ: NNKH là ngôn ngữ có cấu trúc ngữ pháp hoàn chỉnh, giúp người khiếm thính phát triển khả năng tư duy trừu tượng và trí nhớ.</li>
+			<li>Giao tiếp hiệu quả: Giúp người khiếm thính truyền đạt ý tưởng, cảm xúc và nhu cầu một cách rõ ràng, đầy đủ.</li>
+			<li>Hòa nhập xã hội: Người khiếm thính có thể tham gia các hoạt động xã hội, học tập và làm việc hiệu quả hơn.</li>
+			<li>Tăng sự tự tin và liên kết: Ngôn ngữ ký hiệu giúp giảm cảm giác cô lập, tăng sự tự tin và cải thiện chất lượng cuộc sống.</li>
+			</ul>
+
+		`,
+	},
+	{
+		image: '/image/giao-duc-dac-biet/item-4.jpg',
+		name: 'Tác động của máy trợ thính trong cuộc sống',
+		note: 'Máy trợ thính đã trở thành một phần quan trọng trong cuộc sống hàng ngày của những người gặp khó khăn về thính giác.',
+		slug: 'tac-dong-cua-may-tro-thinh-trong-cuoc-song',
+		descript: `
+			<p class="text-black font-bold leading-relaxed mt-6">
+			Giới thiệu
+			</p>
+			<p class="text-black leading-relaxed">
+			Mất thính lực là một trong những khiếm khuyết phổ biến ảnh hưởng đến hàng triệu người trên thế giới, trong đó có Việt Nam. Người khiếm thính thường gặp khó khăn trong giao tiếp, học tập, làm việc và hòa nhập xã hội. Máy trợ thính ra đời như một giải pháp công nghệ hiệu quả, giúp cải thiện khả năng nghe và nâng cao chất lượng cuộc sống cho người khiếm thính. Bài viết này sẽ phân tích sâu về tác động của máy trợ thính trong cuộc sống, từ khía cạnh y tế, xã hội đến tâm lý.
+			</p>
+
+			<p class="text-black font-bold leading-relaxed mt-4">
+			1. Máy trợ thính là gì?
+			</p>
+			<p class="text-black leading-relaxed">
+			Máy trợ thính là thiết bị điện tử nhỏ gọn, được thiết kế để khuếch đại âm thanh, giúp người bị mất thính lực nghe rõ hơn. Máy gồm các bộ phận chính như micro, bộ xử lý âm thanh, loa và pin. Khi âm thanh được thu vào micro, nó sẽ được xử lý và khuếch đại trước khi truyền đến tai người dùng.
+			</p>
+			<p class="text-black leading-relaxed">
+			Có nhiều loại máy trợ thính khác nhau, phù hợp với các mức độ mất thính lực từ nhẹ đến nặng, bao gồm:
+			</p>
+			<ul class="list-disc pl-6 text-black leading-relaxed">
+			<li>Máy trợ thính đeo sau tai (BTE)</li>
+			<li>Máy trợ thính đeo trong tai (ITE)</li>
+			<li>Máy trợ thính đeo sâu trong ống tai (CIC)</li>
+			<li>Máy trợ thính kỹ thuật số và analog</li>
+			</ul>
+
+			<p class="text-black font-bold leading-relaxed mt-4">
+			2. Tác động tích cực của máy trợ thính đối với người khiếm thính
+			</p>
+			<p class="text-black font-bold leading-relaxed mt-2">
+			2.1 Cải thiện khả năng nghe và giao tiếp
+			</p>
+			<p class="text-black leading-relaxed">
+			Máy trợ thính giúp khuếch đại âm thanh, làm rõ tiếng nói và âm thanh môi trường, từ đó giúp người khiếm thính nghe được các cuộc trò chuyện, tiếng chuông, tiếng còi xe, tiếng báo động... Điều này đặc biệt quan trọng trong các tình huống giao tiếp hằng ngày, giúp người dùng tham gia tích cực hơn vào các hoạt động xã hội, học tập và làm việc.
+			</p>
+			<p class="text-black leading-relaxed">
+			Nghiên cứu cho thấy, người khiếm thính sử dụng máy trợ thính có khả năng hiểu lời nói tăng lên đáng kể, từ đó giảm thiểu sự hiểu nhầm và cảm giác bị cô lập.
+			</p>
+
+			<p class="text-black font-bold leading-relaxed mt-2">
+			2.2 Tăng sự tự tin và hòa nhập xã hội
+			</p>
+			<p class="text-black leading-relaxed">
+			Khi nghe rõ hơn, người khiếm thính cảm thấy tự tin hơn trong giao tiếp và các mối quan hệ xã hội. Họ có thể tham gia các cuộc họp, hội thảo, sự kiện cộng đồng mà không còn lo lắng về việc bị bỏ lỡ thông tin quan trọng. Điều này giúp nâng cao chất lượng cuộc sống, giảm cảm giác cô đơn và tăng sự hài lòng với cuộc sống.
+			</p>
+
+			<p class="text-black font-bold leading-relaxed mt-2">
+			2.3 Bảo vệ sức khỏe tinh thần và não bộ
+			</p>
+			<p class="text-black leading-relaxed">
+			Mất thính lực không được hỗ trợ có thể dẫn đến các vấn đề về sức khỏe tinh thần như trầm cảm, lo âu và suy giảm nhận thức. Việc sử dụng máy trợ thính giúp duy trì khả năng nghe và kích thích hoạt động não bộ liên quan đến xử lý âm thanh, từ đó giảm nguy cơ suy giảm trí nhớ và các bệnh lý thần kinh khác.
+			</p>
+			<p class="text-black mt-2 leading-relaxed">
+			Nghiên cứu cho thấy, người khiếm thính sử dụng máy trợ thính có khả năng hiểu lời nói tăng lên đáng kể, từ đó giảm thiểu sự hiểu nhầm và cảm giác bị cô lập.
+			</p>
+			<p class="text-black font-bold leading-relaxed mt-2">
+			2.4 An toàn trong cuộc sống hằng ngày
+			</p>
+			<p class="text-black leading-relaxed">
+			Người khiếm thính có thể gặp nguy hiểm khi không nghe được các tín hiệu cảnh báo như tiếng còi xe, chuông báo cháy, tiếng trẻ em khóc... Máy trợ thính giúp họ nhận biết kịp thời các tín hiệu này, từ đó phòng tránh tai nạn và đảm bảo an toàn cho bản thân.
+			</p>
+	  		<img src="/image/giao-duc-dac-biet/post-4/post-1.jpg" class="text-black mb-2 h-[476px] object-cover mt-5 leading-relaxed w-full"/>
+			<p class="text-black font-bold leading-relaxed mt-6">
+			3. Sử dụng máy trợ thính hiệu quả
+			</p>
+
+			<p class="text-black font-bold leading-relaxed mt-4">
+			3.1 Lựa chọn máy trợ thính phù hợp
+			</p>
+			<p class="text-black leading-relaxed">
+			Việc lựa chọn máy trợ thính cần dựa trên mức độ mất thính lực, nhu cầu sử dụng và điều kiện kinh tế của người dùng. Các bác sĩ chuyên khoa tai mũi họng và kỹ thuật viên thính học sẽ tiến hành đo thính lực, tư vấn và thử máy để chọn thiết bị phù hợp nhất.
+			</p>
+
+			<p class="text-black font-bold leading-relaxed mt-4">
+			3.2 Điều chỉnh và bảo trì máy trợ thính
+			</p>
+			<p class="text-black leading-relaxed">
+			Máy trợ thính cần được điều chỉnh âm lượng, tần số phù hợp với từng người để đảm bảo hiệu quả tối ưu. Người dùng cũng cần bảo trì định kỳ, vệ sinh máy sạch sẽ, thay pin đúng lúc để tránh hỏng hóc và duy trì chất lượng âm thanh.
+			</p>
+
+			<p class="text-black font-bold leading-relaxed mt-4">
+			3.3 Tập luyện nghe và giao tiếp
+			</p>
+			<p class="text-black leading-relaxed">
+			Người khiếm thính cần luyện tập nghe và giao tiếp thường xuyên để làm quen với âm thanh khuếch đại và phát triển kỹ năng giao tiếp. Các chương trình đào tạo, nhóm hỗ trợ và các lớp học kỹ năng giao tiếp có thể giúp người dùng tận dụng tối đa lợi ích của máy trợ thính.
+			</p>
+
+			<p class="text-black font-bold leading-relaxed mt-6">
+			4. Những thách thức và giải pháp
+			</p>
+
+			<p class="text-black font-bold leading-relaxed mt-4">
+			4.1 Chi phí và khả năng tiếp cận
+			</p>
+			<p class="text-black leading-relaxed">
+			Máy trợ thính có giá thành khá cao, gây khó khăn cho nhiều người khiếm thính, đặc biệt ở vùng nông thôn và các gia đình có thu nhập thấp. Chính phủ và các tổ chức xã hội cần có chính sách hỗ trợ tài chính, cung cấp máy trợ thính miễn phí hoặc giá ưu đãi để mở rộng khả năng tiếp cận.
+			</p>
+
+			<p class="text-black font-bold leading-relaxed mt-4">
+			4.2 Thiếu kiến thức và hỗ trợ kỹ thuật
+			</p>
+			<p class="text-black leading-relaxed">
+			Nhiều người khiếm thính và gia đình chưa hiểu rõ về cách sử dụng và bảo quản máy trợ thính. Việc đào tạo, tư vấn và hỗ trợ kỹ thuật cần được tăng cường tại các trung tâm y tế và cộng đồng.
+			</p>
+
+			<p class="text-black font-bold leading-relaxed mt-4">
+			4.3 Tâm lý e ngại và định kiến xã hội
+			</p>
+			<p class="text-black leading-relaxed">
+			Một số người khiếm thính ngại sử dụng máy trợ thính vì sợ bị phân biệt hoặc cảm thấy tự ti. Cần đẩy mạnh tuyên truyền nâng cao nhận thức cộng đồng về lợi ích của máy trợ thính và sự bình đẳng đối với người khuyết tật.
+			</p>
+
+			<p class="text-black font-bold leading-relaxed mt-6">
+			Kết luận
+			</p>
+			<p class="text-black leading-relaxed">
+			Máy trợ thính là công cụ hỗ trợ quan trọng giúp người khiếm thính cải thiện khả năng nghe, nâng cao chất lượng cuộc sống và hòa nhập xã hội. Việc lựa chọn, sử dụng và bảo trì máy trợ thính đúng cách kết hợp với sự hỗ trợ từ gia đình, nhà trường và cộng đồng sẽ mang lại hiệu quả tối ưu. Đồng thời, cần có chính sách hỗ trợ toàn diện để mọi người khiếm thính đều có cơ hội tiếp cận công nghệ này, góp phần xây dựng xã hội hòa nhập, bình đẳng và phát triển.
+			</p>
+		`,
+	},
+]

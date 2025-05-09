@@ -15,7 +15,7 @@ interface CourseGridProps {
   courses: Course[];
 }
 
-export default function CourseGrid({ courses, path, title }: any) {
+export default function CourseGrid({ courses, path, title, status }: any) {
   const [searchTerm, setSearchTerm] = useState('');
   const [dataRender, setDataRender] = useState(courses)
   const defaultData = courses as any[]
@@ -62,19 +62,22 @@ export default function CourseGrid({ courses, path, title }: any) {
               <div className="p-6">
                 <h3 className="text-[20px] font-semibold text-[#111827] line-clamp-1">{course.title}</h3>
                 <p className="mt-2 text-[#6B7280] text-sm">
-                  Ngày kết thúc: 14.05.25
+                  {status ? status : 'Ngày kết thúc: 14.05.25'} 
                 </p>
                 <div className="mt-4 flex items-center gap-2">
-                  <div className="w-6 h-6 rounded-full bg-[#F3F4F6] overflow-hidden flex items-center justify-center">
+                  <div className="rounded-full bg-[#F3F4F6] overflow-hidden flex items-center justify-center">
                     <Image
                       src={course.organization[0].img}
                       alt="Foundation Icon"
-                      width={16}
-                      height={16}
-                      className="object-contain"
+                      width={48}
+                      height={48}
+                      className="object-contain w-12 h-12 min-w-12"
                     />
                   </div>
-                  <span className="text-[#4B5563] text-sm line-clamp-1">{course.organization[0].title}</span>
+                  <div className='flex-1'>
+                    <span className='text-[10px] font-normal text-[#70747D]'>Đơn vị tổ chức</span>
+                    <span className="text-[#111827] text-lg font-normal line-clamp-2">{course.organization[0].title}</span>
+                  </div>
                 </div>
               </div>
             </div>

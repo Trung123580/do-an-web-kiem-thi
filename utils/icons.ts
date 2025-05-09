@@ -15,6 +15,7 @@ import { FaCommentSlash, FaFacebookSquare, FaGithubSquare, FaTwitterSquare, FaIn
 import { FaHeart, FaGooglePlusSquare } from "react-icons/fa" // heart full
 import { FaSquareXTwitter } from "react-icons/fa6"
 import { MdDateRange } from "react-icons/md"
+import { FaArrowRight } from "react-icons/fa6";
 export {
   MdDateRange,
   IoMenu,
@@ -60,4 +61,5 @@ export {
   LuRectangleHorizontal,
   AiOutlineFullscreen,
   AiOutlineFullscreenExit,
+  FaArrowRight
 }

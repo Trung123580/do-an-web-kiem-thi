@@ -18,13 +18,13 @@ export default function page() {
               Giáo dục
             </Link>
             <span className="mx-2 text-2xl text-black">&gt;</span>
-            <span className="text-[#3A63ED]">Kỹ Năng Mềm</span>
+            <span className="text-[#3A63ED]">Kỹ năng mềm</span>
           </div>
         </div>
       </nav>
 
       {/* Course grid */}
-      <CourseGrid courses={kynangmem} path="ky-nang-mem" title="Kỹ Năng Mềm" />
+      <CourseGrid courses={kynangmem} status={'Trực tiếp'} path="ky-nang-mem" title="Kỹ năng mềm" />
     </section>
   );
 }
