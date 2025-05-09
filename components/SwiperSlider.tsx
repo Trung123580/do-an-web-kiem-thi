@@ -78,8 +78,8 @@ export default function Slider() {
             }
 
             return (
-              <Link key={idx} href={`/giao-duc/ngon-ngu-ky-hieu/bo-tu-vung/${item.router}`} className={clsx("absolute right-0 w-2/3 transition-transform duration-700 h-full flex flex-row bg-white gap-7 p-4 rounded-2xl mx-11 ", transform, `${pos === items.length ? "shadow-[0_4px_6px_rgba(0,0,0,0.1),0_-4px_6px_rgba(0,0,0,0.1),4px_0_6px_rgba(0,0,0,0.1),-4px_0_6px_rgba(0,0,0,0.1)]" : ""}`)} style={{ zIndex }}>
-                <div className="w-full h-full basis-1/3">
+              <Link key={idx} href={`/giao-duc/ngon-ngu-ky-hieu/bo-tu-vung/${item.router}`} className={clsx("absolute right-12 w-2/3 transition-transform duration-700 h-full flex flex-row bg-white gap-7 p-4 rounded-2xl mx-11 ", transform, `${pos === items.length ? "shadow-[0_4px_6px_rgba(0,0,0,0.1),0_-4px_6px_rgba(0,0,0,0.1),4px_0_6px_rgba(0,0,0,0.1),-4px_0_6px_rgba(0,0,0,0.1)]" : ""}`)} style={{ zIndex }}>
+                <div className="w-full h-full basis-[50%]">
                   <img src={item.src} alt="slider" className={clsx("object-cover h-full border-l border-white rounded-2xl", imgcss)} />
                 </div>
                 <div className="w-full h-full flex flex-col justify-center items-start basis-2/3">
@@ -90,15 +90,11 @@ export default function Slider() {
             );
           })}
         </div>
-        <button onClick={() => prev(items[items.length - 1].id)} className=" absolute top-1/2 left-4 rotate-180 translate-y-[-50%] z-10">
-          <svg className="w-8 h-8" viewBox="0 0 51.401 51.401">
-            <path d="M32.246,0V33.178L0,31.953" transform="translate(0.094 25.276) rotate(-45)" fill="none" stroke="#A0A3A9" strokeWidth={7} strokeMiterlimit={10} />
-          </svg>
+        <button onClick={() => prev(items[items.length - 1].id)} className="hover:bg-[#111827]/10 rounded-lg w-[72px] h-[72px] p-3 absolute top-1/2 left-0 rotate-180 translate-y-[-50%] z-10 flex justify-center items-center transition-all duration-300">
+          <img className='rotate-180' src="/image/arrowleft.png" alt="" />
         </button>
-        <button onClick={() => next(items[items.length - 1].id)} className="absolute top-1/2 right-0 translate-y-[-50%] z-10">
-          <svg className="w-8 h-8" viewBox="0 0 51.401 51.401">
-            <path d="M32.246,0V33.178L0,31.953" transform="translate(0.094 25.276) rotate(-45)" fill="none" stroke="#A0A3A9" strokeWidth={7} strokeMiterlimit={10} />
-          </svg>
+        <button onClick={() => next(items[items.length - 1].id)} className="hover:bg-[#111827]/10 rounded-lg w-[72px] h-[72px] absolute top-1/2 right-0 translate-y-[-50%] z-10 flex justify-center items-center  transition-all duration-300">
+          <img className='' src="/image/arrowright.png" alt="" />
         </button>
       </div>
     </div>
