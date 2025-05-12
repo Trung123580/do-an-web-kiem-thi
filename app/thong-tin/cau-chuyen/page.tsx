@@ -31,7 +31,7 @@ const page = () => {
                     playsInline
                 />
                 <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6 md:p-8 lg:p-16 text-white">
-                    <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold -tracking-tight leading-relaxed">Ước tính có khoảng 1,2 triệu người khiếm thính tại Việt Nam</h1>
+                    <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold -tracking-tight leading-relaxed">Ước tính có khoảng 2,5 triệu người khiếm thính tại Việt Nam</h1>
                     <p className="text-sm sm:text-base md:text-lg -tracking-tight leading-relaxed mt-2">Con số này phản ánh nhu cầu cấp thiết về sự hỗ trợ, đồng cảm và mỗi con số ẩn chứa cả một câu chuyện sống đầy thử thách.</p>
                 </div>
             </section>
