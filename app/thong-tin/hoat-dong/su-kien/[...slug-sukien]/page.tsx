@@ -26,13 +26,13 @@ export default function sukienDetailPage() {
     // })
   }
   return (
-    <div className="min-h-screen pb-16 py-16 pt-32 max-w-7xl mx-auto">
+    <div className="min-h-screen pb-16 py-16 pt-20 max-w-7xl mx-auto">
       <div className="container mx-auto">
         {step !== 3 && (
           <>
           <nav className="bg-white">
-          <div className="mx-auto">
-            <div className="flex items-center h-12 mb-8">
+          <div className="mx-auto  pb-6 pt-8">
+            <div className="flex items-center h-12">
               <Link
                 href="/thong-tin/hoat-dong"
                 className="text-[#A0A3A9] hover:text-gray-900"

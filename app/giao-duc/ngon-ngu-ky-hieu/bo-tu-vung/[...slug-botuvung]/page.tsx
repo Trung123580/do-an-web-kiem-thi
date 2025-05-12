@@ -62,8 +62,24 @@ export default async function page({ params }: { params: Params }) {
       });
   };
   return (
-    <div className="min-h-screen bg-gray-50 pt-24 pb-24 max-w-7xl mx-auto">
+    <div className="min-h-screen pt-20 pb-24 max-w-7xl mx-auto">
       <div className="container mx-auto px-4">
+      <nav className="bg-white pb-6 pt-8 max-w-7xl mx-auto relative">
+                <div className="mx-auto px-4">
+                    <div className="flex items-center ">
+                        <Link
+                            href="/giao-duc"
+                            className="text-[#A0A3A9] hover:text-gray-900 line-clamp-1"
+                        >
+                            Giáo dục
+                        </Link>
+                        <span className="mx-2 text-2xl text-black">&gt;</span>
+                        <Link href={'/giao-duc/ngon-ngu-ky-hieu'} className="text-[#A0A3A9] line-clamp-1">Ngôn ngữ ký hiệu</Link>
+                        <span className="mx-2 text-2xl text-black">&gt;</span>
+                        <span className="text-[#3A63ED] line-clamp-1">{boTuVungDetail?.title}</span>
+                    </div>
+                </div>
+          </nav>
         <div className="grid grid-cols-1 md:grid-cols-2 bg-[#F2F2F3] mb-8 h-auto md:h-[480px] rounded-2xl overflow-hidden">
           <div className="flex justify-evenly flex-col h-full p-6 md:p-8 lg:p-12">
             <div className="space-y-4 md:space-y-6">

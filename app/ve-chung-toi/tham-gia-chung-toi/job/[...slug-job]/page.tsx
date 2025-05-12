@@ -38,7 +38,7 @@ export default function JobDetailPage() {
               </Link>
               <span className='mx-2 text-2xl text-black'>&gt;</span>
               <span className={`${step === 2 || step === 3 ? "text-[#A0A3A9]" : "text-[#3A63ED]"}`}>{jobDetail?.titleDes}</span>
-              {step === 2 || step === 3 && (
+              {(step === 2 || step === 3) && (
                 <>
                   <span className='mx-2 text-2xl text-black'>&gt;</span>
                   <span className='text-[#3A63ED]'>Ứng tuyển</span>

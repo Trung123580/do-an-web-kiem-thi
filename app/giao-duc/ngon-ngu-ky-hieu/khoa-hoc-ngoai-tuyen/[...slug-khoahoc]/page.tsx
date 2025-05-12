@@ -100,10 +100,10 @@ export default function page() {
     if (!khoahocDetail.free) return
     router.push(`/giao-duc/ngon-ngu-ky-hieu/khoa-hoc-ngoai-tuyen/${khoahocDetail.slug}/${lecture}`)
   }
-  if (slug?.length === 2) return <Lesson />
+  if (slug?.length === 2) return <Lesson khoahocDetail={khoahocDetail}/>
   return (
     <>
-      <nav className='bg-white py-10 max-w-7xl mx-auto relative mt-20 '>
+      {step === 1 && <nav className='bg-white pb-6 pt-8 max-w-7xl mx-auto relative mt-20 '>
         <div className='mx-auto px-4'>
           <div className='flex items-center'>
             <Link href='/giao-duc/ngon-ngu-ky-hieu' className='text-[#A0A3A9] hover:text-gray-900 line-clamp-1'>
@@ -117,8 +117,8 @@ export default function page() {
             <span className='text-[#3A63ED] line-clamp-1'>{khoahocDetail?.title}</span>
           </div>
         </div>
-      </nav>
-      <div className='bg-[#D8E0FB] px-4'>
+      </nav>}
+      <div className='bg-[#D8E0FB] px-4 pt-20'>
         <div className='py-14 max-w-7xl mx-auto relative'>
           {step === 1 && <>
             <div className='mb-6'>
@@ -315,7 +315,7 @@ export default function page() {
               Thanh toán ngay
             </button>
           </div>
-        </form>ss
+        </form>
       </>}
       {step === 3 && <div className='py-14 max-w-7xl mx-auto relative p-10 space-y-6 h-[70dvh]'>
         <div className="flex flex-col items-center justify-center h-full text-center px-4">

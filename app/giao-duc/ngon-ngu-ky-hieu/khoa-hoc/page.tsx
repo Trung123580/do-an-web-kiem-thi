@@ -6,9 +6,9 @@ import { khoaHoc } from "@/utils/contanst";
 
 export default function CoursePage() {
   return (
-    <section className="max-w-7xl mx-auto px-4 md:px-0 py-8">
+    <section className="max-w-7xl mx-auto px-4 md:px-0 py-20">
       {/* Breadcrumb navigation */}
-      <nav className="bg-white mt-16">
+      <nav className="bg-white pb-6 pt-8">
         <div className="mx-auto px-4">
           <div className="flex items-center h-12">
             <Link
