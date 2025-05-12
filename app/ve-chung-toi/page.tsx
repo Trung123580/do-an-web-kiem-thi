@@ -20,7 +20,9 @@ export default function AboutPage() {
           <div className='text-center bg-[#374151] text-white h-[350px] md:h-[406px] flex items-center justify-center flex-col'>
             <p className='text-[24px] md:text-[32px] font-md text-white leading-tight w-full px-6 max-w-[1063px]'>
               <span className='text-[#FDE68A] font-bold'>Tầm nhìn của của chúng tôi </span>
-              là xây dựng một xã hội nơi người khiếm thính có thể tự lập, tự tạo dựng giá trị bền vững, hòa nhập vào cộng đồng và phát triển mạnh mẽ trong tất cả các lĩnh vực của cuộc sống.
+              là xây dựng một xã hội nơi 
+người khiếm thính có thể tự lập, tự tạo dựng giá trị bền vững,
+hòa nhập vào cộng đồng và phát triển mạnh mẽ trong tất cả các lĩnh vực của cuộc sống. 
             </p>
           </div>
         </div>

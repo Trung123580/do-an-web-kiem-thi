@@ -57,8 +57,18 @@ export default function EducationPage() {
               <button onClick={() => { route.push('/giao-duc/ngon-ngu-ky-hieu') }} className="bg-[#111827] font-light text-white px-7 py-2 sm:px-3 sm:py-2 md:px-6 md:py-2 lg:px-12 lg:py-3 xl:px-12 xl:py-3 2xl:px-12 2xl:py-3 rounded-md text-base sm:text-xs md:text-sm lg:text-base  hover:bg-[#111827]/60 transition-colors duration-300">Tìm hiểu thêm</button>
             </div>
           </div>
-          <div className="rounded-2xl h-[300px] md:h-full overflow-hidden">
-            <Image src="/image/banner-5.png" alt="Education Banner" width={500} height={500} className="object-cover w-full h-full" priority />
+          <div className='rounded-2xl relative h-[300px] md:h-full overflow-hidden basis-full md:basis-2/3 block'>
+            {/* <Image src='/image/banner-9.png' alt='Education Banner'  priority /> */}
+            <video
+              src="/ngonngukyhieu.mp4"
+              className="w-full h-full object-cover"
+              autoPlay
+              loop
+              // width={500} height={500}
+              muted
+              playsInline
+            />
+            <Link href={'ngon-ngu-ky-hieu/game'}><img src='/image/game1.png' alt="" className="absolute bottom-0 right-2 cursor-pointer" /></Link>
           </div>
         </div>
         <div className="grid md:grid-cols-[2fr,1fr] gap-8">
@@ -147,7 +157,7 @@ export default function EducationPage() {
         </div>
       </div>
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 mt-24">Thông tin</h2>
+        <h2 className="text-3xl font-bold mb-8 mt-24">Giáo dục đặc biệt</h2>
         <Slider {...volunteerCarouselSettings} className="volunteer-carousel -mx-3 overflow-hidden">
           {dataVolunteer.map((item, index) => {
             return (
@@ -179,7 +189,7 @@ export default function EducationPage() {
           }
         `}</style>
         <div className="text-end mt-4">
-          <Link href="/" className="inline-flex items-center text-sm font-medium hover:text-gray-900 px-7 py-2 rounded-sm border bg-[#FFFFFF] border-[#CFD1D4] text-[#414652]">
+          <Link href="/giao-duc/giao-duc-dac-biet" className="inline-flex items-center text-sm font-medium hover:text-gray-900 px-7 py-2 rounded-sm border bg-[#FFFFFF] border-[#CFD1D4] text-[#414652]">
             Xem thêm <img src="/icon/arrow.png" alt="" />
           </Link>
         </div>

@@ -4334,20 +4334,16 @@ export const dataTaiTro = [
 			📌 Cách đăng ký:
 		  </p>
 		   <p class="text-black text-sm  leading-relaxed pl-4">
-			• Điền form trực tuyến (nếu có) hoặc gửi hồ sơ bao gồm:
-		  </p>
-		  <p class="text-black text-sm  leading-relaxed pl-4">
 			• Thông tin cá nhân và liên hệ của phụ huynh
 		  </p>
-		   <p class="text-black text-sm  leading-relaxed pl-4">
+		  <p class="text-black text-sm  leading-relaxed pl-4">
 			• Giấy xác nhận khiếm thính từ cơ sở y tế
 		  </p>
-		    <p class="text-black text-sm  leading-relaxed pl-4">
+		   <p class="text-black text-sm  leading-relaxed pl-4">
 			• Thông tin về thời gian bắt đầu sử dụng máy trợ thính
 		  </p>
-		    <p class="text-black text-sm mb-4 leading-relaxed pl-4">
+		    <p class="text-black text-sm  leading-relaxed pl-4 mb-4">
 			• Cam kết tham gia đầy đủ khóa học
-		  </p>
 		 <p class="text-black text-sm font-bold leading-relaxed ">
 			📬 Gửi hồ sơ đến:
 		  </p>
