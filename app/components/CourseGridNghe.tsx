@@ -48,41 +48,42 @@ export default function CourseGridNghe({ courses, path, title, status }: any) {
         </div> */}
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {dataRender.map((course: any) => (
-          <Link href={`${path}/${course.slug}` || `${path}/${course.slug}` || `khoa-hoc/${course.slug}`} key={course.slug} className="block group">
-            <div className="bg-white rounded-2xl group-hover:shadow-md transition-shadow duration-300 overflow-hidden">
-              <div className="relative aspect-video w-full">
-                <Image
-                  src={course.img || '/placeholder-course.jpg'}
-                  alt={course.title}
-                  fill
-                  className="rounded-2xl object-cover bg-[#CFD1D4]"
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="text-[20px] font-semibold text-[#111827] line-clamp-1">{course.title}</h3>
-                <p className="mt-2 text-[#6B7280] text-sm">
-                  {status ? status : 'Ngày kết thúc: 14.05.25'} 
-                </p>
-                <div className="mt-4 flex items-center gap-2">
-                  <div className="rounded-full bg-[#F3F4F6] overflow-hidden flex items-center justify-center">
-                    <Image
-                      src={''}
-                      alt="Foundation Icon"
-                      width={48}
-                      height={48}
-                      className="object-contain w-12 h-12 min-w-12"
-                    />
-                  </div>
-                  <div className='flex-1'>
-                    <span className='text-[10px] font-normal text-[#70747D]'>Đơn vị tổ chức</span>
-                    <span className="text-[#111827] text-lg font-normal line-clamp-2">Foundation For Future</span>
-                  </div>
+        {dataRender.map((course: any,index:number) => {
+          if (index > 2) return <></>
+          return   <Link href={`${path}/${course.slug}` || `${path}/${course.slug}` || `khoa-hoc/${course.slug}`} key={course.slug} className="block group">
+          <div className="bg-white rounded-2xl group-hover:shadow-md transition-shadow duration-300 overflow-hidden">
+            <div className="relative aspect-video w-full">
+              <Image
+                src={course.img || '/placeholder-course.jpg'}
+                alt={course.title}
+                fill
+                className="rounded-2xl object-cover bg-[#CFD1D4]"
+              />
+            </div>
+            <div className="p-6">
+              <h3 className="text-[20px] font-semibold text-[#111827] line-clamp-1">{course.title}</h3>
+              <p className="mt-2 text-[#6B7280] text-sm">
+                {status ? status : 'Ngày kết thúc: 14.05.25'} 
+              </p>
+              <div className="mt-4 flex items-center gap-2">
+                <div className="rounded-full bg-[#F3F4F6] overflow-hidden flex items-center justify-center">
+                  <Image
+                    src={''}
+                    alt="Foundation Icon"
+                    width={48}
+                    height={48}
+                    className="object-contain w-12 h-12 min-w-12"
+                  />
+                </div>
+                <div className='flex-1'>
+                  <span className='text-[10px] font-normal text-[#70747D]'>Đơn vị tổ chức</span>
+                  <span className="text-[#111827] text-lg font-normal line-clamp-2">Foundation For Future</span>
                 </div>
               </div>
             </div>
-          </Link>
-        ))}
+          </div>
+        </Link>
+        })}
       </div>
     </div>
   );

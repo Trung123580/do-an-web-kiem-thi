@@ -30,22 +30,43 @@ export default function DonateSection() {
           </p>
           <form onSubmit={handleSubmit} className='flex flex-col md:flex-row gap-4 md:gap-3 xl:max-w-[70%] w-full'>
             <div className='relative'>
-              <label htmlFor='name' className={`${dataSubmit.fullName.length !== 0 ? 'hidden':'block'} text-sm absolute left-3 text-gray-500 top-1/2 -translate-y-1/2`}>
+              <label htmlFor='name' className={`${dataSubmit.fullName.length !== 0 ? "hidden" : "block"} text-sm absolute left-3 text-gray-500 top-1/2 -translate-y-1/2`}>
                 Họ tên <span className='text-red-600'>*</span>
               </label>
-              <input required id='name' value={dataSubmit.fullName} onChange={(e) => setDataSubmit({ ...dataSubmit, fullName: e.target.value })} type='text' className='flex-1 px-3 w-full py-2 rounded-[4px] text-black outline-none bg-white text-sm border-2 border-[#CFD1D4]' />
+              <input
+                required
+                id='name'
+                value={dataSubmit.fullName}
+                onChange={(e) => setDataSubmit({ ...dataSubmit, fullName: e.target.value })}
+                type='text'
+                className='flex-1 px-3 w-full py-2 rounded-[4px] text-black outline-none bg-white text-sm border-2 border-[#CFD1D4]'
+              />
             </div>
             <div className='relative'>
-              <label htmlFor='email' className={`${dataSubmit.email.length !== 0 ? 'hidden':'block'} text-sm absolute left-3 text-gray-500 top-1/2 -translate-y-1/2`}>
+              <label htmlFor='email' className={`${dataSubmit.email.length !== 0 ? "hidden" : "block"} text-sm absolute left-3 text-gray-500 top-1/2 -translate-y-1/2`}>
                 Email <span className='text-red-600'>*</span>
               </label>
-              <input required id='email' value={dataSubmit.email} onChange={(e) => setDataSubmit({ ...dataSubmit, email: e.target.value })} type='email' className='flex-1 px-3 w-full py-2 rounded-[4px] text-black outline-none bg-white text-sm border-2 border-[#CFD1D4]' />
+              <input
+                required
+                id='email'
+                value={dataSubmit.email}
+                onChange={(e) => setDataSubmit({ ...dataSubmit, email: e.target.value })}
+                type='email'
+                className='flex-1 px-3 w-full py-2 rounded-[4px] text-black outline-none bg-white text-sm border-2 border-[#CFD1D4]'
+              />
             </div>
             <div className='relative'>
-              <label htmlFor='phone' className={`${dataSubmit.phone.length !== 0 ? 'hidden':'block'} text-sm absolute left-3 text-gray-500 top-1/2 -translate-y-1/2`}>
+              <label htmlFor='phone' className={`${dataSubmit.phone.length !== 0 ? "hidden" : "block"} text-sm absolute left-3 text-gray-500 top-1/2 -translate-y-1/2`}>
                 Số di động <span className='text-red-600'>*</span>
               </label>
-              <input required id='phone' value={dataSubmit.phone} onChange={(e) => setDataSubmit({ ...dataSubmit, phone: e.target.value })} type='tel' className='flex-1 px-3 w-full py-2 rounded-[4px] text-black outline-none bg-white text-sm border-2 border-[#CFD1D4]' />
+              <input
+                required
+                id='phone'
+                value={dataSubmit.phone}
+                onChange={(e) => setDataSubmit({ ...dataSubmit, phone: e.target.value })}
+                type='tel'
+                className='flex-1 px-3 w-full py-2 rounded-[4px] text-black outline-none bg-white text-sm border-2 border-[#CFD1D4]'
+              />
             </div>
             <button type='submit' className='bg-[#111827] hover:bg-[#70747D] text-white px-6 py-2 rounded-[4px] text-sm font-medium transition-colors whitespace-nowrap'>
               Đăng ký
@@ -55,13 +76,13 @@ export default function DonateSection() {
           {/* Footer Links */}
           <div className='flex flex-col md:flex-row justify-between items-center mt-8 pt-6 border-t border-white/20'>
             <div className='flex flex-wrap *:hover:underline justify-center md:justify-start gap-4 md:gap-6 mb-4 md:mb-0 text-sm'>
-              <a href='#' className='text-white/90 hover:text-white transition-colors'>
+              <a href='/lien-he' className='text-white/90 hover:text-white transition-colors'>
                 Liên hệ với chúng tôi
               </a>
-              <a href='#' className='text-white/80 hover:text-white transition-colors'>
+              <a href='/rieng-tu' className='text-white/80 hover:text-white transition-colors'>
                 Quyền riêng tư và Cookie
               </a>
-              <a href='#' className='text-white/80 hover:text-white transition-colors'>
+              <a href='/chinh-sach' className='text-white/80 hover:text-white transition-colors'>
                 Chính sách cộng đồng
               </a>
             </div>
@@ -69,9 +90,12 @@ export default function DonateSection() {
             {/* Social Icons */}
             <div className='flex gap-4 items-center justify-center *:hover:bg-black/40 *:p-2 *:rounded-xl'>
               <a href='#' className='text-white/90 hover:text-white transition-colors'>
-              <svg xmlns="http://www.w3.org/2000/svg" className="w-[27px] h-[27px]" viewBox="0 0 28 22" fill="none">
-                <path d="M3.33333 21.6663C2.6 21.6663 1.97222 21.4052 1.45 20.883C0.927779 20.3608 0.666668 19.733 0.666668 18.9997V2.99967C0.666668 2.26634 0.927779 1.63856 1.45 1.11634C1.97222 0.594119 2.6 0.333008 3.33333 0.333008H24.6667C25.4 0.333008 26.0278 0.594119 26.55 1.11634C27.0722 1.63856 27.3333 2.26634 27.3333 2.99967V18.9997C27.3333 19.733 27.0722 20.3608 26.55 20.883C26.0278 21.4052 25.4 21.6663 24.6667 21.6663H3.33333ZM24.6667 5.66634L14.7 11.8997C14.5889 11.9663 14.4722 12.0163 14.35 12.0497C14.2278 12.083 14.1111 12.0997 14 12.0997C13.8889 12.0997 13.7722 12.083 13.65 12.0497C13.5278 12.0163 13.4111 11.9663 13.3 11.8997L3.33333 5.66634V18.9997H24.6667V5.66634ZM14 9.66634L24.6667 2.99967H3.33333L14 9.66634ZM3.33333 5.99967V4.03301V4.06634V4.04967V5.99967Z" fill="white"/>
-              </svg>
+                <svg xmlns='http://www.w3.org/2000/svg' className='w-[27px] h-[27px]' viewBox='0 0 28 22' fill='none'>
+                  <path
+                    d='M3.33333 21.6663C2.6 21.6663 1.97222 21.4052 1.45 20.883C0.927779 20.3608 0.666668 19.733 0.666668 18.9997V2.99967C0.666668 2.26634 0.927779 1.63856 1.45 1.11634C1.97222 0.594119 2.6 0.333008 3.33333 0.333008H24.6667C25.4 0.333008 26.0278 0.594119 26.55 1.11634C27.0722 1.63856 27.3333 2.26634 27.3333 2.99967V18.9997C27.3333 19.733 27.0722 20.3608 26.55 20.883C26.0278 21.4052 25.4 21.6663 24.6667 21.6663H3.33333ZM24.6667 5.66634L14.7 11.8997C14.5889 11.9663 14.4722 12.0163 14.35 12.0497C14.2278 12.083 14.1111 12.0997 14 12.0997C13.8889 12.0997 13.7722 12.083 13.65 12.0497C13.5278 12.0163 13.4111 11.9663 13.3 11.8997L3.33333 5.66634V18.9997H24.6667V5.66634ZM14 9.66634L24.6667 2.99967H3.33333L14 9.66634ZM3.33333 5.99967V4.03301V4.06634V4.04967V5.99967Z'
+                    fill='white'
+                  />
+                </svg>
               </a>
               <a href='#' className='text-white/90 hover:text-white transition-colors'>
                 <svg className='w-[27px] h-[27px]' fill='currentColor' viewBox='0 0 24 24'>

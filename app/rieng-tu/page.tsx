@@ -2,7 +2,7 @@ import React from "react"
 
 const page = () => {
   return (
-    <div className=''>
+    <div className='min-h-screen pt-16 max-w-7xl mx-auto'>
       <div className='relative h-[400px]'>
         <img src='/image/rieng-tu.jpg' className='h-full w-full object-top object-cover' alt='' />
         <h3 className='absolute bottom-[30px] left-[80px] text-5xl font-bold text-white'>Quyền riêng tư và Cookie</h3>
