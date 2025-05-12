@@ -16,10 +16,17 @@ export default function TaitroDetailPage() {
           <div className="mx-auto  pb-6 pt-8">
             <div className="flex items-center h-12">
               <Link
-                href="/thong-tin/hoat-dong"
+                href="/cong-dong"
                 className="text-[#A0A3A9] hover:text-gray-900"
               >
-               Hoạt động
+               Cộng đồng
+              </Link>
+              <span className="mx-2 text-2xl text-black">&gt;</span>
+              <Link
+                href="/cong-dong/hoat-dong"
+                className="text-[#A0A3A9] hover:text-gray-900"
+              >
+              Hoạt động
               </Link>
               <span className="mx-2 text-2xl text-black">&gt;</span>
               <span className="text-[#3A63ED]">Chương trình tài trợ</span>

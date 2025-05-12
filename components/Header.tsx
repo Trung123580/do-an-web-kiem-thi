@@ -58,7 +58,7 @@ export default function Header() {
               </Link>
               <div className="absolute left-1/2 -translate-x-1/2 mt-1 w-56 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0">
                 <div className="py-2">
-                  <Link href="/thong-tin" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                  <Link href="/thong-tin/tin-tuc" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
                     Tin tức
                   </Link>
                   <Link href="/thong-tin/cau-chuyen" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
@@ -147,17 +147,17 @@ export default function Header() {
               </div>
             </div>
             <div className="relative group h-full">
-              <Link href="/nghe-nghiep" className={`${isActivePath("/nghe-nghiep") ? "text-[#111827]" : "text-[#414652]"} font-medium px-3 py-2 inline-flex items-center relative group h-full `}>
+              <Link href="/cong-dong" className={`${isActivePath("/cong-dong") ? "text-[#111827]" : "text-[#414652]"} font-medium px-3 py-2 inline-flex items-center relative group h-full `}>
                 Cộng đồng
                 {/* <ChevronDown className="ml-1 h-4 w-4 transition-transform group-hover:rotate-180" /> */}
-                {isActivePath("/gay-quy") ? <div className="absolute bottom-0 left-0 w-full h-1 bg-[#3a63ed]"></div> : <div className="absolute bottom-0 left-0 w-full h-1 bg-transparent group-hover:bg-[#3a63ed] transition-all duration-200"></div>}
+                {isActivePath("/cong-dong") ? <div className="absolute bottom-0 left-0 w-full h-1 bg-[#3a63ed]"></div> : <div className="absolute bottom-0 left-0 w-full h-1 bg-transparent group-hover:bg-[#3a63ed] transition-all duration-200"></div>}
               </Link>
               <div className="absolute left-1/2 -translate-x-1/2 mt-1 w-56 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0">
                 <div className="py-2">
-                  <Link href="/nghe-nghiep/dao-tao" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                  <Link href="/cong-dong" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
                     Tổ chức & cộng đồng
                   </Link>
-                  <Link href="/nghe-nghiep/tuyen-dung" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                  <Link href="/cong-dong/hoat-dong" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
                     Hoạt động
                   </Link>
                 </div>
