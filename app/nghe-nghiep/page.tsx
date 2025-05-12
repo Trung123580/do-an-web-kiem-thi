@@ -5,37 +5,11 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 import { FaArrowRight } from 'react-icons/fa';
 import CourseGrid from '../components/CourseGrid';
-import { phuongPhap, camnang, triLieuNgonNgu } from '@/utils/contanst';
+import { phuongPhap, camnang, triLieuNgonNgu, dataJob, daotaonghe } from '@/utils/contanst';
 import CourseGridNghe from '../components/CourseGridNghe';
 import ModalPartner from '@/components/ModalPartner';
 
-const jobs = [
-  {
-    title: 'Chuyên viên thiết kế đồ họa',
-    company: 'CTY TNHH HƯỚNG LONG',
-    tags: ['12 - 15 triệu', 'Hà Nội', 'Full-time'],
-    deadline: '12/06/2024',
-  },
-  {
-    title: 'Chuyên viên thiết kế đồ họa',
-    company: 'CTY TNHH HƯỚNG LONG',
-    tags: ['12 - 15 triệu', 'Hà Nội', 'Full-time'],
-    deadline: '12/06/2024',
-  },
-  {
-    title: 'Chuyên viên thiết kế đồ họa',
-    company: 'CTY TNHH HƯỚNG LONG',
-    tags: ['12 - 15 triệu', 'Hà Nội', 'Full-time'],
-    deadline: '12/06/2024',
-  },
-  {
-    title: 'Chuyên viên thiết kế đồ họa',
-    company: 'CTY TNHH HƯỚNG LONG',
-    tags: ['12 - 15 triệu', 'Hà Nội', 'Full-time'],
-    deadline: '12/06/2024',
-  },
-  // Thêm các job khác nếu cần
-];
+
 
 const page = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -78,20 +52,26 @@ const page = () => {
       <div className="pt-24 pb-8 max-w-7xl mx-auto px-4">
         <h2 className="text-3xl font-bold mb-6">Tuyển dụng</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-          {jobs.map((job, idx) => (
+          {dataJob.slice(0,4).map((job, idx) => (
             <div key={idx} className="bg-[#F2F2F3] rounded-xl shadow p-3 flex gap-6">
-                <div className='w-[136px] h-[136px] bg-white rounded-lg' ></div>
-                <div className='flex flex-col gap-2 grow'>
+                <div className='w-[136px] h-[136px] bg-white rounded-lg' >
+                  <img src={job.img} alt="" className='max-w-full h-full  rounded-lg object-cover' />
+                </div>
+                <div className='flex flex-col gap-2 grow justify-between'>
+                  <div>
                     <h3 className="font-semibold text-lg">{job.title}</h3>
                     <span className="text-gray-500 text-sm">{job.company}</span>
+                  </div>
+                   <div className='flex  justify-between'>
                     <div className="flex gap-2 flex-wrap my-2">
-                        {job.tags.map((tag, i) => (
-                        <span key={i} className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">{tag}</span>
-                        ))}
-                    </div>
-                    <div className="text-right text-xs text-gray-400">
-                        Hạn ứng tuyển: {job.deadline}
-                    </div>
+                        <div className=" text-gray-700 px-2 py-1 rounded text-xs bg-white border border-[#CFD1D4]">{job.salary}</div>
+                        <div className=" text-gray-700 px-2 py-1 rounded text-xs bg-white border border-[#CFD1D4]">{job.location}</div>
+                        <div className=" text-gray-700 px-2 py-1 rounded text-xs bg-white border border-[#CFD1D4]">{job.salary}</div>
+                      </div>
+                      <div className="text-right text-xs text-gray-400 flex justify-center items-center">
+                          Hạn ứng tuyển: {job.deadline}
+                      </div>
+                   </div>
                 </div>
             </div>
           ))}
@@ -101,9 +81,9 @@ const page = () => {
             Xem thêm  <img src="/icon/arrow.png" alt="" />
           </Link>
         </div>
-        <CourseGridNghe courses={triLieuNgonNgu}  path="tri-lieu-ngon-ngu" title="Đào tạo nghề" />
+        <CourseGridNghe courses={daotaonghe}  path="tri-lieu-ngon-ngu" title="Đào tạo nghề" />
         <div className="text-end mt-6">
-            <Link href="/thong-tin/cau-chuyen" className="inline-flex items-center text-sm font-medium hover:text-gray-900 px-7 py-2 rounded-sm border bg-[#FFFFFF] border-[#CFD1D4] text-[#414652]">
+            <Link href="/nghe-nghiep/dao-tao-nghe" className="inline-flex items-center text-sm font-medium hover:text-gray-900 px-7 py-2 rounded-sm border bg-[#FFFFFF] border-[#CFD1D4] text-[#414652]">
               Xem thêm <img src="/icon/arrow.png" alt="" />
             </Link>
         </div>
@@ -111,17 +91,21 @@ const page = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
             {camnang.map((item,index) => {
               if (index > 2) return <></>
-              return <Link href={`/giao-duc/giao-duc-dac-biet/` + item.slug} className="bg-[#F2F2F3] group hover:bg-[#D8E0FB] rounded-2xl overflow-hidden">
-              <img className="h-[270px] group-hover:h-[200px] transition-all duration-300 object-cover w-full rounded-2xl"  src={item.image} alt="" />
-              <div className="px-[24px] py-[32px] h-[107px]">
-                  <h4 className="text-2xl font-normal mb-5">{item.name}</h4>
-                  <p className="text-[12px] ">{item.note}</p>
-              </div>
-          </Link>
+              return <Link key={index} href={`/ve-chung-toi/tham-gia-chung-toi/volunteer/${item.slug}`} className='px-3 h-full'>
+                  <div className='bg-[#F2F2F3] overflow-hidden rounded-2xl hover:bg-[#3A63ED]/50 shadow-lg h-full group relative'>
+                    <div className='relative h-60 group-hover:h-40 transition-all duration-300'>
+                      <Image src={item.image} alt={''} fill className='object-cover rounded-2xl' />
+                    </div>
+                    <div className='px-6 pt-4 pb-6'>
+                      <p className='text-gray-600 font-medium text-lg mb-4'>{item.name}</p>
+                      <p className='text-gray-600 font-medium text-sm absolute left-0 right-0 p-4 pt-0 translate-y-full group-hover:translate-y-0 transition-all duration-300'>{item.note}</p>
+                    </div>
+                  </div>
+                </Link>
             })}
         </div>
         <div className="text-end mt-6">
-            <Link href="/thong-tin/cau-chuyen" className="inline-flex items-center text-sm font-medium hover:text-gray-900 px-7 py-2 rounded-sm border bg-[#FFFFFF] border-[#CFD1D4] text-[#414652]">
+            <Link href="/nghe-nghiep/cam-nang" className="inline-flex items-center text-sm font-medium hover:text-gray-900 px-7 py-2 rounded-sm border bg-[#FFFFFF] border-[#CFD1D4] text-[#414652]">
               Xem thêm <img src="/icon/arrow.png" alt="" />
             </Link>
         </div>
@@ -143,7 +127,7 @@ const page = () => {
             <img src="/image/banner-8.png" alt="Education Banner" className="object-cover h-full absolute bottom-0 right-0 hover:scale-100 hover:opacity-100 hover:z-10 transition-all duration-300 group-hover:opacity-40 group-hover:scale-90" />
           </div>
         </div>
-        <div className='bg-[#4263EB] mx-auto px-4 py-16 text-center w-[80%] rounded-2xl'>
+        <div className='bg-[#4263EB] mx-auto px-4 py-16 text-center rounded-2xl'>
           <h2 className='text-3xl font-bold text-white mb-4'>Trở thành một phần của chúng tôi</h2>
           <p className='text-white/90 max-w-2xl mx-auto mb-8'>Góp phần hỗ trợ người khiếm thính bằng cách trở thành nhà tuyển dụng, đối tác tổ chức sự kiện và nhiều hình thức hợp tác khác.</p>
           <button onClick={()=> setIsOpen(true)} className='bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-900 transition-colors'>Tham gia cùng chúng tôi</button>

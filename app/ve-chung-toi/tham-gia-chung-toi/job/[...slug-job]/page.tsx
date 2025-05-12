@@ -169,6 +169,8 @@ export default function JobDetailPage() {
                   <p className='text-gray-600 text-base mb-6'>Một thư giới thiệu ngắn gọn, chỉn chu sẽ giúp bạn trở nên chuyên nghiệp và gây ấn tượng hơn với nhà tuyển dụng.</p>
                   <textarea value={dataSubmit.textAria} onChange={(e) => setDataSubmit({ ...dataSubmit, textAria: e.target.value })} placeholder='Gửi một nội dung đến nhà tuyển dụng' className='outline-0 border-2 border-[#CFD1D4] px-8 py-4 rounded-lg text-lg w-full h-[250px] font-normal' id='coverLetter'></textarea>
                 </div>
+                <p className="mt-12 mb-12 text-lg text-[#A0A3A9]">Hồ sơ ứng tuyển bạn nhập dưới đây sẽ được gửi trực tiếp tới email của nhà tuyển dụng Blue Horizon Media tại bluehorizon.hr@gmail.com, đồng thời tự động được lưu vào kho dữ liệu CV trên hệ thống Foundation for Future để nhà tuyển dụng chọn lọc ứng viên. Bạn vui lòng kiểm tra địa chỉ email của mình thật chính xác trước khi ứng tuyển, cũng như luôn kiểm tra cả hòm thư rác (Spam), hòm thư Quảng Cáo (Promotions), hoặc hòm thư Cập Nhật (Updates) sau khi ứng tuyển để không bỏ lỡ các thông báo quan trọng từ nhà tuyển dụng.
+                Bằng việc nhấn nút “Nộp hồ sơ ứng tuyển” đơn ứng tuyển, bạn xác nhận rằng Foundation for Future hoặc các đối tác của chúng tôi có thể gửi thông tin liên quan đến cơ hội nghề nghiệp tương tự qua email dựa trên các thông tin bạn cung cấp.</p>
               </form>
             )}
             {step === 3 && (
