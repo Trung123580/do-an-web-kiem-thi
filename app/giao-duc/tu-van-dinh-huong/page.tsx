@@ -24,10 +24,10 @@ Trưởng bộ môn Giáo dục trẻ khiếm thính <br/> và trẻ khuyết t�
 ]
 export default function page() {
   return (
-    <section className="max-w-7xl mx-auto px-4 md:px-0 py-8">
-      {/* Breadcrumb navigation */}
-      <nav className="bg-white mt-16">
-        <div className="mx-auto px-4">
+    <section className="max-w-7xl mx-auto px-4 pt-20 md:px-0 pb-8">
+      <div className='container mx-auto px-4 pb-8'>
+      <nav className="bg-white pb-6 pt-8">
+        <div className="mx-auto">
           <div className="flex items-center h-12">
             <Link
               href="/giao-duc"
@@ -40,7 +40,6 @@ export default function page() {
           </div>
         </div>
       </nav>
-      <div className='container mx-auto px-4 py-8'>
         <h2 className='text-5xl font-bold pb-[32px]'>Tư vấn định hướng học tập</h2>
         <div className='flex flex-col gap-5'>
           {data.map((item) => <div className='flex flex-col xl:gap-0 gap-5 items-center xl:flex-row py-[56px] px-[50px] xl:px-[108px] bg-[#F2F2F3] rounded-2xl'>

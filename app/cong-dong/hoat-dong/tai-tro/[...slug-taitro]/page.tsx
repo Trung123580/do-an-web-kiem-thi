@@ -1,6 +1,7 @@
 'use client'
 import { dataTaiTro } from "@/utils/contanst";
 import Image from "next/image";
+import Link from "next/link";
 import { useParams } from "next/navigation"
 
 
@@ -9,8 +10,29 @@ export default function TaitroDetailPage() {
   const slug: any = params["slug-taitro"]
   const taiTroDetail: any = dataTaiTro.find((taitro) => taitro.slug === slug[0]);
   return (
-    <div className="min-h-screen pb-16 py-16 pt-32 max-w-7xl mx-auto">
+    <div className="min-h-screen pb-16 py-16 pt-20 max-w-7xl mx-auto">
       <div className="container mx-auto">
+        <nav className="bg-white">
+          <div className="mx-auto  pb-6 pt-8">
+            <div className="flex items-center h-12">
+              <Link
+                href="/cong-dong"
+                className="text-[#A0A3A9] hover:text-gray-900"
+              >
+               Cộng đồng
+              </Link>
+              <span className="mx-2 text-2xl text-black">&gt;</span>
+              <Link
+                href="/cong-dong/hoat-dong"
+                className="text-[#A0A3A9] hover:text-gray-900"
+              >
+              Hoạt động
+              </Link>
+              <span className="mx-2 text-2xl text-black">&gt;</span>
+              <span className="text-[#3A63ED]">Chương trình tài trợ</span>
+            </div>
+          </div>
+        </nav>
         <h1 className="text-4xl font-bold mb-8">{taiTroDetail?.title}</h1>
         <div className="bg-[#F2F2F3] rounded-xl shadow-sm p-8 mb-8">
           <div className="flex flex-row gap-4">

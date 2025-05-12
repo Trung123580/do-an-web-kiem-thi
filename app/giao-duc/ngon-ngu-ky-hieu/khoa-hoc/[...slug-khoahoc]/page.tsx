@@ -27,7 +27,7 @@ export default function page() {
   }
   return (
     <>
-      <nav className="bg-white py-10 max-w-7xl mx-auto relative mt-20 ">
+      <nav className="bg-white pb-6 pt-8 max-w-7xl mx-auto relative mt-20 ">
         <div className="mx-auto px-4">
           <div className="flex items-center ">
             <Link

@@ -29,7 +29,7 @@ export default function CourseGrid({ courses, path, title, status }: any) {
   }, [searchTerm])
 
   return (
-    <div className="container mx-auto px-4 py-4">
+    <div className="container mx-auto px-4 pb-4">
       <div className="flex flex-col md:flex-row md:items-center justify-between mb-8 gap-4">
         <h1 className="text-2xl md:text-[48px] font-bold">{title}</h1>
         <div className="relative w-full md:w-[413px]">
