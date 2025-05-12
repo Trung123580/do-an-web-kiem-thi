@@ -51,7 +51,7 @@ export default function CourseGridNghe({ courses, path, title, status }: any) {
         {dataRender.map((course: any,index:number) => {
           if (index > 2) return <></>
           return   <Link href={`${path}/${course.slug}` || `${path}/${course.slug}` || `khoa-hoc/${course.slug}`} key={course.slug} className="block group">
-          <div className="bg-white rounded-2xl group-hover:shadow-md transition-shadow duration-300 overflow-hidden">
+          <div className="bg-white rounded-2xl group-hover:shadow-md transition-shadow duration-300 overflow-hidden hover:shadow-lg hover:shadow-[#5d7deb80]">
             <div className="relative aspect-video w-full">
               <Image
                 src={course.img || '/placeholder-course.jpg'}
@@ -68,7 +68,7 @@ export default function CourseGridNghe({ courses, path, title, status }: any) {
               <div className="mt-4 flex items-center gap-2">
                 <div className="rounded-full bg-[#F3F4F6] overflow-hidden flex items-center justify-center">
                   <Image
-                    src={''}
+                    src={course.organization[0].img}
                     alt="Foundation Icon"
                     width={48}
                     height={48}
@@ -77,7 +77,7 @@ export default function CourseGridNghe({ courses, path, title, status }: any) {
                 </div>
                 <div className='flex-1'>
                   <span className='text-[10px] font-normal text-[#70747D]'>Đơn vị tổ chức</span>
-                  <span className="text-[#111827] text-lg font-normal line-clamp-2">Foundation For Future</span>
+                  <span className="text-[#111827] text-lg font-normal line-clamp-1">{course.organization[0].title}</span>
                 </div>
               </div>
             </div>

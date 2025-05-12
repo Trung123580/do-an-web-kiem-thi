@@ -82,19 +82,17 @@ const Donate = () => {
   return (
     <div className='relative w-full min-h-[400px] md:min-h-[500px] h-[720px] bg-cover bg-center' style={{ backgroundImage: "url('/image/donate-bg.jpg')" }}>
       <div className='absolute inset-0 bg-gradient-to-r from-black/40 to-transparent' />
-      <div className='absolute top-1/2 left-4 md:left-10 transform -translate-y-1/2 text-white max-w-md px-4 md:px-0'>
-        <h1 className='text-3xl md:text-4xl font-bold leading-tight'>
+      <div className='absolute top-2/3 left-4 md:left-20 transform -translate-y-1/2 text-white max-w-lg px-4 md:px-0'>
+        <h1 className='text-3xl md:text-5xl font-bold leading-tight'>
           Hãy cùng chúng tôi
           <br />
           phá bỏ rào cản.
         </h1>
-        <p className='mt-4 text-base md:text-lg opacity-90'>
-          Chung tay hỗ trợ giáo dục và đào tạo nghề
-          <br className='hidden md:block' />
-          cho người khiếm thính ngay hôm nay!
+        <p className='mt-6 text-base md:text-lg opacity-90'>
+          Chung tay hỗ trợ giáo dục và đào tạo nghề cho người khiếm thính ngay hôm nay!
         </p>
       </div>
-      <form onSubmit={handleSubmit} className='absolute left-4 right-4 top-1/2 md:right-10 md:left-auto -translate-y-1/2 md:w-[413px]'>
+      <form onSubmit={handleSubmit} className='absolute left-4 right-4 top-1/2 md:right-20 md:left-auto -translate-y-1/2 md:w-[413px]'>
         <div className='bg-white rounded-xl shadow-lg py-12 px-9'>
           <h2 className='text-center text-[#111827] font-normal mb-6 text-[32px]'>Ủng hộ để hỗ trợ người khiếm thính</h2>
 
