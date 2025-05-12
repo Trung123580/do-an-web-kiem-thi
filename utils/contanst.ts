@@ -10295,5 +10295,1064 @@ export const camnang = [
 	
 	`,
   },
+ {
+    image: "/image/camnang2.jpg",
+    name: "7 Công Việc Phù Hợp và Đang Có Nhu Cầu Cao Với Người Khiếm Thính",
+    note: "Thị trường lao động đang dần mở rộng và trở nên đa dạng hơn với nhiều mô hình làm việc linh hoạt, công nghệ hỗ trợ, chính sách hòa nhập…",
+    slug: "chuan-bi-hanh-trang-tim-viec-cho-nguoi-khiem-thinh",
+    descript: `<p class="text-black font-bold leading-relaxed">
+		 I. HIỂU RÕ ĐIỂM MẠNH VÀ GIỚI HẠN CỦA BẢN THÂN
+	  </p>
+	  <p class="text-black font-bold leading-relaxed">
+	 	 1. Nhận diện ưu điểm cá nhân
+	  </p>
+		<p class="text-black font-bold leading-relaxed">
+		Người khiếm thính thường phát triển các kỹ năng đặc biệt để bù đắp cho giới hạn về thính giác. Đây chính là những điểm mạnh quý giá trong môi trường làm việc: Khả năng quan sát mạnh mẽ: Người khiếm thính thường có khả năng nhận biết các thay đổi về ngôn ngữ cơ thể, biểu cảm khuôn mặt và các chi tiết trực quan khác một cách tinh tế. Đây là lợi thế trong các công việc đòi hỏi sự chú ý đến chi tiết.
+	  </p>
+	   <p class="text-black leading-relaxed pl-4">
+		• Khả năng tập trung cao: Ít bị phân tâm bởi tiếng ồn và đàm thoại xung quanh, giúp duy trì sự tập trung trong môi trường làm việc nhộn nhịp.
+	  </p>
+	     <p class="text-black leading-relaxed pl-4">
+		• Khả năng thích nghi tốt: Việc phải thường xuyên đối mặt với thách thức giao tiếp trong cuộc sống hàng ngày đã rèn luyện khả năng thích nghi, giải quyết vấn đề và sự kiên trì.
+	  </p>
+		<p class="text-black leading-relaxed pl-4">
+		• Đa ngôn ngữ: Nhiều người khiếm thính thông thạo ngôn ngữ ký hiệu và ngôn ngữ viết, đây là lợi thế trong các vị trí yêu cầu đa ngôn ngữ.
+	  </p>
+	  <p class="text-black mb-4 italic leading-relaxed">
+		Bài tập thực hành: Hãy liệt kê 10 điểm mạnh cá nhân của bạn, bao gồm cả kỹ năng cứng (như khả năng sử dụng phần mềm, ngôn ngữ ký hiệu) và kỹ năng mềm (như khả năng làm việc nhóm, khả năng thích nghi).
+	  </p>
+	    <p class="text-black font-bold leading-relaxed">
+	 	 2. Nhận diện giới hạn và chiến lược khắc phục
+	  </p>
+	  <p class="text-black font-bold leading-relaxed">
+		Hiểu rõ những thách thức có thể gặp phải trong môi trường làm việc sẽ giúp bạn chuẩn bị tốt hơn:
+	  </p>
+	   <p class="text-black leading-relaxed pl-4">
+		• Rào cản giao tiếp: Xác định công cụ hỗ trợ giao tiếp phù hợp (phiên dịch ngôn ngữ ký hiệu, ứng dụng chuyển đổi giọng nói thành văn bản, ghi chú bằng văn bản).
+	  </p>
+	     <p class="text-black leading-relaxed pl-4">
+		• Giới hạn về thông tin âm thanh: Tìm hiểu về các thiết bị hỗ trợ như đèn báo hoặc rung cho các thông báo khẩn cấp.
+	  </p>
+		<p class="text-black leading-relaxed pl-4">
+		• Khó khăn trong cuộc họp nhóm: Chuẩn bị chiến lược như yêu cầu nội dung cuộc họp trước, sắp xếp vị trí ngồi thuận lợi cho việc đọc môi.
+	  </p>
+	  	<p class="text-black mb-4 leading-relaxed">
+		Lưu ý quan trọng: Giới hạn không đồng nghĩa với việc thiếu khả năng. Đó chỉ là những điểm cần có giải pháp hỗ trợ phù hợp.
+	  </p>
+	  <p class="text-black mb-4 font-bold leading-relaxed">
+		II. Chuẩn bị trước buổi phỏng vấn
+	  </p>
+	<p class="text-black mb-4 font-bold leading-relaxed">
+		1. Nghiên cứu kỹ về công ty và vị trí ứng tuyển
+	  </p>
+	  <p class="text-black leading-relaxed">
+		Trước khi bước vào phỏng vấn, hãy dành thời gian để:
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		• Tìm hiểu sâu về công ty: lịch sử, sản phẩm/dịch vụ, văn hóa doanh nghiệp
+	  </p>
+	   <p class="text-black leading-relaxed pl-4">
+		• Nghiên cứu kỹ về vị trí ứng tuyển: yêu cầu công việc, trách nhiệm, kỹ năng cần thiết
+	  </p>
+	     <p class="text-black leading-relaxed pl-4">
+		• Tìm hiểu về đối thủ cạnh tranh và xu hướng ngành
+	  </p>
+	     <p class="text-black leading-relaxed pl-4">
+		• Xem các đánh giá của nhân viên hiện tại hoặc cựu nhân viên
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		 Khi bạn nắm vững thông tin này, bạn sẽ có thể trả lời câu hỏi một cách tự tin và thể hiện sự quan tâm thực sự đến công ty.
+	  </p>
+	<p class="text-black mb-4 font-bold leading-relaxed">
+		2. Chuẩn bị phương tiện hỗ trợ giao tiếp
+	  </p>
+	  <p class="text-black leading-relaxed">
+		Tùy vào nhu cầu và khả năng của bạn, hãy chuẩn bị các phương tiện hỗ trợ giao tiếp phù hợp:
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		• Thông dịch viên ngôn ngữ ký hiệu: Liên hệ trước với công ty để thông báo về nhu cầu này
+	  </p>
+	   <p class="text-black leading-relaxed pl-4">
+		• Ứng dụng chuyển giọng nói thành văn bản trên điện thoại hoặc máy tính bảng
+	  </p>
+	     <p class="text-black leading-relaxed pl-4">
+		• Tài liệu viết sẵn về bản thân và câu trả lời cho các câu hỏi phỏng vấn phổ biến
+	  </p>
+	     <p class="text-black leading-relaxed pl-4">
+		• Bút và giấy để ghi chú hoặc giao tiếp khi cần thiết
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		 Lưu ý: Hãy chủ động thông báo với nhà tuyển dụng về nhu cầu hỗ trợ giao tiếp của bạn ít nhất 3-5 ngày trước buổi phỏng vấn.
+	  </p>
+	  <p class="text-black  font-bold leading-relaxed">
+		3. Chuẩn bị câu trả lời cho các câu hỏi phỏng vấn phổ biến
+	  </p>
+	  <p class="text-black leading-relaxed">
+		Dưới đây là một số câu hỏi phỏng vấn phổ biến và gợi ý cách trả lời:
+	  </p>
+	  	  <p class="text-black font-bold leading-relaxed">
+		"Hãy giới thiệu về bản thân bạn?"
+	  </p>
+	  <p class="text-black leading-relaxed">
+		Đây là cơ hội để bạn trình bày tóm tắt về kinh nghiệm, kỹ năng và lý do bạn phù hợp với vị trí. Mẫu trả lời:
+	  </p>
+	   <p class="text-black italic mb-4 leading-relaxed">
+		"Tôi là [tên của bạn], tốt nghiệp chuyên ngành [chuyên ngành] từ [trường đại học]. Tôi có [X] năm kinh nghiệm trong lĩnh vực [lĩnh vực], với thế mạnh về [kỹ năng chính]. Trong vai trò gần đây nhất tại [công ty cũ], tôi đã [thành tích nổi bật]. Tôi đặc biệt quan tâm đến vị trí này vì [lý do bạn thích vị trí này] và tin rằng kỹ năng [kỹ năng phù hợp] của tôi sẽ giúp công ty [giá trị bạn mang lại]."
+	  </p>
+	  <p class="text-black font-bold leading-relaxed">
+		"Điểm mạnh và điểm yếu của bạn là gì?"
+	  </p>
+		<p class="text-black mb-4 leading-relaxed">
+		Khi nói về điểm mạnh, hãy tập trung vào kỹ năng liên quan đến công việc và minh họa bằng ví dụ cụ thể. Với điểm yếu, hãy chọn một điểm yếu không quá nghiêm trọng và nhấn mạnh cách bạn đang nỗ lực khắc phục.
+	  </p>
+	   <p class="text-black font-bold leading-relaxed">
+		"Tại sao bạn muốn làm việc tại công ty chúng tôi?"
+	  </p>
+		<p class="text-black mb-4 leading-relaxed">
+		Đây là cơ hội để thể hiện sự nghiên cứu của bạn về công ty. Hãy nêu ra những giá trị, sản phẩm hoặc dự án cụ thể của công ty mà bạn ngưỡng mộ và giải thích tại sao chúng phù hợp với mục tiêu nghề nghiệp của bạn.
+	  </p>
+	    <p class="text-black mb-4 font-bold leading-relaxed">
+		III. Kỹ năng trình bày bản thân hiệu quả
+	  </p>
+	    <p class="text-black font-bold leading-relaxed">
+		1. Ngôn ngữ cơ thể và giao tiếp phi ngôn ngữ
+	  </p>
+	  <p class="text-black leading-relaxed">
+		Giao tiếp không chỉ dựa vào lời nói. Đối với người khiếm thính, ngôn ngữ cơ thể càng đóng vai trò quan trọng:
+	  </p>
+	  <div class="text-black leading-relaxed pl-4">
+		• <span class="text-black font-bold leading-relaxed">Ánh mắt:</span> Duy trì giao tiếp bằng mắt một cách phù hợp. Điều này thể hiện sự tự tin và giúp bạn đọc khẩu hình của người đối diện.
+	  </div>
+	 <div class="text-black leading-relaxed pl-4">
+		• <span class="text-black font-bold leading-relaxed">Tư thế:</span> Ngồi thẳng lưng, hơi nghiêng về phía trước thể hiện sự quan tâm và tham gia tích cực.
+	  </div>
+	   <div class="text-black leading-relaxed pl-4">
+		• <span class="text-black font-bold leading-relaxed">Nét mặt:</span> Thể hiện sự nhiệt tình và tích cực qua nét mặt. Mỉm cười khi phù hợp.
+	  </div>
+	     <div class="text-black mb-4 leading-relaxed pl-4">
+		• <span class="text-black font-bold leading-relaxed">Cử chỉ tay:</span> Sử dụng cử chỉ tay một cách chuyên nghiệp để nhấn mạnh điểm quan trọng.
+	  </div>
+	     <p class="text-black font-bold leading-relaxed">
+		2. Kỹ năng giao tiếp khẩu hình và phát âm (nếu có thể)
+	  </p>
+	  <p class="text-black leading-relaxed pl-0">
+		Nếu bạn sử dụng khẩu hình và phát âm để giao tiếp:
+	  </p>
+	<div class="text-black  leading-relaxed pl-4">
+		• Nói chậm và rõ ràng
+	  </div>
+	  <div class="text-black  leading-relaxed pl-4">
+		• Sử dụng câu ngắn và đơn giản
+	  </div>
+	  <div class="text-black  leading-relaxed pl-4">
+		• Tránh thuật ngữ chuyên ngành phức tạp
+	  </div>
+	  <div class="text-black mb-4  leading-relaxed pl-4">
+		• Thực hành trước gương hoặc quay video để cải thiện khẩu hình
+	  </div>
+	    <p class="text-black font-bold leading-relaxed">
+		3. Sử dụng công nghệ hỗ trợ một cách hiệu quả
+	  </p>
+	   <p class="text-black leading-relaxed pl-0">
+		Các công nghệ hiện đại có thể giúp bạn vượt qua rào cản giao tiếp:
+	  </p>
+	  <div class="text-black  leading-relaxed pl-4">
+		• Ứng dụng chuyển giọng nói thành văn bản: Google Live Transcribe, Otter.ai, Microsoft Translator
+	  </div>
+	  <div class="text-black  leading-relaxed pl-4">
+		• Ứng dụng hỗ trợ giao tiếp dành cho người khiếm thính: Ava, RogerVoice, Transcense
+	  </div>
+	  <div class="text-black  leading-relaxed pl-4">
+		• Thiết bị hỗ trợ thính giác: Hệ thống FM, vòng từ tính
+	  </div>
+	  <div class="text-black mb-4 leading-relaxed">
+		Lưu ý: Thực hành sử dụng thành thạo các công nghệ này trước buổi phỏng vấn
+	  </div>
+	<p class="text-black font-bold mb-4 leading-relaxed">
+		IV. Chiến lược trình bày bản thân trong buổi phỏng vấn
+	  </p>
+	  	<p class="text-black font-bold leading-relaxed">
+		1. Giới thiệu về khiếm thính một cách chuyên nghiệp
+	  </p>
+	   <div class="text-black leading-relaxed">
+		Việc đề cập đến khiếm thính không phải là điều bắt buộc, nhưng nếu bạn quyết định chia sẻ, hãy làm điều đó một cách chuyên nghiệp và tích cực:"
+	  </div>
+	<div class="text-black italic leading-relaxed">
+	 "Tôi muốn chia sẻ rằng tôi là người khiếm thính. Tuy nhiên, điều này không ảnh hưởng đến năng lực làm việc của tôi. Tôi đã phát triển nhiều kỹ năng thích ứng như [kỹ năng thích ứng của bạn]. Tôi cũng sử dụng [các công cụ hỗ trợ] để giao tiếp hiệu quả trong môi trường làm việc."
+	  </div>
+	  <p class="text-black font-bold leading-relaxed">
+		2. Nhấn mạnh kỹ năng và điểm mạnh
+	  </p>
+	   <div class="text-black leading-relaxed">
+		Tập trung vào việc trình bày rõ ràng về các kỹ năng và kinh nghiệm phù hợp với vị trí
+	  </div>
+	   <div class="text-black  leading-relaxed pl-4">
+		• Sử dụng ví dụ cụ thể và con số để minh họa thành tích
+	  </div>
+	   <div class="text-black  leading-relaxed pl-4">
+		• Nhấn mạnh khả năng thích ứng và giải quyết vấn đề
+	  </div>
+	   <div class="text-black  leading-relaxed pl-4">
+		• Chia sẻ về các dự án thành công mà bạn đã tham gia
+	  </div>
+	   <div class="text-black mb-4 leading-relaxed pl-4">
+		• Đừng ngần ngại đề cập đến cách bạn đã vượt qua thách thức liên quan đến khiếm thính
+	  </div>
+	  <p class="text-black font-bold leading-relaxed">
+		3. Giải quyết các thắc mắc về khả năng làm việc
+	  </p>
+	   <div class="text-black leading-relaxed">
+		Nhà tuyển dụng có thể có thắc mắc về cách bạn sẽ xử lý các tình huống công việc cụ thể. Hãy chuẩn bị để giải thích:
+	  </div>
+	   <div class="text-black  leading-relaxed pl-4">
+		• Cách bạn giao tiếp trong các cuộc họp
+	  </div>
+	   <div class="text-black  leading-relaxed pl-4">
+		• Phương pháp làm việc nhóm hiệu quả
+	  </div>
+	   <div class="text-black  leading-relaxed pl-4">
+		• Cách bạn xử lý cuộc gọi điện thoại hoặc giao tiếp từ xa
+	  </div>
+	   <div class="text-black mb-4 leading-relaxed pl-4">
+		• Những điều chỉnh hợp lý mà bạn có thể cần
+	  </div>
+	   <div class="text-black mb-4 italic leading-relaxed">
+		Ví dụ: "Trong các cuộc họp nhóm, tôi sử dụng ứng dụng chuyển giọng nói thành văn bản trên iPad và đảm bảo ngồi ở vị trí có thể nhìn thấy rõ tất cả mọi người. Tôi cũng thường xin tài liệu cuộc họp trước để chuẩn bị, giúp tôi tham gia hiệu quả vào cuộc thảo luận."
+	  </div>
+	<p class="text-black font-bold  mb-4 leading-relaxed">
+		V. Xử lý các tình huống khó khăn
+	  </p>
+	  <p class="text-black font-bold  leading-relaxed">
+		1. Khi không hiểu câu hỏi
+	  </p>
+	  <div class="text-black leading-relaxed">
+		Đừng ngại yêu cầu người phỏng vấn nhắc lại hoặc làm rõ câu hỏi:
+	  </div>
+	   <div class="text-black italic leading-relaxed pl-4">
+		• "Xin lỗi, tôi không nắm rõ câu hỏi. Bạn có thể nhắc lại hoặc diễn đạt theo cách khác được không?"
+	  </div>
+	   <div class="text-black italic  leading-relaxed pl-4">
+		• "Bạn có thể viết câu hỏi này ra được không?"
+	  </div>
+	   <div class="text-black italic mb-4 leading-relaxed pl-4">
+		• "Tôi muốn đảm bảo rằng tôi hiểu đúng câu hỏi của bạn. Bạn đang hỏi về [tóm tắt hiểu biết của bạn], đúng không?"
+	  </div>
+	    <p class="text-black font-bold  leading-relaxed">
+		2. Đối phó với định kiến và thái độ tiêu cực
+	  </p>
+	<p class="text-black font-bold  leading-relaxed">
+		Đôi khi, bạn có thể gặp phải định kiến hoặc thái độ tiêu cực từ người phỏng vấn. Hãy duy trì thái độ chuyên nghiệp và: 
+	  </p>
+	   <div class="text-black leading-relaxed pl-4">
+		• Tập trung vào năng lực và kỹ năng của bạn
+	  </div>
+	   <div class="text-black leading-relaxed pl-4">
+		• Cung cấp ví dụ cụ thể về thành công trong công việc trước đây
+	  </div>
+	     <div class="text-black leading-relaxed pl-4">
+		• Nhấn mạnh khả năng thích ứng và giải quyết vấn đề
+	  </div>
+	   <div class="text-black mb-4 leading-relaxed pl-4">
+		• Nêu rõ các hỗ trợ hợp lý mà bạn cần
+	  </div>
+	   <p class="text-black font-bold  leading-relaxed">
+		3. Tự tin đặt câu hỏi về môi trường làm việc hòa nhập
+	  </p>
+	  <p class="text-black  leading-relaxed">
+		Cuối buổi phỏng vấn, bạn có cơ hội đặt câu hỏi. Hãy sử dụng cơ hội này để tìm hiểu thêm về môi trường làm việc:
+	  </p>
+	   <div class="text-black italic leading-relaxed pl-4">
+		• "Công ty có kinh nghiệm làm việc với nhân viên khiếm thính không?"
+	  </div>
+	   <div class="text-black italic leading-relaxed pl-4">
+		• "Làm thế nào công ty hỗ trợ sự đa dạng và hòa nhập trong môi trường làm việc?"
+	  </div>
+	     <div class="text-black italic mb-4 leading-relaxed pl-4">
+		• "Công ty có chính sách hoặc đào tạo nào về giao tiếp với người khiếm thính cho nhân viên không?"
+	  </div>
+	   <p class="text-black font-bold mb-4 leading-relaxed">
+		VI. Sau buổi phỏng vấn
+	  </p>
+	   <p class="text-black leading-relaxed">
+		1. Gửi email cảm ơn
+	  </p>
+	   <p class="text-black leading-relaxed">
+		Sau buổi phỏng vấn, hãy gửi email cảm ơn trong vòng 24 giờ
+	  </p>
+	   <div class="text-black leading-relaxed pl-4">
+		• Bày tỏ lòng biết ơn về cơ hội phỏng vấn
+	  </div>
+	     <div class="text-black mb-4 leading-relaxed pl-4">
+		• Nhắc lại sự quan tâm của bạn đối với vị trí
+	  </div>
+	     <div class="text-black leading-relaxed pl-4">
+		• Tóm tắt ngắn gọn những điểm mạnh chính của bạn
+	  </div>
+	     <div class="text-black mb-4 leading-relaxed pl-4">
+		• Đề cập đến một điểm thú vị từ cuộc trò chuyện
+	  </div>
+	     <div class="text-black mb-4 leading-relaxed pl-4">
+		• Cung cấp thông tin bổ sung nếu cần
+	  </div>
+	  <p class="text-black font-bold leading-relaxed">
+		2. Phản hồi và cải thiện
+	  </p>
+	   <p class="text-black leading-relaxed">
+		Sau mỗi buổi phỏng vấn, dù kết quả thế nào, hãy:
+	  </p>
+	   <div class="text-black leading-relaxed pl-4">
+		• Ghi lại những câu hỏi khó và chuẩn bị câu trả lời tốt hơn
+	  </div>
+	     <div class="text-black leading-relaxed pl-4">
+		• Đánh giá hiệu quả của phương tiện giao tiếp bạn sử dụng
+	  </div>
+	     <div class="text-black leading-relaxed pl-4">
+		• Xác định các kỹ năng cần cải thiện
+	  </div>
+	     <div class="text-black mb-4 leading-relaxed pl-4">
+		• Tìm kiếm phản hồi từ người phỏng vấn nếu có thể
+	  </div>
+	   <p class="text-black font-bold leading-relaxed">
+		VII. Quyền lợi pháp lý của người khiếm thính trong tuyển dụng
+	  </p>
+	   <p class="text-black leading-relaxed">
+		Tại Việt Nam, người khiếm thính được bảo vệ bởi Luật Người khuyết tật 2010 và các quy định liên quan:
+	  </p>
+	 <div class="text-black leading-relaxed">
+		<span class="text-black leading-relaxed font-bold">1. Cấm phân biệt đối xử:</span> Nhà tuyển dụng không được phép từ chối tuyển dụng chỉ vì khiếm thính.
+	  </div>
+	  	 <div class="text-black leading-relaxed">
+		<span class="text-black leading-relaxed font-bold">2. Điều chỉnh hợp lý:</span> Các tổ chức có nghĩa vụ cung cấp các điều chỉnh hợp lý cho người khuyết tật trong quá trình tuyển dụng và làm việc.
+	  </div>
+	<div class="text-black mb-4 leading-relaxed">
+		<span class="text-black leading-relaxed font-bold">3. Ưu đãi thuế:</span> Doanh nghiệp tuyển dụng người khuyết tật có thể được hưởng các ưu đãi về thuế và chính sách hỗ trợ từ nhà nước.
+	  </div>
+	    <p class="text-black mb-4 leading-relaxed">
+		Nắm vững các quyền lợi này sẽ giúp bạn tự tin hơn trong quá trình phỏng vấn và tìm kiếm việc làm
+	  </p>
+	    <p class="text-black font-bold leading-relaxed">
+		VIII. Chia sẻ từ người trong cuộc
+	  </p>
+	     <p class="text-black italic mb-4 leading-relaxed">
+		"Khi tôi bước vào phòng phỏng vấn lần đầu tiên, tôi rất lo lắng về cách giao tiếp. Nhưng sau khi chủ động thông báo với nhà tuyển dụng về khiếm thính và cách tôi có thể giao tiếp hiệu quả, mọi thứ trở nên dễ dàng hơn. Tôi đã chuẩn bị một bài thuyết trình ngắn về bản thân và kinh nghiệm làm việc, kèm theo tài liệu giới thiệu. Điều này đã giúp tôi tự tin hơn và nhà tuyển dụng đánh giá cao sự chuẩn bị của tôi. Hiện tại, tôi đang làm việc tại một công ty công nghệ với vị trí thiết kế đồ họa và được đánh giá cao về năng lực chuyên môn." - Nguyễn Văn A, Designer tại TechVision.
+	  </p>
+	    <p class="text-black font-bold leading-relaxed">
+		IX. Kết luận
+	  </p>
+	     <p class="text-black mb-4 leading-relaxed">
+		Trình bày bản thân trong phỏng vấn là một kỹ năng có thể học hỏi và rèn luyện. Với tư cách là người khiếm thính, bạn có thể gặp phải một số thách thức nhưng cũng có những lợi thế độc đáo. Hãy nhớ rằng, nhà tuyển dụng đang tìm kiếm một người có thể đóng góp giá trị cho công ty của họ, và khiếm thính không phải là rào cản cho điều đó.
+	  </p>
+	       <p class="text-black mb-4 leading-relaxed">
+		Thông qua việc chuẩn bị kỹ lưỡng, sử dụng các công cụ hỗ trợ phù hợp và trình bày rõ ràng về kỹ năng và kinh nghiệm của mình, bạn hoàn toàn có thể tạo ấn tượng tốt và giành được công việc mơ ước.
+	  </p>
+	
+	`,
+  },
+ {
+    image: "/image/camnang2.jpg",
+    name: "Chuẩn bị hành trang tìm việc cho người khiếm thính",
+    note: "Để tham gia vào thị trường lao động, người khiếm thính cần có sự chuẩn bị, ở bài viết này chúng tôi sẽ cung cấp những thông tin cần thiết để giúp người khiếm thính chuản bị hành trang tìm việc.",
+    slug: "chuan-bi-hanh-trang-tim-viec-cho-nguoi-khiem-thinh",
+    descript: `<p class="text-black font-bold leading-relaxed">
+		 I. HIỂU RÕ ĐIỂM MẠNH VÀ GIỚI HẠN CỦA BẢN THÂN
+	  </p>
+	  <p class="text-black font-bold leading-relaxed">
+	 	 1. Nhận diện ưu điểm cá nhân
+	  </p>
+		<p class="text-black font-bold leading-relaxed">
+		Người khiếm thính thường phát triển các kỹ năng đặc biệt để bù đắp cho giới hạn về thính giác. Đây chính là những điểm mạnh quý giá trong môi trường làm việc: Khả năng quan sát mạnh mẽ: Người khiếm thính thường có khả năng nhận biết các thay đổi về ngôn ngữ cơ thể, biểu cảm khuôn mặt và các chi tiết trực quan khác một cách tinh tế. Đây là lợi thế trong các công việc đòi hỏi sự chú ý đến chi tiết.
+	  </p>
+	   <p class="text-black leading-relaxed pl-4">
+		• Khả năng tập trung cao: Ít bị phân tâm bởi tiếng ồn và đàm thoại xung quanh, giúp duy trì sự tập trung trong môi trường làm việc nhộn nhịp.
+	  </p>
+	     <p class="text-black leading-relaxed pl-4">
+		• Khả năng thích nghi tốt: Việc phải thường xuyên đối mặt với thách thức giao tiếp trong cuộc sống hàng ngày đã rèn luyện khả năng thích nghi, giải quyết vấn đề và sự kiên trì.
+	  </p>
+		<p class="text-black leading-relaxed pl-4">
+		• Đa ngôn ngữ: Nhiều người khiếm thính thông thạo ngôn ngữ ký hiệu và ngôn ngữ viết, đây là lợi thế trong các vị trí yêu cầu đa ngôn ngữ.
+	  </p>
+	  <p class="text-black mb-4 italic leading-relaxed">
+		Bài tập thực hành: Hãy liệt kê 10 điểm mạnh cá nhân của bạn, bao gồm cả kỹ năng cứng (như khả năng sử dụng phần mềm, ngôn ngữ ký hiệu) và kỹ năng mềm (như khả năng làm việc nhóm, khả năng thích nghi).
+	  </p>
+	    <p class="text-black font-bold leading-relaxed">
+	 	 2. Nhận diện giới hạn và chiến lược khắc phục
+	  </p>
+	  <p class="text-black font-bold leading-relaxed">
+		Hiểu rõ những thách thức có thể gặp phải trong môi trường làm việc sẽ giúp bạn chuẩn bị tốt hơn:
+	  </p>
+	   <p class="text-black leading-relaxed pl-4">
+		• Rào cản giao tiếp: Xác định công cụ hỗ trợ giao tiếp phù hợp (phiên dịch ngôn ngữ ký hiệu, ứng dụng chuyển đổi giọng nói thành văn bản, ghi chú bằng văn bản).
+	  </p>
+	     <p class="text-black leading-relaxed pl-4">
+		• Giới hạn về thông tin âm thanh: Tìm hiểu về các thiết bị hỗ trợ như đèn báo hoặc rung cho các thông báo khẩn cấp.
+	  </p>
+		<p class="text-black leading-relaxed pl-4">
+		• Khó khăn trong cuộc họp nhóm: Chuẩn bị chiến lược như yêu cầu nội dung cuộc họp trước, sắp xếp vị trí ngồi thuận lợi cho việc đọc môi.
+	  </p>
+	  	<p class="text-black mb-4 leading-relaxed">
+		Lưu ý quan trọng: Giới hạn không đồng nghĩa với việc thiếu khả năng. Đó chỉ là những điểm cần có giải pháp hỗ trợ phù hợp.
+	  </p>
+	  <p class="text-black mb-4 font-bold leading-relaxed">
+		II. Chuẩn bị trước buổi phỏng vấn
+	  </p>
+	<p class="text-black mb-4 font-bold leading-relaxed">
+		1. Nghiên cứu kỹ về công ty và vị trí ứng tuyển
+	  </p>
+	  <p class="text-black leading-relaxed">
+		Trước khi bước vào phỏng vấn, hãy dành thời gian để:
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		• Tìm hiểu sâu về công ty: lịch sử, sản phẩm/dịch vụ, văn hóa doanh nghiệp
+	  </p>
+	   <p class="text-black leading-relaxed pl-4">
+		• Nghiên cứu kỹ về vị trí ứng tuyển: yêu cầu công việc, trách nhiệm, kỹ năng cần thiết
+	  </p>
+	     <p class="text-black leading-relaxed pl-4">
+		• Tìm hiểu về đối thủ cạnh tranh và xu hướng ngành
+	  </p>
+	     <p class="text-black leading-relaxed pl-4">
+		• Xem các đánh giá của nhân viên hiện tại hoặc cựu nhân viên
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		 Khi bạn nắm vững thông tin này, bạn sẽ có thể trả lời câu hỏi một cách tự tin và thể hiện sự quan tâm thực sự đến công ty.
+	  </p>
+	<p class="text-black mb-4 font-bold leading-relaxed">
+		2. Chuẩn bị phương tiện hỗ trợ giao tiếp
+	  </p>
+	  <p class="text-black leading-relaxed">
+		Tùy vào nhu cầu và khả năng của bạn, hãy chuẩn bị các phương tiện hỗ trợ giao tiếp phù hợp:
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		• Thông dịch viên ngôn ngữ ký hiệu: Liên hệ trước với công ty để thông báo về nhu cầu này
+	  </p>
+	   <p class="text-black leading-relaxed pl-4">
+		• Ứng dụng chuyển giọng nói thành văn bản trên điện thoại hoặc máy tính bảng
+	  </p>
+	     <p class="text-black leading-relaxed pl-4">
+		• Tài liệu viết sẵn về bản thân và câu trả lời cho các câu hỏi phỏng vấn phổ biến
+	  </p>
+	     <p class="text-black leading-relaxed pl-4">
+		• Bút và giấy để ghi chú hoặc giao tiếp khi cần thiết
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		 Lưu ý: Hãy chủ động thông báo với nhà tuyển dụng về nhu cầu hỗ trợ giao tiếp của bạn ít nhất 3-5 ngày trước buổi phỏng vấn.
+	  </p>
+	  <p class="text-black  font-bold leading-relaxed">
+		3. Chuẩn bị câu trả lời cho các câu hỏi phỏng vấn phổ biến
+	  </p>
+	  <p class="text-black leading-relaxed">
+		Dưới đây là một số câu hỏi phỏng vấn phổ biến và gợi ý cách trả lời:
+	  </p>
+	  	  <p class="text-black font-bold leading-relaxed">
+		"Hãy giới thiệu về bản thân bạn?"
+	  </p>
+	  <p class="text-black leading-relaxed">
+		Đây là cơ hội để bạn trình bày tóm tắt về kinh nghiệm, kỹ năng và lý do bạn phù hợp với vị trí. Mẫu trả lời:
+	  </p>
+	   <p class="text-black italic mb-4 leading-relaxed">
+		"Tôi là [tên của bạn], tốt nghiệp chuyên ngành [chuyên ngành] từ [trường đại học]. Tôi có [X] năm kinh nghiệm trong lĩnh vực [lĩnh vực], với thế mạnh về [kỹ năng chính]. Trong vai trò gần đây nhất tại [công ty cũ], tôi đã [thành tích nổi bật]. Tôi đặc biệt quan tâm đến vị trí này vì [lý do bạn thích vị trí này] và tin rằng kỹ năng [kỹ năng phù hợp] của tôi sẽ giúp công ty [giá trị bạn mang lại]."
+	  </p>
+	  <p class="text-black font-bold leading-relaxed">
+		"Điểm mạnh và điểm yếu của bạn là gì?"
+	  </p>
+		<p class="text-black mb-4 leading-relaxed">
+		Khi nói về điểm mạnh, hãy tập trung vào kỹ năng liên quan đến công việc và minh họa bằng ví dụ cụ thể. Với điểm yếu, hãy chọn một điểm yếu không quá nghiêm trọng và nhấn mạnh cách bạn đang nỗ lực khắc phục.
+	  </p>
+	   <p class="text-black font-bold leading-relaxed">
+		"Tại sao bạn muốn làm việc tại công ty chúng tôi?"
+	  </p>
+		<p class="text-black mb-4 leading-relaxed">
+		Đây là cơ hội để thể hiện sự nghiên cứu của bạn về công ty. Hãy nêu ra những giá trị, sản phẩm hoặc dự án cụ thể của công ty mà bạn ngưỡng mộ và giải thích tại sao chúng phù hợp với mục tiêu nghề nghiệp của bạn.
+	  </p>
+	    <p class="text-black mb-4 font-bold leading-relaxed">
+		III. Kỹ năng trình bày bản thân hiệu quả
+	  </p>
+	    <p class="text-black font-bold leading-relaxed">
+		1. Ngôn ngữ cơ thể và giao tiếp phi ngôn ngữ
+	  </p>
+	  <p class="text-black leading-relaxed">
+		Giao tiếp không chỉ dựa vào lời nói. Đối với người khiếm thính, ngôn ngữ cơ thể càng đóng vai trò quan trọng:
+	  </p>
+	  <div class="text-black leading-relaxed pl-4">
+		• <span class="text-black font-bold leading-relaxed">Ánh mắt:</span> Duy trì giao tiếp bằng mắt một cách phù hợp. Điều này thể hiện sự tự tin và giúp bạn đọc khẩu hình của người đối diện.
+	  </div>
+	 <div class="text-black leading-relaxed pl-4">
+		• <span class="text-black font-bold leading-relaxed">Tư thế:</span> Ngồi thẳng lưng, hơi nghiêng về phía trước thể hiện sự quan tâm và tham gia tích cực.
+	  </div>
+	   <div class="text-black leading-relaxed pl-4">
+		• <span class="text-black font-bold leading-relaxed">Nét mặt:</span> Thể hiện sự nhiệt tình và tích cực qua nét mặt. Mỉm cười khi phù hợp.
+	  </div>
+	     <div class="text-black mb-4 leading-relaxed pl-4">
+		• <span class="text-black font-bold leading-relaxed">Cử chỉ tay:</span> Sử dụng cử chỉ tay một cách chuyên nghiệp để nhấn mạnh điểm quan trọng.
+	  </div>
+	     <p class="text-black font-bold leading-relaxed">
+		2. Kỹ năng giao tiếp khẩu hình và phát âm (nếu có thể)
+	  </p>
+	  <p class="text-black leading-relaxed pl-0">
+		Nếu bạn sử dụng khẩu hình và phát âm để giao tiếp:
+	  </p>
+	<div class="text-black  leading-relaxed pl-4">
+		• Nói chậm và rõ ràng
+	  </div>
+	  <div class="text-black  leading-relaxed pl-4">
+		• Sử dụng câu ngắn và đơn giản
+	  </div>
+	  <div class="text-black  leading-relaxed pl-4">
+		• Tránh thuật ngữ chuyên ngành phức tạp
+	  </div>
+	  <div class="text-black mb-4  leading-relaxed pl-4">
+		• Thực hành trước gương hoặc quay video để cải thiện khẩu hình
+	  </div>
+	    <p class="text-black font-bold leading-relaxed">
+		3. Sử dụng công nghệ hỗ trợ một cách hiệu quả
+	  </p>
+	   <p class="text-black leading-relaxed pl-0">
+		Các công nghệ hiện đại có thể giúp bạn vượt qua rào cản giao tiếp:
+	  </p>
+	  <div class="text-black  leading-relaxed pl-4">
+		• Ứng dụng chuyển giọng nói thành văn bản: Google Live Transcribe, Otter.ai, Microsoft Translator
+	  </div>
+	  <div class="text-black  leading-relaxed pl-4">
+		• Ứng dụng hỗ trợ giao tiếp dành cho người khiếm thính: Ava, RogerVoice, Transcense
+	  </div>
+	  <div class="text-black  leading-relaxed pl-4">
+		• Thiết bị hỗ trợ thính giác: Hệ thống FM, vòng từ tính
+	  </div>
+	  <div class="text-black mb-4 leading-relaxed">
+		Lưu ý: Thực hành sử dụng thành thạo các công nghệ này trước buổi phỏng vấn
+	  </div>
+	<p class="text-black font-bold mb-4 leading-relaxed">
+		IV. Chiến lược trình bày bản thân trong buổi phỏng vấn
+	  </p>
+	  	<p class="text-black font-bold leading-relaxed">
+		1. Giới thiệu về khiếm thính một cách chuyên nghiệp
+	  </p>
+	   <div class="text-black leading-relaxed">
+		Việc đề cập đến khiếm thính không phải là điều bắt buộc, nhưng nếu bạn quyết định chia sẻ, hãy làm điều đó một cách chuyên nghiệp và tích cực:"
+	  </div>
+	<div class="text-black italic leading-relaxed">
+	 "Tôi muốn chia sẻ rằng tôi là người khiếm thính. Tuy nhiên, điều này không ảnh hưởng đến năng lực làm việc của tôi. Tôi đã phát triển nhiều kỹ năng thích ứng như [kỹ năng thích ứng của bạn]. Tôi cũng sử dụng [các công cụ hỗ trợ] để giao tiếp hiệu quả trong môi trường làm việc."
+	  </div>
+	  <p class="text-black font-bold leading-relaxed">
+		2. Nhấn mạnh kỹ năng và điểm mạnh
+	  </p>
+	   <div class="text-black leading-relaxed">
+		Tập trung vào việc trình bày rõ ràng về các kỹ năng và kinh nghiệm phù hợp với vị trí
+	  </div>
+	   <div class="text-black  leading-relaxed pl-4">
+		• Sử dụng ví dụ cụ thể và con số để minh họa thành tích
+	  </div>
+	   <div class="text-black  leading-relaxed pl-4">
+		• Nhấn mạnh khả năng thích ứng và giải quyết vấn đề
+	  </div>
+	   <div class="text-black  leading-relaxed pl-4">
+		• Chia sẻ về các dự án thành công mà bạn đã tham gia
+	  </div>
+	   <div class="text-black mb-4 leading-relaxed pl-4">
+		• Đừng ngần ngại đề cập đến cách bạn đã vượt qua thách thức liên quan đến khiếm thính
+	  </div>
+	  <p class="text-black font-bold leading-relaxed">
+		3. Giải quyết các thắc mắc về khả năng làm việc
+	  </p>
+	   <div class="text-black leading-relaxed">
+		Nhà tuyển dụng có thể có thắc mắc về cách bạn sẽ xử lý các tình huống công việc cụ thể. Hãy chuẩn bị để giải thích:
+	  </div>
+	   <div class="text-black  leading-relaxed pl-4">
+		• Cách bạn giao tiếp trong các cuộc họp
+	  </div>
+	   <div class="text-black  leading-relaxed pl-4">
+		• Phương pháp làm việc nhóm hiệu quả
+	  </div>
+	   <div class="text-black  leading-relaxed pl-4">
+		• Cách bạn xử lý cuộc gọi điện thoại hoặc giao tiếp từ xa
+	  </div>
+	   <div class="text-black mb-4 leading-relaxed pl-4">
+		• Những điều chỉnh hợp lý mà bạn có thể cần
+	  </div>
+	   <div class="text-black mb-4 italic leading-relaxed">
+		Ví dụ: "Trong các cuộc họp nhóm, tôi sử dụng ứng dụng chuyển giọng nói thành văn bản trên iPad và đảm bảo ngồi ở vị trí có thể nhìn thấy rõ tất cả mọi người. Tôi cũng thường xin tài liệu cuộc họp trước để chuẩn bị, giúp tôi tham gia hiệu quả vào cuộc thảo luận."
+	  </div>
+	<p class="text-black font-bold  mb-4 leading-relaxed">
+		V. Xử lý các tình huống khó khăn
+	  </p>
+	  <p class="text-black font-bold  leading-relaxed">
+		1. Khi không hiểu câu hỏi
+	  </p>
+	  <div class="text-black leading-relaxed">
+		Đừng ngại yêu cầu người phỏng vấn nhắc lại hoặc làm rõ câu hỏi:
+	  </div>
+	   <div class="text-black italic leading-relaxed pl-4">
+		• "Xin lỗi, tôi không nắm rõ câu hỏi. Bạn có thể nhắc lại hoặc diễn đạt theo cách khác được không?"
+	  </div>
+	   <div class="text-black italic  leading-relaxed pl-4">
+		• "Bạn có thể viết câu hỏi này ra được không?"
+	  </div>
+	   <div class="text-black italic mb-4 leading-relaxed pl-4">
+		• "Tôi muốn đảm bảo rằng tôi hiểu đúng câu hỏi của bạn. Bạn đang hỏi về [tóm tắt hiểu biết của bạn], đúng không?"
+	  </div>
+	    <p class="text-black font-bold  leading-relaxed">
+		2. Đối phó với định kiến và thái độ tiêu cực
+	  </p>
+	<p class="text-black font-bold  leading-relaxed">
+		Đôi khi, bạn có thể gặp phải định kiến hoặc thái độ tiêu cực từ người phỏng vấn. Hãy duy trì thái độ chuyên nghiệp và: 
+	  </p>
+	   <div class="text-black leading-relaxed pl-4">
+		• Tập trung vào năng lực và kỹ năng của bạn
+	  </div>
+	   <div class="text-black leading-relaxed pl-4">
+		• Cung cấp ví dụ cụ thể về thành công trong công việc trước đây
+	  </div>
+	     <div class="text-black leading-relaxed pl-4">
+		• Nhấn mạnh khả năng thích ứng và giải quyết vấn đề
+	  </div>
+	   <div class="text-black mb-4 leading-relaxed pl-4">
+		• Nêu rõ các hỗ trợ hợp lý mà bạn cần
+	  </div>
+	   <p class="text-black font-bold  leading-relaxed">
+		3. Tự tin đặt câu hỏi về môi trường làm việc hòa nhập
+	  </p>
+	  <p class="text-black  leading-relaxed">
+		Cuối buổi phỏng vấn, bạn có cơ hội đặt câu hỏi. Hãy sử dụng cơ hội này để tìm hiểu thêm về môi trường làm việc:
+	  </p>
+	   <div class="text-black italic leading-relaxed pl-4">
+		• "Công ty có kinh nghiệm làm việc với nhân viên khiếm thính không?"
+	  </div>
+	   <div class="text-black italic leading-relaxed pl-4">
+		• "Làm thế nào công ty hỗ trợ sự đa dạng và hòa nhập trong môi trường làm việc?"
+	  </div>
+	     <div class="text-black italic mb-4 leading-relaxed pl-4">
+		• "Công ty có chính sách hoặc đào tạo nào về giao tiếp với người khiếm thính cho nhân viên không?"
+	  </div>
+	   <p class="text-black font-bold mb-4 leading-relaxed">
+		VI. Sau buổi phỏng vấn
+	  </p>
+	   <p class="text-black leading-relaxed">
+		1. Gửi email cảm ơn
+	  </p>
+	   <p class="text-black leading-relaxed">
+		Sau buổi phỏng vấn, hãy gửi email cảm ơn trong vòng 24 giờ
+	  </p>
+	   <div class="text-black leading-relaxed pl-4">
+		• Bày tỏ lòng biết ơn về cơ hội phỏng vấn
+	  </div>
+	     <div class="text-black mb-4 leading-relaxed pl-4">
+		• Nhắc lại sự quan tâm của bạn đối với vị trí
+	  </div>
+	     <div class="text-black leading-relaxed pl-4">
+		• Tóm tắt ngắn gọn những điểm mạnh chính của bạn
+	  </div>
+	     <div class="text-black mb-4 leading-relaxed pl-4">
+		• Đề cập đến một điểm thú vị từ cuộc trò chuyện
+	  </div>
+	     <div class="text-black mb-4 leading-relaxed pl-4">
+		• Cung cấp thông tin bổ sung nếu cần
+	  </div>
+	  <p class="text-black font-bold leading-relaxed">
+		2. Phản hồi và cải thiện
+	  </p>
+	   <p class="text-black leading-relaxed">
+		Sau mỗi buổi phỏng vấn, dù kết quả thế nào, hãy:
+	  </p>
+	   <div class="text-black leading-relaxed pl-4">
+		• Ghi lại những câu hỏi khó và chuẩn bị câu trả lời tốt hơn
+	  </div>
+	     <div class="text-black leading-relaxed pl-4">
+		• Đánh giá hiệu quả của phương tiện giao tiếp bạn sử dụng
+	  </div>
+	     <div class="text-black leading-relaxed pl-4">
+		• Xác định các kỹ năng cần cải thiện
+	  </div>
+	     <div class="text-black mb-4 leading-relaxed pl-4">
+		• Tìm kiếm phản hồi từ người phỏng vấn nếu có thể
+	  </div>
+	   <p class="text-black font-bold leading-relaxed">
+		VII. Quyền lợi pháp lý của người khiếm thính trong tuyển dụng
+	  </p>
+	   <p class="text-black leading-relaxed">
+		Tại Việt Nam, người khiếm thính được bảo vệ bởi Luật Người khuyết tật 2010 và các quy định liên quan:
+	  </p>
+	 <div class="text-black leading-relaxed">
+		<span class="text-black leading-relaxed font-bold">1. Cấm phân biệt đối xử:</span> Nhà tuyển dụng không được phép từ chối tuyển dụng chỉ vì khiếm thính.
+	  </div>
+	  	 <div class="text-black leading-relaxed">
+		<span class="text-black leading-relaxed font-bold">2. Điều chỉnh hợp lý:</span> Các tổ chức có nghĩa vụ cung cấp các điều chỉnh hợp lý cho người khuyết tật trong quá trình tuyển dụng và làm việc.
+	  </div>
+	<div class="text-black mb-4 leading-relaxed">
+		<span class="text-black leading-relaxed font-bold">3. Ưu đãi thuế:</span> Doanh nghiệp tuyển dụng người khuyết tật có thể được hưởng các ưu đãi về thuế và chính sách hỗ trợ từ nhà nước.
+	  </div>
+	    <p class="text-black mb-4 leading-relaxed">
+		Nắm vững các quyền lợi này sẽ giúp bạn tự tin hơn trong quá trình phỏng vấn và tìm kiếm việc làm
+	  </p>
+	    <p class="text-black font-bold leading-relaxed">
+		VIII. Chia sẻ từ người trong cuộc
+	  </p>
+	     <p class="text-black italic mb-4 leading-relaxed">
+		"Khi tôi bước vào phòng phỏng vấn lần đầu tiên, tôi rất lo lắng về cách giao tiếp. Nhưng sau khi chủ động thông báo với nhà tuyển dụng về khiếm thính và cách tôi có thể giao tiếp hiệu quả, mọi thứ trở nên dễ dàng hơn. Tôi đã chuẩn bị một bài thuyết trình ngắn về bản thân và kinh nghiệm làm việc, kèm theo tài liệu giới thiệu. Điều này đã giúp tôi tự tin hơn và nhà tuyển dụng đánh giá cao sự chuẩn bị của tôi. Hiện tại, tôi đang làm việc tại một công ty công nghệ với vị trí thiết kế đồ họa và được đánh giá cao về năng lực chuyên môn." - Nguyễn Văn A, Designer tại TechVision.
+	  </p>
+	    <p class="text-black font-bold leading-relaxed">
+		IX. Kết luận
+	  </p>
+	     <p class="text-black mb-4 leading-relaxed">
+		Trình bày bản thân trong phỏng vấn là một kỹ năng có thể học hỏi và rèn luyện. Với tư cách là người khiếm thính, bạn có thể gặp phải một số thách thức nhưng cũng có những lợi thế độc đáo. Hãy nhớ rằng, nhà tuyển dụng đang tìm kiếm một người có thể đóng góp giá trị cho công ty của họ, và khiếm thính không phải là rào cản cho điều đó.
+	  </p>
+	       <p class="text-black mb-4 leading-relaxed">
+		Thông qua việc chuẩn bị kỹ lưỡng, sử dụng các công cụ hỗ trợ phù hợp và trình bày rõ ràng về kỹ năng và kinh nghiệm của mình, bạn hoàn toàn có thể tạo ấn tượng tốt và giành được công việc mơ ước.
+	  </p>
+	
+	`,
+  },
+ {
+    image: "/image/camnang2.jpg",
+    name: "Chuẩn bị hành trang tìm việc cho người khiếm thính",
+    note: "Để tham gia vào thị trường lao động, người khiếm thính cần có sự chuẩn bị, ở bài viết này chúng tôi sẽ cung cấp những thông tin cần thiết để giúp người khiếm thính chuản bị hành trang tìm việc.",
+    slug: "chuan-bi-hanh-trang-tim-viec-cho-nguoi-khiem-thinh",
+    descript: `<p class="text-black font-bold leading-relaxed">
+		 I. HIỂU RÕ ĐIỂM MẠNH VÀ GIỚI HẠN CỦA BẢN THÂN
+	  </p>
+	  <p class="text-black font-bold leading-relaxed">
+	 	 1. Nhận diện ưu điểm cá nhân
+	  </p>
+		<p class="text-black font-bold leading-relaxed">
+		Người khiếm thính thường phát triển các kỹ năng đặc biệt để bù đắp cho giới hạn về thính giác. Đây chính là những điểm mạnh quý giá trong môi trường làm việc: Khả năng quan sát mạnh mẽ: Người khiếm thính thường có khả năng nhận biết các thay đổi về ngôn ngữ cơ thể, biểu cảm khuôn mặt và các chi tiết trực quan khác một cách tinh tế. Đây là lợi thế trong các công việc đòi hỏi sự chú ý đến chi tiết.
+	  </p>
+	   <p class="text-black leading-relaxed pl-4">
+		• Khả năng tập trung cao: Ít bị phân tâm bởi tiếng ồn và đàm thoại xung quanh, giúp duy trì sự tập trung trong môi trường làm việc nhộn nhịp.
+	  </p>
+	     <p class="text-black leading-relaxed pl-4">
+		• Khả năng thích nghi tốt: Việc phải thường xuyên đối mặt với thách thức giao tiếp trong cuộc sống hàng ngày đã rèn luyện khả năng thích nghi, giải quyết vấn đề và sự kiên trì.
+	  </p>
+		<p class="text-black leading-relaxed pl-4">
+		• Đa ngôn ngữ: Nhiều người khiếm thính thông thạo ngôn ngữ ký hiệu và ngôn ngữ viết, đây là lợi thế trong các vị trí yêu cầu đa ngôn ngữ.
+	  </p>
+	  <p class="text-black mb-4 italic leading-relaxed">
+		Bài tập thực hành: Hãy liệt kê 10 điểm mạnh cá nhân của bạn, bao gồm cả kỹ năng cứng (như khả năng sử dụng phần mềm, ngôn ngữ ký hiệu) và kỹ năng mềm (như khả năng làm việc nhóm, khả năng thích nghi).
+	  </p>
+	    <p class="text-black font-bold leading-relaxed">
+	 	 2. Nhận diện giới hạn và chiến lược khắc phục
+	  </p>
+	  <p class="text-black font-bold leading-relaxed">
+		Hiểu rõ những thách thức có thể gặp phải trong môi trường làm việc sẽ giúp bạn chuẩn bị tốt hơn:
+	  </p>
+	   <p class="text-black leading-relaxed pl-4">
+		• Rào cản giao tiếp: Xác định công cụ hỗ trợ giao tiếp phù hợp (phiên dịch ngôn ngữ ký hiệu, ứng dụng chuyển đổi giọng nói thành văn bản, ghi chú bằng văn bản).
+	  </p>
+	     <p class="text-black leading-relaxed pl-4">
+		• Giới hạn về thông tin âm thanh: Tìm hiểu về các thiết bị hỗ trợ như đèn báo hoặc rung cho các thông báo khẩn cấp.
+	  </p>
+		<p class="text-black leading-relaxed pl-4">
+		• Khó khăn trong cuộc họp nhóm: Chuẩn bị chiến lược như yêu cầu nội dung cuộc họp trước, sắp xếp vị trí ngồi thuận lợi cho việc đọc môi.
+	  </p>
+	  	<p class="text-black mb-4 leading-relaxed">
+		Lưu ý quan trọng: Giới hạn không đồng nghĩa với việc thiếu khả năng. Đó chỉ là những điểm cần có giải pháp hỗ trợ phù hợp.
+	  </p>
+	  <p class="text-black mb-4 font-bold leading-relaxed">
+		II. Chuẩn bị trước buổi phỏng vấn
+	  </p>
+	<p class="text-black mb-4 font-bold leading-relaxed">
+		1. Nghiên cứu kỹ về công ty và vị trí ứng tuyển
+	  </p>
+	  <p class="text-black leading-relaxed">
+		Trước khi bước vào phỏng vấn, hãy dành thời gian để:
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		• Tìm hiểu sâu về công ty: lịch sử, sản phẩm/dịch vụ, văn hóa doanh nghiệp
+	  </p>
+	   <p class="text-black leading-relaxed pl-4">
+		• Nghiên cứu kỹ về vị trí ứng tuyển: yêu cầu công việc, trách nhiệm, kỹ năng cần thiết
+	  </p>
+	     <p class="text-black leading-relaxed pl-4">
+		• Tìm hiểu về đối thủ cạnh tranh và xu hướng ngành
+	  </p>
+	     <p class="text-black leading-relaxed pl-4">
+		• Xem các đánh giá của nhân viên hiện tại hoặc cựu nhân viên
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		 Khi bạn nắm vững thông tin này, bạn sẽ có thể trả lời câu hỏi một cách tự tin và thể hiện sự quan tâm thực sự đến công ty.
+	  </p>
+	<p class="text-black mb-4 font-bold leading-relaxed">
+		2. Chuẩn bị phương tiện hỗ trợ giao tiếp
+	  </p>
+	  <p class="text-black leading-relaxed">
+		Tùy vào nhu cầu và khả năng của bạn, hãy chuẩn bị các phương tiện hỗ trợ giao tiếp phù hợp:
+	  </p>
+	  <p class="text-black leading-relaxed pl-4">
+		• Thông dịch viên ngôn ngữ ký hiệu: Liên hệ trước với công ty để thông báo về nhu cầu này
+	  </p>
+	   <p class="text-black leading-relaxed pl-4">
+		• Ứng dụng chuyển giọng nói thành văn bản trên điện thoại hoặc máy tính bảng
+	  </p>
+	     <p class="text-black leading-relaxed pl-4">
+		• Tài liệu viết sẵn về bản thân và câu trả lời cho các câu hỏi phỏng vấn phổ biến
+	  </p>
+	     <p class="text-black leading-relaxed pl-4">
+		• Bút và giấy để ghi chú hoặc giao tiếp khi cần thiết
+	  </p>
+	  <p class="text-black mb-4 leading-relaxed">
+		 Lưu ý: Hãy chủ động thông báo với nhà tuyển dụng về nhu cầu hỗ trợ giao tiếp của bạn ít nhất 3-5 ngày trước buổi phỏng vấn.
+	  </p>
+	  <p class="text-black  font-bold leading-relaxed">
+		3. Chuẩn bị câu trả lời cho các câu hỏi phỏng vấn phổ biến
+	  </p>
+	  <p class="text-black leading-relaxed">
+		Dưới đây là một số câu hỏi phỏng vấn phổ biến và gợi ý cách trả lời:
+	  </p>
+	  	  <p class="text-black font-bold leading-relaxed">
+		"Hãy giới thiệu về bản thân bạn?"
+	  </p>
+	  <p class="text-black leading-relaxed">
+		Đây là cơ hội để bạn trình bày tóm tắt về kinh nghiệm, kỹ năng và lý do bạn phù hợp với vị trí. Mẫu trả lời:
+	  </p>
+	   <p class="text-black italic mb-4 leading-relaxed">
+		"Tôi là [tên của bạn], tốt nghiệp chuyên ngành [chuyên ngành] từ [trường đại học]. Tôi có [X] năm kinh nghiệm trong lĩnh vực [lĩnh vực], với thế mạnh về [kỹ năng chính]. Trong vai trò gần đây nhất tại [công ty cũ], tôi đã [thành tích nổi bật]. Tôi đặc biệt quan tâm đến vị trí này vì [lý do bạn thích vị trí này] và tin rằng kỹ năng [kỹ năng phù hợp] của tôi sẽ giúp công ty [giá trị bạn mang lại]."
+	  </p>
+	  <p class="text-black font-bold leading-relaxed">
+		"Điểm mạnh và điểm yếu của bạn là gì?"
+	  </p>
+		<p class="text-black mb-4 leading-relaxed">
+		Khi nói về điểm mạnh, hãy tập trung vào kỹ năng liên quan đến công việc và minh họa bằng ví dụ cụ thể. Với điểm yếu, hãy chọn một điểm yếu không quá nghiêm trọng và nhấn mạnh cách bạn đang nỗ lực khắc phục.
+	  </p>
+	   <p class="text-black font-bold leading-relaxed">
+		"Tại sao bạn muốn làm việc tại công ty chúng tôi?"
+	  </p>
+		<p class="text-black mb-4 leading-relaxed">
+		Đây là cơ hội để thể hiện sự nghiên cứu của bạn về công ty. Hãy nêu ra những giá trị, sản phẩm hoặc dự án cụ thể của công ty mà bạn ngưỡng mộ và giải thích tại sao chúng phù hợp với mục tiêu nghề nghiệp của bạn.
+	  </p>
+	    <p class="text-black mb-4 font-bold leading-relaxed">
+		III. Kỹ năng trình bày bản thân hiệu quả
+	  </p>
+	    <p class="text-black font-bold leading-relaxed">
+		1. Ngôn ngữ cơ thể và giao tiếp phi ngôn ngữ
+	  </p>
+	  <p class="text-black leading-relaxed">
+		Giao tiếp không chỉ dựa vào lời nói. Đối với người khiếm thính, ngôn ngữ cơ thể càng đóng vai trò quan trọng:
+	  </p>
+	  <div class="text-black leading-relaxed pl-4">
+		• <span class="text-black font-bold leading-relaxed">Ánh mắt:</span> Duy trì giao tiếp bằng mắt một cách phù hợp. Điều này thể hiện sự tự tin và giúp bạn đọc khẩu hình của người đối diện.
+	  </div>
+	 <div class="text-black leading-relaxed pl-4">
+		• <span class="text-black font-bold leading-relaxed">Tư thế:</span> Ngồi thẳng lưng, hơi nghiêng về phía trước thể hiện sự quan tâm và tham gia tích cực.
+	  </div>
+	   <div class="text-black leading-relaxed pl-4">
+		• <span class="text-black font-bold leading-relaxed">Nét mặt:</span> Thể hiện sự nhiệt tình và tích cực qua nét mặt. Mỉm cười khi phù hợp.
+	  </div>
+	     <div class="text-black mb-4 leading-relaxed pl-4">
+		• <span class="text-black font-bold leading-relaxed">Cử chỉ tay:</span> Sử dụng cử chỉ tay một cách chuyên nghiệp để nhấn mạnh điểm quan trọng.
+	  </div>
+	     <p class="text-black font-bold leading-relaxed">
+		2. Kỹ năng giao tiếp khẩu hình và phát âm (nếu có thể)
+	  </p>
+	  <p class="text-black leading-relaxed pl-0">
+		Nếu bạn sử dụng khẩu hình và phát âm để giao tiếp:
+	  </p>
+	<div class="text-black  leading-relaxed pl-4">
+		• Nói chậm và rõ ràng
+	  </div>
+	  <div class="text-black  leading-relaxed pl-4">
+		• Sử dụng câu ngắn và đơn giản
+	  </div>
+	  <div class="text-black  leading-relaxed pl-4">
+		• Tránh thuật ngữ chuyên ngành phức tạp
+	  </div>
+	  <div class="text-black mb-4  leading-relaxed pl-4">
+		• Thực hành trước gương hoặc quay video để cải thiện khẩu hình
+	  </div>
+	    <p class="text-black font-bold leading-relaxed">
+		3. Sử dụng công nghệ hỗ trợ một cách hiệu quả
+	  </p>
+	   <p class="text-black leading-relaxed pl-0">
+		Các công nghệ hiện đại có thể giúp bạn vượt qua rào cản giao tiếp:
+	  </p>
+	  <div class="text-black  leading-relaxed pl-4">
+		• Ứng dụng chuyển giọng nói thành văn bản: Google Live Transcribe, Otter.ai, Microsoft Translator
+	  </div>
+	  <div class="text-black  leading-relaxed pl-4">
+		• Ứng dụng hỗ trợ giao tiếp dành cho người khiếm thính: Ava, RogerVoice, Transcense
+	  </div>
+	  <div class="text-black  leading-relaxed pl-4">
+		• Thiết bị hỗ trợ thính giác: Hệ thống FM, vòng từ tính
+	  </div>
+	  <div class="text-black mb-4 leading-relaxed">
+		Lưu ý: Thực hành sử dụng thành thạo các công nghệ này trước buổi phỏng vấn
+	  </div>
+	<p class="text-black font-bold mb-4 leading-relaxed">
+		IV. Chiến lược trình bày bản thân trong buổi phỏng vấn
+	  </p>
+	  	<p class="text-black font-bold leading-relaxed">
+		1. Giới thiệu về khiếm thính một cách chuyên nghiệp
+	  </p>
+	   <div class="text-black leading-relaxed">
+		Việc đề cập đến khiếm thính không phải là điều bắt buộc, nhưng nếu bạn quyết định chia sẻ, hãy làm điều đó một cách chuyên nghiệp và tích cực:"
+	  </div>
+	<div class="text-black italic leading-relaxed">
+	 "Tôi muốn chia sẻ rằng tôi là người khiếm thính. Tuy nhiên, điều này không ảnh hưởng đến năng lực làm việc của tôi. Tôi đã phát triển nhiều kỹ năng thích ứng như [kỹ năng thích ứng của bạn]. Tôi cũng sử dụng [các công cụ hỗ trợ] để giao tiếp hiệu quả trong môi trường làm việc."
+	  </div>
+	  <p class="text-black font-bold leading-relaxed">
+		2. Nhấn mạnh kỹ năng và điểm mạnh
+	  </p>
+	   <div class="text-black leading-relaxed">
+		Tập trung vào việc trình bày rõ ràng về các kỹ năng và kinh nghiệm phù hợp với vị trí
+	  </div>
+	   <div class="text-black  leading-relaxed pl-4">
+		• Sử dụng ví dụ cụ thể và con số để minh họa thành tích
+	  </div>
+	   <div class="text-black  leading-relaxed pl-4">
+		• Nhấn mạnh khả năng thích ứng và giải quyết vấn đề
+	  </div>
+	   <div class="text-black  leading-relaxed pl-4">
+		• Chia sẻ về các dự án thành công mà bạn đã tham gia
+	  </div>
+	   <div class="text-black mb-4 leading-relaxed pl-4">
+		• Đừng ngần ngại đề cập đến cách bạn đã vượt qua thách thức liên quan đến khiếm thính
+	  </div>
+	  <p class="text-black font-bold leading-relaxed">
+		3. Giải quyết các thắc mắc về khả năng làm việc
+	  </p>
+	   <div class="text-black leading-relaxed">
+		Nhà tuyển dụng có thể có thắc mắc về cách bạn sẽ xử lý các tình huống công việc cụ thể. Hãy chuẩn bị để giải thích:
+	  </div>
+	   <div class="text-black  leading-relaxed pl-4">
+		• Cách bạn giao tiếp trong các cuộc họp
+	  </div>
+	   <div class="text-black  leading-relaxed pl-4">
+		• Phương pháp làm việc nhóm hiệu quả
+	  </div>
+	   <div class="text-black  leading-relaxed pl-4">
+		• Cách bạn xử lý cuộc gọi điện thoại hoặc giao tiếp từ xa
+	  </div>
+	   <div class="text-black mb-4 leading-relaxed pl-4">
+		• Những điều chỉnh hợp lý mà bạn có thể cần
+	  </div>
+	   <div class="text-black mb-4 italic leading-relaxed">
+		Ví dụ: "Trong các cuộc họp nhóm, tôi sử dụng ứng dụng chuyển giọng nói thành văn bản trên iPad và đảm bảo ngồi ở vị trí có thể nhìn thấy rõ tất cả mọi người. Tôi cũng thường xin tài liệu cuộc họp trước để chuẩn bị, giúp tôi tham gia hiệu quả vào cuộc thảo luận."
+	  </div>
+	<p class="text-black font-bold  mb-4 leading-relaxed">
+		V. Xử lý các tình huống khó khăn
+	  </p>
+	  <p class="text-black font-bold  leading-relaxed">
+		1. Khi không hiểu câu hỏi
+	  </p>
+	  <div class="text-black leading-relaxed">
+		Đừng ngại yêu cầu người phỏng vấn nhắc lại hoặc làm rõ câu hỏi:
+	  </div>
+	   <div class="text-black italic leading-relaxed pl-4">
+		• "Xin lỗi, tôi không nắm rõ câu hỏi. Bạn có thể nhắc lại hoặc diễn đạt theo cách khác được không?"
+	  </div>
+	   <div class="text-black italic  leading-relaxed pl-4">
+		• "Bạn có thể viết câu hỏi này ra được không?"
+	  </div>
+	   <div class="text-black italic mb-4 leading-relaxed pl-4">
+		• "Tôi muốn đảm bảo rằng tôi hiểu đúng câu hỏi của bạn. Bạn đang hỏi về [tóm tắt hiểu biết của bạn], đúng không?"
+	  </div>
+	    <p class="text-black font-bold  leading-relaxed">
+		2. Đối phó với định kiến và thái độ tiêu cực
+	  </p>
+	<p class="text-black font-bold  leading-relaxed">
+		Đôi khi, bạn có thể gặp phải định kiến hoặc thái độ tiêu cực từ người phỏng vấn. Hãy duy trì thái độ chuyên nghiệp và: 
+	  </p>
+	   <div class="text-black leading-relaxed pl-4">
+		• Tập trung vào năng lực và kỹ năng của bạn
+	  </div>
+	   <div class="text-black leading-relaxed pl-4">
+		• Cung cấp ví dụ cụ thể về thành công trong công việc trước đây
+	  </div>
+	     <div class="text-black leading-relaxed pl-4">
+		• Nhấn mạnh khả năng thích ứng và giải quyết vấn đề
+	  </div>
+	   <div class="text-black mb-4 leading-relaxed pl-4">
+		• Nêu rõ các hỗ trợ hợp lý mà bạn cần
+	  </div>
+	   <p class="text-black font-bold  leading-relaxed">
+		3. Tự tin đặt câu hỏi về môi trường làm việc hòa nhập
+	  </p>
+	  <p class="text-black  leading-relaxed">
+		Cuối buổi phỏng vấn, bạn có cơ hội đặt câu hỏi. Hãy sử dụng cơ hội này để tìm hiểu thêm về môi trường làm việc:
+	  </p>
+	   <div class="text-black italic leading-relaxed pl-4">
+		• "Công ty có kinh nghiệm làm việc với nhân viên khiếm thính không?"
+	  </div>
+	   <div class="text-black italic leading-relaxed pl-4">
+		• "Làm thế nào công ty hỗ trợ sự đa dạng và hòa nhập trong môi trường làm việc?"
+	  </div>
+	     <div class="text-black italic mb-4 leading-relaxed pl-4">
+		• "Công ty có chính sách hoặc đào tạo nào về giao tiếp với người khiếm thính cho nhân viên không?"
+	  </div>
+	   <p class="text-black font-bold mb-4 leading-relaxed">
+		VI. Sau buổi phỏng vấn
+	  </p>
+	   <p class="text-black leading-relaxed">
+		1. Gửi email cảm ơn
+	  </p>
+	   <p class="text-black leading-relaxed">
+		Sau buổi phỏng vấn, hãy gửi email cảm ơn trong vòng 24 giờ
+	  </p>
+	   <div class="text-black leading-relaxed pl-4">
+		• Bày tỏ lòng biết ơn về cơ hội phỏng vấn
+	  </div>
+	     <div class="text-black mb-4 leading-relaxed pl-4">
+		• Nhắc lại sự quan tâm của bạn đối với vị trí
+	  </div>
+	     <div class="text-black leading-relaxed pl-4">
+		• Tóm tắt ngắn gọn những điểm mạnh chính của bạn
+	  </div>
+	     <div class="text-black mb-4 leading-relaxed pl-4">
+		• Đề cập đến một điểm thú vị từ cuộc trò chuyện
+	  </div>
+	     <div class="text-black mb-4 leading-relaxed pl-4">
+		• Cung cấp thông tin bổ sung nếu cần
+	  </div>
+	  <p class="text-black font-bold leading-relaxed">
+		2. Phản hồi và cải thiện
+	  </p>
+	   <p class="text-black leading-relaxed">
+		Sau mỗi buổi phỏng vấn, dù kết quả thế nào, hãy:
+	  </p>
+	   <div class="text-black leading-relaxed pl-4">
+		• Ghi lại những câu hỏi khó và chuẩn bị câu trả lời tốt hơn
+	  </div>
+	     <div class="text-black leading-relaxed pl-4">
+		• Đánh giá hiệu quả của phương tiện giao tiếp bạn sử dụng
+	  </div>
+	     <div class="text-black leading-relaxed pl-4">
+		• Xác định các kỹ năng cần cải thiện
+	  </div>
+	     <div class="text-black mb-4 leading-relaxed pl-4">
+		• Tìm kiếm phản hồi từ người phỏng vấn nếu có thể
+	  </div>
+	   <p class="text-black font-bold leading-relaxed">
+		VII. Quyền lợi pháp lý của người khiếm thính trong tuyển dụng
+	  </p>
+	   <p class="text-black leading-relaxed">
+		Tại Việt Nam, người khiếm thính được bảo vệ bởi Luật Người khuyết tật 2010 và các quy định liên quan:
+	  </p>
+	 <div class="text-black leading-relaxed">
+		<span class="text-black leading-relaxed font-bold">1. Cấm phân biệt đối xử:</span> Nhà tuyển dụng không được phép từ chối tuyển dụng chỉ vì khiếm thính.
+	  </div>
+	  	 <div class="text-black leading-relaxed">
+		<span class="text-black leading-relaxed font-bold">2. Điều chỉnh hợp lý:</span> Các tổ chức có nghĩa vụ cung cấp các điều chỉnh hợp lý cho người khuyết tật trong quá trình tuyển dụng và làm việc.
+	  </div>
+	<div class="text-black mb-4 leading-relaxed">
+		<span class="text-black leading-relaxed font-bold">3. Ưu đãi thuế:</span> Doanh nghiệp tuyển dụng người khuyết tật có thể được hưởng các ưu đãi về thuế và chính sách hỗ trợ từ nhà nước.
+	  </div>
+	    <p class="text-black mb-4 leading-relaxed">
+		Nắm vững các quyền lợi này sẽ giúp bạn tự tin hơn trong quá trình phỏng vấn và tìm kiếm việc làm
+	  </p>
+	    <p class="text-black font-bold leading-relaxed">
+		VIII. Chia sẻ từ người trong cuộc
+	  </p>
+	     <p class="text-black italic mb-4 leading-relaxed">
+		"Khi tôi bước vào phòng phỏng vấn lần đầu tiên, tôi rất lo lắng về cách giao tiếp. Nhưng sau khi chủ động thông báo với nhà tuyển dụng về khiếm thính và cách tôi có thể giao tiếp hiệu quả, mọi thứ trở nên dễ dàng hơn. Tôi đã chuẩn bị một bài thuyết trình ngắn về bản thân và kinh nghiệm làm việc, kèm theo tài liệu giới thiệu. Điều này đã giúp tôi tự tin hơn và nhà tuyển dụng đánh giá cao sự chuẩn bị của tôi. Hiện tại, tôi đang làm việc tại một công ty công nghệ với vị trí thiết kế đồ họa và được đánh giá cao về năng lực chuyên môn." - Nguyễn Văn A, Designer tại TechVision.
+	  </p>
+	    <p class="text-black font-bold leading-relaxed">
+		IX. Kết luận
+	  </p>
+	     <p class="text-black mb-4 leading-relaxed">
+		Trình bày bản thân trong phỏng vấn là một kỹ năng có thể học hỏi và rèn luyện. Với tư cách là người khiếm thính, bạn có thể gặp phải một số thách thức nhưng cũng có những lợi thế độc đáo. Hãy nhớ rằng, nhà tuyển dụng đang tìm kiếm một người có thể đóng góp giá trị cho công ty của họ, và khiếm thính không phải là rào cản cho điều đó.
+	  </p>
+	       <p class="text-black mb-4 leading-relaxed">
+		Thông qua việc chuẩn bị kỹ lưỡng, sử dụng các công cụ hỗ trợ phù hợp và trình bày rõ ràng về kỹ năng và kinh nghiệm của mình, bạn hoàn toàn có thể tạo ấn tượng tốt và giành được công việc mơ ước.
+	  </p>
+	
+	`,
+  },
 
 ];

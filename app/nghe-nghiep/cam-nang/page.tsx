@@ -16,7 +16,7 @@ export default function page() {
               Giáo dục
             </Link>
             <span className="mx-2 text-2xl text-black">&gt;</span>
-            <span className="text-[#3A63ED]">Giáo dục đặc biệt</span>
+            <span className="text-[#3A63ED]">Cẩm nang</span>
           </div>
         </div>
       </nav>

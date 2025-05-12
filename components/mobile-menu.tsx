@@ -126,7 +126,27 @@ export default function MobileMenu({ currentPath = "/" }: MobileMenuProps) {
                 </Link>
               </div>
             </div>
-
+            <div>
+              <button
+                onClick={() => toggleSubmenu("hoat-dong")}
+                className={`flex items-center justify-between w-full py-2 px-4 ${
+                  isActivePath("/cong-dong")
+                    ? "text-[#111827] font-medium border-l-4 border-[#3a63ed]"
+                    : "text-[#414652] border-l-4 border-transparent"
+                }`}
+              >
+                <span>Cộng đồng</span>
+                <ChevronRight className={`h-4 w-4 transition-transform duration-200 ${openSubmenu === "hoat-dong" ? "rotate-90" : ""}`} />
+              </button>
+              <div className={`pl-6 space-y-2 overflow-hidden transition-all duration-200 ${openSubmenu === "hoat-dong" ? "max-h-40 mt-2" : "max-h-0"}`}>
+                <Link href="/cong-dong" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
+                  Tổ chức & cộng đồng
+                </Link>
+                <Link href="/cong-dong/hoat-dong" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
+                  Hoạt động
+                </Link>
+              </div>
+            </div>
             {/* Thông tin */}
             <div>
               <button
@@ -150,12 +170,12 @@ export default function MobileMenu({ currentPath = "/" }: MobileMenuProps) {
                 <Link href="/thong-tin/cau-chuyen" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
                   Câu chuyện
                 </Link>
-                <Link href="/thong-tin/to-chuc-cong-dong" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
+                {/* <Link href="/thong-tin/to-chuc-cong-dong" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
                   Tổ chức và cộng đồng
                 </Link>
                 <Link href="/thong-tin/hoat-dong" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
                   Hoạt động
-                </Link>
+                </Link> */}
               </div>
             </div>
 
@@ -172,7 +192,7 @@ export default function MobileMenu({ currentPath = "/" }: MobileMenuProps) {
                 <span>Giáo dục</span>
                 <ChevronRight className={`h-4 w-4 transition-transform duration-200 ${openSubmenu === "education" ? "rotate-90" : ""}`} />
               </button>
-              <div className={`pl-6 space-y-2 overflow-hidden transition-all duration-200 ${openSubmenu === "education" ? "max-h-40 mt-2" : "max-h-0"}`}>
+              <div className={`pl-6 space-y-2 overflow-hidden transition-all duration-200 ${openSubmenu === "education" ? "max-h-64 mt-2" : "max-h-0"}`}>
                 <Link href="/giao-duc" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
                 Giáo dục
                 </Link>
@@ -211,15 +231,22 @@ export default function MobileMenu({ currentPath = "/" }: MobileMenuProps) {
                 <Link href="/nghe-nghiep" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
                 Nghề nghiệp
                 </Link>
-                <Link href="/nghe-nghiep/viec-lam" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
-                  Việc làm
-                </Link>
-                <Link href="/nghe-nghiep/tu-van" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
-                  Tư vấn
-                </Link>
                 <Link href="/nghe-nghiep/dao-tao" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
                   Đào tạo nghề
                 </Link>
+                <Link href="/nghe-nghiep/tuyen-dung" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
+                 Tuyển dụng
+                </Link>
+                <Link href="/nghe-nghiep/tu-van-dinh-huong" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
+                 Tư vấn định hướng
+                </Link>
+                <Link href="/nghe-nghiep/cam-nang" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
+                  Cẩm nang
+                </Link>
+                <Link href="/nghe-nghiep/test" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
+                  Chắc nghiệm kỹ năng
+                </Link>
+                
               </div>
             </div>
           </nav>
