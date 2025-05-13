@@ -5,6 +5,8 @@ import Image from "next/image"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import BoxColor from "./BoxColor"
 import Button from "./Button"
+import BoxColor2 from "./BoxColor2"
+import Link from "next/link"
 
 const slides = [
   {
@@ -84,10 +86,18 @@ export default function BannerSwiper() {
   }
 
   return (
-    <div className="relative h-[300px] md:h-[400px] lg:h-[720px] xl:h-dvh">
+    <div className="relative h-[600px] mt-16">
       {/* Slides */}
-      <div className="h-full relative">
-        {slides.map((slide, index) => (
+      <div className="h-full relative text-white">
+        <img src="/image/banner-23.jpg" className="h-full object-cover w-full" alt="" />
+        <div className="absolute bottom-[130px] z-[51] md:bottom-[80px] left-1/2 -translate-x-1/2 w-full flex flex-col justify-center items-center">
+          <h3 className="text-3xl md:text-5xl leading-[130%] font-bold font-Epiogue text-white text-center">Trao nền tảng – Xây dựng tương lai <br/> bền vững cho người khiếm thính</h3>
+          <p className="px-2 text-center font-normal text-sm md:text-base mt-[16px] mb-[32px]">Foundation for Future (FFF) là một tổ chức xã hội hoạt động với sứ mệnh hỗ trợ thông tin về giáo dục và đào tạo hướng <br/> nghiệp cho người khiếm thính. Chúng tôi tin rằng mỗi người khiếm thính đều có tiềm năng để chủ động xây dựng tương lai <br/> của mình, khi được trao cơ hội tiếp cận đúng đắn và công bằng.</p>
+          <Link href='/ve-chung-toi' className='bg-[#3A63ED] text-white cursor-pointer px-6 py-3 rounded-lg hover:bg-gray-900 transition-colors'>Về chúng tôi</Link>
+        </div>
+        <BoxColor />
+        <BoxColor2 />
+        {/* {slides.map((slide, index) => (
           <div
             key={index + '12390x2'}
             className={`absolute inset-0 transition-opacity duration-1000 ${
@@ -109,7 +119,7 @@ export default function BannerSwiper() {
               </div>
             </div>
           </div>
-        ))}
+        ))} */}
       </div>
 
       {/* Navigation Arrows */}
@@ -129,7 +139,7 @@ export default function BannerSwiper() {
       </button> */}
 
       {/* Dots Navigation */}
-      <div className="absolute bottom-4 md:bottom-6 left-1/2 -translate-x-1/2 z-20 flex space-x-2">
+      {/* <div className="absolute bottom-4 md:bottom-6 left-1/2 -translate-x-1/2 z-20 flex space-x-2">
         {slides.map((_, index) => (
           <button
             key={index + '12312'}
@@ -140,8 +150,7 @@ export default function BannerSwiper() {
             aria-label={`Go to slide ${index + 1}`}
           />
         ))}
-      </div>
-      <BoxColor />
+      </div> */}
     </div>
   )
 }

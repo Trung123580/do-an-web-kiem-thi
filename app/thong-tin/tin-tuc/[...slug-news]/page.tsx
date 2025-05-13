@@ -6,9 +6,9 @@ export default async function Page({ params }: { params: Params }) {
   const slug = (await params)["slug-news"][0]
   const newDetail = dataNews.find((newItem) => newItem.slug === slug)
   return (
-    <div className="min-h-screen bg-gray-50 pt-24 pb-16">
+    <div className="min-h-screen bg-gray-50 pt-16 pb-16">
       <div className="mb-8">
-        <div className=" h-[600px] flex flex-row">
+        <div className="md:h-[600px] flex flex-col md:flex-row">
           <div className="basis-1/2 bg-[#111827] px-14 flex flex-col justify-end items-center">
             <div className="text-6xl text-white font-bold mb-10 max-w-4xl">
               {newDetail?.title}
