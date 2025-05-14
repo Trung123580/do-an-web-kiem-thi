@@ -28,7 +28,7 @@ const page = () => {
     };
     console.log(pointer);
     return (
-        <div className="min-h-screen bg-gray-50 pt-28 pb-8">
+        <div className=" bg-gray-50 pt-28 pb-8">
             <div className="container mx-auto px-4 max-w-7xl flex justify-center flex-col items-center">
                 {!arrAnswer && (
                     <>
@@ -54,7 +54,7 @@ const page = () => {
                         <div className="text-sm font-normal text-[#A0A3A9] mt-2">Nội dung được hỗ trợ bởi QIPEDC</div>
                         <div className="grid md:grid-cols-[2fr,1fr] gap-8">
                             <div className={`bg-[#f9fafb] rounded-xl space-y-8 p-4 mt-5`}>
-                                <h1 className="text-5xl font-bold text-center mb-6  tracking-[2%]">{arrAnswer?.title}</h1>
+                                <h1 className="md:text-5xl text-3xl font-bold text-center mb-6  tracking-[2%]">{arrAnswer?.title}</h1>
                                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 justify-center mt-9">
                                     {arrAnswer &&
                                         arrAnswer?.array &&

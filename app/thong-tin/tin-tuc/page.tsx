@@ -106,8 +106,8 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="grid lg:grid-cols-4 gap-8">
-          <div className="lg:col-span-1 pr-10 border-r border-[#CFD1D4]">
+        <div className="grid grid-cols-3 gap-8">
+          <div className="md:col-span-1 col-span-3 md:pr-10 md:border-r border-[#CFD1D4]">
             <h2 className="text-2xl font-bold mb-4">Tìm kiếm tin tức</h2>
             <div className="relative mb-4">
               <input
@@ -138,12 +138,12 @@ export default function Page() {
           </div>
 
           {/* News List */}
-          <div className="lg:col-span-3">
-            <div className="space-y-2 max-h-[800px] overflow-y-auto pr-4 scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100">
+          <div className="md:col-span-2 col-span-3">
+            <div className="space-y-2 max-h-[800px] overflow-y-auto overflow-x-hidden md:pr-4 scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100">
               {dataConvert.map((item) => (
                 <Link href={`/thong-tin/tin-tuc/${item.slug}`} key={item.id}>
-                  <div className="flex gap-6 group cursor-pointer mb-3  rounded-xl px-4 py-1">
-                    <div className="relative w-[260px] h-[260px] rounded-xl overflow-hidden flex-shrink-0">
+                  <div className="flex flex-grow gap-6 group cursor-pointer mb-3  rounded-xl md:px-4 py-1">
+                    <div className="basis-1/3 relative w-[260px] h-[260px] rounded-xl overflow-hidden flex-shrink-0">
                       <Image
                         src={item.image}
                         alt={item.title}
@@ -151,7 +151,7 @@ export default function Page() {
                         className="object-cover"
                       />
                     </div>
-                    <div className="flex-1">
+                    <div className="flex-1 basis-2/3">
                       <h2 className="text-xl font-bold mb-2 transition-colors">
                         {item.title}
                       </h2>

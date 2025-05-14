@@ -134,20 +134,18 @@ export default function page() {
             </div>
             <h1 className='text-5xl font-bold mb-4'>{khoahocDetail?.title}</h1>
             <p className='mb-16 text-lg max-w-4xl'>{khoahocDetail?.description}</p>
-            <div className="bg-[#FFFFFF] rounded-xl shadow-sm p-8 absolute -bottom-15 left-1/2 -translate-x-1/2  w-full">
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
                 {khoahocDetail.free ? <>
-                  <div className="bg-[#FFFFFF] rounded-xl shadow-sm p-8 absolute -bottom-15 left-1/2 -translate-x-1/2  w-full">
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                      <div className="flex justify-center gap-1 flex-col px-5 border-r border-[#CFD1D4]">
+                  <div className="bg-[#FFFFFF] rounded-xl shadow-sm p-8 absolute -bottom-75 sm:-bottom-36 md:-bottom-20 xl:-bottom-15 left-1/2 -translate-x-1/2  w-full">
+                    <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-5 gap-4">
+                      <div className="flex justify-center gap-1 flex-col px-5 sm:border-r border-[#CFD1D4]">
                         <span className="text-sm text-[#70747D]">Tổng thời lượng</span>
                         <span className="text-2xl">{khoahocDetail?.time}</span>
                       </div>
-                      <div className="flex justify-center gap-1 flex-col px-5 border-r border-[#CFD1D4]">
+                      <div className="flex justify-center gap-1 flex-col px-5 sm:border-r border-[#CFD1D4]">
                         <span className="text-sm text-[#70747D]">Chi phí khóa học</span>
                         <span className="text-2xl">Miễn phí</span>
                       </div>
-                      <div className="flex justify-center gap-1 flex-col px-5 border-r border-[#CFD1D4]">
+                      <div className="flex justify-center gap-1 flex-col px-5 sm:border-r border-[#CFD1D4]">
                         <span className="text-sm text-[#70747D]">Đối tượng</span>
                         <span className="text-2xl">{khoahocDetail?.objectives}</span>
                       </div>
@@ -158,21 +156,21 @@ export default function page() {
                     </div>
                   </div>
                 </> : <>
-                  <div className="bg-[#FFFFFF] rounded-xl shadow-sm p-8 absolute -bottom-15 left-1/2 -translate-x-1/2  w-full">
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
-                      <div className="flex justify-center gap-1 flex-col px-5 border-r border-[#CFD1D4]">
+                  <div className="bg-[#FFFFFF] rounded-xl shadow-sm p-8 absolute -bottom-75 sm:-bottom-36 md:-bottom-20 xl:-bottom-15 left-1/2 -translate-x-1/2  w-full">
+                    <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-5 gap-4">
+                      <div className="flex justify-center gap-1 flex-col px-5 sm:border-r border-[#CFD1D4]">
                         <span className="text-sm text-[#70747D]">Khóa học</span>
                         <span className="text-2xl">{khoahocDetail?.day}</span>
                       </div>
-                      <div className="flex justify-center gap-1 flex-col px-5 border-r border-[#CFD1D4]">
+                      <div className="flex justify-center gap-1 flex-col px-5 sm:border-r border-[#CFD1D4]">
                         <span className="text-sm text-[#70747D]">Chi phí khóa học</span>
                         <span className="text-2xl">{khoahocDetail?.price}</span>
                       </div>
-                      <div className="flex justify-center gap-1 flex-col px-5 border-r border-[#CFD1D4]">
+                      <div className="flex justify-center gap-1 flex-col px-5 sm:border-r border-[#CFD1D4]">
                         <span className="text-sm text-[#70747D]">Tổng thời lượng</span>
                         <span className="text-2xl">{khoahocDetail?.time}</span>
                       </div>
-                      <div className="flex justify-center gap-1 flex-col px-5 border-r border-[#CFD1D4]">
+                      <div className="flex justify-center gap-1 flex-col px-5 sm:border-r border-[#CFD1D4]">
                         <span className="text-sm text-[#70747D]">Đối tượng</span>
                         <span className="text-2xl">{khoahocDetail?.objectives}</span>
                       </div>
@@ -183,8 +181,6 @@ export default function page() {
                     </div>
                   </div>
                 </>}
-              </div>
-            </div>
           </>}
           {step === 2 && <>
             <h1 className='text-5xl font-bold mb-4'>Thanh toán khóa học</h1>
@@ -201,7 +197,7 @@ export default function page() {
         </div>
       </div>
       {step === 1 && <>
-        <div className='min-h-screen pb-16 py-16 pt-32 max-w-7xl mx-auto px-4'>
+        <div className='min-h-screen pb-16 py-16 pt-88 sm:pt-48 md:pt-30 xl:pt-32 max-w-7xl mx-auto px-4'>
           <div className='container mx-auto'>
             <h2 className='text-[32px] font-bold text-[#2E4FBE] mb-2 mt-10'>Giới thiệu khóa học</h2>
             <div
@@ -231,7 +227,7 @@ export default function page() {
               ))}
             </div>
             <h2 className='text-[32px] font-bold text-[#2E4FBE] mb-2 mt-10'>Phản hồi về khóa học</h2>
-            <div className="flex gap-3.5">
+            <div className="gap-3.5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
               {khoahocDetail?.commnents.map((item: any, index: number) => (
                 <div key={index} className="flex flex-col p-6 items-start gap-3 mb-5  border-2 border-[#CFD1D4] rounded-lg">
                   <div className="flex">
@@ -317,7 +313,7 @@ export default function page() {
           </div>
         </form>
       </>}
-      {step === 3 && <div className='py-14 max-w-7xl mx-auto relative p-10 space-y-6 h-[70dvh]'>
+      {step === 3 && <div className='py-27 max-w-7xl mx-auto relative p-10 space-y-6'>
         <div className="flex flex-col items-center justify-center h-full text-center px-4">
           <h1 className="text-2xl md:text-5xl font-bold text-gray-900">
             Tài liệu sẽ được tự động tải sau {countdown} giây. <br />

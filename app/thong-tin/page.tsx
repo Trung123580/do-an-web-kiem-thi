@@ -37,7 +37,7 @@ export default function Page() {
   };
 
   return (
-    <div className="min-h-screen pt-32 pb-16 max-w-7xl mx-auto">
+    <div className="min-h-screen pt-32 md:pb-16 pb-10 max-w-7xl mx-auto">
       <div className="container mx-auto px-4">
         {/* Latest News Section */}
         <section className="mb-16">
@@ -74,12 +74,12 @@ export default function Page() {
             </Link>
           </div>
         </section>
-        <section className="mb-16">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+        <section className="md:mb-16 mb-0">
+          <div className="grid sm:grid-cols-2 grid-cols-1 lg:grid-cols-4 gap-4">
             {stories.map((story, index) => {
               if (index === 1) {
                 return (
-                  <div key={index} className="relative h-[305px] w-[305px] bg-[#CFD1D4] rounded-xl flex items-center justify-center">
+                  <div key={index} className="relative h-[305px] sm:w-[305px] w-full bg-[#CFD1D4] rounded-xl flex items-center justify-center">
                     <h2 className="text-5xl font-light text-center px-4">
                       MỖI
                       <br />
@@ -92,7 +92,7 @@ export default function Page() {
               }
               if (index === 7) {
                 return (
-                  <div key={index} className="relative h-[305px] w-[305px] bg-[#CFD1D4] rounded-xl flex items-center justify-center">
+                  <div key={index} className="relative h-[305px] sm:w-[305px] w-full bg-[#CFD1D4] rounded-xl flex items-center justify-center">
                     <h2 className="text-5xl font-light text-center px-4">
                       LÀ MỘT
                       <br />
@@ -106,8 +106,8 @@ export default function Page() {
               if (typeof story === 'string') return null;
               return (
                 <Link key={index} href={`/thong-tin/cau-chuyen/${story.slug}`}>
-                  <div className="group cursor-pointer relative h-[305px] w-[305px] rounded-xl overflow-hidden">
-                    <Image src={story.img} alt={story.title} width={305} height={305} className="object-cover group-hover:scale-105 transition-transform duration-300" />
+                  <div className="group cursor-pointer relative h-[305px] sm:w-[305px] w-full rounded-xl overflow-hidden">
+                    <Image src={story.img} alt={story.title} width={305} height={305} className="object-cover w-full sm:w-[305px] h-full group-hover:scale-105 transition-transform duration-300" />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
                     <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
                       <h3 className="font-medium text-sm line-clamp-2">{story.title}</h3>

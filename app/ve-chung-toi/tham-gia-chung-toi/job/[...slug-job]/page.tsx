@@ -55,7 +55,7 @@ export default function JobDetailPage() {
               </div>
               <div className='flex justify-evenly flex-col h-full flex-1'>
                 <span className='text-gray-500 text-sm mb-1 bg-[#F2F2F3] py-1 px-3 size-max rounded-xs'>Hạn nộp hồ sơ: {jobDetail?.deadline}</span>
-                <h1 className='text-5xl font-bold mb-2'>
+                <h1 className='text-3xl md:text-5xl font-bold mb-5 md:mb-2'>
                   {jobDetail?.title} <br />
                   {jobDetail?.titleDes}
                 </h1>

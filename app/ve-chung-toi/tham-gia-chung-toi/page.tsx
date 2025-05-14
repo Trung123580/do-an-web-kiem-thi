@@ -72,22 +72,22 @@ export default function JoinUsPage() {
   }
 
   return (
-    <div className='min-h-screen'>
+    <div className='min-h-screen pt-20'>
       <section className='relative w-full h-[200px] md:h-[720px]'>
         <Image src='/image/banner-3.png' alt='Trẻ em khiếm thính vui chơi' fill className='object-cover' />
         <div className='absolute bottom-0 left-0 right-0 p-8 md:p-16 text-white'>
           <p className='text-xl md:text-5xl font-bold -tracking-tight leading-relaxed'>Cùng chúng tôi tạo nên tương lai tươi đẹp cho cộng đồng người khiếm thính</p>
         </div>
       </section>
-      <div className='container mx-auto px-4 py-16'></div>
-      <div className='bg-[#4263EB] mx-auto px-4 py-16 text-center w-[80%] rounded-2xl  max-w-7xl'>
+      <div className='container mx-auto px-4 py-4 md:py-16'></div>
+      <div className='bg-[#4263EB] mx-auto px-4  text-center w-[80%] rounded-2xl  max-w-7xl py-4 md:py-16'>
         <h2 className='text-3xl font-bold text-white mb-4'>Trở thành một phần của chúng tôi</h2>
         <p className='text-white/90 max-w-2xl mx-auto mb-8'>Góp phần hỗ trợ người khiếm thính cùng cách thú vị như thiết kế, đào tạo, tổ chức sự kiện và nhiều lĩnh thực hấp tấc khác...</p>
         <button onClick={() => setIsOpen(true)} className='bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-900 transition-colors'>
           Tham gia cùng chúng tôi
         </button>
       </div>
-      <div className='container mx-auto px-4 py-16 max-w-7xl'>
+      <div className='container mx-auto px-4 py-5 md:py-16 max-w-7xl'>
         <div className='flex justify-between items-center mb-4'>
           <h2 className='text-3xl md:text-[48px] font-bold'>Công việc</h2>
           <div className='flex items-center justify-center gap-1 *:cursor-pointer'>
@@ -123,7 +123,7 @@ export default function JoinUsPage() {
           }
         `}</style>
       </div>
-      <div className=' py-16 max-w-7xl mx-auto'>
+      <div className='py-5 md:py-16 max-w-7xl mx-auto'>
         <div className='container mx-auto px-4'>
           <div className='flex justify-between items-center mb-4'>
             <h2 className='text-3xl md:text-[48px] font-bold'>Tham gia tình nguyện</h2>

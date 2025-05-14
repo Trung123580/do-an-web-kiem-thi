@@ -53,7 +53,7 @@ const page = () => {
         <h2 className="text-3xl font-bold mb-6">Tuyển dụng</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
           {dataJob.slice(0,4).map((job, idx) => (
-            <div key={idx} className="bg-[#F2F2F3] rounded-xl shadow p-3 flex gap-6">
+            <Link  key={idx} href={`/ve-chung-toi/tham-gia-chung-toi/job/${job.slug}`} className="bg-[#F2F2F3] rounded-xl shadow p-3 flex gap-6">
                 <div className='w-[136px] h-[136px] bg-white rounded-lg' >
                   <img src={job.img} alt="" className='max-w-full h-full  rounded-lg object-cover' />
                 </div>
@@ -73,7 +73,7 @@ const page = () => {
                       </div>
                    </div>
                 </div>
-            </div>
+            </Link>
           ))}
         </div>
         <div className="text-end mt-6">
@@ -81,7 +81,7 @@ const page = () => {
             Xem thêm  <img src="/icon/arrow.png" alt="" />
           </Link>
         </div>
-        <CourseGridNghe courses={daotaonghe}  path="tri-lieu-ngon-ngu" title="Đào tạo nghề" />
+        <CourseGridNghe courses={daotaonghe}  path="nghe-nghiep/dao-tao-nghe" title="Đào tạo nghề" />
         <div className="text-end mt-6">
             <Link href="/nghe-nghiep/dao-tao-nghe" className="inline-flex items-center text-sm font-medium hover:text-gray-900 px-7 py-2 rounded-sm border bg-[#FFFFFF] border-[#CFD1D4] text-[#414652]">
               Xem thêm <img src="/icon/arrow.png" alt="" />
@@ -91,7 +91,7 @@ const page = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
             {camnang.map((item,index) => {
               if (index > 2) return <></>
-              return <Link key={index} href={`/ve-chung-toi/tham-gia-chung-toi/volunteer/${item.slug}`} className='px-3 h-full'>
+              return <Link key={index} href={`/nghe-nghiep/cam-nang/${item.slug}`} className='px-3 h-full'>
                   <div className='bg-[#F2F2F3] overflow-hidden rounded-2xl hover:bg-[#3A63ED]/50 shadow-lg h-full group relative'>
                     <div className='relative h-60 group-hover:h-40 transition-all duration-300'>
                       <Image src={item.image} alt={''} fill className='object-cover rounded-2xl' />

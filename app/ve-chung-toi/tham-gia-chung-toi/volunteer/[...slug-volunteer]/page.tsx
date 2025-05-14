@@ -7,7 +7,7 @@ export default async function VolunteerDetailPage({ params }: { params: Params }
   const slug = (await params)["slug-volunteer"][0]
   const volunteerDetail = dataVolunteer.find((volunteer) => volunteer.slug === slug)
   return (
-    <div className="min-h-screen pb-16 py-16 pt-32 mx-auto max-w-7xl">
+    <div className="min-h-screen pb-16 py-16 pt-32 mx-auto max-w-7xl px-4">
       <div className="container mx-auto">
         <nav className="bg-white">
           <div className="mx-auto">
@@ -25,7 +25,7 @@ export default async function VolunteerDetailPage({ params }: { params: Params }
         </nav>
         <h1 className="text-4xl font-bold mb-8">{volunteerDetail?.title}</h1>
         <div className="bg-[#F2F2F3] rounded-xl shadow-sm p-8 mb-8">
-          <div className="flex flex-row">
+          <div className="flex flex-col md:flex-row gap-3 h-full">
             <div className="flex flex-col basis-1/3 gap-5">
               {volunteerDetail?.organization.map((item, index) => (
                 <div key={index} className="flex items-center gap-3">

@@ -27,7 +27,7 @@ const Page = () => {
           </div>
         </div>
         {/* Danh sách job */}
-        <div className="max-w-[1280px] xl mx-auto px-4 pt-[48px] pb-[96px] grid grid-cols-2 gap-6">
+        <div className="max-w-[1280px] xl mx-auto px-4 pt-[48px] pb-[96px] grid md:grid-cols-2 rid-cols-1 gap-6">
           {dataJob.map((job, idx) => (
             <Link href={`/ve-chung-toi/tham-gia-chung-toi/job/${job.slug}`} key={idx} className="bg-[#F7F7F8] rounded-2xl flex items-center gap-6 p-3 pr-6">
               <img src={job.img} alt={job.title} className="w-[136px] h-[136px] object-cover rounded-xl" />

@@ -58,21 +58,21 @@ export default function page() {
                     </div>
                     <h1 className="text-5xl font-bold mb-4">{khoahocDetail?.title}</h1>
                     <p className="mb-16 text-lg max-w-4xl">{khoahocDetail?.description}</p>
-                    <div className="bg-[#FFFFFF] rounded-xl shadow-sm p-8 absolute -bottom-15 left-1/2 -translate-x-1/2  w-full">
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
-                            <div className="flex justify-center gap-1 flex-col px-5 border-r border-[#CFD1D4]">
+                    <div className="bg-[#FFFFFF] rounded-xl shadow-sm p-8 absolute -bottom-75 sm:-bottom-36 md:-bottom-20 xl:-bottom-15 left-1/2 -translate-x-1/2  w-full">
+                        <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-5 gap-4">
+                            <div className="flex justify-center gap-1 flex-col px-5 sm:border-r border-[#CFD1D4]">
                                 <span className="text-sm text-[#70747D]">Thời lượng buổi học</span>
                                 <span className="text-2xl">{khoahocDetail?.time}</span>
                             </div>
-                            <div className="flex justify-center gap-1 flex-col px-5 border-r border-[#CFD1D4]">
+                            <div className="flex justify-center gap-1 flex-col px-5 sm:border-r border-[#CFD1D4]">
                                 <span className="text-sm text-[#70747D]">Hình thức</span>
                                 <span className="text-2xl">{khoahocDetail?.form}</span>
                             </div>
-                            <div className="flex justify-center gap-1 flex-col px-5 border-r border-[#CFD1D4]">
+                            <div className="flex justify-center gap-1 flex-col px-5 sm:border-r border-[#CFD1D4]">
                                 <span className="text-sm text-[#70747D]">Chi phí buổi học</span>
                                 <span className="text-2xl">{khoahocDetail?.price}</span>
                             </div>
-                            <div className="flex justify-center gap-1 flex-col px-5 border-r border-[#CFD1D4]">
+                            <div className="flex justify-center gap-1 flex-col px-5 sm:border-r border-[#CFD1D4]">
                                 <span className="text-sm text-[#70747D]">Độ tuổi</span>
                                 <span className="text-2xl">{khoahocDetail?.objectives}</span>
                             </div>
@@ -84,7 +84,7 @@ export default function page() {
                     </div>
                 </div>
             </div>
-            <div className="min-h-screen pb-16 py-16 pt-32 max-w-7xl mx-auto px-4">
+            <div className="min-h-screen pb-16 py-16 pt-88 sm:pt-48 md:pt-30 xl:pt-32 max-w-7xl mx-auto px-4">
                 <div className="container mx-auto">
                     <h2 className="text-[32px] font-bold text-[#2E4FBE] mb-2">Giới thiệu khóa học</h2>
                     <div className="text-base" dangerouslySetInnerHTML={{ __html: khoahocDetail?.courseIntroduction ?? "" }} />
@@ -93,7 +93,7 @@ export default function page() {
                     <h2 className="text-[32px] font-bold text-[#2E4FBE] mb-2 mt-10">Nội dung khóa học</h2>
                     <div className="text-base" dangerouslySetInnerHTML={{ __html: khoahocDetail?.content ?? "" }} />
                     <h2 className="text-[32px] font-bold text-[#2E4FBE] mb-2 mt-10">Phản hồi về khóa học</h2>
-                    <div className="flex gap-3.5">
+                    <div className="gap-3.5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                         {khoahocDetail?.commnents.map((item: any, index: number) => (
                             <div key={index} className="flex flex-col p-6 items-start gap-3 mb-5  border-2 border-[#CFD1D4] rounded-lg">
                                 <div className="flex">

@@ -10,10 +10,10 @@ export default function TaitroDetailPage() {
   const slug: any = params["slug-taitro"]
   const taiTroDetail: any = dataTaiTro.find((taitro) => taitro.slug === slug[0]);
   return (
-    <div className="min-h-screen pb-16 py-16 pt-20 max-w-7xl mx-auto">
+    <div className="min-h-screen pb-16 py-16 pt-20 max-w-7xl mx-auto md:px-0 px-4">
       <div className="container mx-auto">
         <nav className="bg-white">
-          <div className="mx-auto  pb-6 pt-8">
+          <div className="mx-auto  md:pb-6 md:pt-8 pb-4 pt-6">
             <div className="flex items-center h-12">
               <Link
                 href="/cong-dong"
@@ -35,8 +35,8 @@ export default function TaitroDetailPage() {
         </nav>
         <h1 className="text-4xl font-bold mb-8">{taiTroDetail?.title}</h1>
         <div className="bg-[#F2F2F3] rounded-xl shadow-sm p-8 mb-8">
-          <div className="flex flex-row gap-4">
-            <div className="flex flex-col basis-1/3 gap-5">
+          <div className="md:flex flex-row block gap-4">
+            <div className="flex flex-col basis-1/3 gap-5 mb-4 md:mb-0">
               {taiTroDetail?.organization.map((item: any, index: number) => (
                 <div key={index} className="flex items-center gap-3">
                   <Image src={item.img} alt="DNXH Logo" width={40} height={40} className="rounded-full" />

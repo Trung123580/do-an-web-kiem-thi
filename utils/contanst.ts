@@ -8814,7 +8814,7 @@ export const daotaonghe = [
     form: "10 buổi",
     objectives: "15 tuổi trở lên",
     teacher: "Ths. Đỗ Thị Hảo",
-    slug: "ky-nang-quan-ly-cam-xuc-va-cang-thang",
+    slug: "lam-san-pham-tai-che-tu-vo-mi-tom",
     organization: [
       {
         img: "/image/Ellipse-6.png",
