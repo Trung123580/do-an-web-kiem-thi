@@ -11,10 +11,10 @@ const Home = () => {
             Các thông tin hỗ <br /> trợ giáo dục
           </h3>
           <div className='flex flex-col gap-6 mt-6'>
-            <Link className='text-lg font-bold text-[#3A63ED]' href={"/thong-tin/hoat-dong"}>
+            <Link className='text-lg font-bold text-[#3A63ED]' href={"/cong-dong/hoat-dong"}>
               Các chương trình hỗ trợ giáo dục →
             </Link>
-            <Link className='text-lg font-bold text-[#3A63ED]' href={"/thong-tin/to-chuc-cong-dong"}>
+            <Link className='text-lg font-bold text-[#3A63ED]' href={"/cong-dong"}>
               Các tổ chức hỗ trợ giáo dục →
             </Link>
           </div>

@@ -26,7 +26,7 @@ export default function sukienDetailPage() {
     // })
   }
   return (
-    <div className="min-h-screen pb-16 py-16 pt-20 max-w-7xl mx-auto">
+    <div className="min-h-screen pb-16 py-16 pt-20 max-w-7xl mx-auto px-4 md:px-0">
       <div className="container mx-auto">
         {step !== 3 && (
           <>
@@ -53,8 +53,8 @@ export default function sukienDetailPage() {
         </nav>
         <h1 className="text-4xl font-bold mb-8">{sukienDetail?.title}</h1>
         <div className="bg-[#F2F2F3] rounded-xl shadow-sm p-8 mb-8">
-          <div className="flex flex-row">
-            <div className="flex flex-col basis-1/3 gap-5">
+          <div className="md:flex flex-row block">
+            <div className="flex flex-col basis-1/3 gap-5 mb-4 md:mb-0">
               {sukienDetail?.organization.map((item: any, index: number) => (
                 <div key={index} className="flex items-center gap-3">
                   <Image src={item.img} alt="DNXH Logo" width={40} height={40} className="rounded-full" />

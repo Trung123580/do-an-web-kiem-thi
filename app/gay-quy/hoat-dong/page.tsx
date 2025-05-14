@@ -26,9 +26,9 @@ const page = () => {
   };
   return (
     <div>
-      <section className="w-full h-[400px] md:h-[232px] mt-20 relative bg-[#3A63ED] flex flex-col justify-center items-start px-20">
-        <h1 className="font-bold md:text-5xl text-base text-[#FFFFFF] mb-2">Quỹ của bạn được sử dụng như thế nào?</h1>
-        <p className=" md:text-lg text-sm text-[#FFFFFF]">Tại Foundation for Future, mỗi khoản đóng góp đều góp phần trực tiếp vào việc tạo nên sự thay đổi tích cực cho cộng đồng người khiếm thính. Chúng tôi sử dụng nguồn quỹ để triển khai các hoạt động thiết thực, mang lại cơ hội phát triển bền vững</p>
+      <section className="w-full  h-[230px] md:h-[232px] mt-20 relative bg-[#3A63ED] flex flex-col justify-center items-start px-20">
+        <h1 className="font-bold md:text-5xl text-xl sm:text-4xl text-[#FFFFFF] mb-2">Quỹ của bạn được sử dụng như thế nào?</h1>
+        <p className=" md:text-lg sm:text-base text-xs text-[#FFFFFF]">Tại Foundation for Future, mỗi khoản đóng góp đều góp phần trực tiếp vào việc tạo nên sự thay đổi tích cực cho cộng đồng người khiếm thính. Chúng tôi sử dụng nguồn quỹ để triển khai các hoạt động thiết thực, mang lại cơ hội phát triển bền vững</p>
       </section>
       <div className="container mx-auto px-4 pt-[50px] pb-28 max-w-7xl">
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-5">
@@ -41,27 +41,26 @@ const page = () => {
             </ul>
           </div>
           <div className="py-8 px-12  rounded-2xl bg-[#F2F2F3]">
-            <h1 className="md:text-[32px] text-center mb-4 font-bold text-[#3A63ED]">Hỗ trợ giáo dục & đào tạo</h1>
+            <h1 className="md:text-[32px] text-center mb-4 font-bold text-[#3A63ED]">Nâng cao nhận thức xã hội</h1>
             <ul className="md:text-lg font-normal list-disc">
-              <li>Cung cấp khóa học ngôn ngữ ký hiệu, kỹ năng mềm, đào tạo nghề miễn phí</li>
-              <li>Phát triển nội dung học tập trực tuyến, dễ tiếp cận với người khiếm thính</li>
-              <li>Tư vấn định hướng học tập, học nghề phù hợp với khả năng</li>
+              <li>Tổ chức chiến dịch truyền thông, sự kiện cộng đồng nhằm thay đổi định kiến</li>
+              <li>Phát hành ấn phẩm, video có phụ đề SDH để tiếp cận đa dạng đối tượng</li>
+              <li>Hợp tác với tổ chức, trường học và doanh nghiệp thúc đẩy hòa nhập</li>
             </ul>
           </div>
           <div className="py-8 px-12  rounded-2xl bg-[#F2F2F3]">
-            <h1 className="md:text-[32px] text-center mb-4 font-bold text-[#3A63ED]">Hỗ trợ giáo dục & đào tạo</h1>
+            <h1 className="md:text-[32px] text-center mb-4 font-bold text-[#3A63ED]">Kết nối việc làm</h1>
             <ul className="md:text-lg font-normal list-disc">
-              <li>Cung cấp khóa học ngôn ngữ ký hiệu, kỹ năng mềm, đào tạo nghề miễn phí</li>
-              <li>Phát triển nội dung học tập trực tuyến, dễ tiếp cận với người khiếm thính</li>
-              <li>Tư vấn định hướng học tập, học nghề phù hợp với khả năng</li>
+              <li>Hỗ trợ tìm việc, kết nối với nhà tuyển dụng thân thiện với người khuyết tật</li>
+              <li>Tổ chức chương trình đào tạo kỹ năng làm việc và phỏng vấn</li>
+              <li>Tạo hệ sinh thái việc làm công bằng và hòa nhập</li>
             </ul>
           </div>
           <div className="py-8 px-12  rounded-2xl bg-[#F2F2F3]">
-            <h1 className="md:text-[32px] text-center mb-4 font-bold text-[#3A63ED]">Hỗ trợ giáo dục & đào tạo</h1>
+            <h1 className="md:text-[32px] text-center mb-4 font-bold text-[#3A63ED]">Cải thiện công cụ hỗ trợ</h1>
             <ul className="md:text-lg font-normal list-disc">
-              <li>Cung cấp khóa học ngôn ngữ ký hiệu, kỹ năng mềm, đào tạo nghề miễn phí</li>
-              <li>Phát triển nội dung học tập trực tuyến, dễ tiếp cận với người khiếm thính</li>
-              <li>Tư vấn định hướng học tập, học nghề phù hợp với khả năng</li>
+              <li>Cung cấp thông tin về thiết bị trợ thính, dịch vụ phiên dịch ngôn ngữ ký hiệu</li>
+              <li>Hỗ trợ truy cập các công nghệ học tập dành riêng cho người khiếm thính</li>
             </ul>
           </div>
         </div>
@@ -94,27 +93,27 @@ const page = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#111827] pb-24 pt-14">
+      <div className="bg-[#111827] pb-24 pt-14 flex flex-col justify-center items-center">
         <h1 className="text-5xl text-white font-bold text-center">Chúng tôi cam kết</h1>
-        <div className="grid md:grid-cols-4 justify-center items-center px-20 mt-[56px] gap-7">
+        <div className="grid md:grid-cols-4 justify-center items-center px-20 mt-[56px] gap-7 max-w-7xl">
           <div className="flex flex-col items-center justify-center">
             <img src="/image/icon1.png" alt="" className="mb-6 w-[44px] h-[42px] object-cover" />
-            <div className="text-2xl font-bold text-white mb-2">Minh bạch & trung thực</div>
+            <div className="text-2xl text-center font-bold text-white mb-2">Minh bạch & trung thực</div>
             <p className="text-[#F2F2F3] text-base text-center">Mỗi khoản đóng góp đều được quản lý rõ ràng, sử dụng đúng mục đích, có báo cáo định kỳ và công khai.</p>
           </div>
           <div className="flex flex-col items-center justify-center">
             <img src="/image/icon2.png" alt="" className="mb-6 w-[44px] h-[42px] object-cover" />
-            <div className="text-2xl font-bold text-white mb-2">Minh bạch & trung thực</div>
+            <div className="text-2xl text-center font-bold text-white mb-2">Minh bạch & trung thực</div>
             <p className="text-[#F2F2F3] text-base text-center">Mỗi khoản đóng góp đều được quản lý rõ ràng, sử dụng đúng mục đích, có báo cáo định kỳ và công khai.</p>
           </div>
           <div className="flex flex-col items-center justify-center">
             <img src="/image/icon3.png" alt="" className="mb-6 w-[44px] h-[42px] object-cover" />
-            <div className="text-2xl font-bold text-white mb-2">Minh bạch & trung thực</div>
+            <div className="text-2xl text-center font-bold text-white mb-2">Minh bạch & trung thực</div>
             <p className="text-[#F2F2F3] text-base text-center">Mỗi khoản đóng góp đều được quản lý rõ ràng, sử dụng đúng mục đích, có báo cáo định kỳ và công khai.</p>
           </div>
           <div className="flex flex-col items-center justify-center">
             <img src="/image/icon4.png" alt="" className="mb-6 w-[44px] h-[42px] object-cover" />
-            <div className="text-2xl font-bold text-white mb-2">Minh bạch & trung thực</div>
+            <div className="text-2xl text-center font-bold text-white mb-2">Minh bạch & trung thực</div>
             <p className="text-[#F2F2F3] text-base text-center">Mỗi khoản đóng góp đều được quản lý rõ ràng, sử dụng đúng mục đích, có báo cáo định kỳ và công khai.</p>
           </div>
         </div>

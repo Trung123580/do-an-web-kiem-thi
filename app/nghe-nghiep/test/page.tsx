@@ -55,10 +55,10 @@ const Page = () => {
   if (step === 2) {
     return (
       <div className="min-h-screen bg-[#F6F8FC] p-0">
-        <div className="max-w-7xl mx-auto px-4 pt-8 pb-16">
+        <div className="max-w-7xl mx-auto px-4 pt-20 pb-16">
         <div className='px-6 py-4 rounded-t-lg h-[232px] mt-[32px] flex flex-col justify-center'>
-            <h2 className='mb-3 text-5xl font-bold'>Kết quả kiểm tra kỹ năng làm việc</h2>
-            <p className='m-0 text-lg font-normal'>Bài kiểm tra kỹ năng làm việc được phát triển và nghiên cứu dựa trên đối tượng đặc biệt nhằm giúp họ khám phá năng lực nghề nghiệp bản thân thông qua các bài kiểm tra kỹ năng nhằm khám phá bản thân và lựa chọn định hướng phù hợp bản thân.</p>
+            <h2 className='mb-3 text-3xl md:text-5xl font-bold'>Kết quả kiểm tra kỹ năng làm việc</h2>
+            <p className='m-0 md:text-lg text-base font-normal'>Bài kiểm tra kỹ năng làm việc được phát triển và nghiên cứu dựa trên đối tượng đặc biệt nhằm giúp họ khám phá năng lực nghề nghiệp bản thân thông qua các bài kiểm tra kỹ năng nhằm khám phá bản thân và lựa chọn định hướng phù hợp bản thân.</p>
           </div>
           <div className="flex flex-col md:flex-row mt-[96px] gap-8">
             {/* Radar chart + caption */}
@@ -100,12 +100,12 @@ const Page = () => {
   }
 
   return (
-    <div className='min-h-screen pt-16 bg-[#D8E0FB]'>
-      <div className='bg-blue-600 text-white px-6 py-4 rounded-t-lg h-[232px] flex flex-col justify-center'>
-        <h2 className='m-0 text-5xl font-bold'>Hướng dẫn làm bài kiểm tra kỹ năng làm việc</h2>
+    <div className='min-h-screen pt-20 bg-[#D8E0FB] '>
+      <div className='bg-blue-600 text-white px-6 pb-4  h-[232px] flex flex-col justify-center'>
+        <h2 className='m-0 text-5xl font-bold mt-10'>Hướng dẫn làm bài kiểm tra kỹ năng làm việc</h2>
         <p className='m-0 text-lg font-normal'>Bạn hãy đọc những mệnh đề dưới đây và nhận định vào độ chính xác của mệnh đề đó với bản thân mình, từ 1 (Hoàn toàn sai) đến 4 (Hoàn toàn đúng)</p>
       </div>
-      <div className='rounded-lg pt-[67px] pb-[96px] max-w-7xl mx-auto'>
+      <div className='rounded-lg pt-[67px] pb-[96px] max-w-7xl mx-auto px-4 md:px-0'>
         {/* Progress Bar */}
         <div className='pb-[56px]'>
           <div className='h-4 bg-blue-200 rounded-2xl overflow-hidden'>

@@ -14,7 +14,7 @@ const page = () => {
         }
     }
     return (
-        <div className="min-h-screen bg-gray-50 pt-24 pb-8">
+        <div className=" bg-gray-50 pt-24 pb-8">
             <div className="container mx-auto px-4 max-w-7xl">
                 <div className="grid md:grid-cols-[2fr,1fr] gap-8">
                     <div className={`bg-[#f9fafb] rounded-xl space-y-8 p-4`}>

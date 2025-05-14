@@ -20,8 +20,8 @@ const page = () => {
         setSortState(type);
     }
     return (
-        <div className="min-h-screen pt-16 pb-16">
-            <section className="relative overflow-hidden w-full h-[113px] sm:h-[276px] md:h-[329px] lg:h-[437px] xl:h-[500px] 2xl:h-[500px]">
+        <div className="min-h-screen pt-16 md:pb-16 mb-4">
+            <section className="relative overflow-hidden w-full h-[177px]  sm:h-[276px] md:h-[329px] lg:h-[437px] xl:h-[500px] 2xl:h-[500px]">
                 <video
                     src="/VideoBannerCauChuyen.mp4"
                     className="w-full h-full object-cover"

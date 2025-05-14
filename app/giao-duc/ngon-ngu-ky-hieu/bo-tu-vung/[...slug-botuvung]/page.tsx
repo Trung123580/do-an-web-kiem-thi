@@ -98,7 +98,7 @@ export default async function page({ params }: { params: Params }) {
               <div key={index} className="" >
                 <video
                   src={item.img}
-                  className="object-cover rounded-2xl w-[305px] h-[305px]"
+                  className="object-cover rounded-2xl md:w-[305px] w-full h-[305px]"
                   autoPlay
                   loop
                   muted

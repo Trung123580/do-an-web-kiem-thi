@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { dataSukien, dataVolunteer } from "@/utils/contanst";
+import { triLieuNgonNgu,kynangmem, phuongPhap } from "@/utils/contanst";
 import Slider from "react-slick";
 import { FaArrowRight } from "react-icons/fa";
 import { useRouter } from "next/navigation";
@@ -68,28 +68,28 @@ export default function EducationPage() {
               muted
               playsInline
             />
-            <Link href={'ngon-ngu-ky-hieu/game'}><img src='/image/game1.png' alt="" className="absolute bottom-0 right-2 cursor-pointer" /></Link>
+            <Link href={'giao-duc/ngon-ngu-ky-hieu/game'}><img src='/image/game1.png' alt="" className="absolute bottom-0 right-2 cursor-pointer" /></Link>
           </div>
         </div>
         <div className="grid md:grid-cols-[2fr,1fr] gap-8">
           <div>
             <h2 className="text-5xl font-bold mb-6">Trị liệu ngôn ngữ</h2>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-5">
-              {dataSukien.slice(0, 3).map((course, index) => (
-                <Link href={`/giao-duc/khoa-hoc/${course.slug}`} key={index}>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+              {triLieuNgonNgu.slice(0, 3).map((course, index) => (
+                <Link href={`/giao-duc/tri-lieu-ngon-ngu/${course.slug}`} key={index}>
                   <div className="rounded-2xl overflow-hidden group cursor-pointer hover:shadow-lg hover:shadow-[#5d7deb80] transition-shadow duration-300 h-[472px]">
                     <div className="relative h-72 bg-[#CFD1D4]">
                       <Image src={course.img} alt={course.title} fill className="object-cover" />
                     </div>
                     <div className="px-6 pt-6 pb-4">
                       <h3 className="font-semibold text-xl mb-2 line-clamp-1">{course.title}</h3>
-                      <p className="text-gray-600 text-sm mb-8 line-clamp-1">Ngày kết thúc: {course.date}</p>
+                      <p className="text-gray-600 text-sm mb-8 line-clamp-1">Ngày kết thúc: 14.05.25</p>
                       <div className="flex justify-between items-center">
                         <div className="flex items-center gap-3 w-full">
-                          <Image src={"/image/Ellipse-7.png"} alt="DNXH Logo" width={40} height={40} className="rounded-full" />
+                          <Image src={course.organization[0].img} alt="DNXH Logo" width={40} height={40} className="rounded-full" />
                           <div>
                             <div className="text-xs text-gray-500">Đơn vị tổ chức</div>
-                            <div className="font-medium">Foundation For Future</div>
+                            <div className="font-medium">{course.organization[0].title}</div>
                           </div>
                         </div>
                       </div>
@@ -99,29 +99,29 @@ export default function EducationPage() {
               ))}
             </div>
             <div className="text-end mt-4">
-              <Link href="/" className="inline-flex items-center text-sm font-medium hover:text-gray-900 px-7 py-2 rounded-sm border bg-[#FFFFFF] border-[#CFD1D4] text-[#414652]">
+              <Link href="/giao-duc/tri-lieu-ngon-ngu" className="inline-flex items-center text-sm font-medium hover:text-gray-900 px-7 py-2 rounded-sm border bg-[#FFFFFF] border-[#CFD1D4] text-[#414652]">
                 Xem thêm <img src="/icon/arrow.png" alt="" />
               </Link>
             </div>
           </div>
           <div>
             <h2 className="text-3xl font-bold mb-8 mt-16">Kỹ năng mềm</h2>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
-              {dataSukien.slice(0, 3).map((course, index) => (
-                <Link href={`/giao-duc/khoa-hoc/${course.slug}`} key={index}>
-                  <div className="rounded-2xl overflow-hidden group cursor-pointer  h-[472px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {kynangmem.slice(0, 3).map((course, index) => (
+                <Link href={`/giao-duc/ky-nang-mem/${course.slug}`} key={index}>
+                  <div className="rounded-2xl overflow-hidden group cursor-pointer hover:shadow-lg hover:shadow-[#5d7deb80] transition-shadow duration-300  h-[472px]">
                     <div className="relative h-72 bg-[#CFD1D4]">
                       <Image src={course.img} alt={course.title} fill className="object-cover" />
                     </div>
                     <div className="px-6 pt-6 pb-4">
-                      <h3 className="font-semibold text-xl mb-2">{course.title}</h3>
-                      <p className="text-gray-600 text-sm mb-4 line-clamp-2">Ngày kết thúc: {course.date}</p>
+                      <h3 className="font-semibold text-xl mb-2 line-clamp-1">{course.title}</h3>
+                      <p className="text-gray-600 text-sm mb-4 line-clamp-2">Ngày kết thúc: 14.05.25</p>
                       <div className="flex justify-between items-center">
                         <div className="flex items-center gap-3 w-full">
-                          <Image src={"/image/Ellipse-7.png"} alt="DNXH Logo" width={40} height={40} className="rounded-full" />
+                          <Image src={course.organization[0].img} alt="DNXH Logo" width={40} height={40} className="rounded-full" />
                           <div>
                             <div className="text-xs text-gray-500">Đơn vị tổ chức</div>
-                            <div className="font-medium">Foundation For Future</div>
+                            <div className="font-medium line-clamp-1">{course.organization[0].title}</div>
                           </div>
                         </div>
                       </div>
@@ -131,7 +131,7 @@ export default function EducationPage() {
               ))}
             </div>
             <div className="text-end mt-6">
-              <Link href="/" className="inline-flex items-center text-sm font-medium hover:text-gray-900 px-7 py-2 rounded-sm border bg-[#FFFFFF] border-[#CFD1D4] text-[#414652]">
+              <Link href="/giao-duc/ky-nang-mem" className="inline-flex items-center text-sm font-medium hover:text-gray-900 px-7 py-2 rounded-sm border bg-[#FFFFFF] border-[#CFD1D4] text-[#414652]">
                 Xem thêm <img src="/icon/arrow.png" alt="" />
               </Link>
             </div>
@@ -159,19 +159,20 @@ export default function EducationPage() {
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-8 mt-24">Giáo dục đặc biệt</h2>
         <Slider {...volunteerCarouselSettings} className="volunteer-carousel -mx-3 overflow-hidden">
-          {dataVolunteer.map((item, index) => {
+          {phuongPhap.map((item, index) => {
             return (
-              <Link key={index} href={`/ve-chung-toi/tham-gia-chung-toi/volunteer/${item.slug}`} className="px-3 h-full">
-                <div className="bg-white hover:bg-[#D8E0FB]  overflow-hidden shadow-lg h-full group relative rounded-2xl transition-all duration-1000">
-                  <div className="relative h-60 group-hover:h-40 transition-all duration-300 rounded-2xl">
-                    <Image src={item.img} alt={item.title} fill className="object-cover" />
+              <Link key={index} href={`giao-duc/giao-duc-dac-biet/${item.slug}`} className='px-3 h-full'>
+                  <div className='bg-[#F2F2F3] overflow-hidden rounded-2xl hover:bg-[#3A63ED]/50 shadow-lg h-full group relative'>
+                    <div className='relative h-60 group-hover:h-40 transition-all duration-300'>
+                      <Image src={item.image} alt={item.name} fill className='object-cover rounded-2xl' />
+                    </div>
+                    <div className='px-6 pt-4 pb-6'>
+                      <p className='text-gray-600 font-medium text-lg mb-4'>{item.name}</p>
+                      <p className='text-gray-600 font-medium text-sm absolute left-0 right-0 p-4 pt-0 translate-y-full group-hover:translate-y-0 transition-all duration-300'>{item.note}</p>
+                    </div>
                   </div>
-                  <div className="px-6 pt-8 pb-8">
-                    <p className="text-gray-600 font-medium text-lg">{item.title}</p>
-                    <p className="text-gray-600 font-medium text-sm absolute line-clamp-3 left-0  right-0 px-6 pt-0 translate-y-full group-hover:translate-y-0 group-hover:mt-2 transition-all duration-500">{item.sortDesc}</p>
-                  </div>
-                </div>
-              </Link>
+                </Link>
+             
             );
           })}
         </Slider>
