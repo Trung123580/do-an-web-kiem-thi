@@ -72,7 +72,7 @@ export default function Home() {
   return (
     <div>
       <BannerSwiper />
-     <div className="relative overflow-hidden mt-[96px]">
+     <div className="relative overflow-hidden mt-[310px] md:mt-[195px]">
        <Slider {...carouselSettings} ref={sliderRef} className='news-carousel  !w-full md:max-w-[1064px] mx-auto'>
         {sampleCourses.map(({ id, imageUrl, title, link }) => (
           <div key={id} className='px-3'>
