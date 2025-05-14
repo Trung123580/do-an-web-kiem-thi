@@ -7,7 +7,7 @@ const page = () => {
   return (
     <div>
       <div className="grid lg:grid-cols-2 grid-cols-1 max-w-7xl mx-auto mt-[122px] px-4">
-        <div className=" bg-[#FEF5D0] lg:rounded-l-2xl rounded-t-2xl py-16  pl-16 pr-14 flex justify-center flex-col">
+        <div className=" bg-[#FEF5D0] lg:rounded-l-2xl rounded-t-2xl py-8 md:py-16 pl-8 md:pl-16 pr-7 md:pr-14 flex justify-center flex-col">
           <h1 className="md:text-5xl  mb-4 font-bold">Giá trị cốt lõi</h1>
           <ul className="md:text-lg font-normal">
             <li>
@@ -32,7 +32,7 @@ const page = () => {
         </div>
       </div>
       <div className="max-w-7xl mx-auto mt-6 px-4">
-        <div className="bg-[#F2F2F3] rounded-2xl py-16  pl-16 pr-14 flex justify-center flex-col">
+        <div className="bg-[#F2F2F3] rounded-2xl py-8 md:py-16 pl-8 md:pl-16 pr-7 md:pr-14 flex justify-center flex-col">
           <h1 className="md:text-5xl  mb-4 font-bold">Quy tắc gây quỹ của Foundation for Future</h1>
           <p className="md:text-lg font-normal mb-4">Tại Foundation for Future, chúng tôi trân trọng từng sự đóng góp từ cộng đồng – những người tin vào một xã hội công bằng, nơi người khiếm thính có thể tiếp cận giáo dục, đào tạo nghề và cơ hội việc làm một cách bình đẳng. Chính vì vậy, chúng tôi cam kết xây dựng và thực hiện các nguyên tắc gây quỹ minh bạch, độc lập và có trách nhiệm.</p>
           <div className="md:text-lg font-bold">Tính độc lập</div>
@@ -48,7 +48,7 @@ const page = () => {
         </div>
       </div>
       <div className="max-w-7xl mx-auto mt-6 px-4">
-        <div className="bg-[#D8E0FB] rounded-2xl py-16  pl-16 pr-14 flex justify-center flex-col">
+        <div className="bg-[#D8E0FB] rounded-2xl py-8 md:py-16 pl-8 md:pl-16 pr-7 md:pr-14 flex justify-center flex-col">
           <h1 className="md:text-5xl  mb-4 font-bold">Hệ thống minh bạch</h1>
           <ul>
             <li>Foundation for Future minh bạch trong mọi hoạt động gây quỹ, quản lý tài chính và triển khai chương trình:</li>
@@ -59,7 +59,7 @@ const page = () => {
         </div>
       </div>
       <div className="max-w-7xl mx-auto mt-6 px-4">
-        <div className="bg-[#D8E0FB] rounded-2xl py-16  pl-16 pr-14 flex justify-center flex-col">
+        <div className="bg-[#D8E0FB] rounded-2xl py-8 md:py-16 pl-8 md:pl-16 pr-7 md:pr-14 flex justify-center flex-col">
           <h1 className="md:text-5xl  mb-4 font-bold">Cam kết đa dạng và hòa nhập</h1>
           <ul>
             <li>Chúng tôi xây dựng một môi trường an toàn, thân thiện, nơi mọi người – dù ở bất kỳ hoàn cảnh nào – đều được chào đón và được tôn trọng.</li>

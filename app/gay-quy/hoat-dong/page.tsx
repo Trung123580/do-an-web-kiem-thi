@@ -65,8 +65,8 @@ const page = () => {
           </div>
         </div>
         <h1 className="text-5xl font-bold mb-12 pt-24 text-center">Tác động từ sự ủng hộ của bạn</h1>
-        <div className="flex flex-grow">
-          <div className="basis-1/2 bg-[#FEF5D0] rounded-l-2xl py-16  pl-16 pr-14 flex justify-center flex-col">
+        <div className="flex flex-grow md:flex-row flex-col rounded-2xl overflow-hidden">
+          <div className="basis-1/2 bg-[#FEF5D0] py-16  pl-16 pr-14 flex justify-center flex-col">
             <h1 className="md:text-[32px] text-center mb-4 font-bold">Xây dựng nền tảng bền vững</h1>
             <ul className="md:text-lg font-normal list-disc">
               <li>Giảm rào cản tiếp cận giáo dục với tài nguyên học tập được thiết kế dành riêng cho người khiếm thính.</li>
@@ -74,12 +74,12 @@ const page = () => {
               <li>Phát triển đội ngũ tình nguyện viên, chuyên gia, nhà tuyển dụng đồng hành cùng sứ mệnh dài hạn.</li>
             </ul>
           </div>
-          <div className="basis-1/2 rounded-r-2xl">
-            <img src="/image/hoatdong1.png" alt="" className="rounded-r-2xl w-full h-full object-cover" />
+          <div className="basis-1/2">
+            <img src="/image/hoatdong1.png" alt="" className="w-full h-full object-cover" />
           </div>
         </div>
-        <div className="flex flex-grow mt-6">
-          <div className="basis-1/2 bg-[#D8E0FB] rounded-l-2xl pl-16 py-16  pr-14 flex justify-center flex-col">
+        <div className="flex md:flex-row flex-col mt-6 rounded-2xl overflow-hidden">
+          <div className="basis-1/2 bg-[#D8E0FB] pl-16 py-16  pr-14 flex justify-center flex-col">
             <h1 className="md:text-[32px] text-center mb-4 font-bold">Tác động thực tế</h1>
             <ul className="md:text-lg font-normal list-disc">
               <li>Hơn 1.000 người khiếm thính đã tiếp cận các khóa học ngôn ngữ ký hiệu, kỹ năng mềm và đào tạo nghề phù hợp.</li>
@@ -88,13 +88,13 @@ const page = () => {
               <li>Cộng đồng người khiếm thính được trao tiếng nói thông qua các sự kiện truyền thông, diễn đàn, chiến dịch nâng cao nhận thức.</li>
             </ul>
           </div>
-          <div className="basis-1/2 rounded-r-2xl">
-            <img src="/image/hoatdong2.png" alt="" className="rounded-r-2xl w-full h-full object-cover" />
+          <div className="basis-1/2">
+            <img src="/image/hoatdong2.png" alt="" className="w-full h-full object-cover" />
           </div>
         </div>
       </div>
       <div className="bg-[#111827] pb-24 pt-14 flex flex-col justify-center items-center">
-        <h1 className="text-5xl text-white font-bold text-center">Chúng tôi cam kết</h1>
+        <h1 className="text-4xl md:text-5xl text-white font-bold text-center px-2">Chúng tôi cam kết</h1>
         <div className="grid md:grid-cols-4 justify-center items-center px-20 mt-[56px] gap-7 max-w-7xl">
           <div className="flex flex-col items-center justify-center">
             <img src="/image/icon1.png" alt="" className="mb-6 w-[44px] h-[42px] object-cover" />

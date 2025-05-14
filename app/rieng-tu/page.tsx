@@ -5,11 +5,11 @@ const page = () => {
     <div className='min-h-screen pt-16 max-w-7xl mx-auto'>
       <div className='relative h-[400px]'>
         <img src='/image/rieng-tu.jpg' className='h-full w-full object-top object-cover' alt='' />
-        <h3 className='absolute bottom-[30px] left-[80px] text-5xl font-bold text-white'>Quyền riêng tư và Cookie</h3>
+        <h3 className='absolute bottom-[30px] left-[10px] md:left-[80px] text-4xl md:text-5xl font-bold text-white'>Quyền riêng tư và Cookie</h3>
       </div>
-      <div className='flex flex-col gap-[56px] pt-[50px] pb-[96px]'>
-        <div className='mx-auto max-w-[1280px] bg-[#F2F2F3] rounded-2xl py-[64px] px-[72px]'>
-          <h3 className='text-5xl font-bold text-[#111827] mb-4'>Chính sách Quyền riêng tư</h3>
+      <div className='flex flex-col gap-[56px] pt-[50px] pb-[96px] px-4'>
+        <div className='mx-auto max-w-[1280px] bg-[#F2F2F3] rounded-2xl py-[32px] md:py-[64px] px-[36] md:px-[72px]'>
+          <h3 className='text-3xl md:text-5xl font-bold text-[#111827] mb-4'>Chính sách Quyền riêng tư</h3>
           Chúng tôi cam kết bảo vệ thông tin cá nhân của bạn.
           <p className='font-bold'>1. Dữ liệu được thu thập:</p>
           Chúng tôi có thể thu thập các thông tin như: họ tên, địa chỉ email, số điện thoại, thông tin liên hệ khi bạn đăng ký sự kiện, gửi phản hồi hoặc liên hệ với chúng tôi.
@@ -27,8 +27,8 @@ const page = () => {
           <br />
           contact@foundationforfuture.vn
         </div>
-        <div className='mx-auto max-w-[1280px] bg-[#F2F2F3] rounded-2xl py-[64px] px-[72px]'>
-          <h3 className='text-5xl font-bold text-[#111827] mb-4'>Chính sách Cookie</h3>
+        <div className='mx-auto max-w-[1280px] bg-[#F2F2F3] rounded-2xl py-[32px] md:py-[64px] px-[36] md:px-[72px]'>
+          <h3 className='text-3xl md:text-5xl font-bold text-[#111827] mb-4'>Chính sách Cookie</h3>
           Website của chúng tôi sử dụng cookie để cải thiện trải nghiệm người dùng.
           <ul className='list-disc pl-7'>
             <li>Cookie là gì? Cookie là các tệp nhỏ lưu trên trình duyệt, giúp ghi nhớ tuỳ chọn và hoạt động của bạn trên trang web.</li>

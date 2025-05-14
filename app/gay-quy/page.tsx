@@ -8,7 +8,7 @@ const route = useRouter()
 
   return (
     <div className='min-h-screen'>
-      <section className='relative w-full h-[200px] md:h-[720px] mt-20'>
+      <section className='relative w-full md:h-[720px] mt-20'>
         <Donate/>
       </section>
       <div className='container mx-auto px-4 py-16'>

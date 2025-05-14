@@ -95,7 +95,7 @@ export default function DonateSection() {
                 </svg>
               </a>
             </div>
-            <div className='flex flex-wrap *:hover:underline justify-center md:justify-start gap-4 md:gap-[56px] mb-4 md:mb-0 text-2xl'>
+            <div className='flex flex-wrap *:hover:underline  gap-2 md:gap-[56px] md:mt-0 mt-2 mb-4 md:mb-0 text-xl md:text-2xl'>
               <a href='/lien-he' className='text-white/90 hover:text-white transition-colors'>
                 Liên hệ với chúng tôi
               </a>
