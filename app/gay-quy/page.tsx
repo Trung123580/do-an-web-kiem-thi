@@ -12,7 +12,7 @@ const route = useRouter()
         <Donate/>
       </section>
       <div className='container mx-auto px-4 py-16'>
-        <h1 className="md:text-5xl font-bold text-base text-center  mb-[50px]">Vì sao ủng hộ Foundation for Future?</h1>
+        <h1 className="md:text-5xl font-bold sm:text-3xl text-xl text-center  mb-[50px]">Vì sao ủng hộ Foundation for Future?</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div>
             <div className="md:text-2xl font-bold text-base text-[#3A63ED] mb-[23px]">Chúng tôi là cộng đồng vì sự hòa nhập</div>

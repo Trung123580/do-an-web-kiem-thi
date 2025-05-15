@@ -139,7 +139,7 @@ export default function MobileMenu({ currentPath = "/" }: MobileMenuProps) {
                 <ChevronRight className={`h-4 w-4 transition-transform duration-200 ${openSubmenu === "hoat-dong" ? "rotate-90" : ""}`} />
               </button>
               <div className={`pl-6 space-y-2 overflow-hidden transition-all duration-200 ${openSubmenu === "hoat-dong" ? "max-h-40 mt-2" : "max-h-0"}`}>
-                <Link href="/cong-dong" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
+                <Link href="/cong-dong/to-chuc-hoat-dong" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>
                   Tổ chức & cộng đồng
                 </Link>
                 <Link href="/cong-dong/hoat-dong" className="block py-2 px-4 text-sm text-gray-700 hover:text-[#3a63ed]" onClick={() => setIsOpen(false)}>

@@ -7532,11 +7532,14 @@ export const organizations_5 = [
   },
   {
     link: "https://cattuonghearing.vn/",
-    logo: "/image/tochuc34.png",
+    logo: "/image/tochuc42.png",
     title: "Máy trợ thính Cát Tường Hearing",
     description: "Trung tâm Thính lực Cát Tường tự hào mang những thành tựu thính học hiện đại nhất từ khắp nơi trên thế giới về Việt Nam. Chúng tôi không ngừng nỗ lực để giúp trẻ em và người lớn tuổi tìm lại âm thanh, hòa nhập cộng đồng và thay đổi cuộc sống của họ.",
   },
 ];
+export const sliderOrganizations = Array.from({ length: 42 }, (_, i) => {
+  return `/image/tochuc${i + 1}.png`;
+});
 export const bangChuCai = [{ id: "A" }, { id: "B" }, { id: "C" }, { id: "D" }, { id: "Đ" }, { id: "E" }, { id: "G" }, { id: "H" }, { id: "I" }, { id: "K" }, { id: "L" }, { id: "M" }, { id: "N" }, { id: "O" }, { id: "P" }, { id: "Q" }, { id: "R" }, { id: "S" }, { id: "T" }, { id: "U" }, { id: "V" }, { id: "X" }, { id: "Y" }];
 export const game = [
   {
