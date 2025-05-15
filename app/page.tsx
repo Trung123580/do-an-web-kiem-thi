@@ -72,7 +72,7 @@ export default function Home() {
   return (
     <div>
       <BannerSwiper />
-     <div className="relative overflow-hidden mt-[310px] md:mt-[195px]">
+     <div className="relative overflow-hidden mt-[310px] mb-[96px] md:mt-[195px]">
        <Slider {...carouselSettings} ref={sliderRef} className='news-carousel  !w-full md:max-w-[1064px] mx-auto'>
         {sampleCourses.map(({ id, imageUrl, title, link }) => (
           <div key={id} className='px-3'>
@@ -101,7 +101,7 @@ export default function Home() {
         </button>
       </div>
      </div>
-      <section className='relative w-full'>
+      {/* <section className='relative w-full'>
         <div className='max-w-[846px] mx-auto h-[540px] flex justify-center items-center flex-col gap-[30px]'>
           <h3 className='text-header font-bold text-5xl'>Hoạt động của chúng tôi</h3>
           <p className='text-description'>
@@ -113,7 +113,7 @@ export default function Home() {
           </Link>
         </div>
       </section>
-      <VietnamStatsMap />
+      <VietnamStatsMap /> */}
       <StoryGrid />
       <LatestNews />
       <Donate />

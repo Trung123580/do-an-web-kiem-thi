@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { stories } from "@/utils/contanst";
+import { stories_1 } from "@/utils/contanst";
 
 export default function StoryGrid() {
   
@@ -8,7 +8,7 @@ export default function StoryGrid() {
       <div className="max-w-7xl mx-auto px-4 md:px-0 py-8">
         <section className="">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-[20px]">
-            {stories.map((story, index) => {
+            {stories_1.slice(0,8).map((story, index) => {
               if (index === 1) {
                 return (
                   <div key={index} className="relative h-[305px] bg-[#CFD1D4] rounded-xl flex items-center justify-center">

@@ -20,14 +20,30 @@ export default function AboutPage() {
           <div className='text-center bg-[#374151] text-white h-[350px] md:h-[406px] flex items-center justify-center flex-col'>
             <p className='text-[24px] md:text-[32px] font-md text-white leading-tight w-full px-6 max-w-[1063px]'>
               <span className='text-[#FDE68A] font-bold'>Tầm nhìn của của chúng tôi </span>
-              là xây dựng một xã hội nơi 
-người khiếm thính có thể tự lập, tự tạo dựng giá trị bền vững,
-hòa nhập vào cộng đồng và phát triển mạnh mẽ trong tất cả các lĩnh vực của cuộc sống. 
+                là xây dựng một xã hội nơi 
+                người khiếm thính có thể tự lập, tự tạo dựng giá trị bền vững,
+                hòa nhập vào cộng đồng và phát triển mạnh mẽ trong tất cả các lĩnh vực của cuộc sống. 
             </p>
           </div>
         </div>
       </section>
-
+      <section className='w-full bg-white max-w-7xl mx-auto py-[72px]'>
+        <h2 className="text-center text-3xl md:text-5xl font-bold mb-[48px]">Đội ngũ của chúng tôi</h2>
+        <div className='grid md:grid-cols-2 gap-[48px] px-4'>
+          <div className="">
+            <img src="/image/art-1.jpg" className="max-w-[305px] h-[305px] rounded-lg object-cover w-full" alt="" />
+            {/* <img src="/image/art-2.jpg" alt="" /> */}
+            <h4 className="text-[32px] mt-[32px] mb-[16px] font-bold text-[#3A63ED]">Nguyễn Thị Minh Anh, Sinh viên <br/> trường Quản Trị và Kinh Doanh (HSB),<br/> Sáng lập dự án</h4>
+            <p className="text-[18px] font-normal text-[#111827]">Sau một khoảng thời gian dài hoạt động xã hội về lĩnh vực người khiếm thính tại tổ chức Doanh nghiệp xã hội vì người khiếm thính Việt Nam, nhận thấy rằng người khiếm thính gặp rất nhiều rào cản từ việc làm đến học tập do hạn chế về kiến thức, hiểu biết cơ bản, bắt nguồn từ việc thiếu thông tin hỗ trợ về giáo dục và nghề nghiệp. Minh Anh quyết định thực hiện dự án xây dựng Website hỗ trợ giáo dục và đào tạo hướng nghiệp cho người khiếm thính với mong muốn hỗ trợ người khiếm thính những điều kiện cơ bản để họ có thể tự lập xây dựng tương lai.</p>
+          </div>
+          <div className="">
+            <img src="/image/art-2.jpg" className="max-w-[305px] h-[305px] rounded-lg object-cover w-full" alt="" />
+            {/* <img src="/image/art-2.jpg" alt="" /> */}
+            <h4 className="text-[32px]  mt-[32px] mb-[16px] font-bold text-[#3A63ED]">Bà Chử Thị Thanh Hương, Sáng lập/ <br/> Giám đốc Doanh nghiệp xã hội vì <br/> người khiếm thính Việt Nam, Bảo trợ <br/> dự án</h4>
+            <p className="text-[18px] font-normal text-[#111827]">Sau một khoảng thời gian dài hoạt động xã hội về lĩnh vực người khiếm thính tại tổ chức Doanh nghiệp xã hội vì người khiếm thính Việt Nam, nhận thấy rằng người khiếm thính gặp rất nhiều rào cản từ việc làm đến học tập do hạn chế về kiến thức, hiểu biết cơ bản, bắt nguồn từ việc thiếu thông tin hỗ trợ về giáo dục và nghề nghiệp. Minh Anh quyết định thực hiện dự án xây dựng Website hỗ trợ giáo dục và đào tạo hướng nghiệp cho người khiếm thính với mong muốn hỗ trợ người khiếm thính những điều kiện cơ bản để họ có thể tự lập xây dựng tương lai.</p>
+          </div>
+        </div>
+      </section>
       {/* Story Section */}
       <section className='w-full bg-white'>
         <div className='grid md:grid-cols-2'>

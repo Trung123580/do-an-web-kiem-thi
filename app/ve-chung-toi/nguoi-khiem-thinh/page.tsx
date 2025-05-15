@@ -3,6 +3,8 @@ import React from 'react'
 import Image from 'next/image';
 import { docs } from '@/utils/contanst';
 import FAQItem from '@/app/components/FAQItem';
+import VietnamStatsMap from '@/components/vietnam-stats-map.tsx';
+import Link from 'next/link';
 
 export default function page() {
   const chapters = [
@@ -39,11 +41,22 @@ export default function page() {
           </p>
         </div>
       </section>
-
+      <section className='relative w-full'>
+        <div className='max-w-7xl mx-auto h-[540px] flex justify-center items-center flex-col gap-[30px]'>
+          <h3 className='text-header font-bold text-5xl'>Việt Nam có khoảng 2,5 triệu người khuyết tật nghe nói</h3>
+          <p className='text-description text-center'>
+            Tại Việt Nam, ước tính có khoảng 2,5 triệu người khuyết tật nghe nói, tạo nên nhu cầu cấp thiết về hỗ trợ giáo dục, <br/>
+            y tế và truyền thông nhằm giúp họ tiếp cận thông tin và hội nhập xã hội.
+          </p>
+          <Link href={"/ve-chung-toi"} className='bg-[#111827] text-white !py-2 !px-8 md:!py-4 md:!px-14 rounded-[8px]'>
+            Về chúng tôi
+          </Link>
+        </div>
+      </section>
+      <VietnamStatsMap />
       {/* Statistics Section */}
-      <section className="py-20 px-4 max-w-7xl mx-auto">
+      {/* <section className="py-20 px-4 max-w-7xl mx-auto">
         <div className="max-w-[1440px] mx-auto">
-          {/* Title and Description */}
           <div className="text-center mb-16">
             <h2 className="text-2xl md:text-[32px] font-bold mb-4">
               Việt Nam có khoảng 2,5 triệu
@@ -55,9 +68,7 @@ export default function page() {
             </p>
           </div>
 
-          {/* Statistics Grid */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {/* Statistic 1 */}
             <div className="bg-[#D8E0FB] p-8 rounded-xl h-[413px] flex flex-col items-center justify-center">
               <h3 className="text-2xl font-bold mb-4">1.200 đến 1.400</h3>
               <p className="text-gray-600 text-center">
@@ -65,7 +76,6 @@ export default function page() {
               </p>
             </div>
 
-            {/* Statistic 2 */}
             <div className="bg-[#D8E0FB] p-8 rounded-xl h-[413px] flex flex-col items-center justify-center">
               <h3 className="text-2xl font-bold mb-4">Giảm thính lực</h3>
               <p className="text-gray-600 text-center">
@@ -73,7 +83,6 @@ export default function page() {
               </p>
             </div>
 
-            {/* Statistic 3 */}
             <div className="bg-[#D8E0FB] p-8 rounded-xl h-[413px] flex flex-col items-center justify-center">
               <h3 className="text-2xl font-bold mb-4">Can thiệp</h3>
               <p className="text-gray-600 text-center">
@@ -82,7 +91,7 @@ export default function page() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Law Section */}
       <section className="pb-20 px-4 max-w-7xl mx-auto">
