@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
-import ChatBot from "@/components/ChatBot";
 import Footer from "@/components/Footer";
 import ContextProvider from "@/context/ContextProvider";
 import { Toaster } from 'react-hot-toast';
+import ChatBotComponent from "@/components/ChatBotComponent";
 
 const geistSans = Inter({
   variable: "--font-inter",
@@ -34,7 +34,7 @@ export default function RootLayout({
           <Header />
           {children}
           <Footer />
-          <ChatBot />
+          <ChatBotComponent />
           <Toaster position="top-center" />
         </ContextProvider>
       </body>
