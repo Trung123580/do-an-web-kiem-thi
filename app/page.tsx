@@ -1,16 +1,10 @@
 "use client"
 import BannerSwiper from "@/components/banner-swiper"
-import BoxColor2 from "@/components/BoxColor2"
-import Button from "@/components/Button"
 import Donate from "@/components/Donate"
 import LatestNews from "@/components/LatestNews"
 import StoryGrid from "@/components/StoryGrid"
-import VietnamStatsMap from "@/components/vietnam-stats-map.tsx"
 import Link from "next/link"
-import CourseGrid from "./components/CourseGrid"
 import Slider from "react-slick"
-import { dataNews } from "@/utils/contanst"
-import Image from "next/image"
 import { useRef } from "react"
 
 const sampleCourses = [

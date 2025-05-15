@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Slider from "react-slick";
@@ -9,6 +9,7 @@ import { dataNews, stories } from "@/utils/contanst";
 import { FaArrowRight } from "react-icons/fa";
 
 export default function Page() {
+  const sliderRef = useRef<Slider>(null)
   const carouselSettings = {
     dots: false,
     arrows: true,
@@ -41,9 +42,15 @@ export default function Page() {
       <div className="container mx-auto px-4">
         {/* Latest News Section */}
         <section className="mb-16">
-          <h2 className="text-5xl font-bold mb-8">Tin mới nhất</h2>
+          <div className='flex justify-between items-center mb-8'>
+            <h2 className='text-3xl md:text-[48px] font-bold'>Tin mới nhất</h2>
+            <div className='flex items-center justify-center gap-1 *:cursor-pointer'>
+              <img src='/image/home/Variant3.png' alt='Previous' className='cursor-pointer' onClick={() => sliderRef.current?.slickPrev()} />
+              <img src='/image/home/Variant2.png' alt='Next' className='cursor-pointer' onClick={() => sliderRef.current?.slickNext()} />
+            </div>
+          </div>
           <div className="w-full">
-            <Slider {...carouselSettings} className="news-carousel -mx-3 w-full">
+            <Slider ref={sliderRef} {...carouselSettings} className="news-carousel -mx-3 w-full">
               {dataNews.map((news, index) => (
                 <div key={index} className="px-3">
                   <Link href={`/thong-tin/tin-tuc/${news.slug}`}>
