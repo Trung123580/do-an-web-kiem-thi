@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import Image from "next/image";
 import Link from 'next/link';
-import { stories_1 } from '@/utils/contanst';
+import { stories_1, stories } from '@/utils/contanst';
 
 const page = () => {
     const [storiesData, setStoriesData] = useState(stories_1);

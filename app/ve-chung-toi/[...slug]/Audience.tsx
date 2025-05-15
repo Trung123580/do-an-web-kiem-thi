@@ -89,7 +89,7 @@ export default function Audience() {
               </h2>
             </div>
             <p className="text-gray-600 text-lg">
-              Việc thực thi Luật người khuyết tật nhằm quy định quyền và nghĩa vụ của mình, đồng thời tiếp cận các dịch vụ hỗ trợ, tăng cường tự tin và bảo vệ quyền lợi trước các hành vi phân biệt đối xử.
+              Việc hiểu biết về Luật Người khuyết tật giúp người khiếm thính nhận thức quyền và nghĩa vụ của mình, dễ dàng tiếp cận các dịch vụ hỗ trợ, tăng cường tự tin và bảo vệ quyền lợi trước các hành vi phân biệt đối xử.
             </p>
             {/* Chapter Buttons Grid */}
             <div className="grid grid-cols-2 gap-4 mt-8">
