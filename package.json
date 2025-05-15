@@ -20,6 +20,7 @@
     "react": "^19.0.0",
     "react-chatbotify": "^2.0.0-beta.35",
     "react-dom": "^19.0.0",
+    "react-fast-marquee": "^1.6.5",
     "react-hot-toast": "^2.5.2",
     "react-icons": "^5.5.0",
     "react-player": "^2.16.0",
