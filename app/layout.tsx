@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import ContextProvider from "@/context/ContextProvider";
 import { Toaster } from 'react-hot-toast';
 import ChatBot from "@/components/Chatbot";
+import { GoogleTagManager } from '@next/third-parties/google'
 
 const geistSans = Inter({
   variable: "--font-inter",
@@ -27,6 +28,7 @@ export default function RootLayout({
       <style>
       @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
       </style>
+      <GoogleTagManager gtmId='G-YQZ46LVZL3'/>
       <body
         className={`${geistSans.variable} antialiased`}
       >

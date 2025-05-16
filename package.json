@@ -13,6 +13,7 @@
     "@emotion/styled": "^11.14.0",
     "@headlessui/react": "^2.2.1",
     "@mui/material": "^7.1.0",
+    "@next/third-parties": "^15.3.2",
     "firebase": "^11.6.0",
     "framer-motion": "^12.8.2",
     "lucide-react": "^0.487.0",
