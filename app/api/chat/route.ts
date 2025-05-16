@@ -8,7 +8,7 @@ export async function POST(req: Request) {
     const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
       method: "POST",
       headers: {
-        Authorization: `Bearer ${process.env.NEXT_PUBLIC_AI_KEY}`,
+        Authorization: `Bearer ${process.env.OPENROUTER_API_KEY}`, // ẩn ở server
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
@@ -24,7 +24,7 @@ export async function POST(req: Request) {
 
     const data = await response.json();
     return NextResponse.json(data);
-  } catch (err) {
-    return NextResponse.json({ error: "Lỗi server khi gọi OpenRouter" }, { status: 500 });
+  } catch (error) {
+    return NextResponse.json({ error: "Lỗi server khi gọi OpenRouter." }, { status: 500 });
   }
 }
