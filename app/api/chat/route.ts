@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 
 export async function POST(req: Request) {
   const { input } = await req.json();
-
+  console.log("KEY:", process.env.OPENROUTER_API_KEY)
   try {
     const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
       method: "POST",
