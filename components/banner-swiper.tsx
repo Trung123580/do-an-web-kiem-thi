@@ -90,7 +90,7 @@ export default function BannerSwiper() {
       {/* Slides */}
       <div className='h-full relative text-white'>
         <img src='/image/banner-23.jpg' className='h-full object-cover w-full' alt='' />
-        <div className='absolute bottom-[130px] z-[51] top-1/2 -translate-y-1/2  left-1/2 -translate-x-1/2 w-full flex flex-col justify-center items-center'>
+        <div className='absolute bottom-[130px] z-1 top-1/2 -translate-y-1/2  left-1/2 -translate-x-1/2 w-full flex flex-col justify-center items-center'>
           <h3 className='text-3xl md:text-5xl leading-[130%] font-bold font-Epiogue text-white text-center'>
             Trao nền tảng – Xây dựng tương lai <br /> bền vững cho người khiếm thính
           </h3>
