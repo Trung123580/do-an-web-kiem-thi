@@ -11359,3 +11359,6 @@ export const camnang = [
   },
 
 ];
+
+
+export const dataSearch = [...dataNews, ...stories, ...stories_1, ...dataJob, ...dataVolunteer, ...dataSukien, ...dataTaiTro, ...khoaHoc, ...khoaHocTrucTuyen, ...triLieuNgonNgu, ...boTuVung, ...kynangmem, ...daotaonghe, ...phuongPhap, ...camnang]
