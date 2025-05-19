@@ -1042,17 +1042,17 @@ NHÀ NƯỚC VỀ CÔNG TÁC NGƯỜI KHUYẾT TẬT
 </p>
 `;
 export const dataNews = [
-  {
-    id: 1,
-    title: "Cơ Hội Việc Làm Thách Thức và Rào Cản Đối Với Người khiếm thính/Điếc",
-    description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
-    author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
-    imageAuthor: "/image/author-1.png",
-    image: "/image/news-1.png",
-    date: "07.03.2025",
-    tags: ["Kiến thức", "Xã hội"],
-    slug: "co-hoi-viec-lam-thach-thuc-va-rao-can",
-    content: `
+	{
+		id: 1,
+		title: "Cơ Hội Việc Làm Thách Thức và Rào Cản Đối Với Người khiếm thính/Điếc",
+		description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
+		author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
+		imageAuthor: "/image/author-1.png",
+		image: "/image/news-1.png",
+		date: "07.03.2025",
+		tags: ["Kiến thức", "Xã hội"],
+		slug: "co-hoi-viec-lam-thach-thuc-va-rao-can",
+		content: `
 		<p class="text-black mb-4 leading-relaxed">
 		  Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động. Tuy nhiên, tỷ lệ người khiếm thính có việc làm vẫn còn thấp, do họ phải đối mặt với nhiều thách thức như:
 		</p>
@@ -1098,18 +1098,18 @@ export const dataNews = [
 		  Liên hệ <b>SHE+</b> để được tư vấn miễn phí dịch vụ hòa nhập cộng đồng, đánh giá và đưa ra các giải pháp phục hồi chức năng nghề nghiệp, sẽ rất tốt nếu gia đình có thể đi cùng với trẻ khiếm thính (từ 13 tuổi trở lên)
 		</p>
 	   `,
-  },
-  {
-    id: 2,
-    title: "Quán cà phê đặc biệt của người khiếm thính",
-    description: "Không gian yên tĩnh, nụ cười thân thiện và thái độ phục vụ tận tâm của những nhân viên là người khiếm thính tại quán cà phê Flow-ee (phố Thể Giao, Q.Hai Bà Trưng, Hà Nội) đã để lại ấn tượng sâu sắc, chinh phục không ít khách hàng, dù quán mới hoạt động hơn 1 tháng.",
-    author: "Trúc Linh",
-    imageAuthor: "/image/author-2.png",
-    image: "/image/news-2.png",
-    date: "10:04 GMT+7 ",
-    tags: ["Xã hội", "Nghề nghiệp"],
-    slug: "quan-ca-phe-dac-biet",
-    content: `
+	},
+	{
+		id: 2,
+		title: "Quán cà phê đặc biệt của người khiếm thính",
+		description: "Không gian yên tĩnh, nụ cười thân thiện và thái độ phục vụ tận tâm của những nhân viên là người khiếm thính tại quán cà phê Flow-ee (phố Thể Giao, Q.Hai Bà Trưng, Hà Nội) đã để lại ấn tượng sâu sắc, chinh phục không ít khách hàng, dù quán mới hoạt động hơn 1 tháng.",
+		author: "Trúc Linh",
+		imageAuthor: "/image/author-2.png",
+		image: "/image/news-2.png",
+		date: "10:04 GMT+7 ",
+		tags: ["Xã hội", "Nghề nghiệp"],
+		slug: "quan-ca-phe-dac-biet",
+		content: `
 	  <p class="text-black font-bold leading-relaxed">
 		Bất ngờ bởi sự ấm áp, thân thiện
 	  </p>
@@ -1166,18 +1166,18 @@ export const dataNews = [
 		Ngoài ra, sau khi Flow-ee tại Hà Nội hoạt động ổn định, nhóm cũng mong muốn mở thêm chi nhánh tại TP.HCM và bán hàng online để có thể tạo thêm nhiều cơ hội cho các bạn trẻ khiếm thính được làm việc, tạo ra giá trị cho bản thân và cộng đồng.
 	  </p>
 	 `,
-  },
-  {
-    id: 3,
-    title: "Các yếu tố nguy cơ gây nghe kém ở trẻ sơ sinh và trẻ nhỏ",
-    description: "Nghe kém, giảm thính lực ở trẻ sơ sinh và trẻ nhỏ gây ảnh hưởng tới quá trình học nói, giao tiếp bằng ngôn ngữ của trẻ...",
-    author: "Hội thính học Việt Nam",
-    imageAuthor: "/image/author-3.png",
-    image: "/image/news-3.png",
-    date: "09.12.2024",
-    tags: ["Xã hội"],
-    slug: "cac-yeu-to-nguy-co",
-    content: `
+	},
+	{
+		id: 3,
+		title: "Các yếu tố nguy cơ gây nghe kém ở trẻ sơ sinh và trẻ nhỏ",
+		description: "Nghe kém, giảm thính lực ở trẻ sơ sinh và trẻ nhỏ gây ảnh hưởng tới quá trình học nói, giao tiếp bằng ngôn ngữ của trẻ...",
+		author: "Hội thính học Việt Nam",
+		imageAuthor: "/image/author-3.png",
+		image: "/image/news-3.png",
+		date: "09.12.2024",
+		tags: ["Xã hội"],
+		slug: "cac-yeu-to-nguy-co",
+		content: `
 	  <p class="text-black font-bold leading-relaxed">
 		1. Nghe kém là gì?
 	  </p>
@@ -1333,18 +1333,18 @@ export const dataNews = [
 		Nếu được phát hiện nghe kém, mất thính lực muộn, trẻ có thể gặp khó khăn trong phát âm, phát triển ngôn ngữ và nhận thức so với trẻ khỏe mạnh bình thường, thậm chí phải gánh chịu những khuyết tật vĩnh viễn như câm, điếc. Vì vậy, cần cho bé tham gia khám sàng lọc khiếm thính sớm, khi nghi ngờ trẻ bị nghe kém phải đi khám chuyên sâu để can thiệp điều trị kịp thời.
 	  </p>
 	 `,
-  },
-  {
-    id: 4,
-    title: "Thủ tướng chung vui lễ khai giảng tại ngôi trường đặc biệt của Thủ đô",
-    description: "(Chinhphu.vn) - Sáng 5/9, Thủ tướng Phạm Minh Chính tới dự lễ khai giảng, chung vui cùng các thầy, cô giáo, các em học sinh tại Trường Phổ thông cơ sở Nguyễn Đình Chiểu (quận Hai Bà Trưng, Hà Nội) - ngôi trường dạy hòa nhập học sinh không khuyết tật với học sinh khiếm thị duy nhất tại Hà Nội.",
-    author: "Hà Vân",
-    imageAuthor: "/image/author-4.png",
-    image: "/image/news-4.png",
-    date: "09.12.2024",
-    tags: ["Xã hội", "Sự kiện", "Nghề nghiệp"],
-    slug: "thu-tuong-chung-vui-le-khai-giang",
-    content: `
+	},
+	{
+		id: 4,
+		title: "Thủ tướng chung vui lễ khai giảng tại ngôi trường đặc biệt của Thủ đô",
+		description: "(Chinhphu.vn) - Sáng 5/9, Thủ tướng Phạm Minh Chính tới dự lễ khai giảng, chung vui cùng các thầy, cô giáo, các em học sinh tại Trường Phổ thông cơ sở Nguyễn Đình Chiểu (quận Hai Bà Trưng, Hà Nội) - ngôi trường dạy hòa nhập học sinh không khuyết tật với học sinh khiếm thị duy nhất tại Hà Nội.",
+		author: "Hà Vân",
+		imageAuthor: "/image/author-4.png",
+		image: "/image/news-4.png",
+		date: "09.12.2024",
+		tags: ["Xã hội", "Sự kiện", "Nghề nghiệp"],
+		slug: "thu-tuong-chung-vui-le-khai-giang",
+		content: `
 	  <img src="/image/news-detail-6.png" class="text-black mb-2 leading-relaxed w-full"/>
 	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
 		Thủ tướng Phạm Minh Chính dự lễ khai giảng, chung vui cùng các thầy, cô giáo, các em học sinh tại Trường Phổ thông cơ sở Nguyễn Đình Chiểu (quận Hai Bà Trưng, Hà Nội) - Ảnh: VGP/Nhật Bắc
@@ -1492,18 +1492,18 @@ export const dataNews = [
 	  Thủ tướng chúc toàn thể đội ngũ cán bộ quản lý giáo dục, thầy giáo, cô giáo luôn phát huy tinh thần trách nhiệm và nhiệt huyết với nghề, khắc phục mọi khó khăn, vượt qua mọi thách thức, kiên trì mục tiêu đổi mới căn bản, toàn diện giáo dục và đào tạo, tất cả vì học sinh thân yêu, đáp ứng sự mong đợi của Đảng, Nhà nước và nhân dân ta, chúc các cháu học sinh luôn khỏe mạnh, vui vẻ, học giỏi và lạc quan trong cuộc sống, đạt được ươc mơ, hoài bão của mình, góp phần đưa dân tộc Việt Nam trở thành một dân tộc thông thái - như lời dạy của Chủ tịch Hồ Chí Minh kính yêu.
 	  </p>
 	  `,
-  },
-  {
-    id: 5,
-    title: "Phục hồi chức năng khiếm thính ở trẻ",
-    description: "SKĐS - Khiếm thính là một bệnh ảnh hưởng rất lớn đối với cuộc sống của cá thể, nếu như không thể giao tiếp thì người bệnh sẽ gặp rất nhiều trở ngại trong cuộc sống. Việc phục hồi chức năng cho trẻ khiếm thính có vai trò quan trọng trong việc giúp trẻ ra hòa nhập cộng đồng hiệu quả.",
-    author: "TTUT.BSCK II. Trần Văn Lý",
-    imageAuthor: "/image/author-5.png",
-    image: "/image/news-5.png",
-    date: "05-12-2017",
-    tags: ["Xã hội"],
-    slug: "phuc-hoi-chuc-nang-khiem-thinh-o-tre",
-    content: `
+	},
+	{
+		id: 5,
+		title: "Phục hồi chức năng khiếm thính ở trẻ",
+		description: "SKĐS - Khiếm thính là một bệnh ảnh hưởng rất lớn đối với cuộc sống của cá thể, nếu như không thể giao tiếp thì người bệnh sẽ gặp rất nhiều trở ngại trong cuộc sống. Việc phục hồi chức năng cho trẻ khiếm thính có vai trò quan trọng trong việc giúp trẻ ra hòa nhập cộng đồng hiệu quả.",
+		author: "TTUT.BSCK II. Trần Văn Lý",
+		imageAuthor: "/image/author-5.png",
+		image: "/image/news-5.png",
+		date: "05-12-2017",
+		tags: ["Xã hội"],
+		slug: "phuc-hoi-chuc-nang-khiem-thinh-o-tre",
+		content: `
 	  <p class="text-black font-bold leading-relaxed">
 	   Khiếm thính và phân loại khiếm thính
 	  </p>
@@ -1578,18 +1578,18 @@ export const dataNews = [
 	   Nhiều trẻ khiếm thính được can thiệp sớm đã đạt được kết quả cao trong việc phục hồi ngôn ngữ lời nói và khả năng nghe. Trẻ có thể sử dụng được ngôn ngữ lời nói trong giao tiếp và tham gia học hòa nhập được tại trường mầm non và tiểu học.
 	  </p>
 	  `,
-  },
-  {
-    id: 6,
-    title: '"Người đưa đò" đặc biệt',
-    description: "Câu chuyện về người thầy khiếm thính Võ Duy Quang (27 tuổi, giáo viên Trường Khiếm thính Lâm Đồng) là một hành trình dài của nghị lực và khát vọng vươn lên. Và chính nghị lực đó của thầy đã tiếp sức cho các học trò khiếm thính thêm tự tin, dám ước mơ và thực hiện mơ ước... - Câu chuyện đã được đăng tải trên Báo Lâm Đồng Online của tác giả Phan Nhân.",
-    author: "PHAN NHÂN",
-    imageAuthor: "/image/author-6.png",
-    image: "/image/news-6.png",
-    date: "08/12/2022",
-    tags: ["Xã hội", "Sự kiện"],
-    slug: "nguoi-dua-do-dac-biet",
-    content: `
+	},
+	{
+		id: 6,
+		title: '"Người đưa đò" đặc biệt',
+		description: "Câu chuyện về người thầy khiếm thính Võ Duy Quang (27 tuổi, giáo viên Trường Khiếm thính Lâm Đồng) là một hành trình dài của nghị lực và khát vọng vươn lên. Và chính nghị lực đó của thầy đã tiếp sức cho các học trò khiếm thính thêm tự tin, dám ước mơ và thực hiện mơ ước... - Câu chuyện đã được đăng tải trên Báo Lâm Đồng Online của tác giả Phan Nhân.",
+		author: "PHAN NHÂN",
+		imageAuthor: "/image/author-6.png",
+		image: "/image/news-6.png",
+		date: "08/12/2022",
+		tags: ["Xã hội", "Sự kiện"],
+		slug: "nguoi-dua-do-dac-biet",
+		content: `
 	  <img src="/image/news-detail-15.png" class="text-black mb-2 leading-relaxed w-full"/>
 	  <div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
 		Thầy Võ Duy Quang dạy ngôn ngữ ký hiệu cho các em học sinh Điếc.
@@ -1613,18 +1613,18 @@ export const dataNews = [
 	  Với những người khiếm thính, việc hòa nhập với cuộc sống vốn dĩ gặp rất nhiều khó khăn. Tuy nhiên, với thầy Quang, những khó khăn đó hoàn toàn có thể khắc phục được nếu bản thân mỗi người có nghị lực vươn lên. Tấm gương của thầy Quang chắc hẳn sẽ trở thành động lực để các em học sinh khiếm thính tiếp bước và hoàn thành những hoài bão của bản thân.
 	  </p>
 	  `,
-  },
-  {
-    id: 7,
-    title: "Sự khẩn cấp trong điều trị khiếm thính cho trẻ em",
-    description: "Mỗi năm có thêm trung bình 5.000 trẻ khiếm thính, tuy nhiên số trẻ được phát hiện và can thiệp chỉ khoảng 10% tức là 500 trẻ. Tương lai của trẻ khiếm thính hoàn toàn phụ thuộc vào sự quan tâm của gia đình và toàn xã hội.",
-    author: "",
-    imageAuthor: "/image/author-7.png",
-    image: "/image/news-7.png",
-    date: "12/09/2022",
-    tags: ["Xã hội"],
-    slug: "su-khan-cap-trong-dieu-tri-khiem-thinh-cho-tre-em",
-    content: `
+	},
+	{
+		id: 7,
+		title: "Sự khẩn cấp trong điều trị khiếm thính cho trẻ em",
+		description: "Mỗi năm có thêm trung bình 5.000 trẻ khiếm thính, tuy nhiên số trẻ được phát hiện và can thiệp chỉ khoảng 10% tức là 500 trẻ. Tương lai của trẻ khiếm thính hoàn toàn phụ thuộc vào sự quan tâm của gia đình và toàn xã hội.",
+		author: "",
+		imageAuthor: "/image/author-7.png",
+		image: "/image/news-7.png",
+		date: "12/09/2022",
+		tags: ["Xã hội"],
+		slug: "su-khan-cap-trong-dieu-tri-khiem-thinh-cho-tre-em",
+		content: `
 	  <p class="text-black mb-4 font-bold leading-relaxed">
 		Khiếm thính và các biện pháp can thiệp
 	  </p>
@@ -1660,18 +1660,18 @@ export const dataNews = [
 		Trẻ em hôm nay, thế giới ngày mai, tương lai của trẻ, đặc biệt trẻ em khuyết tật trong đó có trẻ khiếm thính hoàn toàn phụ thuộc vào sự quan tâm của gia đình và toàn xã hội. Để có sự can thiệp khiếm thính hiệu quả thì can thiệp càng sớm càng tốt vì kích thích thần kinh là vô cùng khẩn cấp.
 	  </p>
 	  `,
-  },
-  {
-    id: 8,
-    title: "Người khiếm thính có nói được không? Một sự thật ít ai biết",
-    description: "Ngày nay tình trạng người khiếm thính ngày càng nhiều, nó ảnh hưởng đến nhiều khía cạnh trong cuộc sống, đặc biệt là khả năng giao tiếp. Vậy người khiếm thính có nói được không? và cách họ chinh phục giới hạn của bản thân như thế nào? Hãy cùng Travycare tìm hiểu sau đây nhé.",
-    author: "Hoàng Thị Ngọc Bích",
-    imageAuthor: "/image/author-8.png",
-    image: "/image/news-8.png",
-    date: "Th 5 26/10/2023",
-    tags: ["Xã hội", "Kiến thức"],
-    slug: "nguoi-khiem-thinh-co-noi-duoc-khong",
-    content: `
+	},
+	{
+		id: 8,
+		title: "Người khiếm thính có nói được không? Một sự thật ít ai biết",
+		description: "Ngày nay tình trạng người khiếm thính ngày càng nhiều, nó ảnh hưởng đến nhiều khía cạnh trong cuộc sống, đặc biệt là khả năng giao tiếp. Vậy người khiếm thính có nói được không? và cách họ chinh phục giới hạn của bản thân như thế nào? Hãy cùng Travycare tìm hiểu sau đây nhé.",
+		author: "Hoàng Thị Ngọc Bích",
+		imageAuthor: "/image/author-8.png",
+		image: "/image/news-8.png",
+		date: "Th 5 26/10/2023",
+		tags: ["Xã hội", "Kiến thức"],
+		slug: "nguoi-khiem-thinh-co-noi-duoc-khong",
+		content: `
 	  <p class="text-black mb-4 font-bold leading-relaxed">
 		Khiếm thính là gì?
 	  </p>
@@ -1894,18 +1894,18 @@ export const dataNews = [
 	  Vậy câu trả lời cho câu hỏi người khiếm thính có nói được khônglà gì? Người khiếm thính hoàn toàn có thể nói được nhờ vào sự hỗ trợ, giáo dục và các phương pháp giao tiếp đa dạng. Và chính điều này họ đã truyền cảm hứng mạnh mẽ cho chúng ta về cuộc sống.
 	  </p>
 	  `,
-  },
-  {
-    id: 9,
-    title: "Người khiếm thính gặp khó khăn khi muốn tìm hiểu sản phẩm công nghệ",
-    description: "Nhóm người khiếm thính tại Việt Nam gặp không ít bất lợi trong việc tiếp cận nhiều loại dịch vụ, trong đó có việc tìm hiểu, mua bán, giải đáp về sản phẩm công nghệ.",
-    author: "",
-    imageAuthor: "/image/author-9.png",
-    image: "/image/news-9.png",
-    date: "28/01/2021",
-    tags: ["Xã hội", "Giáo dục", "Thế giới"],
-    slug: "nguoi-khiem-thinh-gap-kho-khan-khi-muon-tim-hieu-san-pham-cong-nghe",
-    content: `
+	},
+	{
+		id: 9,
+		title: "Người khiếm thính gặp khó khăn khi muốn tìm hiểu sản phẩm công nghệ",
+		description: "Nhóm người khiếm thính tại Việt Nam gặp không ít bất lợi trong việc tiếp cận nhiều loại dịch vụ, trong đó có việc tìm hiểu, mua bán, giải đáp về sản phẩm công nghệ.",
+		author: "",
+		imageAuthor: "/image/author-9.png",
+		image: "/image/news-9.png",
+		date: "28/01/2021",
+		tags: ["Xã hội", "Giáo dục", "Thế giới"],
+		slug: "nguoi-khiem-thinh-gap-kho-khan-khi-muon-tim-hieu-san-pham-cong-nghe",
+		content: `
 	  <p class="text-black mb-4 leading-relaxed">
 		Tháng 11 năm ngoái, Samsung Vina thông báo ra mắt dịch vụ ngôn ngữ ký hiệu hỗ trợ người điếc/nghe kém tại Việt Nam. Với dịch vụ này, người khiếm thính có thể gọi video đến tổng đài của hãng để hỏi về mọi thông tin sản phẩm, thông tin bảo hành, hỗ trợ kỹ thuật... và được nhân viên giải đáp bằng ngôn ngữ ký hiệu.
 	  </p>
@@ -1948,19 +1948,19 @@ export const dataNews = [
 	  </p>
 	  
 	  `,
-  },
-  {
-    id: 10,
-    title: "Giao tiếp với trẻ em khiếm thính",
-    description:
-      "Thông thường trẻ em sinh ra nếu không mắc các bệnh ảnh hưởng đến quá trình phát triển tiếng nói như chậm phát triển tâm thần, tự kỷ, ngắn dây thắng lưỡi...thì sau 1-2 năm nghe người thân và những người xung quanh nói chuyện sẽ tự hình thành tiếng nói. Thông qua ngôn ngữ nói, trẻ có thể giao tiếp với cộng đồng tốt hơn, nhiều người hiểu trẻ hơn. Tuy nhiên, trẻ khiếm thính lại không có may mắn này. Để có thể hỗ trợ cho con tốt hơn, người thân của những trẻ này nên nắm rõ cách giao tiếp với trẻ khiếm thính.",
-    author: "Bác sĩ Nguyễn Thái Ngọc Châu - Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Phú Quốc.",
-    imageAuthor: "/image/author-10.png",
-    image: "/image/news-10.png",
-    date: "12/09/2022",
-    tags: ["Xã hội", "Thế giới", "Sự kiện"],
-    slug: "giao-tiep-voi-tre-khiem-thinh",
-    content: `
+	},
+	{
+		id: 10,
+		title: "Giao tiếp với trẻ em khiếm thính",
+		description:
+			"Thông thường trẻ em sinh ra nếu không mắc các bệnh ảnh hưởng đến quá trình phát triển tiếng nói như chậm phát triển tâm thần, tự kỷ, ngắn dây thắng lưỡi...thì sau 1-2 năm nghe người thân và những người xung quanh nói chuyện sẽ tự hình thành tiếng nói. Thông qua ngôn ngữ nói, trẻ có thể giao tiếp với cộng đồng tốt hơn, nhiều người hiểu trẻ hơn. Tuy nhiên, trẻ khiếm thính lại không có may mắn này. Để có thể hỗ trợ cho con tốt hơn, người thân của những trẻ này nên nắm rõ cách giao tiếp với trẻ khiếm thính.",
+		author: "Bác sĩ Nguyễn Thái Ngọc Châu - Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Phú Quốc.",
+		imageAuthor: "/image/author-10.png",
+		image: "/image/news-10.png",
+		date: "12/09/2022",
+		tags: ["Xã hội", "Thế giới", "Sự kiện"],
+		slug: "giao-tiep-voi-tre-khiem-thinh",
+		content: `
 	  <p class="text-black mb-4 font-bold leading-relaxed">
 		1. Những khó khăn của trẻ khiếm thính
 	  </p>
@@ -2057,18 +2057,18 @@ export const dataNews = [
 		• Chăm sóc chuyên nghiệp: Ngoài việc thấu hiểu tâm lý trẻ, Vinmec còn đặc biệt quan tâm đến không gian vui chơi của các bé, giúp các bé vui chơi thoải mái và làm quen với môi trường của bệnh viện, hợp tác điều trị, nâng cao hiệu quả khám chữa bệnh
 	  </p>
 	  `,
-  },
-  {
-    id: 11,
-    title: "Những nơi giúp trẻ khiếm thính tiếp cận chuẩn giáo dục như học sinh bình thường",
-    description: "Mở rộng cơ hội hòa nhập là mục tiêu của những trường cùng tổ chức giáo dục trẻ khiếm thính để giúp các em không dừng bước học tập, tạo sự nghiệp trong tương lai.",
-    author: "Ngọc Long",
-    imageAuthor: "/image/author-11.png",
-    image: "/image/news-11.png",
-    date: "17/12/2022 09:53 GMT+7",
-    tags: ["Xã hội", "Thế giới", "Sự kiện"],
-    slug: "nhung-noi-giup-tre-khiem-thinh-tiep-can-chuan-giao-duc-nhu-hoc-sinh-binh-thuong",
-    content: `
+	},
+	{
+		id: 11,
+		title: "Những nơi giúp trẻ khiếm thính tiếp cận chuẩn giáo dục như học sinh bình thường",
+		description: "Mở rộng cơ hội hòa nhập là mục tiêu của những trường cùng tổ chức giáo dục trẻ khiếm thính để giúp các em không dừng bước học tập, tạo sự nghiệp trong tương lai.",
+		author: "Ngọc Long",
+		imageAuthor: "/image/author-11.png",
+		image: "/image/news-11.png",
+		date: "17/12/2022 09:53 GMT+7",
+		tags: ["Xã hội", "Thế giới", "Sự kiện"],
+		slug: "nhung-noi-giup-tre-khiem-thinh-tiep-can-chuan-giao-duc-nhu-hoc-sinh-binh-thuong",
+		content: `
 	  <p class="text-black font-bold leading-relaxed">
 		Dạy tiếng Anh, hướng nghiệp từ THCS
 	  </p>
@@ -2142,18 +2142,18 @@ export const dataNews = [
 		 Nhóm sinh viên do Bùi Ngọc Lan (Trường ĐH Sư phạm Hà Nội) phụ trách thì nghiên cứu phát triển kỹ năng hội thoại cho trẻ rối loạn phổ tự kỷ giai đoạn tiền tiểu học và đầu tiểu học thông qua kịch vải (panel theater), một hoạt động giảng dạy kể chuyện bằng bảng vải còn khá mới ở Việt Nam
 	  </p>
 	  `,
-  },
-  {
-    id: 12,
-    title: "Cải thiện trải nghiệm giao tiếp giữa người chăm sóc và bệnh nhân khiếm thính",
-    description: "Mất thính lực là vô hình – đôi khi ngay cả với người bị mất thính lực. Các mẹo giao tiếp sau đây sẽ cải thiện tương tác giữa bệnh nhân và người chăm sóc, và nên được sử dụng bất cứ khi nào có thể.",
-    author: " Cleverland Clinic",
-    imageAuthor: "/image/author-12.png",
-    image: "/image/news-12.png",
-    date: "",
-    tags: ["Xã hội", "Thế giới", "Sự kiện"],
-    slug: "cai-thien-trai-nghiem-giao-tiep-giua-nguoi-cham-soc-va-benh-nhan-khiem-thinh",
-    content: `
+	},
+	{
+		id: 12,
+		title: "Cải thiện trải nghiệm giao tiếp giữa người chăm sóc và bệnh nhân khiếm thính",
+		description: "Mất thính lực là vô hình – đôi khi ngay cả với người bị mất thính lực. Các mẹo giao tiếp sau đây sẽ cải thiện tương tác giữa bệnh nhân và người chăm sóc, và nên được sử dụng bất cứ khi nào có thể.",
+		author: " Cleverland Clinic",
+		imageAuthor: "/image/author-12.png",
+		image: "/image/news-12.png",
+		date: "",
+		tags: ["Xã hội", "Thế giới", "Sự kiện"],
+		slug: "cai-thien-trai-nghiem-giao-tiep-giua-nguoi-cham-soc-va-benh-nhan-khiem-thinh",
+		content: `
 	  <p class="text-black font-bold leading-relaxed">
 		Giao tiếp rõ ràng
 	  </p>
@@ -2245,19 +2245,19 @@ export const dataNews = [
 	  </p>
 	 
 	  `,
-  },
+	},
 ];
 export const stories = [
-  {
-    title: "Câu chuyện của cậu bé khiếm thính",
-    description: "Tôi là người khiếm thính. Tôi sinh ra đã như vậy. Sau một thời gian theo dõi 'Góp tự sự, gửi cánh thư' trên các trang mạng xã hội, tôi muốn bày tỏ câu chuyện của mình tới mọi người…",
-    author: "Hoàng Phú",
-    imageAuthor: "/image/author-11.png",
-    date: "24/07/2024 09:00 GMT+7",
-    img: "/image/story-1.png",
-    createdAt: "2024-07-24",
-    slug: "cau-chuyen-cua-cau-be-khiem-thinh",
-    content: `
+	{
+		title: "Câu chuyện của cậu bé khiếm thính",
+		description: "Tôi là người khiếm thính. Tôi sinh ra đã như vậy. Sau một thời gian theo dõi 'Góp tự sự, gửi cánh thư' trên các trang mạng xã hội, tôi muốn bày tỏ câu chuyện của mình tới mọi người…",
+		author: "Hoàng Phú",
+		imageAuthor: "/image/author-11.png",
+		date: "24/07/2024 09:00 GMT+7",
+		img: "/image/story-1.png",
+		createdAt: "2024-07-24",
+		slug: "cau-chuyen-cua-cau-be-khiem-thinh",
+		content: `
 	  <p class="text-black mb-4 leading-relaxed">
 	  	Tuổi thơ của tôi không được ai dạy bảo những kiến thức xã hội hay những kỹ năng đơn giản giúp cho một đứa trẻ phát triển. Khi còn nhỏ, bố mẹ tôi thường xuyên cãi nhau và hiếm khi quan tâm tới tôi, vì tôi bị khuyết tật nghe nói, bố mẹ không thể có cách để giao tiếp hay trao đổi với tôi. Rồi bố mẹ quyết định đưa tôi đến mầm non hòa nhập với người nghe bình thường, và tôi bị chỉ trích chỉ vì tôi không thể giao tiếp cùng các bạn.
 	  </p>
@@ -2303,18 +2303,18 @@ export const stories = [
 		Trên hành trình của mình, tôi may mắn gặp gỡ và được đồng hành cùng những người bạn tuyệt vời, những người đã cùng tôi dám biến những ấp ủ thành hiện thực. Cứ như vậy, dự án đọc sách bằng ngôn ngữ ký hiệu của chúng tôi ra đời. Tôi cũng tự hào khi mình đã, đang và sẽ tiếp tục truyền cảm hứng cho các bạn trẻ khiếm thính có thể vượt qua nhiều rào cản, khó khăn trong cuộc sống để có thể vượt lên chính mình và thành công hơn. Động lực giúp tôi trong suốt hành trình vất vả này không chỉ là đôi mắt tò mò của các bạn trẻ khiếm thính, là nụ cười hạnh phúc của các bạn khi được đắm mình trong môi trường sôi động của những đôi tay mà còn ở chỗ, tôi nhìn thấy nơi các bạn hình ảnh của chính tôi cùng những mong muốn còn dang dở.
 	  </p>
 	 `,
-  },
-  "text",
-  {
-    title: "Câu chuyện sức sống và nữ giáo viên Mỹ giúp trẻ khiếm thính",
-    description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
-    author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
-    imageAuthor: "/image/author-2.png",
-    date: "07.03.2025",
-    createdAt: "2025-03-07",
-    img: "/image/story-2.png",
-    slug: "cau-chuyen-suc-song-va-nu-giao-vien-my-giup-tre-khiem-thinh",
-    content: `
+	},
+	"text",
+	{
+		title: "Câu chuyện sức sống và nữ giáo viên Mỹ giúp trẻ khiếm thính",
+		description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
+		author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
+		imageAuthor: "/image/author-2.png",
+		date: "07.03.2025",
+		createdAt: "2025-03-07",
+		img: "/image/story-2.png",
+		slug: "cau-chuyen-suc-song-va-nu-giao-vien-my-giup-tre-khiem-thinh",
+		content: `
 	  <p class="text-black mb-4 leading-relaxed">
 		Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động. Tuy nhiên, tỷ lệ người khiếm thính có việc làm vẫn còn thấp, do họ phải đối mặt với nhiều thách thức như:
 	  </p>
@@ -2360,17 +2360,17 @@ export const stories = [
 		Liên hệ <b>SHE+</b> để được tư vấn miễn phí dịch vụ hòa nhập cộng đồng, đánh giá và đưa ra các giải pháp phục hồi chức năng nghề nghiệp, sẽ rất tốt nếu gia đình có thể đi cùng với trẻ khiếm thính (từ 13 tuổi trở lên)
 	  </p>
 	 `,
-  },
-  {
-    title: "Những câu chuyện đẹp góp cho đời: Chuyện 'huyền thoại' ở Tiệm giặt là của người Điếc",
-    description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
-    author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
-    imageAuthor: "/image/author-3.png",
-    date: "07.03.2025",
-    img: "/image/story-3.png",
-    slug: "cau-chuyen-de-gop-cho-doi",
-    createdAt: "2024-05-07",
-    content: `
+	},
+	{
+		title: "Những câu chuyện đẹp góp cho đời: Chuyện 'huyền thoại' ở Tiệm giặt là của người Điếc",
+		description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
+		author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
+		imageAuthor: "/image/author-3.png",
+		date: "07.03.2025",
+		img: "/image/story-3.png",
+		slug: "cau-chuyen-de-gop-cho-doi",
+		createdAt: "2024-05-07",
+		content: `
 	  <p class="text-black mb-4 leading-relaxed">
 		Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động. Tuy nhiên, tỷ lệ người khiếm thính có việc làm vẫn còn thấp, do họ phải đối mặt với nhiều thách thức như:
 	  </p>
@@ -2416,17 +2416,17 @@ export const stories = [
 		Liên hệ <b>SHE+</b> để được tư vấn miễn phí dịch vụ hòa nhập cộng đồng, đánh giá và đưa ra các giải pháp phục hồi chức năng nghề nghiệp, sẽ rất tốt nếu gia đình có thể đi cùng với trẻ khiếm thính (từ 13 tuổi trở lên)
 	  </p>
 	 `,
-  },
-  {
-    title: "Người phụ nữ có con bị khiếm thính và hành trình giúp thay đổi cuộc đời của hàng nghìn người",
-    description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
-    author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
-    imageAuthor: "/image/author-4.png",
-    date: "07.03.2025",
-    img: "/image/story-4.png",
-    slug: "nguoi-phu-nu-co-con-bi-khiem-thinh-va-hanh-trinh-giup-thay-doi-cuoc-doi-cua-hang-nghin-nguoi",
-    createdAt: "2025-01-07",
-    content: `
+	},
+	{
+		title: "Người phụ nữ có con bị khiếm thính và hành trình giúp thay đổi cuộc đời của hàng nghìn người",
+		description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
+		author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
+		imageAuthor: "/image/author-4.png",
+		date: "07.03.2025",
+		img: "/image/story-4.png",
+		slug: "nguoi-phu-nu-co-con-bi-khiem-thinh-va-hanh-trinh-giup-thay-doi-cuoc-doi-cua-hang-nghin-nguoi",
+		createdAt: "2025-01-07",
+		content: `
 	  <p class="text-black mb-4 leading-relaxed">
 		Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động. Tuy nhiên, tỷ lệ người khiếm thính có việc làm vẫn còn thấp, do họ phải đối mặt với nhiều thách thức như:
 	  </p>
@@ -2472,17 +2472,17 @@ export const stories = [
 		Liên hệ <b>SHE+</b> để được tư vấn miễn phí dịch vụ hòa nhập cộng đồng, đánh giá và đưa ra các giải pháp phục hồi chức năng nghề nghiệp, sẽ rất tốt nếu gia đình có thể đi cùng với trẻ khiếm thính (từ 13 tuổi trở lên)
 	  </p>
 	 `,
-  },
-  {
-    title: "Chuyện về cô gái khiếm thính ở Việt Nam giành học bổng Mỹ",
-    description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
-    author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
-    imageAuthor: "/image/author-5.png",
-    date: "07.03.2025",
-    img: "/image/story-5.png",
-    createdAt: "2025-03-08",
-    slug: "chuyen-ve-co-gai-khiem-thinh-o-viet-nam-giay-hoc-bong-my",
-    content: `
+	},
+	{
+		title: "Chuyện về cô gái khiếm thính ở Việt Nam giành học bổng Mỹ",
+		description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
+		author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
+		imageAuthor: "/image/author-5.png",
+		date: "07.03.2025",
+		img: "/image/story-5.png",
+		createdAt: "2025-03-08",
+		slug: "chuyen-ve-co-gai-khiem-thinh-o-viet-nam-giay-hoc-bong-my",
+		content: `
 	  <p class="text-black mb-4 leading-relaxed">
 		Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động. Tuy nhiên, tỷ lệ người khiếm thính có việc làm vẫn còn thấp, do họ phải đối mặt với nhiều thách thức như:
 	  </p>
@@ -2528,17 +2528,17 @@ export const stories = [
 		Liên hệ <b>SHE+</b> để được tư vấn miễn phí dịch vụ hòa nhập cộng đồng, đánh giá và đưa ra các giải pháp phục hồi chức năng nghề nghiệp, sẽ rất tốt nếu gia đình có thể đi cùng với trẻ khiếm thính (từ 13 tuổi trở lên)
 	  </p>
 	 `,
-  },
-  {
-    title: "Họa sĩ khiếm thính Nam Long: Mẹ là người thầy đầu tiên",
-    description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
-    author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
-    imageAuthor: "/image/author-6.png",
-    date: "07.03.2025",
-    img: "/image/story-6.png",
-    createdAt: "2025-05-05",
-    slug: "hoa-si-khiem-thinh-nam-long",
-    content: `
+	},
+	{
+		title: "Họa sĩ khiếm thính Nam Long: Mẹ là người thầy đầu tiên",
+		description: "Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động.",
+		author: "SHE+ Doanh nghiệp Xã hội vì Người Khiếm Thính Việt Nam",
+		imageAuthor: "/image/author-6.png",
+		date: "07.03.2025",
+		img: "/image/story-6.png",
+		createdAt: "2025-05-05",
+		slug: "hoa-si-khiem-thinh-nam-long",
+		content: `
 	  <p class="text-black mb-4 leading-relaxed">
 		Tại Việt Nam, có khoảng 2,5 triệu người bị khiếm thính, trong đó 60% đang ở độ tuổi lao động. Tuy nhiên, tỷ lệ người khiếm thính có việc làm vẫn còn thấp, do họ phải đối mặt với nhiều thách thức như:
 	  </p>
@@ -2584,20 +2584,20 @@ export const stories = [
 		Liên hệ <b>SHE+</b> để được tư vấn miễn phí dịch vụ hòa nhập cộng đồng, đánh giá và đưa ra các giải pháp phục hồi chức năng nghề nghiệp, sẽ rất tốt nếu gia đình có thể đi cùng với trẻ khiếm thính (từ 13 tuổi trở lên)
 	  </p>
 	 `,
-  },
-  "text",
+	},
+	"text",
 ];
 export const stories_1 = [
-  {
-    title: "Câu chuyện của cậu bé khiếm thính",
-    description: "Tôi là người khiếm thính. Tôi sinh ra đã như vậy. Sau một thời gian theo dõi 'Góp tự sự, gửi cánh thư' trên các trang mạng xã hội, tôi muốn bày tỏ câu chuyện của mình tới mọi người…",
-    author: "Hoàng Phú",
-    imageAuthor: "/image/author-13.png",
-    date: "24/07/2024 09:00 GMT+7",
-    img: "/image/story-1.png",
-    createdAt: "2024-07-24",
-    slug: "cau-chuyen-cua-cau-be-khiem-thinh",
-    content: `
+	{
+		title: "Câu chuyện của cậu bé khiếm thính",
+		description: "Tôi là người khiếm thính. Tôi sinh ra đã như vậy. Sau một thời gian theo dõi 'Góp tự sự, gửi cánh thư' trên các trang mạng xã hội, tôi muốn bày tỏ câu chuyện của mình tới mọi người…",
+		author: "Hoàng Phú",
+		imageAuthor: "/image/author-13.png",
+		date: "24/07/2024 09:00 GMT+7",
+		img: "/image/story-1.png",
+		createdAt: "2024-07-24",
+		slug: "cau-chuyen-cua-cau-be-khiem-thinh",
+		content: `
 		<p class="text-black mb-4 leading-relaxed">
 			Tuổi thơ của tôi không được ai dạy bảo những kiến thức xã hội hay những kỹ năng đơn giản giúp cho một đứa trẻ phát triển. Khi còn nhỏ, bố mẹ tôi thường xuyên cãi nhau và hiếm khi quan tâm tới tôi, vì tôi bị khuyết tật nghe nói, bố mẹ không thể có cách để giao tiếp hay trao đổi với tôi. Rồi bố mẹ quyết định đưa tôi đến mầm non hòa nhập với người nghe bình thường, và tôi bị chỉ trích chỉ vì tôi không thể giao tiếp cùng các bạn.
 		</p>
@@ -2643,17 +2643,17 @@ export const stories_1 = [
 		  Trên hành trình của mình, tôi may mắn gặp gỡ và được đồng hành cùng những người bạn tuyệt vời, những người đã cùng tôi dám biến những ấp ủ thành hiện thực. Cứ như vậy, dự án đọc sách bằng ngôn ngữ ký hiệu của chúng tôi ra đời. Tôi cũng tự hào khi mình đã, đang và sẽ tiếp tục truyền cảm hứng cho các bạn trẻ khiếm thính có thể vượt qua nhiều rào cản, khó khăn trong cuộc sống để có thể vượt lên chính mình và thành công hơn. Động lực giúp tôi trong suốt hành trình vất vả này không chỉ là đôi mắt tò mò của các bạn trẻ khiếm thính, là nụ cười hạnh phúc của các bạn khi được đắm mình trong môi trường sôi động của những đôi tay mà còn ở chỗ, tôi nhìn thấy nơi các bạn hình ảnh của chính tôi cùng những mong muốn còn dang dở.
 		</p>
 	   `,
-  },
-  {
-    title: "Câu chuyện xúc động về nữ giáo viên Mỹ giúp trò khiếm thính có bằng cử nhân",
-    description: "(Dân trí) - Anne Sullivan là một trong những nữ giáo viên nổi tiếng nhất trong lịch sử nước Mỹ. Bà đã giúp học trò Helen Keller trở thành người khiếm thính - khiếm thị đầu tiên có bằng cử nhân Nghệ thuật.",
-    author: "Vĩnh Ngọc",
-    imageAuthor: "/image/author-14.png",
-    date: "Thứ sáu, 18/11/2022 - 13:59",
-    createdAt: "2022-11-18",
-    img: "/image/story-2.png",
-    slug: "cau-chuyen-xuc-dong-ve-nu-giao-vien-my-giup-tro-khiem-thinh-co-bang-cu-nhan",
-    content: `
+	},
+	{
+		title: "Câu chuyện xúc động về nữ giáo viên Mỹ giúp trò khiếm thính có bằng cử nhân",
+		description: "(Dân trí) - Anne Sullivan là một trong những nữ giáo viên nổi tiếng nhất trong lịch sử nước Mỹ. Bà đã giúp học trò Helen Keller trở thành người khiếm thính - khiếm thị đầu tiên có bằng cử nhân Nghệ thuật.",
+		author: "Vĩnh Ngọc",
+		imageAuthor: "/image/author-14.png",
+		date: "Thứ sáu, 18/11/2022 - 13:59",
+		createdAt: "2022-11-18",
+		img: "/image/story-2.png",
+		slug: "cau-chuyen-xuc-dong-ve-nu-giao-vien-my-giup-tro-khiem-thinh-co-bang-cu-nhan",
+		content: `
 		<p class="text-black mb-4 leading-relaxed">
 		  Anne Sullivan sinh ngày 14/4/1866 tại Feeding Hills, Agawam, Massachusetts, Mỹ. Khi mới 5 tuổi, Sullivan đã mắc bệnh mắt hột do vi khuẩn gây ra. Sau thời gian dài nhiễm trùng, bà gần như mù lòa.
 		</p>
@@ -2759,17 +2759,17 @@ export const stories_1 = [
 		  Tang lễ của Helen Keller được tổ chức trang trọng tại Nhà thờ Quốc gia Washington, Mỹ. Thi thể của cô được hỏa táng và tro cốt được chôn bên cạnh người luôn đồng hành với cô, nhà giáo ưu tú Anne Sullivan.
 		</p>
 	   `,
-  },
-  {
-    title: "Những câu chuyện đẹp góp cho đời: Chuyện 'huyền thoại' ở Tiệm giặt là của người Điếc",
-    description: "Hơn 20 năm qua, sống trong một thế giới không có âm thanh nhưng chị Lương Thị Kiều Thúy (31 tuổi, ở Hà Nội ) đã nỗ lực khởi nghiệp vì cộng đồng bằng Tiệm giặt là của người Điếc, giúp nhiều mảnh đời bất hạnh hồi sinh.",
-    author: "Vũ Thơ",
-    imageAuthor: "/image/author-15.png",
-    date: "13/10/2022 09:30 GMT+7",
-    img: "/image/story-3.png",
-    slug: "cau-chuyen-de-gop-cho-doi",
-    createdAt: "2022-10-13",
-    content: `
+	},
+	{
+		title: "Những câu chuyện đẹp góp cho đời: Chuyện 'huyền thoại' ở Tiệm giặt là của người Điếc",
+		description: "Hơn 20 năm qua, sống trong một thế giới không có âm thanh nhưng chị Lương Thị Kiều Thúy (31 tuổi, ở Hà Nội ) đã nỗ lực khởi nghiệp vì cộng đồng bằng Tiệm giặt là của người Điếc, giúp nhiều mảnh đời bất hạnh hồi sinh.",
+		author: "Vũ Thơ",
+		imageAuthor: "/image/author-15.png",
+		date: "13/10/2022 09:30 GMT+7",
+		img: "/image/story-3.png",
+		slug: "cau-chuyen-de-gop-cho-doi",
+		createdAt: "2022-10-13",
+		content: `
 		<p class="text-black leading-relaxed">
 		  Hành trình khởi nghiệp của cô gái khiếm thính
 		</p>
@@ -2837,17 +2837,17 @@ export const stories_1 = [
 		 	Không chỉ dạy người điếc, chị Thúy còn lan tỏa ngôn ngữ ký hiệu cho những người bình thường để họ giao tiếp thuận lợi với người điếc. Bước vào bên trong tiệm giặt, bạn sẽ bắt gặp những tấm thiệp mà trên đó là những lời chúc, cảm nhận, suy nghĩ của các khách hàng, như: “Tiệm xinh xắn như chị Thúy ạ. Mọi người có thể tới đây thư giãn và học ngôn ngữ mới. Đáng yêu lắm ạ!”; “Một nơi tuyệt vời để bạn có thể trải nghiệm một ngôn ngữ mới, có thể là cả một cách sống mới”; “Mọi thứ thật tuyệt vời. Sẽ ủng hộ các bạn nhiều”…
 		</p>
 	   `,
-  },
-  {
-    title: "Công nghệ và câu chuyện truyền cảm hứng của chàng trai khiếm thính",
-    description: "Dân trí) - Cơn bạo bệnh ngày bé khiến Phạm Minh Chiến từ một cậu bé bình thường trở thành người khiếm thính. Không đầu hàng số phận, Chiến nỗ lực học tập, rồi bén duyên với công nghệ.",
-    author: "Trường Thịnh",
-    imageAuthor: "/image/author-16.png",
-    date: "Thứ năm, 07/11/2024 - 19:00",
-    img: "/image/story-4.png",
-    createdAt: "2024-11-07",
-    slug: "cong-nghe-va-cau-chuyen-truyen-cam-hung-cua-chang-trai-khiem-thinh",
-    content: `
+	},
+	{
+		title: "Công nghệ và câu chuyện truyền cảm hứng của chàng trai khiếm thính",
+		description: "Dân trí) - Cơn bạo bệnh ngày bé khiến Phạm Minh Chiến từ một cậu bé bình thường trở thành người khiếm thính. Không đầu hàng số phận, Chiến nỗ lực học tập, rồi bén duyên với công nghệ.",
+		author: "Trường Thịnh",
+		imageAuthor: "/image/author-16.png",
+		date: "Thứ năm, 07/11/2024 - 19:00",
+		img: "/image/story-4.png",
+		createdAt: "2024-11-07",
+		slug: "cong-nghe-va-cau-chuyen-truyen-cam-hung-cua-chang-trai-khiem-thinh",
+		content: `
 		<p class="text-black mb-4 leading-relaxed">
 		  Sau khóa học tại AWS, Chiến trở thành nhân viên của TechX, với ước mơ hỗ trợ cộng đồng khiếm thính.
 		</p>
@@ -2918,17 +2918,17 @@ export const stories_1 = [
 		</p>
 		
 	   `,
-  },
-  {
-    title: "Chuyện về cô giáo có tình yêu đặc biệt với trẻ đặc biệt",
-    description: "(Dân trí) - Cô Nguyễn Thị Tú Trân (sinh năm 1981) đã có hơn 20 năm công tác trong ngành giáo dục đặc biệt dành cho trẻ khuyết tật.",
-    author: "Tú Như",
-    imageAuthor: "/image/author-17.png",
-    date: "Chủ nhật, 22/12/2024 - 13:00",
-    img: "/image/story-5.png",
-    createdAt: "2024-12-22",
-    slug: "chuyen-ve-co-giao-co-tinh-yeu-dac-biet-voi-tre-dac-biet",
-    content: `
+	},
+	{
+		title: "Chuyện về cô giáo có tình yêu đặc biệt với trẻ đặc biệt",
+		description: "(Dân trí) - Cô Nguyễn Thị Tú Trân (sinh năm 1981) đã có hơn 20 năm công tác trong ngành giáo dục đặc biệt dành cho trẻ khuyết tật.",
+		author: "Tú Như",
+		imageAuthor: "/image/author-17.png",
+		date: "Chủ nhật, 22/12/2024 - 13:00",
+		img: "/image/story-5.png",
+		createdAt: "2024-12-22",
+		slug: "chuyen-ve-co-giao-co-tinh-yeu-dac-biet-voi-tre-dac-biet",
+		content: `
 		<p class="text-black mb-4 leading-relaxed">
 		  Trước đây, cô Nguyễn Thị Tú Trân (Tây Ninh) có mong muốn được theo dạy bộ môn sinh học. Khi cố Tổng Bí thư Đỗ Mười về địa phương chỉ đạo xây dựng trường học dành cho trẻ khuyết tật, cô Trân đã quyết định chuyển hướng theo đuổi sự nghiệp giáo dục đặc biệt.
 		</p>
@@ -3020,17 +3020,17 @@ export const stories_1 = [
 		  Cho đến thời điểm hiện tại, lựa chọn ngành giáo dục đặc biệt vẫn luôn là một quyết định đúng đắn trong cuộc đời tôi".
 		</p>
 	   `,
-  },
-  {
-    title: "Cô Choi 9 năm nói chuyện với trẻ câm điếc",
-    description: "Từ bỏ sự nghiệp hanh thông ở quê nhà, vợ chồng nữ tiến sĩ Hàn Quốc Choi Yong Sook đã chọn Đà Lạt làm quê hương thứ hai, nguyện gắn bó trọn đời với trẻ em nghèo, khuyết tật nơi đây.",
-    author: "Kim Anh",
-    imageAuthor: "/image/author-18.png",
-    date: "Thứ hai, 08/06/2020 - 07:29",
-    img: "/image/story-6.png",
-    createdAt: "2020-06-08",
-    slug: "co-choi-9-nam-noi-chuyen-voi-tre-cam-diec",
-    content: `
+	},
+	{
+		title: "Cô Choi 9 năm nói chuyện với trẻ câm điếc",
+		description: "Từ bỏ sự nghiệp hanh thông ở quê nhà, vợ chồng nữ tiến sĩ Hàn Quốc Choi Yong Sook đã chọn Đà Lạt làm quê hương thứ hai, nguyện gắn bó trọn đời với trẻ em nghèo, khuyết tật nơi đây.",
+		author: "Kim Anh",
+		imageAuthor: "/image/author-18.png",
+		date: "Thứ hai, 08/06/2020 - 07:29",
+		img: "/image/story-6.png",
+		createdAt: "2020-06-08",
+		slug: "co-choi-9-nam-noi-chuyen-voi-tre-cam-diec",
+		content: `
 		<p class="text-black mb-4 leading-relaxed">
 		  Nhác thấy bóng cô Choi Yong Sook (gần 60 tuổi) cùng chồng là ông Kwon Jang Soo ở cổng trường Khiếm thính Lâm Đồng, nhiều học sinh ùa ra chào đón.
 		</p>
@@ -3105,17 +3105,17 @@ export const stories_1 = [
 		 Thời gian qua, cô Choi cùng chồng còn vận động xây 14 căn nhà tình thương cho người nghèo ở Lâm Đồng (từ 100-200 triệu đồng/nhà), tặng 383 xe lăn cho người tàn tật và 679 xe đạp (1,5 triệu đồng/chiếc), trao 53 học bổng cho học sinh nghèo (mỗi tháng 500 ngàn đồng/học sinh) cho đến khi các em ra trường…
 		</p>
 	   `,
-  },
-  {
-    title: "Mỹ: Người khiếm thị, khiếm thính đầu tiên giành học vị Cử nhân Nghệ thuật",
-    description: "(Dân trí) - Helen Keller là nhà văn, giảng viên, nhà hoạt động xã hội, diễn giả nổi tiếng nước Mỹ. Bà là người khiếm thị, khiếm thính đầu tiên giành học vị Cử nhân Nghệ thuật.",
-    author: "Vĩnh Ngọc",
-    imageAuthor: "/image/author-19.png",
-    date: "Thứ sáu, 17/03/2023 - 16:44",
-    img: "/image/story-7.png",
-    createdAt: "2023-03-17",
-    slug: "my-nguoi-khiem-thi-khiem-thinh-dau-tien-gianh-hoc-vi-cu-nhan-nghe-thuat",
-    content: `
+	},
+	{
+		title: "Mỹ: Người khiếm thị, khiếm thính đầu tiên giành học vị Cử nhân Nghệ thuật",
+		description: "(Dân trí) - Helen Keller là nhà văn, giảng viên, nhà hoạt động xã hội, diễn giả nổi tiếng nước Mỹ. Bà là người khiếm thị, khiếm thính đầu tiên giành học vị Cử nhân Nghệ thuật.",
+		author: "Vĩnh Ngọc",
+		imageAuthor: "/image/author-19.png",
+		date: "Thứ sáu, 17/03/2023 - 16:44",
+		img: "/image/story-7.png",
+		createdAt: "2023-03-17",
+		slug: "my-nguoi-khiem-thi-khiem-thinh-dau-tien-gianh-hoc-vi-cu-nhan-nghe-thuat",
+		content: `
 		<p class="text-black mb-4 leading-relaxed">
 		  Helen Keller sinh năm 1880, mất năm 1968, là một tác giả người Mỹ, nhà hoạt động xã hội, diễn giả, người ủng hộ quyền của người khuyết tật.
 		</p>
@@ -3243,17 +3243,17 @@ export const stories_1 = [
 		 Năm 2009, tiểu bang Alabama đã tặng một bức tượng Helen Keller bằng đồng cho Bộ sưu tập Tượng đài Quốc gia ở Tòa nhà Quốc hội Mỹ. Các bức tượng ở Tòa nhà Quốc hội Mỹ do các bang tặng để tôn vinh những người nổi tiếng trong lịch sử của bang.
 		</p>
 	   `,
-  },
-  {
-    title: "Chuyện về cô gái khiếm thính ở Việt Nam giành học bổng Mỹ",
-    description: 'Chương trình "Đời rất đẹp" mới đây kể lại câu chuyện về chị Nguyễn Trần Thủy Tiên - người nhận học bổng toàn phần ở Mỹ và trở về cống hiến cho cộng đồng người khiếm thính tại Việt Nam.',
-    author: "ĐÔNG DU",
-    imageAuthor: "/image/author-20.png",
-    date: "Thứ năm, 26/09/2024 20:30 (GMT+7)",
-    img: "/image/story-8.png",
-    createdAt: "2024-09-26",
-    slug: "chuyen-ve-co-gai-khiem-thinh-o-viet-nam-gianh-hoc-bong-my",
-    content: `
+	},
+	{
+		title: "Chuyện về cô gái khiếm thính ở Việt Nam giành học bổng Mỹ",
+		description: 'Chương trình "Đời rất đẹp" mới đây kể lại câu chuyện về chị Nguyễn Trần Thủy Tiên - người nhận học bổng toàn phần ở Mỹ và trở về cống hiến cho cộng đồng người khiếm thính tại Việt Nam.',
+		author: "ĐÔNG DU",
+		imageAuthor: "/image/author-20.png",
+		date: "Thứ năm, 26/09/2024 20:30 (GMT+7)",
+		img: "/image/story-8.png",
+		createdAt: "2024-09-26",
+		slug: "chuyen-ve-co-gai-khiem-thinh-o-viet-nam-gianh-hoc-bong-my",
+		content: `
 		<img src="/image/story-detail-18.png" class="text-black mb-2 leading-relaxed w-full"/>
 		<div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
 			Chị Thủy Tiên là người khiếm thính hiếm hoi ở Việt Nam giành học bổng Mỹ. Ảnh: NSX
@@ -3296,17 +3296,17 @@ export const stories_1 = [
 		 Cuối chương trình, chị Nguyễn Trần Thủy Tiên gửi thông điệp đến với mọi người: “Tuy chúng ta gặp nhiều rào cản và khó khăn nhưng chúng ta phải là người chủ động để vượt qua, để có thể hòa nhập tốt hơn vào xã hội”.
 		</p>
 		`,
-  },
-  {
-    title: "Người phụ nữ có con bị khiếm thính và hành trình giúp thay đổi cuộc đời của hàng nghìn người",
-    description: "Gặp cú sốc lớn khi biết con bị khiếm thính, cố gắng không chỉ vì con, mà còn vì hy vọng một ngày nghe thấy con gọi tiếng mẹ. Bước ngoặt quyết định thành lập cộng đồng cho người khiếm thính, đó chính là hành trình chứa đầy cảm xúc của bà Chử Thị Thanh Hương - người phụ nữ đã truyền cảm hứng mạnh mẽ đến hàng nghìn người.",
-    author: "Nguyệt Minh",
-    imageAuthor: "/image/author-21.png",
-    date: "Thứ hai, ngày 06/05/2024 06:05 GMT+7",
-    img: "/image/story-9.png",
-    createdAt: "2024-05-06",
-    slug: "nguoi-phu-nu-co-con-bi-khiem-thinh-va-hanh-trinh-giup-thay-doi-cuoc-doi-cua-hang-nghin-nguoi",
-    content: `
+	},
+	{
+		title: "Người phụ nữ có con bị khiếm thính và hành trình giúp thay đổi cuộc đời của hàng nghìn người",
+		description: "Gặp cú sốc lớn khi biết con bị khiếm thính, cố gắng không chỉ vì con, mà còn vì hy vọng một ngày nghe thấy con gọi tiếng mẹ. Bước ngoặt quyết định thành lập cộng đồng cho người khiếm thính, đó chính là hành trình chứa đầy cảm xúc của bà Chử Thị Thanh Hương - người phụ nữ đã truyền cảm hứng mạnh mẽ đến hàng nghìn người.",
+		author: "Nguyệt Minh",
+		imageAuthor: "/image/author-21.png",
+		date: "Thứ hai, ngày 06/05/2024 06:05 GMT+7",
+		img: "/image/story-9.png",
+		createdAt: "2024-05-06",
+		slug: "nguoi-phu-nu-co-con-bi-khiem-thinh-va-hanh-trinh-giup-thay-doi-cuoc-doi-cua-hang-nghin-nguoi",
+		content: `
 	  <p class="text-black leading-relaxed">
 		  Từ một người mẹ có con bị khiếm thính, bà Chử Thị Thanh Hương hiện đang là Chủ tịch của Hội Cha Mẹ Trẻ Khiếm Thính và Người Khiếm thính Việt Nam (VNAP HLC) được thành lập năm 2012 với hơn 6.000 thành viên. Đây là tổ chức vì người khiếm thính đầu tiên tại Việt Nam. Đồng thời, bà cũng là CEO của Công Ty TNHH Doanh Nghiệp Xã Hội Vì Người Khiếm Thính Việt Nam (She+) được thành lập năm 2018. VNAP HLC và She+ là nơi đã đồng hành cùng hàng nghìn phụ huynh có con bị khiếm thính và người khiếm thính trong hành trình tìm lại âm thanh và hòa nhập cộng đồng.
 		</p>
@@ -3385,17 +3385,17 @@ export const stories_1 = [
 			Dù đã đạt được những thành công nhất định, song bà Chử Thị Thanh Hương vẫn luôn đau đáu để VNAP HLC và She+ có thể phát triển bền vững: “Sau 1 trận ốm rất nặng, tôi mới bắt đầu nghĩ nếu có chuyện gì xảy ra với tôi thì cộng đồng này sẽ đi về đâu. Đó là lí do mà tôi đã thành lập She+. Tôi sẽ cố gắng đồng hành, phát triển cùng nó để sau này khi đã nghỉ hưu hay dù tôi không còn trên cõi đời này nữa, thì bất kì một ai đó tiếp quản doanh nghiệp này sẽ tiếp tục sứ mệnh và mục tiêu để hỗ trợ cho cộng đồng người khiếm thính Việt Nam”.
 		</p>
 		`,
-  },
-  {
-    title: "Đưa “âm thanh” đến người khiếm thính",
-    description: "“Khó lắm, các em không hợp tác với tôi, thậm chí vứt màu vẽ, tác phẩm lung tung, đánh nhau, xé bài mẫu… Vài em giao tiếp được thì lại nói trống không” - người thầy, người họa sĩ Văn Y (72 tuổi) hồi tưởng về những ngày đầu mở lớp dạy vẽ 0 đồng để mang “âm thanh hội họa” đến với người khiếm thính.",
-    author: "Thuỷ Tiên - Mai Thi",
-    imageAuthor: "/image/author-22.png",
-    date: "Thứ bảy, 01/10/2022 10:36 (GMT+7)",
-    img: "/image/story-10.png",
-    createdAt: "2022-10-01",
-    slug: "dua-am-thanh-den-nguoi-khiem-thinh",
-    content: `
+	},
+	{
+		title: "Đưa “âm thanh” đến người khiếm thính",
+		description: "“Khó lắm, các em không hợp tác với tôi, thậm chí vứt màu vẽ, tác phẩm lung tung, đánh nhau, xé bài mẫu… Vài em giao tiếp được thì lại nói trống không” - người thầy, người họa sĩ Văn Y (72 tuổi) hồi tưởng về những ngày đầu mở lớp dạy vẽ 0 đồng để mang “âm thanh hội họa” đến với người khiếm thính.",
+		author: "Thuỷ Tiên - Mai Thi",
+		imageAuthor: "/image/author-22.png",
+		date: "Thứ bảy, 01/10/2022 10:36 (GMT+7)",
+		img: "/image/story-10.png",
+		createdAt: "2022-10-01",
+		slug: "dua-am-thanh-den-nguoi-khiem-thinh",
+		content: `
 		<img src="/image/story-detail-25.png" class="text-black mb-2 leading-relaxed w-full"/>
 		<div class="text-[#70747D] text-center text-base mb-4 leading-relaxed pl-4">
 			Lớp "Âm thanh hội họa" do họa sĩ Văn Y thành lập. Ảnh: NVCC
@@ -3470,17 +3470,17 @@ export const stories_1 = [
 		  “Có một loại âm thanh không thể chạm đến nhưng sống động và đẹp đẽ vô cùng, đó là âm thanh hội họa và tình người”, người thầy 72 tuổi mãn nguyện.
 		</p>
 		`,
-  },
-  {
-    title: "Câu chuyện của một giáo viên người Điếc nghị lực vượt qua rào cản để hòa nhập xã hội",
-    description: "Là người điếc bẩm sinh, lớn lên với rào cản ngôn ngữ và cảm giác bị cô lập, Nguyễn Thị Ngọc Anh đã không bỏ cuộc. Cô đã trở thành một giáo viên dạy trẻ điếc và nỗ lực không mệt mỏi và hy vọng một tương lai tương sáng cho những trẻ em cũng là trẻ điếc như mình.",
-    author: "Nguyễn Thi Ngọc Anh",
-    imageAuthor: "/image/author-23.png",
-    date: " 13 Tháng 4 Năm 2021",
-    img: "/image/story-11.png",
-    createdAt: "2021-04-13",
-    slug: "cau-chuyen-cua-mot-giao-vien-nguoi-diec-nghi-luc-vuot-qua-rao-can-de-hoa-nhap-xa-hoi",
-    content: `
+	},
+	{
+		title: "Câu chuyện của một giáo viên người Điếc nghị lực vượt qua rào cản để hòa nhập xã hội",
+		description: "Là người điếc bẩm sinh, lớn lên với rào cản ngôn ngữ và cảm giác bị cô lập, Nguyễn Thị Ngọc Anh đã không bỏ cuộc. Cô đã trở thành một giáo viên dạy trẻ điếc và nỗ lực không mệt mỏi và hy vọng một tương lai tương sáng cho những trẻ em cũng là trẻ điếc như mình.",
+		author: "Nguyễn Thi Ngọc Anh",
+		imageAuthor: "/image/author-23.png",
+		date: " 13 Tháng 4 Năm 2021",
+		img: "/image/story-11.png",
+		createdAt: "2021-04-13",
+		slug: "cau-chuyen-cua-mot-giao-vien-nguoi-diec-nghi-luc-vuot-qua-rao-can-de-hoa-nhap-xa-hoi",
+		content: `
 	  	<p class="text-black font-bold mb-4 leading-relaxed">
 		 Tuổi thơ tập nói theo những khuôn miệng chuyển động
 		</p>
@@ -3538,252 +3538,656 @@ export const stories_1 = [
 			Ngọc Anh tin rằng: “Trẻ điếc cần được học ngôn ngữ ký hiệu, cũng giống như trẻ nghe được cần được học ngôn ngữ nói.”
 		</p>
 		`,
-  },
+	},
 ];
 
 export const dataJob = [
-  {
-    img: "/image/job-1.png",
-    imgDetail: "/image/job-1-detail.png",
-    company: "CTY TNHH HẢI LONG",
-    title: "Content Creator",
-    titleDes: "Nhà sáng tạo nội dung",
-    slug: "content-creator",
-    description: "Tạo nội dung giáo dục, truyền thông và tài liệu, bài viết, infographic...",
-    salary: "8 - 12 triệu",
-    location: "Hà Nội",
-    deadline: "14/7/2025",
-    nature: "Full-time",
-    jobDescription: [
-      "Lên ý tưởng, xây dựng nội dung truyền thông cho các kênh của tổ chức (Facebook, Instagram, TikTok, Website…)",
-      "Sản xuất bài viết, hình ảnh, video truyền cảm hứng, nội dung giáo dục hướng đến cộng đồng người khiếm thính và cộng đồng chung",
-      "Hỗ trợ triển khai các chiến dịch truyền thông, sự kiện cộng đồng, hội thảo của tổ chứ",
-      "Phối hợp cùng team thiết kế, marketing để đảm bảo nội dung nhất quán và sáng tạo",
-      "Theo dõi hiệu quả các nội dung đã đăng tải và đề xuất hướng cải thiện",
-      "Tham gia brainstorm, đóng góp ý tưởng phát triển thương hiệu FFF",
-    ],
-    candidateRequirements: [
-      "Có kỹ năng viết tốt, tư duy sáng tạo, khả năng kể chuyện bằng hình ảnh và video",
-      "Yêu thích làm việc vì cộng đồng, đặc biệt là với người khiếm thính hoặc nhóm yếu thế",
-      "Thành thạo các nền tảng mạng xã hội và công cụ hỗ trợ nội dung (Canva, CapCut, Meta Business Suite…)",
-      "Có khả năng làm việc nhóm, tiếp nhận phản hồi và cải thiện liên tục",
-      "Ưu tiên ứng viên có kinh nghiệm ở vị trí tương đương hoặc đã từng làm trong các tổ chức phi lợi nhuận, xã hội",
-      "Biết sử dụng ngôn ngữ ký hiệu (không bắt buộc, nhưng là một lợi thế)",
-    ],
-    inCome: "8.000.000 – 12.000.000 VNĐ/tháng (tùy theo năng lực và kinh nghiệm)",
-    benefits: ["Làm việc trong môi trường thân thiện, nhân văn và sáng tạo", "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng", "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng", "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc", "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật", "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định."],
-  },
-  {
-    img: "/image/job-2.png",
-    imgDetail: "/image/job-2-detail.png",
-    title: "Marketing",
-    company: "CTY TNHH HẢI LONG",
-    titleDes: "Chuyên viên Marketing",
-    slug: "marketing-specialist",
-    description: "Lập kế hoạch truyền thông, quản lý mạng xã hội, chạy chiến dịch nâng cao...",
-    salary: "10 - 15 triệu",
-    location: "Hà Nội",
-    deadline: "14/7/2025",
-    nature: "Full-time",
-    jobDescription: [
-      "Xây dựng và triển khai các kế hoạch truyền thông, marketing cho các chương trình giáo dục, đào tạo và sự kiện của FFF",
-      "Quản lý và phát triển các kênh truyền thông như fanpage, website, email marketing, báo chí,…",
-      "Viết nội dung truyền thông: bài đăng mạng xã hội, bài PR, thông cáo báo chí, nội dung cho ấn phẩm truyền thông…",
-      "Phối hợp tổ chức sự kiện, hội thảo và các chiến dịch nâng cao nhận thức cộng đồng về người khiếm thính.",
-      "Theo dõi, đánh giá hiệu quả các hoạt động marketing và đề xuất cải tiến.",
-    ],
-    candidateRequirements: ["Tốt nghiệp đại học chuyên ngành Marketing, Truyền thông, Báo chí, Quản trị kinh doanh hoặc các ngành liên quan.", "Có tối thiểu 1 năm kinh nghiệm trong lĩnh vực marketing hoặc truyền thông.", "Kỹ năng viết nội dung tốt, sáng tạo, khả năng kể chuyện truyền cảm hứng.", "Thành thạo các công cụ truyền thông số (Facebook Ads, Google Ads, Canva, Mailchimp,… là lợi thế).", "Có tinh thần trách nhiệm, chủ động, cầu tiến và yêu thích các hoạt động xã hội."],
-    inCome: "10.000.000 – 15.000.000 VNĐ/tháng (tùy theo năng lực và kinh nghiệm)",
-    benefits: ["Làm việc trong môi trường thân thiện, nhân văn và sáng tạo", "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng", "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng", "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc", "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật", "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định."],
-  },
-  {
-    img: "/image/job-3.png",
-    imgDetail: "/image/job-3-detail.png",
-    title: "Designer",
-    company: "CTY TNHH HẢI LONG",
-    titleDes: "Nhà Thiết Kế Đồ Họa",
-    slug: "graphic-designer",
-    description: "Tạo ra hình ảnh thương hiệu, thiết kế bao bì, và các sản phẩm truyền thông...",
-    salary: "10 - 15 triệu",
-    location: "Hà Nội",
-    deadline: "14/7/2025",
-    nature: "Full-time",
-    jobDescription: [
-      "Thiết kế các ấn phẩm truyền thông (banner, poster, brochure, infographic...) phục vụ cho các chiến dịch truyền thông, sự kiện và hoạt động của tổ chức.",
-      "Hỗ trợ xây dựng bộ nhận diện thương hiệu cho các dự án, chương trình của FFF.",
-      "Hỗ trợ triển khai các chiến dịch truyền thông, sự kiện cộng đồng, hội thảo của tổ chứ",
-      "Phối hợp cùng bộ phận nội dung, truyền thông và các phòng ban khác để lên ý tưởng thiết kế phù hợp với định hướng của tổ chức.",
-      "Quản lý và cập nhật kho dữ liệu thiết kế.",
-      "Tham gia đề xuất ý tưởng sáng tạo nhằm nâng cao hiệu quả truyền thông và hình ảnh tổ chức.",
-    ],
-    candidateRequirements: [
-      "Có kinh nghiệm từ 1 năm trở lên trong lĩnh vực thiết kế đồ họa.",
-      "Thành thạo các phần mềm thiết kế như Adobe Photoshop, Illustrator, InDesign; ưu tiên biết thêm Adobe Premiere, After Effects là lợi thế.",
-      "Có tư duy thẩm mỹ tốt, khả năng sáng tạo và nắm bắt xu hướng thiết kế hiện đại.",
-      "Có tinh thần trách nhiệm, chủ động trong công việc, sẵn sàng học hỏi và làm việc nhóm.",
-      "Ưu tiên ứng viên từng làm việc với các tổ chức xã hội, phi lợi nhuận hoặc có mong muốn đóng góp cho cộng đồng người khiếm thính.",
-    ],
-    inCome: "Từ 10 – 15 triệu đồng/tháng (tùy năng lực, có xét tăng lương định kỳ)",
-    benefits: ["Làm việc trong môi trường thân thiện, nhân văn và sáng tạo", "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng", "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng", "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc", "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật", "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định."],
-  },
-  {
-    img: "/image/job-4.png",
-    imgDetail: "/image/job-4-detail.png",
-    title: "Plan manager",
-    company: "CTY TNHH HẢI LONG",
-    titleDes: "Quản lý Dự án",
-    slug: "project-manager",
-    description: "Lên kế hoạch, triển khai và theo dõi tiến độ dự án, đảm bảo hoàn thành đúng hạn...",
-    salary: "15 - 20 triệu",
-    location: "Hà Nội",
-    deadline: "14/7/2025",
-    nature: "Full-time",
-    jobDescription: [
-      "Quản lý, điều phối và giám sát các dự án giáo dục – đào tạo nghề cho người khiếm thính do FFF tổ chức.",
-      "Lập kế hoạch, triển khai và theo dõi tiến độ các hoạt động trong từng dự án.",
-      "Làm việc với các đối tác, nhà tài trợ, chuyên gia và các bên liên quan để đảm bảo chất lượng chương trình.",
-      "Tham gia xây dựng nội dung, thiết kế hoạt động đào tạo phù hợp với người khiếm thính.",
-      "Theo dõi ngân sách, báo cáo tài chính và tổng kết hiệu quả dự án.",
-      "Báo cáo định kỳ tiến độ và kết quả cho Ban lãnh đạo tổ chức.",
-    ],
-    candidateRequirements: [
-      "Quản lý, điều phối và giám sát các dự án giáo dục – đào tạo nghề cho người khiếm thính do FFF tổ chức.",
-      "Lập kế hoạch, triển khai và theo dõi tiến độ các hoạt động trong từng dự án.",
-      "Làm việc với các đối tác, nhà tài trợ, chuyên gia và các bên liên quan để đảm bảo chất lượng chương trình.",
-      "Tham gia xây dựng nội dung, thiết kế hoạt động đào tạo phù hợp với người khiếm thính.",
-      "Theo dõi ngân sách, báo cáo tài chính và tổng kết hiệu quả dự án.",
-      "Báo cáo định kỳ tiến độ và kết quả cho Ban lãnh đạo tổ chức.",
-    ],
-    inCome: "15.000.000 – 20.000.000 VNĐ/tháng (tùy theo năng lực và kinh nghiệm)",
-    benefits: ["Làm việc trong môi trường thân thiện, nhân văn và sáng tạo", "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng", "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng", "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc", "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật", "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định."],
-  },
-  {
-    img: "/image/job-5.png",
-    imgDetail: "/image/job-5-detail.png",
-    title: "Data Analyst",
-    company: "CTY TNHH HẢI LONG",
-    titleDes: "Phân Tích Dữ Liệu",
-    slug: "data-analyst",
-    description: "Phân tích số liệu để đưa ra quyết định chiến lược, tối ưu hóa hiệu suất và báo...",
-    salary: "7 - 10 triệu",
-    location: "Hà Nội",
-    deadline: "14/7/2025",
-    nature: "Full-time",
-    jobDescription: ["Hướng dẫn và hỗ trợ học viên khiếm thính trong quá trình đào tạo kỹ năng sống, kỹ năng nghề.", "Xây dựng nội dung đào tạo phù hợp với khả năng tiếp thu của người khiếm thính.", "Phối hợp tổ chức các chương trình truyền thông, tư vấn hướng nghiệp, kết nối doanh nghiệp để tạo đầu ra việc làm.", "Quản lý hành chính, hỗ trợ vận hành trung tâm.", "Một số vị trí chuyên môn (như CNTT, thiết kế đồ họa, sản xuất video, phiên dịch ngôn ngữ ký hiệu) sẽ có mô tả riêng."],
-    candidateRequirements: [
-      "Có tâm huyết với công việc cộng đồng, đặc biệt là với người khiếm thính.",
-      "Tốt nghiệp cao đẳng/đại học các chuyên ngành phù hợp (giáo dục đặc biệt, tâm lý học, công tác xã hội, CNTT, thiết kế, v.v.",
-      "Thành thạo các nền tảng mạng xã hội và công cụ hỗ trợ nội dung (Canva, CapCut, Meta Business Suite…)",
-      "Ưu tiên:",
-      "Ứng viên biết hoặc sẵn sàng học ngôn ngữ ký hiệu",
-      "Có kinh nghiệm làm việc trong các tổ chức phi lợi nhuận hoặc dự án cộng đồng.",
-      "Kỹ năng giao tiếp tốt, tư duy tích cực, kiên nhẫn.",
-    ],
-    inCome: "7.000.000 – 10.000.000 VNĐ/tháng (tùy theo năng lực và kinh nghiệm)",
+	{
+		img: "/image/job-1.png",
+		imgDetail: "/image/job-1-detail.png",
+		company: "CTY TNHH HẢI LONG",
+		title: "Content Creator",
+		titleDes: "Nhà sáng tạo nội dung",
+		slug: "content-creator",
+		description: "Tạo nội dung giáo dục, truyền thông và tài liệu, bài viết, infographic...",
+		salary: "8 - 12 triệu",
+		location: "Hà Nội",
+		deadline: "14/7/2025",
+		nature: "Full-time",
+		jobDescription: [
+			"Lên ý tưởng, xây dựng nội dung truyền thông cho các kênh của tổ chức (Facebook, Instagram, TikTok, Website…)",
+			"Sản xuất bài viết, hình ảnh, video truyền cảm hứng, nội dung giáo dục hướng đến cộng đồng người khiếm thính và cộng đồng chung",
+			"Hỗ trợ triển khai các chiến dịch truyền thông, sự kiện cộng đồng, hội thảo của tổ chứ",
+			"Phối hợp cùng team thiết kế, marketing để đảm bảo nội dung nhất quán và sáng tạo",
+			"Theo dõi hiệu quả các nội dung đã đăng tải và đề xuất hướng cải thiện",
+			"Tham gia brainstorm, đóng góp ý tưởng phát triển thương hiệu FFF",
+		],
+		candidateRequirements: [
+			"Có kỹ năng viết tốt, tư duy sáng tạo, khả năng kể chuyện bằng hình ảnh và video",
+			"Yêu thích làm việc vì cộng đồng, đặc biệt là với người khiếm thính hoặc nhóm yếu thế",
+			"Thành thạo các nền tảng mạng xã hội và công cụ hỗ trợ nội dung (Canva, CapCut, Meta Business Suite…)",
+			"Có khả năng làm việc nhóm, tiếp nhận phản hồi và cải thiện liên tục",
+			"Ưu tiên ứng viên có kinh nghiệm ở vị trí tương đương hoặc đã từng làm trong các tổ chức phi lợi nhuận, xã hội",
+			"Biết sử dụng ngôn ngữ ký hiệu (không bắt buộc, nhưng là một lợi thế)",
+		],
+		inCome: "8.000.000 – 12.000.000 VNĐ/tháng (tùy theo năng lực và kinh nghiệm)",
+		benefits: ["Làm việc trong môi trường thân thiện, nhân văn và sáng tạo", "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng", "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng", "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc", "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật", "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định."],
+	},
+	{
+		img: "/image/job-2.png",
+		imgDetail: "/image/job-2-detail.png",
+		title: "Marketing",
+		company: "CTY TNHH HẢI LONG",
+		titleDes: "Chuyên viên Marketing",
+		slug: "marketing-specialist",
+		description: "Lập kế hoạch truyền thông, quản lý mạng xã hội, chạy chiến dịch nâng cao...",
+		salary: "10 - 15 triệu",
+		location: "Hà Nội",
+		deadline: "14/7/2025",
+		nature: "Full-time",
+		jobDescription: [
+			"Xây dựng và triển khai các kế hoạch truyền thông, marketing cho các chương trình giáo dục, đào tạo và sự kiện của FFF",
+			"Quản lý và phát triển các kênh truyền thông như fanpage, website, email marketing, báo chí,…",
+			"Viết nội dung truyền thông: bài đăng mạng xã hội, bài PR, thông cáo báo chí, nội dung cho ấn phẩm truyền thông…",
+			"Phối hợp tổ chức sự kiện, hội thảo và các chiến dịch nâng cao nhận thức cộng đồng về người khiếm thính.",
+			"Theo dõi, đánh giá hiệu quả các hoạt động marketing và đề xuất cải tiến.",
+		],
+		candidateRequirements: ["Tốt nghiệp đại học chuyên ngành Marketing, Truyền thông, Báo chí, Quản trị kinh doanh hoặc các ngành liên quan.", "Có tối thiểu 1 năm kinh nghiệm trong lĩnh vực marketing hoặc truyền thông.", "Kỹ năng viết nội dung tốt, sáng tạo, khả năng kể chuyện truyền cảm hứng.", "Thành thạo các công cụ truyền thông số (Facebook Ads, Google Ads, Canva, Mailchimp,… là lợi thế).", "Có tinh thần trách nhiệm, chủ động, cầu tiến và yêu thích các hoạt động xã hội."],
+		inCome: "10.000.000 – 15.000.000 VNĐ/tháng (tùy theo năng lực và kinh nghiệm)",
+		benefits: ["Làm việc trong môi trường thân thiện, nhân văn và sáng tạo", "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng", "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng", "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc", "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật", "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định."],
+	},
+	{
+		img: "/image/job-3.png",
+		imgDetail: "/image/job-3-detail.png",
+		title: "Designer",
+		company: "CTY TNHH HẢI LONG",
+		titleDes: "Nhà Thiết Kế Đồ Họa",
+		slug: "graphic-designer",
+		description: "Tạo ra hình ảnh thương hiệu, thiết kế bao bì, và các sản phẩm truyền thông...",
+		salary: "10 - 15 triệu",
+		location: "Hà Nội",
+		deadline: "14/7/2025",
+		nature: "Full-time",
+		jobDescription: [
+			"Thiết kế các ấn phẩm truyền thông (banner, poster, brochure, infographic...) phục vụ cho các chiến dịch truyền thông, sự kiện và hoạt động của tổ chức.",
+			"Hỗ trợ xây dựng bộ nhận diện thương hiệu cho các dự án, chương trình của FFF.",
+			"Hỗ trợ triển khai các chiến dịch truyền thông, sự kiện cộng đồng, hội thảo của tổ chứ",
+			"Phối hợp cùng bộ phận nội dung, truyền thông và các phòng ban khác để lên ý tưởng thiết kế phù hợp với định hướng của tổ chức.",
+			"Quản lý và cập nhật kho dữ liệu thiết kế.",
+			"Tham gia đề xuất ý tưởng sáng tạo nhằm nâng cao hiệu quả truyền thông và hình ảnh tổ chức.",
+		],
+		candidateRequirements: [
+			"Có kinh nghiệm từ 1 năm trở lên trong lĩnh vực thiết kế đồ họa.",
+			"Thành thạo các phần mềm thiết kế như Adobe Photoshop, Illustrator, InDesign; ưu tiên biết thêm Adobe Premiere, After Effects là lợi thế.",
+			"Có tư duy thẩm mỹ tốt, khả năng sáng tạo và nắm bắt xu hướng thiết kế hiện đại.",
+			"Có tinh thần trách nhiệm, chủ động trong công việc, sẵn sàng học hỏi và làm việc nhóm.",
+			"Ưu tiên ứng viên từng làm việc với các tổ chức xã hội, phi lợi nhuận hoặc có mong muốn đóng góp cho cộng đồng người khiếm thính.",
+		],
+		inCome: "Từ 10 – 15 triệu đồng/tháng (tùy năng lực, có xét tăng lương định kỳ)",
+		benefits: ["Làm việc trong môi trường thân thiện, nhân văn và sáng tạo", "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng", "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng", "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc", "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật", "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định."],
+	},
+	{
+		img: "/image/job-4.png",
+		imgDetail: "/image/job-4-detail.png",
+		title: "Plan manager",
+		company: "CTY TNHH HẢI LONG",
+		titleDes: "Quản lý Dự án",
+		slug: "project-manager",
+		description: "Lên kế hoạch, triển khai và theo dõi tiến độ dự án, đảm bảo hoàn thành đúng hạn...",
+		salary: "15 - 20 triệu",
+		location: "Hà Nội",
+		deadline: "14/7/2025",
+		nature: "Full-time",
+		jobDescription: [
+			"Quản lý, điều phối và giám sát các dự án giáo dục – đào tạo nghề cho người khiếm thính do FFF tổ chức.",
+			"Lập kế hoạch, triển khai và theo dõi tiến độ các hoạt động trong từng dự án.",
+			"Làm việc với các đối tác, nhà tài trợ, chuyên gia và các bên liên quan để đảm bảo chất lượng chương trình.",
+			"Tham gia xây dựng nội dung, thiết kế hoạt động đào tạo phù hợp với người khiếm thính.",
+			"Theo dõi ngân sách, báo cáo tài chính và tổng kết hiệu quả dự án.",
+			"Báo cáo định kỳ tiến độ và kết quả cho Ban lãnh đạo tổ chức.",
+		],
+		candidateRequirements: [
+			"Quản lý, điều phối và giám sát các dự án giáo dục – đào tạo nghề cho người khiếm thính do FFF tổ chức.",
+			"Lập kế hoạch, triển khai và theo dõi tiến độ các hoạt động trong từng dự án.",
+			"Làm việc với các đối tác, nhà tài trợ, chuyên gia và các bên liên quan để đảm bảo chất lượng chương trình.",
+			"Tham gia xây dựng nội dung, thiết kế hoạt động đào tạo phù hợp với người khiếm thính.",
+			"Theo dõi ngân sách, báo cáo tài chính và tổng kết hiệu quả dự án.",
+			"Báo cáo định kỳ tiến độ và kết quả cho Ban lãnh đạo tổ chức.",
+		],
+		inCome: "15.000.000 – 20.000.000 VNĐ/tháng (tùy theo năng lực và kinh nghiệm)",
+		benefits: ["Làm việc trong môi trường thân thiện, nhân văn và sáng tạo", "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng", "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng", "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc", "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật", "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định."],
+	},
+	{
+		img: "/image/job-5.png",
+		imgDetail: "/image/job-5-detail.png",
+		title: "Data Analyst",
+		company: "CTY TNHH HẢI LONG",
+		titleDes: "Phân Tích Dữ Liệu",
+		slug: "data-analyst",
+		description: "Phân tích số liệu để đưa ra quyết định chiến lược, tối ưu hóa hiệu suất và báo...",
+		salary: "7 - 10 triệu",
+		location: "Hà Nội",
+		deadline: "14/7/2025",
+		nature: "Full-time",
+		jobDescription: ["Hướng dẫn và hỗ trợ học viên khiếm thính trong quá trình đào tạo kỹ năng sống, kỹ năng nghề.", "Xây dựng nội dung đào tạo phù hợp với khả năng tiếp thu của người khiếm thính.", "Phối hợp tổ chức các chương trình truyền thông, tư vấn hướng nghiệp, kết nối doanh nghiệp để tạo đầu ra việc làm.", "Quản lý hành chính, hỗ trợ vận hành trung tâm.", "Một số vị trí chuyên môn (như CNTT, thiết kế đồ họa, sản xuất video, phiên dịch ngôn ngữ ký hiệu) sẽ có mô tả riêng."],
+		candidateRequirements: [
+			"Có tâm huyết với công việc cộng đồng, đặc biệt là với người khiếm thính.",
+			"Tốt nghiệp cao đẳng/đại học các chuyên ngành phù hợp (giáo dục đặc biệt, tâm lý học, công tác xã hội, CNTT, thiết kế, v.v.",
+			"Thành thạo các nền tảng mạng xã hội và công cụ hỗ trợ nội dung (Canva, CapCut, Meta Business Suite…)",
+			"Ưu tiên:",
+			"Ứng viên biết hoặc sẵn sàng học ngôn ngữ ký hiệu",
+			"Có kinh nghiệm làm việc trong các tổ chức phi lợi nhuận hoặc dự án cộng đồng.",
+			"Kỹ năng giao tiếp tốt, tư duy tích cực, kiên nhẫn.",
+		],
+		inCome: "7.000.000 – 10.000.000 VNĐ/tháng (tùy theo năng lực và kinh nghiệm)",
 
-    benefits: ["Làm việc trong môi trường thân thiện, nhân văn và sáng tạo", "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng", "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng", "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc", "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật", "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định."],
-  },
+		benefits: ["Làm việc trong môi trường thân thiện, nhân văn và sáng tạo", "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng", "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng", "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc", "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật", "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định."],
+	},
+];
+
+export const dataJob_1 = [
+	{
+		img: "/image/job-6.jpg",
+		imgDetail: "/image/job-1-detail.png",
+		company: "CTY TNHH HẢI LONG",
+		title: "Content Creator",
+		titleDes: "Nhà sáng tạo nội dung",
+		slug: "content-creator",
+		description: "Tạo nội dung giáo dục, truyền thông và tài liệu, bài viết, infographic...",
+		salary: "8 - 12 triệu",
+		location: "Hà Nội",
+		deadline: "14/7/2025",
+		nature: "Full-time",
+		jobDescription: [
+			"Lên ý tưởng, xây dựng nội dung truyền thông cho các kênh của tổ chức (Facebook, Instagram, TikTok, Website…)",
+			"Sản xuất bài viết, hình ảnh, video truyền cảm hứng, nội dung giáo dục hướng đến cộng đồng người khiếm thính và cộng đồng chung",
+			"Hỗ trợ triển khai các chiến dịch truyền thông, sự kiện cộng đồng, hội thảo của tổ chứ",
+			"Phối hợp cùng team thiết kế, marketing để đảm bảo nội dung nhất quán và sáng tạo",
+			"Theo dõi hiệu quả các nội dung đã đăng tải và đề xuất hướng cải thiện",
+			"Tham gia brainstorm, đóng góp ý tưởng phát triển thương hiệu FFF",
+		],
+		candidateRequirements: [
+			"Có kỹ năng viết tốt, tư duy sáng tạo, khả năng kể chuyện bằng hình ảnh và video",
+			"Yêu thích làm việc vì cộng đồng, đặc biệt là với người khiếm thính hoặc nhóm yếu thế",
+			"Thành thạo các nền tảng mạng xã hội và công cụ hỗ trợ nội dung (Canva, CapCut, Meta Business Suite…)",
+			"Có khả năng làm việc nhóm, tiếp nhận phản hồi và cải thiện liên tục",
+			"Ưu tiên ứng viên có kinh nghiệm ở vị trí tương đương hoặc đã từng làm trong các tổ chức phi lợi nhuận, xã hội",
+			"Biết sử dụng ngôn ngữ ký hiệu (không bắt buộc, nhưng là một lợi thế)",
+		],
+		inCome: "8.000.000 – 12.000.000 VNĐ/tháng (tùy theo năng lực và kinh nghiệm)",
+		benefits: ["Làm việc trong môi trường thân thiện, nhân văn và sáng tạo", "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng", "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng", "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc", "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật", "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định."],
+	},
+	{
+		img: "/image/job-7.jpg",
+		imgDetail: "/image/job-2-detail.png",
+		title: "Marketing",
+		company: "CTY TNHH HẢI LONG",
+		titleDes: "Chuyên viên Marketing",
+		slug: "marketing-specialist",
+		description: "Lập kế hoạch truyền thông, quản lý mạng xã hội, chạy chiến dịch nâng cao...",
+		salary: "10 - 15 triệu",
+		location: "Hà Nội",
+		deadline: "14/7/2025",
+		nature: "Full-time",
+		jobDescription: [
+			"Xây dựng và triển khai các kế hoạch truyền thông, marketing cho các chương trình giáo dục, đào tạo và sự kiện của FFF",
+			"Quản lý và phát triển các kênh truyền thông như fanpage, website, email marketing, báo chí,…",
+			"Viết nội dung truyền thông: bài đăng mạng xã hội, bài PR, thông cáo báo chí, nội dung cho ấn phẩm truyền thông…",
+			"Phối hợp tổ chức sự kiện, hội thảo và các chiến dịch nâng cao nhận thức cộng đồng về người khiếm thính.",
+			"Theo dõi, đánh giá hiệu quả các hoạt động marketing và đề xuất cải tiến.",
+		],
+		candidateRequirements: ["Tốt nghiệp đại học chuyên ngành Marketing, Truyền thông, Báo chí, Quản trị kinh doanh hoặc các ngành liên quan.", "Có tối thiểu 1 năm kinh nghiệm trong lĩnh vực marketing hoặc truyền thông.", "Kỹ năng viết nội dung tốt, sáng tạo, khả năng kể chuyện truyền cảm hứng.", "Thành thạo các công cụ truyền thông số (Facebook Ads, Google Ads, Canva, Mailchimp,… là lợi thế).", "Có tinh thần trách nhiệm, chủ động, cầu tiến và yêu thích các hoạt động xã hội."],
+		inCome: "10.000.000 – 15.000.000 VNĐ/tháng (tùy theo năng lực và kinh nghiệm)",
+		benefits: ["Làm việc trong môi trường thân thiện, nhân văn và sáng tạo", "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng", "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng", "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc", "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật", "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định."],
+	},
+	{
+		img: "/image/job-8.jpg",
+		imgDetail: "/image/job-3-detail.png",
+		title: "Designer",
+		company: "CTY TNHH HẢI LONG",
+		titleDes: "Nhà Thiết Kế Đồ Họa",
+		slug: "graphic-designer",
+		description: "Tạo ra hình ảnh thương hiệu, thiết kế bao bì, và các sản phẩm truyền thông...",
+		salary: "10 - 15 triệu",
+		location: "Hà Nội",
+		deadline: "14/7/2025",
+		nature: "Full-time",
+		jobDescription: [
+			"Thiết kế các ấn phẩm truyền thông (banner, poster, brochure, infographic...) phục vụ cho các chiến dịch truyền thông, sự kiện và hoạt động của tổ chức.",
+			"Hỗ trợ xây dựng bộ nhận diện thương hiệu cho các dự án, chương trình của FFF.",
+			"Hỗ trợ triển khai các chiến dịch truyền thông, sự kiện cộng đồng, hội thảo của tổ chứ",
+			"Phối hợp cùng bộ phận nội dung, truyền thông và các phòng ban khác để lên ý tưởng thiết kế phù hợp với định hướng của tổ chức.",
+			"Quản lý và cập nhật kho dữ liệu thiết kế.",
+			"Tham gia đề xuất ý tưởng sáng tạo nhằm nâng cao hiệu quả truyền thông và hình ảnh tổ chức.",
+		],
+		candidateRequirements: [
+			"Có kinh nghiệm từ 1 năm trở lên trong lĩnh vực thiết kế đồ họa.",
+			"Thành thạo các phần mềm thiết kế như Adobe Photoshop, Illustrator, InDesign; ưu tiên biết thêm Adobe Premiere, After Effects là lợi thế.",
+			"Có tư duy thẩm mỹ tốt, khả năng sáng tạo và nắm bắt xu hướng thiết kế hiện đại.",
+			"Có tinh thần trách nhiệm, chủ động trong công việc, sẵn sàng học hỏi và làm việc nhóm.",
+			"Ưu tiên ứng viên từng làm việc với các tổ chức xã hội, phi lợi nhuận hoặc có mong muốn đóng góp cho cộng đồng người khiếm thính.",
+		],
+		inCome: "Từ 10 – 15 triệu đồng/tháng (tùy năng lực, có xét tăng lương định kỳ)",
+		benefits: ["Làm việc trong môi trường thân thiện, nhân văn và sáng tạo", "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng", "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng", "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc", "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật", "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định."],
+	},
+	{
+		img: "/image/job-9.jpg",
+		imgDetail: "/image/job-4-detail.png",
+		title: "Plan manager",
+		company: "CTY TNHH HẢI LONG",
+		titleDes: "Quản lý Dự án",
+		slug: "project-manager",
+		description: "Lên kế hoạch, triển khai và theo dõi tiến độ dự án, đảm bảo hoàn thành đúng hạn...",
+		salary: "15 - 20 triệu",
+		location: "Hà Nội",
+		deadline: "14/7/2025",
+		nature: "Full-time",
+		jobDescription: [
+			"Quản lý, điều phối và giám sát các dự án giáo dục – đào tạo nghề cho người khiếm thính do FFF tổ chức.",
+			"Lập kế hoạch, triển khai và theo dõi tiến độ các hoạt động trong từng dự án.",
+			"Làm việc với các đối tác, nhà tài trợ, chuyên gia và các bên liên quan để đảm bảo chất lượng chương trình.",
+			"Tham gia xây dựng nội dung, thiết kế hoạt động đào tạo phù hợp với người khiếm thính.",
+			"Theo dõi ngân sách, báo cáo tài chính và tổng kết hiệu quả dự án.",
+			"Báo cáo định kỳ tiến độ và kết quả cho Ban lãnh đạo tổ chức.",
+		],
+		candidateRequirements: [
+			"Quản lý, điều phối và giám sát các dự án giáo dục – đào tạo nghề cho người khiếm thính do FFF tổ chức.",
+			"Lập kế hoạch, triển khai và theo dõi tiến độ các hoạt động trong từng dự án.",
+			"Làm việc với các đối tác, nhà tài trợ, chuyên gia và các bên liên quan để đảm bảo chất lượng chương trình.",
+			"Tham gia xây dựng nội dung, thiết kế hoạt động đào tạo phù hợp với người khiếm thính.",
+			"Theo dõi ngân sách, báo cáo tài chính và tổng kết hiệu quả dự án.",
+			"Báo cáo định kỳ tiến độ và kết quả cho Ban lãnh đạo tổ chức.",
+		],
+		inCome: "15.000.000 – 20.000.000 VNĐ/tháng (tùy theo năng lực và kinh nghiệm)",
+		benefits: ["Làm việc trong môi trường thân thiện, nhân văn và sáng tạo", "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng", "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng", "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc", "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật", "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định."],
+	},
+	{
+		img: "/image/job-10.jpg",
+		imgDetail: "/image/job-5-detail.png",
+		title: "Data Analyst",
+		company: "CTY TNHH HẢI LONG",
+		titleDes: "Phân Tích Dữ Liệu",
+		slug: "data-analyst",
+		description: "Phân tích số liệu để đưa ra quyết định chiến lược, tối ưu hóa hiệu suất và báo...",
+		salary: "7 - 10 triệu",
+		location: "Hà Nội",
+		deadline: "14/7/2025",
+		nature: "Full-time",
+		jobDescription: ["Hướng dẫn và hỗ trợ học viên khiếm thính trong quá trình đào tạo kỹ năng sống, kỹ năng nghề.", "Xây dựng nội dung đào tạo phù hợp với khả năng tiếp thu của người khiếm thính.", "Phối hợp tổ chức các chương trình truyền thông, tư vấn hướng nghiệp, kết nối doanh nghiệp để tạo đầu ra việc làm.", "Quản lý hành chính, hỗ trợ vận hành trung tâm.", "Một số vị trí chuyên môn (như CNTT, thiết kế đồ họa, sản xuất video, phiên dịch ngôn ngữ ký hiệu) sẽ có mô tả riêng."],
+		candidateRequirements: [
+			"Có tâm huyết với công việc cộng đồng, đặc biệt là với người khiếm thính.",
+			"Tốt nghiệp cao đẳng/đại học các chuyên ngành phù hợp (giáo dục đặc biệt, tâm lý học, công tác xã hội, CNTT, thiết kế, v.v.",
+			"Thành thạo các nền tảng mạng xã hội và công cụ hỗ trợ nội dung (Canva, CapCut, Meta Business Suite…)",
+			"Ưu tiên:",
+			"Ứng viên biết hoặc sẵn sàng học ngôn ngữ ký hiệu",
+			"Có kinh nghiệm làm việc trong các tổ chức phi lợi nhuận hoặc dự án cộng đồng.",
+			"Kỹ năng giao tiếp tốt, tư duy tích cực, kiên nhẫn.",
+		],
+		inCome: "7.000.000 – 10.000.000 VNĐ/tháng (tùy theo năng lực và kinh nghiệm)",
+
+		benefits: ["Làm việc trong môi trường thân thiện, nhân văn và sáng tạo", "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng", "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng", "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc", "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật", "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định."],
+	},
+	{
+		img: "/image/job-11.jpg",
+		imgDetail: "/image/job-5-detail.png",
+		title: "Data Analyst",
+		company: "CTY TNHH HẢI LONG",
+		titleDes: "Phân Tích Dữ Liệu",
+		slug: "data-analyst",
+		description: "Phân tích số liệu để đưa ra quyết định chiến lược, tối ưu hóa hiệu suất và báo...",
+		salary: "7 - 10 triệu",
+		location: "Hà Nội",
+		deadline: "14/7/2025",
+		nature: "Full-time",
+		jobDescription: ["Hướng dẫn và hỗ trợ học viên khiếm thính trong quá trình đào tạo kỹ năng sống, kỹ năng nghề.", "Xây dựng nội dung đào tạo phù hợp với khả năng tiếp thu của người khiếm thính.", "Phối hợp tổ chức các chương trình truyền thông, tư vấn hướng nghiệp, kết nối doanh nghiệp để tạo đầu ra việc làm.", "Quản lý hành chính, hỗ trợ vận hành trung tâm.", "Một số vị trí chuyên môn (như CNTT, thiết kế đồ họa, sản xuất video, phiên dịch ngôn ngữ ký hiệu) sẽ có mô tả riêng."],
+		candidateRequirements: [
+			"Có tâm huyết với công việc cộng đồng, đặc biệt là với người khiếm thính.",
+			"Tốt nghiệp cao đẳng/đại học các chuyên ngành phù hợp (giáo dục đặc biệt, tâm lý học, công tác xã hội, CNTT, thiết kế, v.v.",
+			"Thành thạo các nền tảng mạng xã hội và công cụ hỗ trợ nội dung (Canva, CapCut, Meta Business Suite…)",
+			"Ưu tiên:",
+			"Ứng viên biết hoặc sẵn sàng học ngôn ngữ ký hiệu",
+			"Có kinh nghiệm làm việc trong các tổ chức phi lợi nhuận hoặc dự án cộng đồng.",
+			"Kỹ năng giao tiếp tốt, tư duy tích cực, kiên nhẫn.",
+		],
+		inCome: "7.000.000 – 10.000.000 VNĐ/tháng (tùy theo năng lực và kinh nghiệm)",
+
+		benefits: ["Làm việc trong môi trường thân thiện, nhân văn và sáng tạo", "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng", "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng", "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc", "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật", "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định."],
+	},
+	{
+		img: "/image/job-12.jpg",
+		imgDetail: "/image/job-5-detail.png",
+		title: "Data Analyst",
+		company: "CTY TNHH HẢI LONG",
+		titleDes: "Phân Tích Dữ Liệu",
+		slug: "data-analyst",
+		description: "Phân tích số liệu để đưa ra quyết định chiến lược, tối ưu hóa hiệu suất và báo...",
+		salary: "7 - 10 triệu",
+		location: "Hà Nội",
+		deadline: "14/7/2025",
+		nature: "Full-time",
+		jobDescription: ["Hướng dẫn và hỗ trợ học viên khiếm thính trong quá trình đào tạo kỹ năng sống, kỹ năng nghề.", "Xây dựng nội dung đào tạo phù hợp với khả năng tiếp thu của người khiếm thính.", "Phối hợp tổ chức các chương trình truyền thông, tư vấn hướng nghiệp, kết nối doanh nghiệp để tạo đầu ra việc làm.", "Quản lý hành chính, hỗ trợ vận hành trung tâm.", "Một số vị trí chuyên môn (như CNTT, thiết kế đồ họa, sản xuất video, phiên dịch ngôn ngữ ký hiệu) sẽ có mô tả riêng."],
+		candidateRequirements: [
+			"Có tâm huyết với công việc cộng đồng, đặc biệt là với người khiếm thính.",
+			"Tốt nghiệp cao đẳng/đại học các chuyên ngành phù hợp (giáo dục đặc biệt, tâm lý học, công tác xã hội, CNTT, thiết kế, v.v.",
+			"Thành thạo các nền tảng mạng xã hội và công cụ hỗ trợ nội dung (Canva, CapCut, Meta Business Suite…)",
+			"Ưu tiên:",
+			"Ứng viên biết hoặc sẵn sàng học ngôn ngữ ký hiệu",
+			"Có kinh nghiệm làm việc trong các tổ chức phi lợi nhuận hoặc dự án cộng đồng.",
+			"Kỹ năng giao tiếp tốt, tư duy tích cực, kiên nhẫn.",
+		],
+		inCome: "7.000.000 – 10.000.000 VNĐ/tháng (tùy theo năng lực và kinh nghiệm)",
+
+		benefits: ["Làm việc trong môi trường thân thiện, nhân văn và sáng tạo", "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng", "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng", "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc", "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật", "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định."],
+	},
+	{
+		img: "/image/job-13.jpg",
+		imgDetail: "/image/job-5-detail.png",
+		title: "Data Analyst",
+		company: "CTY TNHH HẢI LONG",
+		titleDes: "Phân Tích Dữ Liệu",
+		slug: "data-analyst",
+		description: "Phân tích số liệu để đưa ra quyết định chiến lược, tối ưu hóa hiệu suất và báo...",
+		salary: "7 - 10 triệu",
+		location: "Hà Nội",
+		deadline: "14/7/2025",
+		nature: "Full-time",
+		jobDescription: ["Hướng dẫn và hỗ trợ học viên khiếm thính trong quá trình đào tạo kỹ năng sống, kỹ năng nghề.", "Xây dựng nội dung đào tạo phù hợp với khả năng tiếp thu của người khiếm thính.", "Phối hợp tổ chức các chương trình truyền thông, tư vấn hướng nghiệp, kết nối doanh nghiệp để tạo đầu ra việc làm.", "Quản lý hành chính, hỗ trợ vận hành trung tâm.", "Một số vị trí chuyên môn (như CNTT, thiết kế đồ họa, sản xuất video, phiên dịch ngôn ngữ ký hiệu) sẽ có mô tả riêng."],
+		candidateRequirements: [
+			"Có tâm huyết với công việc cộng đồng, đặc biệt là với người khiếm thính.",
+			"Tốt nghiệp cao đẳng/đại học các chuyên ngành phù hợp (giáo dục đặc biệt, tâm lý học, công tác xã hội, CNTT, thiết kế, v.v.",
+			"Thành thạo các nền tảng mạng xã hội và công cụ hỗ trợ nội dung (Canva, CapCut, Meta Business Suite…)",
+			"Ưu tiên:",
+			"Ứng viên biết hoặc sẵn sàng học ngôn ngữ ký hiệu",
+			"Có kinh nghiệm làm việc trong các tổ chức phi lợi nhuận hoặc dự án cộng đồng.",
+			"Kỹ năng giao tiếp tốt, tư duy tích cực, kiên nhẫn.",
+		],
+		inCome: "7.000.000 – 10.000.000 VNĐ/tháng (tùy theo năng lực và kinh nghiệm)",
+
+		benefits: ["Làm việc trong môi trường thân thiện, nhân văn và sáng tạo", "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng", "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng", "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc", "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật", "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định."],
+	},
+	{
+		img: "/image/job-14.jpg",
+		imgDetail: "/image/job-5-detail.png",
+		title: "Data Analyst",
+		company: "CTY TNHH HẢI LONG",
+		titleDes: "Phân Tích Dữ Liệu",
+		slug: "data-analyst",
+		description: "Phân tích số liệu để đưa ra quyết định chiến lược, tối ưu hóa hiệu suất và báo...",
+		salary: "7 - 10 triệu",
+		location: "Hà Nội",
+		deadline: "14/7/2025",
+		nature: "Full-time",
+		jobDescription: ["Hướng dẫn và hỗ trợ học viên khiếm thính trong quá trình đào tạo kỹ năng sống, kỹ năng nghề.", "Xây dựng nội dung đào tạo phù hợp với khả năng tiếp thu của người khiếm thính.", "Phối hợp tổ chức các chương trình truyền thông, tư vấn hướng nghiệp, kết nối doanh nghiệp để tạo đầu ra việc làm.", "Quản lý hành chính, hỗ trợ vận hành trung tâm.", "Một số vị trí chuyên môn (như CNTT, thiết kế đồ họa, sản xuất video, phiên dịch ngôn ngữ ký hiệu) sẽ có mô tả riêng."],
+		candidateRequirements: [
+			"Có tâm huyết với công việc cộng đồng, đặc biệt là với người khiếm thính.",
+			"Tốt nghiệp cao đẳng/đại học các chuyên ngành phù hợp (giáo dục đặc biệt, tâm lý học, công tác xã hội, CNTT, thiết kế, v.v.",
+			"Thành thạo các nền tảng mạng xã hội và công cụ hỗ trợ nội dung (Canva, CapCut, Meta Business Suite…)",
+			"Ưu tiên:",
+			"Ứng viên biết hoặc sẵn sàng học ngôn ngữ ký hiệu",
+			"Có kinh nghiệm làm việc trong các tổ chức phi lợi nhuận hoặc dự án cộng đồng.",
+			"Kỹ năng giao tiếp tốt, tư duy tích cực, kiên nhẫn.",
+		],
+		inCome: "7.000.000 – 10.000.000 VNĐ/tháng (tùy theo năng lực và kinh nghiệm)",
+
+		benefits: ["Làm việc trong môi trường thân thiện, nhân văn và sáng tạo", "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng", "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng", "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc", "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật", "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định."],
+	},
+	{
+		img: "/image/job-15.jpg",
+		imgDetail: "/image/job-5-detail.png",
+		title: "Data Analyst",
+		company: "CTY TNHH HẢI LONG",
+		titleDes: "Phân Tích Dữ Liệu",
+		slug: "data-analyst",
+		description: "Phân tích số liệu để đưa ra quyết định chiến lược, tối ưu hóa hiệu suất và báo...",
+		salary: "7 - 10 triệu",
+		location: "Hà Nội",
+		deadline: "14/7/2025",
+		nature: "Full-time",
+		jobDescription: ["Hướng dẫn và hỗ trợ học viên khiếm thính trong quá trình đào tạo kỹ năng sống, kỹ năng nghề.", "Xây dựng nội dung đào tạo phù hợp với khả năng tiếp thu của người khiếm thính.", "Phối hợp tổ chức các chương trình truyền thông, tư vấn hướng nghiệp, kết nối doanh nghiệp để tạo đầu ra việc làm.", "Quản lý hành chính, hỗ trợ vận hành trung tâm.", "Một số vị trí chuyên môn (như CNTT, thiết kế đồ họa, sản xuất video, phiên dịch ngôn ngữ ký hiệu) sẽ có mô tả riêng."],
+		candidateRequirements: [
+			"Có tâm huyết với công việc cộng đồng, đặc biệt là với người khiếm thính.",
+			"Tốt nghiệp cao đẳng/đại học các chuyên ngành phù hợp (giáo dục đặc biệt, tâm lý học, công tác xã hội, CNTT, thiết kế, v.v.",
+			"Thành thạo các nền tảng mạng xã hội và công cụ hỗ trợ nội dung (Canva, CapCut, Meta Business Suite…)",
+			"Ưu tiên:",
+			"Ứng viên biết hoặc sẵn sàng học ngôn ngữ ký hiệu",
+			"Có kinh nghiệm làm việc trong các tổ chức phi lợi nhuận hoặc dự án cộng đồng.",
+			"Kỹ năng giao tiếp tốt, tư duy tích cực, kiên nhẫn.",
+		],
+		inCome: "7.000.000 – 10.000.000 VNĐ/tháng (tùy theo năng lực và kinh nghiệm)",
+
+		benefits: ["Làm việc trong môi trường thân thiện, nhân văn và sáng tạo", "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng", "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng", "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc", "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật", "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định."],
+	},
+	{
+		img: "/image/job-16.jpg",
+		imgDetail: "/image/job-5-detail.png",
+		title: "Data Analyst",
+		company: "CTY TNHH HẢI LONG",
+		titleDes: "Phân Tích Dữ Liệu",
+		slug: "data-analyst",
+		description: "Phân tích số liệu để đưa ra quyết định chiến lược, tối ưu hóa hiệu suất và báo...",
+		salary: "7 - 10 triệu",
+		location: "Hà Nội",
+		deadline: "14/7/2025",
+		nature: "Full-time",
+		jobDescription: ["Hướng dẫn và hỗ trợ học viên khiếm thính trong quá trình đào tạo kỹ năng sống, kỹ năng nghề.", "Xây dựng nội dung đào tạo phù hợp với khả năng tiếp thu của người khiếm thính.", "Phối hợp tổ chức các chương trình truyền thông, tư vấn hướng nghiệp, kết nối doanh nghiệp để tạo đầu ra việc làm.", "Quản lý hành chính, hỗ trợ vận hành trung tâm.", "Một số vị trí chuyên môn (như CNTT, thiết kế đồ họa, sản xuất video, phiên dịch ngôn ngữ ký hiệu) sẽ có mô tả riêng."],
+		candidateRequirements: [
+			"Có tâm huyết với công việc cộng đồng, đặc biệt là với người khiếm thính.",
+			"Tốt nghiệp cao đẳng/đại học các chuyên ngành phù hợp (giáo dục đặc biệt, tâm lý học, công tác xã hội, CNTT, thiết kế, v.v.",
+			"Thành thạo các nền tảng mạng xã hội và công cụ hỗ trợ nội dung (Canva, CapCut, Meta Business Suite…)",
+			"Ưu tiên:",
+			"Ứng viên biết hoặc sẵn sàng học ngôn ngữ ký hiệu",
+			"Có kinh nghiệm làm việc trong các tổ chức phi lợi nhuận hoặc dự án cộng đồng.",
+			"Kỹ năng giao tiếp tốt, tư duy tích cực, kiên nhẫn.",
+		],
+		inCome: "7.000.000 – 10.000.000 VNĐ/tháng (tùy theo năng lực và kinh nghiệm)",
+
+		benefits: ["Làm việc trong môi trường thân thiện, nhân văn và sáng tạo", "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng", "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng", "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc", "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật", "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định."],
+	},
+	{
+		img: "/image/job-17.jpg",
+		imgDetail: "/image/job-5-detail.png",
+		title: "Data Analyst",
+		company: "CTY TNHH HẢI LONG",
+		titleDes: "Phân Tích Dữ Liệu",
+		slug: "data-analyst",
+		description: "Phân tích số liệu để đưa ra quyết định chiến lược, tối ưu hóa hiệu suất và báo...",
+		salary: "7 - 10 triệu",
+		location: "Hà Nội",
+		deadline: "14/7/2025",
+		nature: "Full-time",
+		jobDescription: ["Hướng dẫn và hỗ trợ học viên khiếm thính trong quá trình đào tạo kỹ năng sống, kỹ năng nghề.", "Xây dựng nội dung đào tạo phù hợp với khả năng tiếp thu của người khiếm thính.", "Phối hợp tổ chức các chương trình truyền thông, tư vấn hướng nghiệp, kết nối doanh nghiệp để tạo đầu ra việc làm.", "Quản lý hành chính, hỗ trợ vận hành trung tâm.", "Một số vị trí chuyên môn (như CNTT, thiết kế đồ họa, sản xuất video, phiên dịch ngôn ngữ ký hiệu) sẽ có mô tả riêng."],
+		candidateRequirements: [
+			"Có tâm huyết với công việc cộng đồng, đặc biệt là với người khiếm thính.",
+			"Tốt nghiệp cao đẳng/đại học các chuyên ngành phù hợp (giáo dục đặc biệt, tâm lý học, công tác xã hội, CNTT, thiết kế, v.v.",
+			"Thành thạo các nền tảng mạng xã hội và công cụ hỗ trợ nội dung (Canva, CapCut, Meta Business Suite…)",
+			"Ưu tiên:",
+			"Ứng viên biết hoặc sẵn sàng học ngôn ngữ ký hiệu",
+			"Có kinh nghiệm làm việc trong các tổ chức phi lợi nhuận hoặc dự án cộng đồng.",
+			"Kỹ năng giao tiếp tốt, tư duy tích cực, kiên nhẫn.",
+		],
+		inCome: "7.000.000 – 10.000.000 VNĐ/tháng (tùy theo năng lực và kinh nghiệm)",
+
+		benefits: ["Làm việc trong môi trường thân thiện, nhân văn và sáng tạo", "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng", "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng", "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc", "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật", "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định."],
+	},
+	{
+		img: "/image/job-18.jpg",
+		imgDetail: "/image/job-5-detail.png",
+		title: "Data Analyst",
+		company: "CTY TNHH HẢI LONG",
+		titleDes: "Phân Tích Dữ Liệu",
+		slug: "data-analyst",
+		description: "Phân tích số liệu để đưa ra quyết định chiến lược, tối ưu hóa hiệu suất và báo...",
+		salary: "7 - 10 triệu",
+		location: "Hà Nội",
+		deadline: "14/7/2025",
+		nature: "Full-time",
+		jobDescription: ["Hướng dẫn và hỗ trợ học viên khiếm thính trong quá trình đào tạo kỹ năng sống, kỹ năng nghề.", "Xây dựng nội dung đào tạo phù hợp với khả năng tiếp thu của người khiếm thính.", "Phối hợp tổ chức các chương trình truyền thông, tư vấn hướng nghiệp, kết nối doanh nghiệp để tạo đầu ra việc làm.", "Quản lý hành chính, hỗ trợ vận hành trung tâm.", "Một số vị trí chuyên môn (như CNTT, thiết kế đồ họa, sản xuất video, phiên dịch ngôn ngữ ký hiệu) sẽ có mô tả riêng."],
+		candidateRequirements: [
+			"Có tâm huyết với công việc cộng đồng, đặc biệt là với người khiếm thính.",
+			"Tốt nghiệp cao đẳng/đại học các chuyên ngành phù hợp (giáo dục đặc biệt, tâm lý học, công tác xã hội, CNTT, thiết kế, v.v.",
+			"Thành thạo các nền tảng mạng xã hội và công cụ hỗ trợ nội dung (Canva, CapCut, Meta Business Suite…)",
+			"Ưu tiên:",
+			"Ứng viên biết hoặc sẵn sàng học ngôn ngữ ký hiệu",
+			"Có kinh nghiệm làm việc trong các tổ chức phi lợi nhuận hoặc dự án cộng đồng.",
+			"Kỹ năng giao tiếp tốt, tư duy tích cực, kiên nhẫn.",
+		],
+		inCome: "7.000.000 – 10.000.000 VNĐ/tháng (tùy theo năng lực và kinh nghiệm)",
+
+		benefits: ["Làm việc trong môi trường thân thiện, nhân văn và sáng tạo", "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng", "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng", "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc", "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật", "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định."],
+	},
+	{
+		img: "/image/job-19.jpg",
+		imgDetail: "/image/job-5-detail.png",
+		title: "Data Analyst",
+		company: "CTY TNHH HẢI LONG",
+		titleDes: "Phân Tích Dữ Liệu",
+		slug: "data-analyst",
+		description: "Phân tích số liệu để đưa ra quyết định chiến lược, tối ưu hóa hiệu suất và báo...",
+		salary: "7 - 10 triệu",
+		location: "Hà Nội",
+		deadline: "14/7/2025",
+		nature: "Full-time",
+		jobDescription: ["Hướng dẫn và hỗ trợ học viên khiếm thính trong quá trình đào tạo kỹ năng sống, kỹ năng nghề.", "Xây dựng nội dung đào tạo phù hợp với khả năng tiếp thu của người khiếm thính.", "Phối hợp tổ chức các chương trình truyền thông, tư vấn hướng nghiệp, kết nối doanh nghiệp để tạo đầu ra việc làm.", "Quản lý hành chính, hỗ trợ vận hành trung tâm.", "Một số vị trí chuyên môn (như CNTT, thiết kế đồ họa, sản xuất video, phiên dịch ngôn ngữ ký hiệu) sẽ có mô tả riêng."],
+		candidateRequirements: [
+			"Có tâm huyết với công việc cộng đồng, đặc biệt là với người khiếm thính.",
+			"Tốt nghiệp cao đẳng/đại học các chuyên ngành phù hợp (giáo dục đặc biệt, tâm lý học, công tác xã hội, CNTT, thiết kế, v.v.",
+			"Thành thạo các nền tảng mạng xã hội và công cụ hỗ trợ nội dung (Canva, CapCut, Meta Business Suite…)",
+			"Ưu tiên:",
+			"Ứng viên biết hoặc sẵn sàng học ngôn ngữ ký hiệu",
+			"Có kinh nghiệm làm việc trong các tổ chức phi lợi nhuận hoặc dự án cộng đồng.",
+			"Kỹ năng giao tiếp tốt, tư duy tích cực, kiên nhẫn.",
+		],
+		inCome: "7.000.000 – 10.000.000 VNĐ/tháng (tùy theo năng lực và kinh nghiệm)",
+
+		benefits: ["Làm việc trong môi trường thân thiện, nhân văn và sáng tạo", "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng", "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng", "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc", "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật", "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định."],
+	},
+	{
+		img: "/image/job-20.jpg",
+		imgDetail: "/image/job-5-detail.png",
+		title: "Data Analyst",
+		company: "CTY TNHH HẢI LONG",
+		titleDes: "Phân Tích Dữ Liệu",
+		slug: "data-analyst",
+		description: "Phân tích số liệu để đưa ra quyết định chiến lược, tối ưu hóa hiệu suất và báo...",
+		salary: "7 - 10 triệu",
+		location: "Hà Nội",
+		deadline: "14/7/2025",
+		nature: "Full-time",
+		jobDescription: ["Hướng dẫn và hỗ trợ học viên khiếm thính trong quá trình đào tạo kỹ năng sống, kỹ năng nghề.", "Xây dựng nội dung đào tạo phù hợp với khả năng tiếp thu của người khiếm thính.", "Phối hợp tổ chức các chương trình truyền thông, tư vấn hướng nghiệp, kết nối doanh nghiệp để tạo đầu ra việc làm.", "Quản lý hành chính, hỗ trợ vận hành trung tâm.", "Một số vị trí chuyên môn (như CNTT, thiết kế đồ họa, sản xuất video, phiên dịch ngôn ngữ ký hiệu) sẽ có mô tả riêng."],
+		candidateRequirements: [
+			"Có tâm huyết với công việc cộng đồng, đặc biệt là với người khiếm thính.",
+			"Tốt nghiệp cao đẳng/đại học các chuyên ngành phù hợp (giáo dục đặc biệt, tâm lý học, công tác xã hội, CNTT, thiết kế, v.v.",
+			"Thành thạo các nền tảng mạng xã hội và công cụ hỗ trợ nội dung (Canva, CapCut, Meta Business Suite…)",
+			"Ưu tiên:",
+			"Ứng viên biết hoặc sẵn sàng học ngôn ngữ ký hiệu",
+			"Có kinh nghiệm làm việc trong các tổ chức phi lợi nhuận hoặc dự án cộng đồng.",
+			"Kỹ năng giao tiếp tốt, tư duy tích cực, kiên nhẫn.",
+		],
+		inCome: "7.000.000 – 10.000.000 VNĐ/tháng (tùy theo năng lực và kinh nghiệm)",
+
+		benefits: ["Làm việc trong môi trường thân thiện, nhân văn và sáng tạo", "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng", "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng", "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc", "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật", "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định."],
+	},
 ];
 export const dataVolunteer = [
-  {
-    img: "/image/volunteer-1.png",
-    title: "Workshop Hướng nghiệp & Kỹ năng mềm",
-    slug: "career-guidance-and-soft-skills-workshop",
-    organization: [
-      {
-        img: "/image/Ellipse-6.png",
-        title: "DNXH vì người khiếm thính Việt Nam",
-      },
-    ],
-    sponsoring: [
-      {
-        img: "/image/Ellipse-7.png",
-        title: "Foundation for Future",
-      },
-    ],
-    description:
-      "Workshop Hướng nghiệp & Kỹ năng mềm là chương trình đào tạo thực tiễn với các buổi hội thảo, hoạt động nhóm, trò chơi tương tác và phiên chia sẻ từ các chuyên gia. Dự án được thiết kế nhằm truyền cảm hứng, chia sẻ kinh nghiệm và cung cấp các công cụ giúp người khiếm thính phát triển toàn diện kỹ năng mềm cùng khả năng định hướng nghề nghiệp. Dự án cũng là cơ hội để các tình nguyện viên, những người có đam mê và nhiệt huyết, được tham gia vào quá trình góp phần thay đổi cuộc sống của người khiếm thính.",
-    sortDesc: "Trang bị cho người khiêm thính những kiến thức và kỹ năng thực tiễn để tự tin bước vào thị trường lao động. Tạo cơ hội kết nỗi giữa người khiếm thính và chuyên gia hướng nghiệp.",
-    time: "Chủ Nhật, 20/7/2025 (09:00 – 16:00)",
-    location: "Số 15, Đường Lê Duẩn, Quận Hai Bà Trưng, Hà Nội",
-    requirements: ["Kỹ năng giao tiếp: Tốt, thân thiện và nhiệt huyết", "Ưu tiên: Ứng viên có kinh nghiệm làm việc trong các hoạt động hướng nghiệp, đào tạo kỹ năng mềm, hoặc biết ngôn ngữ ký hiệu", "Thái độ: Năng động, có tinh thần trách nhiệm và khả năng làm việc nhóm tốt"],
-    roles: ["Hỗ trợ điều phối sự kiện, đăng ký và tiếp đón học viên", "Hỗ trợ phiên chia sẻ và phiên dịch ngôn ngữ ký hiệu cho người tham dự nếu cần thiết", "Giao tiếp hỗ trợ chuyên môn: Hỗ trợ tư vấn, cung cấp thông tin và hướng dẫn các hoạt động của workshop"],
-    benefits: ["Cơ hội được đào tạo kỹ năng quản lý dự án, tổ chức sự kiện chuyên nghiệp", "Mở rộng mạng lưới kết nối với cộng đồng và các chuyên gia trong lĩnh vực giáo dục, hướng nghiệp", "Cơ hội góp phần trực tiếp vào việc thay đổi cuộc sống của người khiếm thính"],
-  },
-  {
-    img: "/image/volunteer-2.png",
-    title: 'Chiến dịch Gây quỹ Cộng đồng "Ánh sáng thầm lặng"',
-    slug: "community-fundraising-campaign",
-    organization: [],
-    sponsoring: [
-      {
-        img: "/image/Ellipse-7.png",
-        title: "Foundation for Future",
-      },
-    ],
-    description: 'Dự án "Ánh sáng thầm lặng" nhằm gây quỹ hỗ trợ học bổng, trang thiết bị trợ thính, và các chương trình đào tạo nghề cho người khiếm thính. Trong khuôn khổ chiến dịch này, Workshop Hướng nghiệp & Kỹ năng mềm được tổ chức để trang bị kiến thức và kỹ năng cần thiết cho người khiếm thính, đồng thời là dịp tuyển dụng, huy động tinh thần và năng lực của các tình nguyện viên.',
-    sortDesc: "Gây quỹ hỗ trợ học bổng, trang thiết bị trợ tính và chương trình đào tạo cho người khiếm tính. Tăng cường nhận thức cộng của cộng đồng về vai trò và tiềm năng của người khiếm thính.",
-    time: "Thứ Bảy, ngày 28/9/2025 (09:00 – 16:00)",
-    location: "Số 123, Đường Lê Lợi, Quận 1, Thành phố Hồ Chí Minh",
-    requirements: ["Đam mê hoạt động cộng đồng, ưu tiên những người có kiến thức hoặc kinh nghiệm hỗ trợ người khiếm thính.", "Kỹ năng giao tiếp tốt, biết hoặc có khả năng học ngôn ngữ ký hiệu là một lợi thế.", "Năng lực tổ chức, làm việc nhóm và cam kết thời gian sự kiện đầy đủ.", "Có kiến thức, chuyên môn về vị trí đảm nhiệm"],
-    roles: ["Tình nguyện viên Truyền thông & Quảng bá: Chịu trách nhiệm tạo nội dung và lan tỏa thông điệp trên các kênh truyền thông.", "Tình nguyện viên Điều phối Sự kiện: Hỗ trợ tổ chức và phối hợp hoạt động gây quỹ.", "Tình nguyện viên Tiếp cận Cộng đồng: Chủ động kết nối với cá nhân, tổ chức để mời gọi và thu hút sự ủng hộ."],
-    benefits: ["Chứng nhận hoặc giấy khen từ Foundation for Future.", "Cơ hội trải nghiệm, học hỏi và mở rộng kết nối trong môi trường giáo dục và hướng nghiệp.", "Hỗ trợ đào tạo chuyên sâu về giao tiếp với người khiếm thính và kỹ năng mềm."],
-  },
-  {
-    img: "/image/volunteer-3.png",
-    title: 'Festival Sáng tạo & Kết nối "Cùng Đổi Mới Tương Lai"',
-    slug: "creative-and-discovery-festival",
-    organization: [
-      {
-        img: "/image/Ellipse-8.png",
-        title: "Hội Cha Mẹ Trẻ Khiếm Thính và Người Khiếm Thính Việt Nam",
-      },
-      {
-        img: "/image/Ellipse-7.png",
-        title: "Foundation For Future",
-      },
-    ],
-    sponsoring: [
-      {
-        img: "/image/Ellipse-9.png",
-        title: "UNICEF Việt Nam",
-      },
-    ],
-    description:
-      'Festival Sáng tạo & Kết nối "Cùng Đổi Mới Tương Lai" là sự kiện được tổ chức bởi Foundation for Future, nhằm tạo diễn đàn trao đổi, học hỏi và chia sẻ sáng tạo cho cộng đồng người khiếm thính và các đối tác liên quan. Dự án hướng đến việc kết nối các cá nhân, doanh nghiệp và tổ chức để cùng nhau khám phá, ứng dụng các giải pháp sáng tạo trong giáo dục và đào tạo hướng nghiệp. Đồng thời, sự kiện còn là cơ hội để người tham gia trải nghiệm, chia sẻ kinh nghiệm và xây dựng những ý tưởng đổi mới nhằm cải thiện chất lượng cuộc sống cho cộng đồng.',
-    sortDesc: "Truyền cảm hứng và chia sẻ kinh nghiệm đổi mới trong giáo dục và hỗ trợ nghề nghiệp cho người khiếm thính. Tạo sân chơi kết nối, giao lưu và hợp tác giữa người khiếm thính, chuyên gia và doanh nghiệp trong việc phát triển công nghệ, sản phẩm",
-    time: "Thứ Bảy, ngày 15/9/2025 (09:00 – 17:00)",
-    location: "Trung tâm Hội nghị & Triển lãm, Thành phố Hồ Chí Minh.",
-    requirements: ["Các cá nhân năng động, có đam mê hoạt động cộng đồng và sáng tạo.", "Ưu tiên ứng viên có kỹ năng giao tiếp tốt, biết ngôn ngữ ký hiệu hoặc đã có kinh nghiệm làm việc trong các hoạt động tình nguyện và quản lý sự kiện."],
-    roles: ["Hỗ trợ điều phối: Giúp ban tổ chức điều phối các phiên hội thảo, workshop và phiên giao lưu.", "Hỗ trợ hậu cần: Hướng dẫn người tham dự, phụ trách các gian hàng và hỗ trợ tổ chức sự kiện tại chỗ.", "Truyền thông & quảng bá: Hỗ trợ tạo nội dung, quảng bá sự kiện trên các kênh truyền thông xã hội và phối hợp với các đối tác truyền thông.", "Hỗ trợ kỹ thuật: Hỗ trợ các vấn đề liên quan đến công nghệ, phiên dịch ngôn ngữ ký hiệu, quản lý tài liệu sự kiện."],
-    benefits: ["Cơ hội trải nghiệm môi trường làm việc chuyên nghiệp trong lĩnh vực cộng đồng và giáo dục.", "Phát triển kỹ năng tổ chức sự kiện, giao tiếp và kỹ năng lãnh đạo.", "Kết nối với các chuyên gia, doanh nghiệp và cộng đồng sáng tạo.", "Nhận giấy chứng nhận tình nguyện, hỗ trợ tích lũy kinh nghiệm và mở rộng mạng lưới quan hệ.     "],
-  },
+	{
+		img: "/image/volunteer-1.png",
+		title: "Workshop Hướng nghiệp & Kỹ năng mềm",
+		slug: "career-guidance-and-soft-skills-workshop",
+		organization: [
+			{
+				img: "/image/Ellipse-6.png",
+				title: "DNXH vì người khiếm thính Việt Nam",
+			},
+		],
+		sponsoring: [
+			{
+				img: "/image/Ellipse-7.png",
+				title: "Foundation for Future",
+			},
+		],
+		description:
+			"Workshop Hướng nghiệp & Kỹ năng mềm là chương trình đào tạo thực tiễn với các buổi hội thảo, hoạt động nhóm, trò chơi tương tác và phiên chia sẻ từ các chuyên gia. Dự án được thiết kế nhằm truyền cảm hứng, chia sẻ kinh nghiệm và cung cấp các công cụ giúp người khiếm thính phát triển toàn diện kỹ năng mềm cùng khả năng định hướng nghề nghiệp. Dự án cũng là cơ hội để các tình nguyện viên, những người có đam mê và nhiệt huyết, được tham gia vào quá trình góp phần thay đổi cuộc sống của người khiếm thính.",
+		sortDesc: "Trang bị cho người khiêm thính những kiến thức và kỹ năng thực tiễn để tự tin bước vào thị trường lao động. Tạo cơ hội kết nỗi giữa người khiếm thính và chuyên gia hướng nghiệp.",
+		time: "Chủ Nhật, 20/7/2025 (09:00 – 16:00)",
+		location: "Số 15, Đường Lê Duẩn, Quận Hai Bà Trưng, Hà Nội",
+		requirements: ["Kỹ năng giao tiếp: Tốt, thân thiện và nhiệt huyết", "Ưu tiên: Ứng viên có kinh nghiệm làm việc trong các hoạt động hướng nghiệp, đào tạo kỹ năng mềm, hoặc biết ngôn ngữ ký hiệu", "Thái độ: Năng động, có tinh thần trách nhiệm và khả năng làm việc nhóm tốt"],
+		roles: ["Hỗ trợ điều phối sự kiện, đăng ký và tiếp đón học viên", "Hỗ trợ phiên chia sẻ và phiên dịch ngôn ngữ ký hiệu cho người tham dự nếu cần thiết", "Giao tiếp hỗ trợ chuyên môn: Hỗ trợ tư vấn, cung cấp thông tin và hướng dẫn các hoạt động của workshop"],
+		benefits: ["Cơ hội được đào tạo kỹ năng quản lý dự án, tổ chức sự kiện chuyên nghiệp", "Mở rộng mạng lưới kết nối với cộng đồng và các chuyên gia trong lĩnh vực giáo dục, hướng nghiệp", "Cơ hội góp phần trực tiếp vào việc thay đổi cuộc sống của người khiếm thính"],
+	},
+	{
+		img: "/image/volunteer-2.png",
+		title: 'Chiến dịch Gây quỹ Cộng đồng "Ánh sáng thầm lặng"',
+		slug: "community-fundraising-campaign",
+		organization: [],
+		sponsoring: [
+			{
+				img: "/image/Ellipse-7.png",
+				title: "Foundation for Future",
+			},
+		],
+		description: 'Dự án "Ánh sáng thầm lặng" nhằm gây quỹ hỗ trợ học bổng, trang thiết bị trợ thính, và các chương trình đào tạo nghề cho người khiếm thính. Trong khuôn khổ chiến dịch này, Workshop Hướng nghiệp & Kỹ năng mềm được tổ chức để trang bị kiến thức và kỹ năng cần thiết cho người khiếm thính, đồng thời là dịp tuyển dụng, huy động tinh thần và năng lực của các tình nguyện viên.',
+		sortDesc: "Gây quỹ hỗ trợ học bổng, trang thiết bị trợ tính và chương trình đào tạo cho người khiếm tính. Tăng cường nhận thức cộng của cộng đồng về vai trò và tiềm năng của người khiếm thính.",
+		time: "Thứ Bảy, ngày 28/9/2025 (09:00 – 16:00)",
+		location: "Số 123, Đường Lê Lợi, Quận 1, Thành phố Hồ Chí Minh",
+		requirements: ["Đam mê hoạt động cộng đồng, ưu tiên những người có kiến thức hoặc kinh nghiệm hỗ trợ người khiếm thính.", "Kỹ năng giao tiếp tốt, biết hoặc có khả năng học ngôn ngữ ký hiệu là một lợi thế.", "Năng lực tổ chức, làm việc nhóm và cam kết thời gian sự kiện đầy đủ.", "Có kiến thức, chuyên môn về vị trí đảm nhiệm"],
+		roles: ["Tình nguyện viên Truyền thông & Quảng bá: Chịu trách nhiệm tạo nội dung và lan tỏa thông điệp trên các kênh truyền thông.", "Tình nguyện viên Điều phối Sự kiện: Hỗ trợ tổ chức và phối hợp hoạt động gây quỹ.", "Tình nguyện viên Tiếp cận Cộng đồng: Chủ động kết nối với cá nhân, tổ chức để mời gọi và thu hút sự ủng hộ."],
+		benefits: ["Chứng nhận hoặc giấy khen từ Foundation for Future.", "Cơ hội trải nghiệm, học hỏi và mở rộng kết nối trong môi trường giáo dục và hướng nghiệp.", "Hỗ trợ đào tạo chuyên sâu về giao tiếp với người khiếm thính và kỹ năng mềm."],
+	},
+	{
+		img: "/image/volunteer-3.png",
+		title: 'Festival Sáng tạo & Kết nối "Cùng Đổi Mới Tương Lai"',
+		slug: "creative-and-discovery-festival",
+		organization: [
+			{
+				img: "/image/Ellipse-8.png",
+				title: "Hội Cha Mẹ Trẻ Khiếm Thính và Người Khiếm Thính Việt Nam",
+			},
+			{
+				img: "/image/Ellipse-7.png",
+				title: "Foundation For Future",
+			},
+		],
+		sponsoring: [
+			{
+				img: "/image/Ellipse-9.png",
+				title: "UNICEF Việt Nam",
+			},
+		],
+		description:
+			'Festival Sáng tạo & Kết nối "Cùng Đổi Mới Tương Lai" là sự kiện được tổ chức bởi Foundation for Future, nhằm tạo diễn đàn trao đổi, học hỏi và chia sẻ sáng tạo cho cộng đồng người khiếm thính và các đối tác liên quan. Dự án hướng đến việc kết nối các cá nhân, doanh nghiệp và tổ chức để cùng nhau khám phá, ứng dụng các giải pháp sáng tạo trong giáo dục và đào tạo hướng nghiệp. Đồng thời, sự kiện còn là cơ hội để người tham gia trải nghiệm, chia sẻ kinh nghiệm và xây dựng những ý tưởng đổi mới nhằm cải thiện chất lượng cuộc sống cho cộng đồng.',
+		sortDesc: "Truyền cảm hứng và chia sẻ kinh nghiệm đổi mới trong giáo dục và hỗ trợ nghề nghiệp cho người khiếm thính. Tạo sân chơi kết nối, giao lưu và hợp tác giữa người khiếm thính, chuyên gia và doanh nghiệp trong việc phát triển công nghệ, sản phẩm",
+		time: "Thứ Bảy, ngày 15/9/2025 (09:00 – 17:00)",
+		location: "Trung tâm Hội nghị & Triển lãm, Thành phố Hồ Chí Minh.",
+		requirements: ["Các cá nhân năng động, có đam mê hoạt động cộng đồng và sáng tạo.", "Ưu tiên ứng viên có kỹ năng giao tiếp tốt, biết ngôn ngữ ký hiệu hoặc đã có kinh nghiệm làm việc trong các hoạt động tình nguyện và quản lý sự kiện."],
+		roles: ["Hỗ trợ điều phối: Giúp ban tổ chức điều phối các phiên hội thảo, workshop và phiên giao lưu.", "Hỗ trợ hậu cần: Hướng dẫn người tham dự, phụ trách các gian hàng và hỗ trợ tổ chức sự kiện tại chỗ.", "Truyền thông & quảng bá: Hỗ trợ tạo nội dung, quảng bá sự kiện trên các kênh truyền thông xã hội và phối hợp với các đối tác truyền thông.", "Hỗ trợ kỹ thuật: Hỗ trợ các vấn đề liên quan đến công nghệ, phiên dịch ngôn ngữ ký hiệu, quản lý tài liệu sự kiện."],
+		benefits: ["Cơ hội trải nghiệm môi trường làm việc chuyên nghiệp trong lĩnh vực cộng đồng và giáo dục.", "Phát triển kỹ năng tổ chức sự kiện, giao tiếp và kỹ năng lãnh đạo.", "Kết nối với các chuyên gia, doanh nghiệp và cộng đồng sáng tạo.", "Nhận giấy chứng nhận tình nguyện, hỗ trợ tích lũy kinh nghiệm và mở rộng mạng lưới quan hệ.     "],
+	},
 ];
 export const dataSukien = [
-  {
-    img: "/image/sukien1.png",
-    title: "Workshop Hướng nghiệp & Kỹ năng mềm",
-    description:
-      "Workshop Hướng nghiệp & Kỹ năng mềm là chương trình đào tạo thực tiễn với các buổi hội thảo, hoạt động nhóm, trò chơi tương tác và phiên chia sẻ từ các chuyên gia. Dự án được thiết kế nhằm truyền cảm hứng, chia sẻ kinh nghiệm và cung cấp các công cụ giúp người khiếm thính phát triển toàn diện kỹ năng mềm cùng khả năng định hướng nghề nghiệp. Dự án cũng là cơ hội để các tình nguyện viên, những người có đam mê và nhiệt huyết, được tham gia vào quá trình góp phần thay đổi cuộc sống của người khiếm thính.",
-    date: "Chủ Nhật, 20/7/2025 (09:00 – 16:00)",
-    slug: "workshop-huong-nghiep-ky-nang-mem",
-    organization: [
-      {
-        img: "/image/Ellipse-6.png",
-        title: "DNXH vì người khiếm thính Việt Nam",
-      },
-    ],
-    sponsoring: [
-      {
-        img: "/image/Ellipse-7.png",
-        title: "Foundation for Future",
-      },
-    ],
-    sortDesc:
-      "Workshop Hướng nghiệp & Kỹ năng mềm là chương trình đào tạo thực tiễn với các buổi hội thảo, hoạt động nhóm, trò chơi tương tác và phiên chia sẻ từ các chuyên gia. Dự án được thiết kế nhằm truyền cảm hứng, chia sẻ kinh nghiệm và cung cấp các công cụ giúp người khiếm thính phát triển toàn diện kỹ năng mềm cùng khả năng định hướng nghề nghiệp. Dự án cũng là cơ hội để các tình nguyện viên, những người có đam mê và nhiệt huyết, được tham gia vào quá trình góp phần thay đổi cuộc sống của người khiếm thính.",
-    time: "Chủ Nhật, 20/7/2025 (09:00 – 16:00)",
-    location: "Số 15, Đường Lê Duẩn, Quận Hai Bà Trưng, Hà Nội",
-    content: `
+	{
+		img: "/image/sukien1.png",
+		title: "Workshop Hướng nghiệp & Kỹ năng mềm",
+		description:
+			"Workshop Hướng nghiệp & Kỹ năng mềm là chương trình đào tạo thực tiễn với các buổi hội thảo, hoạt động nhóm, trò chơi tương tác và phiên chia sẻ từ các chuyên gia. Dự án được thiết kế nhằm truyền cảm hứng, chia sẻ kinh nghiệm và cung cấp các công cụ giúp người khiếm thính phát triển toàn diện kỹ năng mềm cùng khả năng định hướng nghề nghiệp. Dự án cũng là cơ hội để các tình nguyện viên, những người có đam mê và nhiệt huyết, được tham gia vào quá trình góp phần thay đổi cuộc sống của người khiếm thính.",
+		date: "Chủ Nhật, 20/7/2025 (09:00 – 16:00)",
+		slug: "workshop-huong-nghiep-ky-nang-mem",
+		organization: [
+			{
+				img: "/image/Ellipse-6.png",
+				title: "DNXH vì người khiếm thính Việt Nam",
+			},
+		],
+		sponsoring: [
+			{
+				img: "/image/Ellipse-7.png",
+				title: "Foundation for Future",
+			},
+		],
+		sortDesc:
+			"Workshop Hướng nghiệp & Kỹ năng mềm là chương trình đào tạo thực tiễn với các buổi hội thảo, hoạt động nhóm, trò chơi tương tác và phiên chia sẻ từ các chuyên gia. Dự án được thiết kế nhằm truyền cảm hứng, chia sẻ kinh nghiệm và cung cấp các công cụ giúp người khiếm thính phát triển toàn diện kỹ năng mềm cùng khả năng định hướng nghề nghiệp. Dự án cũng là cơ hội để các tình nguyện viên, những người có đam mê và nhiệt huyết, được tham gia vào quá trình góp phần thay đổi cuộc sống của người khiếm thính.",
+		time: "Chủ Nhật, 20/7/2025 (09:00 – 16:00)",
+		location: "Số 15, Đường Lê Duẩn, Quận Hai Bà Trưng, Hà Nội",
+		content: `
 	<div class="mb-10">
 		<h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Giới thiệu</h2>
 		<p class="text-black text-sm mb-4 leading-relaxed">
@@ -3818,24 +4222,24 @@ export const dataSukien = [
 		</ul>
 	</div>
 	`,
-  },
-  {
-    img: "/image/sukien2.png",
-    title: 'Chiến dịch Gây quỹ Cộng đồng "Ánh sáng thầm lặng"',
-    description: "Dự án “Ánh sáng thầm lặng” nhằm gây quỹ hỗ trợ học bổng, trang thiết bị trợ thính, và các chương trình đào tạo nghề cho người khiếm thính. Trong khuôn khổ chiến dịch này, Workshop Hướng nghiệp & Kỹ năng mềm được tổ chức để trang bị kiến thức và kỹ năng cần thiết cho người khiếm thính, đồng thời là dịp tuyển dụng, huy động tinh thần và năng lực của các tình nguyện viên.",
-    date: "Thứ Bảy, ngày 28/9/2025 (09:00 – 16:00)",
-    slug: "chien-dich-gay-quy-cong-dong",
-    organization: [
-      {
-        img: "/image/Ellipse-7.png",
-        title: "Foundation for Future",
-      },
-    ],
-    sponsoring: [],
-    sortDesc: "Dự án “Ánh sáng thầm lặng” nhằm gây quỹ hỗ trợ học bổng, trang thiết bị trợ thính, và các chương trình đào tạo nghề cho người khiếm thính. Trong khuôn khổ chiến dịch này, Workshop Hướng nghiệp & Kỹ năng mềm được tổ chức để trang bị kiến thức và kỹ năng cần thiết cho người khiếm thính, đồng thời là dịp tuyển dụng, huy động tinh thần và năng lực của các tình nguyện viên.",
-    time: "Thứ Bảy, ngày 28/9/2025 (09:00 – 16:00)",
-    location: "Số 123, Đường Lê Lợi, Quận 1, Thành phố Hồ Chí Minh",
-    content: `
+	},
+	{
+		img: "/image/sukien2.png",
+		title: 'Chiến dịch Gây quỹ Cộng đồng "Ánh sáng thầm lặng"',
+		description: "Dự án “Ánh sáng thầm lặng” nhằm gây quỹ hỗ trợ học bổng, trang thiết bị trợ thính, và các chương trình đào tạo nghề cho người khiếm thính. Trong khuôn khổ chiến dịch này, Workshop Hướng nghiệp & Kỹ năng mềm được tổ chức để trang bị kiến thức và kỹ năng cần thiết cho người khiếm thính, đồng thời là dịp tuyển dụng, huy động tinh thần và năng lực của các tình nguyện viên.",
+		date: "Thứ Bảy, ngày 28/9/2025 (09:00 – 16:00)",
+		slug: "chien-dich-gay-quy-cong-dong",
+		organization: [
+			{
+				img: "/image/Ellipse-7.png",
+				title: "Foundation for Future",
+			},
+		],
+		sponsoring: [],
+		sortDesc: "Dự án “Ánh sáng thầm lặng” nhằm gây quỹ hỗ trợ học bổng, trang thiết bị trợ thính, và các chương trình đào tạo nghề cho người khiếm thính. Trong khuôn khổ chiến dịch này, Workshop Hướng nghiệp & Kỹ năng mềm được tổ chức để trang bị kiến thức và kỹ năng cần thiết cho người khiếm thính, đồng thời là dịp tuyển dụng, huy động tinh thần và năng lực của các tình nguyện viên.",
+		time: "Thứ Bảy, ngày 28/9/2025 (09:00 – 16:00)",
+		location: "Số 123, Đường Lê Lợi, Quận 1, Thành phố Hồ Chí Minh",
+		content: `
   		<div class="mb-10">
   			<h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Giới thiệu</h2>
   			<p class="text-black text-sm leading-relaxed">
@@ -3896,34 +4300,34 @@ export const dataSukien = [
 			  </p>
           </div>
   		`,
-  },
-  {
-    img: "/image/sukien3.png",
-    title: 'Festival Sáng tạo & Kết nối "Cùng Đổi Mới Tương Lai"',
-    description:
-      'Festival Sáng tạo & Kết nối "Cùng Đổi Mới Tương Lai" là sự kiện được tổ chức bởi Foundation for Future, nhằm tạo diễn đàn trao đổi, học hỏi và chia sẻ sáng tạo cho cộng đồng người khiếm thính và các đối tác liên quan. Dự án hướng đến việc kết nối các cá nhân, doanh nghiệp và tổ chức để cùng nhau khám phá, ứng dụng các giải pháp sáng tạo trong giáo dục và đào tạo hướng nghiệp. Đồng thời, sự kiện còn là cơ hội để người tham gia trải nghiệm, chia sẻ kinh nghiệm và xây dựng những ý tưởng đổi mới nhằm cải thiện chất lượng cuộc sống cho cộng đồng.',
-    date: "Thứ Bảy, ngày 15/9/2025 (09:00 – 17:00)",
-    slug: "festival-sang-tao-ket-noi",
-    organization: [
-      {
-        img: "/image/Ellipse-8.png",
-        title: "Hội Cha Mẹ Trẻ Khiếm Thính và Người Khiếm Thính Việt Nam",
-      },
-      {
-        img: "/image/Ellipse-7.png",
-        title: "Foundation For Future",
-      },
-    ],
-    sponsoring: [
-      {
-        img: "/image/Ellipse-9.png",
-        title: "UNICEF Việt Nam",
-      },
-    ],
-    sortDesc: "Dự án “Ánh sáng thầm lặng” nhằm gây quỹ hỗ trợ học bổng, trang thiết bị trợ thính, và các chương trình đào tạo nghề cho người khiếm thính. Trong khuôn khổ chiến dịch này, Workshop Hướng nghiệp & Kỹ năng mềm được tổ chức để trang bị kiến thức và kỹ năng cần thiết cho người khiếm thính, đồng thời là dịp tuyển dụng, huy động tinh thần và năng lực của các tình nguyện viên.",
-    time: "Thứ Bảy, ngày 15/9/2025 (09:00 – 17:00)",
-    location: "Trung tâm Hội nghị & Triển lãm, Thành phố Hồ Chí Minh.",
-    content: `
+	},
+	{
+		img: "/image/sukien3.png",
+		title: 'Festival Sáng tạo & Kết nối "Cùng Đổi Mới Tương Lai"',
+		description:
+			'Festival Sáng tạo & Kết nối "Cùng Đổi Mới Tương Lai" là sự kiện được tổ chức bởi Foundation for Future, nhằm tạo diễn đàn trao đổi, học hỏi và chia sẻ sáng tạo cho cộng đồng người khiếm thính và các đối tác liên quan. Dự án hướng đến việc kết nối các cá nhân, doanh nghiệp và tổ chức để cùng nhau khám phá, ứng dụng các giải pháp sáng tạo trong giáo dục và đào tạo hướng nghiệp. Đồng thời, sự kiện còn là cơ hội để người tham gia trải nghiệm, chia sẻ kinh nghiệm và xây dựng những ý tưởng đổi mới nhằm cải thiện chất lượng cuộc sống cho cộng đồng.',
+		date: "Thứ Bảy, ngày 15/9/2025 (09:00 – 17:00)",
+		slug: "festival-sang-tao-ket-noi",
+		organization: [
+			{
+				img: "/image/Ellipse-8.png",
+				title: "Hội Cha Mẹ Trẻ Khiếm Thính và Người Khiếm Thính Việt Nam",
+			},
+			{
+				img: "/image/Ellipse-7.png",
+				title: "Foundation For Future",
+			},
+		],
+		sponsoring: [
+			{
+				img: "/image/Ellipse-9.png",
+				title: "UNICEF Việt Nam",
+			},
+		],
+		sortDesc: "Dự án “Ánh sáng thầm lặng” nhằm gây quỹ hỗ trợ học bổng, trang thiết bị trợ thính, và các chương trình đào tạo nghề cho người khiếm thính. Trong khuôn khổ chiến dịch này, Workshop Hướng nghiệp & Kỹ năng mềm được tổ chức để trang bị kiến thức và kỹ năng cần thiết cho người khiếm thính, đồng thời là dịp tuyển dụng, huy động tinh thần và năng lực của các tình nguyện viên.",
+		time: "Thứ Bảy, ngày 15/9/2025 (09:00 – 17:00)",
+		location: "Trung tâm Hội nghị & Triển lãm, Thành phố Hồ Chí Minh.",
+		content: `
   		<div class="mb-10">
   			<h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Giới thiệu</h2>
   			<p class="text-black text-sm mb-4 leading-relaxed">
@@ -3952,24 +4356,24 @@ export const dataSukien = [
 				</p>
 </div>
   		`,
-  },
-  {
-    img: "/image/sukien4.png",
-    title: 'Hội thảo "Đồng Hành Bảo Vệ Quyền Trẻ Em – Từ Nhận Thức đến Hành Động"',
-    description: 'Hội thảo "Đồng Hành Bảo Vệ Quyền Trẻ Em – Từ Nhận Thức đến Hành Động" là sự kiện do Hội Bảo Vệ Quyền Trẻ Em Việt Nam tổ chức, nhằm nâng cao nhận thức, thúc đẩy hành động cụ thể và xây dựng mạng lưới phối hợp bảo vệ quyền lợi cho trẻ em tại Việt Nam. Hội thảo là dịp quy tụ các chuyên gia, nhà hoạch định chính sách, tổ chức xã hội và cộng đồng để cùng trao đổi, chia sẻ thực tiễn và đề xuất giải pháp hiệu quả trong công tác bảo vệ trẻ em, đặc biệt là trẻ em dễ bị tổn thương.',
-    date: "Thứ Sáu, ngày 22/8/2025 (08:30 – 17:00)",
-    slug: "hoi-thao-dong-hanh-bao-ve-quyen-tre-em",
-    organization: [
-      {
-        img: "/image/Ellipse-10.png",
-        title: "Hội Bảo Vệ Quyền Trẻ Em VN",
-      },
-    ],
-    sponsoring: [],
-    sortDesc: 'Hội thảo "Đồng Hành Bảo Vệ Quyền Trẻ Em – Từ Nhận Thức đến Hành Động" là sự kiện do Hội Bảo Vệ Quyền Trẻ Em Việt Nam tổ chức, nhằm nâng cao nhận thức, thúc đẩy hành động cụ thể và xây dựng mạng lưới phối hợp bảo vệ quyền lợi cho trẻ em tại Việt Nam. Hội thảo là dịp quy tụ các chuyên gia, nhà hoạch định chính sách, tổ chức xã hội và cộng đồng để cùng trao đổi, chia sẻ thực tiễn và đề xuất giải pháp hiệu quả trong công tác bảo vệ trẻ em, đặc biệt là trẻ em dễ bị tổn thương.',
-    time: "Thứ Sáu, ngày 22/8/2025 (08:30 – 17:00)",
-    location: "Khách sạn Melia, số 44B Lý Thường Kiệt, Hoàn Kiếm, Hà Nội",
-    content: `
+	},
+	{
+		img: "/image/sukien4.png",
+		title: 'Hội thảo "Đồng Hành Bảo Vệ Quyền Trẻ Em – Từ Nhận Thức đến Hành Động"',
+		description: 'Hội thảo "Đồng Hành Bảo Vệ Quyền Trẻ Em – Từ Nhận Thức đến Hành Động" là sự kiện do Hội Bảo Vệ Quyền Trẻ Em Việt Nam tổ chức, nhằm nâng cao nhận thức, thúc đẩy hành động cụ thể và xây dựng mạng lưới phối hợp bảo vệ quyền lợi cho trẻ em tại Việt Nam. Hội thảo là dịp quy tụ các chuyên gia, nhà hoạch định chính sách, tổ chức xã hội và cộng đồng để cùng trao đổi, chia sẻ thực tiễn và đề xuất giải pháp hiệu quả trong công tác bảo vệ trẻ em, đặc biệt là trẻ em dễ bị tổn thương.',
+		date: "Thứ Sáu, ngày 22/8/2025 (08:30 – 17:00)",
+		slug: "hoi-thao-dong-hanh-bao-ve-quyen-tre-em",
+		organization: [
+			{
+				img: "/image/Ellipse-10.png",
+				title: "Hội Bảo Vệ Quyền Trẻ Em VN",
+			},
+		],
+		sponsoring: [],
+		sortDesc: 'Hội thảo "Đồng Hành Bảo Vệ Quyền Trẻ Em – Từ Nhận Thức đến Hành Động" là sự kiện do Hội Bảo Vệ Quyền Trẻ Em Việt Nam tổ chức, nhằm nâng cao nhận thức, thúc đẩy hành động cụ thể và xây dựng mạng lưới phối hợp bảo vệ quyền lợi cho trẻ em tại Việt Nam. Hội thảo là dịp quy tụ các chuyên gia, nhà hoạch định chính sách, tổ chức xã hội và cộng đồng để cùng trao đổi, chia sẻ thực tiễn và đề xuất giải pháp hiệu quả trong công tác bảo vệ trẻ em, đặc biệt là trẻ em dễ bị tổn thương.',
+		time: "Thứ Sáu, ngày 22/8/2025 (08:30 – 17:00)",
+		location: "Khách sạn Melia, số 44B Lý Thường Kiệt, Hoàn Kiếm, Hà Nội",
+		content: `
   		<div class="mb-10">
   			<h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Giới thiệu</h2>
   			<p class="text-black text-sm leading-relaxed">
@@ -4040,26 +4444,26 @@ export const dataSukien = [
 			  </p>
         </div>
   		`,
-  },
-  {
-    img: "/image/sukien5.png",
-    title: "Workshop Nghệ Thuật Tái Chế: “Từ Vụn Vặt Thành Giá Trị”",
-    description:
-      'Workshop Nghệ Thuật Tái Chế "Từ Vụn Vặt Thành Giá Trị" là sự kiện do Vụn Art tổ chức, nhằm lan tỏa tinh thần sáng tạo, bảo vệ môi trường và trao quyền cho người khuyết tật thông qua nghệ thuật tranh ghép vải thủ công. Sự kiện tạo không gian giao lưu, học hỏi và trải nghiệm thực hành sáng tạo giữa cộng đồng, nghệ nhân khuyết tật và những người yêu nghệ thuật thủ công. Đây cũng là dịp để cùng nhìn nhận lại giá trị của tái chế, sự bền vững và tình người trong từng mảnh vải tưởng chừng vụn vặt.',
-    date: "Chủ Nhật, ngày 11/08/2025 (09:00 – 16:00)",
-    slug: "workshop-nghe-thuat-tai-che",
-    organization: [
-      {
-        img: "/image/Ellipse-11.png",
-        title: "Vụn Art",
-      },
-    ],
-    sponsoring: [],
-    sortDesc:
-      'Workshop Nghệ Thuật Tái Chế "Từ Vụn Vặt Thành Giá Trị" là sự kiện do Vụn Art tổ chức, nhằm lan tỏa tinh thần sáng tạo, bảo vệ môi trường và trao quyền cho người khuyết tật thông qua nghệ thuật tranh ghép vải thủ công. Sự kiện tạo không gian giao lưu, học hỏi và trải nghiệm thực hành sáng tạo giữa cộng đồng, nghệ nhân khuyết tật và những người yêu nghệ thuật thủ công. Đây cũng là dịp để cùng nhìn nhận lại giá trị của tái chế, sự bền vững và tình người trong từng mảnh vải tưởng chừng vụn vặt.',
-    time: "Chủ Nhật, ngày 11/08/2025",
-    location: "Xưởng Vụn Art, Trung tâm Văn hóa Phúc Xá, số 1 Vĩnh Phúc, Ba Đình, Hà Nội",
-    content: `
+	},
+	{
+		img: "/image/sukien5.png",
+		title: "Workshop Nghệ Thuật Tái Chế: “Từ Vụn Vặt Thành Giá Trị”",
+		description:
+			'Workshop Nghệ Thuật Tái Chế "Từ Vụn Vặt Thành Giá Trị" là sự kiện do Vụn Art tổ chức, nhằm lan tỏa tinh thần sáng tạo, bảo vệ môi trường và trao quyền cho người khuyết tật thông qua nghệ thuật tranh ghép vải thủ công. Sự kiện tạo không gian giao lưu, học hỏi và trải nghiệm thực hành sáng tạo giữa cộng đồng, nghệ nhân khuyết tật và những người yêu nghệ thuật thủ công. Đây cũng là dịp để cùng nhìn nhận lại giá trị của tái chế, sự bền vững và tình người trong từng mảnh vải tưởng chừng vụn vặt.',
+		date: "Chủ Nhật, ngày 11/08/2025 (09:00 – 16:00)",
+		slug: "workshop-nghe-thuat-tai-che",
+		organization: [
+			{
+				img: "/image/Ellipse-11.png",
+				title: "Vụn Art",
+			},
+		],
+		sponsoring: [],
+		sortDesc:
+			'Workshop Nghệ Thuật Tái Chế "Từ Vụn Vặt Thành Giá Trị" là sự kiện do Vụn Art tổ chức, nhằm lan tỏa tinh thần sáng tạo, bảo vệ môi trường và trao quyền cho người khuyết tật thông qua nghệ thuật tranh ghép vải thủ công. Sự kiện tạo không gian giao lưu, học hỏi và trải nghiệm thực hành sáng tạo giữa cộng đồng, nghệ nhân khuyết tật và những người yêu nghệ thuật thủ công. Đây cũng là dịp để cùng nhìn nhận lại giá trị của tái chế, sự bền vững và tình người trong từng mảnh vải tưởng chừng vụn vặt.',
+		time: "Chủ Nhật, ngày 11/08/2025",
+		location: "Xưởng Vụn Art, Trung tâm Văn hóa Phúc Xá, số 1 Vĩnh Phúc, Ba Đình, Hà Nội",
+		content: `
   		<div class="mb-10">
   			<h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Giới thiệu</h2>
   			<p class="text-black text-sm leading-relaxed">
@@ -4123,26 +4527,26 @@ export const dataSukien = [
 			  </p>
         </div>
   		`,
-  },
-  {
-    img: "/image/sukien6.png",
-    title: "WORKSHOP – Chương Trình Truyền Thông Chăm Sóc Sức Khỏe Đúng Cách; Đo và Tư vấn Thính lực",
-    description:
-      "WORKSHOP – Chương Trình Truyền Thông Chăm Sóc Sức Khỏe Đúng Cách: Đo và Tư Vấn Thính Lực là sự kiện do Doanh nghiệp xã hội vì người khiếm thính Việt Nam tổ chức, nhằm nâng cao nhận thức cộng đồng về chăm sóc sức khỏe, đặc biệt là sức khỏe thính lực. Sự kiện không chỉ cung cấp kiến thức y tế thiết thực mà còn triển khai đo thính lực miễn phí và tư vấn cá nhân hóa từ đội ngũ chuyên gia. Đây là cơ hội để người khiếm thính, gia đình và cộng đồng tiếp cận các giải pháp chăm sóc sớm, phòng ngừa suy giảm thính lực, và kết nối cùng nhau vì một cộng đồng khỏe mạnh, chủ động.",
-    date: "Chủ Nhật, ngày 18/8/2025 (09:00 – 16:00)",
-    slug: "workshop-chuong-trinh-truyen-thong-cham-soc-suc-khoe",
-    organization: [
-      {
-        img: "/image/Ellipse-6.png",
-        title: "DNXH vì người khiếm thính Việt Nam",
-      },
-    ],
-    sponsoring: [],
-    sortDesc:
-      "WORKSHOP – Chương Trình Truyền Thông Chăm Sóc Sức Khỏe Đúng Cách: Đo và Tư Vấn Thính Lực là sự kiện do Doanh nghiệp xã hội vì người khiếm thính Việt Nam tổ chức, nhằm nâng cao nhận thức cộng đồng về chăm sóc sức khỏe, đặc biệt là sức khỏe thính lực. Sự kiện không chỉ cung cấp kiến thức y tế thiết thực mà còn triển khai đo thính lực miễn phí và tư vấn cá nhân hóa từ đội ngũ chuyên gia. Đây là cơ hội để người khiếm thính, gia đình và cộng đồng tiếp cận các giải pháp chăm sóc sớm, phòng ngừa suy giảm thính lực, và kết nối cùng nhau vì một cộng đồng khỏe mạnh, chủ động.",
-    time: "Chủ Nhật, ngày 18/8/2025 (09:00 – 16:00)",
-    location: "Nhà Văn hóa Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội",
-    content: `
+	},
+	{
+		img: "/image/sukien6.png",
+		title: "WORKSHOP – Chương Trình Truyền Thông Chăm Sóc Sức Khỏe Đúng Cách; Đo và Tư vấn Thính lực",
+		description:
+			"WORKSHOP – Chương Trình Truyền Thông Chăm Sóc Sức Khỏe Đúng Cách: Đo và Tư Vấn Thính Lực là sự kiện do Doanh nghiệp xã hội vì người khiếm thính Việt Nam tổ chức, nhằm nâng cao nhận thức cộng đồng về chăm sóc sức khỏe, đặc biệt là sức khỏe thính lực. Sự kiện không chỉ cung cấp kiến thức y tế thiết thực mà còn triển khai đo thính lực miễn phí và tư vấn cá nhân hóa từ đội ngũ chuyên gia. Đây là cơ hội để người khiếm thính, gia đình và cộng đồng tiếp cận các giải pháp chăm sóc sớm, phòng ngừa suy giảm thính lực, và kết nối cùng nhau vì một cộng đồng khỏe mạnh, chủ động.",
+		date: "Chủ Nhật, ngày 18/8/2025 (09:00 – 16:00)",
+		slug: "workshop-chuong-trinh-truyen-thong-cham-soc-suc-khoe",
+		organization: [
+			{
+				img: "/image/Ellipse-6.png",
+				title: "DNXH vì người khiếm thính Việt Nam",
+			},
+		],
+		sponsoring: [],
+		sortDesc:
+			"WORKSHOP – Chương Trình Truyền Thông Chăm Sóc Sức Khỏe Đúng Cách: Đo và Tư Vấn Thính Lực là sự kiện do Doanh nghiệp xã hội vì người khiếm thính Việt Nam tổ chức, nhằm nâng cao nhận thức cộng đồng về chăm sóc sức khỏe, đặc biệt là sức khỏe thính lực. Sự kiện không chỉ cung cấp kiến thức y tế thiết thực mà còn triển khai đo thính lực miễn phí và tư vấn cá nhân hóa từ đội ngũ chuyên gia. Đây là cơ hội để người khiếm thính, gia đình và cộng đồng tiếp cận các giải pháp chăm sóc sớm, phòng ngừa suy giảm thính lực, và kết nối cùng nhau vì một cộng đồng khỏe mạnh, chủ động.",
+		time: "Chủ Nhật, ngày 18/8/2025 (09:00 – 16:00)",
+		location: "Nhà Văn hóa Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội",
+		content: `
   		<div class="mb-10">
   			<h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Giới thiệu</h2>
   			<p class="text-black text-sm leading-relaxed">
@@ -4192,23 +4596,23 @@ export const dataSukien = [
 			  </p>
         </div>
   		`,
-  },
+	},
 ];
 export const dataTaiTro = [
-  {
-    img: "/image/taitro1.jpg",
-    title: "Chương trình Tài trợ Máy trợ thính 2025",
-    description: "hear.us.now là một tổ chức xã hội phi lợi nhuận hoạt động vì quyền lợi và chất lượng cuộc sống của người khiếm thính tại Việt Nam. Với mong muốn đem lại cơ hội hòa nhập và phát triển toàn diện cho người khiếm thính, chúng tôi triển khai Chương trình Tài trợ Máy trợ thính 2025 – “Nghe để Gắn Kết” nhằm hỗ trợ những người có hoàn cảnh khó khăn được tiếp cận với thiết bị hỗ trợ thính lực phù hợp.",
-    slug: "chuong-trinh-tai-tro-may-tro-thinh",
-    organization: [
-      {
-        img: "/image/Ellipse-12.png",
-        title: "Hear.us.now",
-      },
-    ],
-    sponsoring: [],
-    sortDesc: "hear.us.now là một tổ chức xã hội phi lợi nhuận hoạt động vì quyền lợi và chất lượng cuộc sống của người khiếm thính tại Việt Nam. Với mong muốn đem lại cơ hội hòa nhập và phát triển toàn diện cho người khiếm thính, chúng tôi triển khai Chương trình Tài trợ Máy trợ thính 2025 – “Nghe để Gắn Kết” nhằm hỗ trợ những người có hoàn cảnh khó khăn được tiếp cận với thiết bị hỗ trợ thính lực phù hợp.",
-    content: `
+	{
+		img: "/image/taitro1.jpg",
+		title: "Chương trình Tài trợ Máy trợ thính 2025",
+		description: "hear.us.now là một tổ chức xã hội phi lợi nhuận hoạt động vì quyền lợi và chất lượng cuộc sống của người khiếm thính tại Việt Nam. Với mong muốn đem lại cơ hội hòa nhập và phát triển toàn diện cho người khiếm thính, chúng tôi triển khai Chương trình Tài trợ Máy trợ thính 2025 – “Nghe để Gắn Kết” nhằm hỗ trợ những người có hoàn cảnh khó khăn được tiếp cận với thiết bị hỗ trợ thính lực phù hợp.",
+		slug: "chuong-trinh-tai-tro-may-tro-thinh",
+		organization: [
+			{
+				img: "/image/Ellipse-12.png",
+				title: "Hear.us.now",
+			},
+		],
+		sponsoring: [],
+		sortDesc: "hear.us.now là một tổ chức xã hội phi lợi nhuận hoạt động vì quyền lợi và chất lượng cuộc sống của người khiếm thính tại Việt Nam. Với mong muốn đem lại cơ hội hòa nhập và phát triển toàn diện cho người khiếm thính, chúng tôi triển khai Chương trình Tài trợ Máy trợ thính 2025 – “Nghe để Gắn Kết” nhằm hỗ trợ những người có hoàn cảnh khó khăn được tiếp cận với thiết bị hỗ trợ thính lực phù hợp.",
+		content: `
 	  <div class="mb-10">
 		  <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Giới thiệu chương trình</h2>
 		  <p class="text-black text-sm leading-relaxed">
@@ -4308,23 +4712,23 @@ export const dataTaiTro = [
 		  
 	  </div>
 	  `,
-  },
-  {
-    img: "/image/taitro2.jpg",
-    title: "Khóa “Trị Liệu Ngôn Ngữ Dành Cho Trẻ Mới Trang Bị Máy Trợ Thính”",
-    description:
-      "Tóm tắt khóa “Trị Liệu Ngôn Ngữ Dành Cho Trẻ Mới Trang Bị Máy Trợ Thính” (100 chữ): Khóa trị liệu ngôn ngữ 12 tuần do CED phối hợp Bệnh viện Nhi Trung Ương tổ chức, dành cho trẻ 2–6 tuổi vừa nhận máy trợ thính hoặc cấy ốc tai trong vòng 6 tháng. Trẻ sẽ được trị liệu 3 buổi/tuần theo phương pháp nghe-nói (AVT) kết hợp tư vấn chuyên sâu. Khóa học miễn phí, có lớp hỗ trợ phụ huynh. Yêu cầu đảm bảo chuyên cần ≥85% và phụ huynh tham dự ít nhất 2 buổi. Xét duyệt thông qua phỏng vấn và kiểm tra năng lực ngôn ngữ của trẻ.",
-    slug: "khoa-tri-lieu-ngon-ngu-danh-cho-tre-moi-trang-bi-may-tro-thinh",
-    organization: [
-      {
-        img: "/image/Ellipse-6.png",
-        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
-      },
-    ],
-    sponsoring: [],
-    sortDesc:
-      "Tóm tắt khóa “Trị Liệu Ngôn Ngữ Dành Cho Trẻ Mới Trang Bị Máy Trợ Thính” (100 chữ): Khóa trị liệu ngôn ngữ 12 tuần do CED phối hợp Bệnh viện Nhi Trung Ương tổ chức, dành cho trẻ 2–6 tuổi vừa nhận máy trợ thính hoặc cấy ốc tai trong vòng 6 tháng. Trẻ sẽ được trị liệu 3 buổi/tuần theo phương pháp nghe-nói (AVT) kết hợp tư vấn chuyên sâu. Khóa học miễn phí, có lớp hỗ trợ phụ huynh. Yêu cầu đảm bảo chuyên cần ≥85% và phụ huynh tham dự ít nhất 2 buổi. Xét duyệt thông qua phỏng vấn và kiểm tra năng lực ngôn ngữ của trẻ.",
-    content: `
+	},
+	{
+		img: "/image/taitro2.jpg",
+		title: "Khóa “Trị Liệu Ngôn Ngữ Dành Cho Trẻ Mới Trang Bị Máy Trợ Thính”",
+		description:
+			"Tóm tắt khóa “Trị Liệu Ngôn Ngữ Dành Cho Trẻ Mới Trang Bị Máy Trợ Thính” (100 chữ): Khóa trị liệu ngôn ngữ 12 tuần do CED phối hợp Bệnh viện Nhi Trung Ương tổ chức, dành cho trẻ 2–6 tuổi vừa nhận máy trợ thính hoặc cấy ốc tai trong vòng 6 tháng. Trẻ sẽ được trị liệu 3 buổi/tuần theo phương pháp nghe-nói (AVT) kết hợp tư vấn chuyên sâu. Khóa học miễn phí, có lớp hỗ trợ phụ huynh. Yêu cầu đảm bảo chuyên cần ≥85% và phụ huynh tham dự ít nhất 2 buổi. Xét duyệt thông qua phỏng vấn và kiểm tra năng lực ngôn ngữ của trẻ.",
+		slug: "khoa-tri-lieu-ngon-ngu-danh-cho-tre-moi-trang-bi-may-tro-thinh",
+		organization: [
+			{
+				img: "/image/Ellipse-6.png",
+				title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+			},
+		],
+		sponsoring: [],
+		sortDesc:
+			"Tóm tắt khóa “Trị Liệu Ngôn Ngữ Dành Cho Trẻ Mới Trang Bị Máy Trợ Thính” (100 chữ): Khóa trị liệu ngôn ngữ 12 tuần do CED phối hợp Bệnh viện Nhi Trung Ương tổ chức, dành cho trẻ 2–6 tuổi vừa nhận máy trợ thính hoặc cấy ốc tai trong vòng 6 tháng. Trẻ sẽ được trị liệu 3 buổi/tuần theo phương pháp nghe-nói (AVT) kết hợp tư vấn chuyên sâu. Khóa học miễn phí, có lớp hỗ trợ phụ huynh. Yêu cầu đảm bảo chuyên cần ≥85% và phụ huynh tham dự ít nhất 2 buổi. Xét duyệt thông qua phỏng vấn và kiểm tra năng lực ngôn ngữ của trẻ.",
+		content: `
 	  <div class="mb-10">
 		  <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Giới thiệu chương trình</h2>
 		  <p class="text-black text-sm leading-relaxed">
@@ -4431,21 +4835,21 @@ export const dataTaiTro = [
 		  
 	  </div>
 	  `,
-  },
-  {
-    img: "/image/taitro3.jpg",
-    title: "Chương Trình “Ngày Hội Đo Thính Lực Miễn Phí”",
-    description: 'Chương trình "Ngày Hội Đo Thính Lực Miễn Phí" được tổ chức bởi Doanh Nghiệp Xã Hội Vì Người Khiếm Thính Việt Nam nhằm mục đích nâng cao nhận thức cộng đồng về các vấn đề liên quan đến sức khỏe thính giác. Đây là cơ hội để các cá nhân, đặc biệt là người khiếm thính, có thể kiểm tra khả năng nghe của mình miễn phí và nhận được các tư vấn hỗ trợ từ các chuyên gia về thính lực.',
-    slug: "chuong-trinh-ngay-hoi-do-thinh-luc-mien-phi",
-    organization: [
-      {
-        img: "/image/Ellipse-6.png",
-        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
-      },
-    ],
-    sponsoring: [],
-    sortDesc: 'Chương trình "Ngày Hội Đo Thính Lực Miễn Phí" được tổ chức bởi Doanh Nghiệp Xã Hội Vì Người Khiếm Thính Việt Nam nhằm mục đích nâng cao nhận thức cộng đồng về các vấn đề liên quan đến sức khỏe thính giác. Đây là cơ hội để các cá nhân, đặc biệt là người khiếm thính, có thể kiểm tra khả năng nghe của mình miễn phí và nhận được các tư vấn hỗ trợ từ các chuyên gia về thính lực.',
-    content: `
+	},
+	{
+		img: "/image/taitro3.jpg",
+		title: "Chương Trình “Ngày Hội Đo Thính Lực Miễn Phí”",
+		description: 'Chương trình "Ngày Hội Đo Thính Lực Miễn Phí" được tổ chức bởi Doanh Nghiệp Xã Hội Vì Người Khiếm Thính Việt Nam nhằm mục đích nâng cao nhận thức cộng đồng về các vấn đề liên quan đến sức khỏe thính giác. Đây là cơ hội để các cá nhân, đặc biệt là người khiếm thính, có thể kiểm tra khả năng nghe của mình miễn phí và nhận được các tư vấn hỗ trợ từ các chuyên gia về thính lực.',
+		slug: "chuong-trinh-ngay-hoi-do-thinh-luc-mien-phi",
+		organization: [
+			{
+				img: "/image/Ellipse-6.png",
+				title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+			},
+		],
+		sponsoring: [],
+		sortDesc: 'Chương trình "Ngày Hội Đo Thính Lực Miễn Phí" được tổ chức bởi Doanh Nghiệp Xã Hội Vì Người Khiếm Thính Việt Nam nhằm mục đích nâng cao nhận thức cộng đồng về các vấn đề liên quan đến sức khỏe thính giác. Đây là cơ hội để các cá nhân, đặc biệt là người khiếm thính, có thể kiểm tra khả năng nghe của mình miễn phí và nhận được các tư vấn hỗ trợ từ các chuyên gia về thính lực.',
+		content: `
 	  <div class="mb-10">
 		  <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Giới thiệu chương trình</h2>
 		  <p class="text-black text-sm leading-relaxed">
@@ -4496,21 +4900,21 @@ export const dataTaiTro = [
 	      <div class="text-sm"><div class="font-bold inline">Tham gia chương trình:</div>Người tham gia đến đúng giờ theo lịch hẹn để tiến hành kiểm tra thính lực và nhận tư vấn từ các chuyên gia.</div>
 		</div>
 	  `,
-  },
-  {
-    img: "/image/taitro4.jpg",
-    title: "Chương Trình “Đào Tạo Phụ Huynh Trẻ Khiếm Thính”",
-    description: 'Chương trình "Đào Tạo Phụ Huynh Trẻ Khiếm Thính" được tổ chức với mục đích cung cấp kiến thức và kỹ năng cần thiết cho phụ huynh có con em bị khiếm thính, giúp họ hiểu rõ hơn về tình trạng của trẻ và hỗ trợ trẻ phát triển trong môi trường giáo dục và cuộc sống. Chương trình sẽ cung cấp các kiến thức về ngôn ngữ ký hiệu, cách chăm sóc sức khỏe thính giác và các phương pháp giáo dục hiệu quả cho trẻ khiếm thính.',
-    slug: "chuong-trinh-dao-tao-phu-huynh-tre-khiem-thinh",
-    organization: [
-      {
-        img: "/image/Ellipse-6.png",
-        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
-      },
-    ],
-    sponsoring: [],
-    sortDesc: 'Chương trình "Đào Tạo Phụ Huynh Trẻ Khiếm Thính" được tổ chức với mục đích cung cấp kiến thức và kỹ năng cần thiết cho phụ huynh có con em bị khiếm thính, giúp họ hiểu rõ hơn về tình trạng của trẻ và hỗ trợ trẻ phát triển trong môi trường giáo dục và cuộc sống. Chương trình sẽ cung cấp các kiến thức về ngôn ngữ ký hiệu, cách chăm sóc sức khỏe thính giác và các phương pháp giáo dục hiệu quả cho trẻ khiếm thính.',
-    content: `
+	},
+	{
+		img: "/image/taitro4.jpg",
+		title: "Chương Trình “Đào Tạo Phụ Huynh Trẻ Khiếm Thính”",
+		description: 'Chương trình "Đào Tạo Phụ Huynh Trẻ Khiếm Thính" được tổ chức với mục đích cung cấp kiến thức và kỹ năng cần thiết cho phụ huynh có con em bị khiếm thính, giúp họ hiểu rõ hơn về tình trạng của trẻ và hỗ trợ trẻ phát triển trong môi trường giáo dục và cuộc sống. Chương trình sẽ cung cấp các kiến thức về ngôn ngữ ký hiệu, cách chăm sóc sức khỏe thính giác và các phương pháp giáo dục hiệu quả cho trẻ khiếm thính.',
+		slug: "chuong-trinh-dao-tao-phu-huynh-tre-khiem-thinh",
+		organization: [
+			{
+				img: "/image/Ellipse-6.png",
+				title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+			},
+		],
+		sponsoring: [],
+		sortDesc: 'Chương trình "Đào Tạo Phụ Huynh Trẻ Khiếm Thính" được tổ chức với mục đích cung cấp kiến thức và kỹ năng cần thiết cho phụ huynh có con em bị khiếm thính, giúp họ hiểu rõ hơn về tình trạng của trẻ và hỗ trợ trẻ phát triển trong môi trường giáo dục và cuộc sống. Chương trình sẽ cung cấp các kiến thức về ngôn ngữ ký hiệu, cách chăm sóc sức khỏe thính giác và các phương pháp giáo dục hiệu quả cho trẻ khiếm thính.',
+		content: `
 	  <div class="mb-10">
 		  <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Giới thiệu chương trình</h2>
 		  <p class="text-black text-sm mb-4 leading-relaxed">
@@ -4571,21 +4975,21 @@ export const dataTaiTro = [
 	      <div class="text-sm"><div class="font-bold inline">Tham gia chương trình:</div>Phụ huynh đến đúng giờ theo lịch hẹn để tham gia chương trình đào tạo.</div>
 		</div>
 	  `,
-  },
-  {
-    img: "/image/taitro5.jpg",
-    title: "Đào Tạo Nghề Cho Thanh Thiếu Niên Khiếm Thính – Sản Phẩm Thủ Công Từ Vỏ Mỳ Tôm",
-    description: 'Dự án "Đào Tạo Nghề Cho Thanh Thiếu Niên Khiếm Thính – Sản Phẩm Thủ Công Từ Vỏ Mỳ Tôm" nhằm mang lại cơ hội nghề nghiệp cho thanh thiếu niên khiếm thính, giúp các em phát huy khả năng sáng tạo, rèn luyện kỹ năng thủ công và cải thiện chất lượng cuộc sống thông qua việc sản xuất các sản phẩm thủ công từ vỏ mỳ tôm. Đây là một chương trình đào tạo nghề đầy sáng tạo, thân thiện với môi trường, và đặc biệt góp phần xây dựng cộng đồng người khiếm thính vững mạnh.',
-    slug: "dao-tao-nghe-cho-thanh-thieu-nien-khiem-thinh-san-pham-thu-cong-tu-vo-my-tom",
-    organization: [
-      {
-        img: "/image/Ellipse-6.png",
-        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
-      },
-    ],
-    sponsoring: [],
-    sortDesc: 'Dự án "Đào Tạo Nghề Cho Thanh Thiếu Niên Khiếm Thính – Sản Phẩm Thủ Công Từ Vỏ Mỳ Tôm" nhằm mang lại cơ hội nghề nghiệp cho thanh thiếu niên khiếm thính, giúp các em phát huy khả năng sáng tạo, rèn luyện kỹ năng thủ công và cải thiện chất lượng cuộc sống thông qua việc sản xuất các sản phẩm thủ công từ vỏ mỳ tôm. Đây là một chương trình đào tạo nghề đầy sáng tạo, thân thiện với môi trường, và đặc biệt góp phần xây dựng cộng đồng người khiếm thính vững mạnh.',
-    content: `
+	},
+	{
+		img: "/image/taitro5.jpg",
+		title: "Đào Tạo Nghề Cho Thanh Thiếu Niên Khiếm Thính – Sản Phẩm Thủ Công Từ Vỏ Mỳ Tôm",
+		description: 'Dự án "Đào Tạo Nghề Cho Thanh Thiếu Niên Khiếm Thính – Sản Phẩm Thủ Công Từ Vỏ Mỳ Tôm" nhằm mang lại cơ hội nghề nghiệp cho thanh thiếu niên khiếm thính, giúp các em phát huy khả năng sáng tạo, rèn luyện kỹ năng thủ công và cải thiện chất lượng cuộc sống thông qua việc sản xuất các sản phẩm thủ công từ vỏ mỳ tôm. Đây là một chương trình đào tạo nghề đầy sáng tạo, thân thiện với môi trường, và đặc biệt góp phần xây dựng cộng đồng người khiếm thính vững mạnh.',
+		slug: "dao-tao-nghe-cho-thanh-thieu-nien-khiem-thinh-san-pham-thu-cong-tu-vo-my-tom",
+		organization: [
+			{
+				img: "/image/Ellipse-6.png",
+				title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+			},
+		],
+		sponsoring: [],
+		sortDesc: 'Dự án "Đào Tạo Nghề Cho Thanh Thiếu Niên Khiếm Thính – Sản Phẩm Thủ Công Từ Vỏ Mỳ Tôm" nhằm mang lại cơ hội nghề nghiệp cho thanh thiếu niên khiếm thính, giúp các em phát huy khả năng sáng tạo, rèn luyện kỹ năng thủ công và cải thiện chất lượng cuộc sống thông qua việc sản xuất các sản phẩm thủ công từ vỏ mỳ tôm. Đây là một chương trình đào tạo nghề đầy sáng tạo, thân thiện với môi trường, và đặc biệt góp phần xây dựng cộng đồng người khiếm thính vững mạnh.',
+		content: `
 	  <div class="mb-10">
 		  <h2 class="text-3xl font-bold text-[#2E4FBE] mb-4">Giới thiệu chương trình</h2>
 		  <p class="text-black text-sm mb-4 leading-relaxed">
@@ -4636,27 +5040,27 @@ export const dataTaiTro = [
 	      <div class="text-sm"><div class="font-bold inline">Tham gia chương trình:</div>Người tham gia đến đúng giờ và địa điểm đã được xác nhận để tham gia khóa đào tạo.</div>
 		</div>
 	  `,
-  },
+	},
 ];
 
 export const khoaHoc = [
-  {
-    img: "/image/khoahoc1.jpg",
-    title: "Ngôn ngữ ký hiệu cơ bản Offline",
-    description: "Khóa học giúp học viên làm quen với ngôn ngữ ký hiệu – công cụ giao tiếp chính của người khiếm thính. Đây là bước khởi đầu để xây dựng sự thấu hiểu và hòa nhập trong cộng đồng.",
-    date: "19:00 - 20:30",
-    schoolSchedule: "Thứ 3, Thứ 6",
-    day: "10 buổi",
-    form: "Lớp học trực tiếp",
-    price: "1.500.000 VNĐ",
-    slug: "ngon-ngu-ky-hieu-co-ban-offline",
-    organization: [
-      {
-        img: "/image/Ellipse-6.png",
-        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
-      },
-    ],
-    courseIntroduction: `
+	{
+		img: "/image/khoahoc1.jpg",
+		title: "Ngôn ngữ ký hiệu cơ bản Offline",
+		description: "Khóa học giúp học viên làm quen với ngôn ngữ ký hiệu – công cụ giao tiếp chính của người khiếm thính. Đây là bước khởi đầu để xây dựng sự thấu hiểu và hòa nhập trong cộng đồng.",
+		date: "19:00 - 20:30",
+		schoolSchedule: "Thứ 3, Thứ 6",
+		day: "10 buổi",
+		form: "Lớp học trực tiếp",
+		price: "1.500.000 VNĐ",
+		slug: "ngon-ngu-ky-hieu-co-ban-offline",
+		organization: [
+			{
+				img: "/image/Ellipse-6.png",
+				title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+			},
+		],
+		courseIntroduction: `
 		  <p class="text-black text-sm leading-relaxed">
 			Khóa học Ngôn ngữ ký hiệu cơ bản giúp học viên làm quen với ngôn ngữ ký hiệu – công cụ giao tiếp chính của người khiếm thính. Đây là bước khởi đầu để xây dựng sự thấu hiểu và hòa nhập trong cộng đồng.
 		  </p>
@@ -4679,7 +5083,7 @@ export const khoaHoc = [
 			• Học phí: 1.500.000 VNĐ
 		  </p>
 	 	  `,
-    output: `
+		output: `
 		<p class="text-black text-sm  leading-relaxed pl-4">
 			• Giao tiếp được các tình huống cơ bản bằng ngôn ngữ ký hiệu.
 		</p>
@@ -4693,7 +5097,7 @@ export const khoaHoc = [
 			• Tự tin sử dụng ngôn ngữ ký hiệu để tạo cầu nối trong công việc và cuộc sống.
 		</p>
 	`,
-    content: `<p class="text-black text-sm  leading-relaxed pl-4">
+		content: `<p class="text-black text-sm  leading-relaxed pl-4">
 			• Buổi 1–2: Ký hiệu chào hỏi, giới thiệu bản thân
 		</p>
 		<p class="text-black text-sm  leading-relaxed pl-4">
@@ -4711,24 +5115,24 @@ export const khoaHoc = [
 		<p class="text-black text-sm  leading-relaxed pl-4">
 			• Buổi 10: Ôn tập và thực hành tình huống thực tế
 		</p>`,
-    commnents: [
-      {
-        name: "Chị Linh",
-        avatar: "/image/comment1.png",
-        content: `“Khóa học thực sự dễ hiểu và hữu ích. Tôi có thể giao tiếp cơ bản với con trai mình ngay sau khi kết thúc.”`,
-      },
-      {
-        name: "Anh Minh",
-        avatar: "/image/comment1.png",
-        content: `“Giáo viên rất thân thiện và thực tế, tôi đã học được rất nhiều điều ngoài ngôn ngữ ký hiệu.”`,
-      },
-      {
-        name: "Thảo",
-        avatar: "/image/comment1.png",
-        content: `“Tôi cảm thấy mình được kết nối hơn với cộng đồng khiếm thính. Một trải nghiệm tuyệt vời!”`,
-      },
-    ],
-    scienceRegistration: `
+		commnents: [
+			{
+				name: "Chị Linh",
+				avatar: "/image/comment1.png",
+				content: `“Khóa học thực sự dễ hiểu và hữu ích. Tôi có thể giao tiếp cơ bản với con trai mình ngay sau khi kết thúc.”`,
+			},
+			{
+				name: "Anh Minh",
+				avatar: "/image/comment1.png",
+				content: `“Giáo viên rất thân thiện và thực tế, tôi đã học được rất nhiều điều ngoài ngôn ngữ ký hiệu.”`,
+			},
+			{
+				name: "Thảo",
+				avatar: "/image/comment1.png",
+				content: `“Tôi cảm thấy mình được kết nối hơn với cộng đồng khiếm thính. Một trải nghiệm tuyệt vời!”`,
+			},
+		],
+		scienceRegistration: `
 		<p class="text-black text-sm mb-4 leading-relaxed pl-4">
 			Nếu bạn quan tâm đến việc học ngôn ngữ ký hiệu để giao tiếp và thấu hiểu người khiếm thính, hãy đăng ký tham gia ngay hôm nay!
 		</p>	
@@ -4754,24 +5158,24 @@ export const khoaHoc = [
 			Hạn chót đăng ký: 26/05/2025
 		</p>
 	`,
-  },
-  {
-    img: "/image/khoahoc2.jpg",
-    title: "Ngôn ngữ ký hiệu cơ bản Online",
-    description: "Khóa học giúp học viên làm quen với ngôn ngữ ký hiệu – công cụ giao tiếp chính của người khiếm thính. Đây là bước khởi đầu để xây dựng sự thấu hiểu và hòa nhập trong cộng đồng.",
-    date: "19:00 - 20:30",
-    day: "10 buổi",
-    schoolSchedule: "Thứ 2, thứ 4",
-    form: "Lớp học trực tiếp",
-    price: "1.500.000 VNĐ",
-    slug: "ngon-ngu-ky-hieu-co-ban-online",
-    organization: [
-      {
-        img: "/image/Ellipse-6.png",
-        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
-      },
-    ],
-    courseIntroduction: `
+	},
+	{
+		img: "/image/khoahoc2.jpg",
+		title: "Ngôn ngữ ký hiệu cơ bản Online",
+		description: "Khóa học giúp học viên làm quen với ngôn ngữ ký hiệu – công cụ giao tiếp chính của người khiếm thính. Đây là bước khởi đầu để xây dựng sự thấu hiểu và hòa nhập trong cộng đồng.",
+		date: "19:00 - 20:30",
+		day: "10 buổi",
+		schoolSchedule: "Thứ 2, thứ 4",
+		form: "Lớp học trực tiếp",
+		price: "1.500.000 VNĐ",
+		slug: "ngon-ngu-ky-hieu-co-ban-online",
+		organization: [
+			{
+				img: "/image/Ellipse-6.png",
+				title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+			},
+		],
+		courseIntroduction: `
 		  <p class="text-black text-sm mb-4 leading-relaxed">
 			Khóa học Ngôn ngữ ký hiệu cơ bản giúp học viên làm quen với ngôn ngữ ký hiệu – công cụ giao tiếp chính của người khiếm thính. Đây là bước khởi đầu để xây dựng sự thấu hiểu và hòa nhập trong cộng đồng.
 		  </p>
@@ -4794,7 +5198,7 @@ export const khoaHoc = [
 			• Học phí: 1.500.000 VNĐ
 		  </p>
 	 	  `,
-    output: `
+		output: `
 		<p class="text-black text-sm  leading-relaxed pl-4">
 			• Giao tiếp được các tình huống cơ bản bằng ngôn ngữ ký hiệu.
 		</p>
@@ -4808,7 +5212,7 @@ export const khoaHoc = [
 			• Tự tin sử dụng ngôn ngữ ký hiệu để tạo cầu nối trong công việc và cuộc sống.
 		</p>
 	`,
-    content: `<p class="text-black text-sm  leading-relaxed pl-4">
+		content: `<p class="text-black text-sm  leading-relaxed pl-4">
 			• Buổi 1–2: Ký hiệu chào hỏi, giới thiệu bản thân
 		</p>
 		<p class="text-black text-sm  leading-relaxed pl-4">
@@ -4826,24 +5230,24 @@ export const khoaHoc = [
 		<p class="text-black text-sm  leading-relaxed pl-4">
 			• Buổi 10: Ôn tập và thực hành tình huống thực tế
 		</p>`,
-    commnents: [
-      {
-        name: "Chị Linh",
-        avatar: "/image/comment1.png",
-        content: `“Khóa học thực sự dễ hiểu và hữu ích. Tôi có thể giao tiếp cơ bản với con trai mình ngay sau khi kết thúc.”`,
-      },
-      {
-        name: "Anh Minh",
-        avatar: "/image/comment1.png",
-        content: `“Giáo viên rất thân thiện và thực tế, tôi đã học được rất nhiều điều ngoài ngôn ngữ ký hiệu.”`,
-      },
-      {
-        name: "Thảo",
-        avatar: "/image/comment1.png",
-        content: `“Tôi cảm thấy mình được kết nối hơn với cộng đồng khiếm thính. Một trải nghiệm tuyệt vời!”`,
-      },
-    ],
-    scienceRegistration: `
+		commnents: [
+			{
+				name: "Chị Linh",
+				avatar: "/image/comment1.png",
+				content: `“Khóa học thực sự dễ hiểu và hữu ích. Tôi có thể giao tiếp cơ bản với con trai mình ngay sau khi kết thúc.”`,
+			},
+			{
+				name: "Anh Minh",
+				avatar: "/image/comment1.png",
+				content: `“Giáo viên rất thân thiện và thực tế, tôi đã học được rất nhiều điều ngoài ngôn ngữ ký hiệu.”`,
+			},
+			{
+				name: "Thảo",
+				avatar: "/image/comment1.png",
+				content: `“Tôi cảm thấy mình được kết nối hơn với cộng đồng khiếm thính. Một trải nghiệm tuyệt vời!”`,
+			},
+		],
+		scienceRegistration: `
 		<p class="text-black text-sm mb-4 leading-relaxed pl-4">
 			Nếu bạn quan tâm đến việc học ngôn ngữ ký hiệu để giao tiếp và thấu hiểu người khiếm thính, hãy đăng ký tham gia ngay hôm nay!
 		</p>	
@@ -4869,24 +5273,24 @@ export const khoaHoc = [
 			Hạn chót đăng ký: 26/05/2025
 		</p>
 	`,
-  },
-  {
-    img: "/image/khoahoc3.jpg",
-    title: "Ngôn ngữ ký hiệu nhập môn Offline",
-    description: "Khóa học giúp học viên làm quen với ngôn ngữ ký hiệu – công cụ giao tiếp chính của người khiếm thính. Đây là bước khởi đầu để xây dựng sự thấu hiểu và hòa nhập trong cộng đồng.",
-    date: "19:00 - 20:30",
-    day: "10 buổi",
-    schoolSchedule: "Thứ 5, thứ 7",
-    form: "Lớp học trực tiếp",
-    price: "1.500.000 VNĐ",
-    slug: "ngon-ngu-ky-hieu-nhap-mon-offline",
-    organization: [
-      {
-        img: "/image/Ellipse-6.png",
-        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
-      },
-    ],
-    courseIntroduction: `
+	},
+	{
+		img: "/image/khoahoc3.jpg",
+		title: "Ngôn ngữ ký hiệu nhập môn Offline",
+		description: "Khóa học giúp học viên làm quen với ngôn ngữ ký hiệu – công cụ giao tiếp chính của người khiếm thính. Đây là bước khởi đầu để xây dựng sự thấu hiểu và hòa nhập trong cộng đồng.",
+		date: "19:00 - 20:30",
+		day: "10 buổi",
+		schoolSchedule: "Thứ 5, thứ 7",
+		form: "Lớp học trực tiếp",
+		price: "1.500.000 VNĐ",
+		slug: "ngon-ngu-ky-hieu-nhap-mon-offline",
+		organization: [
+			{
+				img: "/image/Ellipse-6.png",
+				title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+			},
+		],
+		courseIntroduction: `
 		  <p class="text-black text-sm mb-4 leading-relaxed">
 			Khóa học Ngôn ngữ ký hiệu cơ bản giúp học viên làm quen với ngôn ngữ ký hiệu – công cụ giao tiếp chính của người khiếm thính. Đây là bước khởi đầu để xây dựng sự thấu hiểu và hòa nhập trong cộng đồng.
 		  </p>
@@ -4909,7 +5313,7 @@ export const khoaHoc = [
 			• Học phí: 1.500.000 VNĐ
 		  </p>
 	 	  `,
-    output: `
+		output: `
 		<p class="text-black text-sm  leading-relaxed pl-4">
 			• Giao tiếp được các tình huống cơ bản bằng ngôn ngữ ký hiệu.
 		</p>
@@ -4923,7 +5327,7 @@ export const khoaHoc = [
 			• Tự tin sử dụng ngôn ngữ ký hiệu để tạo cầu nối trong công việc và cuộc sống.
 		</p>
 	`,
-    content: `<p class="text-black text-sm  leading-relaxed pl-4">
+		content: `<p class="text-black text-sm  leading-relaxed pl-4">
 			• Buổi 1–2: Ký hiệu chào hỏi, giới thiệu bản thân
 		</p>
 		<p class="text-black text-sm  leading-relaxed pl-4">
@@ -4941,24 +5345,24 @@ export const khoaHoc = [
 		<p class="text-black text-sm  leading-relaxed pl-4">
 			• Buổi 10: Ôn tập và thực hành tình huống thực tế
 		</p>`,
-    commnents: [
-      {
-        name: "Chị Linh",
-        avatar: "/image/comment1.png",
-        content: `“Khóa học thực sự dễ hiểu và hữu ích. Tôi có thể giao tiếp cơ bản với con trai mình ngay sau khi kết thúc.”`,
-      },
-      {
-        name: "Anh Minh",
-        avatar: "/image/comment1.png",
-        content: `“Giáo viên rất thân thiện và thực tế, tôi đã học được rất nhiều điều ngoài ngôn ngữ ký hiệu.”`,
-      },
-      {
-        name: "Thảo",
-        avatar: "/image/comment1.png",
-        content: `“Tôi cảm thấy mình được kết nối hơn với cộng đồng khiếm thính. Một trải nghiệm tuyệt vời!”`,
-      },
-    ],
-    scienceRegistration: `
+		commnents: [
+			{
+				name: "Chị Linh",
+				avatar: "/image/comment1.png",
+				content: `“Khóa học thực sự dễ hiểu và hữu ích. Tôi có thể giao tiếp cơ bản với con trai mình ngay sau khi kết thúc.”`,
+			},
+			{
+				name: "Anh Minh",
+				avatar: "/image/comment1.png",
+				content: `“Giáo viên rất thân thiện và thực tế, tôi đã học được rất nhiều điều ngoài ngôn ngữ ký hiệu.”`,
+			},
+			{
+				name: "Thảo",
+				avatar: "/image/comment1.png",
+				content: `“Tôi cảm thấy mình được kết nối hơn với cộng đồng khiếm thính. Một trải nghiệm tuyệt vời!”`,
+			},
+		],
+		scienceRegistration: `
 		<p class="text-black text-sm mb-4 leading-relaxed pl-4">
 			Nếu bạn quan tâm đến việc học ngôn ngữ ký hiệu để giao tiếp và thấu hiểu người khiếm thính, hãy đăng ký tham gia ngay hôm nay!
 		</p>	
@@ -4984,24 +5388,24 @@ export const khoaHoc = [
 			Hạn chót đăng ký: 26/05/2025
 		</p>
 	`,
-  },
-  {
-    img: "/image/khoahoc4.jpg",
-    title: "Ngôn ngữ ký hiệu nâng cao Offline",
-    description: "Khóa học giúp học viên làm quen với ngôn ngữ ký hiệu – công cụ giao tiếp chính của người khiếm thính. Đây là bước khởi đầu để xây dựng sự thấu hiểu và hòa nhập trong cộng đồng.",
-    date: "19:00 - 20:30",
-    day: "10 buổi",
-    schoolSchedule: "Thứ 3, thứ 6",
-    form: "Lớp học trực tiếp",
-    price: "1.500.000 VNĐ",
-    slug: "ngon-ngu-ky-hieu-nang-cao-offline",
-    organization: [
-      {
-        img: "/image/Ellipse-6.png",
-        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
-      },
-    ],
-    courseIntroduction: `
+	},
+	{
+		img: "/image/khoahoc4.jpg",
+		title: "Ngôn ngữ ký hiệu nâng cao Offline",
+		description: "Khóa học giúp học viên làm quen với ngôn ngữ ký hiệu – công cụ giao tiếp chính của người khiếm thính. Đây là bước khởi đầu để xây dựng sự thấu hiểu và hòa nhập trong cộng đồng.",
+		date: "19:00 - 20:30",
+		day: "10 buổi",
+		schoolSchedule: "Thứ 3, thứ 6",
+		form: "Lớp học trực tiếp",
+		price: "1.500.000 VNĐ",
+		slug: "ngon-ngu-ky-hieu-nang-cao-offline",
+		organization: [
+			{
+				img: "/image/Ellipse-6.png",
+				title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+			},
+		],
+		courseIntroduction: `
 		  <p class="text-black text-sm mb-4 leading-relaxed">
 			Khóa học Ngôn ngữ ký hiệu cơ bản giúp học viên làm quen với ngôn ngữ ký hiệu – công cụ giao tiếp chính của người khiếm thính. Đây là bước khởi đầu để xây dựng sự thấu hiểu và hòa nhập trong cộng đồng.
 		  </p>
@@ -5024,7 +5428,7 @@ export const khoaHoc = [
 			• Học phí: 1.500.000 VNĐ
 		  </p>
 	 	  `,
-    output: `
+		output: `
 		<p class="text-black text-sm  leading-relaxed pl-4">
 			• Giao tiếp được các tình huống cơ bản bằng ngôn ngữ ký hiệu.
 		</p>
@@ -5038,7 +5442,7 @@ export const khoaHoc = [
 			• Tự tin sử dụng ngôn ngữ ký hiệu để tạo cầu nối trong công việc và cuộc sống.
 		</p>
 	`,
-    content: `<p class="text-black text-sm  leading-relaxed pl-4">
+		content: `<p class="text-black text-sm  leading-relaxed pl-4">
 			• Buổi 1–2: Ký hiệu chào hỏi, giới thiệu bản thân
 		</p>
 		<p class="text-black text-sm  leading-relaxed pl-4">
@@ -5056,24 +5460,24 @@ export const khoaHoc = [
 		<p class="text-black text-sm  leading-relaxed pl-4">
 			• Buổi 10: Ôn tập và thực hành tình huống thực tế
 		</p>`,
-    commnents: [
-      {
-        name: "Chị Linh",
-        avatar: "/image/comment1.png",
-        content: `“Khóa học thực sự dễ hiểu và hữu ích. Tôi có thể giao tiếp cơ bản với con trai mình ngay sau khi kết thúc.”`,
-      },
-      {
-        name: "Anh Minh",
-        avatar: "/image/comment1.png",
-        content: `“Giáo viên rất thân thiện và thực tế, tôi đã học được rất nhiều điều ngoài ngôn ngữ ký hiệu.”`,
-      },
-      {
-        name: "Thảo",
-        avatar: "/image/comment1.png",
-        content: `“Tôi cảm thấy mình được kết nối hơn với cộng đồng khiếm thính. Một trải nghiệm tuyệt vời!”`,
-      },
-    ],
-    scienceRegistration: `
+		commnents: [
+			{
+				name: "Chị Linh",
+				avatar: "/image/comment1.png",
+				content: `“Khóa học thực sự dễ hiểu và hữu ích. Tôi có thể giao tiếp cơ bản với con trai mình ngay sau khi kết thúc.”`,
+			},
+			{
+				name: "Anh Minh",
+				avatar: "/image/comment1.png",
+				content: `“Giáo viên rất thân thiện và thực tế, tôi đã học được rất nhiều điều ngoài ngôn ngữ ký hiệu.”`,
+			},
+			{
+				name: "Thảo",
+				avatar: "/image/comment1.png",
+				content: `“Tôi cảm thấy mình được kết nối hơn với cộng đồng khiếm thính. Một trải nghiệm tuyệt vời!”`,
+			},
+		],
+		scienceRegistration: `
 		<p class="text-black text-sm mb-4 leading-relaxed pl-4">
 			Nếu bạn quan tâm đến việc học ngôn ngữ ký hiệu để giao tiếp và thấu hiểu người khiếm thính, hãy đăng ký tham gia ngay hôm nay!
 		</p>	
@@ -5099,28 +5503,28 @@ export const khoaHoc = [
 			Hạn chót đăng ký: 26/05/2025
 		</p>
 	`,
-  },
+	},
 ];
 export const khoaHocTrucTuyen = [
-  {
-    img: "/image/khoahoctt1.jpg",
-    title: "Khóa học Ngôn ngữ Ký hiệu Cơ Bản",
-    description: "Khóa học gồm các video bài giảng được thiết kế dành riêng cho người mới bắt đầu, giúp bạn học ngôn ngữ ký hiệu mọi lúc, mọi nơi. Phù hợp với phụ huynh, giáo viên, nhân viên xã hội, sinh viên và những ai quan tâm đến người khiếm thính.",
-    day: "12 bài giảng",
-    free: false,
-    price: "500.000 VND",
-    time: "90 phút",
-    objectives: "Mọi độ tuổi",
-    teacher: "Bùi Thị Anh Phương",
-    slug: "khoa-hoc-ngon-ngu-ky-hieu-co-ban",
-    organization: [
-      {
-        img: "/image/Ellipse-6.png",
-        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
-      },
-    ],
-    courseIntroduction: "Khóa học cung cấp kiến thức cơ bản về ngôn ngữ ký hiệu Việt Nam, giúp học viên tiếp cận với một phương thức giao tiếp quan trọng, góp phần thúc đẩy hòa nhập và kết nối giữa người nghe và người khiếm thính. Bài giảng được trình bày dễ hiểu, trực quan, có phụ đề và phiên dịch viên minh họa bằng ký hiệu thực tế.",
-    output: `
+	{
+		img: "/image/khoahoctt1.jpg",
+		title: "Khóa học Ngôn ngữ Ký hiệu Cơ Bản",
+		description: "Khóa học gồm các video bài giảng được thiết kế dành riêng cho người mới bắt đầu, giúp bạn học ngôn ngữ ký hiệu mọi lúc, mọi nơi. Phù hợp với phụ huynh, giáo viên, nhân viên xã hội, sinh viên và những ai quan tâm đến người khiếm thính.",
+		day: "12 bài giảng",
+		free: false,
+		price: "500.000 VND",
+		time: "90 phút",
+		objectives: "Mọi độ tuổi",
+		teacher: "Bùi Thị Anh Phương",
+		slug: "khoa-hoc-ngon-ngu-ky-hieu-co-ban",
+		organization: [
+			{
+				img: "/image/Ellipse-6.png",
+				title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+			},
+		],
+		courseIntroduction: "Khóa học cung cấp kiến thức cơ bản về ngôn ngữ ký hiệu Việt Nam, giúp học viên tiếp cận với một phương thức giao tiếp quan trọng, góp phần thúc đẩy hòa nhập và kết nối giữa người nghe và người khiếm thính. Bài giảng được trình bày dễ hiểu, trực quan, có phụ đề và phiên dịch viên minh họa bằng ký hiệu thực tế.",
+		output: `
 		  <p class="text-black text-base  leading-relaxed pl-4">
 			  • Nhận biết và sử dụng thành thạo hơn 100 từ vựng ký hiệu cơ bản
 		  </p>
@@ -5134,38 +5538,38 @@ export const khoaHocTrucTuyen = [
 			  • Có khả năng tiếp tục học nâng cao hoặc tham gia cộng đồng người khiếm thính
 		  </p>
 	  `,
-    lectures: [
-      { title: "Giới thiệu về ngôn ngữ ký hiệu và cộng đồng người khiếm thính", duration: "15:30", slug: "gioi-thieu-ve-ngon-ngu-ky-hieu-va-cong-dong-nguoi-khiem-thinh" },
-      { title: "Bảng chữ cái ngôn ngữ ký hiệu", duration: "8:00", slug: "bang-chu-cai-ngon-ngu-ky-hieu" },
-      { title: "Chào hỏi và giới thiệu về bản thân", duration: "7:30", slug: "chao-hoi-va-gioi-thieu-ve-ban-than" },
-      { title: "Từ vựng chủ đề gia đình và bạn bè", duration: "6:30", slug: "tu-vung-chu-de-gia-dinh-va-ban-be" },
-      { title: "Từ vựng chủ đề động vật", duration: "5:00", slug: "tu-vung-chu-de-dong-vat" },
-      { title: "Từ vựng chủ đề thực phẩm và đồ uống", duration: "6:30", slug: "tu-vung-chu-de-thuc-pham-va-do-uong" },
-      { title: "Biểu cảm khuôn mặt và ngữ điệu ký hiệu", duration: "7:00", slug: "bieu-cam-khuon-mat-va-ngu-dieu-ky-hieu" },
-      { title: "Câu hỏi – câu trả lời thường gặp", duration: "6:00", slug: "cau-hoi-cau-tra-loi-thuong-gap" },
-      { title: "Giao tiếp trong lớp học và nơi công cộng", duration: "6:30", slug: "giao-tiep-trong-lop-hoc-va-noi-cong-cong" },
-      { title: "Văn hóa người khiếm thính", duration: "6:30", slug: "van-hoa-nguoi-khiem-thinh" },
-      { title: "Ôn tập và định hướng nâng cao", duration: "6:30", slug: "on-tap-va-dinh-huong-nang-cao" },
-      { title: "Nội dung bổ sung cho bài giảng 12.", duration: "6:30", slug: "noi-dung-bo-sung-cho-bai-giang-12" },
-    ],
-    commnents: [
-      {
-        name: "Hạnh",
-        avatar: "/image/comment1.png",
-        content: `“Tôi học được rất nhiều điều chỉ trong một khóa online. Video ngắn, rõ ràng và dễ nhớ.”`,
-      },
-      {
-        name: "Chú Hoàng",
-        avatar: "/image/comment1.png",
-        content: `“Lần đầu tiên tôi hiểu con trai mình đang nghĩ gì, cảm giác như được kết nối lại.”`,
-      },
-      {
-        name: "Minh Anh",
-        avatar: "/image/comment1.png",
-        content: `“Tôi dùng video để luyện tập hằng ngày. Thích nhất là phần thực hành tình huống.”`,
-      },
-    ],
-    scienceRegistration: `
+		lectures: [
+			{ title: "Giới thiệu về ngôn ngữ ký hiệu và cộng đồng người khiếm thính", duration: "15:30", slug: "gioi-thieu-ve-ngon-ngu-ky-hieu-va-cong-dong-nguoi-khiem-thinh" },
+			{ title: "Bảng chữ cái ngôn ngữ ký hiệu", duration: "8:00", slug: "bang-chu-cai-ngon-ngu-ky-hieu" },
+			{ title: "Chào hỏi và giới thiệu về bản thân", duration: "7:30", slug: "chao-hoi-va-gioi-thieu-ve-ban-than" },
+			{ title: "Từ vựng chủ đề gia đình và bạn bè", duration: "6:30", slug: "tu-vung-chu-de-gia-dinh-va-ban-be" },
+			{ title: "Từ vựng chủ đề động vật", duration: "5:00", slug: "tu-vung-chu-de-dong-vat" },
+			{ title: "Từ vựng chủ đề thực phẩm và đồ uống", duration: "6:30", slug: "tu-vung-chu-de-thuc-pham-va-do-uong" },
+			{ title: "Biểu cảm khuôn mặt và ngữ điệu ký hiệu", duration: "7:00", slug: "bieu-cam-khuon-mat-va-ngu-dieu-ky-hieu" },
+			{ title: "Câu hỏi – câu trả lời thường gặp", duration: "6:00", slug: "cau-hoi-cau-tra-loi-thuong-gap" },
+			{ title: "Giao tiếp trong lớp học và nơi công cộng", duration: "6:30", slug: "giao-tiep-trong-lop-hoc-va-noi-cong-cong" },
+			{ title: "Văn hóa người khiếm thính", duration: "6:30", slug: "van-hoa-nguoi-khiem-thinh" },
+			{ title: "Ôn tập và định hướng nâng cao", duration: "6:30", slug: "on-tap-va-dinh-huong-nang-cao" },
+			{ title: "Nội dung bổ sung cho bài giảng 12.", duration: "6:30", slug: "noi-dung-bo-sung-cho-bai-giang-12" },
+		],
+		commnents: [
+			{
+				name: "Hạnh",
+				avatar: "/image/comment1.png",
+				content: `“Tôi học được rất nhiều điều chỉ trong một khóa online. Video ngắn, rõ ràng và dễ nhớ.”`,
+			},
+			{
+				name: "Chú Hoàng",
+				avatar: "/image/comment1.png",
+				content: `“Lần đầu tiên tôi hiểu con trai mình đang nghĩ gì, cảm giác như được kết nối lại.”`,
+			},
+			{
+				name: "Minh Anh",
+				avatar: "/image/comment1.png",
+				content: `“Tôi dùng video để luyện tập hằng ngày. Thích nhất là phần thực hành tình huống.”`,
+			},
+		],
+		scienceRegistration: `
 		  <p class="text-black text-sm leading-relaxed">
 			  Vui lòng tiến hành thanh toán để tải xuống trọn bộ 12 video bài giảng của khóa học Ngôn ngữ Ký hiệu Cơ Bản.
 		  </p>	
@@ -5185,26 +5589,26 @@ export const khoaHocTrucTuyen = [
 			  📱 hoặc liên hệ Foundation for Future để được hỗ trợ
 		  </p>
 	  `,
-  },
-  {
-    img: "/image/khoahoctt2.jpg",
-    title: "Chào hỏi và Giới thiệu bản thân",
-    description: "Khóa học gồm các video bài giảng được thiết kế dành riêng cho người mới bắt đầu, giúp bạn học ngôn ngữ ký hiệu mọi lúc, mọi nơi. Phù hợp với phụ huynh, giáo viên, nhân viên xã hội, sinh viên và những ai quan tâm đến người khiếm thính.",
-    day: "2 bài giảng",
-    free: true,
-    price: null,
-    time: "2 phút",
-    objectives: "Mọi độ tuổi",
-    teacher: "Hoàng Thu Thủy",
-    slug: "chao-hoi-va-gioi-thieu-ban-than",
-    organization: [
-      {
-        img: "/image/Ellipse-6.png",
-        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
-      },
-    ],
-    courseIntroduction: "Khóa học “Ngôn ngữ Ký hiệu cơ bản – Phần 1: Chào hỏi và Giới thiệu bản thân” giúp bạn bước đầu làm quen với ngôn ngữ ký hiệu thông qua những tình huống giao tiếp đơn giản hàng ngày. Dành cho người khiếm thính và cả người nghe muốn giao tiếp tốt hơn với cộng đồng khiếm thính, khóa học mang đến sự thân thiện, dễ tiếp cận, và dễ thực hành.",
-    output: `
+	},
+	{
+		img: "/image/khoahoctt2.jpg",
+		title: "Chào hỏi và Giới thiệu bản thân",
+		description: "Khóa học gồm các video bài giảng được thiết kế dành riêng cho người mới bắt đầu, giúp bạn học ngôn ngữ ký hiệu mọi lúc, mọi nơi. Phù hợp với phụ huynh, giáo viên, nhân viên xã hội, sinh viên và những ai quan tâm đến người khiếm thính.",
+		day: "2 bài giảng",
+		free: true,
+		price: null,
+		time: "2 phút",
+		objectives: "Mọi độ tuổi",
+		teacher: "Hoàng Thu Thủy",
+		slug: "chao-hoi-va-gioi-thieu-ban-than",
+		organization: [
+			{
+				img: "/image/Ellipse-6.png",
+				title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+			},
+		],
+		courseIntroduction: "Khóa học “Ngôn ngữ Ký hiệu cơ bản – Phần 1: Chào hỏi và Giới thiệu bản thân” giúp bạn bước đầu làm quen với ngôn ngữ ký hiệu thông qua những tình huống giao tiếp đơn giản hàng ngày. Dành cho người khiếm thính và cả người nghe muốn giao tiếp tốt hơn với cộng đồng khiếm thính, khóa học mang đến sự thân thiện, dễ tiếp cận, và dễ thực hành.",
+		output: `
 		  <p class="text-black text-base  leading-relaxed pl-4">
 			  • Sử dụng đúng ký hiệu cho các từ chào hỏi cơ bản (Xin chào, Tạm biệt, Cảm ơn, Xin lỗi, v.v.).
 		  </p>
@@ -5221,48 +5625,48 @@ export const khoaHocTrucTuyen = [
 			  • Tăng cường kỹ năng nhận diện ký hiệu thông qua trò chơi và thực hành.
 		  </p>
 	  `,
-    lectures: [
-      { title: "Từ vựng và ký hiệu cơ bản", duration: "1:15", slug: "tu-vung-va-ky-hieu-co-ban" },
-      { title: "Câu giao tiếp mẫu", duration: "0:51", slug: "tu-vung-va-ky-hieu-co-ban" },
-    ],
-    commnents: [
-      {
-        name: "Bạn Hùng",
-        avatar: "/image/comment1.png",
-        content: `Video rõ ràng, dễ hiểu và chậm rãi. Mình có thể bắt chước theo dễ dàng. Trò chơi đoán từ giúp mình nhớ lâu hơn. Cảm ơn chương trình đã tạo bài học thân thiện như vậy!`,
-      },
-      {
-        name: "Chị Hương",
-        avatar: "/image/comment1.png",
-        content: `Tôi rất ấn tượng với cách truyền đạt đơn giản và trực quan. Học sinh của tôi rất thích phần ký hiệu chậm và trò chơi cuối video. Mong có thêm nhiều bài học như vậy cho các chủ đề khác!`,
-      },
-      {
-        name: "Chị Lan",
-        avatar: "/image/comment1.png",
-        content: `Tôi học cùng con và thấy cả hai đều dễ tiếp cận. Cấu trúc video hợp lý, từ dễ đến khó. Đây là cầu nối giúp tôi hiểu con hơn và cùng con học ngôn ngữ ký hiệu một cách vui vẻ.`,
-      },
-    ],
-    scienceRegistration: null,
-  },
-  {
-    img: "/image/khoahoctt3.jpg",
-    title: "Động vật quen thuộc",
-    description: "Khóa học gồm các video bài giảng được thiết kế dành riêng cho người mới bắt đầu, giúp bạn học ngôn ngữ ký hiệu mọi lúc, mọi nơi. Phù hợp với phụ huynh, giáo viên, nhân viên xã hội, sinh viên và những ai quan tâm đến người khiếm thính.",
-    day: "2 bài giảng",
-    free: true,
-    price: null,
-    time: "2 phút",
-    objectives: "Mọi độ tuổi",
-    teacher: "Hoàng Thu Thủy",
-    slug: "dong-vat-quen-thuoc",
-    organization: [
-      {
-        img: "/image/Ellipse-6.png",
-        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
-      },
-    ],
-    courseIntroduction: "Khóa học “Ngôn ngữ Ký hiệu cơ bản – Phần 1: Chào hỏi và Giới thiệu bản thân” giúp bạn bước đầu làm quen với ngôn ngữ ký hiệu thông qua những tình huống giao tiếp đơn giản hàng ngày. Dành cho người khiếm thính và cả người nghe muốn giao tiếp tốt hơn với cộng đồng khiếm thính, khóa học mang đến sự thân thiện, dễ tiếp cận, và dễ thực hành.",
-    output: `
+		lectures: [
+			{ title: "Từ vựng và ký hiệu cơ bản", duration: "1:15", slug: "tu-vung-va-ky-hieu-co-ban" },
+			{ title: "Câu giao tiếp mẫu", duration: "0:51", slug: "tu-vung-va-ky-hieu-co-ban" },
+		],
+		commnents: [
+			{
+				name: "Bạn Hùng",
+				avatar: "/image/comment1.png",
+				content: `Video rõ ràng, dễ hiểu và chậm rãi. Mình có thể bắt chước theo dễ dàng. Trò chơi đoán từ giúp mình nhớ lâu hơn. Cảm ơn chương trình đã tạo bài học thân thiện như vậy!`,
+			},
+			{
+				name: "Chị Hương",
+				avatar: "/image/comment1.png",
+				content: `Tôi rất ấn tượng với cách truyền đạt đơn giản và trực quan. Học sinh của tôi rất thích phần ký hiệu chậm và trò chơi cuối video. Mong có thêm nhiều bài học như vậy cho các chủ đề khác!`,
+			},
+			{
+				name: "Chị Lan",
+				avatar: "/image/comment1.png",
+				content: `Tôi học cùng con và thấy cả hai đều dễ tiếp cận. Cấu trúc video hợp lý, từ dễ đến khó. Đây là cầu nối giúp tôi hiểu con hơn và cùng con học ngôn ngữ ký hiệu một cách vui vẻ.`,
+			},
+		],
+		scienceRegistration: null,
+	},
+	{
+		img: "/image/khoahoctt3.jpg",
+		title: "Động vật quen thuộc",
+		description: "Khóa học gồm các video bài giảng được thiết kế dành riêng cho người mới bắt đầu, giúp bạn học ngôn ngữ ký hiệu mọi lúc, mọi nơi. Phù hợp với phụ huynh, giáo viên, nhân viên xã hội, sinh viên và những ai quan tâm đến người khiếm thính.",
+		day: "2 bài giảng",
+		free: true,
+		price: null,
+		time: "2 phút",
+		objectives: "Mọi độ tuổi",
+		teacher: "Hoàng Thu Thủy",
+		slug: "dong-vat-quen-thuoc",
+		organization: [
+			{
+				img: "/image/Ellipse-6.png",
+				title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+			},
+		],
+		courseIntroduction: "Khóa học “Ngôn ngữ Ký hiệu cơ bản – Phần 1: Chào hỏi và Giới thiệu bản thân” giúp bạn bước đầu làm quen với ngôn ngữ ký hiệu thông qua những tình huống giao tiếp đơn giản hàng ngày. Dành cho người khiếm thính và cả người nghe muốn giao tiếp tốt hơn với cộng đồng khiếm thính, khóa học mang đến sự thân thiện, dễ tiếp cận, và dễ thực hành.",
+		output: `
 		  <p class="text-black text-base  leading-relaxed pl-4">
 			  • Sử dụng đúng ký hiệu cho các từ chào hỏi cơ bản (Xin chào, Tạm biệt, Cảm ơn, Xin lỗi, v.v.).
 		  </p>
@@ -5279,48 +5683,48 @@ export const khoaHocTrucTuyen = [
 			  • Tăng cường kỹ năng nhận diện ký hiệu thông qua trò chơi và thực hành.
 		  </p>
 	  `,
-    lectures: [
-      { title: "Từ vựng và ký hiệu cơ bản", duration: "1:15", slug: "tu-vung-va-ky-hieu-co-ban" },
-      { title: "Câu giao tiếp mẫu", duration: "0:51", slug: "tu-vung-va-ky-hieu-co-ban" },
-    ],
-    commnents: [
-      {
-        name: "Bạn Hùng",
-        avatar: "/image/comment1.png",
-        content: `Video rõ ràng, dễ hiểu và chậm rãi. Mình có thể bắt chước theo dễ dàng. Trò chơi đoán từ giúp mình nhớ lâu hơn. Cảm ơn chương trình đã tạo bài học thân thiện như vậy!`,
-      },
-      {
-        name: "Chị Hương",
-        avatar: "/image/comment1.png",
-        content: `Tôi rất ấn tượng với cách truyền đạt đơn giản và trực quan. Học sinh của tôi rất thích phần ký hiệu chậm và trò chơi cuối video. Mong có thêm nhiều bài học như vậy cho các chủ đề khác!`,
-      },
-      {
-        name: "Chị Lan",
-        avatar: "/image/comment1.png",
-        content: `Tôi học cùng con và thấy cả hai đều dễ tiếp cận. Cấu trúc video hợp lý, từ dễ đến khó. Đây là cầu nối giúp tôi hiểu con hơn và cùng con học ngôn ngữ ký hiệu một cách vui vẻ.`,
-      },
-    ],
-    scienceRegistration: null,
-  },
-  {
-    img: "/image/khoahoctt4.jpg",
-    title: "Giao Tiếp Tự Tin với Người Khiếm Thính",
-    description: "Khóa học gồm các video bài giảng được thiết kế dành riêng cho người mới bắt đầu, giúp bạn học ngôn ngữ ký hiệu mọi lúc, mọi nơi. Phù hợp với phụ huynh, giáo viên, nhân viên xã hội, sinh viên và những ai quan tâm đến người khiếm thính.",
-    day: "5 bài giảng",
-    free: false,
-    price: "500.000 VND",
-    time: "90 phút",
-    objectives: "Mọi độ tuổi",
-    teacher: "Hoàng Thu Thủy",
-    slug: "giao-tiep-tu-tin-voi-nguoi-khiem-thinh",
-    organization: [
-      {
-        img: "/image/Ellipse-6.png",
-        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
-      },
-    ],
-    courseIntroduction: "Khóa học “Ngôn ngữ Ký hiệu cơ bản – Phần 1: Chào hỏi và Giới thiệu bản thân” giúp bạn bước đầu làm quen với ngôn ngữ ký hiệu thông qua những tình huống giao tiếp đơn giản hàng ngày. Dành cho người khiếm thính và cả người nghe muốn giao tiếp tốt hơn với cộng đồng khiếm thính, khóa học mang đến sự thân thiện, dễ tiếp cận, và dễ thực hành.",
-    output: `
+		lectures: [
+			{ title: "Từ vựng và ký hiệu cơ bản", duration: "1:15", slug: "tu-vung-va-ky-hieu-co-ban" },
+			{ title: "Câu giao tiếp mẫu", duration: "0:51", slug: "tu-vung-va-ky-hieu-co-ban" },
+		],
+		commnents: [
+			{
+				name: "Bạn Hùng",
+				avatar: "/image/comment1.png",
+				content: `Video rõ ràng, dễ hiểu và chậm rãi. Mình có thể bắt chước theo dễ dàng. Trò chơi đoán từ giúp mình nhớ lâu hơn. Cảm ơn chương trình đã tạo bài học thân thiện như vậy!`,
+			},
+			{
+				name: "Chị Hương",
+				avatar: "/image/comment1.png",
+				content: `Tôi rất ấn tượng với cách truyền đạt đơn giản và trực quan. Học sinh của tôi rất thích phần ký hiệu chậm và trò chơi cuối video. Mong có thêm nhiều bài học như vậy cho các chủ đề khác!`,
+			},
+			{
+				name: "Chị Lan",
+				avatar: "/image/comment1.png",
+				content: `Tôi học cùng con và thấy cả hai đều dễ tiếp cận. Cấu trúc video hợp lý, từ dễ đến khó. Đây là cầu nối giúp tôi hiểu con hơn và cùng con học ngôn ngữ ký hiệu một cách vui vẻ.`,
+			},
+		],
+		scienceRegistration: null,
+	},
+	{
+		img: "/image/khoahoctt4.jpg",
+		title: "Giao Tiếp Tự Tin với Người Khiếm Thính",
+		description: "Khóa học gồm các video bài giảng được thiết kế dành riêng cho người mới bắt đầu, giúp bạn học ngôn ngữ ký hiệu mọi lúc, mọi nơi. Phù hợp với phụ huynh, giáo viên, nhân viên xã hội, sinh viên và những ai quan tâm đến người khiếm thính.",
+		day: "5 bài giảng",
+		free: false,
+		price: "500.000 VND",
+		time: "90 phút",
+		objectives: "Mọi độ tuổi",
+		teacher: "Hoàng Thu Thủy",
+		slug: "giao-tiep-tu-tin-voi-nguoi-khiem-thinh",
+		organization: [
+			{
+				img: "/image/Ellipse-6.png",
+				title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+			},
+		],
+		courseIntroduction: "Khóa học “Ngôn ngữ Ký hiệu cơ bản – Phần 1: Chào hỏi và Giới thiệu bản thân” giúp bạn bước đầu làm quen với ngôn ngữ ký hiệu thông qua những tình huống giao tiếp đơn giản hàng ngày. Dành cho người khiếm thính và cả người nghe muốn giao tiếp tốt hơn với cộng đồng khiếm thính, khóa học mang đến sự thân thiện, dễ tiếp cận, và dễ thực hành.",
+		output: `
 		  <p class="text-black text-base leading-relaxed pl-4">
 			  • Sử dụng đúng ký hiệu cho các từ chào hỏi cơ bản (Xin chào, Tạm biệt, Cảm ơn, Xin lỗi, v.v.).
 		  </p>
@@ -5337,38 +5741,38 @@ export const khoaHocTrucTuyen = [
 			  • Tăng cường kỹ năng nhận diện ký hiệu thông qua trò chơi và thực hành.
 		  </p>
 	  `,
-    lectures: [
-      { title: "Giới thiệu về ngôn ngữ ký hiệu và cộng đồng người khiếm thính", duration: "15:30", slug: "gioi-thieu-ve-ngon-ngu-ky-hieu-va-cong-dong-nguoi-khiem-thinh" },
-      { title: "Bảng chữ cái ngôn ngữ ký hiệu", duration: "8:00", slug: "bang-chu-cai-ngon-ngu-ky-hieu" },
-      { title: "Chào hỏi và giới thiệu về bản thân", duration: "7:30", slug: "chao-hoi-va-gioi-thieu-ve-ban-than" },
-      { title: "Từ vựng chủ đề gia đình và bạn bè", duration: "6:30", slug: "tu-vung-chu-de-gia-dinh-va-ban-be" },
-      { title: "Từ vựng chủ đề động vật", duration: "5:00", slug: "tu-vung-chu-de-dong-vat" },
-      { title: "Từ vựng chủ đề thực phẩm và đồ uống", duration: "6:30", slug: "tu-vung-chu-de-thuc-pham-va-do-uong" },
-      { title: "Biểu cảm khuôn mặt và ngữ điệu ký hiệu", duration: "7:00", slug: "bieu-cam-khuon-mat-va-ngu-dieu-ky-hieu" },
-      { title: "Câu hỏi – câu trả lời thường gặp", duration: "6:00", slug: "cau-hoi-cau-tra-loi-thuong-gap" },
-      { title: "Giao tiếp trong lớp học và nơi công cộng", duration: "6:30", slug: "giao-tiep-trong-lop-hoc-va-noi-cong-cong" },
-      { title: "Văn hóa người khiếm thính", duration: "6:30", slug: "van-hoa-nguoi-khiem-thinh" },
-      { title: "Ôn tập và định hướng nâng cao", duration: "6:30", slug: "on-tap-va-dinh-huong-nang-cao" },
-      { title: "Nội dung bổ sung cho bài giảng 12.", duration: "6:30", slug: "noi-dung-bo-sung-cho-bai-giang-12" },
-    ],
-    commnents: [
-      {
-        name: "Bạn Hùng",
-        avatar: "/image/comment1.png",
-        content: `Video rõ ràng, dễ hiểu và chậm rãi. Mình có thể bắt chước theo dễ dàng. Trò chơi đoán từ giúp mình nhớ lâu hơn. Cảm ơn chương trình đã tạo bài học thân thiện như vậy!`,
-      },
-      {
-        name: "Chị Hương",
-        avatar: "/image/comment1.png",
-        content: `Tôi rất ấn tượng với cách truyền đạt đơn giản và trực quan. Học sinh của tôi rất thích phần ký hiệu chậm và trò chơi cuối video. Mong có thêm nhiều bài học như vậy cho các chủ đề khác!`,
-      },
-      {
-        name: "Chị Lan",
-        avatar: "/image/comment1.png",
-        content: `Tôi học cùng con và thấy cả hai đều dễ tiếp cận. Cấu trúc video hợp lý, từ dễ đến khó. Đây là cầu nối giúp tôi hiểu con hơn và cùng con học ngôn ngữ ký hiệu một cách vui vẻ.`,
-      },
-    ],
-    scienceRegistration: `
+		lectures: [
+			{ title: "Giới thiệu về ngôn ngữ ký hiệu và cộng đồng người khiếm thính", duration: "15:30", slug: "gioi-thieu-ve-ngon-ngu-ky-hieu-va-cong-dong-nguoi-khiem-thinh" },
+			{ title: "Bảng chữ cái ngôn ngữ ký hiệu", duration: "8:00", slug: "bang-chu-cai-ngon-ngu-ky-hieu" },
+			{ title: "Chào hỏi và giới thiệu về bản thân", duration: "7:30", slug: "chao-hoi-va-gioi-thieu-ve-ban-than" },
+			{ title: "Từ vựng chủ đề gia đình và bạn bè", duration: "6:30", slug: "tu-vung-chu-de-gia-dinh-va-ban-be" },
+			{ title: "Từ vựng chủ đề động vật", duration: "5:00", slug: "tu-vung-chu-de-dong-vat" },
+			{ title: "Từ vựng chủ đề thực phẩm và đồ uống", duration: "6:30", slug: "tu-vung-chu-de-thuc-pham-va-do-uong" },
+			{ title: "Biểu cảm khuôn mặt và ngữ điệu ký hiệu", duration: "7:00", slug: "bieu-cam-khuon-mat-va-ngu-dieu-ky-hieu" },
+			{ title: "Câu hỏi – câu trả lời thường gặp", duration: "6:00", slug: "cau-hoi-cau-tra-loi-thuong-gap" },
+			{ title: "Giao tiếp trong lớp học và nơi công cộng", duration: "6:30", slug: "giao-tiep-trong-lop-hoc-va-noi-cong-cong" },
+			{ title: "Văn hóa người khiếm thính", duration: "6:30", slug: "van-hoa-nguoi-khiem-thinh" },
+			{ title: "Ôn tập và định hướng nâng cao", duration: "6:30", slug: "on-tap-va-dinh-huong-nang-cao" },
+			{ title: "Nội dung bổ sung cho bài giảng 12.", duration: "6:30", slug: "noi-dung-bo-sung-cho-bai-giang-12" },
+		],
+		commnents: [
+			{
+				name: "Bạn Hùng",
+				avatar: "/image/comment1.png",
+				content: `Video rõ ràng, dễ hiểu và chậm rãi. Mình có thể bắt chước theo dễ dàng. Trò chơi đoán từ giúp mình nhớ lâu hơn. Cảm ơn chương trình đã tạo bài học thân thiện như vậy!`,
+			},
+			{
+				name: "Chị Hương",
+				avatar: "/image/comment1.png",
+				content: `Tôi rất ấn tượng với cách truyền đạt đơn giản và trực quan. Học sinh của tôi rất thích phần ký hiệu chậm và trò chơi cuối video. Mong có thêm nhiều bài học như vậy cho các chủ đề khác!`,
+			},
+			{
+				name: "Chị Lan",
+				avatar: "/image/comment1.png",
+				content: `Tôi học cùng con và thấy cả hai đều dễ tiếp cận. Cấu trúc video hợp lý, từ dễ đến khó. Đây là cầu nối giúp tôi hiểu con hơn và cùng con học ngôn ngữ ký hiệu một cách vui vẻ.`,
+			},
+		],
+		scienceRegistration: `
 	<p class="text-black text-sm leading-relaxed">
 		Vui lòng tiến hành thanh toán để tải xuống trọn bộ 12 video bài giảng của khóa học Ngôn ngữ Ký hiệu Cơ Bản.
 	</p>	
@@ -5388,26 +5792,26 @@ export const khoaHocTrucTuyen = [
 		📱 hoặc liên hệ Foundation for Future để được hỗ trợ
 	</p>
 `,
-  },
-  {
-    img: "/image/khoahoctt5.jpg",
-    title: "Thức ăn và Đồ uống",
-    description: "Khóa học gồm các video bài giảng được thiết kế dành riêng cho người mới bắt đầu, giúp bạn học ngôn ngữ ký hiệu mọi lúc, mọi nơi. Phù hợp với phụ huynh, giáo viên, nhân viên xã hội, sinh viên và những ai quan tâm đến người khiếm thính.",
-    day: "2 bài giảng",
-    free: true,
-    price: null,
-    time: "2 phút",
-    objectives: "Mọi độ tuổi",
-    teacher: "Hoàng Thu Thủy",
-    slug: "thuc-an-va-do-uong",
-    organization: [
-      {
-        img: "/image/Ellipse-6.png",
-        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
-      },
-    ],
-    courseIntroduction: "Khóa học “Ngôn ngữ Ký hiệu cơ bản – Phần 1: Chào hỏi và Giới thiệu bản thân” giúp bạn bước đầu làm quen với ngôn ngữ ký hiệu thông qua những tình huống giao tiếp đơn giản hàng ngày. Dành cho người khiếm thính và cả người nghe muốn giao tiếp tốt hơn với cộng đồng khiếm thính, khóa học mang đến sự thân thiện, dễ tiếp cận, và dễ thực hành.",
-    output: `
+	},
+	{
+		img: "/image/khoahoctt5.jpg",
+		title: "Thức ăn và Đồ uống",
+		description: "Khóa học gồm các video bài giảng được thiết kế dành riêng cho người mới bắt đầu, giúp bạn học ngôn ngữ ký hiệu mọi lúc, mọi nơi. Phù hợp với phụ huynh, giáo viên, nhân viên xã hội, sinh viên và những ai quan tâm đến người khiếm thính.",
+		day: "2 bài giảng",
+		free: true,
+		price: null,
+		time: "2 phút",
+		objectives: "Mọi độ tuổi",
+		teacher: "Hoàng Thu Thủy",
+		slug: "thuc-an-va-do-uong",
+		organization: [
+			{
+				img: "/image/Ellipse-6.png",
+				title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+			},
+		],
+		courseIntroduction: "Khóa học “Ngôn ngữ Ký hiệu cơ bản – Phần 1: Chào hỏi và Giới thiệu bản thân” giúp bạn bước đầu làm quen với ngôn ngữ ký hiệu thông qua những tình huống giao tiếp đơn giản hàng ngày. Dành cho người khiếm thính và cả người nghe muốn giao tiếp tốt hơn với cộng đồng khiếm thính, khóa học mang đến sự thân thiện, dễ tiếp cận, và dễ thực hành.",
+		output: `
 		  <p class="text-black text-sm  leading-relaxed pl-4">
 			  • Sử dụng đúng ký hiệu cho các từ chào hỏi cơ bản (Xin chào, Tạm biệt, Cảm ơn, Xin lỗi, v.v.).
 		  </p>
@@ -5424,48 +5828,48 @@ export const khoaHocTrucTuyen = [
 			  • Tăng cường kỹ năng nhận diện ký hiệu thông qua trò chơi và thực hành.
 		  </p>
 	  `,
-    lectures: [
-      { title: "Từ vựng và ký hiệu cơ bản", duration: "1:15", slug: "tu-vung-va-ky-hieu-co-ban" },
-      { title: "Câu giao tiếp mẫu", duration: "0:51", slug: "tu-vung-va-ky-hieu-co-ban" },
-    ],
-    commnents: [
-      {
-        name: "Bạn Hùng",
-        avatar: "/image/comment1.png",
-        content: `Video rõ ràng, dễ hiểu và chậm rãi. Mình có thể bắt chước theo dễ dàng. Trò chơi đoán từ giúp mình nhớ lâu hơn. Cảm ơn chương trình đã tạo bài học thân thiện như vậy!`,
-      },
-      {
-        name: "Chị Hương",
-        avatar: "/image/comment1.png",
-        content: `Tôi rất ấn tượng với cách truyền đạt đơn giản và trực quan. Học sinh của tôi rất thích phần ký hiệu chậm và trò chơi cuối video. Mong có thêm nhiều bài học như vậy cho các chủ đề khác!`,
-      },
-      {
-        name: "Chị Lan",
-        avatar: "/image/comment1.png",
-        content: `Tôi học cùng con và thấy cả hai đều dễ tiếp cận. Cấu trúc video hợp lý, từ dễ đến khó. Đây là cầu nối giúp tôi hiểu con hơn và cùng con học ngôn ngữ ký hiệu một cách vui vẻ.`,
-      },
-    ],
-    scienceRegistration: null,
-  },
-  {
-    img: "/image/khoahoctt6.jpg",
-    title: "Ký Hiệu & Văn Hóa",
-    description: "Khóa học gồm các video bài giảng được thiết kế dành riêng cho người mới bắt đầu, giúp bạn học ngôn ngữ ký hiệu mọi lúc, mọi nơi. Phù hợp với phụ huynh, giáo viên, nhân viên xã hội, sinh viên và những ai quan tâm đến người khiếm thính.",
-    day: "5 bài giảng",
-    free: false,
-    price: "500.000 VND",
-    time: "90 phút",
-    objectives: "Mọi độ tuổi",
-    teacher: "Hoàng Thu Thủy",
-    slug: "ky-hieu-van-hoa",
-    organization: [
-      {
-        img: "/image/Ellipse-6.png",
-        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
-      },
-    ],
-    courseIntroduction: "Khóa học “Ngôn ngữ Ký hiệu cơ bản – Phần 1: Chào hỏi và Giới thiệu bản thân” giúp bạn bước đầu làm quen với ngôn ngữ ký hiệu thông qua những tình huống giao tiếp đơn giản hàng ngày. Dành cho người khiếm thính và cả người nghe muốn giao tiếp tốt hơn với cộng đồng khiếm thính, khóa học mang đến sự thân thiện, dễ tiếp cận, và dễ thực hành.",
-    output: `
+		lectures: [
+			{ title: "Từ vựng và ký hiệu cơ bản", duration: "1:15", slug: "tu-vung-va-ky-hieu-co-ban" },
+			{ title: "Câu giao tiếp mẫu", duration: "0:51", slug: "tu-vung-va-ky-hieu-co-ban" },
+		],
+		commnents: [
+			{
+				name: "Bạn Hùng",
+				avatar: "/image/comment1.png",
+				content: `Video rõ ràng, dễ hiểu và chậm rãi. Mình có thể bắt chước theo dễ dàng. Trò chơi đoán từ giúp mình nhớ lâu hơn. Cảm ơn chương trình đã tạo bài học thân thiện như vậy!`,
+			},
+			{
+				name: "Chị Hương",
+				avatar: "/image/comment1.png",
+				content: `Tôi rất ấn tượng với cách truyền đạt đơn giản và trực quan. Học sinh của tôi rất thích phần ký hiệu chậm và trò chơi cuối video. Mong có thêm nhiều bài học như vậy cho các chủ đề khác!`,
+			},
+			{
+				name: "Chị Lan",
+				avatar: "/image/comment1.png",
+				content: `Tôi học cùng con và thấy cả hai đều dễ tiếp cận. Cấu trúc video hợp lý, từ dễ đến khó. Đây là cầu nối giúp tôi hiểu con hơn và cùng con học ngôn ngữ ký hiệu một cách vui vẻ.`,
+			},
+		],
+		scienceRegistration: null,
+	},
+	{
+		img: "/image/khoahoctt6.jpg",
+		title: "Ký Hiệu & Văn Hóa",
+		description: "Khóa học gồm các video bài giảng được thiết kế dành riêng cho người mới bắt đầu, giúp bạn học ngôn ngữ ký hiệu mọi lúc, mọi nơi. Phù hợp với phụ huynh, giáo viên, nhân viên xã hội, sinh viên và những ai quan tâm đến người khiếm thính.",
+		day: "5 bài giảng",
+		free: false,
+		price: "500.000 VND",
+		time: "90 phút",
+		objectives: "Mọi độ tuổi",
+		teacher: "Hoàng Thu Thủy",
+		slug: "ky-hieu-van-hoa",
+		organization: [
+			{
+				img: "/image/Ellipse-6.png",
+				title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+			},
+		],
+		courseIntroduction: "Khóa học “Ngôn ngữ Ký hiệu cơ bản – Phần 1: Chào hỏi và Giới thiệu bản thân” giúp bạn bước đầu làm quen với ngôn ngữ ký hiệu thông qua những tình huống giao tiếp đơn giản hàng ngày. Dành cho người khiếm thính và cả người nghe muốn giao tiếp tốt hơn với cộng đồng khiếm thính, khóa học mang đến sự thân thiện, dễ tiếp cận, và dễ thực hành.",
+		output: `
 		  <p class="text-black text-sm  leading-relaxed pl-4">
 			  • Sử dụng đúng ký hiệu cho các từ chào hỏi cơ bản (Xin chào, Tạm biệt, Cảm ơn, Xin lỗi, v.v.).
 		  </p>
@@ -5482,38 +5886,38 @@ export const khoaHocTrucTuyen = [
 			  • Tăng cường kỹ năng nhận diện ký hiệu thông qua trò chơi và thực hành.
 		  </p>
 	  `,
-    lectures: [
-      { title: "Giới thiệu về ngôn ngữ ký hiệu và cộng đồng người khiếm thính", duration: "15:30", slug: "gioi-thieu-ve-ngon-ngu-ky-hieu-va-cong-dong-nguoi-khiem-thinh" },
-      { title: "Bảng chữ cái ngôn ngữ ký hiệu", duration: "8:00", slug: "bang-chu-cai-ngon-ngu-ky-hieu" },
-      { title: "Chào hỏi và giới thiệu về bản thân", duration: "7:30", slug: "chao-hoi-va-gioi-thieu-ve-ban-than" },
-      { title: "Từ vựng chủ đề gia đình và bạn bè", duration: "6:30", slug: "tu-vung-chu-de-gia-dinh-va-ban-be" },
-      { title: "Từ vựng chủ đề động vật", duration: "5:00", slug: "tu-vung-chu-de-dong-vat" },
-      { title: "Từ vựng chủ đề thực phẩm và đồ uống", duration: "6:30", slug: "tu-vung-chu-de-thuc-pham-va-do-uong" },
-      { title: "Biểu cảm khuôn mặt và ngữ điệu ký hiệu", duration: "7:00", slug: "bieu-cam-khuon-mat-va-ngu-dieu-ky-hieu" },
-      { title: "Câu hỏi – câu trả lời thường gặp", duration: "6:00", slug: "cau-hoi-cau-tra-loi-thuong-gap" },
-      { title: "Giao tiếp trong lớp học và nơi công cộng", duration: "6:30", slug: "giao-tiep-trong-lop-hoc-va-noi-cong-cong" },
-      { title: "Văn hóa người khiếm thính", duration: "6:30", slug: "van-hoa-nguoi-khiem-thinh" },
-      { title: "Ôn tập và định hướng nâng cao", duration: "6:30", slug: "on-tap-va-dinh-huong-nang-cao" },
-      { title: "Nội dung bổ sung cho bài giảng 12.", duration: "6:30", slug: "noi-dung-bo-sung-cho-bai-giang-12" },
-    ],
-    commnents: [
-      {
-        name: "Bạn Hùng",
-        avatar: "/image/comment1.png",
-        content: `Video rõ ràng, dễ hiểu và chậm rãi. Mình có thể bắt chước theo dễ dàng. Trò chơi đoán từ giúp mình nhớ lâu hơn. Cảm ơn chương trình đã tạo bài học thân thiện như vậy!`,
-      },
-      {
-        name: "Chị Hương",
-        avatar: "/image/comment1.png",
-        content: `Tôi rất ấn tượng với cách truyền đạt đơn giản và trực quan. Học sinh của tôi rất thích phần ký hiệu chậm và trò chơi cuối video. Mong có thêm nhiều bài học như vậy cho các chủ đề khác!`,
-      },
-      {
-        name: "Chị Lan",
-        avatar: "/image/comment1.png",
-        content: `Tôi học cùng con và thấy cả hai đều dễ tiếp cận. Cấu trúc video hợp lý, từ dễ đến khó. Đây là cầu nối giúp tôi hiểu con hơn và cùng con học ngôn ngữ ký hiệu một cách vui vẻ.`,
-      },
-    ],
-    scienceRegistration: `
+		lectures: [
+			{ title: "Giới thiệu về ngôn ngữ ký hiệu và cộng đồng người khiếm thính", duration: "15:30", slug: "gioi-thieu-ve-ngon-ngu-ky-hieu-va-cong-dong-nguoi-khiem-thinh" },
+			{ title: "Bảng chữ cái ngôn ngữ ký hiệu", duration: "8:00", slug: "bang-chu-cai-ngon-ngu-ky-hieu" },
+			{ title: "Chào hỏi và giới thiệu về bản thân", duration: "7:30", slug: "chao-hoi-va-gioi-thieu-ve-ban-than" },
+			{ title: "Từ vựng chủ đề gia đình và bạn bè", duration: "6:30", slug: "tu-vung-chu-de-gia-dinh-va-ban-be" },
+			{ title: "Từ vựng chủ đề động vật", duration: "5:00", slug: "tu-vung-chu-de-dong-vat" },
+			{ title: "Từ vựng chủ đề thực phẩm và đồ uống", duration: "6:30", slug: "tu-vung-chu-de-thuc-pham-va-do-uong" },
+			{ title: "Biểu cảm khuôn mặt và ngữ điệu ký hiệu", duration: "7:00", slug: "bieu-cam-khuon-mat-va-ngu-dieu-ky-hieu" },
+			{ title: "Câu hỏi – câu trả lời thường gặp", duration: "6:00", slug: "cau-hoi-cau-tra-loi-thuong-gap" },
+			{ title: "Giao tiếp trong lớp học và nơi công cộng", duration: "6:30", slug: "giao-tiep-trong-lop-hoc-va-noi-cong-cong" },
+			{ title: "Văn hóa người khiếm thính", duration: "6:30", slug: "van-hoa-nguoi-khiem-thinh" },
+			{ title: "Ôn tập và định hướng nâng cao", duration: "6:30", slug: "on-tap-va-dinh-huong-nang-cao" },
+			{ title: "Nội dung bổ sung cho bài giảng 12.", duration: "6:30", slug: "noi-dung-bo-sung-cho-bai-giang-12" },
+		],
+		commnents: [
+			{
+				name: "Bạn Hùng",
+				avatar: "/image/comment1.png",
+				content: `Video rõ ràng, dễ hiểu và chậm rãi. Mình có thể bắt chước theo dễ dàng. Trò chơi đoán từ giúp mình nhớ lâu hơn. Cảm ơn chương trình đã tạo bài học thân thiện như vậy!`,
+			},
+			{
+				name: "Chị Hương",
+				avatar: "/image/comment1.png",
+				content: `Tôi rất ấn tượng với cách truyền đạt đơn giản và trực quan. Học sinh của tôi rất thích phần ký hiệu chậm và trò chơi cuối video. Mong có thêm nhiều bài học như vậy cho các chủ đề khác!`,
+			},
+			{
+				name: "Chị Lan",
+				avatar: "/image/comment1.png",
+				content: `Tôi học cùng con và thấy cả hai đều dễ tiếp cận. Cấu trúc video hợp lý, từ dễ đến khó. Đây là cầu nối giúp tôi hiểu con hơn và cùng con học ngôn ngữ ký hiệu một cách vui vẻ.`,
+			},
+		],
+		scienceRegistration: `
 	<p class="text-black text-sm leading-relaxed">
 		Vui lòng tiến hành thanh toán để tải xuống trọn bộ 12 video bài giảng của khóa học Ngôn ngữ Ký hiệu Cơ Bản.
 	</p>	
@@ -5533,26 +5937,26 @@ export const khoaHocTrucTuyen = [
 		📱 hoặc liên hệ Foundation for Future để được hỗ trợ
 	</p>
 `,
-  },
-  {
-    img: "/image/khoahoctt7.jpg",
-    title: "Ngôn ngữ Ký hiệu dành cho Giáo viên và Nhân viên Hỗ trợ",
-    description: "Khóa học gồm các video bài giảng được thiết kế dành riêng cho người mới bắt đầu, giúp bạn học ngôn ngữ ký hiệu mọi lúc, mọi nơi. Phù hợp với phụ huynh, giáo viên, nhân viên xã hội, sinh viên và những ai quan tâm đến người khiếm thính.",
-    day: "5 bài giảng",
-    free: false,
-    price: "500.000 VND",
-    time: "90 phút",
-    objectives: "Mọi độ tuổi",
-    teacher: "Hoàng Thu Thủy",
-    slug: "ngon-ngu-ky-hieu-danh-cho-giao-vien-va-nhan-vien-ho-tro",
-    organization: [
-      {
-        img: "/image/Ellipse-6.png",
-        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
-      },
-    ],
-    courseIntroduction: "Khóa học “Ngôn ngữ Ký hiệu cơ bản – Phần 1: Chào hỏi và Giới thiệu bản thân” giúp bạn bước đầu làm quen với ngôn ngữ ký hiệu thông qua những tình huống giao tiếp đơn giản hàng ngày. Dành cho người khiếm thính và cả người nghe muốn giao tiếp tốt hơn với cộng đồng khiếm thính, khóa học mang đến sự thân thiện, dễ tiếp cận, và dễ thực hành.",
-    output: `
+	},
+	{
+		img: "/image/khoahoctt7.jpg",
+		title: "Ngôn ngữ Ký hiệu dành cho Giáo viên và Nhân viên Hỗ trợ",
+		description: "Khóa học gồm các video bài giảng được thiết kế dành riêng cho người mới bắt đầu, giúp bạn học ngôn ngữ ký hiệu mọi lúc, mọi nơi. Phù hợp với phụ huynh, giáo viên, nhân viên xã hội, sinh viên và những ai quan tâm đến người khiếm thính.",
+		day: "5 bài giảng",
+		free: false,
+		price: "500.000 VND",
+		time: "90 phút",
+		objectives: "Mọi độ tuổi",
+		teacher: "Hoàng Thu Thủy",
+		slug: "ngon-ngu-ky-hieu-danh-cho-giao-vien-va-nhan-vien-ho-tro",
+		organization: [
+			{
+				img: "/image/Ellipse-6.png",
+				title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+			},
+		],
+		courseIntroduction: "Khóa học “Ngôn ngữ Ký hiệu cơ bản – Phần 1: Chào hỏi và Giới thiệu bản thân” giúp bạn bước đầu làm quen với ngôn ngữ ký hiệu thông qua những tình huống giao tiếp đơn giản hàng ngày. Dành cho người khiếm thính và cả người nghe muốn giao tiếp tốt hơn với cộng đồng khiếm thính, khóa học mang đến sự thân thiện, dễ tiếp cận, và dễ thực hành.",
+		output: `
 		  <p class="text-black text-base leading-relaxed pl-4">
 			  • Sử dụng đúng ký hiệu cho các từ chào hỏi cơ bản (Xin chào, Tạm biệt, Cảm ơn, Xin lỗi, v.v.).
 		  </p>
@@ -5569,38 +5973,38 @@ export const khoaHocTrucTuyen = [
 			  • Tăng cường kỹ năng nhận diện ký hiệu thông qua trò chơi và thực hành.
 		  </p>
 	  `,
-    lectures: [
-      { title: "Giới thiệu về ngôn ngữ ký hiệu và cộng đồng người khiếm thính", duration: "15:30", slug: "gioi-thieu-ve-ngon-ngu-ky-hieu-va-cong-dong-nguoi-khiem-thinh" },
-      { title: "Bảng chữ cái ngôn ngữ ký hiệu", duration: "8:00", slug: "bang-chu-cai-ngon-ngu-ky-hieu" },
-      { title: "Chào hỏi và giới thiệu về bản thân", duration: "7:30", slug: "chao-hoi-va-gioi-thieu-ve-ban-than" },
-      { title: "Từ vựng chủ đề gia đình và bạn bè", duration: "6:30", slug: "tu-vung-chu-de-gia-dinh-va-ban-be" },
-      { title: "Từ vựng chủ đề động vật", duration: "5:00", slug: "tu-vung-chu-de-dong-vat" },
-      { title: "Từ vựng chủ đề thực phẩm và đồ uống", duration: "6:30", slug: "tu-vung-chu-de-thuc-pham-va-do-uong" },
-      { title: "Biểu cảm khuôn mặt và ngữ điệu ký hiệu", duration: "7:00", slug: "bieu-cam-khuon-mat-va-ngu-dieu-ky-hieu" },
-      { title: "Câu hỏi – câu trả lời thường gặp", duration: "6:00", slug: "cau-hoi-cau-tra-loi-thuong-gap" },
-      { title: "Giao tiếp trong lớp học và nơi công cộng", duration: "6:30", slug: "giao-tiep-trong-lop-hoc-va-noi-cong-cong" },
-      { title: "Văn hóa người khiếm thính", duration: "6:30", slug: "van-hoa-nguoi-khiem-thinh" },
-      { title: "Ôn tập và định hướng nâng cao", duration: "6:30", slug: "on-tap-va-dinh-huong-nang-cao" },
-      { title: "Nội dung bổ sung cho bài giảng 12.", duration: "6:30", slug: "noi-dung-bo-sung-cho-bai-giang-12" },
-    ],
-    commnents: [
-      {
-        name: "Bạn Hùng",
-        avatar: "/image/comment1.png",
-        content: `Video rõ ràng, dễ hiểu và chậm rãi. Mình có thể bắt chước theo dễ dàng. Trò chơi đoán từ giúp mình nhớ lâu hơn. Cảm ơn chương trình đã tạo bài học thân thiện như vậy!`,
-      },
-      {
-        name: "Chị Hương",
-        avatar: "/image/comment1.png",
-        content: `Tôi rất ấn tượng với cách truyền đạt đơn giản và trực quan. Học sinh của tôi rất thích phần ký hiệu chậm và trò chơi cuối video. Mong có thêm nhiều bài học như vậy cho các chủ đề khác!`,
-      },
-      {
-        name: "Chị Lan",
-        avatar: "/image/comment1.png",
-        content: `Tôi học cùng con và thấy cả hai đều dễ tiếp cận. Cấu trúc video hợp lý, từ dễ đến khó. Đây là cầu nối giúp tôi hiểu con hơn và cùng con học ngôn ngữ ký hiệu một cách vui vẻ.`,
-      },
-    ],
-    scienceRegistration: `
+		lectures: [
+			{ title: "Giới thiệu về ngôn ngữ ký hiệu và cộng đồng người khiếm thính", duration: "15:30", slug: "gioi-thieu-ve-ngon-ngu-ky-hieu-va-cong-dong-nguoi-khiem-thinh" },
+			{ title: "Bảng chữ cái ngôn ngữ ký hiệu", duration: "8:00", slug: "bang-chu-cai-ngon-ngu-ky-hieu" },
+			{ title: "Chào hỏi và giới thiệu về bản thân", duration: "7:30", slug: "chao-hoi-va-gioi-thieu-ve-ban-than" },
+			{ title: "Từ vựng chủ đề gia đình và bạn bè", duration: "6:30", slug: "tu-vung-chu-de-gia-dinh-va-ban-be" },
+			{ title: "Từ vựng chủ đề động vật", duration: "5:00", slug: "tu-vung-chu-de-dong-vat" },
+			{ title: "Từ vựng chủ đề thực phẩm và đồ uống", duration: "6:30", slug: "tu-vung-chu-de-thuc-pham-va-do-uong" },
+			{ title: "Biểu cảm khuôn mặt và ngữ điệu ký hiệu", duration: "7:00", slug: "bieu-cam-khuon-mat-va-ngu-dieu-ky-hieu" },
+			{ title: "Câu hỏi – câu trả lời thường gặp", duration: "6:00", slug: "cau-hoi-cau-tra-loi-thuong-gap" },
+			{ title: "Giao tiếp trong lớp học và nơi công cộng", duration: "6:30", slug: "giao-tiep-trong-lop-hoc-va-noi-cong-cong" },
+			{ title: "Văn hóa người khiếm thính", duration: "6:30", slug: "van-hoa-nguoi-khiem-thinh" },
+			{ title: "Ôn tập và định hướng nâng cao", duration: "6:30", slug: "on-tap-va-dinh-huong-nang-cao" },
+			{ title: "Nội dung bổ sung cho bài giảng 12.", duration: "6:30", slug: "noi-dung-bo-sung-cho-bai-giang-12" },
+		],
+		commnents: [
+			{
+				name: "Bạn Hùng",
+				avatar: "/image/comment1.png",
+				content: `Video rõ ràng, dễ hiểu và chậm rãi. Mình có thể bắt chước theo dễ dàng. Trò chơi đoán từ giúp mình nhớ lâu hơn. Cảm ơn chương trình đã tạo bài học thân thiện như vậy!`,
+			},
+			{
+				name: "Chị Hương",
+				avatar: "/image/comment1.png",
+				content: `Tôi rất ấn tượng với cách truyền đạt đơn giản và trực quan. Học sinh của tôi rất thích phần ký hiệu chậm và trò chơi cuối video. Mong có thêm nhiều bài học như vậy cho các chủ đề khác!`,
+			},
+			{
+				name: "Chị Lan",
+				avatar: "/image/comment1.png",
+				content: `Tôi học cùng con và thấy cả hai đều dễ tiếp cận. Cấu trúc video hợp lý, từ dễ đến khó. Đây là cầu nối giúp tôi hiểu con hơn và cùng con học ngôn ngữ ký hiệu một cách vui vẻ.`,
+			},
+		],
+		scienceRegistration: `
 	<p class="text-black text-sm leading-relaxed">
 		Vui lòng tiến hành thanh toán để tải xuống trọn bộ 12 video bài giảng của khóa học Ngôn ngữ Ký hiệu Cơ Bản.
 	</p>	
@@ -5620,28 +6024,28 @@ export const khoaHocTrucTuyen = [
 		📱 hoặc liên hệ Foundation for Future để được hỗ trợ
 	</p>
 `,
-  },
+	},
 ];
 export const triLieuNgonNgu = [
-  {
-    img: "/image/trilieu1.jpg",
-    title: "Trị liệu ngôn ngữ cá nhân",
-    description: "Cải thiện kỹ năng giao tiếp và ngôn ngữ cho trẻ và thanh thiếu niên khiếm thính – hướng dẫn bởi chuyên viên ngôn ngữ giàu kinh nghiệm.",
-    day: "12 bài giảng",
-    free: false,
-    price: "100.000 VND",
-    time: "45 phút",
-    form: "Trị liệu cá nhân",
-    objectives: "Mọi độ tuổi",
-    teacher: "Ths. Đỗ Thị Hảo",
-    slug: "tri-lieu-ngon-ngu-ca-nhan",
-    organization: [
-      {
-        img: "/image/Ellipse-6.png",
-        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
-      },
-    ],
-    courseIntroduction: `
+	{
+		img: "/image/trilieu1.jpg",
+		title: "Trị liệu ngôn ngữ cá nhân",
+		description: "Cải thiện kỹ năng giao tiếp và ngôn ngữ cho trẻ và thanh thiếu niên khiếm thính – hướng dẫn bởi chuyên viên ngôn ngữ giàu kinh nghiệm.",
+		day: "12 bài giảng",
+		free: false,
+		price: "100.000 VND",
+		time: "45 phút",
+		form: "Trị liệu cá nhân",
+		objectives: "Mọi độ tuổi",
+		teacher: "Ths. Đỗ Thị Hảo",
+		slug: "tri-lieu-ngon-ngu-ca-nhan",
+		organization: [
+			{
+				img: "/image/Ellipse-6.png",
+				title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+			},
+		],
+		courseIntroduction: `
 		  <p class="text-black text-base leading-relaxed">
 			Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam tổ chức các buổi trị liệu ngôn ngữ 1:1 dành cho trẻ em và thanh thiếu niên khiếm thính nhằm phát triển khả năng giao tiếp, phát âm, sử dụng ngôn ngữ ký hiệu và hiểu ngôn ngữ nói.
 		  </p>
@@ -5670,7 +6074,7 @@ export const triLieuNgonNgu = [
 			📞 Liên hệ tư vấn: 0936 253 215
 		  </p>
 	 	  `,
-    output: `
+		output: `
 			<p class="text-black text-base  leading-relaxed">
 				Phương pháp AVT hướng đến việc giúp trẻ khiếm thính phát triển kỹ năng ngôn ngữ nói và hiểu lời nói thông qua việc sử dụng khả năng nghe (ngay cả khi đã hỗ trợ bằng máy trợ thính hoặc cấy ốc tai điện tử). Đầu ra kỳ vọng bao gồm:
 			</p>
@@ -5712,7 +6116,7 @@ export const triLieuNgonNgu = [
 			</p>
 			
 		`,
-    content: `
+		content: `
 			<p class="text-black text-base font-bold leading-relaxed">
 				1. Kích hoạt và phát triển kỹ năng nghe
 			</p>
@@ -5774,24 +6178,24 @@ export const triLieuNgonNgu = [
 				• Thực hành cùng con thông qua chơi, đọc sách, đối thoại
 			</p>
 		`,
-    commnents: [
-      {
-        name: "Nguyễn Thị Hạnh",
-        avatar: "/image/comment1.png",
-        content: `"Sau 3 tháng tham gia lớp trị liệu 1:1, con tôi đã bắt đầu nói được những từ đơn giản như “mẹ”, “ăn”, “đi chơi” và hiểu nhiều hơn khi người lớn nói chuyện. Giáo viên rất kiên nhẫn và biết cách khuyến khích con học mà không áp lực. Tôi cảm thấy rất biết ơn vì con đang có cơ hội hòa nhập tốt hơn."`,
-      },
-      {
-        name: "Phạm Thu Trà",
-        avatar: "/image/comment1.png",
-        content: `"Tôi rất hài lòng với lớp trị liệu ngôn ngữ cá nhân. Con tôi ban đầu rất ít nói, nhưng sau một thời gian học đã bắt đầu sử dụng từ ngữ rõ ràng hơn và chủ động giao tiếp với người thân. Chuyên viên trị liệu rất tận tâm, kiên nhẫn và hướng dẫn kỹ cho cả gia đình cùng hỗ trợ."`,
-      },
-      {
-        name: "Trần Minh Thư",
-        avatar: "/image/comment1.png",
-        content: `"Tôi thấy chương trình trị liệu cá nhân rất bài bản, có lộ trình rõ ràng và phù hợp với từng học sinh. Học sinh của tôi tiến bộ rõ về khả năng nghe hiểu và diễn đạt. Tôi đặc biệt đánh giá cao sự phối hợp chặt chẽ giữa giáo viên, phụ huynh và chuyên viên trị liệu."`,
-      },
-    ],
-    scienceRegistration: `
+		commnents: [
+			{
+				name: "Nguyễn Thị Hạnh",
+				avatar: "/image/comment1.png",
+				content: `"Sau 3 tháng tham gia lớp trị liệu 1:1, con tôi đã bắt đầu nói được những từ đơn giản như “mẹ”, “ăn”, “đi chơi” và hiểu nhiều hơn khi người lớn nói chuyện. Giáo viên rất kiên nhẫn và biết cách khuyến khích con học mà không áp lực. Tôi cảm thấy rất biết ơn vì con đang có cơ hội hòa nhập tốt hơn."`,
+			},
+			{
+				name: "Phạm Thu Trà",
+				avatar: "/image/comment1.png",
+				content: `"Tôi rất hài lòng với lớp trị liệu ngôn ngữ cá nhân. Con tôi ban đầu rất ít nói, nhưng sau một thời gian học đã bắt đầu sử dụng từ ngữ rõ ràng hơn và chủ động giao tiếp với người thân. Chuyên viên trị liệu rất tận tâm, kiên nhẫn và hướng dẫn kỹ cho cả gia đình cùng hỗ trợ."`,
+			},
+			{
+				name: "Trần Minh Thư",
+				avatar: "/image/comment1.png",
+				content: `"Tôi thấy chương trình trị liệu cá nhân rất bài bản, có lộ trình rõ ràng và phù hợp với từng học sinh. Học sinh của tôi tiến bộ rõ về khả năng nghe hiểu và diễn đạt. Tôi đặc biệt đánh giá cao sự phối hợp chặt chẽ giữa giáo viên, phụ huynh và chuyên viên trị liệu."`,
+			},
+		],
+		scienceRegistration: `
 			<p class="text-black text-base leading-relaxed">
 				🔹 Cách đăng ký:
 			</p>	
@@ -5809,26 +6213,26 @@ export const triLieuNgonNgu = [
 			</p>
 	
 		`,
-  },
-  {
-    img: "/image/trilieu2.jpg",
-    title: "Trị liệu ngôn ngữ",
-    description: "Cải thiện kỹ năng giao tiếp và ngôn ngữ cho trẻ và thanh thiếu niên khiếm thính – hướng dẫn bởi chuyên viên ngôn ngữ giàu kinh nghiệm.",
-    day: "12 bài giảng",
-    free: false,
-    price: "100.000 VND",
-    time: "45 phút",
-    form: "Trị liệu cá nhân",
-    objectives: "Mọi độ tuổi",
-    teacher: "Ths. Đỗ Thị Hảo",
-    slug: "tri-lieu-ngon-ngu",
-    organization: [
-      {
-        img: "/image/Ellipse-6.png",
-        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
-      },
-    ],
-    courseIntroduction: `
+	},
+	{
+		img: "/image/trilieu2.jpg",
+		title: "Trị liệu ngôn ngữ",
+		description: "Cải thiện kỹ năng giao tiếp và ngôn ngữ cho trẻ và thanh thiếu niên khiếm thính – hướng dẫn bởi chuyên viên ngôn ngữ giàu kinh nghiệm.",
+		day: "12 bài giảng",
+		free: false,
+		price: "100.000 VND",
+		time: "45 phút",
+		form: "Trị liệu cá nhân",
+		objectives: "Mọi độ tuổi",
+		teacher: "Ths. Đỗ Thị Hảo",
+		slug: "tri-lieu-ngon-ngu",
+		organization: [
+			{
+				img: "/image/Ellipse-6.png",
+				title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+			},
+		],
+		courseIntroduction: `
 		  <p class="text-black text-base leading-relaxed">
 			Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam tổ chức các buổi trị liệu ngôn ngữ 1:1 dành cho trẻ em và thanh thiếu niên khiếm thính nhằm phát triển khả năng giao tiếp, phát âm, sử dụng ngôn ngữ ký hiệu và hiểu ngôn ngữ nói.
 		  </p>
@@ -5857,7 +6261,7 @@ export const triLieuNgonNgu = [
 			📞 Liên hệ tư vấn: 0936 253 215
 		  </p>
 	 	  `,
-    output: `
+		output: `
 			<p class="text-black text-base  leading-relaxed">
 				Phương pháp AVT hướng đến việc giúp trẻ khiếm thính phát triển kỹ năng ngôn ngữ nói và hiểu lời nói thông qua việc sử dụng khả năng nghe (ngay cả khi đã hỗ trợ bằng máy trợ thính hoặc cấy ốc tai điện tử). Đầu ra kỳ vọng bao gồm:
 			</p>
@@ -5899,7 +6303,7 @@ export const triLieuNgonNgu = [
 			</p>
 			
 		`,
-    content: `
+		content: `
 			<p class="text-black text-base font-bold leading-relaxed">
 				1. Kích hoạt và phát triển kỹ năng nghe
 			</p>
@@ -5961,24 +6365,24 @@ export const triLieuNgonNgu = [
 				• Thực hành cùng con thông qua chơi, đọc sách, đối thoại
 			</p>
 		`,
-    commnents: [
-      {
-        name: "Nguyễn Thị Hạnh",
-        avatar: "/image/comment1.png",
-        content: `"Sau 3 tháng tham gia lớp trị liệu 1:1, con tôi đã bắt đầu nói được những từ đơn giản như “mẹ”, “ăn”, “đi chơi” và hiểu nhiều hơn khi người lớn nói chuyện. Giáo viên rất kiên nhẫn và biết cách khuyến khích con học mà không áp lực. Tôi cảm thấy rất biết ơn vì con đang có cơ hội hòa nhập tốt hơn."`,
-      },
-      {
-        name: "Phạm Thu Trà",
-        avatar: "/image/comment1.png",
-        content: `"Tôi rất hài lòng với lớp trị liệu ngôn ngữ cá nhân. Con tôi ban đầu rất ít nói, nhưng sau một thời gian học đã bắt đầu sử dụng từ ngữ rõ ràng hơn và chủ động giao tiếp với người thân. Chuyên viên trị liệu rất tận tâm, kiên nhẫn và hướng dẫn kỹ cho cả gia đình cùng hỗ trợ."`,
-      },
-      {
-        name: "Trần Minh Thư",
-        avatar: "/image/comment1.png",
-        content: `"Tôi thấy chương trình trị liệu cá nhân rất bài bản, có lộ trình rõ ràng và phù hợp với từng học sinh. Học sinh của tôi tiến bộ rõ về khả năng nghe hiểu và diễn đạt. Tôi đặc biệt đánh giá cao sự phối hợp chặt chẽ giữa giáo viên, phụ huynh và chuyên viên trị liệu."`,
-      },
-    ],
-    scienceRegistration: `
+		commnents: [
+			{
+				name: "Nguyễn Thị Hạnh",
+				avatar: "/image/comment1.png",
+				content: `"Sau 3 tháng tham gia lớp trị liệu 1:1, con tôi đã bắt đầu nói được những từ đơn giản như “mẹ”, “ăn”, “đi chơi” và hiểu nhiều hơn khi người lớn nói chuyện. Giáo viên rất kiên nhẫn và biết cách khuyến khích con học mà không áp lực. Tôi cảm thấy rất biết ơn vì con đang có cơ hội hòa nhập tốt hơn."`,
+			},
+			{
+				name: "Phạm Thu Trà",
+				avatar: "/image/comment1.png",
+				content: `"Tôi rất hài lòng với lớp trị liệu ngôn ngữ cá nhân. Con tôi ban đầu rất ít nói, nhưng sau một thời gian học đã bắt đầu sử dụng từ ngữ rõ ràng hơn và chủ động giao tiếp với người thân. Chuyên viên trị liệu rất tận tâm, kiên nhẫn và hướng dẫn kỹ cho cả gia đình cùng hỗ trợ."`,
+			},
+			{
+				name: "Trần Minh Thư",
+				avatar: "/image/comment1.png",
+				content: `"Tôi thấy chương trình trị liệu cá nhân rất bài bản, có lộ trình rõ ràng và phù hợp với từng học sinh. Học sinh của tôi tiến bộ rõ về khả năng nghe hiểu và diễn đạt. Tôi đặc biệt đánh giá cao sự phối hợp chặt chẽ giữa giáo viên, phụ huynh và chuyên viên trị liệu."`,
+			},
+		],
+		scienceRegistration: `
 			<p class="text-black text-base leading-relaxed">
 				🔹 Cách đăng ký:
 			</p>	
@@ -5996,26 +6400,26 @@ export const triLieuNgonNgu = [
 			</p>
 	
 		`,
-  },
-  {
-    img: "/image/trilieu3.jpg",
-    title: "Âm ngữ trị liệu",
-    description: "Cải thiện kỹ năng giao tiếp và ngôn ngữ cho trẻ và thanh thiếu niên khiếm thính – hướng dẫn bởi chuyên viên ngôn ngữ giàu kinh nghiệm.",
-    day: "12 bài giảng",
-    free: false,
-    price: "100.000 VND",
-    time: "45 phút",
-    form: "Trị liệu cá nhân",
-    objectives: "Mọi độ tuổi",
-    teacher: "Ths. Đỗ Thị Hảo",
-    slug: "am-ngu-tri-lieu",
-    organization: [
-      {
-        img: "/image/Ellipse-6.png",
-        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
-      },
-    ],
-    courseIntroduction: `
+	},
+	{
+		img: "/image/trilieu3.jpg",
+		title: "Âm ngữ trị liệu",
+		description: "Cải thiện kỹ năng giao tiếp và ngôn ngữ cho trẻ và thanh thiếu niên khiếm thính – hướng dẫn bởi chuyên viên ngôn ngữ giàu kinh nghiệm.",
+		day: "12 bài giảng",
+		free: false,
+		price: "100.000 VND",
+		time: "45 phút",
+		form: "Trị liệu cá nhân",
+		objectives: "Mọi độ tuổi",
+		teacher: "Ths. Đỗ Thị Hảo",
+		slug: "am-ngu-tri-lieu",
+		organization: [
+			{
+				img: "/image/Ellipse-6.png",
+				title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+			},
+		],
+		courseIntroduction: `
 		  <p class="text-black text-base leading-relaxed">
 			Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam tổ chức các buổi trị liệu ngôn ngữ 1:1 dành cho trẻ em và thanh thiếu niên khiếm thính nhằm phát triển khả năng giao tiếp, phát âm, sử dụng ngôn ngữ ký hiệu và hiểu ngôn ngữ nói.
 		  </p>
@@ -6044,7 +6448,7 @@ export const triLieuNgonNgu = [
 			📞 Liên hệ tư vấn: 0936 253 215
 		  </p>
 	 	  `,
-    output: `
+		output: `
 			<p class="text-black text-base  leading-relaxed">
 				Phương pháp AVT hướng đến việc giúp trẻ khiếm thính phát triển kỹ năng ngôn ngữ nói và hiểu lời nói thông qua việc sử dụng khả năng nghe (ngay cả khi đã hỗ trợ bằng máy trợ thính hoặc cấy ốc tai điện tử). Đầu ra kỳ vọng bao gồm:
 			</p>
@@ -6086,7 +6490,7 @@ export const triLieuNgonNgu = [
 			</p>
 			
 		`,
-    content: `
+		content: `
 			<p class="text-black text-base font-bold leading-relaxed">
 				1. Kích hoạt và phát triển kỹ năng nghe
 			</p>
@@ -6148,24 +6552,24 @@ export const triLieuNgonNgu = [
 				• Thực hành cùng con thông qua chơi, đọc sách, đối thoại
 			</p>
 		`,
-    commnents: [
-      {
-        name: "Nguyễn Thị Hạnh",
-        avatar: "/image/comment1.png",
-        content: `"Sau 3 tháng tham gia lớp trị liệu 1:1, con tôi đã bắt đầu nói được những từ đơn giản như “mẹ”, “ăn”, “đi chơi” và hiểu nhiều hơn khi người lớn nói chuyện. Giáo viên rất kiên nhẫn và biết cách khuyến khích con học mà không áp lực. Tôi cảm thấy rất biết ơn vì con đang có cơ hội hòa nhập tốt hơn."`,
-      },
-      {
-        name: "Phạm Thu Trà",
-        avatar: "/image/comment1.png",
-        content: `"Tôi rất hài lòng với lớp trị liệu ngôn ngữ cá nhân. Con tôi ban đầu rất ít nói, nhưng sau một thời gian học đã bắt đầu sử dụng từ ngữ rõ ràng hơn và chủ động giao tiếp với người thân. Chuyên viên trị liệu rất tận tâm, kiên nhẫn và hướng dẫn kỹ cho cả gia đình cùng hỗ trợ."`,
-      },
-      {
-        name: "Trần Minh Thư",
-        avatar: "/image/comment1.png",
-        content: `"Tôi thấy chương trình trị liệu cá nhân rất bài bản, có lộ trình rõ ràng và phù hợp với từng học sinh. Học sinh của tôi tiến bộ rõ về khả năng nghe hiểu và diễn đạt. Tôi đặc biệt đánh giá cao sự phối hợp chặt chẽ giữa giáo viên, phụ huynh và chuyên viên trị liệu."`,
-      },
-    ],
-    scienceRegistration: `
+		commnents: [
+			{
+				name: "Nguyễn Thị Hạnh",
+				avatar: "/image/comment1.png",
+				content: `"Sau 3 tháng tham gia lớp trị liệu 1:1, con tôi đã bắt đầu nói được những từ đơn giản như “mẹ”, “ăn”, “đi chơi” và hiểu nhiều hơn khi người lớn nói chuyện. Giáo viên rất kiên nhẫn và biết cách khuyến khích con học mà không áp lực. Tôi cảm thấy rất biết ơn vì con đang có cơ hội hòa nhập tốt hơn."`,
+			},
+			{
+				name: "Phạm Thu Trà",
+				avatar: "/image/comment1.png",
+				content: `"Tôi rất hài lòng với lớp trị liệu ngôn ngữ cá nhân. Con tôi ban đầu rất ít nói, nhưng sau một thời gian học đã bắt đầu sử dụng từ ngữ rõ ràng hơn và chủ động giao tiếp với người thân. Chuyên viên trị liệu rất tận tâm, kiên nhẫn và hướng dẫn kỹ cho cả gia đình cùng hỗ trợ."`,
+			},
+			{
+				name: "Trần Minh Thư",
+				avatar: "/image/comment1.png",
+				content: `"Tôi thấy chương trình trị liệu cá nhân rất bài bản, có lộ trình rõ ràng và phù hợp với từng học sinh. Học sinh của tôi tiến bộ rõ về khả năng nghe hiểu và diễn đạt. Tôi đặc biệt đánh giá cao sự phối hợp chặt chẽ giữa giáo viên, phụ huynh và chuyên viên trị liệu."`,
+			},
+		],
+		scienceRegistration: `
 			<p class="text-black text-base leading-relaxed">
 				🔹 Cách đăng ký:
 			</p>	
@@ -6183,26 +6587,26 @@ export const triLieuNgonNgu = [
 			</p>
 	
 		`,
-  },
-  {
-    img: "/image/trilieu4.jpg",
-    title: "Trị liệu thính giác– Lời nói AVT",
-    description: "Cải thiện kỹ năng giao tiếp và ngôn ngữ cho trẻ và thanh thiếu niên khiếm thính – hướng dẫn bởi chuyên viên ngôn ngữ giàu kinh nghiệm.",
-    day: "12 bài giảng",
-    free: false,
-    price: "100.000 VND",
-    time: "45 phút",
-    form: "Trị liệu cá nhân",
-    objectives: "Mọi độ tuổi",
-    teacher: "Ths. Đỗ Thị Hảo",
-    slug: "tri-lieu-thinh-giac-loi-noi-atv",
-    organization: [
-      {
-        img: "/image/Ellipse-6.png",
-        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
-      },
-    ],
-    courseIntroduction: `
+	},
+	{
+		img: "/image/trilieu4.jpg",
+		title: "Trị liệu thính giác– Lời nói AVT",
+		description: "Cải thiện kỹ năng giao tiếp và ngôn ngữ cho trẻ và thanh thiếu niên khiếm thính – hướng dẫn bởi chuyên viên ngôn ngữ giàu kinh nghiệm.",
+		day: "12 bài giảng",
+		free: false,
+		price: "100.000 VND",
+		time: "45 phút",
+		form: "Trị liệu cá nhân",
+		objectives: "Mọi độ tuổi",
+		teacher: "Ths. Đỗ Thị Hảo",
+		slug: "tri-lieu-thinh-giac-loi-noi-atv",
+		organization: [
+			{
+				img: "/image/Ellipse-6.png",
+				title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+			},
+		],
+		courseIntroduction: `
 		  <p class="text-black text-base leading-relaxed">
 			Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam tổ chức các buổi trị liệu ngôn ngữ 1:1 dành cho trẻ em và thanh thiếu niên khiếm thính nhằm phát triển khả năng giao tiếp, phát âm, sử dụng ngôn ngữ ký hiệu và hiểu ngôn ngữ nói.
 		  </p>
@@ -6231,7 +6635,7 @@ export const triLieuNgonNgu = [
 			📞 Liên hệ tư vấn: 0936 253 215
 		  </p>
 	 	  `,
-    output: `
+		output: `
 			<p class="text-black text-base  leading-relaxed">
 				Phương pháp AVT hướng đến việc giúp trẻ khiếm thính phát triển kỹ năng ngôn ngữ nói và hiểu lời nói thông qua việc sử dụng khả năng nghe (ngay cả khi đã hỗ trợ bằng máy trợ thính hoặc cấy ốc tai điện tử). Đầu ra kỳ vọng bao gồm:
 			</p>
@@ -6273,7 +6677,7 @@ export const triLieuNgonNgu = [
 			</p>
 			
 		`,
-    content: `
+		content: `
 			<p class="text-black text-base font-bold leading-relaxed">
 				1. Kích hoạt và phát triển kỹ năng nghe
 			</p>
@@ -6335,24 +6739,24 @@ export const triLieuNgonNgu = [
 				• Thực hành cùng con thông qua chơi, đọc sách, đối thoại
 			</p>
 		`,
-    commnents: [
-      {
-        name: "Nguyễn Thị Hạnh",
-        avatar: "/image/comment1.png",
-        content: `"Sau 3 tháng tham gia lớp trị liệu 1:1, con tôi đã bắt đầu nói được những từ đơn giản như “mẹ”, “ăn”, “đi chơi” và hiểu nhiều hơn khi người lớn nói chuyện. Giáo viên rất kiên nhẫn và biết cách khuyến khích con học mà không áp lực. Tôi cảm thấy rất biết ơn vì con đang có cơ hội hòa nhập tốt hơn."`,
-      },
-      {
-        name: "Phạm Thu Trà",
-        avatar: "/image/comment1.png",
-        content: `"Tôi rất hài lòng với lớp trị liệu ngôn ngữ cá nhân. Con tôi ban đầu rất ít nói, nhưng sau một thời gian học đã bắt đầu sử dụng từ ngữ rõ ràng hơn và chủ động giao tiếp với người thân. Chuyên viên trị liệu rất tận tâm, kiên nhẫn và hướng dẫn kỹ cho cả gia đình cùng hỗ trợ."`,
-      },
-      {
-        name: "Trần Minh Thư",
-        avatar: "/image/comment1.png",
-        content: `"Tôi thấy chương trình trị liệu cá nhân rất bài bản, có lộ trình rõ ràng và phù hợp với từng học sinh. Học sinh của tôi tiến bộ rõ về khả năng nghe hiểu và diễn đạt. Tôi đặc biệt đánh giá cao sự phối hợp chặt chẽ giữa giáo viên, phụ huynh và chuyên viên trị liệu."`,
-      },
-    ],
-    scienceRegistration: `
+		commnents: [
+			{
+				name: "Nguyễn Thị Hạnh",
+				avatar: "/image/comment1.png",
+				content: `"Sau 3 tháng tham gia lớp trị liệu 1:1, con tôi đã bắt đầu nói được những từ đơn giản như “mẹ”, “ăn”, “đi chơi” và hiểu nhiều hơn khi người lớn nói chuyện. Giáo viên rất kiên nhẫn và biết cách khuyến khích con học mà không áp lực. Tôi cảm thấy rất biết ơn vì con đang có cơ hội hòa nhập tốt hơn."`,
+			},
+			{
+				name: "Phạm Thu Trà",
+				avatar: "/image/comment1.png",
+				content: `"Tôi rất hài lòng với lớp trị liệu ngôn ngữ cá nhân. Con tôi ban đầu rất ít nói, nhưng sau một thời gian học đã bắt đầu sử dụng từ ngữ rõ ràng hơn và chủ động giao tiếp với người thân. Chuyên viên trị liệu rất tận tâm, kiên nhẫn và hướng dẫn kỹ cho cả gia đình cùng hỗ trợ."`,
+			},
+			{
+				name: "Trần Minh Thư",
+				avatar: "/image/comment1.png",
+				content: `"Tôi thấy chương trình trị liệu cá nhân rất bài bản, có lộ trình rõ ràng và phù hợp với từng học sinh. Học sinh của tôi tiến bộ rõ về khả năng nghe hiểu và diễn đạt. Tôi đặc biệt đánh giá cao sự phối hợp chặt chẽ giữa giáo viên, phụ huynh và chuyên viên trị liệu."`,
+			},
+		],
+		scienceRegistration: `
 			<p class="text-black text-base leading-relaxed">
 				🔹 Cách đăng ký:
 			</p>	
@@ -6369,7 +6773,7 @@ export const triLieuNgonNgu = [
 				📱 Facebook: Doanh Nghiệp Xã Hội vì Người Khiếm Thính Việt Nam
 			</p>
 		`,
-  },
+	},
 ];
 // export const kynangmem = [
 //   {
@@ -7121,544 +7525,544 @@ export const triLieuNgonNgu = [
 //   },
 // ];
 export const boTuVung = [
-  {
-    id: 1,
-    src: "/image/slider-1.png",
-    bgColor: "bg-red-500",
-    title: "Thiên nhiên",
-    description: "Bộ từ vựng ngôn ngữ ký hiệu về thiên nhiên",
-    router: "thien-nhien",
-    items: [
-      { img: "/image/thiennhien1.mp4", title: "Biển" },
-      { img: "/image/thiennhien2.mp4", title: "Cây" },
-      { img: "/image/thiennhien3.mp4", title: "Hoa" },
-      { img: "/image/thiennhien4.mp4", title: "Mặt trăng" },
-      { img: "/image/thiennhien5.mp4", title: "Mặt trời" },
-      { img: "/image/thiennhien6.mp4", title: "Mây" },
-      { img: "/image/thiennhien7.mp4", title: "Núi" },
-      { img: "/image/thiennhien8.mp4", title: "Sao" },
-      { img: "/image/thiennhien9.mp4", title: "Sông" },
-      { img: "/image/thiennhien10.mp4", title: "Trời" },
-    ],
-  },
-  {
-    id: 2,
-    src: "/image/slider-2.png",
-    bgColor: "bg-blue-500",
-    title: "Quốc gia",
-    description: "Bộ từ vựng ngôn ngữ ký hiệu tên các Quốc gia trên thế giới",
-    router: "quoc-gia",
-    items: [
-      { img: "/image/quocgia1.mp4", title: "Anh" },
-      { img: "/image/quocgia2.mp4", title: "Campuchia" },
-      { img: "/image/quocgia3.mp4", title: "Lào" },
-      { img: "/image/quocgia4.mp4", title: "Nga" },
-      { img: "/image/quocgia5.mp4", title: "Nhật Bản" },
-      { img: "/image/quocgia6.mp4", title: "Trung Quốc" },
-      { img: "/image/quocgia7.mp4", title: "Việt Nam" },
-      { img: "/image/quocgia8.mp4", title: "Ý" },
-    ],
-  },
-  {
-    id: 3,
-    src: "/image/slider-3.png",
-    bgColor: "bg-green-500",
-    title: "Bảng chữ cái",
-    description: "Bộ từ vựng ngôn ngữ ký hiệu bảng chữ cái Tiếng Việt",
-    router: "bang-chu-cai",
-    items: [
-      { img: "/image/A.mp4", title: "A" },
-      { img: "/image/Ă.mp4", title: "Ă" },
-      { img: "/image/Â.mp4", title: "Â" },
-      { img: "/image/B.mp4", title: "B" },
-      { img: "/image/C.mp4", title: "C" },
-      { img: "/image/D.mp4", title: "D" },
-      { img: "/image/Đ.mp4", title: "Đ" },
-      { img: "/image/E.mp4", title: "E" },
-      { img: "/image/Ê.mp4", title: "Ê" },
-      { img: "/image/G.mp4", title: "G" },
-      { img: "/image/H.mp4", title: "H" },
-      { img: "/image/I.mp4", title: "I" },
-      { img: "/image/K.mp4", title: "K" },
-      { img: "/image/L.mp4", title: "L" },
-      { img: "/image/M.mp4", title: "M" },
-      { img: "/image/N.mp4", title: "N" },
-      { img: "/image/O.mp4", title: "O" },
-      { img: "/image/Ô.mp4", title: "Ô" },
-      { img: "/image/Ơ.mp4", title: "Ơ" },
-      { img: "/image/P.mp4", title: "P" },
-      { img: "/image/Q.mp4", title: "Q" },
-      { img: "/image/R.mp4", title: "R" },
-      { img: "/image/S.mp4", title: "S" },
-      { img: "/image/T.mp4", title: "T" },
-      { img: "/image/U.mp4", title: "U" },
-      { img: "/image/Ư.mp4", title: "Ư" },
-      { img: "/image/V.mp4", title: "V" },
-      { img: "/image/X.mp4", title: "X" },
-      { img: "/image/Y.mp4", title: "Y" },
-    ],
-  },
-  {
-    id: 4,
-    src: "/image/slider-4.png",
-    bgColor: "bg-purple-500",
-    title: "Ẩm thực",
-    description: "Bộ từ vựng ngôn ngữ ký hiệu ẩm thực thông dụng bao gồm 30 từ vựng",
-    router: "am-thuc",
-    items: [
-      { img: "/image/amthuc1.mp4", title: "Cơm" },
-      { img: "/image/amthuc2.mp4", title: "Phở" },
-      { img: "/image/amthuc3.mp4", title: "Bánh mì" },
-      { img: "/image/amthuc4.mp4", title: "Bún" },
-      { img: "/image/amthuc5.mp4", title: "Thịt" },
-      { img: "/image/amthuc6.mp4", title: "Cá" },
-      { img: "/image/amthuc7.mp4", title: "Rau" },
-      { img: "/image/amthuc8.mp4", title: "Trái cây" },
-      { img: "/image/amthuc9.mp4", title: "Nước" },
-      { img: "/image/amthuc10.mp4", title: "Sữa" },
-    ],
-  },
+	{
+		id: 1,
+		src: "/image/slider-1.png",
+		bgColor: "bg-red-500",
+		title: "Thiên nhiên",
+		description: "Bộ từ vựng ngôn ngữ ký hiệu về thiên nhiên",
+		router: "thien-nhien",
+		items: [
+			{ img: "/image/thiennhien1.mp4", title: "Biển" },
+			{ img: "/image/thiennhien2.mp4", title: "Cây" },
+			{ img: "/image/thiennhien3.mp4", title: "Hoa" },
+			{ img: "/image/thiennhien4.mp4", title: "Mặt trăng" },
+			{ img: "/image/thiennhien5.mp4", title: "Mặt trời" },
+			{ img: "/image/thiennhien6.mp4", title: "Mây" },
+			{ img: "/image/thiennhien7.mp4", title: "Núi" },
+			{ img: "/image/thiennhien8.mp4", title: "Sao" },
+			{ img: "/image/thiennhien9.mp4", title: "Sông" },
+			{ img: "/image/thiennhien10.mp4", title: "Trời" },
+		],
+	},
+	{
+		id: 2,
+		src: "/image/slider-2.png",
+		bgColor: "bg-blue-500",
+		title: "Quốc gia",
+		description: "Bộ từ vựng ngôn ngữ ký hiệu tên các Quốc gia trên thế giới",
+		router: "quoc-gia",
+		items: [
+			{ img: "/image/quocgia1.mp4", title: "Anh" },
+			{ img: "/image/quocgia2.mp4", title: "Campuchia" },
+			{ img: "/image/quocgia3.mp4", title: "Lào" },
+			{ img: "/image/quocgia4.mp4", title: "Nga" },
+			{ img: "/image/quocgia5.mp4", title: "Nhật Bản" },
+			{ img: "/image/quocgia6.mp4", title: "Trung Quốc" },
+			{ img: "/image/quocgia7.mp4", title: "Việt Nam" },
+			{ img: "/image/quocgia8.mp4", title: "Ý" },
+		],
+	},
+	{
+		id: 3,
+		src: "/image/slider-3.png",
+		bgColor: "bg-green-500",
+		title: "Bảng chữ cái",
+		description: "Bộ từ vựng ngôn ngữ ký hiệu bảng chữ cái Tiếng Việt",
+		router: "bang-chu-cai",
+		items: [
+			{ img: "/image/A.mp4", title: "A" },
+			{ img: "/image/Ă.mp4", title: "Ă" },
+			{ img: "/image/Â.mp4", title: "Â" },
+			{ img: "/image/B.mp4", title: "B" },
+			{ img: "/image/C.mp4", title: "C" },
+			{ img: "/image/D.mp4", title: "D" },
+			{ img: "/image/Đ.mp4", title: "Đ" },
+			{ img: "/image/E.mp4", title: "E" },
+			{ img: "/image/Ê.mp4", title: "Ê" },
+			{ img: "/image/G.mp4", title: "G" },
+			{ img: "/image/H.mp4", title: "H" },
+			{ img: "/image/I.mp4", title: "I" },
+			{ img: "/image/K.mp4", title: "K" },
+			{ img: "/image/L.mp4", title: "L" },
+			{ img: "/image/M.mp4", title: "M" },
+			{ img: "/image/N.mp4", title: "N" },
+			{ img: "/image/O.mp4", title: "O" },
+			{ img: "/image/Ô.mp4", title: "Ô" },
+			{ img: "/image/Ơ.mp4", title: "Ơ" },
+			{ img: "/image/P.mp4", title: "P" },
+			{ img: "/image/Q.mp4", title: "Q" },
+			{ img: "/image/R.mp4", title: "R" },
+			{ img: "/image/S.mp4", title: "S" },
+			{ img: "/image/T.mp4", title: "T" },
+			{ img: "/image/U.mp4", title: "U" },
+			{ img: "/image/Ư.mp4", title: "Ư" },
+			{ img: "/image/V.mp4", title: "V" },
+			{ img: "/image/X.mp4", title: "X" },
+			{ img: "/image/Y.mp4", title: "Y" },
+		],
+	},
+	{
+		id: 4,
+		src: "/image/slider-4.png",
+		bgColor: "bg-purple-500",
+		title: "Ẩm thực",
+		description: "Bộ từ vựng ngôn ngữ ký hiệu ẩm thực thông dụng bao gồm 30 từ vựng",
+		router: "am-thuc",
+		items: [
+			{ img: "/image/amthuc1.mp4", title: "Cơm" },
+			{ img: "/image/amthuc2.mp4", title: "Phở" },
+			{ img: "/image/amthuc3.mp4", title: "Bánh mì" },
+			{ img: "/image/amthuc4.mp4", title: "Bún" },
+			{ img: "/image/amthuc5.mp4", title: "Thịt" },
+			{ img: "/image/amthuc6.mp4", title: "Cá" },
+			{ img: "/image/amthuc7.mp4", title: "Rau" },
+			{ img: "/image/amthuc8.mp4", title: "Trái cây" },
+			{ img: "/image/amthuc9.mp4", title: "Nước" },
+			{ img: "/image/amthuc10.mp4", title: "Sữa" },
+		],
+	},
 
-  {
-    id: 5,
-    src: "/image/slider-5.png",
-    bgColor: "bg-pink-500",
-    title: "Động vật",
-    description: "Bộ từ vựng ngôn ngữ ký hiệu các loài động vật bao gồm 30 từ vựng thông dụng",
-    router: "dong-vat",
-    items: [
-      { img: "/image/dongvat1.mp4", title: "Con bò" },
-      { img: "/image/dongvat2.mp4", title: "Con cá" },
-      { img: "/image/dongvat3.mp4", title: "Con chim" },
-      { img: "/image/dongvat4.mp4", title: "Con chó" },
-      { img: "/image/dongvat5.mp4", title: "Con chuột" },
-      { img: "/image/dongvat6.mp4", title: "Con dê" },
-      { img: "/image/dongvat7.mp4", title: "Con ếch" },
-      { img: "/image/dongvat8.mp4", title: "Con gà" },
-      { img: "/image/dongvat9.mp4", title: "Con hổ" },
-      { img: "/image/dongvat10.mp4", title: "Con khỉ" },
-      { img: "/image/dongvat11.mp4", title: "Con lợn (heo)" },
-      { img: "/image/dongvat12.mp4", title: "Con mèo" },
-      { img: "/image/dongvat13.mp4", title: "Con ngựa" },
-      { img: "/image/dongvat14.mp4", title: "Con rắn" },
-      { img: "/image/dongvat15.mp4", title: "Con rùa" },
-      { img: "/image/dongvat16.mp4", title: "Con thỏ" },
-      { img: "/image/dongvat17.mp4", title: "Con trâu" },
-      { img: "/image/dongvat18.mp4", title: "Con vịt" },
-      { img: "/image/dongvat19.mp4", title: "Con voi" },
-    ],
-  },
-  {
-    id: 6,
-    src: "/image/slider-6.png",
-    bgColor: "bg-pink-500",
-    title: "Nghề nghiệp",
-    description: "Bộ từ vựng ngôn ngữ ký hiệu về nghề nghiệp",
-    router: "nghe-nghiep",
-    items: [
-      { img: "/image/nghenghiep1.mp4", title: "Bác sĩ" },
-      { img: "/image/nghenghiep2.mp4", title: "Bộ đội" },
-      { img: "/image/nghenghiep3.mp4", title: "Giáo viên" },
-      { img: "/image/nghenghiep4.mp4", title: "Công an" },
-      { img: "/image/nghenghiep5.mp4", title: "Họa sĩ" },
-      { img: "/image/nghenghiep6.mp4", title: "Lái xe" },
-      { img: "/image/nghenghiep7.mp4", title: "Nông dân" },
-      { img: "/image/nghenghiep8.mp4", title: "Thợ may" },
-      { img: "/image/nghenghiep9.mp4", title: "Y tá" },
-    ],
-  },
+	{
+		id: 5,
+		src: "/image/slider-5.png",
+		bgColor: "bg-pink-500",
+		title: "Động vật",
+		description: "Bộ từ vựng ngôn ngữ ký hiệu các loài động vật bao gồm 30 từ vựng thông dụng",
+		router: "dong-vat",
+		items: [
+			{ img: "/image/dongvat1.mp4", title: "Con bò" },
+			{ img: "/image/dongvat2.mp4", title: "Con cá" },
+			{ img: "/image/dongvat3.mp4", title: "Con chim" },
+			{ img: "/image/dongvat4.mp4", title: "Con chó" },
+			{ img: "/image/dongvat5.mp4", title: "Con chuột" },
+			{ img: "/image/dongvat6.mp4", title: "Con dê" },
+			{ img: "/image/dongvat7.mp4", title: "Con ếch" },
+			{ img: "/image/dongvat8.mp4", title: "Con gà" },
+			{ img: "/image/dongvat9.mp4", title: "Con hổ" },
+			{ img: "/image/dongvat10.mp4", title: "Con khỉ" },
+			{ img: "/image/dongvat11.mp4", title: "Con lợn (heo)" },
+			{ img: "/image/dongvat12.mp4", title: "Con mèo" },
+			{ img: "/image/dongvat13.mp4", title: "Con ngựa" },
+			{ img: "/image/dongvat14.mp4", title: "Con rắn" },
+			{ img: "/image/dongvat15.mp4", title: "Con rùa" },
+			{ img: "/image/dongvat16.mp4", title: "Con thỏ" },
+			{ img: "/image/dongvat17.mp4", title: "Con trâu" },
+			{ img: "/image/dongvat18.mp4", title: "Con vịt" },
+			{ img: "/image/dongvat19.mp4", title: "Con voi" },
+		],
+	},
+	{
+		id: 6,
+		src: "/image/slider-6.png",
+		bgColor: "bg-pink-500",
+		title: "Nghề nghiệp",
+		description: "Bộ từ vựng ngôn ngữ ký hiệu về nghề nghiệp",
+		router: "nghe-nghiep",
+		items: [
+			{ img: "/image/nghenghiep1.mp4", title: "Bác sĩ" },
+			{ img: "/image/nghenghiep2.mp4", title: "Bộ đội" },
+			{ img: "/image/nghenghiep3.mp4", title: "Giáo viên" },
+			{ img: "/image/nghenghiep4.mp4", title: "Công an" },
+			{ img: "/image/nghenghiep5.mp4", title: "Họa sĩ" },
+			{ img: "/image/nghenghiep6.mp4", title: "Lái xe" },
+			{ img: "/image/nghenghiep7.mp4", title: "Nông dân" },
+			{ img: "/image/nghenghiep8.mp4", title: "Thợ may" },
+			{ img: "/image/nghenghiep9.mp4", title: "Y tá" },
+		],
+	},
 ];
 export const organizations = [
-  {
-    link: "https://www.facebook.com/HoiChaMeTreKhiemThinhVietNam/?locale=vi_VN",
-    logo: "/image/tochuc1.png",
-    title: "Hội Cha Mẹ Trẻ Khiếm Thính và Người Khiếm Thính VN",
-    description: "Hỗ trợ Trẻ khiếm thính và Người khiếm thính trong hành trình tìm âm thanh, phương tiện giao tiếp phù hợp và cơ hội hòa nhập cộng đồng, cơ hội sống độc lập và bình đẳng!",
-  },
-  {
-    link: "https://hlcsvietnam.com/",
-    logo: "/image/tochuc2.png",
-    title: "Doanh Nghiệp Xã Hội Vì Người Khiếm Thính Việt Nam",
-    description: "Mang đến cho Người khiếm thính (bao gồm cả trẻ em) một cộng đồng kết nối chia sẻ trải nghiệm học tập, cuộc sống, rút ngắn khoảng cách khác biệt, nâng cao các kỹ năng hòa nhập xã hội cũng như các hoạt động và giải pháp hướng nghiệp để trở thành người độc lập, sống có ích cho chính bản thân mình và cho xã hội.",
-  },
-  {
-    link: "https://www.facebook.com/bvdeafvietnam/",
-    logo: "/image/tochuc3.png",
-    title: "Ban vận động Hội người Điếc Việt Nam ",
-    description: "BVĐ Hội người Điếc Việt Nam là một tổ chức phi chính phủ, được thành lập để trở thành đại diện cho tiếng nói của cộng đồng người Điếc tại Việt Nam",
-  },
-  {
-    link: "https://www.facebook.com/hadeaf2000/",
-    logo: "/image/tochuc4.png",
-    title: "Chi Hội người Điếc Hà Nội-HAD",
-    description: "Chi hội người điếc Hà Nội - HAD là tổ chức xã hội của người Điếc trên địa bàn thành phố Hà Nội",
-  },
+	{
+		link: "https://www.facebook.com/HoiChaMeTreKhiemThinhVietNam/?locale=vi_VN",
+		logo: "/image/tochuc1.png",
+		title: "Hội Cha Mẹ Trẻ Khiếm Thính và Người Khiếm Thính VN",
+		description: "Hỗ trợ Trẻ khiếm thính và Người khiếm thính trong hành trình tìm âm thanh, phương tiện giao tiếp phù hợp và cơ hội hòa nhập cộng đồng, cơ hội sống độc lập và bình đẳng!",
+	},
+	{
+		link: "https://hlcsvietnam.com/",
+		logo: "/image/tochuc2.png",
+		title: "Doanh Nghiệp Xã Hội Vì Người Khiếm Thính Việt Nam",
+		description: "Mang đến cho Người khiếm thính (bao gồm cả trẻ em) một cộng đồng kết nối chia sẻ trải nghiệm học tập, cuộc sống, rút ngắn khoảng cách khác biệt, nâng cao các kỹ năng hòa nhập xã hội cũng như các hoạt động và giải pháp hướng nghiệp để trở thành người độc lập, sống có ích cho chính bản thân mình và cho xã hội.",
+	},
+	{
+		link: "https://www.facebook.com/bvdeafvietnam/",
+		logo: "/image/tochuc3.png",
+		title: "Ban vận động Hội người Điếc Việt Nam ",
+		description: "BVĐ Hội người Điếc Việt Nam là một tổ chức phi chính phủ, được thành lập để trở thành đại diện cho tiếng nói của cộng đồng người Điếc tại Việt Nam",
+	},
+	{
+		link: "https://www.facebook.com/hadeaf2000/",
+		logo: "/image/tochuc4.png",
+		title: "Chi Hội người Điếc Hà Nội-HAD",
+		description: "Chi hội người điếc Hà Nội - HAD là tổ chức xã hội của người Điếc trên địa bàn thành phố Hà Nội",
+	},
 ];
 export const organizations_1 = [
-  {
-    link: "#",
-    logo: "/image/tochuc5.png",
-    title: "Liên Hiệp Hội Về Người Khuyết Tật Việt Nam (VFD)",
-    description: "Liên hiệp hội về người khuyết tật Việt Nam (sau đây gọi tắt là Liên hiệp) là tổ chức xã hội, phi lợi nhuận, tập hợp các hội, tổ chức hợp pháp của người khuyết tật và vì người khuyết tật, các cá nhân tự nguyện tham gia Liên hiệp vì mục đích bảo vệ, hỗ trợ người khuyết tật thực hiện quyền và nghĩa vụ theo quy định của pháp luật.",
-  },
-  {
-    link: "https://acdc.vn",
-    logo: "/image/tochuc6.png",
-    title: "Viện Nghiên cứu phát triển cộng đồng (ACDC)",
-    description: "Viện Nghiên cứu phát triển cộng đồng (ACDC) tiền thân là Trung tâm Hành động vì sự phát triển cộng đồng (ACDC) là một tổ chức phi chính phủ địa phương ra đời năm 2011 làm việc vì và của người khuyết tật Việt Nam, hỗ trợ người khuyết tật và những nhóm yếu thế khác trong cộng đồng",
-  },
-  {
-    link: "https://www.drdvietnam.org/",
-    logo: "/image/tochuc7.png",
-    title: "Trung tâm Nghiên cứu và Phát triển Năng lực Người khuyết tật (DRD)",
-    description: "Trung tâm Khuyết tật và Phát triển (DRD) là tổ chức phi lợi nhuận được thành lập ngày 3 tháng 12 năm 2005, trực thuộc Khoa Công tác xã hội của trường Đại học Mở TP.HCM dưới sự hỗ trợ ban đầu của Quỹ Ford. Cho tới nay DRD là tổ chức khoa học công nghệ trực thuộc Liên Hiệp Các Hội Khoa Học Và Kĩ Thuật Việt Nam (VUSTA) theo giấy chứng nhận đăng ký hoạt động số A-906 cấp ngày 7 tháng 5 năm 2010.",
-  },
-  {
-    link: "https://hoithinhhocvietnam.vn/",
-    logo: "/image/tochuc8.png",
-    title: "Hội Thính Học Việt Nam",
-    description: "Hội Thính học Việt Nam là tổ chức xã hội – nghề nghiệp của các cá nhân, tổ chức Việt Nam hoạt động trong lĩnh vực thính học, tự nguyện thành lập.Mục đích của Hội: tập hợp, đoàn kết hội viên, bảo vệ quyền, lợi ích hợp pháp của hội viên, hỗ trợ nhau nâng cao trình độ chuyên môn, góp phần vào sự nghiệp chăm sóc, bảo vệ sức khỏe nhân dân về chuyên ngành thính học của đất nước.",
-  },
-  {
-    link: "http://www.dphanoi.org.vn/",
-    logo: "/image/tochuc9.png",
-    title: "HỘI NGƯỜI KHUYẾT TẬT THÀNH PHỐ HÀ NỘI",
-    description: "Hội NKT TP. Hà Nội được thành lập theo Quyết định số 266/QĐ-UBND ngày 16/1/2006 của Chủ tịch UBND TP. Hà Nội.",
-  },
-  {
-    link: "https://www.facebook.com/tnktvn/",
-    logo: "/image/tochuc10.png",
-    title: "Hội Thanh niên khuyết tật Việt Nam",
-    description:
-      "Hội Thanh niên Khuyết tật Việt Nam được thành lập nhằm tập hợp, đoàn kết, bảo vệ quyền, lợi ích hợp pháp của thanh niên khuyết tật, tạo môi trường, diễn đàn để tiếp tục đồng hành, hỗ trợ thanh niên khuyết tật, động viên thanh niên khuyết tật vượt qua khó khăn, phấn đấu vươn lên, tích cực đóng góp cho cộng đồng, cũng như đóng góp vào sự nghiệp xây dựng, bảo vệ Tổ quốc; bồi đắp lý tưởng sống tốt đẹp cho hội viên, thanh niên thông qua các câu chuyện về những tấm gương thanh niên khuyết tật điển hình trong xã hội, từ đó thúc đẩy sự vươn lên của thanh niên Việt Nam; kêu gọi cộng đồng xã hội tiếp tục hỗ trợ, đồng hành cùng thanh niên khuyết tật Việt Nam.",
-  },
-  {
-    link: "https://msdvietnam.org/",
-    logo: "/image/tochuc11.png",
-    title: "Viện Nghiên Cứu Quản Lý Phát Triển Bền Vững (MSD)",
-    description:
-      "Viện Nghiên Cứu Quản lý Phát triển bền vững (MSD) là một tổ chức xã hội phi lợi nhuận, được thành lập vào ngày 5 tháng 3 năm 2008. Trong hơn 15 năm qua, MSD đã và luôn nỗ lực để góp phần giải quyết các vấn đề xã hội của các cộng đồng khác nhau tại Việt Nam. Là một tổ chức hàng đầu, MSD là một phần của các mạng lưới và diễn đàn trong khu vực và toàn cầu, đồng thời được các đối tác trong nước và quốc tế công nhận là một đơn vị phát triển chuyên nghiệp.Từ năm 2021, MSD chính thức trở thành United Way Việt Nam – thành viên của United Way Worldwide – Mạng lưới các tổ chức phi lợi nhuận lớn nhất toàn cầu.",
-  },
-  {
-    link: "https://treemviet.vn/",
-    logo: "/image/tochuc12.png",
-    title: "Hội Bảo Vệ Quyền Trẻ Em Việt Nam",
-    description: "Hội Bảo vệ quyền trẻ em Việt Nam (Hội BVQTEVN) được thành lập theo Quyết định số 464/QĐ-BNV ngày 08 tháng 04 năm 2008 của Bộ trưởng Bộ Nội vụ. Kể từ năm 2008 đến nay, Hội đã tổ chức được 3 kỳ Đại hội (Đại hội lần thứ 1 nhiệm kỳ 2008-2013; Đại hội lần thứ 2 nhiệm kỳ 2013-2018; Đại hội lần thứ 3 nhiệm kỳ 2018-2023).",
-  },
-  {
-    link: "https://cuutrotreemtantat.com.vn/",
-    logo: "/image/tochuc13.png",
-    title: "Hội Cứu trợ trẻ em tàn tật Việt Nam",
-    description: "Hội Bảo vệ quyền trẻ em Việt Nam (Hội BVQTEVN) được thành lập theo Quyết định số 464/QĐ-BNV ngày 08 tháng 04 năm 2008 của Bộ trưởng Bộ Nội vụ. Kể từ năm 2008 đến nay, Hội đã tổ chức được 3 kỳ Đại hội (Đại hội lần thứ 1 nhiệm kỳ 2008-2013; Đại hội lần thứ 2 nhiệm kỳ 2013-2018; Đại hội lần thứ 3 nhiệm kỳ 2018-2023).",
-  },
-  {
-    link: "https://hoicuutrotreemkhuyettathanoi.vn/",
-    logo: "/image/tochuc14.png",
-    title: "Hội cứu trợ trẻ em khuyết tật thành phố Hà Nội ",
-    description: "Hội CTTEKT TP Hà Nội được thành lập ngày 02/02/2000 theo QĐ số 13/2000QĐ-UB của UBND thành phố Hà Nội với mục tiêu đề ra là làm sao cho trẻ em khuyết tật (TEKT) được chăm lo tốt nhất, được học hành và hòa nhập cộng đồng để trở thành người có ích cho xã hội, bớt đi gánh nặng cho gia đình và xã hội.",
-  },
+	{
+		link: "#",
+		logo: "/image/tochuc5.png",
+		title: "Liên Hiệp Hội Về Người Khuyết Tật Việt Nam (VFD)",
+		description: "Liên hiệp hội về người khuyết tật Việt Nam (sau đây gọi tắt là Liên hiệp) là tổ chức xã hội, phi lợi nhuận, tập hợp các hội, tổ chức hợp pháp của người khuyết tật và vì người khuyết tật, các cá nhân tự nguyện tham gia Liên hiệp vì mục đích bảo vệ, hỗ trợ người khuyết tật thực hiện quyền và nghĩa vụ theo quy định của pháp luật.",
+	},
+	{
+		link: "https://acdc.vn",
+		logo: "/image/tochuc6.png",
+		title: "Viện Nghiên cứu phát triển cộng đồng (ACDC)",
+		description: "Viện Nghiên cứu phát triển cộng đồng (ACDC) tiền thân là Trung tâm Hành động vì sự phát triển cộng đồng (ACDC) là một tổ chức phi chính phủ địa phương ra đời năm 2011 làm việc vì và của người khuyết tật Việt Nam, hỗ trợ người khuyết tật và những nhóm yếu thế khác trong cộng đồng",
+	},
+	{
+		link: "https://www.drdvietnam.org/",
+		logo: "/image/tochuc7.png",
+		title: "Trung tâm Nghiên cứu và Phát triển Năng lực Người khuyết tật (DRD)",
+		description: "Trung tâm Khuyết tật và Phát triển (DRD) là tổ chức phi lợi nhuận được thành lập ngày 3 tháng 12 năm 2005, trực thuộc Khoa Công tác xã hội của trường Đại học Mở TP.HCM dưới sự hỗ trợ ban đầu của Quỹ Ford. Cho tới nay DRD là tổ chức khoa học công nghệ trực thuộc Liên Hiệp Các Hội Khoa Học Và Kĩ Thuật Việt Nam (VUSTA) theo giấy chứng nhận đăng ký hoạt động số A-906 cấp ngày 7 tháng 5 năm 2010.",
+	},
+	{
+		link: "https://hoithinhhocvietnam.vn/",
+		logo: "/image/tochuc8.png",
+		title: "Hội Thính Học Việt Nam",
+		description: "Hội Thính học Việt Nam là tổ chức xã hội – nghề nghiệp của các cá nhân, tổ chức Việt Nam hoạt động trong lĩnh vực thính học, tự nguyện thành lập.Mục đích của Hội: tập hợp, đoàn kết hội viên, bảo vệ quyền, lợi ích hợp pháp của hội viên, hỗ trợ nhau nâng cao trình độ chuyên môn, góp phần vào sự nghiệp chăm sóc, bảo vệ sức khỏe nhân dân về chuyên ngành thính học của đất nước.",
+	},
+	{
+		link: "http://www.dphanoi.org.vn/",
+		logo: "/image/tochuc9.png",
+		title: "HỘI NGƯỜI KHUYẾT TẬT THÀNH PHỐ HÀ NỘI",
+		description: "Hội NKT TP. Hà Nội được thành lập theo Quyết định số 266/QĐ-UBND ngày 16/1/2006 của Chủ tịch UBND TP. Hà Nội.",
+	},
+	{
+		link: "https://www.facebook.com/tnktvn/",
+		logo: "/image/tochuc10.png",
+		title: "Hội Thanh niên khuyết tật Việt Nam",
+		description:
+			"Hội Thanh niên Khuyết tật Việt Nam được thành lập nhằm tập hợp, đoàn kết, bảo vệ quyền, lợi ích hợp pháp của thanh niên khuyết tật, tạo môi trường, diễn đàn để tiếp tục đồng hành, hỗ trợ thanh niên khuyết tật, động viên thanh niên khuyết tật vượt qua khó khăn, phấn đấu vươn lên, tích cực đóng góp cho cộng đồng, cũng như đóng góp vào sự nghiệp xây dựng, bảo vệ Tổ quốc; bồi đắp lý tưởng sống tốt đẹp cho hội viên, thanh niên thông qua các câu chuyện về những tấm gương thanh niên khuyết tật điển hình trong xã hội, từ đó thúc đẩy sự vươn lên của thanh niên Việt Nam; kêu gọi cộng đồng xã hội tiếp tục hỗ trợ, đồng hành cùng thanh niên khuyết tật Việt Nam.",
+	},
+	{
+		link: "https://msdvietnam.org/",
+		logo: "/image/tochuc11.png",
+		title: "Viện Nghiên Cứu Quản Lý Phát Triển Bền Vững (MSD)",
+		description:
+			"Viện Nghiên Cứu Quản lý Phát triển bền vững (MSD) là một tổ chức xã hội phi lợi nhuận, được thành lập vào ngày 5 tháng 3 năm 2008. Trong hơn 15 năm qua, MSD đã và luôn nỗ lực để góp phần giải quyết các vấn đề xã hội của các cộng đồng khác nhau tại Việt Nam. Là một tổ chức hàng đầu, MSD là một phần của các mạng lưới và diễn đàn trong khu vực và toàn cầu, đồng thời được các đối tác trong nước và quốc tế công nhận là một đơn vị phát triển chuyên nghiệp.Từ năm 2021, MSD chính thức trở thành United Way Việt Nam – thành viên của United Way Worldwide – Mạng lưới các tổ chức phi lợi nhuận lớn nhất toàn cầu.",
+	},
+	{
+		link: "https://treemviet.vn/",
+		logo: "/image/tochuc12.png",
+		title: "Hội Bảo Vệ Quyền Trẻ Em Việt Nam",
+		description: "Hội Bảo vệ quyền trẻ em Việt Nam (Hội BVQTEVN) được thành lập theo Quyết định số 464/QĐ-BNV ngày 08 tháng 04 năm 2008 của Bộ trưởng Bộ Nội vụ. Kể từ năm 2008 đến nay, Hội đã tổ chức được 3 kỳ Đại hội (Đại hội lần thứ 1 nhiệm kỳ 2008-2013; Đại hội lần thứ 2 nhiệm kỳ 2013-2018; Đại hội lần thứ 3 nhiệm kỳ 2018-2023).",
+	},
+	{
+		link: "https://cuutrotreemtantat.com.vn/",
+		logo: "/image/tochuc13.png",
+		title: "Hội Cứu trợ trẻ em tàn tật Việt Nam",
+		description: "Hội Bảo vệ quyền trẻ em Việt Nam (Hội BVQTEVN) được thành lập theo Quyết định số 464/QĐ-BNV ngày 08 tháng 04 năm 2008 của Bộ trưởng Bộ Nội vụ. Kể từ năm 2008 đến nay, Hội đã tổ chức được 3 kỳ Đại hội (Đại hội lần thứ 1 nhiệm kỳ 2008-2013; Đại hội lần thứ 2 nhiệm kỳ 2013-2018; Đại hội lần thứ 3 nhiệm kỳ 2018-2023).",
+	},
+	{
+		link: "https://hoicuutrotreemkhuyettathanoi.vn/",
+		logo: "/image/tochuc14.png",
+		title: "Hội cứu trợ trẻ em khuyết tật thành phố Hà Nội ",
+		description: "Hội CTTEKT TP Hà Nội được thành lập ngày 02/02/2000 theo QĐ số 13/2000QĐ-UB của UBND thành phố Hà Nội với mục tiêu đề ra là làm sao cho trẻ em khuyết tật (TEKT) được chăm lo tốt nhất, được học hành và hòa nhập cộng đồng để trở thành người có ích cho xã hội, bớt đi gánh nặng cho gia đình và xã hội.",
+	},
 ];
 export const organizations_2 = [
-  {
-    link: "https://www.ced.org.vn/",
-    logo: "/image/tochuc15.png",
-    title: "Trung tâm Nghiên cứu Giáo dục người Khiếm Thính",
-    description: "Là tổ chức xã hội đầu tiên và duy nhất hiện thời tại Việt Nam do người khiếm thính thành lập và phục vụ vì người khiếm thính và được Sở Khoa Học và Công Nghệ cấp phép thành lập Số 247/ĐK-KHCN vào 15/4/2011.",
-  },
-  {
-    link: "https://www.hearusnow.vn/",
-    logo: "/image/tochuc16.png",
-    title: "Hear.Us.Now",
-    description: "Hear Us Now hỗ trợ trẻ em Điếc/Khiếm thính tại Việt Nam được tiếp cận gần hơn với thế giới tri thức thông qua những hoạt động giảng dạy Tiếng Anh, Tin học căn bản, cũng như các chương trình đào tạo kỹ năng sống và hướng nghiệp.",
-  },
-  {
-    link: "http://ncse.edu.vn/",
-    logo: "/image/tochuc17.png",
-    title: "Trung tâm Giáo dục Đặc biệt Quốc gia (NCSE)",
-    description: "Trung tâm Giáo dục Đặc biệt Quốc gia (NCSE) trực thuộc Viện Khoa học Giáo dục Việt Nam với sứ mệnh vì sự bình đẳng tham gia giáo dục có chất lượng và học tập suốt đời cho người khuyết tật Việt Nam.",
-  },
-  {
-    link: "https://gddb.hnue.edu.vn/Trung-t%C3%A2m-GD%C4%90B/p/gioi-thieu-trung-tam-giao-duc-dac-biet-khoa-giao-duc-dac-biet-truong-dai-hoc-su-pham-ha-noi-9806",
-    logo: "/image/tochuc18.png",
-    title: "Trung tâm Giáo dục đặc biệt",
-    description: "Trung tâm Giáo dục đặc biệt trường Đại học Sư phạm Hà Nội (sau đây gọi tắt là Trung tâm) là một đơn vị chuyên môn trực thuộc Khoa Giáo dục đặc biệt, Trường Đại học Sư phạm Hà Nội hoạt động trong khuôn khổ luật pháp của Nhà nước, Quy chế tổ chức và hoạt động của Trường Đại học Sư phạm Hà Nội, phi lợi nhuận, thiện nguyện, vì lợi ích của trẻ có nhu cầu đặc biệt và gia đình của trẻ, góp phần vì sự phát triển cộng đồng, xã hội.",
-  },
-  {
-    link: "https://www.facebook.com/sciedvn/",
-    logo: "/image/tochuc19.png",
-    title: "Trung tâm Hỗ trợ Phát triển Giáo dục Hoà nhập-SCIED",
-    description: "Trung tâm hỗ trợ phát triển giáo dục hòa nhập là cơ sở cung cấp nội dung chương trình, thiết bị, tài liệu dạy và học, các dịch vụ tư vấn, hỗ trợ giáo dục, tổ chức giáo dục phù hợp với đặc điểm và hoàn cảnh của người khuyết tật.",
-  },
-  {
-    link: "https://vaefa.edu.vn/",
-    logo: "/image/tochuc20.png",
-    title: "Hiệp hội vì Giáo dục cho mọi người Việt Nam",
-    description: "Hiệp hội hoạt động trên phạm vi cả nước, trong lĩnh vực giáo dục, đào tạo, chịu sự quản lý Nhà nước của Bộ Giáo dục và Đào tạo và các bộ, ngành có liên quan đến lĩnh vực hoạt động của Hiệp hội. ",
-  },
+	{
+		link: "https://www.ced.org.vn/",
+		logo: "/image/tochuc15.png",
+		title: "Trung tâm Nghiên cứu Giáo dục người Khiếm Thính",
+		description: "Là tổ chức xã hội đầu tiên và duy nhất hiện thời tại Việt Nam do người khiếm thính thành lập và phục vụ vì người khiếm thính và được Sở Khoa Học và Công Nghệ cấp phép thành lập Số 247/ĐK-KHCN vào 15/4/2011.",
+	},
+	{
+		link: "https://www.hearusnow.vn/",
+		logo: "/image/tochuc16.png",
+		title: "Hear.Us.Now",
+		description: "Hear Us Now hỗ trợ trẻ em Điếc/Khiếm thính tại Việt Nam được tiếp cận gần hơn với thế giới tri thức thông qua những hoạt động giảng dạy Tiếng Anh, Tin học căn bản, cũng như các chương trình đào tạo kỹ năng sống và hướng nghiệp.",
+	},
+	{
+		link: "http://ncse.edu.vn/",
+		logo: "/image/tochuc17.png",
+		title: "Trung tâm Giáo dục Đặc biệt Quốc gia (NCSE)",
+		description: "Trung tâm Giáo dục Đặc biệt Quốc gia (NCSE) trực thuộc Viện Khoa học Giáo dục Việt Nam với sứ mệnh vì sự bình đẳng tham gia giáo dục có chất lượng và học tập suốt đời cho người khuyết tật Việt Nam.",
+	},
+	{
+		link: "https://gddb.hnue.edu.vn/Trung-t%C3%A2m-GD%C4%90B/p/gioi-thieu-trung-tam-giao-duc-dac-biet-khoa-giao-duc-dac-biet-truong-dai-hoc-su-pham-ha-noi-9806",
+		logo: "/image/tochuc18.png",
+		title: "Trung tâm Giáo dục đặc biệt",
+		description: "Trung tâm Giáo dục đặc biệt trường Đại học Sư phạm Hà Nội (sau đây gọi tắt là Trung tâm) là một đơn vị chuyên môn trực thuộc Khoa Giáo dục đặc biệt, Trường Đại học Sư phạm Hà Nội hoạt động trong khuôn khổ luật pháp của Nhà nước, Quy chế tổ chức và hoạt động của Trường Đại học Sư phạm Hà Nội, phi lợi nhuận, thiện nguyện, vì lợi ích của trẻ có nhu cầu đặc biệt và gia đình của trẻ, góp phần vì sự phát triển cộng đồng, xã hội.",
+	},
+	{
+		link: "https://www.facebook.com/sciedvn/",
+		logo: "/image/tochuc19.png",
+		title: "Trung tâm Hỗ trợ Phát triển Giáo dục Hoà nhập-SCIED",
+		description: "Trung tâm hỗ trợ phát triển giáo dục hòa nhập là cơ sở cung cấp nội dung chương trình, thiết bị, tài liệu dạy và học, các dịch vụ tư vấn, hỗ trợ giáo dục, tổ chức giáo dục phù hợp với đặc điểm và hoàn cảnh của người khuyết tật.",
+	},
+	{
+		link: "https://vaefa.edu.vn/",
+		logo: "/image/tochuc20.png",
+		title: "Hiệp hội vì Giáo dục cho mọi người Việt Nam",
+		description: "Hiệp hội hoạt động trên phạm vi cả nước, trong lĩnh vực giáo dục, đào tạo, chịu sự quản lý Nhà nước của Bộ Giáo dục và Đào tạo và các bộ, ngành có liên quan đến lĩnh vực hoạt động của Hiệp hội. ",
+	},
 ];
 export const organizations_3 = [
-  {
-    link: "https://hlcsvietnam.com/",
-    logo: "/image/tochuc21.png",
-    title: "Doanh Nghiệp Xã Hội Vì Người Khiếm Thính Việt Nam",
-    description: "Mang đến cho Người khiếm thính (bao gồm cả trẻ em) một cộng đồng kết nối chia sẻ trải nghiệm học tập, cuộc sống, rút ngắn khoảng cách khác biệt, nâng cao các kỹ năng hòa nhập xã hội cũng như các hoạt động và giải pháp hướng nghiệp để trở thành người độc lập, sống có ích cho chính bản thân mình và cho xã hội.",
-  },
-  {
-    link: "https://vunart.vn/",
-    logo: "/image/tochuc22.png",
-    title: "VụnArt",
-    description:
-      "VỤN Art là một dự án xã hội đặc biệt, nơi mà từ những mảnh vải lụa vụn tưởng chừng bỏ đi, những người lao động ở VỤN Art ghép nên các tác phẩm nghệ thuật độc đáo, đầy ý nghĩa. Đây không chỉ là một nơi tạo ra sản phẩm mà là mái nhà chung của những con người đặc biệt, những người lao động khuyết tật có cơ hội được tự hào thể hiện sự khéo léo và tài năng của mình. VụnArt không chỉ là nơi biến vải vụn thành nghệ thuật mà còn là nơi thắp lên hy vọng và sự kiên cường trong cuộc sống.",
-  },
-  {
-    link: "https://www.kymviet.com.vn/",
-    logo: "/image/tochuc23.png",
-    title: "Kymviet",
-    description: "Kymviet là doanh nghiệp xã hội của người khuyết tật, vì người khuyết tật.​ Kymviet thành lập tháng 12 năm 2013, hoạt động trong lĩnh vực sản xuất đồ thủ công được làm chủ yếu từ vải: Các sản phẩm decor, quà tặng lưu niệm, sản phẩm ứng dụng. Các dịch vụ gia tăng: dịch vụ giáo dục – trải nghiệm; dịch vụ đồ uống và ẩm thực; tổ chức sự kiện.",
-  },
-  {
-    link: "https://we-edit.com.vn/",
-    logo: "/image/tochuc24.png",
-    title: "We-Edit",
-    description:
-      'We-Edit được thành lập bởi 3 nhà đồng sáng lập vào tháng 2 năm 2018 với mục tiêu mang lại sự bình đẳng và cơ hội đích thực cho tất cả các nhóm người dễ bị tổn thương, đặc biệt là những người khuyết tật. Tuy nhiên, chúng tôi không bao giờ muốn sử dụng "khuyết tật" như một chiến lược để thu hút khách hàng mà sử dụng chất lượng dịch vụ của mình để xây dựng lòng tin của họ. Chúng tôi chủ yếu cung cấp dịch vụ chỉnh sửa ảnh bất động sản nhưng hiện đã mở rộng các dịch vụ khác như dàn dựng ảo, chỉnh sửa video nữa. ',
-  },
-  {
-    link: "https://www.facebook.com/cafelangart/",
-    logo: "/image/tochuc25.png",
-    title: "Cafe Lặng Art",
-    description: "Lặng Art là một mô hình cộng đồng độc đáo tại Đà Lạt, kết hợp quán cà phê và không gian nghệ thuật, do những bạn trẻ khiếm thính vận hành. Thành lập với mong muốn tạo cơ hội việc làm bền vững và khơi dậy tài năng tiềm ẩn, Lặng Art không chỉ mang đến những ly cà phê ấm áp mà còn trưng bày và bán các sản phẩm thủ công do chính các bạn khiếm thính chế tác.",
-  },
-  {
-    link: "https://www.nghilucsong.net/",
-    logo: "/image/tochuc26.png",
-    title: "Công ty CP Nghị Lực Sống",
-    description: "Công ty Cổ phần Nghị Lực Sống – Doanh nghiệp xã hội với triết lý hoạt động nâng cao năng lực cho người khuyết tật Nghị Lực Sống (còn gọi là Nghị Lực Sống) là một DNXH phi lợi nhuận hoạt động trong lĩnh vực hỗ trợ hòa nhập toàn diện cho người khuyết tật (NKT) thông qua đào tạo nghề CNTT miễn phí và các kỹ năng sống giúp NKT tìm được việc làm phù hợp. Từ đó, NKT tự tin, dễ dàng hòa nhập hơn với cộng đồng và tự tạo dựng cuộc sống.",
-  },
+	{
+		link: "https://hlcsvietnam.com/",
+		logo: "/image/tochuc21.png",
+		title: "Doanh Nghiệp Xã Hội Vì Người Khiếm Thính Việt Nam",
+		description: "Mang đến cho Người khiếm thính (bao gồm cả trẻ em) một cộng đồng kết nối chia sẻ trải nghiệm học tập, cuộc sống, rút ngắn khoảng cách khác biệt, nâng cao các kỹ năng hòa nhập xã hội cũng như các hoạt động và giải pháp hướng nghiệp để trở thành người độc lập, sống có ích cho chính bản thân mình và cho xã hội.",
+	},
+	{
+		link: "https://vunart.vn/",
+		logo: "/image/tochuc22.png",
+		title: "VụnArt",
+		description:
+			"VỤN Art là một dự án xã hội đặc biệt, nơi mà từ những mảnh vải lụa vụn tưởng chừng bỏ đi, những người lao động ở VỤN Art ghép nên các tác phẩm nghệ thuật độc đáo, đầy ý nghĩa. Đây không chỉ là một nơi tạo ra sản phẩm mà là mái nhà chung của những con người đặc biệt, những người lao động khuyết tật có cơ hội được tự hào thể hiện sự khéo léo và tài năng của mình. VụnArt không chỉ là nơi biến vải vụn thành nghệ thuật mà còn là nơi thắp lên hy vọng và sự kiên cường trong cuộc sống.",
+	},
+	{
+		link: "https://www.kymviet.com.vn/",
+		logo: "/image/tochuc23.png",
+		title: "Kymviet",
+		description: "Kymviet là doanh nghiệp xã hội của người khuyết tật, vì người khuyết tật.​ Kymviet thành lập tháng 12 năm 2013, hoạt động trong lĩnh vực sản xuất đồ thủ công được làm chủ yếu từ vải: Các sản phẩm decor, quà tặng lưu niệm, sản phẩm ứng dụng. Các dịch vụ gia tăng: dịch vụ giáo dục – trải nghiệm; dịch vụ đồ uống và ẩm thực; tổ chức sự kiện.",
+	},
+	{
+		link: "https://we-edit.com.vn/",
+		logo: "/image/tochuc24.png",
+		title: "We-Edit",
+		description:
+			'We-Edit được thành lập bởi 3 nhà đồng sáng lập vào tháng 2 năm 2018 với mục tiêu mang lại sự bình đẳng và cơ hội đích thực cho tất cả các nhóm người dễ bị tổn thương, đặc biệt là những người khuyết tật. Tuy nhiên, chúng tôi không bao giờ muốn sử dụng "khuyết tật" như một chiến lược để thu hút khách hàng mà sử dụng chất lượng dịch vụ của mình để xây dựng lòng tin của họ. Chúng tôi chủ yếu cung cấp dịch vụ chỉnh sửa ảnh bất động sản nhưng hiện đã mở rộng các dịch vụ khác như dàn dựng ảo, chỉnh sửa video nữa. ',
+	},
+	{
+		link: "https://www.facebook.com/cafelangart/",
+		logo: "/image/tochuc25.png",
+		title: "Cafe Lặng Art",
+		description: "Lặng Art là một mô hình cộng đồng độc đáo tại Đà Lạt, kết hợp quán cà phê và không gian nghệ thuật, do những bạn trẻ khiếm thính vận hành. Thành lập với mong muốn tạo cơ hội việc làm bền vững và khơi dậy tài năng tiềm ẩn, Lặng Art không chỉ mang đến những ly cà phê ấm áp mà còn trưng bày và bán các sản phẩm thủ công do chính các bạn khiếm thính chế tác.",
+	},
+	{
+		link: "https://www.nghilucsong.net/",
+		logo: "/image/tochuc26.png",
+		title: "Công ty CP Nghị Lực Sống",
+		description: "Công ty Cổ phần Nghị Lực Sống – Doanh nghiệp xã hội với triết lý hoạt động nâng cao năng lực cho người khuyết tật Nghị Lực Sống (còn gọi là Nghị Lực Sống) là một DNXH phi lợi nhuận hoạt động trong lĩnh vực hỗ trợ hòa nhập toàn diện cho người khuyết tật (NKT) thông qua đào tạo nghề CNTT miễn phí và các kỹ năng sống giúp NKT tìm được việc làm phù hợp. Từ đó, NKT tự tin, dễ dàng hòa nhập hơn với cộng đồng và tự tạo dựng cuộc sống.",
+	},
 ];
 export const organizations_4 = [
-  {
-    link: "https://orphanvoice.org/",
-    logo: "/image/tochuc27.png",
-    title: "Orphan Voice",
-    description: "Orphan Voice là một mục vụ phát triển của Cơ đốc giáo dành riêng cho trẻ em có nhu cầu đặc biệt, trẻ em có nguy cơ bị buôn bán và lạm dụng tình dục, trẻ mồ côi và góa phụ ở Việt Nam và Đông Nam Á. Các hoạt động tiếp cận chính bao gồm các trung tâm trị liệu nhu cầu đặc biệt, giáo dục khiếm thính, bảo vệ gia đình, hội thảo trường học chống buôn người, nhà phục hồi sau khi bị lạm dụng, nhà nhóm và đào tạo nghề.",
-  },
-  {
-    link: "https://www.savethechildren.net/vi/vietnam",
-    logo: "/image/tochuc28.png",
-    title: "Save the Children",
-    description: "Save the Children là tổ chức trẻ em độc lập đầu tiên và hàng đầu thế giới – thay đổi cuộc sống và tương lai mà chúng ta cùng chia sẻ. Chúng tôi tự hào được làm việc với trẻ em, cộng đồng của các em và các đối tác trên toàn thế giới, khám phá ra các giải pháp mới để giúp đảm bảo rằng những trẻ em dễ bị tổn thương nhất trên thế giới được sống sót, học tập và được bảo vệ.",
-  },
-  {
-    link: "https://www.crs.org/our-work-overseas/where-we-work/vietnam",
-    logo: "/image/tochuc29.png",
-    title: "CRS Việt Nam",
-    description: "CRS bắt đầu hoạt động tại Việt Nam vào năm 1992 và thành lập văn phòng tại Hà Nội vào năm 1994. CRS Việt Nam hỗ trợ các đối tác địa phương bao gồm các đối tác chính phủ và các tổ chức xã hội dân sự xây dựng năng lực trong các lĩnh vực hòa nhập người khuyết tật, Giáo dục rủi ro bom mìn và hỗ trợ nạn nhân, Giảm thiểu rủi ro thiên tai và thích ứng với biến đổi khí hậu.",
-  },
-  {
-    link: "https://www.facebook.com/angelshavenvietnam/",
-    logo: "/image/tochuc30.png",
-    title: "Angels’ Haven Việt Nam ",
-    description: "Tổ chức Phi chính phủ Hàn Quốc thực hiện dự án về người khuyết tật tại Việt Nam.Angels Haven hỗ trợ cuộc sống hạnh phúc và ước mơ của trẻ em và thanh thiếu niên sống tại các cơ sở chăm sóc trẻ em (Eunpyeong Angels’ Home).",
-  },
-  {
-    link: "https://www.koica.go.kr/sites/vnm_na/index.do",
-    logo: "/image/tochuc31.png",
-    title: "KOICA",
-    description: "Góp phần vào sự thịnh vượng chung và thúc đẩy hòa bình thế giới thông qua hợp tác phát triển toàn diện, cùng có lợi, không bỏ lại ai phía sa - Một tổ chức hợp tác phát triển toàn cầu uy tín để hiện thực hóa các giá trị toàn cầu và tạo ra sự thịnh vượng chung - Con người · Hòa bình · Thịnh vượng · Hành tinh · Quan hệ đối tác - Trở thành quốc gia trụ cột toàn cầu thông qua hợp tác phát triển tiên tiến",
-  },
-  {
-    link: "https://www.bluedragon.org/",
-    logo: "/image/tochuc32.png",
-    title: "Blue Dragon Children's Foundation",
-    description: "Tổ chức Trẻ em Rồng Xanh là một tổ chức phi chính phủ có trụ sở tại Hà Nội, Việt Nam. Sứ mệnh của tổ chức này bao gồm giải cứu trẻ em đường phố, trẻ em, phụ nữ thoát khỏi nạn buôn bán người, lao động cưỡng bức và nô lệ, đồng thời cung cấp nơi ở, giáo dục và việc làm cho các nạn nhân sau khi được giải cứu.",
-  },
-  {
-    link: "https://www.samaritanspurse.org/",
-    logo: "/image/tochuc33.png",
-    title: "Samaritan's Purse",
-    description: "Samaritan's Purse là một tổ chức Cơ đốc giáo Tin lành phi giáo phái cung cấp hỗ trợ về mặt tinh thần và vật chất cho những người đau khổ trên khắp thế giới. Từ năm 1970, Samaritan's Purse đã giúp đáp ứng nhu cầu của những người là nạn nhân của chiến tranh, đói nghèo, thiên tai, bệnh tật và nạn đói với mục đích chia sẻ tình yêu của Chúa thông qua Con của Ngài, Chúa Jesus Christ. Tổ chức này phục vụ Giáo hội trên toàn thế giới để quảng bá Phúc âm của Chúa Jesus Christ.",
-  },
-  {
-    link: "https://www.reach-vietnam.org/",
-    logo: "/image/tochuc34.png",
-    title: "REACH",
-    description: "Chúng tôi cung cấp đào tạo nghề ngắn hạn bao gồm chương trình đào tạo ngắn hạn và chuyên sâu về các kỹ năng kỹ thuật, các kỹ năng mềm thiết yếu liên quan đến thị trường lao động, tiếp theo là chương trình giới thiệu việc làm cẩn thận và hỗ trợ sinh viên thường xuyên trong sáu tháng sau khi tốt nghiệp.",
-  },
+	{
+		link: "https://orphanvoice.org/",
+		logo: "/image/tochuc27.png",
+		title: "Orphan Voice",
+		description: "Orphan Voice là một mục vụ phát triển của Cơ đốc giáo dành riêng cho trẻ em có nhu cầu đặc biệt, trẻ em có nguy cơ bị buôn bán và lạm dụng tình dục, trẻ mồ côi và góa phụ ở Việt Nam và Đông Nam Á. Các hoạt động tiếp cận chính bao gồm các trung tâm trị liệu nhu cầu đặc biệt, giáo dục khiếm thính, bảo vệ gia đình, hội thảo trường học chống buôn người, nhà phục hồi sau khi bị lạm dụng, nhà nhóm và đào tạo nghề.",
+	},
+	{
+		link: "https://www.savethechildren.net/vi/vietnam",
+		logo: "/image/tochuc28.png",
+		title: "Save the Children",
+		description: "Save the Children là tổ chức trẻ em độc lập đầu tiên và hàng đầu thế giới – thay đổi cuộc sống và tương lai mà chúng ta cùng chia sẻ. Chúng tôi tự hào được làm việc với trẻ em, cộng đồng của các em và các đối tác trên toàn thế giới, khám phá ra các giải pháp mới để giúp đảm bảo rằng những trẻ em dễ bị tổn thương nhất trên thế giới được sống sót, học tập và được bảo vệ.",
+	},
+	{
+		link: "https://www.crs.org/our-work-overseas/where-we-work/vietnam",
+		logo: "/image/tochuc29.png",
+		title: "CRS Việt Nam",
+		description: "CRS bắt đầu hoạt động tại Việt Nam vào năm 1992 và thành lập văn phòng tại Hà Nội vào năm 1994. CRS Việt Nam hỗ trợ các đối tác địa phương bao gồm các đối tác chính phủ và các tổ chức xã hội dân sự xây dựng năng lực trong các lĩnh vực hòa nhập người khuyết tật, Giáo dục rủi ro bom mìn và hỗ trợ nạn nhân, Giảm thiểu rủi ro thiên tai và thích ứng với biến đổi khí hậu.",
+	},
+	{
+		link: "https://www.facebook.com/angelshavenvietnam/",
+		logo: "/image/tochuc30.png",
+		title: "Angels’ Haven Việt Nam ",
+		description: "Tổ chức Phi chính phủ Hàn Quốc thực hiện dự án về người khuyết tật tại Việt Nam.Angels Haven hỗ trợ cuộc sống hạnh phúc và ước mơ của trẻ em và thanh thiếu niên sống tại các cơ sở chăm sóc trẻ em (Eunpyeong Angels’ Home).",
+	},
+	{
+		link: "https://www.koica.go.kr/sites/vnm_na/index.do",
+		logo: "/image/tochuc31.png",
+		title: "KOICA",
+		description: "Góp phần vào sự thịnh vượng chung và thúc đẩy hòa bình thế giới thông qua hợp tác phát triển toàn diện, cùng có lợi, không bỏ lại ai phía sa - Một tổ chức hợp tác phát triển toàn cầu uy tín để hiện thực hóa các giá trị toàn cầu và tạo ra sự thịnh vượng chung - Con người · Hòa bình · Thịnh vượng · Hành tinh · Quan hệ đối tác - Trở thành quốc gia trụ cột toàn cầu thông qua hợp tác phát triển tiên tiến",
+	},
+	{
+		link: "https://www.bluedragon.org/",
+		logo: "/image/tochuc32.png",
+		title: "Blue Dragon Children's Foundation",
+		description: "Tổ chức Trẻ em Rồng Xanh là một tổ chức phi chính phủ có trụ sở tại Hà Nội, Việt Nam. Sứ mệnh của tổ chức này bao gồm giải cứu trẻ em đường phố, trẻ em, phụ nữ thoát khỏi nạn buôn bán người, lao động cưỡng bức và nô lệ, đồng thời cung cấp nơi ở, giáo dục và việc làm cho các nạn nhân sau khi được giải cứu.",
+	},
+	{
+		link: "https://www.samaritanspurse.org/",
+		logo: "/image/tochuc33.png",
+		title: "Samaritan's Purse",
+		description: "Samaritan's Purse là một tổ chức Cơ đốc giáo Tin lành phi giáo phái cung cấp hỗ trợ về mặt tinh thần và vật chất cho những người đau khổ trên khắp thế giới. Từ năm 1970, Samaritan's Purse đã giúp đáp ứng nhu cầu của những người là nạn nhân của chiến tranh, đói nghèo, thiên tai, bệnh tật và nạn đói với mục đích chia sẻ tình yêu của Chúa thông qua Con của Ngài, Chúa Jesus Christ. Tổ chức này phục vụ Giáo hội trên toàn thế giới để quảng bá Phúc âm của Chúa Jesus Christ.",
+	},
+	{
+		link: "https://www.reach-vietnam.org/",
+		logo: "/image/tochuc34.png",
+		title: "REACH",
+		description: "Chúng tôi cung cấp đào tạo nghề ngắn hạn bao gồm chương trình đào tạo ngắn hạn và chuyên sâu về các kỹ năng kỹ thuật, các kỹ năng mềm thiết yếu liên quan đến thị trường lao động, tiếp theo là chương trình giới thiệu việc làm cẩn thận và hỗ trợ sinh viên thường xuyên trong sáu tháng sau khi tốt nghiệp.",
+	},
 ];
 export const organizations_5 = [
-  {
-    link: "https://hlcsvietnam.com/",
-    logo: "/image/tochuc35.png",
-    title: "Doanh Nghiệp Xã Hội Vì Người Khiếm Thính Việt Nam",
-    description: "Mang đến cho Người khiếm thính (bao gồm cả trẻ em) một cộng đồng kết nối chia sẻ trải nghiệm học tập, cuộc sống, rút ngắn khoảng cách khác biệt, nâng cao các kỹ năng hòa nhập xã hội cũng như các hoạt động và giải pháp hướng nghiệp để trở thành người độc lập, sống có ích cho chính bản thân mình và cho xã hội.",
-  },
-  {
-    link: "https://maytrothinhstella.com/",
-    logo: "/image/tochuc36.png",
-    title: "Trung tâm trợ thính Stella - Máy trợ thính không dây",
-    description: "Công ty TNHH Trung tâm trợ thính STELLA được thành lập năm 2002 bởi ông Huh Bang Bin - Thạc sỹ thính học người Hàn Quốc - được đào tạo tại nước ngoài, dày dặn kinh nghiệm trong lĩnh vực thính học . Trụ sở chính đặt tại 171 Xuân Hồng, phường 12, quận Tân Bình, thành phố Hồ Chí Minh.",
-  },
-  {
-    link: "https://quangduc.vn/",
-    logo: "/image/tochuc37.png",
-    title: "Trợ Thính Quang Đức - Máy Trợ Thính Chính Hãng, Giá Tốt",
-    description: "Quang Đức tên đầy đủ là Công ty TNHH Dịch vụ Trợ thính Quang Đức. Là đơn vị cung cấp phân phối máy trợ thính và thực hiện một số dịch vụ về trợ thính tại Việt Nam. Chúng tôi đã phát triển rất nhiều đại lý của mình ở các tỉnh thành gồm: Hồ Chí Minh, Hà Nội,…",
-  },
-  {
-    link: "https://trothinhthuysi.com/",
-    logo: "/image/tochuc38.png",
-    title: "Trung tâm trợ thính Connect Hearing",
-    description:
-      "Trợ thính Connect Hearing là một mạng lưới lớn mạnh bao gồm các trung tâm chăm sóc thính giác có mặt ở nhiều quốc gia trên thế giới, luôn nỗ lực tìm ra những giải pháp tốt nhất để phục vụ quý khách hàng. Đội ngũ Chuyên gia Chăm sóc Thính lực của chúng tôi là những người dày dạn kinh nghiệm trong lĩnh vực thính học của Sonova Việt Nam – những người đã, đang và sẽ luôn đồng hành cùng bạn trên hành trình tìm lại âm thanh. Connect Hearing là trung tâm trợ thính trực thuộc tập đoàn Sonova, nhà cung cấp các giải pháp chăm sóc sức khỏe thính giác sáng tạo hàng đầu thế giới.",
-  },
-  {
-    link: "https://hearlifevietnam.com/",
-    logo: "/image/tochuc39.png",
-    title: "Trung tâm trợ thính hearLIFE Việt Nam",
-    description: "Công ty TNHH Trung tâm trợ thính hearLIFE được công nhận là đơn vị dẫn đầu về chăm sóc sức nghe, máy trợ thính, thiết bị cấy ghép và hợp tác với nhiều bệnh viện trên khắp Việt Nam.",
-  },
-  {
-    link: "https://maytrothinhthienduc.com.vn/",
-    logo: "/image/tochuc40.png",
-    title: "Trợ Thính Thiên Đức – Cùng lắng nghe, cùng chia sẻ.",
-    description: "Trợ thính Thiên Đức tên đầy đủ là Công ty TNHH máy trợ thính & TBYT Thiên Đức, là đơn vị phân phối máy trợ thính, thiết bị thính học và một số dịch vụ về thính học tại Việt Nam. Ngoài ra, chúng tôi còn phân phối cả thanh quản điện tử dành cho các bệnh nhân bị ung thư thanh quản.",
-  },
-  {
-    link: "https://trothinhmicrotech.com/",
-    logo: "/image/tochuc41.png",
-    title: "Trung Tâm Trợ Thính Microtech",
-    description: "Trung Tâm Trợ Thính Microtech được thành lập năm 2011 chuyên khám khiếm thính và lắp đặt Máy Trợ Thính cho người lớn và trẻ em. Năm 2020 chúng tôi bổ sung thêm ngành nghề với những mong muốn giúp đỡ bệnh nhân khiếm thính nhiều hơn nữa",
-  },
-  {
-    link: "https://cattuonghearing.vn/",
-    logo: "/image/tochuc42.png",
-    title: "Máy trợ thính Cát Tường Hearing",
-    description: "Trung tâm Thính lực Cát Tường tự hào mang những thành tựu thính học hiện đại nhất từ khắp nơi trên thế giới về Việt Nam. Chúng tôi không ngừng nỗ lực để giúp trẻ em và người lớn tuổi tìm lại âm thanh, hòa nhập cộng đồng và thay đổi cuộc sống của họ.",
-  },
+	{
+		link: "https://hlcsvietnam.com/",
+		logo: "/image/tochuc35.png",
+		title: "Doanh Nghiệp Xã Hội Vì Người Khiếm Thính Việt Nam",
+		description: "Mang đến cho Người khiếm thính (bao gồm cả trẻ em) một cộng đồng kết nối chia sẻ trải nghiệm học tập, cuộc sống, rút ngắn khoảng cách khác biệt, nâng cao các kỹ năng hòa nhập xã hội cũng như các hoạt động và giải pháp hướng nghiệp để trở thành người độc lập, sống có ích cho chính bản thân mình và cho xã hội.",
+	},
+	{
+		link: "https://maytrothinhstella.com/",
+		logo: "/image/tochuc36.png",
+		title: "Trung tâm trợ thính Stella - Máy trợ thính không dây",
+		description: "Công ty TNHH Trung tâm trợ thính STELLA được thành lập năm 2002 bởi ông Huh Bang Bin - Thạc sỹ thính học người Hàn Quốc - được đào tạo tại nước ngoài, dày dặn kinh nghiệm trong lĩnh vực thính học . Trụ sở chính đặt tại 171 Xuân Hồng, phường 12, quận Tân Bình, thành phố Hồ Chí Minh.",
+	},
+	{
+		link: "https://quangduc.vn/",
+		logo: "/image/tochuc37.png",
+		title: "Trợ Thính Quang Đức - Máy Trợ Thính Chính Hãng, Giá Tốt",
+		description: "Quang Đức tên đầy đủ là Công ty TNHH Dịch vụ Trợ thính Quang Đức. Là đơn vị cung cấp phân phối máy trợ thính và thực hiện một số dịch vụ về trợ thính tại Việt Nam. Chúng tôi đã phát triển rất nhiều đại lý của mình ở các tỉnh thành gồm: Hồ Chí Minh, Hà Nội,…",
+	},
+	{
+		link: "https://trothinhthuysi.com/",
+		logo: "/image/tochuc38.png",
+		title: "Trung tâm trợ thính Connect Hearing",
+		description:
+			"Trợ thính Connect Hearing là một mạng lưới lớn mạnh bao gồm các trung tâm chăm sóc thính giác có mặt ở nhiều quốc gia trên thế giới, luôn nỗ lực tìm ra những giải pháp tốt nhất để phục vụ quý khách hàng. Đội ngũ Chuyên gia Chăm sóc Thính lực của chúng tôi là những người dày dạn kinh nghiệm trong lĩnh vực thính học của Sonova Việt Nam – những người đã, đang và sẽ luôn đồng hành cùng bạn trên hành trình tìm lại âm thanh. Connect Hearing là trung tâm trợ thính trực thuộc tập đoàn Sonova, nhà cung cấp các giải pháp chăm sóc sức khỏe thính giác sáng tạo hàng đầu thế giới.",
+	},
+	{
+		link: "https://hearlifevietnam.com/",
+		logo: "/image/tochuc39.png",
+		title: "Trung tâm trợ thính hearLIFE Việt Nam",
+		description: "Công ty TNHH Trung tâm trợ thính hearLIFE được công nhận là đơn vị dẫn đầu về chăm sóc sức nghe, máy trợ thính, thiết bị cấy ghép và hợp tác với nhiều bệnh viện trên khắp Việt Nam.",
+	},
+	{
+		link: "https://maytrothinhthienduc.com.vn/",
+		logo: "/image/tochuc40.png",
+		title: "Trợ Thính Thiên Đức – Cùng lắng nghe, cùng chia sẻ.",
+		description: "Trợ thính Thiên Đức tên đầy đủ là Công ty TNHH máy trợ thính & TBYT Thiên Đức, là đơn vị phân phối máy trợ thính, thiết bị thính học và một số dịch vụ về thính học tại Việt Nam. Ngoài ra, chúng tôi còn phân phối cả thanh quản điện tử dành cho các bệnh nhân bị ung thư thanh quản.",
+	},
+	{
+		link: "https://trothinhmicrotech.com/",
+		logo: "/image/tochuc41.png",
+		title: "Trung Tâm Trợ Thính Microtech",
+		description: "Trung Tâm Trợ Thính Microtech được thành lập năm 2011 chuyên khám khiếm thính và lắp đặt Máy Trợ Thính cho người lớn và trẻ em. Năm 2020 chúng tôi bổ sung thêm ngành nghề với những mong muốn giúp đỡ bệnh nhân khiếm thính nhiều hơn nữa",
+	},
+	{
+		link: "https://cattuonghearing.vn/",
+		logo: "/image/tochuc42.png",
+		title: "Máy trợ thính Cát Tường Hearing",
+		description: "Trung tâm Thính lực Cát Tường tự hào mang những thành tựu thính học hiện đại nhất từ khắp nơi trên thế giới về Việt Nam. Chúng tôi không ngừng nỗ lực để giúp trẻ em và người lớn tuổi tìm lại âm thanh, hòa nhập cộng đồng và thay đổi cuộc sống của họ.",
+	},
 ];
 export const sliderOrganizations = Array.from({ length: 42 }, (_, i) => {
-  return `/image/tochuc${i + 1}.png`;
+	return `/image/tochuc${i + 1}.png`;
 });
 export const bangChuCai = [{ id: "A" }, { id: "B" }, { id: "C" }, { id: "D" }, { id: "Đ" }, { id: "E" }, { id: "G" }, { id: "H" }, { id: "I" }, { id: "K" }, { id: "L" }, { id: "M" }, { id: "N" }, { id: "O" }, { id: "P" }, { id: "Q" }, { id: "R" }, { id: "S" }, { id: "T" }, { id: "U" }, { id: "V" }, { id: "X" }, { id: "Y" }];
 export const game = [
-  {
-    level: 1,
-    title: "Ký hiệu trên là con vật nào?",
-    video: "game1",
-    idTrue: 1,
-    array: [
-      { id: 1, name: "animal1" },
-      { id: 2, name: "animal2" },
-      { id: 3, name: "animal3" },
-      { id: 4, name: "animal4" },
-    ],
-  },
-  {
-    level: 2,
-    title: "Ký hiệu trên là món ăn nào?",
-    video: "game2",
-    idTrue: 3,
-    array: [
-      { id: 1, name: "foot1" },
-      { id: 2, name: "foot2" },
-      { id: 3, name: "foot3" },
-      { id: 4, name: "foot4" },
-    ],
-  },
-  {
-    level: 3,
-    title: "Ký hiệu trên là nghề nghiệp nào?",
-    video: "game3",
-    idTrue: 4,
-    array: [
-      { id: 1, name: "work1" },
-      { id: 2, name: "work2" },
-      { id: 3, name: "work3" },
-      { id: 4, name: "work4" },
-    ],
-  },
-  {
-    level: 4,
-    title: "Ký hiệu trên là đồ uống nào?",
-    video: "game4",
-    idTrue: 4,
-    array: [
-      { id: 1, name: "drink1" },
-      { id: 2, name: "drink2" },
-      { id: 3, name: "drink3" },
-      { id: 4, name: "drink4" },
-    ],
-  },
-  {
-    level: 5,
-    title: "Ký hiệu trên là đồ vật nào?",
-    video: "game5",
-    idTrue: 2,
-    array: [
-      { id: 1, name: "object1" },
-      { id: 2, name: "object2" },
-      { id: 3, name: "object3" },
-      { id: 4, name: "object4" },
-    ],
-  },
-  {
-    level: 6,
-    title: "Ký hiệu trên là quốc gia nào?",
-    video: "game6",
-    idTrue: 4,
-    array: [
-      { id: 1, name: "country1" },
-      { id: 2, name: "country2" },
-      { id: 3, name: "country3" },
-      { id: 4, name: "country4" },
-    ],
-  },
-  {
-    level: 7,
-    title: "Ký hiệu trên là loại hoa quả nào?",
-    video: "game7",
-    idTrue: 3,
-    array: [
-      { id: 1, name: "fruit1" },
-      { id: 2, name: "fruit2" },
-      { id: 3, name: "fruit3" },
-      { id: 4, name: "fruit4" },
-    ],
-  },
-  {
-    level: 8,
-    title: "Ký hiệu trên là loại phương tiện nào?",
-    video: "game8",
-    idTrue: 1,
-    array: [
-      { id: 1, name: "vehicle1" },
-      { id: 2, name: "vehicle2" },
-      { id: 3, name: "vehicle3" },
-      { id: 4, name: "vehicle4" },
-    ],
-  },
+	{
+		level: 1,
+		title: "Ký hiệu trên là con vật nào?",
+		video: "game1",
+		idTrue: 1,
+		array: [
+			{ id: 1, name: "animal1" },
+			{ id: 2, name: "animal2" },
+			{ id: 3, name: "animal3" },
+			{ id: 4, name: "animal4" },
+		],
+	},
+	{
+		level: 2,
+		title: "Ký hiệu trên là món ăn nào?",
+		video: "game2",
+		idTrue: 3,
+		array: [
+			{ id: 1, name: "foot1" },
+			{ id: 2, name: "foot2" },
+			{ id: 3, name: "foot3" },
+			{ id: 4, name: "foot4" },
+		],
+	},
+	{
+		level: 3,
+		title: "Ký hiệu trên là nghề nghiệp nào?",
+		video: "game3",
+		idTrue: 4,
+		array: [
+			{ id: 1, name: "work1" },
+			{ id: 2, name: "work2" },
+			{ id: 3, name: "work3" },
+			{ id: 4, name: "work4" },
+		],
+	},
+	{
+		level: 4,
+		title: "Ký hiệu trên là đồ uống nào?",
+		video: "game4",
+		idTrue: 4,
+		array: [
+			{ id: 1, name: "drink1" },
+			{ id: 2, name: "drink2" },
+			{ id: 3, name: "drink3" },
+			{ id: 4, name: "drink4" },
+		],
+	},
+	{
+		level: 5,
+		title: "Ký hiệu trên là đồ vật nào?",
+		video: "game5",
+		idTrue: 2,
+		array: [
+			{ id: 1, name: "object1" },
+			{ id: 2, name: "object2" },
+			{ id: 3, name: "object3" },
+			{ id: 4, name: "object4" },
+		],
+	},
+	{
+		level: 6,
+		title: "Ký hiệu trên là quốc gia nào?",
+		video: "game6",
+		idTrue: 4,
+		array: [
+			{ id: 1, name: "country1" },
+			{ id: 2, name: "country2" },
+			{ id: 3, name: "country3" },
+			{ id: 4, name: "country4" },
+		],
+	},
+	{
+		level: 7,
+		title: "Ký hiệu trên là loại hoa quả nào?",
+		video: "game7",
+		idTrue: 3,
+		array: [
+			{ id: 1, name: "fruit1" },
+			{ id: 2, name: "fruit2" },
+			{ id: 3, name: "fruit3" },
+			{ id: 4, name: "fruit4" },
+		],
+	},
+	{
+		level: 8,
+		title: "Ký hiệu trên là loại phương tiện nào?",
+		video: "game8",
+		idTrue: 1,
+		array: [
+			{ id: 1, name: "vehicle1" },
+			{ id: 2, name: "vehicle2" },
+			{ id: 3, name: "vehicle3" },
+			{ id: 4, name: "vehicle4" },
+		],
+	},
 ];
 export const kynangmem = [
-  {
-    img: "/image/ky-nang-mem/kynang1.png",
-    title: "Kỹ Năng Giao Tiếp Ứng Xử Trong Cuộc Sống",
-    description: "Giúp học viên học cách lắng nghe, bày tỏ cảm xúc, xử lý mâu thuẫn và giao tiếp hiệu quả trong đời sống hàng ngày.",
-    day: "12 bài giảng",
-    free: false,
-    price: "100.000 VND",
-    time: "90 phút",
-    form: "6 buổi",
-    objectives: "Mọi độ tuổi",
-    teacher: "Ths. Đỗ Thị Hảo",
-    slug: "ky-nang-giao-tiep-ung-xu-trong-cuoc-song",
-    organization: [
-      {
-        img: "/image/Ellipse-6.png",
-        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
-      },
-    ],
-    courseIntroduction: `
+	{
+		img: "/image/ky-nang-mem/kynang1.png",
+		title: "Kỹ Năng Giao Tiếp Ứng Xử Trong Cuộc Sống",
+		description: "Giúp học viên học cách lắng nghe, bày tỏ cảm xúc, xử lý mâu thuẫn và giao tiếp hiệu quả trong đời sống hàng ngày.",
+		day: "12 bài giảng",
+		free: false,
+		price: "100.000 VND",
+		time: "90 phút",
+		form: "6 buổi",
+		objectives: "Mọi độ tuổi",
+		teacher: "Ths. Đỗ Thị Hảo",
+		slug: "ky-nang-giao-tiep-ung-xu-trong-cuoc-song",
+		organization: [
+			{
+				img: "/image/Ellipse-6.png",
+				title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+			},
+		],
+		courseIntroduction: `
 			<p class="text-black text-base leading-relaxed">
 			  Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam tổ chức các buổi trị liệu ngôn ngữ 1:1 dành cho trẻ em và thanh thiếu niên khiếm thính nhằm phát triển khả năng giao tiếp, phát âm, sử dụng ngôn ngữ ký hiệu và hiểu ngôn ngữ nói.
 			</p>
@@ -7687,7 +8091,7 @@ export const kynangmem = [
 			  📞 Liên hệ tư vấn: 0936 253 215
 			</p>
 			 `,
-    output: `
+		output: `
 			  <p class="text-black text-base  leading-relaxed">
 				  Phương pháp AVT hướng đến việc giúp trẻ khiếm thính phát triển kỹ năng ngôn ngữ nói và hiểu lời nói thông qua việc sử dụng khả năng nghe (ngay cả khi đã hỗ trợ bằng máy trợ thính hoặc cấy ốc tai điện tử). Đầu ra kỳ vọng bao gồm:
 			  </p>
@@ -7729,7 +8133,7 @@ export const kynangmem = [
 			  </p>
 			  
 		  `,
-    content: `
+		content: `
 			  <p class="text-black text-base font-bold leading-relaxed">
 				  1. Kích hoạt và phát triển kỹ năng nghe
 			  </p>
@@ -7791,24 +8195,24 @@ export const kynangmem = [
 				  • Thực hành cùng con thông qua chơi, đọc sách, đối thoại
 			  </p>
 		  `,
-    commnents: [
-      {
-        name: "Lê Văn Trường",
-        avatar: "/image/comment1.png",
-        content: `"Tôi biết cách nói lời xin lỗi và cảm ơn đúng lúc. Trước kia tôi hay im lặng khi có vấn đề."`,
-      },
-      {
-        name: "Nguyễn Hoài An",
-        avatar: "/image/comment1.png",
-        content: `"Cô giáo dạy bằng ký hiệu rõ ràng, dễ hiểu. Em rất thích giờ đóng vai."`,
-      },
-      {
-        name: "Trần Minh Hòa",
-        avatar: "/image/comment1.png",
-        content: `"Giờ tôi nói chuyện với đồng nghiệp không còn ngại ngùng nữa."`,
-      },
-    ],
-    scienceRegistration: `
+		commnents: [
+			{
+				name: "Lê Văn Trường",
+				avatar: "/image/comment1.png",
+				content: `"Tôi biết cách nói lời xin lỗi và cảm ơn đúng lúc. Trước kia tôi hay im lặng khi có vấn đề."`,
+			},
+			{
+				name: "Nguyễn Hoài An",
+				avatar: "/image/comment1.png",
+				content: `"Cô giáo dạy bằng ký hiệu rõ ràng, dễ hiểu. Em rất thích giờ đóng vai."`,
+			},
+			{
+				name: "Trần Minh Hòa",
+				avatar: "/image/comment1.png",
+				content: `"Giờ tôi nói chuyện với đồng nghiệp không còn ngại ngùng nữa."`,
+			},
+		],
+		scienceRegistration: `
 			  <p class="text-black text-base leading-relaxed">
 				  🔹 Cách đăng ký:
 			  </p>	
@@ -7826,26 +8230,26 @@ export const kynangmem = [
 			  </p>
 	  
 		  `,
-  },
-  {
-    img: "/image/ky-nang-mem/kynang2.png",
-    title: "Kỹ Năng Làm Việc Nhóm",
-    description: "Giúp học viên học cách lắng nghe, bày tỏ cảm xúc, xử lý mâu thuẫn và giao tiếp hiệu quả trong đời sống hàng ngày.",
-    day: "12 bài giảng",
-    free: false,
-    price: "100.000 VND",
-    time: "90 phút",
-    form: "6 buổi",
-    objectives: "Mọi độ tuổi",
-    teacher: "Ths. Đỗ Thị Hảo",
-    slug: "ky-nang-lam-viec-nhom",
-    organization: [
-      {
-        img: "/image/Ellipse-6.png",
-        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
-      },
-    ],
-    courseIntroduction: `
+	},
+	{
+		img: "/image/ky-nang-mem/kynang2.png",
+		title: "Kỹ Năng Làm Việc Nhóm",
+		description: "Giúp học viên học cách lắng nghe, bày tỏ cảm xúc, xử lý mâu thuẫn và giao tiếp hiệu quả trong đời sống hàng ngày.",
+		day: "12 bài giảng",
+		free: false,
+		price: "100.000 VND",
+		time: "90 phút",
+		form: "6 buổi",
+		objectives: "Mọi độ tuổi",
+		teacher: "Ths. Đỗ Thị Hảo",
+		slug: "ky-nang-lam-viec-nhom",
+		organization: [
+			{
+				img: "/image/Ellipse-6.png",
+				title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+			},
+		],
+		courseIntroduction: `
 			<p class="text-black text-base leading-relaxed">
 			  Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam tổ chức các buổi trị liệu ngôn ngữ 1:1 dành cho trẻ em và thanh thiếu niên khiếm thính nhằm phát triển khả năng giao tiếp, phát âm, sử dụng ngôn ngữ ký hiệu và hiểu ngôn ngữ nói.
 			</p>
@@ -7874,7 +8278,7 @@ export const kynangmem = [
 			  📞 Liên hệ tư vấn: 0936 253 215
 			</p>
 			 `,
-    output: `
+		output: `
 			  <p class="text-black text-base  leading-relaxed">
 				  Phương pháp AVT hướng đến việc giúp trẻ khiếm thính phát triển kỹ năng ngôn ngữ nói và hiểu lời nói thông qua việc sử dụng khả năng nghe (ngay cả khi đã hỗ trợ bằng máy trợ thính hoặc cấy ốc tai điện tử). Đầu ra kỳ vọng bao gồm:
 			  </p>
@@ -7916,7 +8320,7 @@ export const kynangmem = [
 			  </p>
 			  
 		  `,
-    content: `
+		content: `
 			  <p class="text-black text-base font-bold leading-relaxed">
 				  1. Kích hoạt và phát triển kỹ năng nghe
 			  </p>
@@ -7978,24 +8382,24 @@ export const kynangmem = [
 				  • Thực hành cùng con thông qua chơi, đọc sách, đối thoại
 			  </p>
 		  `,
-    commnents: [
-      {
-        name: "Lê Văn Trường",
-        avatar: "/image/comment1.png",
-        content: `"Tôi biết cách nói lời xin lỗi và cảm ơn đúng lúc. Trước kia tôi hay im lặng khi có vấn đề."`,
-      },
-      {
-        name: "Nguyễn Hoài An",
-        avatar: "/image/comment1.png",
-        content: `"Cô giáo dạy bằng ký hiệu rõ ràng, dễ hiểu. Em rất thích giờ đóng vai."`,
-      },
-      {
-        name: "Trần Minh Hòa",
-        avatar: "/image/comment1.png",
-        content: `"Giờ tôi nói chuyện với đồng nghiệp không còn ngại ngùng nữa."`,
-      },
-    ],
-    scienceRegistration: `
+		commnents: [
+			{
+				name: "Lê Văn Trường",
+				avatar: "/image/comment1.png",
+				content: `"Tôi biết cách nói lời xin lỗi và cảm ơn đúng lúc. Trước kia tôi hay im lặng khi có vấn đề."`,
+			},
+			{
+				name: "Nguyễn Hoài An",
+				avatar: "/image/comment1.png",
+				content: `"Cô giáo dạy bằng ký hiệu rõ ràng, dễ hiểu. Em rất thích giờ đóng vai."`,
+			},
+			{
+				name: "Trần Minh Hòa",
+				avatar: "/image/comment1.png",
+				content: `"Giờ tôi nói chuyện với đồng nghiệp không còn ngại ngùng nữa."`,
+			},
+		],
+		scienceRegistration: `
 			  <p class="text-black text-base leading-relaxed">
 				  🔹 Cách đăng ký:
 			  </p>	
@@ -8013,26 +8417,26 @@ export const kynangmem = [
 			  </p>
 	  
 		  `,
-  },
-  {
-    img: "/image/ky-nang-mem/kynang3.png",
-    title: "Kỹ Năng Quản Lý Cảm Xúc Và Căng Thẳng",
-    description: "Giúp học viên học cách lắng nghe, bày tỏ cảm xúc, xử lý mâu thuẫn và giao tiếp hiệu quả trong đời sống hàng ngày.",
-    day: "12 bài giảng",
-    free: false,
-    price: "100.000 VND",
-    time: "90 phút",
-    form: "6 buổi",
-    objectives: "Mọi độ tuổi",
-    teacher: "Ths. Đỗ Thị Hảo",
-    slug: "ky-nang-quan-ly-cam-xuc-va-cang-thang",
-    organization: [
-      {
-        img: "/image/Ellipse-6.png",
-        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
-      },
-    ],
-    courseIntroduction: `
+	},
+	{
+		img: "/image/ky-nang-mem/kynang3.png",
+		title: "Kỹ Năng Quản Lý Cảm Xúc Và Căng Thẳng",
+		description: "Giúp học viên học cách lắng nghe, bày tỏ cảm xúc, xử lý mâu thuẫn và giao tiếp hiệu quả trong đời sống hàng ngày.",
+		day: "12 bài giảng",
+		free: false,
+		price: "100.000 VND",
+		time: "90 phút",
+		form: "6 buổi",
+		objectives: "Mọi độ tuổi",
+		teacher: "Ths. Đỗ Thị Hảo",
+		slug: "ky-nang-quan-ly-cam-xuc-va-cang-thang",
+		organization: [
+			{
+				img: "/image/Ellipse-6.png",
+				title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+			},
+		],
+		courseIntroduction: `
 			<p class="text-black text-base leading-relaxed">
 			  Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam tổ chức các buổi trị liệu ngôn ngữ 1:1 dành cho trẻ em và thanh thiếu niên khiếm thính nhằm phát triển khả năng giao tiếp, phát âm, sử dụng ngôn ngữ ký hiệu và hiểu ngôn ngữ nói.
 			</p>
@@ -8061,7 +8465,7 @@ export const kynangmem = [
 			  📞 Liên hệ tư vấn: 0936 253 215
 			</p>
 			 `,
-    output: `
+		output: `
 			  <p class="text-black text-base  leading-relaxed">
 				  Phương pháp AVT hướng đến việc giúp trẻ khiếm thính phát triển kỹ năng ngôn ngữ nói và hiểu lời nói thông qua việc sử dụng khả năng nghe (ngay cả khi đã hỗ trợ bằng máy trợ thính hoặc cấy ốc tai điện tử). Đầu ra kỳ vọng bao gồm:
 			  </p>
@@ -8103,7 +8507,7 @@ export const kynangmem = [
 			  </p>
 			  
 		  `,
-    content: `
+		content: `
 			  <p class="text-black text-base font-bold leading-relaxed">
 				  1. Kích hoạt và phát triển kỹ năng nghe
 			  </p>
@@ -8165,24 +8569,24 @@ export const kynangmem = [
 				  • Thực hành cùng con thông qua chơi, đọc sách, đối thoại
 			  </p>
 		  `,
-    commnents: [
-      {
-        name: "Lê Văn Trường",
-        avatar: "/image/comment1.png",
-        content: `"Tôi biết cách nói lời xin lỗi và cảm ơn đúng lúc. Trước kia tôi hay im lặng khi có vấn đề."`,
-      },
-      {
-        name: "Nguyễn Hoài An",
-        avatar: "/image/comment1.png",
-        content: `"Cô giáo dạy bằng ký hiệu rõ ràng, dễ hiểu. Em rất thích giờ đóng vai."`,
-      },
-      {
-        name: "Trần Minh Hòa",
-        avatar: "/image/comment1.png",
-        content: `"Giờ tôi nói chuyện với đồng nghiệp không còn ngại ngùng nữa."`,
-      },
-    ],
-    scienceRegistration: `
+		commnents: [
+			{
+				name: "Lê Văn Trường",
+				avatar: "/image/comment1.png",
+				content: `"Tôi biết cách nói lời xin lỗi và cảm ơn đúng lúc. Trước kia tôi hay im lặng khi có vấn đề."`,
+			},
+			{
+				name: "Nguyễn Hoài An",
+				avatar: "/image/comment1.png",
+				content: `"Cô giáo dạy bằng ký hiệu rõ ràng, dễ hiểu. Em rất thích giờ đóng vai."`,
+			},
+			{
+				name: "Trần Minh Hòa",
+				avatar: "/image/comment1.png",
+				content: `"Giờ tôi nói chuyện với đồng nghiệp không còn ngại ngùng nữa."`,
+			},
+		],
+		scienceRegistration: `
 			  <p class="text-black text-base leading-relaxed">
 				  🔹 Cách đăng ký:
 			  </p>	
@@ -8200,26 +8604,26 @@ export const kynangmem = [
 			  </p>
 	  
 		  `,
-  },
-  {
-    img: "/image/ky-nang-mem/kynang4.png",
-    title: "Kỹ Năng Tự Chăm Sóc Bản Thân",
-    description: "Giúp học viên học cách lắng nghe, bày tỏ cảm xúc, xử lý mâu thuẫn và giao tiếp hiệu quả trong đời sống hàng ngày.",
-    day: "12 bài giảng",
-    free: false,
-    price: "100.000 VND",
-    time: "90 phút",
-    form: "6 buổi",
-    objectives: "Mọi độ tuổi",
-    teacher: "Ths. Đỗ Thị Hảo",
-    slug: "ky-nang-tu-cham-soc-ban-than",
-    organization: [
-      {
-        img: "/image/Ellipse-6.png",
-        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
-      },
-    ],
-    courseIntroduction: `
+	},
+	{
+		img: "/image/ky-nang-mem/kynang4.png",
+		title: "Kỹ Năng Tự Chăm Sóc Bản Thân",
+		description: "Giúp học viên học cách lắng nghe, bày tỏ cảm xúc, xử lý mâu thuẫn và giao tiếp hiệu quả trong đời sống hàng ngày.",
+		day: "12 bài giảng",
+		free: false,
+		price: "100.000 VND",
+		time: "90 phút",
+		form: "6 buổi",
+		objectives: "Mọi độ tuổi",
+		teacher: "Ths. Đỗ Thị Hảo",
+		slug: "ky-nang-tu-cham-soc-ban-than",
+		organization: [
+			{
+				img: "/image/Ellipse-6.png",
+				title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+			},
+		],
+		courseIntroduction: `
 			<p class="text-black text-base leading-relaxed">
 			  Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam tổ chức các buổi trị liệu ngôn ngữ 1:1 dành cho trẻ em và thanh thiếu niên khiếm thính nhằm phát triển khả năng giao tiếp, phát âm, sử dụng ngôn ngữ ký hiệu và hiểu ngôn ngữ nói.
 			</p>
@@ -8248,7 +8652,7 @@ export const kynangmem = [
 			  📞 Liên hệ tư vấn: 0936 253 215
 			</p>
 			 `,
-    output: `
+		output: `
 			  <p class="text-black text-base  leading-relaxed">
 				  Phương pháp AVT hướng đến việc giúp trẻ khiếm thính phát triển kỹ năng ngôn ngữ nói và hiểu lời nói thông qua việc sử dụng khả năng nghe (ngay cả khi đã hỗ trợ bằng máy trợ thính hoặc cấy ốc tai điện tử). Đầu ra kỳ vọng bao gồm:
 			  </p>
@@ -8290,7 +8694,7 @@ export const kynangmem = [
 			  </p>
 			  
 		  `,
-    content: `
+		content: `
 			  <p class="text-black text-base font-bold leading-relaxed">
 				  1. Kích hoạt và phát triển kỹ năng nghe
 			  </p>
@@ -8352,24 +8756,24 @@ export const kynangmem = [
 				  • Thực hành cùng con thông qua chơi, đọc sách, đối thoại
 			  </p>
 		  `,
-    commnents: [
-      {
-        name: "Lê Văn Trường",
-        avatar: "/image/comment1.png",
-        content: `"Tôi biết cách nói lời xin lỗi và cảm ơn đúng lúc. Trước kia tôi hay im lặng khi có vấn đề."`,
-      },
-      {
-        name: "Nguyễn Hoài An",
-        avatar: "/image/comment1.png",
-        content: `"Cô giáo dạy bằng ký hiệu rõ ràng, dễ hiểu. Em rất thích giờ đóng vai."`,
-      },
-      {
-        name: "Trần Minh Hòa",
-        avatar: "/image/comment1.png",
-        content: `"Giờ tôi nói chuyện với đồng nghiệp không còn ngại ngùng nữa."`,
-      },
-    ],
-    scienceRegistration: `
+		commnents: [
+			{
+				name: "Lê Văn Trường",
+				avatar: "/image/comment1.png",
+				content: `"Tôi biết cách nói lời xin lỗi và cảm ơn đúng lúc. Trước kia tôi hay im lặng khi có vấn đề."`,
+			},
+			{
+				name: "Nguyễn Hoài An",
+				avatar: "/image/comment1.png",
+				content: `"Cô giáo dạy bằng ký hiệu rõ ràng, dễ hiểu. Em rất thích giờ đóng vai."`,
+			},
+			{
+				name: "Trần Minh Hòa",
+				avatar: "/image/comment1.png",
+				content: `"Giờ tôi nói chuyện với đồng nghiệp không còn ngại ngùng nữa."`,
+			},
+		],
+		scienceRegistration: `
 			  <p class="text-black text-base leading-relaxed">
 				  🔹 Cách đăng ký:
 			  </p>	
@@ -8387,26 +8791,26 @@ export const kynangmem = [
 			  </p>
 	  
 		  `,
-  },
-  {
-    img: "/image/ky-nang-mem/kynang5.png",
-    title: "Giáo dục giới tính",
-    description: "Giúp học viên học cách lắng nghe, bày tỏ cảm xúc, xử lý mâu thuẫn và giao tiếp hiệu quả trong đời sống hàng ngày.",
-    day: "12 bài giảng",
-    free: false,
-    price: "100.000 VND",
-    time: "90 phút",
-    form: "6 buổi",
-    objectives: "Mọi độ tuổi",
-    teacher: "Ths. Đỗ Thị Hảo",
-    slug: "giao-duc-gioi-tinh",
-    organization: [
-      {
-        img: "/image/Ellipse-6.png",
-        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
-      },
-    ],
-    courseIntroduction: `
+	},
+	{
+		img: "/image/ky-nang-mem/kynang5.png",
+		title: "Giáo dục giới tính",
+		description: "Giúp học viên học cách lắng nghe, bày tỏ cảm xúc, xử lý mâu thuẫn và giao tiếp hiệu quả trong đời sống hàng ngày.",
+		day: "12 bài giảng",
+		free: false,
+		price: "100.000 VND",
+		time: "90 phút",
+		form: "6 buổi",
+		objectives: "Mọi độ tuổi",
+		teacher: "Ths. Đỗ Thị Hảo",
+		slug: "giao-duc-gioi-tinh",
+		organization: [
+			{
+				img: "/image/Ellipse-6.png",
+				title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+			},
+		],
+		courseIntroduction: `
 			  <p class="text-black text-base leading-relaxed">
 				Doanh nghiệp Xã hội Vì Người Khiếm Thính Việt Nam tổ chức các buổi trị liệu ngôn ngữ 1:1 dành cho trẻ em và thanh thiếu niên khiếm thính nhằm phát triển khả năng giao tiếp, phát âm, sử dụng ngôn ngữ ký hiệu và hiểu ngôn ngữ nói.
 			  </p>
@@ -8435,7 +8839,7 @@ export const kynangmem = [
 				📞 Liên hệ tư vấn: 0936 253 215
 			  </p>
 			   `,
-    output: `
+		output: `
 				<p class="text-black text-base  leading-relaxed">
 					Phương pháp AVT hướng đến việc giúp trẻ khiếm thính phát triển kỹ năng ngôn ngữ nói và hiểu lời nói thông qua việc sử dụng khả năng nghe (ngay cả khi đã hỗ trợ bằng máy trợ thính hoặc cấy ốc tai điện tử). Đầu ra kỳ vọng bao gồm:
 				</p>
@@ -8477,7 +8881,7 @@ export const kynangmem = [
 				</p>
 				
 			`,
-    content: `
+		content: `
 				<p class="text-black text-base font-bold leading-relaxed">
 					1. Kích hoạt và phát triển kỹ năng nghe
 				</p>
@@ -8539,24 +8943,24 @@ export const kynangmem = [
 					• Thực hành cùng con thông qua chơi, đọc sách, đối thoại
 				</p>
 			`,
-    commnents: [
-      {
-        name: "Lê Văn Trường",
-        avatar: "/image/comment1.png",
-        content: `"Tôi biết cách nói lời xin lỗi và cảm ơn đúng lúc. Trước kia tôi hay im lặng khi có vấn đề."`,
-      },
-      {
-        name: "Nguyễn Hoài An",
-        avatar: "/image/comment1.png",
-        content: `"Cô giáo dạy bằng ký hiệu rõ ràng, dễ hiểu. Em rất thích giờ đóng vai."`,
-      },
-      {
-        name: "Trần Minh Hòa",
-        avatar: "/image/comment1.png",
-        content: `"Giờ tôi nói chuyện với đồng nghiệp không còn ngại ngùng nữa."`,
-      },
-    ],
-    scienceRegistration: `
+		commnents: [
+			{
+				name: "Lê Văn Trường",
+				avatar: "/image/comment1.png",
+				content: `"Tôi biết cách nói lời xin lỗi và cảm ơn đúng lúc. Trước kia tôi hay im lặng khi có vấn đề."`,
+			},
+			{
+				name: "Nguyễn Hoài An",
+				avatar: "/image/comment1.png",
+				content: `"Cô giáo dạy bằng ký hiệu rõ ràng, dễ hiểu. Em rất thích giờ đóng vai."`,
+			},
+			{
+				name: "Trần Minh Hòa",
+				avatar: "/image/comment1.png",
+				content: `"Giờ tôi nói chuyện với đồng nghiệp không còn ngại ngùng nữa."`,
+			},
+		],
+		scienceRegistration: `
 				<p class="text-black text-base leading-relaxed">
 					🔹 Cách đăng ký:
 				</p>	
@@ -8574,28 +8978,28 @@ export const kynangmem = [
 				</p>
 		
 			`,
-  },
+	},
 ];
 export const daotaonghe = [
-  {
-    img: "/image/daotaonghe1.jpg",
-    title: "Thiết kế và Sản xuất Bao Lì Xì Thủ Công",
-    description: "Khóa học giúp học viên khiếm thính thiết kế và sản xuất bao lì xì thủ công, phát triển kỹ năng sáng tạo và tạo nguồn thu nhập ổn định.",
-    day: "12 bài giảng",
-    free: true,
-    price: null,
-    time: "120 phút",
-    form: "12 buổi",
-    objectives: "16 tuổi trở lên",
-    teacher: "Ths. Đỗ Thị Hảo",
-    slug: "thiet-ke-va-san-xuat-bao-li-xi-thu-cong",
-    organization: [
-      {
-        img: "/image/Ellipse-6.png",
-        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
-      },
-    ],
-    courseIntroduction: `
+	{
+		img: "/image/daotaonghe1.jpg",
+		title: "Thiết kế và Sản xuất Bao Lì Xì Thủ Công",
+		description: "Khóa học giúp học viên khiếm thính thiết kế và sản xuất bao lì xì thủ công, phát triển kỹ năng sáng tạo và tạo nguồn thu nhập ổn định.",
+		day: "12 bài giảng",
+		free: true,
+		price: null,
+		time: "120 phút",
+		form: "12 buổi",
+		objectives: "16 tuổi trở lên",
+		teacher: "Ths. Đỗ Thị Hảo",
+		slug: "thiet-ke-va-san-xuat-bao-li-xi-thu-cong",
+		organization: [
+			{
+				img: "/image/Ellipse-6.png",
+				title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+			},
+		],
+		courseIntroduction: `
 			<p class="text-black text-base mb-4 leading-relaxed">
 			  Khóa học "Thiết Kế và Sản Xuất Bao Lì Xì Thủ Công" được thiết kế đặc biệt cho người khiếm thính, nhằm phát triển kỹ năng thủ công và sáng tạo. Học viên sẽ được hướng dẫn cách thiết kế, cắt, gấp và trang trí bao lì xì bằng các vật liệu thân thiện với môi trường. Khóa học không chỉ giúp học viên rèn luyện sự khéo léo mà còn mở ra cơ hội kinh doanh nhỏ, tạo nguồn thu nhập ổn định.
 			</p>
@@ -8621,7 +9025,7 @@ export const daotaonghe = [
 			  •Thời gian: 12/6/2025 đến 12/7/2025 (Số lượng đăng ký có hạn)
 			</p>
 			 `,
-    output: `
+		output: `
 		<p class="text-black text-base  leading-relaxed pl-4">
 			  • Thành thạo kỹ năng thiết kế và sản xuất bao lì xì thủ công
 			</p>
@@ -8632,7 +9036,7 @@ export const daotaonghe = [
 			  • Cơ hội tham gia các hội chợ, triển lãm để giới thiệu sản phẩm
 			</p>
 		  `,
-    content: `
+		content: `
 			  <p class="text-black text-base  leading-relaxed pl-4">
 				  • Giới thiệu về nghệ thuật làm bao lì xì
 			  </p>
@@ -8649,24 +9053,24 @@ export const daotaonghe = [
 				  • Kỹ năng bán hàng và tiếp thị sản phẩm
 			  </p>
 		  `,
-    commnents: [
-      {
-        name: "Nguyễn Thị Lan",
-        avatar: "/image/comment1.png",
-        content: `"Khóa học giúp tôi tự tin hơn và có thể kiếm thêm thu nhập từ sản phẩm mình làm ra."`,
-      },
-      {
-        name: "Trần Văn Minh",
-        avatar: "/image/comment1.png",
-        content: `"Tôi học được nhiều kỹ năng mới và cảm thấy rất vui khi sản phẩm của mình được mọi người yêu thích."`,
-      },
-      {
-        name: "Lê Thị Hồng",
-        avatar: "/image/comment1.png",
-        content: `"Giảng viên rất tận tình, môi trường học thân thiện và hỗ trợ tốt cho người khiếm thính."`,
-      },
-    ],
-    scienceRegistration: `
+		commnents: [
+			{
+				name: "Nguyễn Thị Lan",
+				avatar: "/image/comment1.png",
+				content: `"Khóa học giúp tôi tự tin hơn và có thể kiếm thêm thu nhập từ sản phẩm mình làm ra."`,
+			},
+			{
+				name: "Trần Văn Minh",
+				avatar: "/image/comment1.png",
+				content: `"Tôi học được nhiều kỹ năng mới và cảm thấy rất vui khi sản phẩm của mình được mọi người yêu thích."`,
+			},
+			{
+				name: "Lê Thị Hồng",
+				avatar: "/image/comment1.png",
+				content: `"Giảng viên rất tận tình, môi trường học thân thiện và hỗ trợ tốt cho người khiếm thính."`,
+			},
+		],
+		scienceRegistration: `
 			  <p class="text-black text-base leading-relaxed">
 				  🔹 Cách đăng ký:
 			  </p>	
@@ -8690,26 +9094,26 @@ export const daotaonghe = [
 			  </p>
 	  
 		  `,
-  },
-  {
-    img: "/image/daotaonghe2.jpg",
-    title: "Làm Hoa Giấy Nghệ Thuật",
-    description: "Khóa học hướng dẫn kỹ thuật làm hoa giấy nghệ thuật, giúp học viên phát triển kỹ năng thủ công và sáng tạo.",
-    day: "12 bài giảng",
-    free: true,
-    price: null,
-    time: "120 phút",
-    form: "10 buổi",
-    objectives: "15 tuổi trở lên",
-    teacher: "Ths. Đỗ Thị Hảo",
-    slug: "lam-hoa-giay-nghe-thuat",
-    organization: [
-      {
-        img: "/image/Ellipse-6.png",
-        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
-      },
-    ],
-    courseIntroduction: `
+	},
+	{
+		img: "/image/daotaonghe2.jpg",
+		title: "Làm Hoa Giấy Nghệ Thuật",
+		description: "Khóa học hướng dẫn kỹ thuật làm hoa giấy nghệ thuật, giúp học viên phát triển kỹ năng thủ công và sáng tạo.",
+		day: "12 bài giảng",
+		free: true,
+		price: null,
+		time: "120 phút",
+		form: "10 buổi",
+		objectives: "15 tuổi trở lên",
+		teacher: "Ths. Đỗ Thị Hảo",
+		slug: "lam-hoa-giay-nghe-thuat",
+		organization: [
+			{
+				img: "/image/Ellipse-6.png",
+				title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+			},
+		],
+		courseIntroduction: `
 			<p class="text-black text-base mb-4 leading-relaxed">
 			 	Khóa học "Làm Hoa Giấy Nghệ Thuật" cung cấp cho học viên kỹ năng tạo ra các loại hoa giấy đa dạng, từ đơn giản đến phức tạp. Học viên sẽ học cách lựa chọn giấy, cắt, uốn và lắp ráp để tạo ra những bông hoa sống động. Sản phẩm có thể được sử dụng để trang trí hoặc bán ra thị trường, mở ra cơ hội kinh doanh nhỏ cho học viên.
 			</p>
@@ -8735,7 +9139,7 @@ export const daotaonghe = [
 			  • Thời gian: 2/7/2015 - 12/8/2025
 			</p>
 			 `,
-    output: `
+		output: `
 			 <p class="text-black text-base  leading-relaxed pl-4">
 			  • Thành thạo kỹ năng làm hoa giấy nghệ thuật
 			</p>
@@ -8747,7 +9151,7 @@ export const daotaonghe = [
 			</p>
 			  
 		  `,
-    content: `
+		content: `
 			  <p class="text-black text-base  leading-relaxed pl-4">
 				  • Giới thiệu về các loại hoa giấy
 			  </p>
@@ -8764,24 +9168,24 @@ export const daotaonghe = [
 				  • Kỹ năng bán hàng và tiếp thị sản phẩm
 			  </p>
 		  `,
-    commnents: [
-      {
-        name: "Phạm Thị Hạnh",
-        avatar: "/image/comment1.png",
-        content: `"Tôi rất thích làm hoa giấy, khóa học giúp tôi thỏa mãn đam mê và kiếm thêm thu nhập."`,
-      },
-      {
-        name: "Ngô Văn Tuấn",
-        avatar: "/image/comment1.png",
-        content: `"Giảng viên hướng dẫn rất chi tiết, tôi học được nhiều kỹ năng mới."`,
-      },
-      {
-        name: "Đỗ Thị Mai",
-        avatar: "/image/comment1.png",
-        content: `"Môi trường học thân thiện, tôi cảm thấy rất thoải mái khi tham gia khóa học."`,
-      },
-    ],
-    scienceRegistration: `
+		commnents: [
+			{
+				name: "Phạm Thị Hạnh",
+				avatar: "/image/comment1.png",
+				content: `"Tôi rất thích làm hoa giấy, khóa học giúp tôi thỏa mãn đam mê và kiếm thêm thu nhập."`,
+			},
+			{
+				name: "Ngô Văn Tuấn",
+				avatar: "/image/comment1.png",
+				content: `"Giảng viên hướng dẫn rất chi tiết, tôi học được nhiều kỹ năng mới."`,
+			},
+			{
+				name: "Đỗ Thị Mai",
+				avatar: "/image/comment1.png",
+				content: `"Môi trường học thân thiện, tôi cảm thấy rất thoải mái khi tham gia khóa học."`,
+			},
+		],
+		scienceRegistration: `
 			  <p class="text-black text-base leading-relaxed">
 				  🔹 Cách đăng ký:
 			  </p>	
@@ -8805,26 +9209,26 @@ export const daotaonghe = [
 			  </p>
 	  
 		  `,
-  },
-  {
-    img: "/image/daotaonghe3.jpg",
-    title: "Làm Sản Phẩm Tái Chế Từ Vỏ Mì Tôm",
-    description: "Khóa học độc đáo hướng dẫn học viên làm đồ trang trí, phụ kiện và sản phẩm nghệ thuật từ vỏ mì tôm.",
-    day: "12 bài giảng",
-    free: true,
-    price: null,
-    time: "120 phút",
-    form: "10 buổi",
-    objectives: "15 tuổi trở lên",
-    teacher: "Ths. Đỗ Thị Hảo",
-    slug: "lam-san-pham-tai-che-tu-vo-mi-tom",
-    organization: [
-      {
-        img: "/image/Ellipse-6.png",
-        title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
-      },
-    ],
-    courseIntroduction: `
+	},
+	{
+		img: "/image/daotaonghe3.jpg",
+		title: "Làm Sản Phẩm Tái Chế Từ Vỏ Mì Tôm",
+		description: "Khóa học độc đáo hướng dẫn học viên làm đồ trang trí, phụ kiện và sản phẩm nghệ thuật từ vỏ mì tôm.",
+		day: "12 bài giảng",
+		free: true,
+		price: null,
+		time: "120 phút",
+		form: "10 buổi",
+		objectives: "15 tuổi trở lên",
+		teacher: "Ths. Đỗ Thị Hảo",
+		slug: "lam-san-pham-tai-che-tu-vo-mi-tom",
+		organization: [
+			{
+				img: "/image/Ellipse-6.png",
+				title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+			},
+		],
+		courseIntroduction: `
 			<p class="text-black text-base mb-4 leading-relaxed">
 			 Dự án "Tái Chế Vỏ Mì Tôm" giúp học viên vừa bảo vệ môi trường, vừa tạo ra sản phẩm sáng tạo có giá trị. Khóa học không yêu cầu kỹ năng ban đầu, phù hợp với mọi học viên. Các sản phẩm như móc khóa, dây đeo, tranh treo tường từ vỏ mì tôm giúp học viên hiểu giá trị của tái chế, phát triển tư duy thiết kế, khả năng phối màu và kỹ năng bán hàng.
 			</p>
@@ -8850,7 +9254,7 @@ export const daotaonghe = [
 			  • Thời gian: 15/7/2025 - 20/8/2025
 			</p>
 			 `,
-    output: `
+		output: `
 <p class="text-black text-base  leading-relaxed pl-4 mb-6">
 			  • Nắm được quy trình làm sản phẩm tái chế từ vỏ mì
 			</p>
@@ -8861,7 +9265,7 @@ export const daotaonghe = [
 			  • Có sản phẩm mẫu để tham gia bán hàng hoặc triển lãm
 			</p>
 		  `,
-    content: `
+		content: `
 			  <p class="text-black text-base  leading-relaxed pl-4 mb-6">
 			  • Giới thiệu về tái chế và bảo vệ môi trường
 			</p>
@@ -8878,24 +9282,24 @@ export const daotaonghe = [
 			  • Cách định giá và giới thiệu sản phẩm
 			</p>
 		  `,
-    commnents: [
-      {
-        name: "Phạm Văn Khánh",
-        avatar: "/image/comment1.png",
-        content: ` "Tôi thấy vỏ mì tưởng như rác nhưng lại có thể làm thành sản phẩm đẹp."`,
-      },
-      {
-        name: "Nguyễn Thị Bích",
-        avatar: "/image/comment1.png",
-        content: `"Tôi học được cách làm ra một cái rổ bằng vỏ mỳ tôm, rất thú vị."`,
-      },
-      {
-        name: "Trần Hồng Quân",
-        avatar: "/image/comment1.png",
-        content: `"Sản phẩm làm ra ai cũng thích, tôi rất vui, lại còn bảo vệ môi trường."`,
-      },
-    ],
-    scienceRegistration: `
+		commnents: [
+			{
+				name: "Phạm Văn Khánh",
+				avatar: "/image/comment1.png",
+				content: ` "Tôi thấy vỏ mì tưởng như rác nhưng lại có thể làm thành sản phẩm đẹp."`,
+			},
+			{
+				name: "Nguyễn Thị Bích",
+				avatar: "/image/comment1.png",
+				content: `"Tôi học được cách làm ra một cái rổ bằng vỏ mỳ tôm, rất thú vị."`,
+			},
+			{
+				name: "Trần Hồng Quân",
+				avatar: "/image/comment1.png",
+				content: `"Sản phẩm làm ra ai cũng thích, tôi rất vui, lại còn bảo vệ môi trường."`,
+			},
+		],
+		scienceRegistration: `
 			  <p class="text-black text-base leading-relaxed">
 				  🔹 Cách đăng ký:
 			  </p>	
@@ -8919,15 +9323,15 @@ export const daotaonghe = [
 			  </p>
 	  
 		  `,
-  },
+	},
 ];
 export const phuongPhap = [
-  {
-    image: "/image/giao-duc-dac-biet/item-1.jpg",
-    name: "Can thiệp sớm và những ảnh hưởng tích cực",
-    note: "Can thiệp sớm trong lĩnh vực ngôn ngữ và thính giác đã trở thành một phần quan trọng trong sự phát triển của trẻ khiếm thính.",
-    slug: "can-thiep-som-va-nhung-anh-huong-tich-cuc",
-    descript: `<p class="text-black font-bold leading-relaxed">
+	{
+		image: "/image/giao-duc-dac-biet/item-1.jpg",
+		name: "Can thiệp sớm và những ảnh hưởng tích cực",
+		note: "Can thiệp sớm trong lĩnh vực ngôn ngữ và thính giác đã trở thành một phần quan trọng trong sự phát triển của trẻ khiếm thính.",
+		slug: "can-thiep-som-va-nhung-anh-huong-tich-cuc",
+		descript: `<p class="text-black font-bold leading-relaxed">
 		 Mở đầu
 	  </p>
 	  <p class="text-black mb-4 leading-relaxed">
@@ -9120,13 +9524,13 @@ Giảm nhu cầu giáo dục đặc biệt chuyên sâu sau này
 </p>
 
 	`,
-  },
-  {
-    image: "/image/giao-duc-dac-biet/item-2.png",
-    name: "Giáo dục đúng cách cho trẻ khiếm thính",
-    note: "Giáo dục cho trẻ khiếm thính đòi hỏi sự quan tâm và phương pháp phù hợp để giúp trẻ phát triển toàn diện và hòa nhập vào cộng đồng.",
-    slug: "giao-duc-dung-cach-cho-tre-khiem-thinh",
-    descript: `
+	},
+	{
+		image: "/image/giao-duc-dac-biet/item-2.png",
+		name: "Giáo dục đúng cách cho trẻ khiếm thính",
+		note: "Giáo dục cho trẻ khiếm thính đòi hỏi sự quan tâm và phương pháp phù hợp để giúp trẻ phát triển toàn diện và hòa nhập vào cộng đồng.",
+		slug: "giao-duc-dung-cach-cho-tre-khiem-thinh",
+		descript: `
 			<p class="text-black font-bold leading-relaxed">
 			Mở đầu
 			</p>
@@ -9438,13 +9842,13 @@ Giảm nhu cầu giáo dục đặc biệt chuyên sâu sau này
 			</p>
 
 		`,
-  },
-  {
-    image: "/image/giao-duc-dac-biet/item-3.jpg",
-    name: "Ngôn ngữ ký hiệu: Phương tiện giao tiếp",
-    note: "Ngôn ngữ ký hiệu là một phương tiện giao tiếp quan trọng cho cộng đồng người khiếm thính trên toàn thế giới.",
-    slug: "ngon-ngu-ky-hieu-phuong-tien-giao-tiep",
-    descript: `
+	},
+	{
+		image: "/image/giao-duc-dac-biet/item-3.jpg",
+		name: "Ngôn ngữ ký hiệu: Phương tiện giao tiếp",
+		note: "Ngôn ngữ ký hiệu là một phương tiện giao tiếp quan trọng cho cộng đồng người khiếm thính trên toàn thế giới.",
+		slug: "ngon-ngu-ky-hieu-phuong-tien-giao-tiep",
+		descript: `
 			<p class="text-black font-bold leading-relaxed mt-6">
 			Giới thiệu
 			</p>
@@ -9493,13 +9897,13 @@ Giảm nhu cầu giáo dục đặc biệt chuyên sâu sau này
 			</ul>
 
 		`,
-  },
-  {
-    image: "/image/giao-duc-dac-biet/item-4.jpg",
-    name: "Tác động của máy trợ thính trong cuộc sống",
-    note: "Máy trợ thính đã trở thành một phần quan trọng trong cuộc sống hàng ngày của những người gặp khó khăn về thính giác.",
-    slug: "tac-dong-cua-may-tro-thinh-trong-cuoc-song",
-    descript: `
+	},
+	{
+		image: "/image/giao-duc-dac-biet/item-4.jpg",
+		name: "Tác động của máy trợ thính trong cuộc sống",
+		note: "Máy trợ thính đã trở thành một phần quan trọng trong cuộc sống hàng ngày của những người gặp khó khăn về thính giác.",
+		slug: "tac-dong-cua-may-tro-thinh-trong-cuoc-song",
+		descript: `
 			<p class="text-black font-bold leading-relaxed mt-6">
 			Giới thiệu
 			</p>
@@ -9616,15 +10020,15 @@ Giảm nhu cầu giáo dục đặc biệt chuyên sâu sau này
 			Máy trợ thính là công cụ hỗ trợ quan trọng giúp người khiếm thính cải thiện khả năng nghe, nâng cao chất lượng cuộc sống và hòa nhập xã hội. Việc lựa chọn, sử dụng và bảo trì máy trợ thính đúng cách kết hợp với sự hỗ trợ từ gia đình, nhà trường và cộng đồng sẽ mang lại hiệu quả tối ưu. Đồng thời, cần có chính sách hỗ trợ toàn diện để mọi người khiếm thính đều có cơ hội tiếp cận công nghệ này, góp phần xây dựng xã hội hòa nhập, bình đẳng và phát triển.
 			</p>
 		`,
-  },
+	},
 ];
 export const camnang = [
-  {
-    image: "/image/camnang1.jpg",
-    name: "Tự tin trình bày bản thân trong phỏng vấn dành cho người khiếm thính",
-    note: "Người khiếm thính tự tin trong buổi phỏng vấn với nhà tuyển dụng, có thông dịch viên ngôn ngữ ký hiệu hỗ trợ",
-    slug: "tu-tin-trinh-bay-ban-than-trong-phong-van-danh-cho-nguoi-khiem-thinh",
-    descript: `<p class="text-black font-bold leading-relaxed">
+	{
+		image: "/image/camnang1.jpg",
+		name: "Tự tin trình bày bản thân trong phỏng vấn dành cho người khiếm thính",
+		note: "Người khiếm thính tự tin trong buổi phỏng vấn với nhà tuyển dụng, có thông dịch viên ngôn ngữ ký hiệu hỗ trợ",
+		slug: "tu-tin-trinh-bay-ban-than-trong-phong-van-danh-cho-nguoi-khiem-thinh",
+		descript: `<p class="text-black font-bold leading-relaxed">
 		 I. Lời mở đầu
 	  </p>
 	  <p class="text-black mb-4 leading-relaxed">
@@ -9944,13 +10348,13 @@ export const camnang = [
 	  </p>
 	
 	`,
-  },
-  {
-    image: "/image/camnang2.jpg",
-    name: "Chuẩn bị hành trang tìm việc cho người khiếm thính",
-    note: "Để tham gia vào thị trường lao động, người khiếm thính cần có sự chuẩn bị, ở bài viết này chúng tôi sẽ cung cấp những thông tin cần thiết để giúp người khiếm thính chuản bị hành trang tìm việc.",
-    slug: "chuan-bi-hanh-trang-tim-viec-cho-nguoi-khiem-thinh",
-    descript: `<p class="text-black font-bold leading-relaxed">
+	},
+	{
+		image: "/image/camnang2.jpg",
+		name: "Chuẩn bị hành trang tìm việc cho người khiếm thính",
+		note: "Để tham gia vào thị trường lao động, người khiếm thính cần có sự chuẩn bị, ở bài viết này chúng tôi sẽ cung cấp những thông tin cần thiết để giúp người khiếm thính chuản bị hành trang tìm việc.",
+		slug: "chuan-bi-hanh-trang-tim-viec-cho-nguoi-khiem-thinh",
+		descript: `<p class="text-black font-bold leading-relaxed">
 		 I. HIỂU RÕ ĐIỂM MẠNH VÀ GIỚI HẠN CỦA BẢN THÂN
 	  </p>
 	  <p class="text-black font-bold leading-relaxed">
@@ -10297,13 +10701,13 @@ export const camnang = [
 	  </p>
 	
 	`,
-  },
- {
-    image: "/image/camnang2.jpg",
-    name: "7 Công Việc Phù Hợp và Đang Có Nhu Cầu Cao Với Người Khiếm Thính",
-    note: "Thị trường lao động đang dần mở rộng và trở nên đa dạng hơn với nhiều mô hình làm việc linh hoạt, công nghệ hỗ trợ, chính sách hòa nhập…",
-    slug: "chuan-bi-hanh-trang-tim-viec-cho-nguoi-khiem-thinh",
-    descript: `<p class="text-black font-bold leading-relaxed">
+	},
+	{
+		image: "/image/camnang2.jpg",
+		name: "7 Công Việc Phù Hợp và Đang Có Nhu Cầu Cao Với Người Khiếm Thính",
+		note: "Thị trường lao động đang dần mở rộng và trở nên đa dạng hơn với nhiều mô hình làm việc linh hoạt, công nghệ hỗ trợ, chính sách hòa nhập…",
+		slug: "chuan-bi-hanh-trang-tim-viec-cho-nguoi-khiem-thinh",
+		descript: `<p class="text-black font-bold leading-relaxed">
 		 I. HIỂU RÕ ĐIỂM MẠNH VÀ GIỚI HẠN CỦA BẢN THÂN
 	  </p>
 	  <p class="text-black font-bold leading-relaxed">
@@ -10650,13 +11054,13 @@ export const camnang = [
 	  </p>
 	
 	`,
-  },
- {
-    image: "/image/camnang2.jpg",
-    name: "Chuẩn bị hành trang tìm việc cho người khiếm thính",
-    note: "Để tham gia vào thị trường lao động, người khiếm thính cần có sự chuẩn bị, ở bài viết này chúng tôi sẽ cung cấp những thông tin cần thiết để giúp người khiếm thính chuản bị hành trang tìm việc.",
-    slug: "chuan-bi-hanh-trang-tim-viec-cho-nguoi-khiem-thinh",
-    descript: `<p class="text-black font-bold leading-relaxed">
+	},
+	{
+		image: "/image/camnang2.jpg",
+		name: "Chuẩn bị hành trang tìm việc cho người khiếm thính",
+		note: "Để tham gia vào thị trường lao động, người khiếm thính cần có sự chuẩn bị, ở bài viết này chúng tôi sẽ cung cấp những thông tin cần thiết để giúp người khiếm thính chuản bị hành trang tìm việc.",
+		slug: "chuan-bi-hanh-trang-tim-viec-cho-nguoi-khiem-thinh",
+		descript: `<p class="text-black font-bold leading-relaxed">
 		 I. HIỂU RÕ ĐIỂM MẠNH VÀ GIỚI HẠN CỦA BẢN THÂN
 	  </p>
 	  <p class="text-black font-bold leading-relaxed">
@@ -11003,13 +11407,13 @@ export const camnang = [
 	  </p>
 	
 	`,
-  },
- {
-    image: "/image/camnang2.jpg",
-    name: "Chuẩn bị hành trang tìm việc cho người khiếm thính",
-    note: "Để tham gia vào thị trường lao động, người khiếm thính cần có sự chuẩn bị, ở bài viết này chúng tôi sẽ cung cấp những thông tin cần thiết để giúp người khiếm thính chuản bị hành trang tìm việc.",
-    slug: "chuan-bi-hanh-trang-tim-viec-cho-nguoi-khiem-thinh",
-    descript: `<p class="text-black font-bold leading-relaxed">
+	},
+	{
+		image: "/image/camnang2.jpg",
+		name: "Chuẩn bị hành trang tìm việc cho người khiếm thính",
+		note: "Để tham gia vào thị trường lao động, người khiếm thính cần có sự chuẩn bị, ở bài viết này chúng tôi sẽ cung cấp những thông tin cần thiết để giúp người khiếm thính chuản bị hành trang tìm việc.",
+		slug: "chuan-bi-hanh-trang-tim-viec-cho-nguoi-khiem-thinh",
+		descript: `<p class="text-black font-bold leading-relaxed">
 		 I. HIỂU RÕ ĐIỂM MẠNH VÀ GIỚI HẠN CỦA BẢN THÂN
 	  </p>
 	  <p class="text-black font-bold leading-relaxed">
@@ -11356,23 +11760,23 @@ export const camnang = [
 	  </p>
 	
 	`,
-  },
+	},
 
 ];
 
 
-export const dataSearch = [...dataNews.map((item:any) => ({...item, slug: `/thong-tin/tin-tuc/${item.slug}`})),
-	...stories.map((item:any) => ({...item, slug: `/thong-tin/cau-chuyen/${item.slug}`})),
-	...stories_1.map((item:any) => ({...item, slug: `/thong-tin/cau-chuyen/${item.slug}`})), 
-	...dataJob.map((item:any) => ({...item, slug: `/ve-chung-toi/tham-gia-chung-toi/job/${item.slug}`})), 
-	...dataVolunteer.map((item:any) => ({...item, slug: `/ve-chung-toi/tham-gia-chung-toi/volunteer/${item.slug}`})), 
-	...dataSukien.map((item:any) => ({...item, slug: `/hoat-dong/su-kien/${item.slug}`})), //
-	...dataTaiTro.map((item:any) => ({...item, slug: `/hoat-dong/tai-tro/${item.slug}`})), 
-	...khoaHoc.map((item:any) => ({...item, slug: `/giao-duc/ngon-ngu-ky-hieu/khoa-hoc/${item.slug}`})), 
-	...khoaHocTrucTuyen.map((item:any) => ({...item, slug: `/giao-duc/ngon-ngu-ky-hieu/khoa-hoc-ngoai-tuyen/${item.slug}`})),
-	...triLieuNgonNgu.map((item:any) => ({...item, slug: `/giao-duc/tri-lieu-ngon-ngu/${item.slug}`})),
-	...kynangmem.map((item:any) => ({...item, slug: `/giao-duc/ky-nang-mem/${item.slug}`})),
-	...daotaonghe.map((item:any) => ({...item, slug: `/nghe-nghiep/dao-tao-nghe${item.slug}`})),
-	...phuongPhap.map((item:any) => ({...item, slug: `/giao-duc/giao-duc-dac-biet/${item.slug}`})),
-	...camnang.map((item:any) => ({...item, slug: `/nghe-nghiep/cam-nang/${item.slug}`}))
-	]
+export const dataSearch = [...dataNews.map((item: any) => ({ ...item, slug: `/thong-tin/tin-tuc/${item.slug}` })),
+...stories.map((item: any) => ({ ...item, slug: `/thong-tin/cau-chuyen/${item.slug}` })),
+...stories_1.map((item: any) => ({ ...item, slug: `/thong-tin/cau-chuyen/${item.slug}` })),
+...dataJob.map((item: any) => ({ ...item, slug: `/ve-chung-toi/tham-gia-chung-toi/job/${item.slug}` })),
+...dataVolunteer.map((item: any) => ({ ...item, slug: `/ve-chung-toi/tham-gia-chung-toi/volunteer/${item.slug}` })),
+...dataSukien.map((item: any) => ({ ...item, slug: `/hoat-dong/su-kien/${item.slug}` })), //
+...dataTaiTro.map((item: any) => ({ ...item, slug: `/hoat-dong/tai-tro/${item.slug}` })),
+...khoaHoc.map((item: any) => ({ ...item, slug: `/giao-duc/ngon-ngu-ky-hieu/khoa-hoc/${item.slug}` })),
+...khoaHocTrucTuyen.map((item: any) => ({ ...item, slug: `/giao-duc/ngon-ngu-ky-hieu/khoa-hoc-ngoai-tuyen/${item.slug}` })),
+...triLieuNgonNgu.map((item: any) => ({ ...item, slug: `/giao-duc/tri-lieu-ngon-ngu/${item.slug}` })),
+...kynangmem.map((item: any) => ({ ...item, slug: `/giao-duc/ky-nang-mem/${item.slug}` })),
+...daotaonghe.map((item: any) => ({ ...item, slug: `/nghe-nghiep/dao-tao-nghe${item.slug}` })),
+...phuongPhap.map((item: any) => ({ ...item, slug: `/giao-duc/giao-duc-dac-biet/${item.slug}` })),
+...camnang.map((item: any) => ({ ...item, slug: `/nghe-nghiep/cam-nang/${item.slug}` }))
+]
