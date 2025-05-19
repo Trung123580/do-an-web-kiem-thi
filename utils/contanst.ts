@@ -11361,4 +11361,18 @@ export const camnang = [
 ];
 
 
-export const dataSearch = [...dataNews, ...stories, ...stories_1, ...dataJob, ...dataVolunteer, ...dataSukien, ...dataTaiTro, ...khoaHoc, ...khoaHocTrucTuyen, ...triLieuNgonNgu, ...boTuVung, ...kynangmem, ...daotaonghe, ...phuongPhap, ...camnang]
+export const dataSearch = [...dataNews.map((item:any) => ({...item, slug: `/thong-tin/tin-tuc/${item.slug}`})),
+	...stories.map((item:any) => ({...item, slug: `/thong-tin/cau-chuyen/${item.slug}`})),
+	...stories_1.map((item:any) => ({...item, slug: `/thong-tin/cau-chuyen/${item.slug}`})), 
+	...dataJob.map((item:any) => ({...item, slug: `/ve-chung-toi/tham-gia-chung-toi/job/${item.slug}`})), 
+	...dataVolunteer.map((item:any) => ({...item, slug: `/ve-chung-toi/tham-gia-chung-toi/volunteer/${item.slug}`})), 
+	...dataSukien.map((item:any) => ({...item, slug: `/hoat-dong/su-kien/${item.slug}`})), //
+	...dataTaiTro.map((item:any) => ({...item, slug: `/hoat-dong/tai-tro/${item.slug}`})), 
+	...khoaHoc.map((item:any) => ({...item, slug: `/giao-duc/ngon-ngu-ky-hieu/khoa-hoc/${item.slug}`})), 
+	...khoaHocTrucTuyen.map((item:any) => ({...item, slug: `/giao-duc/ngon-ngu-ky-hieu/khoa-hoc-ngoai-tuyen/${item.slug}`})),
+	...triLieuNgonNgu.map((item:any) => ({...item, slug: `/giao-duc/tri-lieu-ngon-ngu/${item.slug}`})),
+	...kynangmem.map((item:any) => ({...item, slug: `/giao-duc/ky-nang-mem/${item.slug}`})),
+	...daotaonghe.map((item:any) => ({...item, slug: `/nghe-nghiep/dao-tao-nghe${item.slug}`})),
+	...phuongPhap.map((item:any) => ({...item, slug: `/giao-duc/giao-duc-dac-biet/${item.slug}`})),
+	...camnang.map((item:any) => ({...item, slug: `/nghe-nghiep/cam-nang/${item.slug}`}))
+	]

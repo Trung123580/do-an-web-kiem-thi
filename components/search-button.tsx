@@ -63,6 +63,7 @@ export default function SearchButton({ isMobile = false }: SearchButtonProps) {
             type='text'
             placeholder='Tìm kiếm...'
             onChange={(event) => setOnChange(event.target.value)}
+            onBlur={() => setTimeout(() => setOnChange(''), 200)}
             value={onChange}
             className='border border-[#cfd1d4] rounded-md py-2 px-3 text-sm w-full focus:outline-none focus:ring-2 focus:ring-[#3a63ed] focus:border-transparent'
           />
@@ -99,6 +100,7 @@ export default function SearchButton({ isMobile = false }: SearchButtonProps) {
             type='text'
             onChange={(event) => setOnChange(event.target.value)}
             value={onChange}
+            onBlur={() => setTimeout(() => setIsSearchOpen(false), 200)}
             placeholder='Tìm kiếm...'
             className='border border-[#cfd1d4] rounded-md py-2 px-3 text-sm w-[200px] focus:outline-none focus:ring-2 focus:ring-[#3a63ed] focus:border-transparent'
           />
