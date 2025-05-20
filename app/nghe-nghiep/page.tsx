@@ -52,7 +52,7 @@ const page = () => {
           {dataJob_1.slice(0,4).map((job, idx) => (
             <Link  key={idx} href={`/ve-chung-toi/tham-gia-chung-toi/job/${job.slug}`} className="bg-[#F2F2F3] rounded-xl shadow p-3 flex gap-6">
                 <div className='w-[136px] h-[136px] bg-white rounded-lg' >
-                  <img src={job.img} alt="" className='max-w-full h-full  rounded-lg object-cover' />
+                  <img src={job.img} alt="" className='max-w-full h-full w-full rounded-lg object-cover' />
                 </div>
                 <div className='flex flex-col gap-2 grow justify-between'>
                   <div>
@@ -61,11 +61,11 @@ const page = () => {
                   </div>
                    <div className='flex  justify-between'>
                     <div className="flex gap-2 flex-wrap my-2">
-                        <div className=" text-gray-700 px-2 py-1 rounded text-xs bg-white border border-[#CFD1D4]">{job.salary}</div>
-                        <div className=" text-gray-700 px-2 py-1 rounded text-xs bg-white border border-[#CFD1D4]">{job.location}</div>
-                        <div className=" text-gray-700 px-2 py-1 rounded text-xs bg-white border border-[#CFD1D4]">{job.salary}</div>
+                        <div className=" text-gray-700 px-2 py-1 rounded text-[10px] bg-white border border-[#CFD1D4]">{job.salary}</div>
+                        <div className=" text-gray-700 px-2 py-1 rounded text-[10px] bg-white border border-[#CFD1D4]">{job.location}</div>
+                        <div className=" text-gray-700 px-2 py-1 rounded text-[10px] bg-white border border-[#CFD1D4]">{job.salary}</div>
                       </div>
-                      <div className="text-right text-xs text-gray-400 flex justify-center items-center">
+                      <div className="text-right text-[10px] text-gray-400 flex justify-center items-center">
                           Hạn ứng tuyển: {job.deadline}
                       </div>
                    </div>

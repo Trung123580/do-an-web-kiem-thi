@@ -44,7 +44,7 @@ export default function page() {
         <h2 className='text-5xl font-bold pb-[32px]'>Tư vấn định hướng nghề nghiệp</h2>
         <div className='flex flex-col gap-5'>
           {data.map((item) => <div className='flex flex-col xl:gap-0 gap-5 items-center xl:flex-row py-[56px] px-[50px] xl:px-[108px] bg-[#F2F2F3] rounded-2xl'>
-            <div className='flex-1 md:flex-2/5'>
+            <div className='flex-1 md:flex-2/5 justify-center flex flex-col items-center'>
               <img className='rounded-full w-[305px] h-[305px] object-cover' src={item.image} alt="" />
               <h3 className='text-2xl font-bold text-center pt-6 pb-2'>{item.name}</h3>
               <p className='text-[16px] text-[#70747D] font-normal' dangerouslySetInnerHTML={{__html: item.info}}></p>
