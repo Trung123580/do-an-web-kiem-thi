@@ -2,10 +2,7 @@
 import React, { useState } from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
-import { FaArrowRightLong } from 'react-icons/fa6';
-import { FaArrowRight } from 'react-icons/fa';
-import CourseGrid from '../components/CourseGrid';
-import { phuongPhap, camnang, triLieuNgonNgu, dataJob, daotaonghe } from '@/utils/contanst';
+import {camnang,dataJob_1, daotaonghe } from '@/utils/contanst';
 import CourseGridNghe from '../components/CourseGridNghe';
 import ModalPartner from '@/components/ModalPartner';
 
@@ -52,10 +49,10 @@ const page = () => {
       <div className="pt-24 pb-8 max-w-7xl mx-auto px-4">
         <h2 className="text-3xl font-bold mb-6">Tuyển dụng</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-          {dataJob.slice(0,4).map((job, idx) => (
+          {dataJob_1.slice(0,4).map((job, idx) => (
             <Link  key={idx} href={`/ve-chung-toi/tham-gia-chung-toi/job/${job.slug}`} className="bg-[#F2F2F3] rounded-xl shadow p-3 flex gap-6">
                 <div className='w-[136px] h-[136px] bg-white rounded-lg' >
-                  <img src={job.img} alt="" className='max-w-full h-full  rounded-lg object-cover' />
+                  <img src={job.img} alt="" className='max-w-full h-full w-full rounded-lg object-cover' />
                 </div>
                 <div className='flex flex-col gap-2 grow justify-between'>
                   <div>
@@ -64,11 +61,11 @@ const page = () => {
                   </div>
                    <div className='flex  justify-between'>
                     <div className="flex gap-2 flex-wrap my-2">
-                        <div className=" text-gray-700 px-2 py-1 rounded text-xs bg-white border border-[#CFD1D4]">{job.salary}</div>
-                        <div className=" text-gray-700 px-2 py-1 rounded text-xs bg-white border border-[#CFD1D4]">{job.location}</div>
-                        <div className=" text-gray-700 px-2 py-1 rounded text-xs bg-white border border-[#CFD1D4]">{job.salary}</div>
+                        <div className=" text-gray-700 px-2 py-1 rounded text-[10px] bg-white border border-[#CFD1D4]">{job.salary}</div>
+                        <div className=" text-gray-700 px-2 py-1 rounded text-[10px] bg-white border border-[#CFD1D4]">{job.location}</div>
+                        <div className=" text-gray-700 px-2 py-1 rounded text-[10px] bg-white border border-[#CFD1D4]">{job.salary}</div>
                       </div>
-                      <div className="text-right text-xs text-gray-400 flex justify-center items-center">
+                      <div className="text-right text-[10px] text-gray-400 flex justify-center items-center">
                           Hạn ứng tuyển: {job.deadline}
                       </div>
                    </div>
