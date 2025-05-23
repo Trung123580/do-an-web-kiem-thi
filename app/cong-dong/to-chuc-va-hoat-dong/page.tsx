@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import img from "next/image";
 import { organizations, organizations_1, organizations_2, organizations_3, organizations_4, organizations_5 } from "@/utils/contanst";
 
 
@@ -19,7 +19,7 @@ const page = () => {
             <div className='absolute bottom-0 right-0 w-[160px] h-[50px] bg-[#3A63ED] z-auto' />
           </div>
         </div>
-        <div className='absolute bottom-0 right-0 md:right-[-10px] z-50 w-[164px] md:scale-100 scale-50 origin-bottom-right'>
+        <div className='absolute bottom-0 right-0 z-50 w-[164px] md:scale-100 scale-50 origin-bottom-right'>
           <div className='absolute bottom-0 right-0 w-[164px] h-[100px]  bg-[#89A1F4] z-10'>
             <div className='absolute top-0 right-0 w-[117px] h-[50px] bg-[#3A63ED] z-20' />
             <div className='absolute bottom-full right-0 w-[117px] h-[50px] bg-[#FDE68A] z-30' />
@@ -35,12 +35,12 @@ const page = () => {
                 <img
                   src={org.logo}
                   alt={org.title}
-                  // fill
+    
                   className="object-contain"
                 />
               </div>
-              <a target="_blank" href={org.link} className="text-lg font-semibold block mb-4 leading-[130%]">{org.title}</a>
-              <p className=" text-[10px]">{org.description}</p>
+              <a target="_blank" href={org.link} className="line-clamp-2 text-lg font-semibold block mb-4 leading-[130%]">{org.title}</a>
+              <p className=" line-clamp-3 text-[14px]">{org.description}</p>
             </div>
           ))}
         </div>
@@ -48,16 +48,15 @@ const page = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {organizations_1.map((org, index) => (
             <div key={index} className="bg-white py-2 w-full px-4">
-              <div className="relative w-full h-32 mx-auto mb-6">
-                <Image
+              <div className="relative w-full h-32 mx-auto mb-6 flex flex-col items-center justify-center">
+                <img
                   src={org.logo}
                   alt={org.title}
-                  fill
-                  className="object-contain"
+                  className="rounded-full object-contain w-[121px]"
                 />
               </div>
-              <a target="_blank" href={org.link} className="text-lg font-semibold block mb-4 leading-[130%]">{org.title}</a>
-              <p className="text-[10px]">{org.description}</p>
+              <a target="_blank" href={org.link} className="line-clamp-2 text-lg font-semibold block mb-4 leading-[130%]">{org.title}</a>
+              <p className="line-clamp-3 text-[14px]">{org.description}</p>
             </div>
           ))}
         </div>
@@ -65,16 +64,15 @@ const page = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {organizations_2.map((org, index) => (
             <div key={index} className="bg-white py-2  w-full px-4">
-              <div className="relative  w-full h-32 mx-auto mb-6">
-                <Image
+              <div className="flex justify-center flex-col  items-center relative  w-full h-32 mx-auto mb-6">
+                <img
                   src={org.logo}
                   alt={org.title}
-                  fill
-                  className="object-contain"
+                   className="rounded-full object-contain w-[121px]"
                 />
               </div>
-              <a target="_blank" href={org.link} className="text-lg font-semibold block mb-4 leading-[130%]">{org.title}</a>
-              <p className="text-[10px]">{org.description}</p>
+              <a target="_blank" href={org.link} className="line-clamp-2 text-lg font-semibold block mb-4 leading-[130%]">{org.title}</a>
+              <p className="line-clamp-3 text-[14px]">{org.description}</p>
             </div>
           ))}
         </div>
@@ -82,16 +80,15 @@ const page = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {organizations_3.map((org, index) => (
             <div key={index} className="bg-white py-2  w-full px-4">
-              <div className="relative  w-full h-32 mx-auto mb-6">
-                <Image
+              <div className="flex justify-center flex-col  items-center relative  w-full h-32 mx-auto mb-6">
+                <img
                   src={org.logo}
                   alt={org.title}
-                  fill
-                  className="object-contain"
+                 className="rounded-full object-contain w-[121px]"
                 />
               </div>
-              <a target="_blank" href={org.link} className="text-lg font-semibold block mb-4 leading-[130%]">{org.title}</a>
-              <p className="text-[10px]">{org.description}</p>
+              <a target="_blank" href={org.link} className="line-clamp-2 text-lg font-semibold block mb-4 leading-[130%]">{org.title}</a>
+              <p className="line-clamp-3 text-[14px]">{org.description}</p>
             </div>
           ))}
         </div>
@@ -99,16 +96,15 @@ const page = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {organizations_4.map((org, index) => (
             <div key={index} className="bg-white py-2  w-full px-4">
-              <div className="relative  w-full h-32 mx-auto mb-6">
-                <Image
+              <div className="flex justify-center flex-col  items-center relative  w-full h-32 mx-auto mb-6">
+                <img
                   src={org.logo}
                   alt={org.title}
-                  fill
-                  className="object-contain"
+                 className="rounded-full object-contain w-[121px]"
                 />
               </div>
-              <a target="_blank" href={org.link} className="text-lg font-semibold block mb-4 leading-[130%]">{org.title}</a>
-              <p className="text-[10px]">{org.description}</p>
+              <a target="_blank" href={org.link} className="line-clamp-2 text-lg font-semibold block mb-4 leading-[130%]">{org.title}</a>
+              <p className="line-clamp-3 text-[14px]">{org.description}</p>
             </div>
           ))}
         </div>
@@ -116,16 +112,15 @@ const page = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {organizations_5.map((org, index) => (
             <div key={index} className="bg-white py-2  w-full px-4">
-              <div className="relative  w-full h-32 mx-auto mb-6">
-                <Image
+              <div className="flex justify-center flex-col  items-center relative  w-full h-32 mx-auto mb-6">
+                <img
                   src={org.logo}
                   alt={org.title}
-                  fill
-                  className="object-contain"
+                   className="rounded-full object-contain w-[121px]"
                 />
               </div>
-              <a target="_blank" href={org.link} className="text-lg font-semibold block mb-4 leading-[130%]">{org.title}</a>
-              <p className="text-[10px]">{org.description}</p>
+              <a target="_blank" href={org.link} className="line-clamp-2 text-lg font-semibold block mb-4 leading-[130%]">{org.title}</a>
+              <p className="line-clamp-3 text-[14px]">{org.description}</p>
             </div>
           ))}
         </div>
