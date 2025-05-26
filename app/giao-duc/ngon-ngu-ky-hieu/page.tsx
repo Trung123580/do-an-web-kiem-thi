@@ -117,7 +117,7 @@ export default function page() {
               </Link>
             </div> */}
             <div className='flex justify-end mt-4'>
-              <Link href={`/giao-duc/ngon-ngu-ky-hieu/khoa-hoc`} className='flex items-center px-7 py-2 text-sm border-2 border-[#CFD1D4] text-[#414652] rounded-lg hover:bg-gray-100 transition'>
+              <Link href={`/giao-duc/ngon-ngu-ky-hieu/khoa-hoc`} className='gap-2 inline-flex items-center px-6 py-3 text-base font-normal border-2 border-[#CFD1D4] text-[#414652] rounded-lg hover:bg-gray-100 transition'>
                 Xem thêm
                 <img src='/icon/arrow.png' alt='' />
               </Link>
@@ -152,7 +152,7 @@ export default function page() {
           </div>
         </div>
         <div className='flex justify-end mt-4'>
-          <Link href={`/giao-duc/ngon-ngu-ky-hieu/khoa-hoc-ngoai-tuyen`} className='flex items-center px-7 py-2 text-sm border-2 border-[#CFD1D4] text-[#414652] rounded-lg hover:bg-gray-100 transition'>
+          <Link href={`/giao-duc/ngon-ngu-ky-hieu/khoa-hoc-ngoai-tuyen`} className='gap-2 inline-flex items-center px-6 py-3 text-base font-normal border-2 border-[#CFD1D4] text-[#414652] rounded-lg hover:bg-gray-100 transition'>
             Xem thêm
             <img src='/icon/arrow.png' alt='' />
           </Link>

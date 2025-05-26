@@ -104,7 +104,7 @@ const page = () => {
             <div className='absolute bottom-0 right-0 w-[160px] h-[50px] bg-[#3A63ED] z-auto' />
           </div>
         </div>
-        <div className='absolute bottom-0 right-0 md:right-[-10px] z-50 w-[164px] md:scale-100 scale-50 origin-bottom-right'>
+        <div className='absolute bottom-0 right-0  z-50 w-[164px] md:scale-100 scale-50 origin-bottom-right'>
           <div className='absolute bottom-0 right-0 w-[164px] h-[100px]  bg-[#89A1F4] z-10'>
             <div className='absolute top-0 right-0 w-[117px] h-[50px] bg-[#3A63ED] z-20' />
             <div className='absolute bottom-full right-0 w-[117px] h-[50px] bg-[#FDE68A] z-30' />
@@ -162,7 +162,7 @@ const page = () => {
           ))}
         </div>
         <div className='text-end mt-8'>
-          <Link href='/cong-dong/hoat-dong' className='inline-flex items-center text-sm font-medium hover:text-gray-900 px-7 py-2 rounded-lg border bg-[#FFFFFF] border-[#CFD1D4] text-[#414652]'>
+          <Link href='/cong-dong/hoat-dong' className='gap-2 inline-flex items-center px-6 py-3 text-base font-normal border-2 border-[#CFD1D4] text-[#414652] rounded-lg hover:bg-gray-100 transition'>
             Xem thêm <img src='/icon/arrow.png' alt='' />
           </Link>
         </div>
@@ -187,7 +187,7 @@ const page = () => {
           ))}
         </div>
         <div className='text-end mt-8'>
-          <Link href='/cong-dong/hoat-dong' className='inline-flex items-center text-sm font-medium hover:text-gray-900 px-7 py-2 rounded-lg border bg-[#FFFFFF] border-[#CFD1D4] text-[#414652]'>
+          <Link href='/cong-dong/hoat-dong' className='gap-2 inline-flex items-center px-6 py-3 text-base font-normal border-2 border-[#CFD1D4] text-[#414652] rounded-lg hover:bg-gray-100 transition'>
             Xem thêm <img src='/icon/arrow.png' alt='' />
           </Link>
         </div>

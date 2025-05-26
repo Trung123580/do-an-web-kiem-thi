@@ -99,7 +99,7 @@ export default function EducationPage() {
               ))}
             </div>
             <div className="text-end mt-4">
-              <Link href="/giao-duc/tri-lieu-ngon-ngu" className="inline-flex items-center text-sm font-medium hover:text-gray-900 px-7 py-2 rounded-sm border bg-[#FFFFFF] border-[#CFD1D4] text-[#414652]">
+              <Link href="/giao-duc/tri-lieu-ngon-ngu" className="gap-2 inline-flex items-center px-6 py-3 text-base font-normal border-2 border-[#CFD1D4] text-[#414652] rounded-lg hover:bg-gray-100 transition">
                 Xem thêm <img src="/icon/arrow.png" alt="" />
               </Link>
             </div>
@@ -131,7 +131,7 @@ export default function EducationPage() {
               ))}
             </div>
             <div className="text-end mt-6">
-              <Link href="/giao-duc/ky-nang-mem" className="inline-flex items-center text-sm font-medium hover:text-gray-900 px-7 py-2 rounded-sm border bg-[#FFFFFF] border-[#CFD1D4] text-[#414652]">
+              <Link href="/giao-duc/ky-nang-mem" className="gap-2 inline-flex items-center px-6 py-3 text-base font-normal border-2 border-[#CFD1D4] text-[#414652] rounded-lg hover:bg-gray-100 transition">
                 Xem thêm <img src="/icon/arrow.png" alt="" />
               </Link>
             </div>
@@ -190,7 +190,7 @@ export default function EducationPage() {
           }
         `}</style>
         <div className="text-end mt-4">
-          <Link href="/giao-duc/giao-duc-dac-biet" className="inline-flex items-center text-sm font-medium hover:text-gray-900 px-7 py-2 rounded-sm border bg-[#FFFFFF] border-[#CFD1D4] text-[#414652]">
+          <Link href="/giao-duc/giao-duc-dac-biet" className="gap-2 inline-flex items-center px-6 py-3 text-base font-normal border-2 border-[#CFD1D4] text-[#414652] rounded-lg hover:bg-gray-100 transition">
             Xem thêm <img src="/icon/arrow.png" alt="" />
           </Link>
         </div>
