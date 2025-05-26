@@ -86,39 +86,40 @@ export default function BannerSwiper() {
   }
 
   return (
-    <div className='relative h-dvh mt-16'>
+    <div className='relative mt-20'>
       {/* Slides */}
-      <div className='h-full relative text-white w-full'>
-        <img src='/image/banner-23.jpg' className='h-full object-cover w-full' alt='' />
-        <div className='absolute  z-1 top-[75%] md:top-1/2 -translate-y-1/2  left-1/2 -translate-x-1/2 w-full flex flex-col justify-center items-center'>
+      <div className='relative text-white w-full'>
+        <img src='/image/banner-23.jpg' className='h-[720px] object-cover w-full' alt='' />
+        <div className="bg-[#1118274D] absolute top-0 left-0 bottom-0 right-0"></div>
+        <div className='absolute px-8 z-1 top-[105px] md:top-[275px] w-full flex flex-col justify-center items-center'>
           <h3 className='text-3xl md:text-5xl leading-[130%] font-bold font-Epiogue text-white text-center'>
             Trao nền tảng – Xây dựng tương lai <br /> bền vững cho người khiếm thính
           </h3>
-          <p className='px-2 text-center font-normal text-sm md:text-base mt-[16px] mb-[32px]'>
-            Foundation for Future (FFF) là một tổ chức xã hội hoạt động với sứ mệnh hỗ trợ thông tin về giáo dục và đào tạo hướng <br /> nghiệp cho người khiếm thính. Chúng tôi tin rằng mỗi người khiếm thính đều có tiềm năng để chủ động xây dựng
-            tương lai <br /> của mình, khi được trao cơ hội tiếp cận đúng đắn và công bằng.
+          <p className='px-2 text-center font-normal text-sm md:text-base mt-[16px] mb-[32px] line-clamp-4 md:line-clamp-3'>
+            Foundation for Future (FFF) là một tổ chức xã hội hoạt động với sứ mệnh hỗ trợ thông tin về giáo dục và đào tạo hướng <br /> nghiệp cho người khiếm thính. Chúng tôi tin rằng mỗi người
+            khiếm thính đều có tiềm năng để chủ động xây dựng tương lai <br /> của mình, khi được trao cơ hội tiếp cận đúng đắn và công bằng.
           </p>
           <Link href='/ve-chung-toi' className='bg-[#3A63ED] text-white cursor-pointer px-6 py-3 rounded-lg hover:bg-gray-900 transition-colors'>
             Về chúng tôi
           </Link>
-          <div className='max-w-7xl mx-auto relative w-[95%] md:w-full -bottom-[20px] md:-bottom-[310px] text-black h-auto md:h-[198px] bg-[#F2F2F3] rounded-2xl shadow-box-banner'>
-          <div className='w-full shadow-box-banner2 h-full rounded-2xl md:gap-0 gap-5 flex md:flex-row flex-col items-center justify-center py-[42px] px-[80px]'>
-            <div>
-              <h3 className="text-[#3A63ED] text-4xl md:text-5xl font-bold text-center">5%</h3>
-              <p className="text-center text-sm md:text-base font-normal text-[#111827]">Hơn 5% dân số thế giới cần khắc phục tình trạng mất thính lực</p>
-            </div>
-            <div className="w-[1px] h-full bg-[#CFD1D4] mx-[84px]"></div>
-            <div>
-              <h3 className="text-[#3A63ED] text-4xl md:text-5xl font-bold text-center">1200</h3>
-              <p className="text-center text-sm md:text-base font-normal text-[#111827]">Hàng năm có từ 1.200 - 1.400 trẻ khiếm thính ra đời tại Việt Nam.</p>
-            </div>
-            <div className="w-[1px] h-full bg-[#CFD1D4] mx-[84px]"></div>
-            <div>
-              <h3 className="text-[#3A63ED] text-4xl md:text-5xl font-bold text-center">2,5 triệu</h3>
-              <p className="text-center text-sm md:text-base font-normal text-[#111827]">Cả nước có khoảng 2,5 triệu người khuyết tật nghe nói.</p>
-            </div>
-          </div>
         </div>
+        <div className='max-w-7xl px-8 w-full mx-auto absolute left-1/2 -translate-x-1/2 -bottom-[200px] md:-bottom-[100px] text-black h-auto md:h-[198px] '>
+            <div className='bg-[#F2F2F3] rounded-2xl shadow-box-banner w-full shadow-box-banner2 h-full md:gap-0 gap-5 flex md:flex-row flex-col items-center justify-center py-[42px] px-[48px] md:px-[80px]'>
+              <div>
+                <h3 className='text-[#3A63ED] text-4xl md:text-5xl font-bold text-center text-nowrap'>5%</h3>
+                <p className='text-center text-sm md:text-base font-normal text-[#111827] line-clamp-3'>Hơn 5% dân số thế giới cần khắc phục tình trạng mất thính lực</p>
+              </div>
+              <div className='md:w-[1px] w-full h-[1px] md:h-full bg-[#CFD1D4] mx-[84px]'></div>
+              <div>
+                <h3 className='text-[#3A63ED] text-4xl md:text-5xl font-bold text-center text-nowrap'>1200</h3>
+                <p className='text-center text-sm md:text-base font-normal text-[#111827] line-clamp-3'>Hàng năm có từ 1.200 - 1.400 trẻ khiếm thính ra đời tại Việt Nam.</p>
+              </div>
+              <div className='md:w-[1px] w-full h-[1px] md:h-full bg-[#CFD1D4] mx-[84px]'></div>
+              <div>
+                <h3 className='text-[#3A63ED] text-4xl md:text-5xl font-bold text-center text-nowrap'>2,5 triệu</h3>
+                <p className='text-center text-sm md:text-base font-normal text-[#111827] line-clamp-3'>Cả nước có khoảng 2,5 triệu người khuyết tật nghe nói.</p>
+              </div>
+            </div>
         </div>
         {/* <div className='max-w-7xl mx-auto absolute w-[95%] md:w-full left-1/2 -translate-x-1/2 -bottom-[350px] md:-bottom-[99px] text-black h-auto md:h-[198px] bg-[#F2F2F3] rounded-2xl shadow-box-banner'>
           <div className='w-full shadow-box-banner2 h-full rounded-2xl md:gap-0 gap-5 flex md:flex-row flex-col items-center justify-center py-[42px] px-[80px]'>

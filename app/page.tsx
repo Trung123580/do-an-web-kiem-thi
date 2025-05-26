@@ -62,19 +62,46 @@ export default function Home() {
       },
     ],
   }
+    const carouselSettings2 = {
+    dots: false,
+    arrows: true,
+    infinite: true,
+    speed: 500,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    centerMode: true,
+    slidesToShow: 3,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 640,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  }
   
   return (
     <div>
       <BannerSwiper />
-     <div className="relative overflow-hidden mt-[310px] mb-[96px] md:mt-[195px]">
-       <Slider {...carouselSettings} ref={sliderRef} className='news-carousel  !w-full md:max-w-[1064px] mx-auto'>
+     <div className="relative overflow-hidden px-[32px] mt-[250px] md:mb-[96px] md:mt-[195px]">
+      <Slider {...carouselSettings} ref={sliderRef} className='news-carousel md:!block !hidden !w-full md:max-w-[1064px] mx-auto'>
         {sampleCourses.map(({ id, imageUrl, title, link }) => (
           <div key={id} className='px-3'>
             <Link href={link}>
               <div className='group cursor-pointer relative group'>
-                <div className='relative h-[272px] w-full overflow-hidden rounded-lg'>
+                <div className='relative h-[200px] md:h-[272px] w-full overflow-hidden rounded-lg'>
                   <div className="relative shadow-slide h-full">
-                    <img src={imageUrl} className="h-full w-full" alt='' />
+                    <img src={imageUrl} className="h-full w-full object-cover" alt='' />
                   </div>
                   <div className="absolute bottom-[22px] left-[32px] flex items-end text-white max-w-[293px]">
                     <p className="font-normal text-lg">{title}</p>
@@ -86,7 +113,7 @@ export default function Home() {
           </div>
         ))}
       </Slider>
-      <div className="absolute top-1/2 -translate-y-1/2 flex w-[90%] md:w-[70%] justify-between items-center left-1/2 -translate-x-1/2 ">
+      <div className="flex absolute top-1/2 -translate-y-1/2 max-w-7xl w-screen justify-between items-center left-1/2 -translate-x-1/2 ">
         <button onClick={() => sliderRef.current?.slickPrev()}>
           <img src={'/image/sllider-home/prev.png'} className="" alt='' />
         </button>
@@ -95,6 +122,26 @@ export default function Home() {
         </button>
       </div>
      </div>
+     <h3 className="md:hidden block font-bold text-2xl px-[32px] mb-2">Nội dung nổi bật</h3>
+     <Slider {...carouselSettings2} className='news-carousel md:!hidden !block !w-full md:max-w-[1064px] mx-auto overflow-hidden'>
+        {sampleCourses.map(({ id, imageUrl, title, link }) => (
+          <div key={id} className='px-2'>
+            <Link href={link}>
+              <div className='group cursor-pointer relative group'>
+                <div className='relative h-[200px] md:h-[272px] w-full overflow-hidden rounded-lg'>
+                  <div className="relative shadow-slide h-full">
+                    <img src={imageUrl} className="h-full w-full object-cover" alt='' />
+                  </div>
+                  <div className="absolute bottom-[12px] left-[12px] flex items-end text-white max-w-[293px]">
+                    <p className="font-normal text-xs">{title}</p>
+                    <img src='/icon/arrow.png' alt='' className="h-max group-hover:-right-5 transition-all relative" />
+                  </div>
+                </div>
+              </div>
+            </Link>
+          </div>
+        ))}
+      </Slider>
       {/* <section className='relative w-full'>
         <div className='max-w-[846px] mx-auto h-[540px] flex justify-center items-center flex-col gap-[30px]'>
           <h3 className='text-header font-bold text-5xl'>Hoạt động của chúng tôi</h3>

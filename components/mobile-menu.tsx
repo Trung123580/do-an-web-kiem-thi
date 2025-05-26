@@ -251,7 +251,7 @@ export default function MobileMenu({ currentPath = "/" }: MobileMenuProps) {
             </div>
           </nav>
 
-          <div className="mt-6 pt-6 border-t">
+          {/* <div className="mt-6 pt-6 border-t">
             <div className="relative">
               <button 
                 onClick={() => toggleSubmenu("fundraising")}
@@ -272,7 +272,7 @@ export default function MobileMenu({ currentPath = "/" }: MobileMenuProps) {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

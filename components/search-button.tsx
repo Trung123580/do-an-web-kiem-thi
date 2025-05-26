@@ -68,7 +68,8 @@ export default function SearchButton({ isMobile = false }: SearchButtonProps) {
             className='border border-[#cfd1d4] rounded-md py-2 px-3 text-sm w-full focus:outline-none focus:ring-2 focus:ring-[#3a63ed] focus:border-transparent'
           />
           <button className='absolute right-3 text-[#111827] hover:text-[#3a63ed] transition-colors' aria-label='Tìm kiếm'>
-            <Search className='h-5 w-5' />
+            {/* <Search className='h-5 w-5' /> */}
+            <img src="/search-icon.png" alt="" />
           </button>
           {onChange !== "" && (
             <ul className='absolute top-[105%] left-0 rounded-xl shadow-box-banner2 w-full max-h-[400px] h-[400px] overflow-y-auto bg-white  z-10 flex flex-col gap-2 px-2 py-4'>
@@ -125,7 +126,8 @@ export default function SearchButton({ isMobile = false }: SearchButtonProps) {
         </div>
       ) : (
         <button onClick={toggleSearch} className='text-[#111827] hover:text-[#3a63ed] transition-colors' aria-label='Mở tìm kiếm'>
-          <Search className='h-5 w-5' />
+          {/* <Search className='h-5 w-5' /> */}
+          <img src="/search-icon.png" alt="" />
         </button>
       )}
     </div>

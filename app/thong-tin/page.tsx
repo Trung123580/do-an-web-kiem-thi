@@ -13,25 +13,24 @@ export default function Page() {
   const carouselSettings = {
     dots: false,
     arrows: true,
-    infinite: true,
+    infinite: false, // Change to false so items don't loop and are not hidden
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 2.5, // Show 2.5 items
     slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
+    autoplay: false, // Disable autoplay to avoid skipping items
+    centerMode: false,
+    variableWidth: false,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
+          slidesToShow: 1.5,
         },
       },
       {
         breakpoint: 640,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
+          slidesToShow: 1.3,
         },
       },
     ],
@@ -49,7 +48,7 @@ export default function Page() {
               <img src='/image/home/Variant2.png' alt='Next' className='cursor-pointer' onClick={() => sliderRef.current?.slickNext()} />
             </div>
           </div>
-          <div className="w-full">
+          <div className="w-full relative">
             <Slider ref={sliderRef} {...carouselSettings} className="news-carousel -mx-3 w-full">
               {dataNews.map((news, index) => (
                 <div key={index} className="px-3">
@@ -57,7 +56,7 @@ export default function Page() {
                     <div className="group cursor-pointer relative">
                       <div className="relative h-[370px] rounded-xl overflow-hidden">
                         <Image src={news.image} alt={news.title} fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
-                        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/40 to-black/70"></div>
+                        <div className="absolute w-full bg-gradient-to-b from-transparent via-black/50 to-black/70  h-[150px] bottom-0"></div>
                         <div className="space-y-2 absolute bottom-0 left-0 right-0 p-6 text-white">
                           <h3 className="font-semibold text-lg transition-colors line-clamp-2">{news.title}</h3>
                           <div className="flex gap-2">

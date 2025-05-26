@@ -2,11 +2,11 @@
 import React, { useState } from 'react';
 import { Lock } from "lucide-react"
 import { useApp } from '@/context/ContextProvider';
-
+import { PiCurrencyDollarSimpleBold } from "react-icons/pi";
 interface DonationData {
   donationType: 1 | 2;
   selectedAmount?: number;
-  customAmount?: number;
+  customAmount?: '';
   fullName?: string;
   email?: string;
   phone?: string;
@@ -19,7 +19,7 @@ const Donate = () => {
   const [dataSubmit, setDataSubmit] = useState<DonationData>({
     donationType: 1,
     selectedAmount: 10,
-    customAmount: 0,
+    customAmount: '',
     fullName: '',
     email: '',
     phone: '',
@@ -41,16 +41,16 @@ const Donate = () => {
     setDataSubmit(prev => ({
       ...prev,
       selectedAmount: amount,
-      customAmount: 0
+      customAmount: ''
     }));
   };
 
   const handleCustomAmountChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const value = e.target.value;
+    const value = e.target.value as any;
     if (value === '' || /^\d+$/.test(value)) {
       setDataSubmit(prev => ({
         ...prev,
-        customAmount: Number(value),
+        customAmount: value,
         selectedAmount: 10,
       }));
     }
@@ -80,29 +80,28 @@ const Donate = () => {
   };
 
   return (
-    <div className='relative w-full min-h-[400px] md:min-h-[500px] h-[720px] bg-cover bg-center' style={{ backgroundImage: "url('/image/donate-bg.jpg')" }}>
+    <div className='relative w-full min-h-[400px] h-[720px] bg-cover bg-center' style={{ backgroundImage: "url('/image/donate-bg.jpg')" }}>
       <div className='absolute inset-0 bg-gradient-to-r from-black/40 to-transparent' />
-      <div className='absolute top-2/3 left-4 md:left-20 transform -translate-y-1/2 text-white max-w-lg px-4 md:px-0'>
-        <h1 className='text-3xl md:text-5xl font-bold leading-tight'>
+      <div className='absolute top-[106px] md:top-2/3 left-4 md:left-20 transform -translate-y-1/2 text-white max-w-lg px-4 md:px-0'>
+        <h1 className='text-xl md:text-5xl font-bold leading-tight'>
           Hãy cùng chúng tôi
           <br />
           phá bỏ rào cản.
         </h1>
-        <p className='mt-6 text-base md:text-lg opacity-90'>
+        <p className='mt-2 md:mt-6 text-sm md:text-lg opacity-90'>
           Chung tay hỗ trợ giáo dục và đào tạo nghề cho người khiếm thính ngay hôm nay!
         </p>
       </div>
-      <form onSubmit={handleSubmit} className='absolute left-4 right-4 top-1/2 md:right-20 md:left-auto -translate-y-1/2 md:w-[413px]'>
-        <div className='bg-white rounded-xl shadow-lg py-12 px-9'>
-          <h2 className='text-center text-[#111827] font-normal mb-6 text-[32px]'>Ủng hộ để hỗ trợ người khiếm thính</h2>
-
-          <div className='bg-[#EEF1FF] rounded-md flex mb-2 border border-[#E5E7EB] overflow-hidden'>
+      <form onSubmit={handleSubmit} className='absolute left-0 right-0 md:px-0 px-[32px] top-[180px] md:top-1/2 md:right-20 md:left-auto md:-translate-y-1/2 md:w-[413px]'>
+        <div className='bg-white rounded-xl shadow-lg py-[32px] md:py-12 px-[24px] md:px-9'>
+          <h2 className='text-center text-[#111827] font-bold md:font-normal mb-6 text-[24px] md:px-0 px-10 md:text-[32px]'>Ủng hộ để hỗ trợ người khiếm thính</h2>
+          <div className='bg-[#EEF1FF] rounded-md flex mb-2 border border-[#CFD1D4] overflow-hidden'>
             {[1, 2].map((type) => (
               <button
                 key={type}
                 type='button'
-                className={`flex-1 py-4 text-sm font-medium transition-colors ${
-                  dataSubmit.donationType === type ? 'bg-[#EEF1FF] text-gray-900' : 'text-[#4B5563] bg-white'
+                className={`flex-1 py-2.5 md:py-4 text-sm font-normal md:font-medium transition-colors ${
+                  dataSubmit.donationType === type ? 'bg-[#D8E0FB] text-[#111827]' : 'text-[#111827] bg-white'
                 }`}
                 onClick={() => handleDonationTypeChange(type as 1 | 2)}
               >
@@ -110,13 +109,13 @@ const Donate = () => {
               </button>
             ))}
           </div>
-          <div className='grid grid-cols-4 mb-2 rounded-md overflow-hidden border border-[#E5E7EB]'>
+          <div className='grid grid-cols-4 mb-2 rounded-md overflow-hidden border border-[#CFD1D4]'>
             {[10, 40, 80, 200].map((amount) => (
               <button
                 type='button'
                 key={amount}
-                className={`py-4 text-sm transition-colors ${
-                  dataSubmit.selectedAmount === amount ? 'bg-[#EEF1FF]' : 'bg-white hover:bg-[#E5E7EB]'
+                className={`py-2.5 md:py-4 text-sm transition-colors ${
+                  dataSubmit.selectedAmount === amount ? 'bg-[#D8E0FB]' : 'bg-white hover:bg-[#CFD1D4]'
                 }`}
                 onClick={() => handleAmountSelect(amount)}
               >
@@ -125,22 +124,24 @@ const Donate = () => {
             ))}
           </div>
 
-          <p className='text-sm text-[#6B7280] mb-6 text-center'>Mỗi đóng góp không chỉ trao cơ hội, mà tạo một tương lai công bằng hơn cho người khiếm thính.</p>
+          <p className='text-[10px] md:text-sm text-[#6B7280] mb-4 md:mb-6 text-center'>Mỗi đóng góp không chỉ trao cơ hội, mà tạo một tương lai công bằng hơn cho người khiếm thính.</p>
 
           <div className='relative'>
-            <span className='absolute left-3 top-1/2 -translate-y-1/2 text-gray-500'>$</span>
+            <span className='absolute left-6 top-1/2 -translate-y-1/2 border-r border-[#E5E7EB] h-full flex items-center pr-6'>
+              <PiCurrencyDollarSimpleBold width={9} height={18}/>
+            </span>
             <input
               type='text'
               value={dataSubmit.customAmount}
               onChange={handleCustomAmountChange}
               placeholder='Nhập số tiền khác'
-              className='w-full py-3 pl-8 pr-4 border border-[#E5E7EB] rounded-md focus:outline-none focus:ring-2 focus:ring-[#EEF1FF]'
+              className='w-full py-2.5 md:py-3 pl-20 pr-4 border border-[#E5E7EB] rounded-md focus:outline-none focus:ring-2 focus:ring-[#EEF1FF]'
             />
           </div>
 
           <button type='button' 
            onClick={() => setOpen(true)}
-          className='mt-4 w-full bg-[#3A63ED] text-white py-5 rounded-[4px] text-2xl font-medium mb-4 hover:bg-[#4338CA] transition-colors'>Ủng hộ ngay</button>
+          className='mt-2 md:mt-4 w-full bg-[#3A63ED] text-white py-2.5 md:py-5 rounded-[4px] text-base md:text-2xl font-normal md:font-medium mb-[40px] md:mb-4 hover:bg-[#4338CA] transition-colors'>Ủng hộ ngay</button>
           <div className='flex items-center flex-col justify-center gap-2 text-xs text-[#6B7280]'>
             <img src='/image/visa.png' alt='' />
             <span className='flex items-center gap-1 justify-center'>
