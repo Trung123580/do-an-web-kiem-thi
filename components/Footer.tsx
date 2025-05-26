@@ -1,10 +1,12 @@
 "use client"
 import { useApp } from "@/context/ContextProvider"
 import { Lock } from "lucide-react"
+import { usePathname } from "next/navigation"
 import { useState } from "react"
 
 export default function DonateSection() {
   const { handles }: any = useApp()
+  const pathName = usePathname()
   const [dataSubmit, setDataSubmit] = useState({
     fullName: "",
     email: "",
@@ -22,10 +24,10 @@ export default function DonateSection() {
   return (
     <div className='w-full'>
       {/* Subscribe section */}
-      <div className='bg-[#3A63ED] text-white px-4 py-8'>
+      <div className={`bg-[#3A63ED] text-white ${pathName === '/' ? 'px-[32px]' : 'px-4'} py-8`}>
         <div className='max-w-7xl mx-auto'>
           <h3 className='text-xl font-semibold mb-1'>Đăng ký thông báo</h3>
-          <p className='text-sm text-white/90 mb-6 md:mb-4 max-w-3xl'>
+          <p className='text-sm text-white/90 mb-6 md:mb-4 max-w-[480px]'>
             Đăng ký nhận thông tin để cập nhật những tin tức, sự kiện và chương trình hỗ trợ giáo dục, đào tạo hướng nghiệp. Nhận các cập nhật, câu chuyện truyền cảm hứng và các tin tức mới nhất nhanh chóng.
           </p>
           <form onSubmit={handleSubmit} className='flex flex-col md:flex-row gap-4 md:gap-3 xl:max-w-[70%] w-full'>
@@ -39,7 +41,7 @@ export default function DonateSection() {
                 value={dataSubmit.fullName}
                 onChange={(e) => setDataSubmit({ ...dataSubmit, fullName: e.target.value })}
                 type='text'
-                className='flex-1 px-3 w-full py-2 rounded-[4px] text-black outline-none bg-white text-sm border-2 border-[#CFD1D4]'
+                className='flex-1 px-3 w-full py-2 rounded-lg text-black outline-none bg-white text-sm border-2 border-[#CFD1D4]'
               />
             </div>
             <div className='relative'>
@@ -52,7 +54,7 @@ export default function DonateSection() {
                 value={dataSubmit.email}
                 onChange={(e) => setDataSubmit({ ...dataSubmit, email: e.target.value })}
                 type='email'
-                className='flex-1 px-3 w-full py-2 rounded-[4px] text-black outline-none bg-white text-sm border-2 border-[#CFD1D4]'
+                className='flex-1 px-3 w-full py-2 rounded-lg text-black outline-none bg-white text-sm border-2 border-[#CFD1D4]'
               />
             </div>
             <div className='relative'>
@@ -65,7 +67,7 @@ export default function DonateSection() {
                 value={dataSubmit.phone}
                 onChange={(e) => setDataSubmit({ ...dataSubmit, phone: e.target.value })}
                 type='tel'
-                className='flex-1 px-3 w-full py-2 rounded-[4px] text-black outline-none bg-white text-sm border-2 border-[#CFD1D4]'
+                className='flex-1 px-3 w-full py-2 rounded-lg text-black outline-none bg-white text-sm border-2 border-[#CFD1D4]'
               />
             </div>
             <button type='submit' className='bg-[#111827] hover:bg-[#70747D] text-white px-6 py-2 rounded-[4px] text-sm font-medium transition-colors whitespace-nowrap'>
@@ -74,7 +76,7 @@ export default function DonateSection() {
           </form>
 
           {/* Footer Links */}
-          <div className='flex flex-col justify-between mt-8 pt-6 border-t border-white/20'>
+          <div className='flex flex-col justify-between mt-8 pt-6' >
           <div className='flex gap-4 *:hover:bg-black/40 *:p-2 *:rounded-xl'>
               <a href='#' className='text-white/90 !pl-0 hover:text-white transition-colors'>
                 <svg xmlns='http://www.w3.org/2000/svg' className='w-[27px] h-[27px]' viewBox='0 0 28 22' fill='none'>
@@ -95,17 +97,17 @@ export default function DonateSection() {
                 </svg>
               </a>
             </div>
-            <div className='flex flex-wrap *:hover:underline  gap-2 md:gap-[56px] md:mt-0 mt-2 mb-4 md:mb-0 text-xl md:text-2xl'>
-              <a href='/lien-he' className='text-white/90 hover:text-white transition-colors'>
+            <div className='flex flex-wrap *:hover:underline  gap-2 md:gap-[56px] md:mt-6 mt-2 mb-4 md:mb-0 text-xl md:text-2xl'>
+              <a href='/lien-he' className='text-white/90 hover:text-white transition-colors font-normal text-2xl'>
                 Liên hệ với chúng tôi
               </a>
-              <a href='/rieng-tu' className='text-white/80 hover:text-white transition-colors'>
+              <a href='/rieng-tu' className='text-white/80 hover:text-white transition-colors font-normal text-2xl'>
                 Quyền riêng tư và Cookie
               </a>
-              <a href='/chinh-sach' className='text-white/80 hover:text-white transition-colors'>
+              <a href='/chinh-sach' className='text-white/80 hover:text-white transition-colors font-normal text-2xl'>
                 Chính sách cộng đồng
               </a>
-              <a href='/gay-quy' className='text-white/80 hover:text-white transition-colors'>
+              <a href='/gay-quy' className='text-white/80 hover:text-white transition-colors font-normal text-2xl'>
                 Gây quỹ
               </a>
             </div>
