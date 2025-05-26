@@ -6,7 +6,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { dataNews, stories } from "@/utils/contanst";
-import { FaArrowRight } from "react-icons/fa";
 
 export default function Page() {
   const sliderRef = useRef<Slider>(null)
@@ -51,14 +50,14 @@ export default function Page() {
           <div className="w-full relative">
             <Slider ref={sliderRef} {...carouselSettings} className="news-carousel -mx-3 w-full">
               {dataNews.map((news, index) => (
-                <div key={index} className="px-3">
+                <div key={index} className="px-3"  style={{ width: 545 }}>
                   <Link href={`/thong-tin/tin-tuc/${news.slug}`}>
                     <div className="group cursor-pointer relative">
                       <div className="relative h-[370px] rounded-xl overflow-hidden">
                         <Image src={news.image} alt={news.title} fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
                         <div className="absolute w-full bg-gradient-to-b from-transparent via-black/50 to-black/70  h-[150px] bottom-0"></div>
                         <div className="space-y-2 absolute bottom-0 left-0 right-0 p-6 text-white">
-                          <h3 className="font-semibold text-lg transition-colors line-clamp-2">{news.title}</h3>
+                          <h3 className="font-normal text-2xl transition-colors line-clamp-2">{news.title}</h3>
                           <div className="flex gap-2">
                             {news.tags.map((tag, tagIndex) => (
                               <span key={tagIndex} className="text-sm text-black px-3 py-1 bg-white rounded-sm">
@@ -75,7 +74,7 @@ export default function Page() {
             </Slider>
           </div>
           <div className="text-end mt-6">
-            <Link href="/thong-tin/tin-tuc" className="inline-flex items-center text-sm font-medium hover:text-gray-900 px-7 py-2 rounded-sm border bg-[#FFFFFF] border-[#CFD1D4] text-[#414652]">
+            <Link href="/thong-tin/tin-tuc" className="gap-2 inline-flex items-center px-6 py-3 text-base font-normal border-2 border-[#CFD1D4] text-[#414652] rounded-lg hover:bg-gray-100 transition">
               Xem thêm <img src="/icon/arrow.png" alt="" />
             </Link>
           </div>
@@ -124,7 +123,7 @@ export default function Page() {
             })}
           </div>
           <div className="text-end mt-6">
-            <Link href="/thong-tin/cau-chuyen" className="inline-flex items-center text-sm font-medium hover:text-gray-900 px-7 py-2 rounded-sm border bg-[#FFFFFF] border-[#CFD1D4] text-[#414652]">
+            <Link href="/thong-tin/cau-chuyen" className="gap-2 inline-flex items-center px-6 py-3 text-base font-normal border-2 border-[#CFD1D4] text-[#414652] rounded-lg hover:bg-gray-100 transition">
               Xem thêm <img src="/icon/arrow.png" alt="" />
             </Link>
           </div>

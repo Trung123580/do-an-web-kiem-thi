@@ -74,13 +74,13 @@ const page = () => {
           ))}
         </div>
         <div className="text-end mt-6">
-          <Link href="/nghe-nghiep/tuyen-dung" className="inline-flex items-center text-sm font-medium hover:text-gray-900 px-7 py-2 rounded-sm border bg-[#FFFFFF] border-[#CFD1D4] text-[#414652]">
+          <Link href="/nghe-nghiep/tuyen-dung" className="gap-2 inline-flex items-center px-6 py-3 text-base font-normal border-2 border-[#CFD1D4] text-[#414652] rounded-lg hover:bg-gray-100 transition">
             Xem thêm  <img src="/icon/arrow.png" alt="" />
           </Link>
         </div>
         <CourseGridNghe courses={daotaonghe}  path="nghe-nghiep/dao-tao-nghe" title="Đào tạo nghề" />
         <div className="text-end mt-6">
-            <Link href="/nghe-nghiep/dao-tao-nghe" className="inline-flex items-center text-sm font-medium hover:text-gray-900 px-7 py-2 rounded-sm border bg-[#FFFFFF] border-[#CFD1D4] text-[#414652]">
+            <Link href="/nghe-nghiep/dao-tao-nghe" className="gap-2 inline-flex items-center px-6 py-3 text-base font-normal border-2 border-[#CFD1D4] text-[#414652] rounded-lg hover:bg-gray-100 transition">
               Xem thêm <img src="/icon/arrow.png" alt="" />
             </Link>
         </div>
@@ -102,7 +102,7 @@ const page = () => {
             })}
         </div>
         <div className="text-end mt-6">
-            <Link href="/nghe-nghiep/cam-nang" className="inline-flex items-center text-sm font-medium hover:text-gray-900 px-7 py-2 rounded-sm border bg-[#FFFFFF] border-[#CFD1D4] text-[#414652]">
+            <Link href="/nghe-nghiep/cam-nang" className="gap-2 inline-flex items-center px-6 py-3 text-base font-normal border-2 border-[#CFD1D4] text-[#414652] rounded-lg hover:bg-gray-100 transition">
               Xem thêm <img src="/icon/arrow.png" alt="" />
             </Link>
         </div>
