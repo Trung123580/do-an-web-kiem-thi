@@ -61,7 +61,7 @@ export default function LatestNews() {
           <div key={index} className="px-3" style={{ width: 545 }}>
             <Link href={`/thong-tin/tin-tuc/${news.slug}`}>
               <div className="group cursor-pointer relative">
-                <div className="relative h-[240px] md:h-[340px] rounded-xl overflow-hidden">
+                <div className="relative h-[197px] md:h-[340px] rounded-xl overflow-hidden">
                   <Image src={news.image} alt={news.title} fill className="object-cover group-hover:scale-125 transition-transform duration-700 w-full" />
                   <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/40 to-black/70"></div>
                   <div className="space-y-2 absolute bottom-0 left-0 right-0 p-6 text-white z-10">
