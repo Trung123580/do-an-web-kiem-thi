@@ -29,7 +29,7 @@ export default function LatestNews() {
       {
         breakpoint: 640,
         settings: {
-          slidesToShow: 1.3,
+          slidesToShow: 1,
         },
       },
     ],
@@ -56,13 +56,13 @@ export default function LatestNews() {
       </div>
       {/* Scrollable list */}
       <div className="relative overflow-visible">
-        <Slider  ref={sliderRef}  {...carouselSettings} className="news-carousel -mx-3 w-full">
+        <Slider  ref={sliderRef}  {...carouselSettings} className="news-carousel mx-1 md:-mx-3 w-full">
         {dataNews.map((news, index) => (
-          <div key={index} className="px-3" style={{ width: 545 }}>
-            <Link href={`/thong-tin/tin-tuc/${news.slug}`}>
-              <div className="group cursor-pointer relative">
-                <div className="relative h-[197px] md:h-[340px] rounded-xl overflow-hidden">
-                  <Image src={news.image} alt={news.title} fill className="object-cover group-hover:scale-125 transition-transform duration-700 w-full" />
+          <div key={index} className=" md:px-3 pr-3 h-full" style={{ width: 545 }}>
+            <Link href={`/thong-tin/tin-tuc/${news.slug}`} className="h-full">
+              <div className="group cursor-pointer relative h-full">
+                <div className="relative h-[240px] md:h-[340px] rounded-xl overflow-hidden">
+                  <Image src={news.image} alt={news.title} fill className=" object-cover group-hover:scale-125 transition-transform duration-700 w-full" />
                   <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/40 to-black/70"></div>
                   <div className="space-y-2 absolute bottom-0 left-0 right-0 p-6 text-white z-10">
                     <h3 className="font-normal text-2xl transition-colors line-clamp-2">{news.title}</h3>
