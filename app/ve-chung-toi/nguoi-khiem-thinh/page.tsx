@@ -35,7 +35,7 @@ export default function page() {
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
 
         {/* Content */}
-        <div className="absolute bottom-0 left-0 right-0 p-8 md:p-20 text-white">
+        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 right-0 p-8 md:p-20 md:pl-0 text-white max-w-7xl w-full">
           <p className="text-xl md:text-3xl font-bold -tracking-tight leading-relaxed">
             Người khiếm thính là những cá nhân có khả năng nghe giảm, gặp khó khăn trong việc tiếp nhận âm thanh và giao tiếp truyền thông.
           </p>

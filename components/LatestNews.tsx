@@ -14,7 +14,7 @@ export default function LatestNews() {
     arrows: true,
     infinite: false, // Change to false so items don't loop and are not hidden
     speed: 500,
-    slidesToShow: 2.5, // Show 2.5 items
+    slidesToShow: 2, // Show 2.5 items
     slidesToScroll: 1,
     autoplay: false, // Disable autoplay to avoid skipping items
     centerMode: false,

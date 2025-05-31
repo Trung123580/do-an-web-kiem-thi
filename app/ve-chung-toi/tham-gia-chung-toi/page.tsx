@@ -75,7 +75,7 @@ export default function JoinUsPage() {
     <div className='min-h-screen pt-20'>
       <section className='relative w-full h-[200px] md:h-[720px]'>
         <Image src='/image/banner-3.png' alt='Trẻ em khiếm thính vui chơi' fill className='object-cover' />
-        <div className='absolute bottom-0 left-0 right-0 p-8 md:p-16 text-white'>
+        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 right-0 p-8 md:p-20 md:pl-0 text-white max-w-7xl w-full">
           <p className='text-xl md:text-5xl font-bold -tracking-tight leading-relaxed'>Cùng chúng tôi tạo nên tương lai tươi đẹp cho cộng đồng người khiếm thính</p>
         </div>
       </section>
