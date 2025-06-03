@@ -162,18 +162,17 @@ export default function EducationPage() {
           {phuongPhap.map((item, index) => {
             return (
               <Link key={index} href={`giao-duc/giao-duc-dac-biet/${item.slug}`} className='px-3 h-full'>
-                  <div className='bg-[#F2F2F3] overflow-hidden rounded-2xl hover:bg-[#3A63ED]/50 shadow-lg h-full group relative'>
-                    <div className='relative h-60 group-hover:h-40 transition-all duration-300'>
-                      <Image src={item.image} alt={item.name} fill className='object-cover rounded-2xl' />
-                    </div>
-                    <div className='px-6 pt-4 pb-6'>
-                      <p className='text-gray-600 font-medium text-lg mb-4'>{item.name}</p>
-                      <p className='text-gray-600 font-medium text-sm absolute left-0 right-0 p-4 pt-0 translate-y-full group-hover:translate-y-0 transition-all duration-300'>{item.note}</p>
-                    </div>
+                <div className='bg-[#F2F2F3] overflow-hidden rounded-2xl hover:bg-[#89A1F4] shadow-lg h-full group relative'>
+                  <div className='relative h-60 group-hover:h-40 transition-all duration-300'>
+                    <Image src={item.image} alt={item.name} fill className='object-cover rounded-2xl' />
                   </div>
-                </Link>
-             
-            );
+                  <div className='px-6 pt-4 pb-6'>
+                    <p className='text-gray-600 font-medium text-lg mb-4'>{item.name}</p>
+                    <p className='text-gray-600 font-medium text-sm absolute left-0 right-0 p-4 pt-0 translate-y-full group-hover:translate-y-0 transition-all duration-300'>{item.note}</p>
+                  </div>
+                </div>
+              </Link>
+            )
           })}
         </Slider>
         <style jsx global>{`

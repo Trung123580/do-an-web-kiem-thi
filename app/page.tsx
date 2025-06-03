@@ -93,48 +93,58 @@ export default function Home() {
   return (
     <div>
       <BannerSwiper />
-     <div className="relative overflow-hidden px-[32px] mt-[250px] md:mb-[96px] md:mt-[195px]">
-      <Slider {...carouselSettings} ref={sliderRef} className='news-carousel md:!block !hidden !w-full md:max-w-[1064px] mx-auto'>
-        {sampleCourses.map(({ id, imageUrl, title, link }) => (
-          <div key={id} className='px-3'>
-            <Link href={link}>
-              <div className='group cursor-pointer relative group'>
-                <div className='relative h-[200px] md:h-[272px] w-full overflow-hidden rounded-lg'>
-                  <div className="relative shadow-slide h-full">
-                    <img src={imageUrl} className="h-full w-full object-cover" alt='' />
-                  </div>
-                  <div className="absolute bottom-[22px] left-[32px] flex items-end text-white max-w-[293px]">
-                    <p className="font-normal text-lg">{title}</p>
-                    <img src='/icon/arrow.png' alt='' className="h-max group-hover:-right-5 transition-all relative" />
+      <div className='relative overflow-hidden px-[32px] mt-[250px] md:mb-[96px] md:mt-[195px]'>
+        <Slider {...carouselSettings} ref={sliderRef} className='news-carousel md:!block !hidden !w-full md:max-w-[1064px] mx-auto'>
+          {sampleCourses.map(({ id, imageUrl, title, link }) => (
+            <div key={id} className='px-3'>
+              <Link href={link}>
+                <div className='group cursor-pointer relative group'>
+                  <div className='relative h-[200px] md:h-[272px] w-full overflow-hidden rounded-lg'>
+                    <div className='relative shadow-slide h-full'>
+                      <img src={imageUrl} className='h-full w-full object-cover' alt='' />
+                    </div>
+                    <div className='absolute bottom-[22px] left-[32px] flex items-end text-white w-full'>
+                      <div className="grid grid-cols-3">
+                        <p className='font-bold col-span-2 text-lg'>{title}</p>
+                        <svg
+                          xmlns='http://www.w3.org/2000/svg'
+                          height='24px'
+                          viewBox='0 -960 960 960'
+                          width='24px'
+                          className='min-w-[24px] col-span-1 w-[24px] max-[24px] h-max group-hover:-right-5 transition-all relative'
+                          fill='white'>
+                          <path d='M647-440H200q-17 0-28.5-11.5T160-480q0-17 11.5-28.5T200-520h447L451-716q-12-12-11.5-28t12.5-28q12-11 28-11.5t28 11.5l264 264q6 6 8.5 13t2.5 15q0 8-2.5 15t-8.5 13L508-188q-11 11-27.5 11T452-188q-12-12-12-28.5t12-28.5l195-195Z' />
+                        </svg>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </Link>
-          </div>
-        ))}
-      </Slider>
-      <div className="flex absolute top-1/2 -translate-y-1/2 max-w-7xl w-screen justify-between items-center left-1/2 -translate-x-1/2 ">
-        <button onClick={() => sliderRef.current?.slickPrev()}>
-          <img src={'/image/sllider-home/prev.png'} className="" alt='' />
-        </button>
-        <button onClick={() => sliderRef.current?.slickNext()}>
-          <img src={'/image/sllider-home/next.png'} className="" alt='' />
-        </button>
+              </Link>
+            </div>
+          ))}
+        </Slider>
+        <div className='flex absolute top-1/2 -translate-y-1/2 max-w-7xl w-screen justify-between items-center left-1/2 -translate-x-1/2 '>
+          <button onClick={() => sliderRef.current?.slickPrev()}>
+            <img src={"/image/sllider-home/prev.png"} className='' alt='' />
+          </button>
+          <button onClick={() => sliderRef.current?.slickNext()}>
+            <img src={"/image/sllider-home/next.png"} className='' alt='' />
+          </button>
+        </div>
       </div>
-     </div>
-     <h3 className="md:hidden block font-bold text-2xl px-[32px] mb-2">Nội dung nổi bật</h3>
-     <Slider {...carouselSettings2} className='news-carousel md:!hidden !block !w-full md:max-w-[1064px] mx-auto overflow-hidden'>
+      <h3 className='md:hidden block font-bold text-2xl px-[32px] mb-2'>Nội dung nổi bật</h3>
+      <Slider {...carouselSettings2} className='news-carousel md:!hidden !block !w-full md:max-w-[1064px] mx-auto overflow-hidden'>
         {sampleCourses.map(({ id, imageUrl, title, link }) => (
           <div key={id} className='px-2'>
             <Link href={link}>
               <div className='group cursor-pointer relative group'>
                 <div className='relative h-[200px] md:h-[272px] w-full overflow-hidden rounded-lg'>
-                  <div className="relative shadow-slide h-full">
-                    <img src={imageUrl} className="h-full w-full object-cover" alt='' />
+                  <div className='relative shadow-slide h-full'>
+                    <img src={imageUrl} className='h-full w-full object-cover' alt='' />
                   </div>
-                  <div className="absolute bottom-[12px] left-[12px] flex items-end text-white max-w-[293px]">
-                    <p className="font-normal text-xs">{title}</p>
-                    <img src='/icon/arrow.png' alt='' className="h-max group-hover:-right-5 transition-all relative" />
+                  <div className='absolute bottom-[12px] left-[12px] flex items-end text-white max-w-[293px]'>
+                    <p className='font-normal text-xs'>{title}</p>
+                    <img src='/icon/arrow.png' alt='' className='h-max group-hover:-right-5 transition-all relative' />
                   </div>
                 </div>
               </div>

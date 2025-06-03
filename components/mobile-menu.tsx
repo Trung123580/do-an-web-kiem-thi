@@ -59,7 +59,7 @@ export default function MobileMenu({ currentPath = "/" }: MobileMenuProps) {
   return (
     <div className="md:hidden">
       <button onClick={() => setIsOpen(true)} className="text-[#111827] p-2" aria-label="Open menu">
-        <Menu className="h-6 w-6" />
+        <Menu size={30} />
       </button>
 
       {/* Mobile Menu Overlay */}

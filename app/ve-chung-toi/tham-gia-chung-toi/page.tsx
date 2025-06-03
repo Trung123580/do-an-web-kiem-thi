@@ -75,7 +75,7 @@ export default function JoinUsPage() {
     <div className='min-h-screen pt-20'>
       <section className='relative w-full h-[200px] md:h-[720px]'>
         <Image src='/image/banner-3.png' alt='Trẻ em khiếm thính vui chơi' fill className='object-cover' />
-        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 right-0 p-8 md:p-20 md:pl-0 text-white max-w-7xl w-full">
+        <div className='absolute bottom-0 left-1/2 -translate-x-1/2 right-0 p-8 md:p-20 md:pl-0 text-white max-w-7xl w-full'>
           <p className='text-xl md:text-5xl font-bold -tracking-tight leading-relaxed'>Cùng chúng tôi tạo nên tương lai tươi đẹp cho cộng đồng người khiếm thính</p>
         </div>
       </section>
@@ -83,7 +83,7 @@ export default function JoinUsPage() {
       <div className='bg-[#4263EB] mx-auto px-4  text-center w-[80%] rounded-2xl  max-w-7xl py-4 md:py-16'>
         <h2 className='text-3xl font-bold text-white mb-4'>Trở thành một phần của chúng tôi</h2>
         <p className='text-white/90 max-w-2xl mx-auto mb-8'>Góp phần hỗ trợ người khiếm thính cùng cách thú vị như thiết kế, đào tạo, tổ chức sự kiện và nhiều lĩnh thực hấp tấc khác...</p>
-        <button onClick={() => setIsOpen(true)} className='bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-900 transition-colors'>
+        <button onClick={() => setIsOpen(true)} className='bg-black text-white px-6 py-3 rounded-lg hover:bg-[#70747D] transition-colors'>
           Tham gia cùng chúng tôi
         </button>
       </div>
@@ -136,7 +136,7 @@ export default function JoinUsPage() {
             {dataVolunteer.map((item, index) => {
               return (
                 <Link key={index} href={`/ve-chung-toi/tham-gia-chung-toi/volunteer/${item.slug}`} className='px-3 h-full'>
-                  <div className='bg-[#F2F2F3] overflow-hidden rounded-2xl hover:bg-[#3A63ED]/50 shadow-lg h-full group relative'>
+                  <div className='bg-[#F2F2F3] overflow-hidden rounded-2xl hover:bg-[#89A1F4]  shadow-lg h-full group relative'>
                     <div className='relative h-60 group-hover:h-40 transition-all duration-300'>
                       <Image src={item.img} alt={item.title} fill className='object-cover rounded-2xl' />
                     </div>

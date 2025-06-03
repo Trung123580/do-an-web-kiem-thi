@@ -101,8 +101,8 @@ const Page = () => {
 
   return (
     <div className='min-h-screen pt-20 bg-[#D8E0FB] '>
-      <div className='bg-blue-600 text-white px-6 pb-4  h-[232px] flex flex-col justify-center'>
-        <div className="max-w-7xl mx-auto px-4">
+      <div className='bg-[#3a63ed] text-white px-6 pb-4  h-[232px] flex flex-col justify-center'>
+        <div className='max-w-7xl mx-auto px-4'>
           <h2 className='m-0 text-5xl font-bold mt-10'>Hướng dẫn làm bài kiểm tra kỹ năng làm việc</h2>
           <p className='m-0 text-lg font-normal'>Bạn hãy đọc những mệnh đề dưới đây và nhận định vào độ chính xác của mệnh đề đó với bản thân mình, từ 1 (Hoàn toàn sai) đến 4 (Hoàn toàn đúng)</p>
         </div>
@@ -125,7 +125,14 @@ const Page = () => {
               <div className='flex justify-center'>
                 {options.map((opt) => (
                   <label key={opt} className='flex flex-col items-center text-sm mx-4'>
-                    <input type='radio' name={`q${idx}`} value={opt} className='mb-1 accent-[#3A63ED] cursor-pointer w-[25px] h-[25px] md:w-[33px] md:h-[33px]' checked={answers[idx] === opt} onChange={() => handleChange(idx, opt)} />
+                    <input
+                      type='radio'
+                      name={`q${idx}`}
+                      value={opt}
+                      className='mb-1 accent-[#3A63ED] cursor-pointer w-[25px] h-[25px] md:w-[33px] md:h-[33px]'
+                      checked={answers[idx] === opt}
+                      onChange={() => handleChange(idx, opt)}
+                    />
                   </label>
                 ))}
               </div>
@@ -133,7 +140,9 @@ const Page = () => {
           ))}
         </form>
         <div className='flex items-center justify-center mt-[56px]'>
-          <button onClick={() => setStep(2)} className='bg-[#3A63ED] mx-auto text-white py-5 px-[72px] text-2xl rounded-lg font-[Inter] hover:bg-[#3A63ED]/60 transition-colors'>Ứng tuyển ngay</button>
+          <button onClick={() => setStep(2)} className='bg-[#3A63ED] mx-auto text-white py-5 px-[72px] text-2xl rounded-lg font-[Inter] hover:bg-[#89A1F4] transition-all'>
+            Ứng tuyển ngay
+          </button>
         </div>
       </div>
     </div>

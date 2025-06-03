@@ -154,7 +154,7 @@ const page = () => {
                   <p className='text-gray-600 text-base mb-4 line-clamp-2'>{event.description}</p>
                   <div className='flex flex-grow justify-between items-center'>
                     <span className='text-gray-500 text-base basis-2/3'>Ngày kết thúc: 14.05.25</span>
-                    <button className='basis-1/3 bg-black text-white px-5 py-2 font-light rounded-md text-sm hover:bg-gray-800 transition-colors duration-300'>Tham gia</button>
+                    <button className='basis-1/3 bg-black text-white px-5 py-2 font-light rounded-md text-sm hover:bg-[#70747D] transition-colors duration-300'>Tham gia</button>
                   </div>
                 </div>
               </div>
@@ -179,7 +179,7 @@ const page = () => {
                   <p className='text-gray-600 text-base mb-4 line-clamp-2'>{event.description}</p>
                   <div className='flex justify-between items-center flex-grow'>
                     <span className='text-gray-500 text-base basis-2/3'>Ngày kết thúc: 14.05.25</span>
-                    <button className='basis-1/3 bg-black text-white px-5 py-2 font-light rounded-md text-sm hover:bg-gray-800 transition-colors duration-300'>Tham gia</button>
+                    <button className='basis-1/3 bg-black text-white px-5 py-2 font-light rounded-md text-sm hover:bg-[#70747D] transition-colors duration-300'>Tham gia</button>
                   </div>
                 </div>
               </div>

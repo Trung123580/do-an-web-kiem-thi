@@ -26,7 +26,7 @@ export default function DonateSection() {
       {/* Subscribe section */}
       <div className={`bg-[#3A63ED] text-white ${pathName === '/' ? 'px-[32px]' : 'px-4'} py-8`}>
         <div className='max-w-7xl mx-auto'>
-          <h3 className='text-xl font-semibold mb-1'>Đăng ký thông báo</h3>
+          <h3 className='text-3xl text-[32px] font-semibold mb-1'>Đăng ký thông báo</h3>
           <p className='text-sm text-white/90 mb-6 md:mb-4 max-w-[480px]'>
             Đăng ký nhận thông tin để cập nhật những tin tức, sự kiện và chương trình hỗ trợ giáo dục, đào tạo hướng nghiệp. Nhận các cập nhật, câu chuyện truyền cảm hứng và các tin tức mới nhất nhanh chóng.
           </p>

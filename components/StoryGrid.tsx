@@ -12,7 +12,7 @@ export default function StoryGrid() {
               if (index === 1) {
                 return (
                   <div key={index} className="relative h-[305px] bg-[#F2F2F3] hover:bg-[#D8E0FB] transition-all rounded-xl flex items-center justify-center">
-                    <h2 className="text-3xl md:text-5xl font-light text-center px-4">
+                    <h2 className="text-3xl md:text-5xl font-normal text-center px-4">
                       MỖI
                       <br />
                       CÂU
@@ -25,7 +25,7 @@ export default function StoryGrid() {
               if (index === 7) {
                 return (
                   <div key={index} className="relative h-[305px] bg-[#F2F2F3] hover:bg-[#D8E0FB] transition-all rounded-xl flex items-center justify-center">
-                    <h2 className="text-3xl md:text-5xl font-light text-center px-4">
+                    <h2 className="text-3xl md:text-5xl font-normal text-center px-4">
                       LÀ MỘT
                       <br />
                       CẢM
@@ -96,7 +96,7 @@ export default function StoryGrid() {
         </section>
         {/* Button */}
         <div className="flex justify-end mt-6">
-          <Link href={`thong-tin/cau-chuyen`}  className={`flex items-center px-7 py-2 text-sm  border-2 border-transparent md:border-[#F2F2F3] text-[#414652] rounded-lg hover:bg-gray-100 transition`}>
+          <Link href={`thong-tin/cau-chuyen`}  className={`flex gap-2 items-center px-7 py-2 text-sm  border-2 border-transparent md:border-[#F2F2F3] text-[#414652] rounded-lg hover:bg-gray-100`}>
             Xem thêm 
             <img src="/icon/arrow.png" alt="" className="md:block hidden" />
           </Link>

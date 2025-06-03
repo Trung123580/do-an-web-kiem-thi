@@ -141,15 +141,36 @@ export default function JobDetailPage() {
                   <div className='flex flex-col gap-4'>
                     <div className='flex flex-col gap-1 text-sm font-bold'>
                       <label htmlFor='name'>Họ và tên</label>
-                      <input value={dataSubmit.fullName} onChange={(e) => setDataSubmit({ ...dataSubmit, fullName: e.target.value })} placeholder='Họ và tên*' className='outline-0 border-2 border-[#CFD1D4] px-8 py-4 rounded-lg text-lg max-w-[582px] font-normal' type='text' id='name' />
+                      <input
+                        value={dataSubmit.fullName}
+                        onChange={(e) => setDataSubmit({ ...dataSubmit, fullName: e.target.value })}
+                        placeholder='Họ và tên*'
+                        className='outline-0 border-2 border-[#CFD1D4] px-8 py-4 rounded-lg text-lg max-w-[582px] font-normal'
+                        type='text'
+                        id='name'
+                      />
                     </div>
                     <div className='flex flex-col gap-1 text-sm  font-bold'>
                       <label htmlFor='email'>Email</label>
-                      <input value={dataSubmit.email} onChange={(e) => setDataSubmit({ ...dataSubmit, email: e.target.value })} placeholder='Email*' className='outline-0 border-2 border-[#CFD1D4] px-8 py-4 rounded-lg text-lg max-w-[582px]  font-normal' type='text' id='email' />
+                      <input
+                        value={dataSubmit.email}
+                        onChange={(e) => setDataSubmit({ ...dataSubmit, email: e.target.value })}
+                        placeholder='Email*'
+                        className='outline-0 border-2 border-[#CFD1D4] px-8 py-4 rounded-lg text-lg max-w-[582px]  font-normal'
+                        type='text'
+                        id='email'
+                      />
                     </div>
                     <div className='flex flex-col gap-1 text-sm  font-bold'>
                       <label htmlFor='phone'>Số điện thoại</label>
-                      <input value={dataSubmit.phone} onChange={(e) => setDataSubmit({ ...dataSubmit, phone: e.target.value })} placeholder='Số điện thoại*' className='outline-0 border-2 border-[#CFD1D4] px-8 py-4 rounded-lg text-lg max-w-[582px] font-normal' type='text' id='phone' />
+                      <input
+                        value={dataSubmit.phone}
+                        onChange={(e) => setDataSubmit({ ...dataSubmit, phone: e.target.value })}
+                        placeholder='Số điện thoại*'
+                        className='outline-0 border-2 border-[#CFD1D4] px-8 py-4 rounded-lg text-lg max-w-[582px] font-normal'
+                        type='text'
+                        id='phone'
+                      />
                     </div>
                   </div>
                 </div>
@@ -158,7 +179,8 @@ export default function JobDetailPage() {
                   <p className='text-black text-base mb-6'>Tải lên CV hoặc hồ sơ xin việc của bạn</p>
                   <label htmlFor='file' className='cursor-pointer max-w-[582px] border-2 border-[#CFD1D4] flex justify-center items-center h-[250px] rounded-lg '>
                     <div className='text-center text-[#A0A3A9]'>
-                      <b className='text-black'>Tải lên một tập tin</b> hoặc kéo và thả vào đây <br /> Tải lên một tập tin hoặc kéo và thả vào đây <br /> Các tệp được chấp nhận: PDF, DOC, DOCX, JPEG và PNG <br />
+                      <b className='text-black'>Tải lên một tập tin</b> hoặc kéo và thả vào đây <br /> Tải lên một tập tin hoặc kéo và thả vào đây <br /> Các tệp được chấp nhận: PDF, DOC, DOCX, JPEG
+                      và PNG <br />
                       có dung lượng tối đa 50MB.
                     </div>
                   </label>
@@ -167,23 +189,35 @@ export default function JobDetailPage() {
                 <div>
                   <h3 className='text-[32px] font-bold text-[#2E4FBE] mb-4'>Thư giới thiệu</h3>
                   <p className='text-gray-600 text-base mb-6'>Một thư giới thiệu ngắn gọn, chỉn chu sẽ giúp bạn trở nên chuyên nghiệp và gây ấn tượng hơn với nhà tuyển dụng.</p>
-                  <textarea value={dataSubmit.textAria} onChange={(e) => setDataSubmit({ ...dataSubmit, textAria: e.target.value })} placeholder='Gửi một nội dung đến nhà tuyển dụng' className='outline-0 border-2 border-[#CFD1D4] px-8 py-4 rounded-lg text-lg w-full h-[250px] font-normal' id='coverLetter'></textarea>
+                  <textarea
+                    value={dataSubmit.textAria}
+                    onChange={(e) => setDataSubmit({ ...dataSubmit, textAria: e.target.value })}
+                    placeholder='Gửi một nội dung đến nhà tuyển dụng'
+                    className='outline-0 border-2 border-[#CFD1D4] px-8 py-4 rounded-lg text-lg w-full h-[250px] font-normal'
+                    id='coverLetter'></textarea>
                 </div>
-                <p className="mt-12 mb-12 text-lg text-[#A0A3A9]">Hồ sơ ứng tuyển bạn nhập dưới đây sẽ được gửi trực tiếp tới email của nhà tuyển dụng Blue Horizon Media tại bluehorizon.hr@gmail.com, đồng thời tự động được lưu vào kho dữ liệu CV trên hệ thống Foundation for Future để nhà tuyển dụng chọn lọc ứng viên. Bạn vui lòng kiểm tra địa chỉ email của mình thật chính xác trước khi ứng tuyển, cũng như luôn kiểm tra cả hòm thư rác (Spam), hòm thư Quảng Cáo (Promotions), hoặc hòm thư Cập Nhật (Updates) sau khi ứng tuyển để không bỏ lỡ các thông báo quan trọng từ nhà tuyển dụng.
-                Bằng việc nhấn nút “Nộp hồ sơ ứng tuyển” đơn ứng tuyển, bạn xác nhận rằng Foundation for Future hoặc các đối tác của chúng tôi có thể gửi thông tin liên quan đến cơ hội nghề nghiệp tương tự qua email dựa trên các thông tin bạn cung cấp.</p>
+                <p className='mt-12 mb-12 text-lg text-[#A0A3A9]'>
+                  Hồ sơ ứng tuyển bạn nhập dưới đây sẽ được gửi trực tiếp tới email của nhà tuyển dụng Blue Horizon Media tại bluehorizon.hr@gmail.com, đồng thời tự động được lưu vào kho dữ liệu CV
+                  trên hệ thống Foundation for Future để nhà tuyển dụng chọn lọc ứng viên. Bạn vui lòng kiểm tra địa chỉ email của mình thật chính xác trước khi ứng tuyển, cũng như luôn kiểm tra cả
+                  hòm thư rác (Spam), hòm thư Quảng Cáo (Promotions), hoặc hòm thư Cập Nhật (Updates) sau khi ứng tuyển để không bỏ lỡ các thông báo quan trọng từ nhà tuyển dụng. Bằng việc nhấn nút
+                  “Nộp hồ sơ ứng tuyển” đơn ứng tuyển, bạn xác nhận rằng Foundation for Future hoặc các đối tác của chúng tôi có thể gửi thông tin liên quan đến cơ hội nghề nghiệp tương tự qua email
+                  dựa trên các thông tin bạn cung cấp.
+                </p>
               </form>
             )}
             {step === 3 && (
               <>
                 <h1 className='text-5xl font-bold text-[#3A63ED] text-center mb-6'>Hồ sơ của bạn đã được gửi thành công!</h1>
                 <div className='text-center text-lg font-normal'>
-                  Cảm ơn bạn đã dành thời gian và tâm huyết để nộp hồ sơ cho Foundation for Future. <br /> Chúng tôi rất trân trọng sự quan tâm và mong muốn đóng góp của bạn cho cộng đồng người khiếm thính.
+                  Cảm ơn bạn đã dành thời gian và tâm huyết để nộp hồ sơ cho Foundation for Future. <br /> Chúng tôi rất trân trọng sự quan tâm và mong muốn đóng góp của bạn cho cộng đồng người khiếm
+                  thính.
                 </div>
                 <div className='flex justify-center mt-4'>
                   <img src='/image/complete.png' className='object-cover max-w-full' alt='' />
                 </div>
                 <div className='text-center text-lg font-normal mt-4'>
-                  Hồ sơ của bạn đang được đội ngũ của chúng tôi xem xét. <br /> Chúng tôi sẽ liên hệ với bạn trong vòng [3-5 ngày làm việc] qua email hoặc số điện thoại bạn đã cung cấp <br /> Trong thời gian chờ đợi, bạn có thể:
+                  Hồ sơ của bạn đang được đội ngũ của chúng tôi xem xét. <br /> Chúng tôi sẽ liên hệ với bạn trong vòng [3-5 ngày làm việc] qua email hoặc số điện thoại bạn đã cung cấp <br /> Trong
+                  thời gian chờ đợi, bạn có thể:
                 </div>
                 <ul className='flex justify-center flex-col w-full space-y-6 text-gray-600 text-base mt-4'>
                   <li className='flex text-lg font-bold text-[#3A63ED] items-center justify-center gap-2 group'>
@@ -219,7 +253,7 @@ export default function JobDetailPage() {
                       } else {
                       }
                     }}
-                    className='bg-[#3A63ED] text-white py-3 text-2xl px-12 rounded-lg font-[Inter] hover:bg-[#3A63ED]/60 transition-colors'>
+                    className='bg-[#3A63ED] text-white py-3 text-2xl px-12 rounded-lg font-[Inter] hover:bg-[#89A1F4] transition-colors'>
                     {step === 1 ? "Ứng tuyển ngay" : "Nộp hồ sơ ứng tuyển"}
                   </button>
                 </div>

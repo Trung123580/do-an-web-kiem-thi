@@ -16,6 +16,7 @@ interface DonationData {
 const Donate = () => {
   const { handles } = useApp()
   const [open, setOpen] = useState(false);
+  const [step, setStep] = useState(2)
   const [dataSubmit, setDataSubmit] = useState<DonationData>({
     donationType: 1,
     selectedAmount: 10,
@@ -88,60 +89,52 @@ const Donate = () => {
           <br />
           phá bỏ rào cản.
         </h1>
-        <p className='mt-2 md:mt-6 text-sm md:text-lg opacity-90'>
-          Chung tay hỗ trợ giáo dục và đào tạo nghề cho người khiếm thính ngay hôm nay!
-        </p>
+        <p className='mt-2 md:mt-6 text-sm md:text-lg opacity-90'>Chung tay hỗ trợ giáo dục và đào tạo nghề cho người khiếm thính ngay hôm nay!</p>
       </div>
       <form onSubmit={handleSubmit} className='absolute left-0 right-0 md:px-0 px-[32px] top-[180px] md:top-1/2 md:right-20 md:left-auto md:-translate-y-1/2 md:w-[413px]'>
         <div className='bg-white rounded-xl shadow-lg py-[32px] md:py-12 px-[24px] md:px-9'>
           <h2 className='text-center text-[#111827] font-bold md:font-normal mb-6 text-[24px] md:px-0 px-10 md:text-[32px]'>Ủng hộ để hỗ trợ người khiếm thính</h2>
-          <div className='bg-[#EEF1FF] rounded-md flex mb-2 border border-[#CFD1D4] overflow-hidden'>
+          <div className='bg-[#EEF1FF] rounded-md flex mb-2 border-2 border-[#CFD1D4] overflow-hidden'>
             {[1, 2].map((type) => (
               <button
                 key={type}
                 type='button'
-                className={`flex-1 py-2.5 md:py-4 text-sm font-normal md:font-medium transition-colors ${
-                  dataSubmit.donationType === type ? 'bg-[#D8E0FB] text-[#111827]' : 'text-[#111827] bg-white'
-                }`}
-                onClick={() => handleDonationTypeChange(type as 1 | 2)}
-              >
-                {type === 1 ? 'Một lần' : 'Hàng tháng'}
+                className={`flex-1 py-2.5 md:py-4 text-sm font-normal md:font-medium transition-colors ${dataSubmit.donationType === type ? "bg-[#D8E0FB] text-[#111827]" : "text-[#111827] bg-white"}`}
+                onClick={() => handleDonationTypeChange(type as 1 | 2)}>
+                {type === 1 ? "Một lần" : "Hàng tháng"}
               </button>
             ))}
           </div>
-          <div className='grid grid-cols-4 mb-2 rounded-md overflow-hidden border border-[#CFD1D4]'>
+          <div className='grid grid-cols-4 mb-2 rounded-md overflow-hidden border-[#CFD1D4] border-2'>
             {[10, 40, 80, 200].map((amount) => (
               <button
                 type='button'
                 key={amount}
-                className={`py-2.5 md:py-4 text-sm transition-colors ${
-                  dataSubmit.selectedAmount === amount ? 'bg-[#D8E0FB]' : 'bg-white hover:bg-[#CFD1D4]'
-                }`}
-                onClick={() => handleAmountSelect(amount)}
-              >
+                className={`py-2.5 md:py-4 text-sm transition-colors ${dataSubmit.selectedAmount === amount ? "bg-[#D8E0FB]" : "bg-white hover:bg-[#CFD1D4]"}`}
+                onClick={() => handleAmountSelect(amount)}>
                 {amount}$
               </button>
             ))}
           </div>
-
           <p className='text-[10px] md:text-sm text-[#6B7280] mb-4 md:mb-6 text-center'>Mỗi đóng góp không chỉ trao cơ hội, mà tạo một tương lai công bằng hơn cho người khiếm thính.</p>
-
           <div className='relative'>
-            <span className='absolute left-6 top-1/2 -translate-y-1/2 border-r border-[#E5E7EB] h-full flex items-center pr-6'>
-              <PiCurrencyDollarSimpleBold width={9} height={18}/>
+            <span className='absolute left-6 top-1/2 -translate-y-1/2 border-r-2 border-[#E5E7EB] h-full flex items-center pr-6'>
+              <PiCurrencyDollarSimpleBold width={9} height={18} />
             </span>
             <input
               type='text'
               value={dataSubmit.customAmount}
               onChange={handleCustomAmountChange}
               placeholder='Nhập số tiền khác'
-              className='w-full py-2.5 md:py-3 pl-20 pr-4 border border-[#E5E7EB] rounded-md focus:outline-none focus:ring-2 focus:ring-[#EEF1FF]'
+              className='w-full py-2.5 md:py-3 pl-20 pr-4 border-2 border-[#E5E7EB] rounded-md focus:outline-none focus:ring-2 focus:ring-[#EEF1FF]'
             />
           </div>
-
-          <button type='button' 
-           onClick={() => setOpen(true)}
-          className='mt-2 md:mt-4 w-full bg-[#3A63ED] text-white py-2.5 md:py-5 rounded-[4px] text-base md:text-2xl font-normal md:font-medium mb-[40px] md:mb-4 hover:bg-[#4338CA] transition-colors'>Ủng hộ ngay</button>
+          <button
+            className='mt-2 md:mt-4 w-full bg-[#3A63ED] text-white py-2.5 md:py-5 rounded-[4px] text-base md:text-2xl font-normal md:font-medium mb-[40px] md:mb-4 hover:bg-[#89A1F4] transition-all '
+            type='button'
+            onClick={() => setOpen(true)}>
+            Ủng hộ ngay
+          </button>
           <div className='flex items-center flex-col justify-center gap-2 text-xs text-[#6B7280]'>
             <img src='/image/visa.png' alt='' />
             <span className='flex items-center gap-1 justify-center'>
@@ -151,117 +144,225 @@ const Donate = () => {
         </div>
       </form>
       {open && (
-        <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/40">
-          <div className="bg-white rounded-2xl py-16 max-w-[630px] w-full p-6 h-[80%] relative shadow-lg">
-            <div className="absolute top-4 right-0 px-8 items-center  flex justify-between w-full">
-              <button className="text-left text-lg text-gray-600 font-medium" onClick={() => setOpen(false)}>Quay lại</button>
-              <button className='text-2xl' onClick={() => setOpen(false)}>
-                &times;
-              </button>
-            </div>
-            <div className="w-full h-1 bg-gray-200 mt-7 rounded mb-6">
-              <div className="h-1 bg-blue-500 rounded" style={{ width: "50%" }} />
-            </div>
-            <form onSubmit={handleSubmit} className='px-[30px] md:px-[56px] mt-8 text-[#111827] h-[90%] overflow-y-auto '>
-              <h2 className="text-xl font-bold mb-4">Thông tin cá nhân</h2>
-              <input
-                name="fullName"
-                value={dataSubmit.fullName}
-                onChange={handleInputChange}
-                className="w-full border-2 border-[#CFD1D4] rounded-lg px-3 py-2 mb-3"
-                placeholder="Họ tên*"
-                required
-              />
-              <input
-                name="email"
-                type="email"
-                value={dataSubmit.email}
-                onChange={handleInputChange}
-                className="w-full border-2 border-[#CFD1D4] rounded-lg px-3 py-2 mb-3"
-                placeholder="Email*"
-                required
-              />
-              <input
-                name="phone"
-                value={dataSubmit.phone}
-                onChange={handleInputChange}
-                className="w-full border-2 border-[#CFD1D4] rounded-lg px-3 py-2 mb-3"
-                placeholder="Số điện thoại*"
-                required
-              />
-              <h3 className="text-xl font-bold mb-4">Phương thức thanh toán</h3>
-              <div className="space-y-2 font-normal text-[18px]">
-                <label className="flex items-start gap-2 border rounded px-3 py-2">
-                  <input
-                    type="radio"
-                    name="paymentMethod"
-                    value="momo"
-                    checked={dataSubmit.paymentMethod === 'momo'}
-                    onChange={(e) => handlePaymentMethodChange(e.target.value)}
-                  />
-                  <div className='-mt-1.5'>
-                    Ví MoMo
-                    <img src="/image/momo.png" alt="MoMo" className="h-6" />
-                  </div>
-                </label>
-                <label className="flex items-start gap-2 border rounded px-3 py-2">
-                  <input
-                    type="radio"
-                    name="paymentMethod"
-                    value="credit"
-                    checked={dataSubmit.paymentMethod === 'credit'}
-                    onChange={(e) => handlePaymentMethodChange(e.target.value)}
-                  />
-                  <div className='-mt-1.5'>
-                    Thẻ tín dụng hoặc thẻ ghi nợ
-                    <div className='flex items-center gap-2'>
-                      <img src="/image/visa-all.png" alt="Visa" className="h-6" />
+        <div className='fixed inset-0 z-[100] flex items-center justify-center bg-black/40'>
+          <div className='bg-white rounded-2xl py-16 max-w-[630px] w-full p-6 h-[70%] relative shadow-lg'>
+            {step === 1 ? (
+              <>
+                <div className='absolute top-4 right-0 px-8 items-center  flex justify-between w-full'>
+                  <button></button>
+                  <button
+                    className='text-2xl'
+                    onClick={() => {
+                      setOpen(false)
+                      setDataSubmit({
+                        donationType: 1,
+                        selectedAmount: 10,
+                        customAmount: "",
+                        fullName: "",
+                        email: "",
+                        phone: "",
+                        paymentMethod: "",
+                      })
+                    }}>
+                    &times;
+                  </button>
+                </div>
+                <div className='w-full h-1 bg-gray-200 mt-0 rounded mb-6'>
+                  <div className='h-1 bg-blue-500 rounded' style={{ width: "30%" }} />
+                </div>
+                <form onSubmit={handleSubmit} className=''>
+                  <div className='px-[56px]'>
+                    <h2 className='text-center text-[#111827] font-bold md:font-bold mb-6 text-[24px] md:px-0 px-10 md:text-[32px]'>
+                      Ủng hộ để hỗ trợ <br /> người khiếm thính
+                    </h2>
+                    <div className='bg-[#EEF1FF] rounded-md flex mb-2 border-2 border-[#CFD1D4] overflow-hidden'>
+                      {[1, 2].map((type) => (
+                        <button
+                          key={type}
+                          type='button'
+                          className={`flex-1 py-2.5 md:py-4 text-sm font-normal md:font-medium transition-colors ${
+                            dataSubmit.donationType === type ? "bg-[#D8E0FB] text-[#111827]" : "text-[#111827] bg-white"
+                          }`}
+                          onClick={() => handleDonationTypeChange(type as 1 | 2)}>
+                          {type === 1 ? "Một lần" : "Hàng tháng"}
+                        </button>
+                      ))}
+                    </div>
+                    <div className='grid grid-cols-4 mb-2 rounded-md overflow-hidden border-[#CFD1D4] border-2'>
+                      {[10, 40, 80, 200].map((amount) => (
+                        <button
+                          type='button'
+                          key={amount}
+                          className={`py-2.5 md:py-4 text-sm transition-colors ${dataSubmit.selectedAmount === amount ? "bg-[#D8E0FB]" : "bg-white hover:bg-[#CFD1D4]"}`}
+                          onClick={() => handleAmountSelect(amount)}>
+                          {amount}$
+                        </button>
+                      ))}
+                    </div>
+                    <p className='text-[10px] md:text-sm text-[#6B7280] mb-4 md:mb-6 text-center'>Mỗi đóng góp không chỉ trao cơ hội, mà tạo một tương lai công bằng hơn cho người khiếm thính.</p>
+                    <div className='relative'>
+                      <span className='absolute left-6 top-1/2 -translate-y-1/2 border-r-2 border-[#E5E7EB] h-full flex items-center pr-6'>
+                        <PiCurrencyDollarSimpleBold width={9} height={18} />
+                      </span>
+                      <input
+                        type='text'
+                        value={dataSubmit.customAmount}
+                        onChange={handleCustomAmountChange}
+                        placeholder='Nhập số tiền khác'
+                        className='w-full py-2.5 md:py-3 pl-20 pr-4 border-2 border-[#E5E7EB] rounded-md focus:outline-none focus:ring-2 focus:ring-[#EEF1FF]'
+                      />
+                    </div>
+                    <button
+                      className='mt-2 md:mt-4 w-full bg-[#3A63ED] text-white py-2.5 md:py-5 rounded-[4px] text-base md:text-2xl font-normal md:font-medium mb-[40px] md:mb-4 hover:bg-[#89A1F4] transition-all '
+                      type='button'
+                      onClick={() => setStep(2)}>
+                      Ủng hộ ngay
+                    </button>
+                    <div className='flex items-center flex-col justify-center gap-2 text-xs text-[#6B7280]'>
+                      <img src='/image/visa.png' alt='' />
+                      <span className='flex items-center gap-1 justify-center'>
+                        <Lock size={15} /> Khoản quyên góp của bạn được xử lý an toàn
+                      </span>
                     </div>
                   </div>
-                </label>
-                <label className="flex items-start gap-2 border rounded px-3 py-2">
+                </form>
+              </>
+            ) : (
+              <>
+                <div className='absolute top-4 right-0 px-8 items-center  flex justify-between w-full'>
+                  <button
+                    className='text-left text-lg text-gray-600 font-medium'
+                    onClick={() => {
+                      // setOpen(false)
+                      setStep(1)
+                    }}>
+                    Quay lại
+                  </button>
+                  <button
+                    className='text-2xl'
+                    onClick={() => {
+                      setOpen(false)
+                      setDataSubmit({
+                        donationType: 1,
+                        selectedAmount: 10,
+                        customAmount: "",
+                        fullName: "",
+                        email: "",
+                        phone: "",
+                        paymentMethod: "",
+                      })
+                    }}>
+                    &times;
+                  </button>
+                </div>
+                <div className='w-full h-1 bg-gray-200 mt-0 rounded mb-6'>
+                  <div className='h-1 bg-blue-500 rounded' style={{ width: "50%" }} />
+                </div>
+                <form onSubmit={handleSubmit} className='px-[30px] md:px-[56px] mt-8 text-[#111827] h-[90%] overflow-y-auto '>
+                  <h2 className='text-xl font-bold mb-4'>Thông tin cá nhân</h2>
                   <input
-                    type="radio"
-                    name="paymentMethod"
-                    value="paypal"
-                    checked={dataSubmit.paymentMethod === 'paypal'}
-                    onChange={(e) => handlePaymentMethodChange(e.target.value)}
+                    name='fullName'
+                    value={dataSubmit.fullName}
+                    onChange={handleInputChange}
+                    className='w-full border-2 border-[#CFD1D4] rounded-lg px-3 py-2 mb-3'
+                    placeholder='Họ tên*'
+                    required
                   />
-                  <div className='-mt-1.5'>
-                    Thẻ tín dụng 
-                    <div className='flex items-center gap-2'>
-                      <img src="/image/paypal.png" alt="Visa" className="h-6" />
-                    </div>
+                  <input
+                    name='email'
+                    type='email'
+                    value={dataSubmit.email}
+                    onChange={handleInputChange}
+                    className='w-full border-2 border-[#CFD1D4] rounded-lg px-3 py-2 mb-3'
+                    placeholder='Email*'
+                    required
+                  />
+                  <input
+                    name='phone'
+                    value={dataSubmit.phone}
+                    onChange={handleInputChange}
+                    className='w-full border-2 border-[#CFD1D4] rounded-lg px-3 py-2 mb-3'
+                    placeholder='Số điện thoại*'
+                    required
+                  />
+                  <h3 className='text-xl font-bold mb-4'>Phương thức thanh toán</h3>
+                  <div className='font-normal text-[18px] border-2 border-[#cfd1d4] rounded-lg'>
+                    <label className='flex items-start gap-2 border-b-2 border-[#cfd1d4] px-3 py-3'>
+                      <input type='radio' name='paymentMethod' value='momo' checked={dataSubmit.paymentMethod === "momo"} onChange={(e) => handlePaymentMethodChange(e.target.value)} />
+                      <div className='-mt-1.5'>
+                        Ví MoMo
+                        <img src='/image/momo.png' alt='MoMo' className='h-6' />
+                      </div>
+                    </label>
+                    <label className='flex items-start gap-2 border-b-2 border-[#cfd1d4] px-3 py-3'>
+                      <input type='radio' name='paymentMethod' value='credit' checked={dataSubmit.paymentMethod === "credit"} onChange={(e) => handlePaymentMethodChange(e.target.value)} />
+                      <div className='-mt-1.5'>
+                        Thẻ tín dụng hoặc thẻ ghi nợ
+                        <div className='flex items-center gap-2'>
+                          <img src='/image/visa-all.png' alt='Visa' className='h-6' />
+                        </div>
+                        {dataSubmit.paymentMethod === "credit" && (
+                          <>
+                            <div className='flex flex-col gap-2 mt-6'>
+                              <input type='text' placeholder='Số thẻ' className='w-full border-2 border-[#CFD1D4] rounded-lg px-3 py-2' />
+                              <div className='flex gap-2'>
+                                <input placeholder='Ngày hết hạn' type='text' className='w-full border-2 border-[#CFD1D4] rounded-lg px-3 py-2' />
+                                <input type='text' placeholder='Mã bảo mật' className='w-full border-2 border-[#CFD1D4] rounded-lg px-3 py-2' />
+                              </div>
+                              <p className='font-normal text-[10px] text-[#A0A3A9]'>
+                                Mọi thông tin trao đổi trong quá trình quyên góp thẻ đều được mã hóa TLS. Dữ liệu này không thể bị phát hiện, chặn hoặc sử dụng bởi bên thứ ba. Thông tin cũng không
+                                được lưu trữ trong hệ thống dữ liệu của chúng tôi.
+                              </p>
+                            </div>
+                          </>
+                        )}
+                      </div>
+                    </label>
+                    <label className='flex items-start gap-2 px-3 py-3'>
+                      <input type='radio' name='paymentMethod' value='paypal' checked={dataSubmit.paymentMethod === "paypal"} onChange={(e) => handlePaymentMethodChange(e.target.value)} />
+                      <div className='-mt-1.5'>
+                        Thẻ tín dụng
+                        <div className='flex items-center gap-2'>
+                          <img src='/image/paypal.png' alt='Visa' className='h-6' />
+                        </div>
+                      </div>
+                    </label>
                   </div>
-                </label>
-              </div>
-              <h2 className="text-xl font-bold mb-4 mt-5">Tóm tắt</h2>
-              <div className='bg-[#FEF5D0] *:flex  *:items-center *:justify-between p-4 rounded-lg gap-1 flex flex-col'>
-                <div>
-                  <span>{dataSubmit.donationType === 1 ? 'Một lần' : 'Hàng tháng'}</span>
-                  <span className='font-bold'>${dataSubmit.customAmount || dataSubmit.selectedAmount}</span>
-                </div>
-                <div>
-                  <span>phương thức thanh toán</span>
-                  <span className='font-bold'>{dataSubmit.paymentMethod}</span>
-                </div>
-              </div>
-              <p className='text-[10px] text-[#A0A3A9] my-2'>Bạn xác nhận rằng bạn đã trên 18 tuổi và đồng ý nhận email từ Foundation for Future về công việc của chúng tôi và cách bạn có thể giúp đỡ. Nếu bạn cung cấp số điện thoại của mình, chúng tôi cũng có thể gọi cho bạn. Bạn có thể chọn không tham gia bất cứ lúc nào. Đối với gây quỹ hằng tháng chúng tôi sẽ tự động tính phí cho đến khi bạn huỷ đăng ký, hãy liên hệ đến chúng tôi để huỷ đăng ký.</p>
-              <div className='bg-[#F2F2F3] gap-2 p-6 rounded-lg flex flex-col items-center justify-center'>
-                <p className=''>Sau khi bạn hoàn tất và gửi biểu mẫu này, bạn sẽ được chuyển hướng đến PayPal để hoàn tất khoản quyên góp của mình</p>
-                <img src="/image/momo.png" alt="" />
-                <button type="submit" className="mt-4 w-max px-14 bg-[#3A63ED] text-white py-3 rounded text-lg font-medium hover:bg-[#4338CA] transition-colors">
-                Quyên góp ngay
-              </button>
-              </div>
-              
-            </form>
+                  {dataSubmit.paymentMethod && (
+                    <>
+                      <h2 className='text-xl font-bold mb-4 mt-5'>Tóm tắt</h2>
+                      <div className='bg-[#FEF5D0] *:flex  *:items-center *:justify-between p-4 rounded-lg gap-1 flex flex-col'>
+                        <div>
+                          <span>{dataSubmit.donationType === 1 ? "Một lần" : "Hàng tháng"}</span>
+                          <span className='font-bold'>${dataSubmit.customAmount || dataSubmit.selectedAmount}</span>
+                        </div>
+                        <div>
+                          <span>phương thức thanh toán</span>
+                          <span className='font-bold'>{dataSubmit.paymentMethod}</span>
+                        </div>
+                      </div>
+                      <p className='text-[10px] text-[#A0A3A9] my-2'>
+                        Bạn xác nhận rằng bạn đã trên 18 tuổi và đồng ý nhận email từ Foundation for Future về công việc của chúng tôi và cách bạn có thể giúp đỡ. Nếu bạn cung cấp số điện thoại của
+                        mình, chúng tôi cũng có thể gọi cho bạn. Bạn có thể chọn không tham gia bất cứ lúc nào. Đối với gây quỹ hằng tháng chúng tôi sẽ tự động tính phí cho đến khi bạn huỷ đăng ký,
+                        hãy liên hệ đến chúng tôi để huỷ đăng ký.
+                      </p>
+                      <div className='bg-[#F2F2F3] gap-2 p-6 rounded-lg flex flex-col items-center justify-center'>
+                        <p className='text-center'>Sau khi bạn hoàn tất và gửi biểu mẫu này, bạn sẽ được chuyển hướng đến PayPal để hoàn tất khoản quyên góp của mình</p>
+                        <img src='/image/momo.png' alt='' />
+                        <button type='submit' className='mt-4 w-max px-14 bg-[#3A63ED] text-white py-3 rounded text-lg font-medium hover:bg-[#4338CA] transition-colors'>
+                          Quyên góp ngay
+                        </button>
+                      </div>
+                    </>
+                  )}
+                </form>
+              </>
+            )}
           </div>
         </div>
       )}
     </div>
-    
-  );
+  )
 };
 
 export default Donate;
