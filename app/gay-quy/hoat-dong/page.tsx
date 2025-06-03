@@ -125,14 +125,14 @@ const page = () => {
             onClick={() => {
               route.push("/gay-quy")
             }}
-            className='bg-[#3A63ED] font-light text-white px-7 py-2 sm:px-3 sm:py-2 md:px-6 md:py-2 lg:px-12 lg:py-3 xl:px-12 xl:py-3 2xl:px-12 2xl:py-3 rounded-md text-base sm:text-xs md:text-sm lg:text-base  hhover:bg-[#89A1F4] transition-colors duration-300'>
+            className='bg-[#3A63ED] font-light text-white px-7 py-2 sm:px-3 sm:py-2 md:px-6 md:py-2 lg:px-12 lg:py-3 xl:px-12 xl:py-3 2xl:px-12 2xl:py-3 rounded-md text-base sm:text-xs md:text-sm lg:text-base  hhover:bg-[#89A1F4] transition-all duration-300'>
             Gây quỹ ngay hôm nay
           </button>
         </div>
         <div className='mb-6 w-full flex justify-center'>
           <button
             onClick={handleDownload}
-            className='font-bold text-white px-7 py-2 sm:px-3 sm:py-2 md:px-6 md:py-2 lg:px-12 lg:py-3 xl:px-12 xl:py-3 2xl:px-12 2xl:py-3 rounded-md text-base sm:text-xs md:text-sm lg:text-base transition-colors duration-300 flex justify-center items-center gap-2'>
+            className='font-bold text-white px-7 py-2 sm:px-3 sm:py-2 md:px-6 md:py-2 lg:px-12 lg:py-3 xl:px-12 xl:py-3 2xl:px-12 2xl:py-3 rounded-md text-base sm:text-xs md:text-sm lg:text-base transition-all duration-300 flex justify-center items-center gap-2'>
             Tải báo cáo thường niên <img src='/image/taive.png' alt='' />
           </button>
         </div>
@@ -141,7 +141,7 @@ const page = () => {
             onClick={() => {
               route.push("/gay-quy/quy-tac-gay-quy")
             }}
-            className='font-bold text-white px-7 py-2 sm:px-3 sm:py-2 md:px-6 md:py-2 lg:px-12 lg:py-3 xl:px-12 xl:py-3 2xl:px-12 2xl:py-3 rounded-md text-base sm:text-xs md:text-sm lg:text-base transition-colors duration-300 flex justify-center items-center gap-2'>
+            className='font-bold text-white px-7 py-2 sm:px-3 sm:py-2 md:px-6 md:py-2 lg:px-12 lg:py-3 xl:px-12 xl:py-3 2xl:px-12 2xl:py-3 rounded-md text-base sm:text-xs md:text-sm lg:text-base transition-all duration-300 flex justify-center items-center gap-2'>
             Quy tắc gây quỹ <img src='/icon/arrow.png' alt='' />
           </button>
         </div>
