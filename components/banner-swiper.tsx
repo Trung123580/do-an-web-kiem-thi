@@ -15,7 +15,7 @@ const slides = [
     description: "Chúng tôi cung cấp các chương trình giáo dục đặc biệt cho người khiếm thính.",
     buttonText: "Xem thêm",
     image: "/image/banner-1.png",
-    color: "bg-blue-500",
+    color: "bg-[#3A63ED]",
   },
   {
     id: 2,

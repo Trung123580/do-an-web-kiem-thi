@@ -32,14 +32,14 @@ export default function page() {
                     <div className="flex items-center ">
                         <Link
                             href="/nghe-nghiep"
-                            className="text-[#A0A3A9] hover:text-gray-900 line-clamp-1"
+                            className="text-[#A0A3A9] hover:text-gray-900 text-lg font-normal line-clamp-1"
                         >
                           Nghề nghiệp
                         </Link>
                         <span className="mx-2 text-2xl text-black"><img src="/arrow.png" alt="" /></span>
-                        <Link href={'/nghe-nghiep/dao-tao-nghe'} className="text-[#A0A3A9] line-clamp-1">Đào tạo nghề</Link>
+                        <Link href={'/nghe-nghiep/dao-tao-nghe'} className="text-[#A0A3A9] line-clamp-1 text-lg font-normal">Đào tạo nghề</Link>
                         <span className="mx-2 text-2xl text-black"><img src="/arrow.png" alt="" /></span>
-                        <span className="text-[#3A63ED] line-clamp-1">{daotaoDetail?.title}</span>
+                        <span className="text-[#3A63ED] line-clamp-1 text-lg font-normal">{daotaoDetail?.title}</span>
                     </div>
                 </div>
             </nav>

@@ -39,12 +39,12 @@ export default function page() {
           <div className="flex items-center h-12">
             <Link
               href="/giao-duc"
-              className="text-[#A0A3A9] hover:text-gray-900"
+              className="text-[#A0A3A9] hover:text-gray-900 text-lg font-normal"
             >
               Giáo dục
             </Link>
             <span className="mx-2 text-2xl text-black"><img src="/arrow.png" alt="" /></span>
-            <span className="text-[#3A63ED]">Tư vấn định hướng học tập</span>
+            <span className="text-[#3A63ED] text-lg font-normal">Tư vấn định hướng học tập</span>
           </div>
         </div>
       </nav>

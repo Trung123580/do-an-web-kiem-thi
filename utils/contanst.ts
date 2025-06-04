@@ -7608,7 +7608,7 @@ export const boTuVung = [
 	{
 		id: 2,
 		src: "/image/slider-2.png",
-		bgColor: "bg-blue-500",
+		bgColor: "bg-[#3A63ED]",
 		title: "Quốc gia",
 		description: "Bộ từ vựng ngôn ngữ ký hiệu tên các Quốc gia trên thế giới",
 		router: "quoc-gia",

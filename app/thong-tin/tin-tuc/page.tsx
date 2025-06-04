@@ -127,7 +127,7 @@ export default function Page() {
                   key={index}
                   onClick={() => handleSort({ slug: category.name })}
                   className={`px-6 py-2 text-sm rounded-lg border-2 border-[#CFD1D4] transition-colors ${activeCategories.includes(category.name)
-                    ? 'bg-blue-500 text-white'
+                    ? 'bg-[#3A63ED] text-white'
                     : 'bg-white hover:bg-gray-200'
                     }`}
                 >

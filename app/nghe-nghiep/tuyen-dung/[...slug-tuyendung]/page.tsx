@@ -33,13 +33,13 @@ export default function JobDetailPage() {
         <nav className='bg-transparent'>
           <div className='mx-auto'>
             <div className='flex items-center h-12 mb-8'>
-              <Link href='/nghe-nghiep/tuyen-dung' className='text-[#A0A3A9] hover:text-gray-900'>
+              <Link href='/nghe-nghiep/tuyen-dung' className='text-[#A0A3A9] hover:text-gray-900 text-lg font-normal'>
                 Tuyển dụng
               </Link>
               <span className='mx-2 text-2xl text-black'>
                 <img src="/arrow.png" alt="" />
               </span>
-              <span className={`${step === 2 || step === 3 ? "text-[#A0A3A9]" : "text-[#3A63ED]"}`}>{jobDetail?.title}</span>
+              <span className={`text-lg font-normal ${step === 2 || step === 3 ? "text-[#A0A3A9]" : "text-[#3A63ED]"}`}>{jobDetail?.title}</span>
               {(step === 2 || step === 3) && (
                 <>
                   <span className='mx-2 text-2xl text-black'>

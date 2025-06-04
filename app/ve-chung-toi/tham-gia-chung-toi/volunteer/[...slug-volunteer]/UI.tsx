@@ -31,13 +31,13 @@ const UI = ({ slug }: { slug: string }) => {
             <nav className='bg-white'>
               <div className='mx-auto'>
                 <div className='flex items-center h-12 mb-[48px]'>
-                  <Link href='/ve-chung-toi/tham-gia-chung-toi' className='text-[#A0A3A9] hover:text-gray-900'>
+                  <Link href='/ve-chung-toi/tham-gia-chung-toi' className='text-[#A0A3A9] hover:text-gray-900 text-lg font-normal'>
                     Tham gia cùng chúng tôi
                   </Link>
                   <span className='mx-2 text-2xl text-black'>
                     <img src='/arrow.png' alt='' />
                   </span>
-                  <span className='text-[#3A63ED]'>Tham gia tình nguyện</span>
+                  <span className='text-[#3A63ED] text-lg font-normal'>Tham gia tình nguyện</span>
                 </div>
               </div>
             </nav>
@@ -130,11 +130,11 @@ const UI = ({ slug }: { slug: string }) => {
          <nav className='bg-transparent max-w-7xl mx-auto'>
           <div className='mx-auto'>
             <div className='flex items-center h-12 mb-8'>
-              <Link href='/ve-chung-toi/tham-gia-chung-toi' className='text-[#A0A3A9] hover:text-gray-900'>
+              <Link href='/ve-chung-toi/tham-gia-chung-toi' className='text-lg font-normal text-[#A0A3A9] hover:text-gray-900 text-lg font-normal'>
                 Tham gia cùng chúng tôi
               </Link>
               <span className='mx-2 text-2xl text-black'><img src="/arrow.png" alt="" /></span>
-              <span className='text-[#3A63ED]'>Tham gia tình nguyện</span>
+              <span className='text-[#3A63ED] text-lg font-normal'>Tham gia tình nguyện</span>
             </div>
           </div>
         </nav>
@@ -248,7 +248,7 @@ const UI = ({ slug }: { slug: string }) => {
           </p> */}
           <div className="flex items-center justify-center mt-12">
              <button
-              className='bg-[#3A63ED] text-white py-[10px] text-2xl px-[72px] rounded-lg hover:bg-[#89A1F4] transition-colors'>
+              className='bg-[#3A63ED] text-white h-[71px] text-2xl px-[72px] rounded-lg hover:bg-[#89A1F4] transition-colors'>
               Nộp hồ sơ ứng tuyển
             </button>
           </div>

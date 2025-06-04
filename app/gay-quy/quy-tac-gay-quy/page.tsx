@@ -7,7 +7,7 @@ const page = () => {
   return (
     <div>
       <div className='grid lg:grid-cols-2 grid-cols-1 max-w-7xl mx-auto mt-[122px] px-4'>
-        <div className=' bg-[#FEF5D0] lg:rounded-l-2xl max-h-[581px] rounded-t-2xl py-8 md:py-16 pl-[72px] md:pl-16 pr-7 md:pr-10 flex justify-center flex-col'>
+        <div className=' bg-[#FEF5D0] lg:rounded-l-2xl max-h-[581px] py-8 md:py-16 pl-[72px] md:pl-16 pr-7 md:pr-10 flex justify-center flex-col'>
           <h1 className='text-[40px]  mb-4 font-bold'>Giá trị cốt lõi</h1>
           <ul className='text-base font-normal'>
             <li>
@@ -28,8 +28,8 @@ const page = () => {
             </li>
           </ul>
         </div>
-        <div className='ld:rounded-r-2xl rounded-b-2xl h-full'>
-          <img src='/image/hoatdong2.png' alt='' className='ld:rounded-r-2xl rounded-b-2xl rounded-bl-none  w-full h-full object-cover' />
+        <div className='h-full'>
+          <img src='/image/hoatdong2.png' alt='' className='ld:rounded-r-2xl rounded-b-2xl rounded-tr-2xl rounded-bl-none w-full h-full object-cover' />
         </div>
       </div>
       <div className='max-w-7xl mx-auto mt-6 px-4'>

@@ -12,7 +12,7 @@ export default function page() {
       <nav className='bg-white mt-16 pb-4'>
         <div className='mx-auto px-4'>
           <div className='flex items-center h-12'>
-            <Link href='/giao-duc' className='text-[#A0A3A9] hover:text-gray-900'>
+            <Link href='/giao-duc' className='text-[#A0A3A9] hover:text-gray-900 text-lg font-normal'>
               Giáo dục
             </Link>
             <span className='mx-2 text-2xl text-black'><img src="/arrow.png" alt="" /></span>

@@ -45,15 +45,15 @@ const Lesson = ({khoahocDetail}: any) => {
                 <nav className='bg-white pb-6 pt-8 max-w-7xl mx-auto relative'>
                     <div className='mx-auto'>
                         <div className='flex items-center'>
-                            <Link href='/giao-duc/ngon-ngu-ky-hieu' className='text-[#A0A3A9] hover:text-gray-900 line-clamp-1'>
+                            <Link href='/giao-duc/ngon-ngu-ky-hieu' className='text-[#A0A3A9] text-lg font-normal hover:text-gray-900 line-clamp-1'>
                                 Ngôn ngữ ký hiệu
                             </Link>
                             <span className='mx-2 text-2xl text-black'><img src="/arrow.png" alt="" /></span>
-                            <Link href={"/giao-duc/ngon-ngu-ky-hieu/khoa-hoc-ngoai-tuyen"} className='text-[#A0A3A9] line-clamp-1'>
+                            <Link href={"/giao-duc/ngon-ngu-ky-hieu/khoa-hoc-ngoai-tuyen"} className='text-[#A0A3A9] text-lg font-normal line-clamp-1'>
                                 Khóa học trực tuyến
                             </Link>
                             <span className='mx-2 text-2xl text-black'><img src="/arrow.png" alt="" /></span>
-                            <span className='text-[#3A63ED] line-clamp-1'>{khoahocDetail?.title}</span>
+                            <span className='text-[#3A63ED] line-clamp-1 text-lg font-normal'>{khoahocDetail?.title}</span>
                         </div>
                     </div>
                 </nav>

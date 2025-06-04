@@ -13,12 +13,12 @@ export default function CoursePage() {
           <div className="flex items-center h-12">
             <Link
               href="/giao-duc/ngon-ngu-ky-hieu"
-              className="text-[#A0A3A9] hover:text-gray-900"
+              className="text-[#A0A3A9] hover:text-gray-900 text-lg font-normal"
             >
               Ngôn ngữ ký hiệu
             </Link>
             <span className="mx-2 text-2xl text-black"><img src="/arrow.png" alt="" /></span>
-            <span className="text-[#3A63ED]">Khóa học trực tuyến</span>
+            <span className="text-[#3A63ED] text-lg font-normal">Khóa học trực tuyến</span>
           </div>
         </div>
       </nav>

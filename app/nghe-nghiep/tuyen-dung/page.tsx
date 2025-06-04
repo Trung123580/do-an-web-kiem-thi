@@ -79,7 +79,12 @@ const Page = () => {
     <>
       <div className='min-h-screen bg-white mt-16'>
         {/* Header */}
-        <div className='bg-[#3A63ED] px-8 py-16'>
+        <div className=' px-8 py-16'  style={{
+          backgroundImage: 'url(/part.png)',
+          backgroundRepeat: 'no-repeat',
+          backgroundSize:'cover',
+          backgroundPosition:'center'
+        }}>
           <div className='max-w-7xl mx-auto'>
             <h1 className='text-white text-5xl font-bold mb-3'>Việc làm phù hợp</h1>
             <p className='text-white text-lg mb-[80px]'>Tìm kiếm những công việc phù hợp nhất cùng những quyền lợi đặc biệt.</p>
@@ -229,7 +234,7 @@ const Page = () => {
                     </div>
                   )}
                 </div>
-                <button onClick={() => setData(filterData())} className='bg-black hover:bg-[#70747D] text-white font-semibold rounded-lg px-8 py-2 ms-5'>
+                <button onClick={() => setData(filterData())} className='bg-black hover:bg-[#70747D] text-white font-semibold rounded-lg px-[57px] py-2 ms-5'>
                   Tìm kiếm
                 </button>
               </div>
@@ -240,18 +245,18 @@ const Page = () => {
         {data.length > 0 ? (
           <div className='max-w-7xl xl mx-auto px-4 xl:px-0  pt-[48px] pb-[96px] grid md:grid-cols-2 rid-cols-1 gap-6'>
             {data.map((job: any, idx: number) => (
-              <Link href={`/nghe-nghiep/tuyen-dung/${job.slug}`} key={idx} className='bg-[#F7F7F8] rounded-lg hover:border-[#B0C1F8] border border-transparent flex items-center gap-6 p-3 pr-6'>
+              <Link href={`/nghe-nghiep/tuyen-dung/${job.slug}`} key={idx} className='bg-[#F1F2F3] rounded-lg group hover:border-[#B0C1F8] border border-transparent flex items-center gap-6 p-3 pr-6'>
                 <img src={job.img} alt={job.title} className='w-[136px] h-[136px] object-cover rounded-lg' />
                 <div className='flex flex-col gap-7 grow justify-between'>
                   <div>
-                    <div className='text-2xl font-normal'>{job.title}</div>
-                    <span className='text-gray-500 text-[10px] font-normal'>{job.company}</span>
+                    <div className='text-2xl text-[#111827] group-hover:text-[#3A63ED] font-normal'>{job.title}</div>
+                    <span className='text-[#414652] text-[10px] font-normal'>{job.company}</span>
                   </div>
                   <div className='flex  justify-between'>
                     <div className='flex gap-2 flex-wrap my-2'>
-                      <div className=' text-gray-700 px-2 py-1 rounded text-[10px] bg-white border border-[#CFD1D4]'>{job.salary}</div>
-                      <div className=' text-gray-700 px-2 py-1 rounded text-[10px] bg-white border border-[#CFD1D4]'>{job.location}</div>
-                      <div className=' text-gray-700 px-2 py-1 rounded text-[10px] bg-white border border-[#CFD1D4]'>{job.salary}</div>
+                      <div className=' text-[#414652] px-2 py-1 rounded text-[10px] bg-white border border-[#CFD1D4]'>{job.salary}</div>
+                      <div className=' text-[#414652] px-2 py-1 rounded text-[10px] bg-white border border-[#CFD1D4]'>{job.location}</div>
+                      <div className=' text-[#414652] px-2 py-1 rounded text-[10px] bg-white border border-[#CFD1D4]'>{job.salary}</div>
                     </div>
                     <div className='text-right text-[10px] text-gray-400 flex justify-center items-center'>Hạn ứng tuyển: {job.deadline}</div>
                   </div>

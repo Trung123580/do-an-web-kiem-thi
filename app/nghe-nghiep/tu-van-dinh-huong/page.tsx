@@ -31,12 +31,12 @@ export default function page() {
           <div className="flex items-center h-12">
             <Link
               href="/nghe-nghiep"
-              className="text-[#A0A3A9] hover:text-gray-900"
+              className="text-[#A0A3A9] hover:text-gray-900 text-lg font-normal"
             >
               Nghề nghiệp
             </Link>
             <span className="mx-2 text-2xl text-black"><img src="/arrow.png" alt="" /></span>
-            <span className="text-[#3A63ED]">Tư vấn định hướng nghề nghiệp</span>
+            <span className="text-[#3A63ED] text-lg font-normal">Tư vấn định hướng nghề nghiệp</span>
           </div>
         </div>
       </nav>

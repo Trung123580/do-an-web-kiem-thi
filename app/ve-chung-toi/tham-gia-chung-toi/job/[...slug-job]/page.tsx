@@ -28,13 +28,13 @@ export default function JobDetailPage() {
   }
 
   return (
-    <div className='min-h-screen bg-gray-50 pt-24 pb-8'>
+    <div className='min-h-screen bg-white pt-24 pb-[96px]'>
       <div className='container mx-auto px-4 max-w-7xl'>
         
         {step === 3 ? <></> : <nav className='bg-transparent'>
           <div className='mx-auto'>
-            <div className='flex items-center h-12 mb-8'>
-              <Link href='/ve-chung-toi/tham-gia-chung-toi' className='text-[#A0A3A9] hover:text-gray-900'>
+            <div className='flex items-center h-12 mb-4'>
+              <Link href='/ve-chung-toi/tham-gia-chung-toi' className='text-[#A0A3A9] hover:text-gray-900 text-lg font-normal'>
                 Tham gia cùng chúng tôi
               </Link>
               <span className='mx-2 text-2xl text-black'><img src="/arrow.png" alt="" /></span>
@@ -55,21 +55,21 @@ export default function JobDetailPage() {
                 <Image src={jobDetail?.imgDetail || ""} alt='Content Creator Icon' width={305} height={305} className='object-cover rounded-xl h-full' />
               </div>
               <div className='flex justify-between flex-col flex-1 w-full'>
-                <span className='text-gray-500 text-sm mb-1 bg-[#F2F2F3] py-1 px-3 size-max rounded-xs'>Hạn nộp hồ sơ: {jobDetail?.deadline}</span>
-                <h1 className='text-3xl md:text-5xl font-bold mb-5 md:mb-2'>
+                <span className='text-[#111827] text-sm mb-1 bg-[#F2F2F3] py-1 px-3 size-max rounded-xs'>Hạn nộp hồ sơ: {jobDetail?.deadline}</span>
+                <h1 className='text-3xl md:text-5xl leading-[55px] font-bold mb-5 md:mb-2'>
                   {jobDetail?.title} <br />
                   {jobDetail?.titleDes}
                 </h1>
                 <div className='flex flex-row gap-6'>
-                  <div className='bg-[#D8E0FB] px-6 py-4 rounded-sm basis-1/3 flex gap-2 flex-col'>
+                  <div className='bg-[#D8E0FB] px-6 py-4 rounded-lg basis-1/3 flex gap-2 flex-col'>
                     <div className='text-sm text-[#70747D] font-normal'>Thu nhập</div>
                     <div className='font-normal text-2xl'>{jobDetail?.salary}</div>
                   </div>
-                  <div className='bg-[#D8E0FB] px-6 py-4 rounded-sm basis-1/3 flex gap-2 flex-col'>
+                  <div className='bg-[#D8E0FB] px-6 py-4 rounded-lg basis-1/3 flex gap-2 flex-col'>
                     <div className='text-sm text-[#70747D] font-normal'>Địa điểm</div>
                     <div className='font-normal text-2xl'>{jobDetail?.location}</div>
                   </div>
-                  <div className='bg-[#D8E0FB] px-6 py-4 rounded-sm basis-1/3 flex gap-2 flex-col'>
+                  <div className='bg-[#D8E0FB] px-6 py-4 rounded-lg basis-1/3 flex gap-2 flex-col'>
                     <div className='text-sm text-[#70747D] font-normal'>Thời gian công việc</div>
                     <div className='font-normal text-2xl'>{jobDetail?.nature}</div>
                   </div>
@@ -80,7 +80,7 @@ export default function JobDetailPage() {
         )}
         {/* Job Details */}
         <div className='grid md:grid-cols-[2fr,1fr] gap-8'>
-          <div className={`${step !== 3 ? "shadow-sm bg-white" : "bg-[#f9fafb]"} rounded-xl space-y-8 p-11`}>
+          <div className={`${step !== 3 ? "shadow-sm bg-white" : "white"} rounded-xl space-y-8 p-11 px-[80px]`}>
             {step === 1 && (
               <>
                 {/* Mô tả công việc */}
@@ -227,7 +227,7 @@ export default function JobDetailPage() {
                   <input type='file' id='file' className='hidden' />
                 </div>
                 <div>
-                  <h3 className='text-[32px] font-bold text-[#2E4FBE] mb-2 mt-[25px]'>Thư giới thiệu</h3>
+                  <h3 className='text-[32px] font-bold text-[#2E4FBE] mb-2 mt-[48px]'>Thư giới thiệu</h3>
                   <p className='text-gray-600 text-base mb-6'>Một thư giới thiệu ngắn gọn, chỉn chu sẽ giúp bạn trở nên chuyên nghiệp và gây ấn tượng hơn với nhà tuyển dụng.</p>
                   <textarea
                     value={dataSubmit.textAria}
@@ -293,7 +293,7 @@ export default function JobDetailPage() {
                       } else {
                       }
                     }}
-                    className='bg-[#3A63ED] text-white py-[10px] text-2xl px-[72px] rounded-lg font-[Inter] hover:bg-[#89A1F4] transition-colors'>
+                    className='bg-[#3A63ED] text-white h-[71px] text-2xl px-[72px] rounded-lg font-[Inter] hover:bg-[#89A1F4] transition-colors'>
                     {step === 1 ? "Ứng tuyển ngay" : "Nộp hồ sơ ứng tuyển"}
                   </button>
                 </div>

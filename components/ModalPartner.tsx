@@ -78,13 +78,13 @@ export default function ModalPartner({ isOpen, closeModal }: ModalPartnerProps) 
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-xl bg-white px-6 pb-[56px] pt-[32px] shadow-xl transition-all">
+              <Dialog.Panel className={`w-full ${isSuccess ? 'max-w-[594px]' :'max-w-md'} transform overflow-hidden rounded-xl bg-white px-6 pb-[56px] pt-[32px] shadow-xl transition-all`}>
                 <div className="flex justify-end">
                   <button
                     onClick={handleClose}
-                    className="text-gray-500 hover:text-gray-700"
+                    className="text-[#111827]"
                   >
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
                       <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                   </button>
@@ -215,20 +215,22 @@ export default function ModalPartner({ isOpen, closeModal }: ModalPartnerProps) 
                         </p>
                       </div>
 
-                      <div className="text-xs text-gray-500">
+                      <div className="text-[10px] text-gray-500">
                         <p>Bằng cách nhấn nút Gửi, bạn xác nhận rằng bạn trên 18 tuổi và đồng ý nhận email từ Foundation for Future về cách chúng tôi đang thay đổi cuộc sống của cộng đồng người khiếm thính – và cách bạn có thể hỗ trợ. Nếu bạn cung cấp số điện thoại, chúng tôi cũng có thể liên hệ với bạn qua điện thoại. Bạn có thể hủy đăng ký bất cứ lúc nào. Để biết thêm thông tin về cách chúng tôi sử dụng dữ liệu của bạn, vui lòng xem Quyền riêng tư và Cookie của chúng tôi.</p>
                       </div>
 
-                      <button
+                    <div className="w-max m-auto">
+                        <button
                         type="submit"
-                        className="w-full bg-[#3a63ed] text-white py-3 rounded-lg hover:bg-[#89A1F4] transition-colors"
+                        className="px-[56px] bg-[#3a63ed] text-white py-3 rounded-lg hover:bg-[#89A1F4] transition-colors"
                       >
                         Liên hệ với chúng tôi
                       </button>
+                    </div>
                     </form>
                   </>
                 ) : (
-                  <div className="text-center py-8">
+                  <div className="text-center py-8 px-[82px]">
                     <Dialog.Title as="h3" className="text-4xl font-semibold mb-2">
                       Gửi yêu cầu
                     </Dialog.Title>

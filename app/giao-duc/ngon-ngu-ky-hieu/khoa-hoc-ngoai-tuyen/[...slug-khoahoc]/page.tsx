@@ -125,15 +125,15 @@ export default function page() {
         <nav className='bg-white pb-6 pt-8 max-w-7xl mx-auto relative mt-20 '>
           <div className='mx-auto px-4'>
             <div className='flex items-center'>
-              <Link href='/giao-duc/ngon-ngu-ky-hieu' className='text-[#A0A3A9] hover:text-gray-900 line-clamp-1'>
+              <Link href='/giao-duc/ngon-ngu-ky-hieu' className='text-[#A0A3A9] hover:text-gray-900 text-lg font-normal line-clamp-1'>
                 Ngôn ngữ ký hiệu
               </Link>
               <span className='mx-2 text-2xl text-black'><img src="/arrow.png" alt="" /></span>
-              <Link href={"/giao-duc/ngon-ngu-ky-hieu/khoa-hoc-ngoai-tuyen"} className='text-[#A0A3A9] line-clamp-1'>
+              <Link href={"/giao-duc/ngon-ngu-ky-hieu/khoa-hoc-ngoai-tuyen"} className='text-[#A0A3A9] line-clamp-1 text-lg font-normal'>
                 Khóa học trực tuyến
               </Link>
               <span className='mx-2 text-2xl text-black'><img src="/arrow.png" alt="" /></span>
-              <span className='text-[#3A63ED] line-clamp-1'>{khoahocDetail?.title}</span>
+              <span className='text-[#3A63ED] line-clamp-1 text-lg font-normal'>{khoahocDetail?.title}</span>
             </div>
           </div>
         </nav>
@@ -346,7 +346,7 @@ export default function page() {
                       <input type='radio' name='paymentMethod' value='momo' checked={dataSubmit.paymentMethod === "momo"} onChange={(e) => handlePaymentMethodChange(e.target.value)} />
                       <div className='-mt-1.5'>
                         Ví MoMo
-                        <img src='/image/momo.png' alt='MoMo' className='h-6' />
+                        <img src='/image/momo.png' alt='MoMo' className='h-10' />
                       </div>
                     </label>
                     <label className='flex items-start gap-2 border-b-2 border-[#cfd1d4] px-3 py-3'>
@@ -354,7 +354,7 @@ export default function page() {
                       <div className='-mt-1.5'>
                         Thẻ tín dụng hoặc thẻ ghi nợ
                         <div className='flex items-center gap-2'>
-                          <img src='/image/visa-all.png' alt='Visa' className='h-6' />
+                          <img src='/image/visa-all.png' alt='Visa' className='h-10' />
                         </div>
                         {dataSubmit.paymentMethod === "credit" && (
                           <>
@@ -378,7 +378,7 @@ export default function page() {
                       <div className='-mt-1.5'>
                         Thẻ tín dụng
                         <div className='flex items-center gap-2'>
-                          <img src='/image/paypal.png' alt='Visa' className='h-6' />
+                          <img src='/image/paypal.png' alt='Visa' className='h-10' />
                         </div>
                       </div>
                     </label>

@@ -95,12 +95,12 @@ const Donate = () => {
       {/* <div className='absolute inset-0 bg-gradient-to-r from-black/40 to-transparent' /> */}
       <div className='relative max-w-7xl h-full mx-auto'>
         <div className='absolute top-[106px] md:top-2/3 transform -translate-y-1/2 text-white max-w-lg px-4 md:px-0'>
-          <h1 className='text-xl md:text-5xl font-bold leading-tight'>
+          <h1 className='text-xl md:text-5xl font-bold leading-tight text-shadow-basd'>
             Hãy cùng chúng tôi
             <br />
             phá bỏ rào cản.
           </h1>
-          <p className='mt-2 md:mt-6 text-sm md:text-lg opacity-90'>Chung tay hỗ trợ giáo dục và đào tạo nghề cho người khiếm thính ngay hôm nay!</p>
+          <p className='mt-2 md:mt-6 text-sm md:text-lg opacity-90 text-shadow-basd'>Chung tay hỗ trợ giáo dục và đào tạo nghề cho người khiếm thính ngay hôm nay!</p>
         </div>
         <form onSubmit={handleSubmit} className='absolute left-0 right-0 md:px-0 px-[32px] top-[180px] md:top-1/2 md:left-auto md:-translate-y-1/2 md:w-[413px]'>
           <div className='bg-white rounded-xl shadow-lg py-[32px] md:py-12 px-[24px] md:px-9'>
@@ -110,7 +110,7 @@ const Donate = () => {
                 <button
                   key={type}
                   type='button'
-                  className={`flex-1 py-2.5 text-lg font-normal transition-colors ${dataSubmit.donationType === type ? "bg-[#D8E0FB] text-[#111827]" : "text-[#111827] bg-white"}`}
+                  className={`flex-1 h-[56px] text-lg font-normal transition-colors ${dataSubmit.donationType === type ? "bg-[#D8E0FB] text-[#111827]" : "text-[#111827] bg-white"}`}
                   onClick={() => handleDonationTypeChange(type as 1 | 2)}>
                   {type === 1 ? "Một lần" : "Hàng tháng"}
                 </button>
@@ -121,7 +121,7 @@ const Donate = () => {
                 <button
                   type='button'
                   key={amount}
-                  className={`py-2.5 text-lg transition-colors ${dataSubmit.selectedAmount === amount ? "bg-[#D8E0FB]" : "bg-white hover:bg-[#CFD1D4]"}`}
+                  className={`h-[56px] text-lg transition-colors ${dataSubmit.selectedAmount === amount ? "bg-[#D8E0FB]" : "bg-white hover:bg-[#CFD1D4]"}`}
                   onClick={() => handleAmountSelect(amount)}>
                   {amount}$
                 </button>
@@ -157,7 +157,7 @@ const Donate = () => {
       </div>
       {open && (
         <div className='fixed inset-0 z-[100] flex items-center justify-center bg-black/40'>
-          <div className='bg-white rounded-2xl py-16 max-w-[630px] w-full p-6 max-h-[70%] h-[70%] relative shadow-lg'>
+          <div className='bg-white rounded-2xl py-16 max-w-[630px] w-full p-6 max-h-[80vh] overflow-y-auto relative shadow-lg'>
             {step === 1 && (
               <>
                 <div className='absolute top-4 right-0 px-8 items-center  flex justify-between w-full'>
@@ -180,12 +180,12 @@ const Donate = () => {
                     &times;
                   </button>
                 </div>
-                <div className='w-full h-1 bg-gray-200 mt-0 rounded mb-6'>
-                  <div className='h-1 bg-blue-500 rounded' style={{ width: "30%" }} />
+                <div className='w-full h-2 bg-gray-200 mt-0 rounded mb-4'>
+                  <div className='h-2 bg-[#3A63ED] rounded' style={{ width: "30%" }} />
                 </div>
                 <form onSubmit={handleSubmit} className=''>
-                  <div className='px-[10px] md:px-[56px]'>
-                    <h2 className='text-center text-[#111827] font-bold md:font-bold mb-6 text-[24px] md:px-0 px-10 md:text-[32px] line-clamp-2'>
+                  <div className='px-[36px] '>
+                    <h2 className='text-center text-[#111827] font-bold md:font-bold mb-4 text-[24px] md:px-0 px-10 md:text-[32px] line-clamp-2'>
                       Ủng hộ để hỗ trợ <br /> người khiếm thính
                     </h2>
                     <div className='bg-[#EEF1FF] rounded-md flex mb-2 border-2 border-[#CFD1D4] overflow-hidden'>
@@ -193,7 +193,7 @@ const Donate = () => {
                         <button
                           key={type}
                           type='button'
-                          className={`flex-1 py-2.5 md:py-[15px] text-sm font-normal md:font-medium transition-colors ${
+                          className={`flex-1 h-[56px] text-sm font-normal md:font-medium transition-colors ${
                             dataSubmit.donationType === type ? "bg-[#D8E0FB] text-[#111827]" : "text-[#111827] bg-white"
                           }`}
                           onClick={() => handleDonationTypeChange(type as 1 | 2)}>
@@ -270,8 +270,8 @@ const Donate = () => {
                     &times;
                   </button>
                 </div>
-                <div className='w-full h-1 bg-gray-200 mt-0 rounded mb-6'>
-                  <div className='h-1 bg-blue-500 rounded' style={{ width: "50%" }} />
+                <div className='w-full h-2 bg-gray-200 mt-0 rounded mb-6'>
+                  <div className='h-2 bg-[#3A63ED] rounded' style={{ width: "50%" }} />
                 </div>
                 <form onSubmit={handleSubmit} className='px-[30px] md:px-[56px] mt-8 text-[#111827] h-[90%] overflow-y-auto '>
                   <h2 className='text-xl font-bold mb-4'>Thông tin cá nhân</h2>
@@ -279,7 +279,7 @@ const Donate = () => {
                     <label htmlFor='email' className={`${dataSubmit.fullName?.length !== 0 ? "hidden" : "block"} text-sm absolute left-3 text-gray-500 top-[40%] -translate-y-1/2`}>
                       Họ tên <span className='text-red-600'>*</span>
                     </label>
-                    <input required name='fullName' className='w-full border-2 border-[#CFD1D4] rounded-lg px-3 py-2 mb-3' value={dataSubmit.fullName} onChange={handleInputChange} />
+                    <input required name='fullName' className='w-full border-2 border-[#CFD1D4] rounded-lg px-3 py-2 mb-4' value={dataSubmit.fullName} onChange={handleInputChange} />
                   </div>
                   {/* <input
                   name='fullName'
@@ -293,7 +293,7 @@ const Donate = () => {
                     <label htmlFor='email' className={`${dataSubmit.fullName?.length !== 0 ? "hidden" : "block"} text-sm absolute left-3 text-gray-500 top-[40%] -translate-y-1/2`}>
                       Email <span className='text-red-600'>*</span>
                     </label>
-                    <input required name='email' className='w-full border-2 border-[#CFD1D4] rounded-lg px-3 py-2 mb-3' value={dataSubmit.email} onChange={handleInputChange} />
+                    <input required name='email' className='w-full border-2 border-[#CFD1D4] rounded-lg px-3 py-2 mb-4' value={dataSubmit.email} onChange={handleInputChange} />
                   </div>
                   {/* <input
                   type='email'
@@ -308,7 +308,7 @@ const Donate = () => {
                     <label htmlFor='email' className={`${dataSubmit.fullName?.length !== 0 ? "hidden" : "block"} text-sm absolute left-3 text-gray-500 top-[40%] -translate-y-1/2`}>
                       Số điện thoại <span className='text-red-600'>*</span>
                     </label>
-                    <input required name='phone' className='w-full border-2 border-[#CFD1D4] rounded-lg px-3 py-2 mb-3' value={dataSubmit.phone} onChange={handleInputChange} type='number' />
+                    <input required name='phone' className='w-full border-2 border-[#CFD1D4] rounded-lg px-3 py-2 mb-4' value={dataSubmit.phone} onChange={handleInputChange} type='number' />
                   </div>
                   {/* <input
                   name='phone'
@@ -320,19 +320,19 @@ const Donate = () => {
                 /> */}
                   <h3 className='text-xl font-bold mb-4'>Phương thức thanh toán</h3>
                   <div className='font-normal text-[18px] border-2 border-[#cfd1d4] rounded-lg'>
-                    <label className='flex items-start gap-2 border-b-2 border-[#cfd1d4] px-3 py-3'>
+                    <label className='flex items-start gap-2 border-b-2 border-[#cfd1d4] px-5 py-3'>
                       <input type='radio' name='paymentMethod' value='momo' checked={dataSubmit.paymentMethod === "momo"} onChange={(e) => handlePaymentMethodChange(e.target.value)} />
                       <div className='-mt-1.5'>
                         Ví MoMo
-                        <img src='/image/momo.png' alt='MoMo' className='h-6' />
+                        <img src='/image/momo.png' alt='MoMo' className='h-10' />
                       </div>
                     </label>
-                    <label className='flex items-start gap-2 border-b-2 border-[#cfd1d4] px-3 py-3'>
+                    <label className='flex items-start gap-2 border-b-2 border-[#cfd1d4] px-5 py-3'>
                       <input type='radio' name='paymentMethod' value='credit' checked={dataSubmit.paymentMethod === "credit"} onChange={(e) => handlePaymentMethodChange(e.target.value)} />
                       <div className='-mt-1.5'>
                         Thẻ tín dụng hoặc thẻ ghi nợ
                         <div className='flex items-center gap-2'>
-                          <img src='/image/visa-all.png' alt='Visa' className='h-6' />
+                          <img src='/image/visa-all.png' alt='Visa' className='h-10' />
                         </div>
                         {dataSubmit.paymentMethod === "credit" && (
                           <>
@@ -351,12 +351,12 @@ const Donate = () => {
                         )}
                       </div>
                     </label>
-                    <label className='flex items-start gap-2 px-3 py-3'>
+                    <label className='flex items-start gap-2 px-5 py-3'>
                       <input type='radio' name='paymentMethod' value='paypal' checked={dataSubmit.paymentMethod === "paypal"} onChange={(e) => handlePaymentMethodChange(e.target.value)} />
                       <div className='-mt-1.5'>
                         Thẻ tín dụng
                         <div className='flex items-center gap-2'>
-                          <img src='/image/paypal.png' alt='Visa' className='h-6' />
+                          <img src='/image/paypal.png' alt='Visa' className='h-10' />
                         </div>
                       </div>
                     </label>
@@ -420,11 +420,11 @@ const Donate = () => {
                     &times;
                   </button>
                 </div>
-                <div className='w-full h-1 bg-gray-200 mt-0 rounded mb-6'>
-                  <div className='h-1 bg-blue-500 rounded' style={{ width: "50%" }} />
+                <div className='w-full h-2 bg-gray-200 mt-0 rounded mb-6'>
+                  <div className='h-2 bg-[#3A63ED] rounded' style={{ width: "100%" }} />
                 </div>
                 <div className='px-[10px] md:px-[56px]'>
-                  <h4 className='text-[32px] font-bold text-center line-clamp-3'>Sự đóng góp của bạn giúp người khiếm thính có tương lai tươi sáng hơn</h4>
+                  <h4 className='text-[32px] leading-[40px] font-bold text-center line-clamp-3'>Sự đóng góp của bạn giúp người khiếm thính có tương lai tươi sáng hơn</h4>
                   <p className='text-[17px] font-normal text-center line-clamp-4'>
                     Sự đóng góp của bạn không chỉ là một khoản quyên góp — đó là một hành động đầy yêu thương, một cam kết cùng chúng tôi xây dựng tương lai tươi sáng hơn cho cộng đồng người khiếm
                     thính.
