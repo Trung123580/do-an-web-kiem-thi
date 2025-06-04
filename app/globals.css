@@ -43,7 +43,7 @@
   --color-foreground: var(--background);
   --font-family: var(--font-inter);
   --animation-wiggle: wiggle 1s ease-in-out infinite;
-  --breakpoint-lg: 1025px
+  /* --breakpoint-lg: 1025px */
 }
 
 body {

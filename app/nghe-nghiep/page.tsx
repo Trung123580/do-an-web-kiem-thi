@@ -15,13 +15,13 @@ const page = () => {
         {/* Hero section */}
         <div className='h-auto relative bg-[#F2F2F3] flex items-center justify-center w-full'>
           {/* Hero section */}
-          <div className='flex relative mx-auto h-max max-w-7xl w-full flex-col-reverse xl:flex-row lg:py-0 py-8'>
-            <div className='relative lg:absolute lg:top-1/2 lg:-translate-y-1/2 lg:w-1/2 w-full flex justify-center flex-col lg:px-0 px-4 lg:mt-0 mt-5'>
+          <div className='flex relative mx-auto h-max max-w-7xl w-full flex-col-reverse xl:flex-row max-[1024px]:py-0 py-8'>
+            <div className='relative max-[1024px]:absolute max-[1024px]:top-1/2 max-[1024px]:-translate-y-1/2 max-[1024px]:w-1/2 w-full flex justify-center flex-col max-[1024px]:px-0 px-4 max-[1024px]:mt-0 mt-5'>
               <h1 className='text-3xl sm:text-4xl md:text-5xl font-bold mb-4 leading-snug'>
                 Hệ thống đánh giá <br />
                 <span className='text-[#3A63ED]'>Kỹ năng làm việc</span>
               </h1>
-              <p className='mb-8 text-[#111827] text-base sm:text-lg'>
+              <p className='mb-8 text-[#111827] text-base sm:text-max-[1024px]'>
                 Bài kiểm tra kỹ năng làm việc được phát triển và nghiên cứu dựa
                 <br/>
                 trên đối tượng đặc biệt nhằm giúp họ khám phá năng lực 
@@ -35,10 +35,10 @@ const page = () => {
               </Link>
             </div>
 
-            <div className='lg:hidden flex items-center justify-center'>
-              <img src='/image/nghe-nghiep/banner.png' alt='minh họa' className='object-contain w-[90%] lg:w-1/2' />
+            <div className='max-[1024px]:hidden flex items-center justify-center'>
+              <img src='/image/nghe-nghiep/banner.png' alt='minh họa' className='object-contain w-[90%] max-[1024px]:w-1/2' />
             </div>
-            <img src='/image/nghe-nghiep/banner-2.png' alt='minh họa' className='object-contain w-full lg:block hidden' />
+            <img src='/image/nghe-nghiep/banner-2.png' alt='minh họa' className='object-contain w-full max-[1024px]:block hidden' />
           </div>
         </div>
 
