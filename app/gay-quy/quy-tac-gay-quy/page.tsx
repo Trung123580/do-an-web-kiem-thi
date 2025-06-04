@@ -9,7 +9,7 @@ const page = () => {
       <div className='grid lg:grid-cols-2 grid-cols-1 max-w-7xl mx-auto mt-[122px] px-4'>
         <div className=' bg-[#FEF5D0] lg:rounded-l-2xl max-h-[581px] rounded-t-2xl py-8 md:py-16 pl-[72px] md:pl-16 pr-7 md:pr-10 flex justify-center flex-col'>
           <h1 className='text-5xl  mb-4 font-bold'>Giá trị cốt lõi</h1>
-          <ul className='text-lg font-normal'>
+          <ul className='text-base font-normal'>
             <li>
               <span className='font-bold'>Bền vững:</span> Chúng tôi tập trung vào việc xây dựng những giá trị dài lâu, đảm bảo người khiếm thính có thể phát triển lâu dài trong tương lai.
             </li>

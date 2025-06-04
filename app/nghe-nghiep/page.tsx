@@ -13,28 +13,32 @@ const page = () => {
     <>
       <div className='mt-[80px] '>
         {/* Hero section */}
-        <div className='h-auto lg:h-[500px] relative bg-[#F2F2F3] flex items-center justify-center w-full'>
+        <div className='h-auto relative bg-[#F2F2F3] flex items-center justify-center w-full'>
           {/* Hero section */}
-          <div className='flex mx-auto  max-w-7xl w-full flex-col-reverse xl:flex-row'>
-            {/* Left content */}
-            <div className='xl:w-1/2 lg:top-0 md:-top-[30px] top-[-190px] flex justify-center flex-col text-center xl:text-left'>
+          <div className='flex relative mx-auto h-max max-w-7xl w-full flex-col-reverse xl:flex-row lg:py-0 py-8'>
+            <div className='relative lg:absolute lg:top-1/2 lg:-translate-y-1/2 lg:w-1/2 w-full flex justify-center flex-col lg:px-0 px-4 lg:mt-0 mt-5'>
               <h1 className='text-3xl sm:text-4xl md:text-5xl font-bold mb-4 leading-snug'>
                 Hệ thống đánh giá <br />
                 <span className='text-[#3A63ED]'>Kỹ năng làm việc</span>
               </h1>
               <p className='mb-8 text-[#111827] text-base sm:text-lg'>
-                Bài kiểm tra kỹ năng làm việc được phát triển và nghiên cứu dựa trên đối tượng đặc biệt nhằm giúp họ khám phá năng lực nghề nghiệp bản thân thông qua các bài kiểm tra kỹ năng nhằm khám
-                phá bản thân và lựa chọn định hướng phù hợp bản thân.
+                Bài kiểm tra kỹ năng làm việc được phát triển và nghiên cứu dựa
+                <br/>
+                trên đối tượng đặc biệt nhằm giúp họ khám phá năng lực 
+                <br/>
+                nghề nghiệp bản thân thông qua các bài kiểm tra kỹ năng nhằm
+                <br/>
+                khám phá bản thân và lựa chọn định hướng phù hợp bản thân.
               </p>
-              <Link href={"/nghe-nghiep/test"} className='bg-[#3A63ED] text-white w-max mx-auto xl:mx-0 px-10 py-3 rounded transition'>
+              <Link href={"/nghe-nghiep/test"} className='bg-[#3A63ED] text-white w-max mx-auto md:mx-0 px-10 py-3 rounded transition'>
                 Làm bài kiểm tra
               </Link>
             </div>
 
-            {/* Right image */}
-            <div className='absolute  bottom-0 right-0 '>
-              <img src='/image/nghe-nghiep/banner.png' alt='minh họa' className='object-contain w-1/2' />
+            <div className='lg:hidden flex items-center justify-center'>
+              <img src='/image/nghe-nghiep/banner.png' alt='minh họa' className='object-contain w-[90%] lg:w-1/2' />
             </div>
+            <img src='/image/nghe-nghiep/banner-2.png' alt='minh họa' className='object-contain w-full lg:block hidden' />
           </div>
         </div>
 
