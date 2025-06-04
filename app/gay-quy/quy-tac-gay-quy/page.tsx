@@ -8,7 +8,7 @@ const page = () => {
     <div>
       <div className='grid lg:grid-cols-2 grid-cols-1 max-w-7xl mx-auto mt-[122px] px-4'>
         <div className=' bg-[#FEF5D0] lg:rounded-l-2xl max-h-[581px] rounded-t-2xl py-8 md:py-16 pl-[72px] md:pl-16 pr-7 md:pr-10 flex justify-center flex-col'>
-          <h1 className='text-5xl  mb-4 font-bold'>Giá trị cốt lõi</h1>
+          <h1 className='text-[40px]  mb-4 font-bold'>Giá trị cốt lõi</h1>
           <ul className='text-base font-normal'>
             <li>
               <span className='font-bold'>Bền vững:</span> Chúng tôi tập trung vào việc xây dựng những giá trị dài lâu, đảm bảo người khiếm thính có thể phát triển lâu dài trong tương lai.
@@ -34,8 +34,8 @@ const page = () => {
       </div>
       <div className='max-w-7xl mx-auto mt-6 px-4'>
         <div className='bg-[#F2F2F3] rounded-2xl py-8 px-[72px] flex justify-center flex-col'>
-          <h1 className='text-5xl  mb-4 font-bold'>Quy tắc gây quỹ của Foundation for Future</h1>
-          <p className='text-lg font-normal mb-4'>
+          <h1 className='text-[40px]  mb-4 font-bold'>Quy tắc gây quỹ của Foundation for Future</h1>
+          <p className='text-base font-normal mb-4'>
             Tại Foundation for Future, chúng tôi trân trọng từng sự đóng góp từ cộng đồng – những người tin vào một xã hội công bằng, nơi người khiếm thính có thể tiếp cận giáo dục, đào tạo nghề và cơ
             hội việc làm một cách bình đẳng. Chính vì vậy, chúng tôi cam kết xây dựng và thực hiện các nguyên tắc gây quỹ minh bạch, độc lập và có trách nhiệm.
           </p>
