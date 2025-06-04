@@ -15,9 +15,9 @@ const page = () => {
         {/* Hero section */}
         <div className='h-auto lg:h-[500px] relative bg-[#F2F2F3] flex items-center justify-center w-full'>
           {/* Hero section */}
-          <div className='flex mx-auto  max-w-7xl flex-col-reverse xl:flex-row'>
+          <div className='flex mx-auto  max-w-7xl w-full flex-col-reverse xl:flex-row'>
             {/* Left content */}
-            <div className='xl:w-1/2 relative lg:top-0 md:-top-[30px] top-[-190px] flex justify-center flex-col text-center xl:text-left'>
+            <div className='xl:w-1/2 lg:top-0 md:-top-[30px] top-[-190px] flex justify-center flex-col text-center xl:text-left'>
               <h1 className='text-3xl sm:text-4xl md:text-5xl font-bold mb-4 leading-snug'>
                 Hệ thống đánh giá <br />
                 <span className='text-[#3A63ED]'>Kỹ năng làm việc</span>
@@ -32,8 +32,8 @@ const page = () => {
             </div>
 
             {/* Right image */}
-            <div className='relative lg:absolute bottom-[-40px] lg:-bottom-[64px] right-[5%] lg:right-[200px] md:scale-[.8] h-[515px]'>
-              <img src='/image/nghe-nghiep/banner.png' alt='minh họa' className='object-contain' />
+            <div className='absolute  bottom-0 right-0 '>
+              <img src='/image/nghe-nghiep/banner.png' alt='minh họa' className='object-contain w-1/2' />
             </div>
           </div>
         </div>
