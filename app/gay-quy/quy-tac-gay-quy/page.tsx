@@ -7,38 +7,35 @@ const page = () => {
   return (
     <div>
       <div className='grid lg:grid-cols-2 grid-cols-1 max-w-7xl mx-auto mt-[122px] px-4'>
-        <div className=' bg-[#FEF5D0] lg:rounded-l-2xl rounded-t-2xl py-8 md:py-16 pl-8 md:pl-16 pr-7 md:pr-14 flex justify-center flex-col'>
-          <h1 className='md:text-5xl  mb-4 font-bold'>Giá trị cốt lõi</h1>
-          <ul className='md:text-lg font-normal'>
+        <div className=' bg-[#FEF5D0] lg:rounded-l-2xl max-h-[581px] rounded-t-2xl py-8 md:py-16 pl-[72px] md:pl-16 pr-7 md:pr-10 flex justify-center flex-col'>
+          <h1 className='text-5xl  mb-4 font-bold'>Giá trị cốt lõi</h1>
+          <ul className='text-lg font-normal'>
             <li>
               <span className='font-bold'>Bền vững:</span> Chúng tôi tập trung vào việc xây dựng những giá trị dài lâu, đảm bảo người khiếm thính có thể phát triển lâu dài trong tương lai.
             </li>
             <li>
-              <span className='font-bold'>Bền vững:</span> Mọi hoạt động của chúng tôi đều hướng tới việc chuẩn bị cho người khiếm thính một tương lai tốt đẹp hơn thông qua việc phát triển các kỹ năng
+              <span className='font-bold'>Tương lai:</span> Mọi hoạt động của chúng tôi đều hướng tới việc chuẩn bị cho người khiếm thính một tương lai tốt đẹp hơn thông qua việc phát triển các kỹ năng
               sống và nghề nghiệp.
             </li>
             <li>
-              <span className='font-bold'>Hòa nhập:</span> Mọi hoạt động của chúng tôi đều hướng tới việc chuẩn bị cho người khiếm thính một tương lai tốt đẹp hơn thông qua việc phát triển các kỹ năng
-              sống và nghề nghiệp.
+              <span className='font-bold'>Hòa nhập:</span> Chúng tôi khuyến khích và tạo điều kiện để người khiếm thính hòa nhập vào cộng đồng, giúp họ trở thành những phần tử tích cực và tự lập.
             </li>
             <li>
-              <span className='font-bold'>Khả năng:</span> Mọi hoạt động của chúng tôi đều hướng tới việc chuẩn bị cho người khiếm thính một tương lai tốt đẹp hơn thông qua việc phát triển các kỹ năng
-              sống và nghề nghiệp.
+              <span className='font-bold'>Khả năng:</span> Chúng tôi tin tưởng vào khả năng và tiềm năng của mỗi cá nhân, luôn thúc đẩy sự tự tin và phát triển tối đa của họ.
             </li>
             <li>
-              <span className='font-bold'>Đồng cảm và Tôn trọng:</span> Mọi hoạt động của chúng tôi đều hướng tới việc chuẩn bị cho người khiếm thính một tương lai tốt đẹp hơn thông qua việc phát
-              triển các kỹ năng sống và nghề nghiệp.
+              <span className='font-bold'>Đồng cảm và Tôn trọng:</span>  Chúng tôi xây dựng một môi trường nơi mỗi người, không phân biệt khuyết tật, đều được đối xử công bằng và tôn trọng.
             </li>
           </ul>
         </div>
-        <div className='ld:rounded-r-2xl rounded-b-2xl'>
-          <img src='/image/hoatdong2.png' alt='' className='ld:rounded-r-2xl rounded-b-2xl  w-full h-full object-cover' />
+        <div className='ld:rounded-r-2xl rounded-b-2xl h-full'>
+          <img src='/image/hoatdong2.png' alt='' className='ld:rounded-r-2xl rounded-b-2xl rounded-bl-none  w-full h-full object-cover' />
         </div>
       </div>
       <div className='max-w-7xl mx-auto mt-6 px-4'>
-        <div className='bg-[#F2F2F3] rounded-2xl py-8 md:py-16 pl-8 md:pl-16 pr-7 md:pr-14 flex justify-center flex-col'>
-          <h1 className='md:text-5xl  mb-4 font-bold'>Quy tắc gây quỹ của Foundation for Future</h1>
-          <p className='md:text-lg font-normal mb-4'>
+        <div className='bg-[#F2F2F3] rounded-2xl py-8 px-[72px] flex justify-center flex-col'>
+          <h1 className='text-5xl  mb-4 font-bold'>Quy tắc gây quỹ của Foundation for Future</h1>
+          <p className='text-lg font-normal mb-4'>
             Tại Foundation for Future, chúng tôi trân trọng từng sự đóng góp từ cộng đồng – những người tin vào một xã hội công bằng, nơi người khiếm thính có thể tiếp cận giáo dục, đào tạo nghề và cơ
             hội việc làm một cách bình đẳng. Chính vì vậy, chúng tôi cam kết xây dựng và thực hiện các nguyên tắc gây quỹ minh bạch, độc lập và có trách nhiệm.
           </p>

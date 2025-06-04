@@ -17,7 +17,7 @@ export default function page() {
             >
               Nghề nghiệp
             </Link>
-            <span className="mx-2 text-2xl text-black">&gt;</span>
+            <span className="mx-2 text-2xl text-black"><img src="/arrow.png" alt="" /></span>
             <span className="text-[#3A63ED]">Đào tạo nghề</span>
           </div>
         </div>

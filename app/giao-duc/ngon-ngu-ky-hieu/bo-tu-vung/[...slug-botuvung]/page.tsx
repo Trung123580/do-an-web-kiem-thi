@@ -73,9 +73,9 @@ export default async function page({ params }: { params: Params }) {
                         >
                             Giáo dục
                         </Link>
-                        <span className="mx-2 text-2xl text-black">&gt;</span>
+                        <span className="mx-2 text-2xl text-black"><img src="/arrow.png" alt="" /></span>
                         <Link href={'/giao-duc/ngon-ngu-ky-hieu'} className="text-[#A0A3A9] line-clamp-1">Ngôn ngữ ký hiệu</Link>
-                        <span className="mx-2 text-2xl text-black">&gt;</span>
+                        <span className="mx-2 text-2xl text-black"><img src="/arrow.png" alt="" /></span>
                         <span className="text-[#3A63ED] line-clamp-1">{boTuVungDetail?.title}</span>
                     </div>
                 </div>

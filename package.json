@@ -16,8 +16,10 @@
     "@next/third-parties": "^15.3.2",
     "firebase": "^11.6.0",
     "framer-motion": "^12.8.2",
+    "i": "^0.3.7",
     "lucide-react": "^0.487.0",
     "next": "15.3.0",
+    "npm": "^10.9.2",
     "react": "^19.0.0",
     "react-chatbotify": "^2.0.0-beta.35",
     "react-dom": "^19.0.0",
@@ -26,6 +28,7 @@
     "react-icons": "^5.5.0",
     "react-player": "^2.16.0",
     "react-slick": "^0.30.3",
+    "react-tooltip": "^5.28.1",
     "slick-carousel": "^1.8.1",
     "swiper": "^11.2.6"
   },

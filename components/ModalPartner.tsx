@@ -78,7 +78,7 @@ export default function ModalPartner({ isOpen, closeModal }: ModalPartnerProps) 
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-xl bg-white p-6 shadow-xl transition-all">
+              <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-xl bg-white px-6 pb-[56px] pt-[32px] shadow-xl transition-all">
                 <div className="flex justify-end">
                   <button
                     onClick={handleClose}
@@ -101,7 +101,7 @@ export default function ModalPartner({ isOpen, closeModal }: ModalPartnerProps) 
 
                     <form onSubmit={handleSubmit} className="space-y-4">
                       <div className="grid grid-cols-2 gap-4">
-                        <div>
+                        {/* <div>
                           <input
                             type="text"
                             value={dataSubmit.firstName}
@@ -110,38 +110,80 @@ export default function ModalPartner({ isOpen, closeModal }: ModalPartnerProps) 
                             className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                             required
                           />
+                        </div> */}
+                        <div className='relative'>
+                          <label htmlFor='ten' className={`${dataSubmit.firstName.length !== 0 ? "hidden" : "block"} text-sm absolute left-3 text-gray-500 top-1/2 -translate-y-1/2`}>
+                            Tên đầy đủ <span className='text-red-600'>*</span>
+                          </label>
+                          <input
+                            id="ten"
+                            required
+                            value={dataSubmit.firstName}
+                            onChange={(e) => setDataSubmit({ ...dataSubmit, firstName: e.target.value })}
+                            className="w-full px-2 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                            type="text"
+                          />
                         </div>
-                        <div>
+                        <div className='relative'>
+                          <label htmlFor='ho-ten' className={`${dataSubmit.lastName.length !== 0 ? "hidden" : "block"} text-sm absolute left-3 text-gray-500 top-1/2 -translate-y-1/2`}>
+                           Họ đầy đủ <span className='text-red-600'>*</span>
+                          </label>
+                          <input
+                            id="ho-ten"
+                            required
+                            value={dataSubmit.lastName}
+                            onChange={(e) => setDataSubmit({ ...dataSubmit, lastName: e.target.value })}
+                            className="w-full px-2 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                            type="text"
+                          />
+                        </div>
+                        {/* <div>
                           <input
                             type="text"
                             value={dataSubmit.lastName}
                             onChange={(e) => setDataSubmit({...dataSubmit,lastName: e.target.value})}
                             placeholder="Họ đầy đủ*"
-                            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                            className="w-full px-2 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                             required
                           />
-                        </div>
+                        </div> */}
                       </div>
-
+                       <div className='relative'>
+                          <label htmlFor='email' className={`${dataSubmit.email.length !== 0 ? "hidden" : "block"} text-sm absolute left-3 text-gray-500 top-1/2 -translate-y-1/2`}>
+                           Email <span className='text-red-600'>*</span>
+                          </label>
+                          <input
+                            type="email"
+                            required
+                            id="email"
+                            value={dataSubmit.email}
+                            onChange={(e) => setDataSubmit({ ...dataSubmit, email: e.target.value })}
+                            className="w-full px-2 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                          />
+                        </div>
                       <div>
-                        <input
+                        {/* <input
                           type="email"
                           value={dataSubmit.email}
                           onChange={(e) => setDataSubmit({...dataSubmit,email: e.target.value})}
                           placeholder="Email*"
                           className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                           required
-                        />
+                        /> */}
                       </div>
 
-                      <div>
+                      <div className="relative">
+                        <label htmlFor='select' className={`${dataSubmit.reasonToParticipate !== 0 ? "hidden" : "block"} z-0 text-sm absolute left-3 text-gray-500 top-1/2 -translate-y-1/2`}>
+                           Lý do gửi yêu cầu <span className='text-red-600'>*</span>
+                        </label>
                         <select
                           value={dataSubmit.reasonToParticipate}
                           onChange={(e) => setDataSubmit({...dataSubmit,reasonToParticipate: Number(e.target.value)})}
-                          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-500"
+                          className="w-full px-2 py-2 border relative z-10 border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-500"
                           required
+                          id="select"
                         >
-                          <option value={0}>Lý do gửi yêu cầu*</option>
+                          <option value={0}></option>
                           <option value={1}>Nhà tài trợ</option>
                           <option value={2}>Phương tiện truyền thông</option>
                           <option value={3}>Quan hệ đối tác</option>
@@ -151,16 +193,26 @@ export default function ModalPartner({ isOpen, closeModal }: ModalPartnerProps) 
                         </select>
                       </div>
 
-                      <div>
+                      <div className="relative">
+                        <label htmlFor='select' className={`${dataSubmit.content.length !== 0 ? "hidden" : "block"} z-0 text-sm absolute left-3 text-gray-500 top-[10px]`}>
+                           Nội dung yêu cầu <span className='text-red-600'>*</span>
+                        </label>
                         <textarea
                           value={dataSubmit.content}
-                          onChange={(e) => setDataSubmit({...dataSubmit,content: e.target.value})}
-                          placeholder="Nội dung yêu cầu*"
+                          onChange={(e) =>
+                            setDataSubmit({
+                              ...dataSubmit,
+                              content: e.target.value.slice(0, 200),
+                            })
+                          }
                           rows={4}
-                          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none"
+                          maxLength={200}
+                          className="w-full px-2 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none"
                           required
                         />
-                        <p className="text-[10px]">Tối đa 200 ký tự ( còn lại 200 ký tự)</p>
+                        <p className="text-[10px]">
+                          Tối đa 200 ký tự ( còn lại {200 - dataSubmit.content.length} ký tự)
+                        </p>
                       </div>
 
                       <div className="text-xs text-gray-500">
@@ -184,7 +236,7 @@ export default function ModalPartner({ isOpen, closeModal }: ModalPartnerProps) 
                       Trở thành một phần của chúng tôi và cùng xây dựng một tương lai tươi sáng cho cộng đồng người khiếm thính
                     </p>
                     <div className="w-60 h-w-60 mx-auto mb-6">
-                      <img src="/image/heart.png" alt="" className="w-full h-full object-cover" />
+                      <img src="/heart.gif" alt="" className="w-full h-full object-cover" />
                     </div>
                   </div>
                 )}

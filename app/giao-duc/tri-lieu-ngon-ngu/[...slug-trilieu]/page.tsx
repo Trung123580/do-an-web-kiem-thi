@@ -36,9 +36,9 @@ export default function page() {
                         >
                             Giáo dục
                         </Link>
-                        <span className="mx-2 text-2xl text-black">&gt;</span>
+                        <span className="mx-2 text-2xl text-black"><img src="/arrow.png" alt="" /></span>
                         <Link href={'/giao-duc/tri-lieu-ngon-ngu'} className="text-[#A0A3A9] line-clamp-1">Trị liệu ngôn ngữ</Link>
-                        <span className="mx-2 text-2xl text-black">&gt;</span>
+                        <span className="mx-2 text-2xl text-black"><img src="/arrow.png" alt="" /></span>
                         <span className="text-[#3A63ED] line-clamp-1">{khoahocDetail?.title}</span>
                     </div>
                 </div>

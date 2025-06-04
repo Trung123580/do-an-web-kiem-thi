@@ -21,14 +21,14 @@ export default function TaitroDetailPage() {
               >
                Cộng đồng
               </Link>
-              <span className="mx-2 text-2xl text-black">&gt;</span>
+              <span className="mx-2 text-2xl text-black"><img src="/arrow.png" alt="" /></span>
               <Link
                 href="/cong-dong/hoat-dong"
                 className="text-[#A0A3A9] hover:text-gray-900"
               >
               Hoạt động
               </Link>
-              <span className="mx-2 text-2xl text-black">&gt;</span>
+              <span className="mx-2 text-2xl text-black"><img src="/arrow.png" alt="" /></span>
               <span className="text-[#3A63ED]">Chương trình tài trợ</span>
             </div>
           </div>

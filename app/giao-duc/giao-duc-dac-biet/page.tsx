@@ -18,7 +18,7 @@ export default function page() {
             >
               Giáo dục
             </Link>
-            <span className="mx-2 text-2xl text-black">&gt;</span>
+            <span className="mx-2 text-2xl text-black"><img src="/arrow.png" alt="" /></span>
             <span className="text-[#3A63ED]">Giáo dục đặc biệt</span>
           </div>
         </div>

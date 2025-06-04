@@ -1,7 +1,7 @@
 "use client"
 import Link from "next/link"
 import React, { useState } from "react"
-
+import { Tooltip } from 'react-tooltip'
 const questions = [
   "Tôi hiểu ý người khác khi họ ra dấu hoặc nhìn nét mặt",
   "Tôi biết cách thể hiện cảm xúc của mình để người khác hiểu",
@@ -103,13 +103,13 @@ const Page = () => {
     <div className='min-h-screen pt-20 bg-[#D8E0FB] '>
       <div className='bg-[#3a63ed] text-white px-6 pb-4  h-[232px] flex flex-col justify-center'>
         <div className='max-w-7xl mx-auto px-4'>
-          <h2 className='m-0 text-5xl font-bold mt-10'>Hướng dẫn làm bài kiểm tra kỹ năng làm việc</h2>
+          <h2 className='m-0 text-5xl font-bold mt-10 mb-2'>Hướng dẫn làm bài kiểm tra kỹ năng làm việc</h2>
           <p className='m-0 text-lg font-normal'>Bạn hãy đọc những mệnh đề dưới đây và nhận định vào độ chính xác của mệnh đề đó với bản thân mình, từ 1 (Hoàn toàn sai) đến 4 (Hoàn toàn đúng)</p>
         </div>
       </div>
-      <div className='rounded-lg pt-[67px] pb-[96px] max-w-7xl mx-auto px-4 md:px-0'>
+      <div className='rounded-lg pb-[96px] max-w-7xl mx-auto px-4 md:px-0'>
         {/* Progress Bar */}
-        <div className='pb-[56px]'>
+        <div className='pb-[20px] mb-[36px] pt-[67px] sticky top-[80px] bg-[#D8E0FB] '>
           <div className='h-4 bg-blue-200 rounded-2xl overflow-hidden'>
             <div className='h-full bg-[#3A63ED] transition-all duration-300' style={{ width: `${progressPercent}%` }} />
           </div>
@@ -122,18 +122,33 @@ const Page = () => {
           {questions.map((q, idx) => (
             <div key={idx} className='bg-white rounded-xl p-5 shadow-sm'>
               <div className='mb-3 text-[20px] md:text-[32px] font-normal text-center'>{q}</div>
-              <div className='flex justify-center'>
+              <div className='flex justify-center py-3'>
                 {options.map((opt) => (
-                  <label key={opt} className='flex flex-col items-center text-sm mx-4'>
+                    <label key={opt} className='flex flex-col items-center text-sm mx-20'>
                     <input
                       type='radio'
                       name={`q${idx}`}
                       value={opt}
-                      className='mb-1 accent-[#3A63ED] cursor-pointer w-[25px] h-[25px] md:w-[33px] md:h-[33px]'
+                      className='mb-1 accent-[#3A63ED] cursor-pointer w-[33px] h-[33px]'
                       checked={answers[idx] === opt}
                       onChange={() => handleChange(idx, opt)}
+                      data-tooltip-id={`tooltip-q${idx}-opt${opt}`}
                     />
-                  </label>
+                    <Tooltip
+                      id={`tooltip-q${idx}-opt${opt}`}
+                      place="bottom-start"
+                      className="!bg-[#D8E0FB] !text-black"
+                      content={
+                      opt === 1
+                        ? "Hoàn toàn sai"
+                        : opt === 2
+                        ? "Thường là sai"
+                        : opt === 3
+                        ? "Đúng"
+                        : "Hoàn toàn đúng"
+                      }
+                    />
+                    </label>
                 ))}
               </div>
             </div>
@@ -141,7 +156,7 @@ const Page = () => {
         </form>
         <div className='flex items-center justify-center mt-[56px]'>
           <button onClick={() => setStep(2)} className='bg-[#3A63ED] mx-auto text-white py-5 px-[72px] text-2xl rounded-lg font-[Inter] hover:bg-[#89A1F4] transition-all'>
-            Ứng tuyển ngay
+            Xem kết quả
           </button>
         </div>
       </div>

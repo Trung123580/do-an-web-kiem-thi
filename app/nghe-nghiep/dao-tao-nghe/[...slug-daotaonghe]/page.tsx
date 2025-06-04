@@ -36,9 +36,9 @@ export default function page() {
                         >
                           Nghề nghiệp
                         </Link>
-                        <span className="mx-2 text-2xl text-black">&gt;</span>
+                        <span className="mx-2 text-2xl text-black"><img src="/arrow.png" alt="" /></span>
                         <Link href={'/nghe-nghiep/dao-tao-nghe'} className="text-[#A0A3A9] line-clamp-1">Đào tạo nghề</Link>
-                        <span className="mx-2 text-2xl text-black">&gt;</span>
+                        <span className="mx-2 text-2xl text-black"><img src="/arrow.png" alt="" /></span>
                         <span className="text-[#3A63ED] line-clamp-1">{daotaoDetail?.title}</span>
                     </div>
                 </div>

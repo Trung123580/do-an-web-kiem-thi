@@ -82,17 +82,17 @@ const Page = () => {
         <div className='bg-[#3A63ED] px-8 py-16'>
           <div className='max-w-7xl mx-auto'>
             <h1 className='text-white text-5xl font-bold mb-3'>Việc làm phù hợp</h1>
-            <p className='text-white text-lg mb-6'>Tìm kiếm những công việc phù hợp nhất cùng những quyền lợi đặc biệt.</p>
+            <p className='text-white text-lg mb-[80px]'>Tìm kiếm những công việc phù hợp nhất cùng những quyền lợi đặc biệt.</p>
             <div className='flex flex-col w-full md:flex-row gap-4 items-center'>
               <input
                 type='text'
                 placeholder='Tìm kiếm'
-                className='rounded-lg px-4 py-2 w-full md:w-1/3 text-lg bg-white outline-0'
+                className='rounded-lg px-4 h-[57px] w-full md:w-[442px] text-lg bg-white outline-0'
                 value={inputValue}
                 onChange={(e) => setInputValue(e.target.value)}
               />
               <div className='flex grow justify-between'>
-                <div className='bg-white grow text-lg justify-center rounded-lg px-4 py-2 flex items-center gap-2 border border-[#3A63ED] relative'>
+                <div className='bg-white grow text-lg justify-center rounded-lg px-4 h-[57px] flex items-center gap-2 border border-[#3A63ED] relative'>
                   <div onClick={handleFilter} className='flex items-center gap-2 justify-center w-full cursor-pointer'>
                     <svg xmlns='http://www.w3.org/2000/svg' width='25' height='25' viewBox='0 0 25 25' fill='none'>
                       <path
@@ -100,15 +100,21 @@ const Page = () => {
                         fill='#111827'
                       />
                     </svg>
-                    Bộ lọc:<span className='text-[#3A63ED]'>Địa điểm; Lĩnh vực; Mức lương; Hình thức</span>
+                    Bộ lọc:
+                    <span className='text-[#3A63ED]'>
+                      {dataFilter.districts.length > 0 ? `Địa điểm (${dataFilter.districts.length})` : 'Địa điểm'};
+                      {dataFilter.field.length > 0 ? ` Lĩnh vực (${dataFilter.field.length})` : ' Lĩnh vực'};
+                      {dataFilter.salaryRange.length > 0 ? ` Mức lương (${dataFilter.salaryRange.length})` : ' Mức lương'};
+                      {dataFilter.formSlug.length > 0 ? ` Hình thức (${dataFilter.formSlug.length})` : ' Hình thức'}
+                    </span>
                   </div>
                   {filter && (
-                    <div className='bg-[white] absolute top-full left-0 w-full rounded-lg grid grid-cols-3 gap-4 mt-2 p-2 shadow-lg'>
+                    <div id='filter' className='bg-[white] absolute top-full left-0 w-full rounded-lg grid grid-cols-3 gap-4 mt-2 p-2 shadow-lg'>
                       <div className='flex flex-col gap-2 px-1 p-2.5'>
                         <span className='text-lg font-normal text-left'>Địa điểm</span>
                         {districts.map((district, index) => {
                           return (
-                            <div key={district.value} className='flex items-center gap-3 px-1'>
+                            <div key={district.value}  className='flex items-center gap-3 px-2 hover:bg-[#F2F2F3] rounded-lg'>
                               <input
                                 type='checkbox'
                                 checked={dataFilter.districts.includes(district.value)}
@@ -138,7 +144,7 @@ const Page = () => {
                       <div className='flex flex-col gap-2 px-1 p-2.5'>
                         <span className='text-lg font-normal text-left'>Lĩnh vực</span>
                         {field.map((district, index) => (
-                          <div key={district.value} className='flex items-center gap-3 px-1'>
+                          <div key={district.value} className='flex items-center gap-3  px-2 hover:bg-[#F2F2F3] rounded-lg'>
                             <input
                               type='checkbox'
                               checked={dataFilter.field.includes(district.value)}
@@ -167,7 +173,7 @@ const Page = () => {
                       <div className='flex flex-col gap-2 px-1 p-2.5'>
                         <span className='text-lg font-normal text-left'>Mức lương</span>
                         {salaryRange.map((salary, index) => (
-                          <div key={salary.value} className='flex items-center gap-3 px-1'>
+                          <div key={salary.value} className='flex items-center gap-3  px-2 hover:bg-[#F2F2F3] rounded-lg'>
                             <input
                               type='checkbox'
                               checked={dataFilter.salaryRange.includes(salary.value)}
@@ -194,7 +200,7 @@ const Page = () => {
                         ))}
                         <span className='text-lg font-normal text-left'>Hình thức</span>
                         {formSlug.map((district, index) => (
-                          <div key={district.value} className='flex items-center gap-3 px-1'>
+                          <div key={district.value} className='flex items-center gap-3 px-2 hover:bg-[#F2F2F3] rounded-lg'>
                             <input
                               type='checkbox'
                               id={`district-${district.value}`}
@@ -223,7 +229,7 @@ const Page = () => {
                     </div>
                   )}
                 </div>
-                <button onClick={() => setData(filterData())} className='bg-[#222] text-white font-semibold rounded-lg px-8 py-2 ms-5'>
+                <button onClick={() => setData(filterData())} className='bg-black hover:bg-[#70747D] text-white font-semibold rounded-lg px-8 py-2 ms-5'>
                   Tìm kiếm
                 </button>
               </div>
@@ -234,7 +240,7 @@ const Page = () => {
         {data.length > 0 ? (
           <div className='max-w-7xl xl mx-auto px-4 xl:px-0  pt-[48px] pb-[96px] grid md:grid-cols-2 rid-cols-1 gap-6'>
             {data.map((job: any, idx: number) => (
-              <Link href={`/nghe-nghiep/tuyen-dung/${job.slug}`} key={idx} className='bg-[#F7F7F8] rounded-lg flex items-center gap-6 p-3 pr-6'>
+              <Link href={`/nghe-nghiep/tuyen-dung/${job.slug}`} key={idx} className='bg-[#F7F7F8] rounded-lg hover:border-[#B0C1F8] border border-transparent flex items-center gap-6 p-3 pr-6'>
                 <img src={job.img} alt={job.title} className='w-[136px] h-[136px] object-cover rounded-lg' />
                 <div className='flex flex-col gap-7 grow justify-between'>
                   <div>
@@ -261,15 +267,15 @@ const Page = () => {
         <div className='bg-[#4263EB] mx-auto px-4 py-16 mb-[96px] text-center max-w-7xl rounded-2xl'>
           <h2 className='text-3xl font-bold text-white mb-4'>Trở thành một phần của chúng tôi</h2>
           <p className='text-white/90 max-w-2xl mx-auto mb-8'>Góp phần hỗ trợ người khiếm thính bằng cách trở thành nhà tuyển dụng, đối tác tổ chức sự kiện và nhiều hình thức hợp tác khác.</p>
-          <button onClick={() => setIsOpen(true)} className='bg-black text-white px-6 py-3 rounded-lg hover:bg-[#70747D] transition-colors'>
+          <button onClick={() => setIsOpen(true)} className='bg-black text-white px-[56px] py-3 rounded-lg hover:bg-[#70747D] transition-colors'>
             Tham gia cùng chúng tôi
           </button>
         </div>
-        <div className='mt-20 '>
+        <div className='h-auto lg:h-[500px] relative bg-[#F2F2F3] flex items-center justify-center w-full'>
           {/* Hero section */}
-          <div className='flex flex-col-reverse xl:flex-row items-center justify-between bg-[#F2F2F3] pl-6 sm:pl-10 xl:pl-20 pb-8'>
+          <div className='flex mx-auto  max-w-7xl flex-col-reverse xl:flex-row'>
             {/* Left content */}
-            <div className='w-full xl:w-1/2 flex justify-center flex-col text-center xl:text-left'>
+            <div className='xl:w-1/2 relative lg:top-0 md:-top-[30px] top-[-190px] flex justify-center flex-col text-center xl:text-left'>
               <h1 className='text-3xl sm:text-4xl md:text-5xl font-bold mb-4 leading-snug'>
                 Hệ thống đánh giá <br />
                 <span className='text-[#3A63ED]'>Kỹ năng làm việc</span>
@@ -284,8 +290,8 @@ const Page = () => {
             </div>
 
             {/* Right image */}
-            <div className='w-full xl:w-1/2 mb-6 xl:mb-0 relative h-[250px] sm:h-[350px] md:h-[400px] xl:h-[500px] flex justify-center items-center'>
-              <img src='/image/nghe-nghiep/banner.png' alt='minh họa' className='max-h-full object-contain' />
+            <div className='relative lg:absolute bottom-[-40px] lg:-bottom-[64px] right-[5%] lg:right-[200px] md:scale-[.8] h-[515px]'>
+              <img src='/image/nghe-nghiep/banner.png' alt='minh họa' className='object-contain' />
             </div>
           </div>
         </div>

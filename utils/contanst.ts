@@ -3749,8 +3749,8 @@ export const dataJob_1 = [
 		benefits: ["Làm việc trong môi trường thân thiện, nhân văn và sáng tạo", "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng", "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng", "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc", "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật", "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định."],
 	},
 	{
-		img: "/image/job-8.jpg",
-		imgDetail: "/image/job-8.jpg",
+		img: "/image/job-18.jpg",
+		imgDetail: "/image/job-18.jpg",
 		title: "Marketing staff",
 		company: "CTY TNHH GIẢI PHÁP SỐ HÀ NỘI",
 		district: "tay-ho",
@@ -4058,8 +4058,8 @@ export const dataJob_1 = [
 		benefits: ["Làm việc trong môi trường thân thiện, nhân văn và sáng tạo", "Có cơ hội phát triển cá nhân và được đào tạo chuyên môn về truyền thông xã hội & giáo dục cộng đồng", "Tham gia các hoạt động, dự án có tác động xã hội sâu rộng", "Lương thưởng, hỗ trợ theo năng lực và hiệu quả công việc", "Chế độ nghỉ phép, nghỉ lễ theo quy định pháp luật", "Được đóng BHXH, BHYT, BHTN đầy đủ theo quy định."],
 	},
 	{
-		img: "/image/job-18.jpg",
-		imgDetail: "/image/job-18.jpg",
+		img: "/image/job-8.jpg",
+		imgDetail: "/image/job-8.jpg",
 		title: "Business Development Executive",
 		company: "CTY TNHH PHÁT TRIỂN DOANH NGHIỆP HÀ NỘI",
 		district: "ba-dinh",

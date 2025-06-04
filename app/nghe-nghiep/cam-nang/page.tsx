@@ -15,7 +15,7 @@ export default function page() {
             <Link href='/giao-duc' className='text-[#A0A3A9] hover:text-gray-900'>
               Giáo dục
             </Link>
-            <span className='mx-2 text-2xl text-black'>&gt;</span>
+            <span className='mx-2 text-2xl text-black'><img src="/arrow.png" alt="" /></span>
             <span className='text-[#3A63ED]'>Cẩm nang</span>
           </div>
         </div>

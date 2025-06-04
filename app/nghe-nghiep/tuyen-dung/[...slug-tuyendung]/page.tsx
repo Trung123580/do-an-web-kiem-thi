@@ -36,11 +36,15 @@ export default function JobDetailPage() {
               <Link href='/nghe-nghiep/tuyen-dung' className='text-[#A0A3A9] hover:text-gray-900'>
                 Tuyển dụng
               </Link>
-              <span className='mx-2 text-2xl text-black'>&gt;</span>
+              <span className='mx-2 text-2xl text-black'>
+                <img src="/arrow.png" alt="" />
+              </span>
               <span className={`${step === 2 || step === 3 ? "text-[#A0A3A9]" : "text-[#3A63ED]"}`}>{jobDetail?.title}</span>
               {(step === 2 || step === 3) && (
                 <>
-                  <span className='mx-2 text-2xl text-black'>&gt;</span>
+                  <span className='mx-2 text-2xl text-black'>
+                    <img src="/arrow.png" alt="" />
+                  </span>
                   <span className='text-[#3A63ED]'>Ứng tuyển</span>
                 </>
               )}
@@ -49,11 +53,11 @@ export default function JobDetailPage() {
         </nav>
         {step !== 3 && (
           <div className='shadow-sm bg-white rounded-xl py-8 px-8 mb-8'>
-            <div className='flex flex-col md:flex-row gap-6 items-center h-full'>
+            <div className='flex flex-col md:flex-row gap-12 h-full w-full'>
               <div className='rounded-xl flex-shrink-0 h-full'>
                 <Image src={jobDetail?.imgDetail || ""} alt='Content Creator Icon' width={305} height={305} className='object-cover rounded-xl h-[305px]' />
               </div>
-              <div className='flex justify-evenly flex-col h-full flex-1'>
+              <div className='flex justify-between flex-col flex-1'>
                 <span className='text-gray-500 text-sm mb-1 bg-[#F2F2F3] py-1 px-3 size-max rounded-xs'>Hạn nộp hồ sơ: {jobDetail?.deadline}</span>
                 <h1 className='text-3xl md:text-5xl font-bold mb-5 md:mb-2'>
                   {jobDetail?.title} <br />
@@ -121,61 +125,89 @@ export default function JobDetailPage() {
                   <h3 className='text-[32px] font-bold text-[#2E4FBE] mb-4'>Thời gian làm việc</h3>
                   <p className='text-gray-600 text-base'>Thứ 2 đến Thứ 6, từ 8h30 - 17h30 (nghỉ trưa 1 tiếng) | Có thể hỗ trợ làm việc remote linh hoạt</p>
                 </div>
-                {/* Mô tả công việc */}
-                <div>
-                  <h3 className='text-[32px] font-bold text-[#2E4FBE] mb-4'>Mô tả công việc</h3>
-                  <ul className='list-disc list-inside space-y-2 text-gray-600 text-base'>
-                    {jobDetail?.jobDescription.map((item, index) => (
-                      <li key={index} className='text-base'>
-                        {item}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
               </>
             )}
             {step === 2 && (
               <form onSubmit={handleSubmit}>
-                <div>
+                  <div>
                   <h3 className='text-[32px] font-bold text-[#2E4FBE] mb-4'>Thông tin cá nhân</h3>
                   <div className='flex flex-col gap-4'>
                     <div className='flex flex-col gap-1 text-sm font-bold'>
-                      <label htmlFor='name'>Họ và tên</label>
-                      <input
+                      <label htmlFor='fullName'>Họ và tên</label>
+                      {/* <input
                         value={dataSubmit.fullName}
                         onChange={(e) => setDataSubmit({ ...dataSubmit, fullName: e.target.value })}
                         placeholder='Họ và tên*'
                         className='outline-0 border-2 border-[#CFD1D4] px-8 py-4 rounded-lg text-lg max-w-[582px] font-normal'
                         type='text'
                         id='name'
-                      />
+                      /> */}
+                      <div className='relative w-full'>
+                        <label htmlFor='fullName' className={`${dataSubmit.fullName.length !== 0 ? "hidden" : "block"} text-base font-normal absolute left-8 text-[#A0A3A9] top-1/2 -translate-y-1/2`}>
+                          Họ và tên <span className='text-red-600'>*</span>
+                        </label>
+                        <input
+                          required
+                          id='fullName'
+                          value={dataSubmit.fullName}
+                          onChange={(e) => setDataSubmit({ ...dataSubmit, fullName: e.target.value })}
+                          className='outline-0 border-2 border-[#CFD1D4] px-7 py-4 rounded-lg w-full text-lg max-w-[582px] font-normal'
+                        />
+                      </div>
                     </div>
+                    
                     <div className='flex flex-col gap-1 text-sm  font-bold'>
                       <label htmlFor='email'>Email</label>
-                      <input
+                      {/* <input
                         value={dataSubmit.email}
                         onChange={(e) => setDataSubmit({ ...dataSubmit, email: e.target.value })}
                         placeholder='Email*'
-                        className='outline-0 border-2 border-[#CFD1D4] px-8 py-4 rounded-lg text-lg max-w-[582px]  font-normal'
+                        className='outline-0 border-2 border-[#CFD1D4] px-7 py-4 rounded-lg text-lg max-w-[582px]  font-normal'
                         type='text'
                         id='email'
-                      />
+                      /> */}
+                       <div className='relative w-full'>
+                        <label htmlFor='email' className={`${dataSubmit.email.length !== 0 ? "hidden" : "block"} text-base font-normal absolute left-8 text-[#A0A3A9] top-1/2 -translate-y-1/2`}>
+                          Email <span className='text-red-600'>*</span>
+                        </label>
+                        <input
+                          required
+                          id='email'
+                          type="email"
+                          value={dataSubmit.email}
+                          onChange={(e) => setDataSubmit({ ...dataSubmit, email: e.target.value })}
+                          className='outline-0 border-2 border-[#CFD1D4] px-7 py-4 rounded-lg w-full text-lg max-w-[582px] font-normal'
+                        />
+                      </div>
                     </div>
                     <div className='flex flex-col gap-1 text-sm  font-bold'>
                       <label htmlFor='phone'>Số điện thoại</label>
-                      <input
+                      {/* <input
                         value={dataSubmit.phone}
                         onChange={(e) => setDataSubmit({ ...dataSubmit, phone: e.target.value })}
                         placeholder='Số điện thoại*'
-                        className='outline-0 border-2 border-[#CFD1D4] px-8 py-4 rounded-lg text-lg max-w-[582px] font-normal'
+                        className='outline-0 border-2 border-[#CFD1D4] px-7 py-4 rounded-lg text-lg max-w-[582px] font-normal'
                         type='text'
                         id='phone'
-                      />
+                      /> */}
+                      <div className='relative w-full'>
+                        <label htmlFor='phone' className={`${dataSubmit.phone.length !== 0 ? "hidden" : "block"} text-base font-normal absolute left-8 text-[#A0A3A9] top-1/2 -translate-y-1/2`}>
+                          Số điện thoại <span className='text-red-600'>*</span>
+                        </label>
+                        <input
+                          required
+                          id='phone'
+                          type="number"
+                          value={dataSubmit.phone}
+                          onChange={(e) => setDataSubmit({ ...dataSubmit, phone: e.target.value })}
+                          className='outline-0 border-2 border-[#CFD1D4] px-7 py-4 rounded-lg w-full text-lg max-w-[582px] font-normal'
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
                 <div>
-                  <h3 className='text-[32px] font-bold text-[#2E4FBE] mb-4'>CV hoặc sơ yếu lý lịch</h3>
+                  <h3 className='text-[32px] font-bold text-[#2E4FBE] mb-2 mt-[25px]'>CV hoặc sơ yếu lý lịch</h3>
                   <p className='text-black text-base mb-6'>Tải lên CV hoặc hồ sơ xin việc của bạn</p>
                   <label htmlFor='file' className='cursor-pointer max-w-[582px] border-2 border-[#CFD1D4] flex justify-center items-center h-[250px] rounded-lg '>
                     <div className='text-center text-[#A0A3A9]'>
@@ -187,13 +219,13 @@ export default function JobDetailPage() {
                   <input type='file' id='file' className='hidden' />
                 </div>
                 <div>
-                  <h3 className='text-[32px] font-bold text-[#2E4FBE] mb-4'>Thư giới thiệu</h3>
+                  <h3 className='text-[32px] font-bold text-[#2E4FBE] mb-2 mt-[25px]'>Thư giới thiệu</h3>
                   <p className='text-gray-600 text-base mb-6'>Một thư giới thiệu ngắn gọn, chỉn chu sẽ giúp bạn trở nên chuyên nghiệp và gây ấn tượng hơn với nhà tuyển dụng.</p>
                   <textarea
                     value={dataSubmit.textAria}
                     onChange={(e) => setDataSubmit({ ...dataSubmit, textAria: e.target.value })}
                     placeholder='Gửi một nội dung đến nhà tuyển dụng'
-                    className='outline-0 border-2 border-[#CFD1D4] px-8 py-4 rounded-lg text-lg w-full h-[250px] font-normal'
+                    className='outline-0 border-2 border-[#CFD1D4] px-7 py-4 rounded-lg text-lg w-full h-[250px] font-normal'
                     id='coverLetter'></textarea>
                 </div>
                 <p className='mt-12 mb-12 text-lg text-[#A0A3A9]'>

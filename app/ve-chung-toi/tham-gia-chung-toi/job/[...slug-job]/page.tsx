@@ -30,30 +30,31 @@ export default function JobDetailPage() {
   return (
     <div className='min-h-screen bg-gray-50 pt-24 pb-8'>
       <div className='container mx-auto px-4 max-w-7xl'>
-        <nav className='bg-transparent'>
+        
+        {step === 3 ? <></> : <nav className='bg-transparent'>
           <div className='mx-auto'>
             <div className='flex items-center h-12 mb-8'>
               <Link href='/ve-chung-toi/tham-gia-chung-toi' className='text-[#A0A3A9] hover:text-gray-900'>
                 Tham gia cùng chúng tôi
               </Link>
-              <span className='mx-2 text-2xl text-black'>&gt;</span>
+              <span className='mx-2 text-2xl text-black'><img src="/arrow.png" alt="" /></span>
               <span className={`${step === 2 || step === 3 ? "text-[#A0A3A9]" : "text-[#3A63ED]"}`}>{jobDetail?.titleDes}</span>
               {(step === 2 || step === 3) && (
                 <>
-                  <span className='mx-2 text-2xl text-black'>&gt;</span>
+                  <span className='mx-2 text-2xl text-black'><img src="/arrow.png" alt="" /></span>
                   <span className='text-[#3A63ED]'>Ứng tuyển</span>
                 </>
               )}
             </div>
           </div>
-        </nav>
+        </nav>}
         {step !== 3 && (
           <div className='shadow-sm bg-white rounded-xl py-8 px-8 mb-8'>
-            <div className='flex flex-col md:flex-row gap-6 items-center h-full'>
+            <div className='flex flex-col md:flex-row gap-12 h-full w-full'>
               <div className='rounded-xl flex-shrink-0 h-full'>
                 <Image src={jobDetail?.imgDetail || ""} alt='Content Creator Icon' width={305} height={305} className='object-cover rounded-xl h-full' />
               </div>
-              <div className='flex justify-evenly flex-col h-full flex-1'>
+              <div className='flex justify-between flex-col flex-1 w-full'>
                 <span className='text-gray-500 text-sm mb-1 bg-[#F2F2F3] py-1 px-3 size-max rounded-xs'>Hạn nộp hồ sơ: {jobDetail?.deadline}</span>
                 <h1 className='text-3xl md:text-5xl font-bold mb-5 md:mb-2'>
                   {jobDetail?.title} <br />
@@ -85,7 +86,7 @@ export default function JobDetailPage() {
                 {/* Mô tả công việc */}
                 <div>
                   <h3 className='text-[32px] font-bold text-[#2E4FBE] mb-4'>Mô tả công việc</h3>
-                  <ul className='list-disc list-inside space-y-2 text-gray-600 text-base'>
+                  <ul className='list-disc list-inside  text-gray-600 text-base'>
                     {jobDetail?.jobDescription.map((item, index) => (
                       <li key={index} className='text-base'>
                         {item}
@@ -96,7 +97,7 @@ export default function JobDetailPage() {
                 {/* Yêu cầu ứng viên */}
                 <div>
                   <h3 className='text-[32px] font-bold text-[#2E4FBE] mb-4'>Yêu cầu ứng viên</h3>
-                  <ul className='list-disc list-inside space-y-2 text-gray-600 text-base'>
+                  <ul className='list-disc list-inside  text-gray-600 text-base'>
                     {jobDetail?.candidateRequirements.map((item, index) => (
                       <li key={index} className='text-base'>
                         {item}
@@ -106,7 +107,7 @@ export default function JobDetailPage() {
                 </div>
                 <div>
                   <h3 className='text-[32px] font-bold text-[#2E4FBE] mb-4'>Quyền lợi</h3>
-                  <ul className='list-disc list-inside space-y-2 text-gray-600 text-base'>
+                  <ul className='list-disc list-inside  text-gray-600 text-base'>
                     {jobDetail?.benefits.map((item, index) => (
                       <li key={index} className='text-base'>
                         {item}
@@ -122,16 +123,16 @@ export default function JobDetailPage() {
                   <p className='text-gray-600 text-base'>Thứ 2 đến Thứ 6, từ 8h30 - 17h30 (nghỉ trưa 1 tiếng) | Có thể hỗ trợ làm việc remote linh hoạt</p>
                 </div>
                 {/* Mô tả công việc */}
-                <div>
+                {/* <div>
                   <h3 className='text-[32px] font-bold text-[#2E4FBE] mb-4'>Mô tả công việc</h3>
-                  <ul className='list-disc list-inside space-y-2 text-gray-600 text-base'>
+                  <ul className='list-disc list-inside  text-gray-600 text-base'>
                     {jobDetail?.jobDescription.map((item, index) => (
                       <li key={index} className='text-base'>
                         {item}
                       </li>
                     ))}
                   </ul>
-                </div>
+                </div> */}
               </>
             )}
             {step === 2 && (
@@ -140,42 +141,81 @@ export default function JobDetailPage() {
                   <h3 className='text-[32px] font-bold text-[#2E4FBE] mb-4'>Thông tin cá nhân</h3>
                   <div className='flex flex-col gap-4'>
                     <div className='flex flex-col gap-1 text-sm font-bold'>
-                      <label htmlFor='name'>Họ và tên</label>
-                      <input
+                      <label htmlFor='fullName'>Họ và tên</label>
+                      {/* <input
                         value={dataSubmit.fullName}
                         onChange={(e) => setDataSubmit({ ...dataSubmit, fullName: e.target.value })}
                         placeholder='Họ và tên*'
                         className='outline-0 border-2 border-[#CFD1D4] px-8 py-4 rounded-lg text-lg max-w-[582px] font-normal'
                         type='text'
                         id='name'
-                      />
+                      /> */}
+                      <div className='relative w-full'>
+                        <label htmlFor='fullName' className={`${dataSubmit.fullName.length !== 0 ? "hidden" : "block"} text-base font-normal absolute left-8 text-[#A0A3A9] top-1/2 -translate-y-1/2`}>
+                          Họ và tên <span className='text-red-600'>*</span>
+                        </label>
+                        <input
+                          required
+                          id='fullName'
+                          value={dataSubmit.fullName}
+                          onChange={(e) => setDataSubmit({ ...dataSubmit, fullName: e.target.value })}
+                          className='outline-0 border-2 border-[#CFD1D4] px-7 py-4 rounded-lg w-full text-lg max-w-[582px] font-normal'
+                        />
+                      </div>
                     </div>
+                    
                     <div className='flex flex-col gap-1 text-sm  font-bold'>
                       <label htmlFor='email'>Email</label>
-                      <input
+                      {/* <input
                         value={dataSubmit.email}
                         onChange={(e) => setDataSubmit({ ...dataSubmit, email: e.target.value })}
                         placeholder='Email*'
-                        className='outline-0 border-2 border-[#CFD1D4] px-8 py-4 rounded-lg text-lg max-w-[582px]  font-normal'
+                        className='outline-0 border-2 border-[#CFD1D4] px-7 py-4 rounded-lg text-lg max-w-[582px]  font-normal'
                         type='text'
                         id='email'
-                      />
+                      /> */}
+                       <div className='relative w-full'>
+                        <label htmlFor='email' className={`${dataSubmit.email.length !== 0 ? "hidden" : "block"} text-base font-normal absolute left-8 text-[#A0A3A9] top-1/2 -translate-y-1/2`}>
+                          Email <span className='text-red-600'>*</span>
+                        </label>
+                        <input
+                          required
+                          id='email'
+                          type="email"
+                          value={dataSubmit.email}
+                          onChange={(e) => setDataSubmit({ ...dataSubmit, email: e.target.value })}
+                          className='outline-0 border-2 border-[#CFD1D4] px-7 py-4 rounded-lg w-full text-lg max-w-[582px] font-normal'
+                        />
+                      </div>
                     </div>
                     <div className='flex flex-col gap-1 text-sm  font-bold'>
                       <label htmlFor='phone'>Số điện thoại</label>
-                      <input
+                      {/* <input
                         value={dataSubmit.phone}
                         onChange={(e) => setDataSubmit({ ...dataSubmit, phone: e.target.value })}
                         placeholder='Số điện thoại*'
-                        className='outline-0 border-2 border-[#CFD1D4] px-8 py-4 rounded-lg text-lg max-w-[582px] font-normal'
+                        className='outline-0 border-2 border-[#CFD1D4] px-7 py-4 rounded-lg text-lg max-w-[582px] font-normal'
                         type='text'
                         id='phone'
-                      />
+                      /> */}
+                      <div className='relative w-full'>
+                        <label htmlFor='phone' className={`${dataSubmit.phone.length !== 0 ? "hidden" : "block"} text-base font-normal absolute left-8 text-[#A0A3A9] top-1/2 -translate-y-1/2`}>
+                          Số điện thoại <span className='text-red-600'>*</span>
+                        </label>
+                        <input
+                          required
+                          id='phone'
+                          type="number"
+                          value={dataSubmit.phone}
+                          onChange={(e) => setDataSubmit({ ...dataSubmit, phone: e.target.value })}
+                          className='outline-0 border-2 border-[#CFD1D4] px-7 py-4 rounded-lg w-full text-lg max-w-[582px] font-normal'
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
                 <div>
-                  <h3 className='text-[32px] font-bold text-[#2E4FBE] mb-4'>CV hoặc sơ yếu lý lịch</h3>
+                  <h3 className='text-[32px] font-bold text-[#2E4FBE] mb-2 mt-[25px]'>CV hoặc sơ yếu lý lịch</h3>
                   <p className='text-black text-base mb-6'>Tải lên CV hoặc hồ sơ xin việc của bạn</p>
                   <label htmlFor='file' className='cursor-pointer max-w-[582px] border-2 border-[#CFD1D4] flex justify-center items-center h-[250px] rounded-lg '>
                     <div className='text-center text-[#A0A3A9]'>
@@ -187,22 +227,22 @@ export default function JobDetailPage() {
                   <input type='file' id='file' className='hidden' />
                 </div>
                 <div>
-                  <h3 className='text-[32px] font-bold text-[#2E4FBE] mb-4'>Thư giới thiệu</h3>
+                  <h3 className='text-[32px] font-bold text-[#2E4FBE] mb-2 mt-[25px]'>Thư giới thiệu</h3>
                   <p className='text-gray-600 text-base mb-6'>Một thư giới thiệu ngắn gọn, chỉn chu sẽ giúp bạn trở nên chuyên nghiệp và gây ấn tượng hơn với nhà tuyển dụng.</p>
                   <textarea
                     value={dataSubmit.textAria}
                     onChange={(e) => setDataSubmit({ ...dataSubmit, textAria: e.target.value })}
                     placeholder='Gửi một nội dung đến nhà tuyển dụng'
-                    className='outline-0 border-2 border-[#CFD1D4] px-8 py-4 rounded-lg text-lg w-full h-[250px] font-normal'
+                    className='outline-0 border-2 border-[#CFD1D4] px-7 py-4 rounded-lg text-lg w-full h-[250px] font-normal'
                     id='coverLetter'></textarea>
                 </div>
-                <p className='mt-12 mb-12 text-lg text-[#A0A3A9]'>
+                {/* <p className='mt-12 mb-12 text-lg text-[#A0A3A9]'>
                   Hồ sơ ứng tuyển bạn nhập dưới đây sẽ được gửi trực tiếp tới email của nhà tuyển dụng Blue Horizon Media tại bluehorizon.hr@gmail.com, đồng thời tự động được lưu vào kho dữ liệu CV
                   trên hệ thống Foundation for Future để nhà tuyển dụng chọn lọc ứng viên. Bạn vui lòng kiểm tra địa chỉ email của mình thật chính xác trước khi ứng tuyển, cũng như luôn kiểm tra cả
                   hòm thư rác (Spam), hòm thư Quảng Cáo (Promotions), hoặc hòm thư Cập Nhật (Updates) sau khi ứng tuyển để không bỏ lỡ các thông báo quan trọng từ nhà tuyển dụng. Bằng việc nhấn nút
                   “Nộp hồ sơ ứng tuyển” đơn ứng tuyển, bạn xác nhận rằng Foundation for Future hoặc các đối tác của chúng tôi có thể gửi thông tin liên quan đến cơ hội nghề nghiệp tương tự qua email
                   dựa trên các thông tin bạn cung cấp.
-                </p>
+                </p> */}
               </form>
             )}
             {step === 3 && (
@@ -253,7 +293,7 @@ export default function JobDetailPage() {
                       } else {
                       }
                     }}
-                    className='bg-[#3A63ED] text-white py-3 text-2xl px-12 rounded-lg font-[Inter] hover:bg-[#89A1F4] transition-colors'>
+                    className='bg-[#3A63ED] text-white py-[10px] text-2xl px-[72px] rounded-lg font-[Inter] hover:bg-[#89A1F4] transition-colors'>
                     {step === 1 ? "Ứng tuyển ngay" : "Nộp hồ sơ ứng tuyển"}
                   </button>
                 </div>

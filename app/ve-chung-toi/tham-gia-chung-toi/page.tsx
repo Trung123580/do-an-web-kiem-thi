@@ -15,7 +15,7 @@ export default function JoinUsPage() {
   const carouselSettings = {
     dots: false,
     arrows: false,
-    infinite: true,
+    infinite: false,
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
@@ -49,7 +49,7 @@ export default function JoinUsPage() {
   const volunteerCarouselSettings = {
     dots: false,
     arrows: false,
-    infinite: true,
+    infinite: false,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -79,20 +79,19 @@ export default function JoinUsPage() {
           <p className='text-xl md:text-5xl font-bold -tracking-tight leading-relaxed'>Cùng chúng tôi tạo nên tương lai tươi đẹp cho cộng đồng người khiếm thính</p>
         </div>
       </section>
-      <div className='container mx-auto px-4 py-4 md:py-16'></div>
-      <div className='bg-[#4263EB] mx-auto px-4  text-center w-[80%] rounded-2xl  max-w-7xl py-4 md:py-16'>
+      <div className='bg-[#4263EB] mx-auto px-4 text-center w-[80%] rounded-2xl  max-w-7xl py-4 md:py-16 mt-[96px]'>
         <h2 className='text-3xl font-bold text-white mb-4'>Trở thành một phần của chúng tôi</h2>
         <p className='text-white/90 max-w-2xl mx-auto mb-8'>Góp phần hỗ trợ người khiếm thính cùng cách thú vị như thiết kế, đào tạo, tổ chức sự kiện và nhiều lĩnh thực hấp tấc khác...</p>
         <button onClick={() => setIsOpen(true)} className='bg-black text-white px-6 py-3 rounded-lg hover:bg-[#70747D] transition-colors'>
           Tham gia cùng chúng tôi
         </button>
       </div>
-      <div className='container mx-auto px-4 py-5 md:py-16 max-w-7xl'>
+      <div className='container mx-auto px-4 max-w-7xl mt-[96px]'>
         <div className='flex justify-between items-center mb-4'>
           <h2 className='text-3xl md:text-[48px] font-bold'>Công việc</h2>
           <div className='flex items-center justify-center gap-1 *:cursor-pointer'>
-            <img src='/image/home/Variant3.png' alt='Previous' className='cursor-pointer' onClick={() => sliderRef.current?.slickPrev()} />
-            <img src='/image/home/Variant2.png' alt='Next' className='cursor-pointer' onClick={() => sliderRef.current?.slickNext()} />
+            <img src='/image/home/Variant3.png' alt='Previous' className='cursor-pointer hover:opacity-50' onClick={() => sliderRef.current?.slickPrev()} />
+            <img src='/image/home/Variant2.png' alt='Next' className='cursor-pointer hover:opacity-50' onClick={() => sliderRef.current?.slickNext()} />
           </div>
         </div>
         <Slider ref={sliderRef} {...carouselSettings} className='job-carousel -mx-3'>
@@ -123,24 +122,24 @@ export default function JoinUsPage() {
           }
         `}</style>
       </div>
-      <div className='py-5 md:py-16 max-w-7xl mx-auto'>
+      <div className='my-[96px] max-w-7xl mx-auto'>
         <div className='container mx-auto px-4'>
           <div className='flex justify-between items-center mb-4'>
             <h2 className='text-3xl md:text-[48px] font-bold'>Tham gia tình nguyện</h2>
             <div className='flex items-center justify-center gap-1 *:cursor-pointer'>
-              <img src='/image/home/Variant3.png' alt='Previous' className='cursor-pointer' onClick={() => sliderRef2.current?.slickPrev()} />
-              <img src='/image/home/Variant2.png' alt='Next' className='cursor-pointer' onClick={() => sliderRef2.current?.slickNext()} />
+              <img src='/image/home/Variant3.png' alt='Previous' className='cursor-pointer hover:opacity-50' onClick={() => sliderRef2.current?.slickPrev()} />
+              <img src='/image/home/Variant2.png' alt='Next' className='cursor-pointer hover:opacity-50' onClick={() => sliderRef2.current?.slickNext()} />
             </div>
           </div>
           <Slider ref={sliderRef2} {...volunteerCarouselSettings} className='volunteer-carousel -mx-3'>
             {dataVolunteer.map((item, index) => {
               return (
                 <Link key={index} href={`/ve-chung-toi/tham-gia-chung-toi/volunteer/${item.slug}`} className='px-3 h-full'>
-                  <div className='bg-[#F2F2F3] overflow-hidden rounded-2xl hover:bg-[#89A1F4]  shadow-lg h-full group relative'>
+                  <div className='bg-[#F2F2F3] overflow-hidden rounded-2xl hover:bg-[#D8E0FB]  shadow-lg h-full group relative'>
                     <div className='relative h-60 group-hover:h-40 transition-all duration-300'>
                       <Image src={item.img} alt={item.title} fill className='object-cover rounded-2xl' />
                     </div>
-                    <div className='px-6 pt-4 pb-6'>
+                    <div className='px-4 pt-4 pb-6'>
                       <p className='text-gray-600 font-medium text-lg mb-4'>{item.title}</p>
                       <p className='text-gray-600 font-medium text-sm absolute left-0 right-0 p-4 pt-0 translate-y-full group-hover:translate-y-0 transition-all duration-300'>{item.sortDesc}</p>
                     </div>

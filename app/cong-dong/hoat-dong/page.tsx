@@ -15,7 +15,7 @@ export default function EventsPage() {
             >
               Cộng đồng
             </Link>
-            <span className="mx-2 text-2xl text-black">&gt;</span>
+            <span className="mx-2 text-2xl text-black"><img src="/arrow.png" alt="" /></span>
             <span className="text-[#3A63ED]">Hoạt động</span>
           </div>
         </div>
