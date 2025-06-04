@@ -158,7 +158,7 @@ const ChatBot = () => {
           <div className='absolute bottom-0 border-t border-[#CFD1D4] w-full rounded-b-2xl px-4 py-2'>
             <div className='flex flex-grow'>
               <input onKeyDown={handleKeyDown} value={input} autoFocus onChange={(e) => setInput(e.target.value)} className='w-[90%] outline-0 border-0 h-[50px] pr-5' type='text' />
-              <div className='flex justify-center items-center cursor-pointer'>
+              <div className='flex justify-center items-center cursor-pointer '>
                 {/* <img
                   onClick={!loading ? submitChat : undefined}
                   className={`flex-1 object-contain cursor-pointer 
@@ -166,8 +166,8 @@ const ChatBot = () => {
                   src='/send-icon.png'
                   alt=''
                 /> */}
-                <button onClick={submitChat} disabled={loading}>
-                  <svg xmlns='http://www.w3.org/2000/svg' height='28px' viewBox='0 -960 960 960' width='28px' fill='ffffff'>
+                <button onClick={submitChat} disabled={loading} className="relative">
+                  <svg xmlns='http://www.w3.org/2000/svg' height='28px' viewBox='0 -960 960 960' width='28px' fill='ffffff' className="absolute top-1/2 left-1/2 -translate-y-1/2 hover:bg-[#F2F2F3] rounded-md">
                     <path d='M792-443 176-183q-20 8-38-3.5T120-220v-520q0-22 18-33.5t38-3.5l616 260q25 11 25 37t-25 37ZM200-280l474-200-474-200v140l240 60-240 60v140Zm0 0v-400 400Z' />
                   </svg>
                 </button>

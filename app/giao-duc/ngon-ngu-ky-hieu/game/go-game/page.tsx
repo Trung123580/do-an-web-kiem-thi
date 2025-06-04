@@ -28,7 +28,7 @@ const page = () => {
     };
     console.log(pointer);
     return (
-        <div className=" bg-gray-50 pt-28 pb-8">
+        <div className=" bg-white pt-[32px] mt-20 pb-[96px]">
             <div className="container mx-auto px-4 max-w-7xl flex justify-center flex-col items-center">
                 {!arrAnswer && (
                     <>

@@ -24,7 +24,7 @@ export default function CoursePage() {
       </nav>
 
       {/* Course grid */}
-      <CourseGrid courses={khoaHocTrucTuyen} path="khoa-hoc-ngoai-tuyen" title="Khóa học" />
+      <CourseGrid courses={khoaHocTrucTuyen} path="khoa-hoc-ngoai-tuyen" title="Khóa học" free={true}/>
     </section>
   );
 }

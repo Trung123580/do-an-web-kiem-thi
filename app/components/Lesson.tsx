@@ -62,7 +62,7 @@ const Lesson = ({khoahocDetail}: any) => {
                         <h1 className='text-2xl font-bold leading-[130%] mb-4'>Nội dung khóa học</h1>
                         {khoaHocTrucTuyen[1].lectures.map((lecture: any, index: number) => (
                             <div key={index} className='flex items-start mb-2 cursor-pointer' >
-                                <div className={`flex gap-1 text-lg ${active === index ? 'text-[#2E4FBE]' : ''}`} onClick={() => {
+                                <div className={`flex gap-1 text-lg ${active === index ? 'text-[#3A63ED]' : ''}`} onClick={() => {
                                     handleChangeLink(index === 0 ? linkVideo.link1 : linkVideo.link2)
                                     setActive(index)
                                     setDataTrans(index === 0 ? transcripts1 : transcripts2)
@@ -77,13 +77,13 @@ const Lesson = ({khoahocDetail}: any) => {
                         <h1 className='text-5xl font-bold leading-[130%] mb-4 text-[#3A63ED]'>Bài giảng 1</h1>
                         <CustomVideo linkPlay={linkPlay} handleChangeSlots={handleChangeSlots} />
                         <div className="w-full bg-white ">
-                            <h2 className="font-bold text-2xl text-gray-800 mb-3">Bản ghi chép</h2>
-                            <div className="space-y-2 max-h-[664px] rounded-lg overflow-y-auto p-4  border border-[#CFD1D4]">
+                            <h2 className="font-bold text-2xl text-[#111827] mb-3">Bản ghi chép</h2>
+                            <div className="space-y-6 max-h-[664px] h-[664px] rounded-lg overflow-y-auto p-4  border border-[#CFD1D4]">
                                 {dataTrans.map((item, index) => {
                                     console.log(item.time, time);
                                     const isActive = toSeconds(item.time) <= toSeconds(time);
                                     return <div key={index} className="flex text-lg font-normal items-start gap-10">
-                                        <span className={`${isActive ? "text-[#3A63ED]" : ''} min-w-[50px]`}>{item.time}</span>
+                                        <span className={`${isActive ? "text-[#3A63ED]" : 'text-[#70747D]'} min-w-[50px]`}>{item.time}</span>
                                         <span className="">{item.text}</span>
                                     </div>
                                 })}

@@ -5663,8 +5663,8 @@ export const khoaHocTrucTuyen = [
 		slug: "chao-hoi-va-gioi-thieu-ban-than",
 		organization: [
 			{
-				img: "/image/Ellipse-6.png",
-				title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+				img: "/image/Ellipse-7.png",
+				title: "Foundation For Future",
 			},
 		],
 		courseIntroduction: "Khóa học “Ngôn ngữ Ký hiệu cơ bản – Phần 1: Chào hỏi và Giới thiệu bản thân” giúp bạn bước đầu làm quen với ngôn ngữ ký hiệu thông qua những tình huống giao tiếp đơn giản hàng ngày. Dành cho người khiếm thính và cả người nghe muốn giao tiếp tốt hơn với cộng đồng khiếm thính, khóa học mang đến sự thân thiện, dễ tiếp cận, và dễ thực hành.",
@@ -5721,8 +5721,8 @@ export const khoaHocTrucTuyen = [
 		slug: "dong-vat-quen-thuoc",
 		organization: [
 			{
-				img: "/image/Ellipse-6.png",
-				title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+				img: "/image/Ellipse-7.png",
+				title: "Foundation For Future",
 			},
 		],
 		courseIntroduction: "Khóa học “Ngôn ngữ Ký hiệu cơ bản – Phần 1: Chào hỏi và Giới thiệu bản thân” giúp bạn bước đầu làm quen với ngôn ngữ ký hiệu thông qua những tình huống giao tiếp đơn giản hàng ngày. Dành cho người khiếm thính và cả người nghe muốn giao tiếp tốt hơn với cộng đồng khiếm thính, khóa học mang đến sự thân thiện, dễ tiếp cận, và dễ thực hành.",
@@ -5866,8 +5866,8 @@ export const khoaHocTrucTuyen = [
 		slug: "thuc-an-va-do-uong",
 		organization: [
 			{
-				img: "/image/Ellipse-6.png",
-				title: "Doanh nghiệp xã hội vì người khiếm thính Việt Nam",
+				img: "/image/Ellipse-7.png",
+				title: "Foundation For Future",
 			},
 		],
 		courseIntroduction: "Khóa học “Ngôn ngữ Ký hiệu cơ bản – Phần 1: Chào hỏi và Giới thiệu bản thân” giúp bạn bước đầu làm quen với ngôn ngữ ký hiệu thông qua những tình huống giao tiếp đơn giản hàng ngày. Dành cho người khiếm thính và cả người nghe muốn giao tiếp tốt hơn với cộng đồng khiếm thính, khóa học mang đến sự thân thiện, dễ tiếp cận, và dễ thực hành.",

@@ -15,7 +15,7 @@ interface CourseGridProps {
   courses: Course[];
 }
 
-export default function CourseGrid({ courses, path, title, status }: any) {
+export default function CourseGrid({ courses, path, title, status, free }: any) {
   const [searchTerm, setSearchTerm] = useState('');
   const [dataRender, setDataRender] = useState(courses)
   const defaultData = courses as any[]
@@ -49,7 +49,8 @@ export default function CourseGrid({ courses, path, title, status }: any) {
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {dataRender.map((course: any) => (
-          <Link href={`${path}/${course.slug}` || `${path}/${course.slug}` || `khoa-hoc/${course.slug}`} key={course.slug} className="block group">
+          <Link href={`${path}/${course.slug}` || `${path}/${course.slug}` || `khoa-hoc/${course.slug}`} key={course.slug} className="relative block group">
+            {free && <span className={`absolute top-4 right-4 text-black z-10 text-[10px] font-normal px-2 py-1 rounded-sm ${course.free ? 'bg-white ' : 'bg-[#F2F2F3] '}`}>{course.free ? 'Miễn phí' : 'Trả phí'}</span>}
             <div className="bg-white rounded-2xl overflow-hidden hover:shadow-lg hover:shadow-[#5d7deb80] transition-shadow duration-300">
               <div className="relative aspect-video w-full">
                 <Image

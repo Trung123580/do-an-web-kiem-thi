@@ -54,9 +54,10 @@ const Page = () => {
 
   if (step === 2) {
     return (
-      <div className="min-h-screen bg-[#F6F8FC] p-0">
-        <div className="max-w-7xl mx-auto px-4 pt-20 pb-16">
-        <div className='px-6 py-4 rounded-t-lg h-[232px] mt-[32px] flex flex-col justify-center'>
+      <div className="min-h-screen bg-white p-0">
+        {/* bg-[#F6F8FC] */}
+        <div className="max-w-7xl mx-auto px-4 mt-20 pb-16">
+        <div className='px-6 py-4 rounded-t-lg pt-[32px] flex flex-col justify-center'>
             <h2 className='mb-3 text-3xl md:text-5xl font-bold'>Kết quả kiểm tra kỹ năng làm việc</h2>
             <p className='m-0 md:text-lg text-base font-normal'>Bài kiểm tra kỹ năng làm việc được phát triển và nghiên cứu dựa trên đối tượng đặc biệt nhằm giúp họ khám phá năng lực nghề nghiệp bản thân thông qua các bài kiểm tra kỹ năng nhằm khám phá bản thân và lựa chọn định hướng phù hợp bản thân.</p>
           </div>
@@ -67,25 +68,26 @@ const Page = () => {
             </div>
             {/* Result summary and suggestions */}
             <div className="flex-1 flex flex-col gap-6 min-w-[340px] max-w-lg">
-              <div className="bg-[#3A63ED] text-white rounded-xl p-6 text-lg font-semibold">
+              <div className="bg-[#3A63ED] text-white rounded-xl p-6 text-2xl font-bold">
                 Bạn có nền tảng tốt để bắt đầu công việc. Một số kỹ năng bạn đã làm rất tốt, một số khác cần luyện thêm. Cùng xem điểm mạnh của bạn nhé!
               </div>
-              <div className="bg-white rounded-xl p-6 shadow flex flex-col gap-4">
+              <div className="bg-[#F1F2F3] rounded-xl p-6 shadow flex flex-col gap-4">
                 <div>
-                  <span className="font-bold text-base text-[#3A63ED]">Điểm mạnh</span>
+                  <span className="font-bold text-2xl text-[#111827]">Điểm mạnh</span>
                   <p className="text-gray-800 mt-1 text-base">Giao tiếp tốt, hợp tác với công việc nghệ thuật, thiết kế. Hợp tác nhóm, có tố chất lãnh đạo, biết lắng nghe, thấu cảm.</p>
                 </div>
                 <div>
-                  <span className="font-bold text-base text-[#3A63ED]">Điểm yếu</span>
+                  <span className="font-bold text-2xl text-[#111827]">Điểm yếu</span>
                   <p className="text-gray-800 mt-1 text-base">Kỹ năng tổ chức, sắp xếp công việc hoặc lập kế hoạch chưa thực sự nổi bật, dễ bị cảm xúc chi phối.</p>
                 </div>
                 <div>
-                  <span className="font-bold text-base text-[#3A63ED]">Gợi ý nghề nghiệp phù hợp với bạn</span>
-                  <ul className="list-disc ml-6 text-base text-gray-800 mt-1">
+                  <span className="font-bold text-2xl text-[#111827]">Gợi ý nghề nghiệp phù hợp với bạn</span>
+                  <ul className="text-base mt-1">
                     <li>Thiết kế đồ họa, mỹ thuật</li>
                     <li>Giáo viên, nhân sự, quản lý nhóm</li>
                     <li>Viết nội dung, sáng tạo nội dung</li>
-                    <li>Tư vấn khách hàng/chăm sóc khách hàng</li>
+                    <li>Tư vấn khách hàng/chăm sóc khách hàng</li>Thiết kế đồ họa / vẽ minh họa
+                    <li>Tư vấn khách hàng qua chat</li>
                   </ul>
                 </div>
               </div>

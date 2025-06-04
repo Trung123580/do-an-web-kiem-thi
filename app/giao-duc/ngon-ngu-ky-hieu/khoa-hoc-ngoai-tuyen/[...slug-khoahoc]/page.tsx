@@ -43,7 +43,7 @@ export default function page() {
   const router = useRouter()
   const slug: any = params["slug-khoahoc"]
   const khoahocDetail: any = khoaHocTrucTuyen.find((khoahoc) => khoahoc.slug === slug[0])
-  const [step, setStep] = useState(1)
+  const [step, setStep] = useState(1 )
   const [countdown, setCountdown] = useState(10);
   const handleDownload = () => {
     fetch('/pdf-mau.pdf')
@@ -85,7 +85,25 @@ export default function page() {
     email: "",
     phone: "",
     textAria: "",
+    donationType: 1,
+    selectedAmount: 10,
+    customAmount: "",
+    paymentMethod: "",
   })
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+      const { name, value } = e.target
+      setDataSubmit((prev) => ({
+        ...prev,
+        [name]: value,
+      }))
+    }
+
+      const handlePaymentMethodChange = (method: string) => {
+    setDataSubmit((prev) => ({
+      ...prev,
+      paymentMethod: method,
+    }))
+  }
   const handleSubmit = async (event: React.FormEvent) => {
     event.preventDefault()
     setStep(3)
@@ -120,7 +138,7 @@ export default function page() {
           </div>
         </nav>
       )}
-      <div className='bg-[#D8E0FB] px-4 pt-20'>
+      <div className='bg-[#D8E0FB] px-4'>
         <div className='py-14 max-w-7xl mx-auto relative'>
           {step === 1 && (
             <>
@@ -155,7 +173,7 @@ export default function page() {
                       </div>
                       <div className='flex justify-center gap-1 flex-col px-5'>
                         <span className='text-sm text-[#70747D]'>Giảng viên</span>
-                        <span className='text-2xl'>{khoahocDetail?.teacher}</span>
+                        <span className='text-2xl text-nowrap'>{khoahocDetail?.teacher}</span>
                       </div>
                     </div>
                   </div>
@@ -181,8 +199,8 @@ export default function page() {
                         <span className='text-2xl'>{khoahocDetail?.objectives}</span>
                       </div>
                       <div className='flex justify-center gap-1 flex-col px-5'>
-                        <span className='text-sm text-[#70747D]'>Giảng viên</span>
-                        <span className='text-2xl'>{khoahocDetail?.teacher}</span>
+                        <span className='text-sm text-[#70747D] '>Giảng viên</span>
+                        <span className='text-2xl text-nowrap'>{khoahocDetail?.teacher}</span>
                       </div>
                     </div>
                   </div>
@@ -191,28 +209,28 @@ export default function page() {
             </>
           )}
           {step === 2 && (
-            <>
-              <h1 className='text-5xl font-bold mb-4'>Thanh toán khóa học</h1>
+            <div className="mt-20">
+              <h1 className='text-5xl font-bold mb-2.5'>Thanh toán khóa học</h1>
               <p className='mb-16 text-lg max-w-4xl'>
                 Vui lòng tiến hành thanh toán để tải xuống trọn bộ 12 video bài giảng của khóa học Ngôn ngữ Ký hiệu Cơ Bản. Sau khi thanh toán hoàn tất, khóa học sẽ tự động được tải về thiết bị của
                 bạn – vui lòng kiểm tra trong mục “Tải xuống” hoặc thư mục File.
               </p>
-            </>
+            </div>
           )}
           {step === 3 && (
-            <>
-              <h1 className='text-5xl font-bold mb-4'>Thanh toán khóa học học thành công!</h1>
+            <div className="mt-20">
+              <h1 className='text-5xl font-bold mb-2.5'>Thanh toán khóa học học thành công!</h1>
               <p className='mb-16 text-lg max-w-4xl'>
                 Vui lòng tiến hành thanh toán để tải xuống trọn bộ 12 video bài giảng của khóa học Ngôn ngữ Ký hiệu Cơ Bản. Sau khi thanh toán hoàn tất, khóa học sẽ tự động được tải về thiết bị của
                 bạn – vui lòng kiểm tra trong mục “Tải xuống” hoặc thư mục File.
               </p>
-            </>
+            </div>
           )}
         </div>
       </div>
       {step === 1 && (
         <>
-          <div className='min-h-screen pb-16 py-16 pt-88 sm:pt-48 md:pt-30 xl:pt-32 max-w-7xl mx-auto px-4'>
+          <div className='min-h-screen py-16 pb-[96px]  max-w-7xl mx-auto'>
             <div className='container mx-auto'>
               <h2 className='text-[32px] font-bold text-[#2E4FBE] mb-2 mt-10'>Giới thiệu khóa học</h2>
               <div
@@ -251,7 +269,7 @@ export default function page() {
                     <div className='flex'>
                       <Image src={item.avatar} alt='DNXH Logo' width={48} height={48} className='rounded-full' />
                       <div className='flex flex-col justify-center ml-3'>
-                        <span className='text-[10px]'>Học viên</span>
+                        <span className='text-[10px] text-[#A5A8AD]'>Học viên</span>
                         <span className='text-lg'>{item.name}</span>
                       </div>
                     </div>
@@ -277,14 +295,126 @@ export default function page() {
           <form onSubmit={handleSubmit} className='pt-14 max-w-7xl mx-auto relative p-10 space-y-6'>
             {/* Thông tin cá nhân */}
             <div>
-              <h2 className='font-semibold text-lg'>Thông tin cá nhân</h2>
-              <input required className='w-full border rounded-md p-2 mt-2' type='text' placeholder='Họ tên*' />
-              <input required className='w-full border rounded-md p-2 mt-2' type='email' placeholder='Email*' />
-              <input type='number' required className='w-full border-2 border-purple-400 rounded-md p-2 mt-2' placeholder='Số điện thoại*' />
+                <div className='px-[30px] md:px-[56px] mt-8 text-[#111827] h-[90%] overflow-y-auto '>
+                  <h2 className='text-xl font-bold mb-4'>Thông tin cá nhân</h2>
+                  <div className='relative'>
+                    <label htmlFor='email' className={`${dataSubmit.fullName?.length !== 0 ? "hidden" : "block"} text-sm absolute left-3 text-gray-500 top-[40%] -translate-y-1/2`}>
+                      Họ tên <span className='text-red-600'>*</span>
+                    </label>
+                    <input required name='fullName' className='w-full border-2 border-[#CFD1D4] rounded-lg px-3 py-2 mb-3' value={dataSubmit.fullName} onChange={handleInputChange} />
+                  </div>
+                  {/* <input
+                  name='fullName'
+                  value={dataSubmit.fullName}
+                  onChange={handleInputChange}
+                  className='w-full border-2 border-[#CFD1D4] rounded-lg px-3 py-2 mb-3'
+                  placeholder='Họ tên*'
+                  required
+                /> */}
+                  <div className='relative'>
+                    <label htmlFor='email' className={`${dataSubmit.fullName?.length !== 0 ? "hidden" : "block"} text-sm absolute left-3 text-gray-500 top-[40%] -translate-y-1/2`}>
+                      Email <span className='text-red-600'>*</span>
+                    </label>
+                    <input required name='email' className='w-full border-2 border-[#CFD1D4] rounded-lg px-3 py-2 mb-3' value={dataSubmit.email} onChange={handleInputChange} />
+                  </div>
+                  {/* <input
+                  type='email'
+                  value={dataSubmit.email}
+                  onChange={handleInputChange}
+                  className='w-full border-2 border-[#CFD1D4] rounded-lg px-3 py-2 mb-3'
+                  placeholder='Email*'
+                  required
+                /> */}
+
+                  <div className='relative'>
+                    <label htmlFor='email' className={`${dataSubmit.fullName?.length !== 0 ? "hidden" : "block"} text-sm absolute left-3 text-gray-500 top-[40%] -translate-y-1/2`}>
+                      Số điện thoại <span className='text-red-600'>*</span>
+                    </label>
+                    <input required name='phone' className='w-full border-2 border-[#CFD1D4] rounded-lg px-3 py-2 mb-3' value={dataSubmit.phone} onChange={handleInputChange} type='number' />
+                  </div>
+                  {/* <input
+                  name='phone'
+                  value={dataSubmit.phone}
+                  onChange={handleInputChange}
+                  className='w-full border-2 border-[#CFD1D4] rounded-lg px-3 py-2 mb-3'
+                  placeholder='Số điện thoại*'
+                  required
+                /> */}
+                  <h3 className='text-xl font-bold mb-4'>Phương thức thanh toán</h3>
+                  <div className='font-normal text-[18px] border-2 border-[#cfd1d4] rounded-lg'>
+                    <label className='flex items-start gap-2 border-b-2 border-[#cfd1d4] px-3 py-3'>
+                      <input type='radio' name='paymentMethod' value='momo' checked={dataSubmit.paymentMethod === "momo"} onChange={(e) => handlePaymentMethodChange(e.target.value)} />
+                      <div className='-mt-1.5'>
+                        Ví MoMo
+                        <img src='/image/momo.png' alt='MoMo' className='h-6' />
+                      </div>
+                    </label>
+                    <label className='flex items-start gap-2 border-b-2 border-[#cfd1d4] px-3 py-3'>
+                      <input type='radio' name='paymentMethod' value='credit' checked={dataSubmit.paymentMethod === "credit"} onChange={(e) => handlePaymentMethodChange(e.target.value)} />
+                      <div className='-mt-1.5'>
+                        Thẻ tín dụng hoặc thẻ ghi nợ
+                        <div className='flex items-center gap-2'>
+                          <img src='/image/visa-all.png' alt='Visa' className='h-6' />
+                        </div>
+                        {dataSubmit.paymentMethod === "credit" && (
+                          <>
+                            <div className='flex flex-col gap-2 mt-6'>
+                              <input type='text' placeholder='Số thẻ' className='w-full border-2 border-[#CFD1D4] rounded-lg px-3 py-2' />
+                              <div className='flex gap-2'>
+                                <input placeholder='Ngày hết hạn' type='text' className='w-full border-2 border-[#CFD1D4] rounded-lg px-3 py-2' />
+                                <input type='text' placeholder='Mã bảo mật' className='w-full border-2 border-[#CFD1D4] rounded-lg px-3 py-2' />
+                              </div>
+                              <p className='font-normal text-[10px] text-[#A0A3A9]'>
+                                Mọi thông tin trao đổi trong quá trình quyên góp thẻ đều được mã hóa TLS. Dữ liệu này không thể bị phát hiện, chặn hoặc sử dụng bởi bên thứ ba. Thông tin cũng không
+                                được lưu trữ trong hệ thống dữ liệu của chúng tôi.
+                              </p>
+                            </div>
+                          </>
+                        )}
+                      </div>
+                    </label>
+                    <label className='flex items-start gap-2 px-3 py-3'>
+                      <input type='radio' name='paymentMethod' value='paypal' checked={dataSubmit.paymentMethod === "paypal"} onChange={(e) => handlePaymentMethodChange(e.target.value)} />
+                      <div className='-mt-1.5'>
+                        Thẻ tín dụng
+                        <div className='flex items-center gap-2'>
+                          <img src='/image/paypal.png' alt='Visa' className='h-6' />
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  {dataSubmit.paymentMethod && (
+                    <>
+                      <h2 className='text-xl font-bold mb-4 mt-5'>Tóm tắt</h2>
+                      <div className='bg-[#FEF5D0] *:flex  *:items-center *:justify-between p-4 rounded-lg gap-1 flex flex-col'>
+                        <div>
+                          <span>{dataSubmit.donationType === 1 ? "Một lần" : "Hàng tháng"}</span>
+                          <span className='font-bold'>${dataSubmit.customAmount || dataSubmit.selectedAmount}</span>
+                        </div>
+                        <div>
+                          <span>phương thức thanh toán</span>
+                          <span className='font-bold'>{dataSubmit.paymentMethod}</span>
+                        </div>
+                      </div>
+                      <p className='text-[10px] text-[#A0A3A9] my-4'>
+                        Bạn xác nhận rằng bạn đã trên 18 tuổi và đồng ý nhận email từ Foundation for Future về công việc của chúng tôi và cách bạn có thể giúp đỡ. Nếu bạn cung cấp số điện thoại của
+                        mình, chúng tôi cũng có thể gọi cho bạn. Bạn có thể chọn không tham gia bất cứ lúc nào. Đối với gây quỹ hằng tháng chúng tôi sẽ tự động tính phí cho đến khi bạn huỷ đăng ký,
+                        hãy liên hệ đến chúng tôi để huỷ đăng ký.
+                      </p>
+                      <div className='bg-[#F2F2F3] gap-2 p-6 rounded-lg flex flex-col items-center justify-center'>
+                        <p className='text-center'>Sau khi bạn hoàn tất và gửi biểu mẫu này, bạn sẽ được chuyển hướng đến PayPal để hoàn tất khoản quyên góp của mình</p>
+                        <img src='/image/paypal.png' alt='' className="max-w-[140px]" />
+                        <button type='submit' className='mt-4 w-max px-14 bg-[#3A63ED] text-white py-3 rounded text-lg font-medium hover:bg-[#4338CA] transition-colors'>
+                          Quyên góp ngay
+                        </button>
+                      </div>
+                    </>
+                  )}
+                </div>
             </div>
 
             {/* Phương thức thanh toán */}
-            <div>
+            {/* <div>
               <h2 className='font-semibold text-lg'>Phương thức thanh toán</h2>
               <div className='space-y-2 mt-2'>
                 <label className='flex items-center gap-2 border p-3 rounded-md'>
@@ -311,8 +441,8 @@ export default function page() {
                   </div>
                 </label>
               </div>
-            </div>
-            <div className='bg-yellow-100 p-4 rounded-md'>
+            </div> */}
+            {/* <div className='bg-yellow-100 p-4 rounded-md'>
               <h3 className='font-semibold'>Tóm tắt</h3>
               <div className='flex justify-between mt-2'>
                 <span>Khóa học ngôn ngữ ký hiệu cơ bản</span>
@@ -333,26 +463,24 @@ export default function page() {
               <button type='submit' className='bg-[#3A63ED] mt-8 w-max rounded-lg mx-auto !py-4 !px-14 text-white !text-[18px] font-normal hover:bg-[#89A1F4]' onClick={() => null}>
                 Thanh toán ngay
               </button>
-            </div>
+            </div> */}
           </form>
         </>
       )}
       {step === 3 && (
-        <div className='py-27 max-w-7xl mx-auto relative p-10 space-y-6'>
+        <div className='py-[300px] max-w-7xl mx-auto relative p-10 space-y-6'>
           <div className='flex flex-col items-center justify-center h-full text-center px-4'>
             <h1 className='text-2xl md:text-5xl font-bold text-gray-900'>
               Tài liệu sẽ được tự động tải sau {countdown} giây. <br />
-              Hoặc Click vào đây để tải xuống.
-            </h1>
-            <p className='mt-2 text-xl font-semibold text-gray-900'>
-              Hoặc{" "}
-              <button
+              Hoặc <button
                 // href="/pdf-mau.pdf"
                 onClick={handleDownload}
                 className='text-blue-600 hover:underline font-bold'>
                 Click
-              </button>{" "}
-              vào đây để tải xuống.
+              </button> vào đây để tải xuống.
+            </h1>
+            <p className='my-4 text-base font-normal text-gray-900'>
+              Tài liệu sẽ đồng thời được gửi qua email của bạn.
             </p>
             <a href='/giao-duc/ngon-ngu-ky-hieu/khoa-hoc-ngoai-tuyen' className='mt-4 text-blue-600 font-semibold hover:underline flex items-center gap-1'>
               Quay về Khóa học trực tuyến →
