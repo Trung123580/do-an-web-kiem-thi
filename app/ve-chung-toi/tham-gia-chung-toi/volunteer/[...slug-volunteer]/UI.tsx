@@ -6,7 +6,7 @@ import Link from "next/link"
 
 const UI = ({ slug }: { slug: string }) => {
   const volunteerDetail = dataVolunteer.find((volunteer) => volunteer.slug === slug)
-  const [step, setStep] = useState(2)
+  const [step, setStep] = useState(1)
   const [dataSubmit, setDataSubmit] = useState({
     fullName: "",
     email: "",

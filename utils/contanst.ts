@@ -8034,7 +8034,7 @@ export const game = [
 	{
 		level: 1,
 		title: "Ký hiệu trên là con vật nào?",
-		video: "game1",
+		video: "game-1",
 		idTrue: 1,
 		array: [
 			{ id: 1, name: "animal1" },

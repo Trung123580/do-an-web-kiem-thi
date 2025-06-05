@@ -249,7 +249,7 @@ const Page = () => {
                 <img src={job.img} alt={job.title} className='w-[136px] h-[136px] object-cover rounded-lg' />
                 <div className='flex flex-col gap-7 grow justify-between'>
                   <div>
-                    <div className='text-2xl text-[#111827] group-hover:text-[#3A63ED] font-normal'>{job.title}</div>
+                    <div className='text-2xl text-[#111827] group-hover:text-[#3A63ED] group-hover:font-bold font-normal'>{job.title}</div>
                     <span className='text-[#414652] text-[10px] font-normal'>{job.company}</span>
                   </div>
                   <div className='flex  justify-between'>

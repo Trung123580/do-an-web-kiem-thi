@@ -89,7 +89,7 @@ const ChatBot = () => {
     setLoading(false);
   };
   return (
-   <div className="flex justify-end fixed bottom-14 max-w-7xl left-[80.3%]">
+   <div className="flex justify-end fixed bottom-14 max-w-7xl  2xl:left-[80.3%] left-[90%]">
     <div className='w-16 h-16 bg-[#3a63ed] rounded-full z-[999] flex items-center justify-center shadow-lg'>
       <svg onClick={() => setOpenChat(!openChat)} className='cursor-pointer' xmlns='http://www.w3.org/2000/svg' width='34' height='30' viewBox='0 0 34 30' fill='none'>
         <path
@@ -162,7 +162,7 @@ const ChatBot = () => {
               <textarea 
               placeholder="Hỏi bất kỳ điều gì về người khiếm thính..."
                value={input} autoFocus onChange={(e) => setInput(e.target.value)} rows={2} 
-               className='w-[90%] outline-0 border-0  pr-5 pt-3' />
+               className='w-[90%] outline-0 border-0  pr-5 pt-3 pb-3' />
               <div className='flex justify-center items-center cursor-pointer '>
                 {/* <img
                   onClick={!loading ? submitChat : undefined}

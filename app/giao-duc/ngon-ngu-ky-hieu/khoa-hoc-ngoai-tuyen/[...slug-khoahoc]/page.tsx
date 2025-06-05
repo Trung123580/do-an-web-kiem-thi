@@ -159,18 +159,21 @@ export default function page() {
                 <>
                   <div className='bg-[#FFFFFF] rounded-xl shadow-xl  p-[32px] absolute -bottom-75 sm:-bottom-36 md:-bottom-20 xl:-bottom-15 left-1/2 -translate-x-1/2  w-full'>
                     <div className='flex items-center justify-center flex-wrap gap-4'>
-                      <div className='flex justify-center gap-1 flex-col px-5 sm:border-r border-[#CFD1D4]'>
+                      <div className='flex justify-center gap-1 flex-col px-5'>
                         <span className='text-sm text-[#70747D]'>Tổng thời lượng</span>
                         <span className='text-2xl font-normal'>{khoahocDetail?.time}</span>
                       </div>
-                      <div className='flex justify-center gap-1 flex-col px-5 sm:border-r border-[#CFD1D4]'>
+                      <div className="h-[56px] w-[1px] bg-[#CFD1D4] mx-10 lg:block hidden"></div>
+                      <div className='flex justify-center gap-1 flex-col px-5'>
                         <span className='text-sm text-[#70747D]'>Chi phí khóa học</span>
                         <span className='text-2xl font-normal'>Miễn phí</span>
                       </div>
-                      <div className='flex justify-center gap-1 flex-col px-5 sm:border-r border-[#CFD1D4]'>
+                      <div className="h-[56px] w-[1px] bg-[#CFD1D4] mx-10 lg:block hidden"></div>
+                      <div className='flex justify-center gap-1 flex-col px-5'>
                         <span className='text-sm text-[#70747D]'>Đối tượng</span>
                         <span className='text-2xl font-normal'>{khoahocDetail?.objectives}</span>
                       </div>
+                      <div className="h-[56px] w-[1px] bg-[#CFD1D4] mx-10 lg:block hidden"></div>
                       <div className='flex justify-center gap-1 flex-col px-5'>
                         <span className='text-sm text-[#70747D]'>Giảng viên</span>
                         <span className='text-2xl text-nowrap'>{khoahocDetail?.teacher}</span>
@@ -182,22 +185,26 @@ export default function page() {
                 <>
                   <div className='bg-[#FFFFFF] rounded-xl shadow-xl p-8 absolute -bottom-60 lg:-bottom-75 sm:-bottom-36 md:-bottom-20 xl:-bottom-15 left-1/2 -translate-x-1/2  w-full'>
                     <div className='flex items-center justify-center flex-wrap  gap-4'>
-                      <div className='flex justify-center gap-1 flex-col px-5 sm:border-r border-[#CFD1D4]'>
+                      <div className='flex justify-center gap-1 flex-col px-5'>
                         <span className='text-sm text-[#70747D]'>Khóa học</span>
                         <span className='text-2xl'>{khoahocDetail?.day}</span>
                       </div>
-                      <div className='flex justify-center gap-1 flex-col px-5 sm:border-r border-[#CFD1D4]'>
+                      <div className="h-[56px] w-[1px] bg-[#CFD1D4] mx-10 lg:block hidden"></div>
+                      <div className='flex justify-center gap-1 flex-col px-5'>
                         <span className='text-sm text-[#70747D]'>Chi phí khóa học</span>
                         <span className='text-2xl'>{khoahocDetail?.price}</span>
                       </div>
-                      <div className='flex justify-center gap-1 flex-col px-5 sm:border-r border-[#CFD1D4]'>
+                      <div className="h-[56px] w-[1px] bg-[#CFD1D4] mx-10 lg:block hidden"></div>
+                      <div className='flex justify-center gap-1 flex-col px-5'>
                         <span className='text-sm text-[#70747D]'>Tổng thời lượng</span>
                         <span className='text-2xl'>{khoahocDetail?.time}</span>
                       </div>
-                      <div className='flex justify-center gap-1 flex-col px-5 sm:border-r border-[#CFD1D4]'>
+                      <div className="h-[56px] w-[1px] bg-[#CFD1D4] mx-10 lg:block hidden"></div>
+                      <div className='flex justify-center gap-1 flex-col px-5'>
                         <span className='text-sm text-[#70747D]'>Đối tượng</span>
                         <span className='text-2xl'>{khoahocDetail?.objectives}</span>
                       </div>
+                      <div className="h-[56px] w-[1px] bg-[#CFD1D4] mx-10 lg:block hidden"></div>
                       <div className='flex justify-center gap-1 flex-col px-5'>
                         <span className='text-sm text-[#70747D] '>Giảng viên</span>
                         <span className='text-2xl text-nowrap'>{khoahocDetail?.teacher}</span>
@@ -209,7 +216,7 @@ export default function page() {
             </>
           )}
           {step === 2 && (
-            <div className="mt-20">
+            <div className="mt-20 px-20">
               <h1 className='text-5xl font-bold mb-2.5'>Thanh toán khóa học</h1>
               <p className='mb-16 text-lg max-w-4xl'>
                 Vui lòng tiến hành thanh toán để tải xuống trọn bộ 12 video bài giảng của khóa học Ngôn ngữ Ký hiệu Cơ Bản. Sau khi thanh toán hoàn tất, khóa học sẽ tự động được tải về thiết bị của
@@ -403,7 +410,16 @@ export default function page() {
                       </p>
                       <div className='bg-[#F2F2F3] gap-2 p-6 rounded-lg flex flex-col items-center justify-center'>
                         <p className='text-center'>Sau khi bạn hoàn tất và gửi biểu mẫu này, bạn sẽ được chuyển hướng đến PayPal để hoàn tất khoản quyên góp của mình</p>
-                        <img src='/image/paypal.png' alt='' className="max-w-[140px]" />
+                        {/* <img src='/image/paypal.png' alt=''  /> */}
+                            {dataSubmit?.paymentMethod === "momo" && (
+                          <img src="/image/momo.png"/>
+                        )}
+                        {dataSubmit?.paymentMethod === "credit" && (
+                          <img src="/image/visa-all.png"/>
+                        )}
+                        {dataSubmit?.paymentMethod === "paypal" && (
+                          <img src="/image/paypal.png" className="max-w-[140px]"/>
+                        )}
                         <button type='submit' className='mt-4 w-max px-14 bg-[#3A63ED] text-white py-3 rounded text-lg font-medium hover:bg-[#89A1F4] transition-colors'>
                           Thanh toán ngay
                         </button>

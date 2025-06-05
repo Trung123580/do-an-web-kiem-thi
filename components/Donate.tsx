@@ -381,7 +381,15 @@ const Donate = () => {
                       </p>
                       <div className='bg-[#F2F2F3] gap-2 p-6 rounded-lg flex flex-col items-center justify-center'>
                         <p className='text-center'>Sau khi bạn hoàn tất và gửi biểu mẫu này, bạn sẽ được chuyển hướng đến PayPal để hoàn tất khoản quyên góp của mình</p>
-                        <img src='/image/momo.png' alt='' />
+                        {dataSubmit?.paymentMethod === "momo" && (
+                          <img src="/image/momo.png"/>
+                        )}
+                        {dataSubmit?.paymentMethod === "credit" && (
+                          <img src="/image/visa-all.png"/>
+                        )}
+                        {dataSubmit?.paymentMethod === "paypal" && (
+                          <img src="/image/paypal.png" className="w-1/2"/>
+                        )}
                         <button type='submit' className='mt-4 w-max px-14 bg-[#3A63ED] text-white py-3 rounded text-lg font-medium hover:bg-[#4338CA] transition-colors'>
                           Quyên góp ngay
                         </button>

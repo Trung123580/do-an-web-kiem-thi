@@ -115,7 +115,7 @@ const Page = () => {
           <div className='text-right text-xs text-blue-600 mb-2'>
             {answeredCount}/{questions.length}
           </div>
-          <div className='h-4 bg-blue-200 rounded-2xl overflow-hidden'>
+          <div className='h-4 bg-white rounded-2xl overflow-hidden'>
             <div className='h-full bg-[#3A63ED] transition-all duration-300' style={{ width: `${progressPercent}%` }} />
           </div>
           

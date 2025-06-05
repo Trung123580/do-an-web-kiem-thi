@@ -1,4 +1,4 @@
-import { IoMenu, IoClose, IoShareSocial, IoMicOutline, IoPlay, IoPause, IoRepeatOutline } from "react-icons/io5" // menuNav // close // Share // mic
+import { IoMenu, IoClose, IoShareSocial, IoMicOutline, IoPlay, IoPause, IoRepeatOutline, IoPlayOutline } from "react-icons/io5" // menuNav // close // Share // mic
 import { FaPlay, FaEye } from "react-icons/fa" // play // eye
 import { MdTimelapse, MdNavigateNext, MdLocalMovies, MdOutlineRecordVoiceOver } from "react-icons/md" // time // date //next prev // category // movie // mic voice
 import { IoIosSearch } from "react-icons/io" // search
@@ -41,7 +41,7 @@ export {
   HiOutlineDotsHorizontal,
   BiReply,
   AiOutlineLoading3Quarters,
-  AiOutlineSend,
+  AiOutlineSend,IoPlayOutline,
   TbEdit,
   MdDeleteOutline,
   FaCommentSlash,
