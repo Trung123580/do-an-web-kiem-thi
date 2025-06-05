@@ -327,7 +327,7 @@ export default function page() {
                 /> */}
 
                   <div className='relative'>
-                    <label htmlFor='email' className={`${dataSubmit.fullName?.length !== 0 ? "hidden" : "block"} text-sm absolute left-3 text-gray-500 top-[40%] -translate-y-1/2`}>
+                    <label htmlFor='email' className={`${dataSubmit.phone?.length !== 0 ? "hidden" : "block"} text-sm absolute left-3 text-gray-500 top-[40%] -translate-y-1/2`}>
                       Số điện thoại <span className='text-red-600'>*</span>
                     </label>
                     <input required name='phone' className='w-full border-2 border-[#CFD1D4] rounded-lg px-3 py-2 mb-3' value={dataSubmit.phone} onChange={handleInputChange} type='number' />
