@@ -28,12 +28,12 @@ const page = () => {
     };
     console.log(pointer);
     return (
-        <div className=" bg-white pt-[32px] mt-20 pb-[96px]">
+        <div className=" bg-white pt-[40px] mt-20 pb-[96px]">
             <div className="container mx-auto px-4 max-w-7xl flex justify-center flex-col items-center">
                 {!arrAnswer && (
                     <>
                         <h1 className="text-5xl font-bold text-center mb-6">
-                            Chúc mừng bạn đã đạt <span className="text-[#3A63ED] text-lg font-normal">{pointer}/8</span> điểm xuất sắc!
+                            Chúc mừng bạn đã đạt <span className="text-[#3A63ED] ">{pointer}/8</span> điểm xuất sắc!
                         </h1>
                         <img src="/image/game-done.png" alt="" />
                         <ul className="flex justify-center flex-col w-full space-y-6 text-gray-600 text-base mt-11 mb-11">

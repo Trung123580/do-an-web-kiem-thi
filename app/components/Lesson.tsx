@@ -42,7 +42,7 @@ const Lesson = ({khoahocDetail}: any) => {
     return (
         <div className='min-h-screen pb-16 py-16 pt-20 max-w-7xl mx-auto px-4'>
             <div className='container mx-auto'>
-                <nav className='bg-white pb-6 pt-8 max-w-7xl mx-auto relative'>
+                <nav className='bg-white py-10 max-w-7xl mx-auto relative'>
                     <div className='mx-auto'>
                         <div className='flex items-center'>
                             <Link href='/giao-duc/ngon-ngu-ky-hieu' className='text-[#A0A3A9] text-lg font-normal hover:text-gray-900 line-clamp-1'>
@@ -78,7 +78,7 @@ const Lesson = ({khoahocDetail}: any) => {
                         <CustomVideo linkPlay={linkPlay} handleChangeSlots={handleChangeSlots} />
                         <div className="w-full bg-white ">
                             <h2 className="font-bold text-2xl text-[#111827] mb-3">Bản ghi chép</h2>
-                            <div className="space-y-6 max-h-[664px] h-[664px] rounded-lg overflow-y-auto p-4  border border-[#CFD1D4]">
+                            <div className="space-y-6 max-h-[664px] h-[664px] rounded-lg overflow-y-auto p-4  border-2 border-[#CFD1D4]">
                                 {dataTrans.map((item, index) => {
                                     console.log(item.time, time);
                                     const isActive = toSeconds(item.time) <= toSeconds(time);

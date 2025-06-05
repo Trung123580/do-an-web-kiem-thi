@@ -125,15 +125,16 @@ export default function page() {
           </div>
           <div>
             <h2 className='text-2xl md:text-3xl font-bold mb-6 md:mb-8'>Khóa học trực tuyến</h2>
-            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[20px]'>
               {khoaHocTrucTuyen.slice(0, 3).map((course, index) => (
                 <Link href={`/giao-duc/ngon-ngu-ky-hieu/khoa-hoc-ngoai-tuyen/${course.slug}`} key={index}>
-                  <div className='rounded-2xl overflow-hidden group cursor-pointer hover:shadow-lg hover:shadow-[#5d7deb80] transition-shadow duration-300 h-auto md:h-[472px]'>
-                    <div className='relative h-48 md:h-72 bg-[#CFD1D4]'>
+                  <div className='rounded-2xl relative overflow-hidden group cursor-pointer hover:shadow-lg hover:shadow-[#5d7deb80] transition-shadow duration-300 h-auto md:h-[472px]'>
+                    <span className={`absolute top-4 right-4 text-black z-10 text-[10px] font-normal px-2 py-1 rounded-sm ${course.free ? 'bg-white ' : 'bg-[#F2F2F3] '}`}>{course.free ? 'Miễn phí' : 'Trả phí'}</span>
+                    <div className='relative h-[252px] bg-[#CFD1D4]'>
                       <Image src={course.img} alt={course.title} fill className='object-cover' />
                     </div>
-                    <div className='px-4 md:px-6 pt-4 md:pt-6 pb-4'>
-                      <h3 className='font-semibold text-lg md:text-xl mb-2 line-clamp-1'>{course.title}</h3>
+                    <div className='px-4 md:px-6 pt-4 md:pt-6 pb-4 flex flex-col'>
+                      <h3 className='font-semibold text-2xl mb-2'>{course.title}</h3>
                       <p className='text-gray-600 text-sm mb-8 line-clamp-1'>{course.day}</p>
                       <div className='flex justify-between items-center'>
                         <div className='flex items-center gap-3 w-full'>

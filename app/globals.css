@@ -186,3 +186,28 @@ select {
 .text-shadow-basd{
   text-shadow: 1px 1px 1px #000;
 }
+
+#test input[type="radio"] {
+  appearance: none;
+  background-color: #fff;
+  margin: 0;
+  font: inherit;
+  width: 33px;
+  height: 33px;
+  border: 3px solid #CFD1D4;
+  border-radius: 50%;
+  position: relative;
+}
+
+#test input[type="radio"]:checked::after {
+  content: '';
+  position: absolute;
+  width: 75%;
+  height: 75%;
+  top: 49.5%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  background: #3A63ED;
+  border-radius: 50%;
+  display: block;
+}

@@ -99,7 +99,7 @@ const ChatBot = () => {
       </svg>
       {openChat && (
         <div className='bg-white w-[300px] md:w-[413px] h-[400px] md:h-[560px] bottom-14 right-2 md:right-0 absolute rounded-2xl z-50 pt-2 shadow-2xl'>
-          <div className='rounded-2xl flex justify-end px-4'>
+          <div className='rounded-2xl flex justify-end pt-[12px] pr-[16px]'>
             <img onClick={() => setOpenChat(false)} className='rounded-2xl cursor-pointer' src='/image/arrowdown.png' alt='' />
           </div>
           <div className='flex gap-2.5 pb-3.5 border-b border-[#CFD1D4] px-4'>
@@ -117,7 +117,7 @@ const ChatBot = () => {
               <p className='text-[10px] font-normal text-[#A0A3A9]'>Công cụ Ai hỗ trợ tìm kiếm thông tin và trả lời tự động.</p>
             </div>
           </div>
-          <div className='overflow-y-auto  h-[229px] md:h-[398px]'>
+          <div className='overflow-y-auto  h-[229px] md:h-[398px] pt-2'>
             {messages.map((item, index) => (
               <div key={index} className={`flex ${item.role === "user" ? "justify-end" : "justify-start"} gap-2.5 pb-3.5 px-4 pt-6`}>
                 {item.role === "assistant" ? (
@@ -156,9 +156,13 @@ const ChatBot = () => {
               </div>
             )}
           </div>
-          <div className='absolute bottom-0 border-t border-[#CFD1D4] w-full rounded-b-2xl px-4 py-2'>
+          <div className='absolute bottom-0 border-t border-[#CFD1D4] w-full rounded-b-2xl px-4 bg-white h-auto'>
             <div className='flex flex-grow'>
-              <input onKeyDown={handleKeyDown} value={input} autoFocus onChange={(e) => setInput(e.target.value)} className='w-[90%] outline-0 border-0 h-[50px] pr-5' type='text' />
+              <input type="text" onKeyDown={handleKeyDown} className="hidden" />
+              <textarea 
+              placeholder="Hỏi bất kỳ điều gì về người khiếm thính..."
+               value={input} autoFocus onChange={(e) => setInput(e.target.value)} rows={2} 
+               className='w-[90%] outline-0 border-0  pr-5 pt-3' />
               <div className='flex justify-center items-center cursor-pointer '>
                 {/* <img
                   onClick={!loading ? submitChat : undefined}

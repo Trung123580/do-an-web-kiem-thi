@@ -56,7 +56,7 @@ const Page = () => {
     return (
       <div className="min-h-screen bg-white p-0">
         {/* bg-[#F6F8FC] */}
-        <div className="max-w-7xl mx-auto px-4 mt-20 pb-16">
+        <div className="max-w-7xl mx-auto px-4 mt-20 pb-[96px]">
         <div className='px-6 py-4 rounded-t-lg pt-[32px] flex flex-col justify-center'>
             <h2 className='mb-3 text-3xl md:text-5xl font-bold'>Kết quả kiểm tra kỹ năng làm việc</h2>
             <p className='m-0 md:text-lg text-base font-normal'>Bài kiểm tra kỹ năng làm việc được phát triển và nghiên cứu dựa trên đối tượng đặc biệt nhằm giúp họ khám phá năng lực nghề nghiệp bản thân thông qua các bài kiểm tra kỹ năng nhằm khám phá bản thân và lựa chọn định hướng phù hợp bản thân.</p>
@@ -68,10 +68,10 @@ const Page = () => {
             </div>
             {/* Result summary and suggestions */}
             <div className="flex-1 flex flex-col gap-6 min-w-[340px] max-w-lg">
-              <div className="bg-[#3A63ED] text-white rounded-xl p-6 text-2xl font-bold">
+              <div className="bg-[#3A63ED] text-white rounded-xl p-[32px] text-2xl font-bold">
                 Bạn có nền tảng tốt để bắt đầu công việc. Một số kỹ năng bạn đã làm rất tốt, một số khác cần luyện thêm. Cùng xem điểm mạnh của bạn nhé!
               </div>
-              <div className="bg-[#F1F2F3] rounded-xl p-6 shadow flex flex-col gap-4">
+              <div className="bg-[#F1F2F3] rounded-xl p-[32px] shadow flex flex-col gap-4">
                 <div>
                   <span className="font-bold text-2xl text-[#111827]">Điểm mạnh</span>
                   <p className="text-gray-800 mt-1 text-base">Giao tiếp tốt, hợp tác với công việc nghệ thuật, thiết kế. Hợp tác nhóm, có tố chất lãnh đạo, biết lắng nghe, thấu cảm.</p>
@@ -111,20 +111,21 @@ const Page = () => {
       </div>
       <div className='rounded-lg pb-[96px] max-w-7xl mx-auto px-4 md:px-0'>
         {/* Progress Bar */}
-        <div className='pb-[20px] mb-[36px] pt-[67px] sticky top-[80px] bg-[#D8E0FB] '>
+        <div className='pb-[20px] mb-[36px] pt-[67px] sticky z-10 top-[80px] bg-[#D8E0FB] '>
+          <div className='text-right text-xs text-blue-600 mb-2'>
+            {answeredCount}/{questions.length}
+          </div>
           <div className='h-4 bg-blue-200 rounded-2xl overflow-hidden'>
             <div className='h-full bg-[#3A63ED] transition-all duration-300' style={{ width: `${progressPercent}%` }} />
           </div>
-          <div className='text-right text-xs text-blue-600 mt-1'>
-            {answeredCount}/{questions.length}
-          </div>
+          
         </div>
         {/* Questions */}
         <form className='max-w-[1064px] mx-auto flex flex-col gap-[16px]'>
           {questions.map((q, idx) => (
-            <div key={idx} className='bg-white rounded-xl p-5 shadow-sm'>
+            <div key={idx} className='bg-white rounded-xl p-5 py-[48px] shadow-sm'>
               <div className='mb-3 text-[20px] md:text-[32px] font-normal text-center'>{q}</div>
-              <div className='flex justify-center py-3'>
+              <div className='flex justify-center' id="test">
                 {options.map((opt) => (
                     <label key={opt} className='flex flex-col items-center text-sm mx-20'>
                     <input
@@ -139,7 +140,8 @@ const Page = () => {
                     <Tooltip
                       id={`tooltip-q${idx}-opt${opt}`}
                       place="bottom-start"
-                      className="!bg-[#D8E0FB] !text-black"
+                      arrowColor="transparent"
+                      className="!bg-[#F2F2F3] !text-black"
                       content={
                       opt === 1
                         ? "Hoàn toàn sai"

@@ -43,7 +43,7 @@ export default function page() {
   const router = useRouter()
   const slug: any = params["slug-khoahoc"]
   const khoahocDetail: any = khoaHocTrucTuyen.find((khoahoc) => khoahoc.slug === slug[0])
-  const [step, setStep] = useState(1 )
+  const [step, setStep] = useState(1)
   const [countdown, setCountdown] = useState(10);
   const handleDownload = () => {
     fetch('/pdf-mau.pdf')
@@ -123,7 +123,7 @@ export default function page() {
     <>
       {step === 1 && (
         <nav className='bg-white pb-6 pt-8 max-w-7xl mx-auto relative mt-20 '>
-          <div className='mx-auto px-4'>
+          <div className='mx-auto px-4 py-8'>
             <div className='flex items-center'>
               <Link href='/giao-duc/ngon-ngu-ky-hieu' className='text-[#A0A3A9] hover:text-gray-900 text-lg font-normal line-clamp-1'>
                 Ngôn ngữ ký hiệu
@@ -148,28 +148,28 @@ export default function page() {
                     <Image src={item.img} alt='DNXH Logo' width={40} height={40} className='rounded-full' />
                     <div>
                       <div className='text-[10px] text-[#70747D]'>Đơn vị tổ chức</div>
-                      <div className='font-medium text-lg'>{item.title}</div>
+                      <div className='font-normal text-lg'>{item.title}</div>
                     </div>
                   </div>
                 ))}
               </div>
               <h1 className='text-5xl font-bold mb-4'>{khoahocDetail?.title}</h1>
-              <p className='mb-16 text-lg max-w-4xl'>{khoahocDetail?.description}</p>
+              <p className='mb-[46px] text-lg max-w-4xl'>{khoahocDetail?.description}</p>
               {khoahocDetail.free ? (
                 <>
-                  <div className='bg-[#FFFFFF] rounded-xl shadow-sm p-8 absolute -bottom-75 sm:-bottom-36 md:-bottom-20 xl:-bottom-15 left-1/2 -translate-x-1/2  w-full'>
-                    <div className='grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-5 gap-4'>
+                  <div className='bg-[#FFFFFF] rounded-xl shadow-xl  p-[32px] absolute -bottom-75 sm:-bottom-36 md:-bottom-20 xl:-bottom-15 left-1/2 -translate-x-1/2  w-full'>
+                    <div className='flex items-center justify-center flex-wrap gap-4'>
                       <div className='flex justify-center gap-1 flex-col px-5 sm:border-r border-[#CFD1D4]'>
                         <span className='text-sm text-[#70747D]'>Tổng thời lượng</span>
-                        <span className='text-2xl'>{khoahocDetail?.time}</span>
+                        <span className='text-2xl font-normal'>{khoahocDetail?.time}</span>
                       </div>
                       <div className='flex justify-center gap-1 flex-col px-5 sm:border-r border-[#CFD1D4]'>
                         <span className='text-sm text-[#70747D]'>Chi phí khóa học</span>
-                        <span className='text-2xl'>Miễn phí</span>
+                        <span className='text-2xl font-normal'>Miễn phí</span>
                       </div>
                       <div className='flex justify-center gap-1 flex-col px-5 sm:border-r border-[#CFD1D4]'>
                         <span className='text-sm text-[#70747D]'>Đối tượng</span>
-                        <span className='text-2xl'>{khoahocDetail?.objectives}</span>
+                        <span className='text-2xl font-normal'>{khoahocDetail?.objectives}</span>
                       </div>
                       <div className='flex justify-center gap-1 flex-col px-5'>
                         <span className='text-sm text-[#70747D]'>Giảng viên</span>
@@ -180,8 +180,8 @@ export default function page() {
                 </>
               ) : (
                 <>
-                  <div className='bg-[#FFFFFF] rounded-xl shadow-sm p-8 absolute -bottom-75 sm:-bottom-36 md:-bottom-20 xl:-bottom-15 left-1/2 -translate-x-1/2  w-full'>
-                    <div className='grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-5 gap-4'>
+                  <div className='bg-[#FFFFFF] rounded-xl shadow-xl p-8 absolute -bottom-60 lg:-bottom-75 sm:-bottom-36 md:-bottom-20 xl:-bottom-15 left-1/2 -translate-x-1/2  w-full'>
+                    <div className='flex items-center justify-center flex-wrap  gap-4'>
                       <div className='flex justify-center gap-1 flex-col px-5 sm:border-r border-[#CFD1D4]'>
                         <span className='text-sm text-[#70747D]'>Khóa học</span>
                         <span className='text-2xl'>{khoahocDetail?.day}</span>
@@ -230,7 +230,7 @@ export default function page() {
       </div>
       {step === 1 && (
         <>
-          <div className='min-h-screen py-16 pb-[96px]  max-w-7xl mx-auto'>
+          <div className='min-h-screen py-16 pt-[220px] lg:pb-[96px]  max-w-7xl mx-auto'>
             <div className='container mx-auto'>
               <h2 className='text-[32px] font-bold text-[#2E4FBE] mb-2 mt-10'>Giới thiệu khóa học</h2>
               <div
@@ -279,7 +279,7 @@ export default function page() {
               </div>
               {!khoahocDetail.free && (
                 <div className='flex flex-col mt-18 gap-3.5 bg-[#F2F2F3] py-12 px-[72px] rounded-lg'>
-                  <h2 className='text-[32px] font-bold text-[#2E4FBE] mb-2'>Đăng ký khóa học</h2>
+                  <h2 className='text-[32px] font-bold text-[#2E4FBE] mb-2'>Thanh toán khóa học</h2>
                   <div className='text-base' dangerouslySetInnerHTML={{ __html: khoahocDetail?.scienceRegistration }} />
                   <button type='button' className='bg-black hover:bg-[#70747D] w-max rounded-lg mx-auto !py-4 !px-14 text-white !text-[18px] font-normal' onClick={() => setStep(2)}>
                     Thanh toán khóa học
@@ -404,9 +404,13 @@ export default function page() {
                       <div className='bg-[#F2F2F3] gap-2 p-6 rounded-lg flex flex-col items-center justify-center'>
                         <p className='text-center'>Sau khi bạn hoàn tất và gửi biểu mẫu này, bạn sẽ được chuyển hướng đến PayPal để hoàn tất khoản quyên góp của mình</p>
                         <img src='/image/paypal.png' alt='' className="max-w-[140px]" />
-                        <button type='submit' className='mt-4 w-max px-14 bg-[#3A63ED] text-white py-3 rounded text-lg font-medium hover:bg-[#4338CA] transition-colors'>
-                          Quyên góp ngay
+                        <button type='submit' className='mt-4 w-max px-14 bg-[#3A63ED] text-white py-3 rounded text-lg font-medium hover:bg-[#89A1F4] transition-colors'>
+                          Thanh toán ngay
                         </button>
+                      </div>
+                       <div className='flex flex-col mt-18 gap-3.5 bg-[#F2F2F3] py-12 px-[72px] rounded-lg'>
+                        <h2 className='text-[32px] font-bold text-[#2E4FBE] mb-2'>Thanh toán khóa học</h2>
+                        <div className='text-base' dangerouslySetInnerHTML={{ __html: textAria}} />
                       </div>
                     </>
                   )}
@@ -470,7 +474,7 @@ export default function page() {
       {step === 3 && (
         <div className='py-[300px] max-w-7xl mx-auto relative p-10 space-y-6'>
           <div className='flex flex-col items-center justify-center h-full text-center px-4'>
-            <h1 className='text-2xl md:text-5xl font-bold text-gray-900'>
+            <h1 className='text-2xl md:text-5xl font-bold text-[#000000] leading-[55px]'>
               Tài liệu sẽ được tự động tải sau {countdown} giây. <br />
               Hoặc <button
                 // href="/pdf-mau.pdf"
@@ -479,7 +483,7 @@ export default function page() {
                 Click
               </button> vào đây để tải xuống.
             </h1>
-            <p className='my-4 text-base font-normal text-gray-900'>
+            <p className='my-6 text-base font-normal text-[#000000]'>
               Tài liệu sẽ đồng thời được gửi qua email của bạn.
             </p>
             <a href='/giao-duc/ngon-ngu-ky-hieu/khoa-hoc-ngoai-tuyen' className='mt-4 text-blue-600 font-semibold hover:underline flex items-center gap-1'>

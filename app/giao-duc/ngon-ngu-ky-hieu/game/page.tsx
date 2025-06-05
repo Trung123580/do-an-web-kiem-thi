@@ -47,12 +47,12 @@ const page = () => {
   });
 };
   return (
-    <div className=' bg-gray-50 py-24'>
+    <div className=' bg-white pt-20'>
       <div className='container mx-auto px-4 max-w-7xl'>
         <div className='grid md:grid-cols-[2fr,1fr] gap-8'>
-          <div className={`bg-[#f9fafb] rounded-xl space-y-8 p-4`}>
-            <h1 className='text-5xl font-bold text-[#3A63ED] text-center mb-6'>Tên của bạn là?</h1>
-            <div className='flex justify-between rounded-lg bg-[#F2F2F3] p-8 border-4 border-[#CFD1D4] gap-4'>
+          <div className={` rounded-xl space-y-8 p-4`}>
+            <h1 className='text-5xl font-bold text-[#3A63ED] text-center my-6'>Tên của bạn là?</h1>
+            <div className='flex justify-between rounded-lg bg-[#F2F2F3] items-center px-8 h-[184px] border-4 border-[#CFD1D4] gap-4'>
               <div className='overflow-x-auto py-1 flex max-w-[85%]'>
                 {currentName.map((item: any, index: number) => {
                   return (
@@ -66,7 +66,7 @@ const page = () => {
                     router.push("game/go-game")
                     return
                 }}>
-                  <img className='md:h-[120px] h-[60px] object-contain' src='/image/buttonArrow.png' alt='' />
+                  <img className={`md:h-[120px] h-[60px] object-contain ${currentName.length === 0 ? 'grayscale-100' : ''}`} src='/image/buttonArrow.png' alt='' />
                 </button>
               </div>
             </div>
