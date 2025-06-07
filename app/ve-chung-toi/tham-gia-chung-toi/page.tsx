@@ -140,13 +140,13 @@ export default function JoinUsPage() {
               <img src='/image/home/Variant2.png' alt='Next' className='cursor-pointer hover:opacity-50' onClick={() => sliderRef2.current?.slickNext()} />
             </div>
           </div>
-          <Slider ref={sliderRef2} {...volunteerCarouselSettings} className='volunteer-carousel -mx-3'>
+          <Slider ref={sliderRef2} {...volunteerCarouselSettings} className='volunteer-carousel -mx-3 '>
             {dataVolunteer.map((item, index) => {
               return (
-                <Link key={index} href={`/ve-chung-toi/tham-gia-chung-toi/volunteer/${item.slug}`} className='px-3 h-full'>
-                  <div className='bg-[#F2F2F3] overflow-hidden rounded-2xl hover:bg-[#89A1F4]  h-full group relative'>
+                <Link key={index} href={`/ve-chung-toi/tham-gia-chung-toi/volunteer/${item.slug}`} className='px-3 h-[377px]'>
+                  <div className='bg-[#F2F2F3] overflow-hidden rounded-2xl hover:bg-[#D8E0FB]  h-full group relative'>
                     {/* shadow-lg */}
-                    <div className='relative h-60 group-hover:h-40 transition-all duration-300'>
+                    <div className='relative h-[270px] group-hover:h-40 transition-all duration-300'>
                       <Image src={item.img} alt={item.title} fill className='object-cover rounded-2xl' />
                     </div>
                     <div className='px-6 pt-[25px] pb-[5px] group-hover:pb-[32px]'>
