@@ -89,7 +89,8 @@ const ChatBot = () => {
     setLoading(false);
   };
   return (
-   <div className="flex justify-end fixed bottom-14 max-w-7xl  2xl:left-[80.3%] left-[90%]">
+   <div className="fixed bottom-14 right-14">
+   {/* <div className="flex justify-end fixed bottom-14 max-w-7xl  2xl:left-[80.3%] left-[90%]"> */}
     <div className='w-16 h-16 bg-[#3a63ed] rounded-full z-[999] flex items-center justify-center shadow-lg'>
       <svg onClick={() => setOpenChat(!openChat)} className='cursor-pointer' xmlns='http://www.w3.org/2000/svg' width='34' height='30' viewBox='0 0 34 30' fill='none'>
         <path

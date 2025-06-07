@@ -31,13 +31,13 @@ export default function RootLayout({
       <GoogleTagManager gtmId='G-YQZ46LVZL3'/>
       <body
         className={`${geistSans.variable} antialiased`}
-      >
+      > 
         <ContextProvider>
           <Header />
           {children}
+          <ChatBot />
           <Footer />
           {/* <ChatBotComponent /> */}
-          <ChatBot />
           <Toaster position="top-center" />
         </ContextProvider>
       </body>
