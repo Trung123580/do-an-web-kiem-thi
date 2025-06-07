@@ -47,7 +47,7 @@ const page = () => {
   });
 };
   return (
-    <div className=' bg-white pt-20'>
+    <div className=' bg-white pt-20 pb-[96px]'>
       <div className='container mx-auto px-4 max-w-7xl'>
         <div className='grid md:grid-cols-[2fr,1fr] gap-8'>
           <div className={` rounded-xl space-y-8 p-4`}>

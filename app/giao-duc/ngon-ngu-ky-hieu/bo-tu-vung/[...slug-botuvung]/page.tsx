@@ -95,17 +95,17 @@ export default async function page({ params }: { params: Params }) {
         <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-y-5 gap-4 mt-20">
           {boTuVungDetail?.items.map((item: any, index: number) => {
             return (
-              <div key={index} className="" >
+                <div key={index} className="">
                 <video
                   src={item.img}
                   className="object-cover rounded-2xl md:w-[305px] w-full h-[305px]"
-                  autoPlay
                   loop
                   muted
                   playsInline
+                  onClick={e => (e.currentTarget.paused ? e.currentTarget.play() : e.currentTarget.pause())}
                 />
                 <h2 className="text-[32px] font-normal mt-2 text-center">{item.title}</h2>
-              </div>
+                </div>
             );
           })}
         </div>

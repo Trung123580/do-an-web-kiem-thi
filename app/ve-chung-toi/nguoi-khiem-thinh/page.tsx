@@ -1,5 +1,5 @@
 'use client'
-import React from 'react'
+import React, { useState } from 'react'
 import Image from 'next/image';
 import { docs } from '@/utils/contanst';
 import FAQItem from '@/app/components/FAQItem';
@@ -7,14 +7,18 @@ import VietnamStatsMap from '@/components/vietnam-stats-map.tsx';
 import Link from 'next/link';
 
 export default function page() {
+  const [chapter, setChapter] = useState(1)
   const chapters = [
     'Chương I', 'Chương II', 'Chương III', 'Chương IV',
     'Chương V', 'Chương VI', 'Chương VII', 'Chương VII', 'Chương IX', 'Chương X'
   ];
+  console.log('chapter', chapter);
+  
   // 'Chương VI', 'Chương VII', 'Chương VIII',
   //     'Chương IX', 'Chương X'
   const handleScroll = (index: number) => {
     const chapterId = `chuong-${index}`;
+    setChapter(Number(index))
     const element = document.getElementById(chapterId);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
@@ -43,7 +47,7 @@ export default function page() {
       </section>
       <section className='relative w-full'>
         <div className='max-w-7xl mx-auto h-[540px] flex justify-center items-center flex-col gap-[30px]'>
-          <h3 className='text-header font-bold text-5xl'>Việt Nam có khoảng 2,5 triệu người khuyết tật nghe nói</h3>
+          <h3 className='text-header font-bold text-5xl'>Việt Nam có khoảng 2,5 triệu <br/> người khuyết tật nghe nói</h3>
           <p className='text-description text-center'>
             Tại Việt Nam, ước tính có khoảng 2,5 triệu người khuyết tật nghe nói, tạo nên nhu cầu cấp thiết về hỗ trợ giáo dục, <br/>
             y tế và truyền thông nhằm giúp họ tiếp cận thông tin và hội nhập xã hội.
@@ -111,15 +115,21 @@ export default function page() {
               </p>
               {/* Chapter Buttons Grid */}
               <div className="flex flex-wrap gap-2">
-                {chapters.map((category, index) => (
+                {chapters.map((category, index) => {
+                  console.log(chapter === (Number(index + 1)));
+                  console.log(chapter );
+                  console.log((Number(index + 1)));
+                  
+                  return (
                   <button
                     key={index}
                     onClick={() => handleScroll(index + 1)}
-                    className="px-6 py-2 text-gray-700 bg-white rounded-lg border border-gray-200 hover:bg-gray-50 transition-colors text-sm"
+                    className={`${chapter === (Number(index + 1)) ? 'bg-[#3A63ED] text-white' : 'bg-white'} px-6 py-2 text-[#111827] rounded-lg border border-gray-200 hover:bg-[#3A63ED]  hover:text-white transition-colors text-sm`}
                   >
                     {category}
                   </button>
-                ))}
+                )
+                })}
               </div>
             </div>
 

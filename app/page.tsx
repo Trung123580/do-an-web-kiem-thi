@@ -105,7 +105,7 @@ export default function Home() {
                     </div>
                     <div className='absolute bottom-[22px] left-[32px] flex items-end text-white w-full'>
                       <div className="grid grid-cols-3">
-                        <p className='font-bold col-span-2 text-lg'>{title}</p>
+                        <p className='font-bold col-span-2 text-lg tracking-tighter'>{title}</p>
                         <svg
                           xmlns='http://www.w3.org/2000/svg'
                           height='24px'
@@ -124,10 +124,10 @@ export default function Home() {
           ))}
         </Slider>
         <div className='flex absolute top-1/2 -translate-y-1/2 max-w-7xl w-screen justify-between items-center left-1/2 -translate-x-1/2 '>
-          <button onClick={() => sliderRef.current?.slickPrev()}>
+          <button onClick={() => sliderRef.current?.slickPrev()} className="hover:bg-[#F2F2F3] ml-4 rounded-lg px-4 py-1.5">
             <img src={"/image/sllider-home/prev.png"} className='' alt='' />
           </button>
-          <button onClick={() => sliderRef.current?.slickNext()}>
+          <button onClick={() => sliderRef.current?.slickNext()}  className="hover:bg-[#F2F2F3] mr-4 rounded-lg px-2 py-1.5">
             <img src={"/image/sllider-home/next.png"} className='' alt='' />
           </button>
         </div>

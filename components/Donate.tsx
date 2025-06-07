@@ -157,7 +157,7 @@ const Donate = () => {
       </div>
       {open && (
         <div className='fixed inset-0 z-[100] flex items-center justify-center bg-black/40'>
-          <div className='bg-white rounded-2xl py-16 max-w-[630px] w-full p-6 max-h-[80vh] overflow-y-auto relative shadow-lg'>
+          <div className='bg-white rounded-2xl py-16 max-w-[630px] w-full p-6 max-h-[80vh] overflow-y-auto relative shadow-lg' id="donate">
             {step === 1 && (
               <>
                 <div className='absolute top-4 right-0 px-8 items-center  flex justify-between w-full'>
@@ -193,7 +193,7 @@ const Donate = () => {
                         <button
                           key={type}
                           type='button'
-                          className={`flex-1 h-[56px] text-sm font-normal md:font-medium transition-colors ${
+                          className={`flex-1 h-[56px] text-base font-normal md:font-medium transition-colors ${
                             dataSubmit.donationType === type ? "bg-[#D8E0FB] text-[#111827]" : "text-[#111827] bg-white"
                           }`}
                           onClick={() => handleDonationTypeChange(type as 1 | 2)}>
@@ -206,7 +206,7 @@ const Donate = () => {
                         <button
                           type='button'
                           key={amount}
-                          className={`py-2.5 md:py-4 text-sm transition-colors ${dataSubmit.selectedAmount === amount ? "bg-[#D8E0FB]" : "bg-white hover:bg-[#CFD1D4]"}`}
+                          className={`py-2.5 md:py-4 text-base transition-colors ${dataSubmit.selectedAmount === amount ? "bg-[#D8E0FB]" : "bg-white hover:bg-[#CFD1D4]"}`}
                           onClick={() => handleAmountSelect(amount)}>
                           {amount}$
                         </button>
@@ -226,7 +226,7 @@ const Donate = () => {
                       />
                     </div>
                     <button
-                      className='mt-2 md:mt-4 w-full bg-[#3A63ED] text-white py-2.5 md:py-5 rounded-[4px] text-base md:text-2xl font-normal md:font-medium mb-[40px] md:mb-4 hover:bg-[#89A1F4] transition-all '
+                      className='mt-2 md:mt-4 w-full bg-[#3A63ED] text-white py-2.5 md:py-5 rounded-2xl text-base md:text-2xl font-normal md:font-medium mb-[40px] md:mb-4 hover:bg-[#89A1F4] transition-all '
                       type='button'
                       onClick={() => setStep(2)}>
                       Ủng hộ ngay
@@ -276,7 +276,7 @@ const Donate = () => {
                 <form onSubmit={handleSubmit} className='px-[30px] md:px-[56px] mt-8 text-[#111827] h-[90%] overflow-y-auto '>
                   <h2 className='text-xl font-bold mb-4'>Thông tin cá nhân</h2>
                   <div className='relative'>
-                    <label htmlFor='email' className={`${dataSubmit.fullName?.length !== 0 ? "hidden" : "block"} text-sm absolute left-3 text-gray-500 top-[40%] -translate-y-1/2`}>
+                    <label htmlFor='email' className={`${dataSubmit.fullName?.length !== 0 ? "hidden" : "block"} text-sm absolute left-5 text-gray-500 top-[40%] -translate-y-1/2`}>
                       Họ tên <span className='text-red-600'>*</span>
                     </label>
                     <input required name='fullName' className='w-full border-2 border-[#CFD1D4] rounded-lg px-3 py-2 mb-4' value={dataSubmit.fullName} onChange={handleInputChange} />
@@ -290,7 +290,7 @@ const Donate = () => {
                   required
                 /> */}
                   <div className='relative'>
-                    <label htmlFor='email' className={`${dataSubmit.fullName?.length !== 0 ? "hidden" : "block"} text-sm absolute left-3 text-gray-500 top-[40%] -translate-y-1/2`}>
+                    <label htmlFor='email' className={`${dataSubmit.fullName?.length !== 0 ? "hidden" : "block"} text-sm absolute left-5 text-gray-500 top-[40%] -translate-y-1/2`}>
                       Email <span className='text-red-600'>*</span>
                     </label>
                     <input required name='email' className='w-full border-2 border-[#CFD1D4] rounded-lg px-3 py-2 mb-4' value={dataSubmit.email} onChange={handleInputChange} />
@@ -305,10 +305,10 @@ const Donate = () => {
                 /> */}
 
                   <div className='relative'>
-                    <label htmlFor='email' className={`${dataSubmit.fullName?.length !== 0 ? "hidden" : "block"} text-sm absolute left-3 text-gray-500 top-[40%] -translate-y-1/2`}>
+                    <label htmlFor='email' className={`${dataSubmit.phone?.length !== 0 ? "hidden" : "block"} text-sm absolute left-5 text-gray-500 top-[40%] -translate-y-1/2`}>
                       Số điện thoại <span className='text-red-600'>*</span>
                     </label>
-                    <input required name='phone' className='w-full border-2 border-[#CFD1D4] rounded-lg px-3 py-2 mb-4' value={dataSubmit.phone} onChange={handleInputChange} type='number' />
+                    <input required min={0} name='phone' className='w-full border-2 border-[#CFD1D4] rounded-lg px-3 py-2 mb-4' value={dataSubmit.phone} onChange={handleInputChange} type='number' />
                   </div>
                   {/* <input
                   name='phone'

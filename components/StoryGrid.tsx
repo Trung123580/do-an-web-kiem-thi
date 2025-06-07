@@ -96,10 +96,14 @@ export default function StoryGrid() {
         </section>
         {/* Button */}
         <div className="flex justify-end mt-6">
-          <Link href={`thong-tin/cau-chuyen`}  className={`flex gap-2 items-center px-7 py-2 text-sm  border-2 border-transparent md:border-[#F2F2F3] text-[#414652] rounded-lg hover:bg-gray-100`}>
+          {/* <Link href={`thong-tin/cau-chuyen`}  className={`flex gap-2 items-center px-7 py-2 text-sm  border-2 border-transparent md:border-[#F2F2F3] text-[#414652] rounded-lg hover:bg-gray-100`}>
             Xem thêm 
             <img src="/icon/arrow.png" alt="" className="md:block hidden" />
-          </Link>
+          </Link> */}
+           <Link href='thong-tin/cau-chuyen' className={`flex items-center gap-2 px-7 py-2 text-sm  border-2 border-transparent md:border-[#CFD1D4] text-[#414652] rounded-lg hover:bg-gray-100 transition`}>
+          Xem thêm
+          <img src='/icon/arrow.png' alt='' className='md:block hidden' />
+        </Link>
         </div>
       </div>
     );

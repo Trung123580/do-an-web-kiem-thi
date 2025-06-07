@@ -126,7 +126,7 @@ const UI = ({ slug }: { slug: string }) => {
         </div>
       )}
       {step === 2 && (
-        <div className='min-h-screen bg-[#F1F2F3] mt-20 py-8'>
+        <div className='min-h-screen bg-[#F1F2F3] mt-20 py-8 pb-16'>
          <nav className='bg-transparent max-w-7xl mx-auto'>
           <div className='mx-auto'>
             <div className='flex items-center h-12 mb-8'>

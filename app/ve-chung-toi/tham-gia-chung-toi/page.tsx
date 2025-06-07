@@ -92,13 +92,13 @@ export default function JoinUsPage() {
           <h2 className='text-3xl md:text-[48px] font-bold'>Công việc</h2>
           <div className='flex items-center justify-center gap-1 *:cursor-pointer'>
             {/* <img src='/image/home/Variant2.png' alt='Next' className='cursor-pointer hover:opacity-50' /> */}
-            <svg onClick={() => sliderRef.current?.slickNext()} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="" className="rounded-sm">
-            <rect width="24" height="24" transform="translate(24) rotate(90)" fill="" className="fill-white hover:fill-[#F0F1F2]"/>
+            <svg onClick={() => sliderRef.current?.slickNext()} xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="" className="rounded-sm">
+            <rect width="40" height="40" transform="translate(24) rotate(90)" fill="" className="fill-white hover:fill-[#F0F1F2]"/>
             <path d="M9.02495 11.9998C9.02495 11.8665 9.04578 11.7415 9.08745 11.6248C9.12912 11.5081 9.19995 11.3998 9.29995 11.2998L13.9 6.6998C14.0833 6.51647 14.3166 6.4248 14.6 6.4248C14.8833 6.4248 15.1166 6.51647 15.3 6.6998C15.4833 6.88314 15.575 7.11647 15.575 7.3998C15.575 7.68314 15.4833 7.91647 15.3 8.0998L11.4 11.9998L15.3 15.8998C15.4833 16.0831 15.575 16.3165 15.575 16.5998C15.575 16.8831 15.4833 17.1165 15.3 17.2998C15.1166 17.4831 14.8833 17.5748 14.6 17.5748C14.3166 17.5748 14.0833 17.4831 13.9 17.2998L9.29995 12.6998C9.19995 12.5998 9.12912 12.4915 9.08745 12.3748C9.04578 12.2581 9.02495 12.1331 9.02495 11.9998Z" fill="#111827"/>
             </svg>
 
-            <svg  onClick={() => sliderRef.current?.slickPrev()} className="rotate-180" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-            <rect width="24" height="24" transform="translate(24) rotate(90)" className="fill-white hover:fill-[#F0F1F2]"/>
+            <svg  onClick={() => sliderRef.current?.slickPrev()} className="rotate-180" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none">
+            <rect width="40" height="40" transform="translate(24) rotate(90)" className="fill-white hover:fill-[#F0F1F2]"/>
             <path d="M9.02495 11.9998C9.02495 11.8665 9.04578 11.7415 9.08745 11.6248C9.12912 11.5081 9.19995 11.3998 9.29995 11.2998L13.9 6.6998C14.0833 6.51647 14.3166 6.4248 14.6 6.4248C14.8833 6.4248 15.1166 6.51647 15.3 6.6998C15.4833 6.88314 15.575 7.11647 15.575 7.3998C15.575 7.68314 15.4833 7.91647 15.3 8.0998L11.4 11.9998L15.3 15.8998C15.4833 16.0831 15.575 16.3165 15.575 16.5998C15.575 16.8831 15.4833 17.1165 15.3 17.2998C15.1166 17.4831 14.8833 17.5748 14.6 17.5748C14.3166 17.5748 14.0833 17.4831 13.9 17.2998L9.29995 12.6998C9.19995 12.5998 9.12912 12.4915 9.08745 12.3748C9.04578 12.2581 9.02495 12.1331 9.02495 11.9998Z" fill="#111827"/>
             </svg>
           </div>
@@ -107,10 +107,10 @@ export default function JoinUsPage() {
           {dataJob.map((item, index) => (
             <Link key={index} href={`/ve-chung-toi/tham-gia-chung-toi/job/${item.slug}`} className='px-3 h-full'>
               <div className='bg-[#F2F2F3] rounded-2xl h-full hover:bg-[#D8E0FB]'>
-                <div className='mb-4'>
+                <div className=''>
                   <Image src={item.img} alt='' width={200} height={150} className='w-full' />
                 </div>
-                <div className='py-[27px] px-6'>
+                <div className='pt-[27px] pb-[25px] px-6'>
                   <h3 className='font-semibold text-lg mb-2'>{item.titleDes}</h3>
                   <p className='text-sm text-gray-700'>{item.description}</p>
                 </div>
@@ -149,7 +149,7 @@ export default function JoinUsPage() {
                     <div className='relative h-60 group-hover:h-40 transition-all duration-300'>
                       <Image src={item.img} alt={item.title} fill className='object-cover rounded-2xl' />
                     </div>
-                    <div className='px-6 py-[32px]'>
+                    <div className='px-6 pt-[25px] pb-[5px] group-hover:pb-[32px]'>
                        {/* group-hover:pb-[100px] */}
                       <p className='text-[#111827] font-medium text-lg mb-4'>{item.title}</p>
                       <p className='text-[#111827] font-medium text-sm absolute left-0 right-0 p-6 pt-0 translate-y-full group-hover:translate-y-0 transition-all duration-300'>{item.sortDesc}</p>

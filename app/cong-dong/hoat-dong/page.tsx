@@ -24,7 +24,7 @@ export default function EventsPage() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {dataSukien.map((event, index) => (
           <Link href={`hoat-dong/su-kien/${event.slug}`} key={index}>
-            <div className="bg-white rounded-2xl overflow-hidden group cursor-pointer  hover:shadow-lg hover:shadow-[#2E4FBE] transition-shadow duration-300">
+            <div className="bg-white rounded-2xl overflow-hidden group cursor-pointer  hover:shadow-lg shadow-hover-asdasd22 transition-shadow duration-300">
               <div className="relative h-64 bg-[#CFD1D4] rounded-2xl">
                 <Image
                   src={event.img}
@@ -51,7 +51,7 @@ export default function EventsPage() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {dataTaiTro.map((event, index) => (
           <Link href={`hoat-dong/tai-tro/${event.slug}`} key={index}>
-            <div className="bg-white rounded-2xl overflow-hidden group cursor-pointer   hover:shadow-lg hover:shadow-[#2E4FBE] transition-shadow duration-300">
+            <div className="bg-white rounded-2xl overflow-hidden group cursor-pointer   hover:shadow-lg shadow-hover-asdasd22 transition-shadow duration-300">
               <div className="relative h-64 bg-[#CFD1D4] rounded-2xl">
                 <Image
                   src={event.img}

@@ -116,36 +116,46 @@ const page = () => {
           <Slider {...carouselSettings} ref={sliderRef} className='news-carousel  !w-full md:max-w-[1064px] mx-auto'>
             {sampleCourses.map(({ id, imageUrl, title, link }) => (
               <div key={id} className='px-3'>
-                <Link href={link}>
-                  <div className='group cursor-pointer relative group'>
-                    <div className='relative h-[272px] w-full overflow-hidden rounded-lg'>
-                      <div className='relative shadow-slide h-full'>
-                        <img src={imageUrl} className='h-full w-full' alt='' />
-                      </div>
-                      <div className='absolute bottom-[22px] left-[32px] flex items-end text-white max-w-[293px]'>
-                        <p className='font-normal text-lg line-clamp-1'>{title}</p>
-                        <img src='/icon/arrow.png' alt='' className='h-max group-hover:-right-5 transition-all relative' />
+              <Link href={link}>
+                <div className='group cursor-pointer relative group'>
+                  <div className='relative h-[200px] md:h-[272px] w-full overflow-hidden rounded-lg'>
+                    <div className='relative shadow-slide h-full'>
+                      <img src={imageUrl} className='h-full w-full object-cover' alt='' />
+                    </div>
+                    <div className='absolute bottom-[22px] left-[32px] flex items-end text-white w-full'>
+                      <div className="grid grid-cols-3">
+                        <p className='font-bold col-span-2 text-lg tracking-tighter'>{title}</p>
+                        <svg
+                          xmlns='http://www.w3.org/2000/svg'
+                          height='24px'
+                          viewBox='0 -960 960 960'
+                          width='24px'
+                          className='min-w-[24px] col-span-1 w-[24px] max-[24px] h-max group-hover:-right-5 transition-all relative'
+                          fill='white'>
+                          <path d='M647-440H200q-17 0-28.5-11.5T160-480q0-17 11.5-28.5T200-520h447L451-716q-12-12-11.5-28t12.5-28q12-11 28-11.5t28 11.5l264 264q6 6 8.5 13t2.5 15q0 8-2.5 15t-8.5 13L508-188q-11 11-27.5 11T452-188q-12-12-12-28.5t12-28.5l195-195Z' />
+                        </svg>
                       </div>
                     </div>
                   </div>
-                </Link>
-              </div>
+                </div>
+              </Link>
+            </div>
             ))}
           </Slider>
           <div className='absolute top-1/2 -translate-y-1/2 flex w-[90%] md:w-full justify-between items-center left-1/2 -translate-x-1/2 '>
-            <button onClick={() => sliderRef.current?.slickPrev()}>
-              <img src={"/image/sllider-home/prev.png"} className='' alt='' />
-            </button>
-            <button onClick={() => sliderRef.current?.slickNext()}>
-              <img src={"/image/sllider-home/next.png"} className='' alt='' />
-            </button>
+          <button onClick={() => sliderRef.current?.slickPrev()} className="hover:bg-[#F2F2F3] ml-4 rounded-lg px-4 py-1.5">
+            <img src={"/image/sllider-home/prev.png"} className='' alt='' />
+          </button>
+          <button onClick={() => sliderRef.current?.slickNext()}  className="hover:bg-[#F2F2F3] mr-4 rounded-lg px-2 py-1.5">
+            <img src={"/image/sllider-home/next.png"} className='' alt='' />
+          </button>
           </div>
         </div>
         <h1 className='text-3xl font-bold mb-12 mt-24'>Sự kiện</h1> 
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
           {dataSukien.slice(0, 3).map((event, index) => (
-            <Link href={`hoat-dong/su-kien/${event.slug}`} key={index}>
-              <div className='bg-white rounded-2xl overflow-hidden group cursor-pointer  hover:shadow-lg hover:shadow-[#2E4FBE] transition-shadow duration-300'>
+            <Link href={`/cong-dong/hoat-dong/su-kien/${event.slug}`} key={index}>
+              <div className='bg-white rounded-2xl overflow-hidden group cursor-pointer  hover:shadow-lg shadow-hover-asdasd22 transition-shadow duration-300'>
                 <div className='relative h-64 bg-[#CFD1D4] rounded-2xl'>
                   <Image src={event.img} alt={event.title} fill className='object-cover' />
                 </div>
@@ -169,8 +179,8 @@ const page = () => {
         <h1 className='text-3xl font-bold mb-12 mt-16'>Chương trình hỗ trợ/tài trợ</h1>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
           {dataTaiTro.slice(0, 3).map((event, index) => (
-            <Link href={`hoat-dong/tai-tro/${event.slug}`} key={index}>
-              <div className='bg-white rounded-2xl overflow-hidden group cursor-pointer   hover:shadow-lg hover:shadow-[#2E4FBE] transition-shadow duration-300'>
+            <Link href={`/cong-dong/hoat-dong/tai-tro/${event.slug}`} key={index}>
+              <div className='bg-white rounded-2xl overflow-hidden group cursor-pointer   hover:shadow-lg shadow-hover-asdasd22 transition-shadow duration-300'>
                 <div className='relative h-64 bg-[#CFD1D4] rounded-2xl'>
                   <Image src={event.img} alt={event.title} fill className='object-cover' />
                 </div>

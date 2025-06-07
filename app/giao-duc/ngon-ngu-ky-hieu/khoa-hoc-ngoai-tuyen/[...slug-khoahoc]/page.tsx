@@ -185,27 +185,27 @@ export default function page() {
                 <>
                   <div className='bg-[#FFFFFF] rounded-xl shadow-xl p-8 absolute -bottom-60 lg:-bottom-75 sm:-bottom-36 md:-bottom-20 xl:-bottom-15 left-1/2 -translate-x-1/2  w-full'>
                     <div className='flex items-center justify-center flex-wrap  gap-4'>
-                      <div className='flex justify-center gap-1 flex-col px-5'>
+                      <div className='flex justify-center gap-1 flex-col px-1'>
                         <span className='text-sm text-[#70747D]'>Khóa học</span>
-                        <span className='text-2xl'>{khoahocDetail?.day}</span>
+                        <span className='text-2xl'>{khoahocDetail?.duration || khoahocDetail?.time || ""}</span>
                       </div>
                       <div className="h-[56px] w-[1px] bg-[#CFD1D4] mx-10 lg:block hidden"></div>
-                      <div className='flex justify-center gap-1 flex-col px-5'>
+                      <div className='flex justify-center gap-1 flex-col px-1'>
                         <span className='text-sm text-[#70747D]'>Chi phí khóa học</span>
                         <span className='text-2xl'>{khoahocDetail?.price}</span>
                       </div>
                       <div className="h-[56px] w-[1px] bg-[#CFD1D4] mx-10 lg:block hidden"></div>
-                      <div className='flex justify-center gap-1 flex-col px-5'>
+                      <div className='flex justify-center gap-1 flex-col px-1'>
                         <span className='text-sm text-[#70747D]'>Tổng thời lượng</span>
                         <span className='text-2xl'>{khoahocDetail?.time}</span>
                       </div>
                       <div className="h-[56px] w-[1px] bg-[#CFD1D4] mx-10 lg:block hidden"></div>
-                      <div className='flex justify-center gap-1 flex-col px-5'>
+                      <div className='flex justify-center gap-1 flex-col px-1'>
                         <span className='text-sm text-[#70747D]'>Đối tượng</span>
                         <span className='text-2xl'>{khoahocDetail?.objectives}</span>
                       </div>
                       <div className="h-[56px] w-[1px] bg-[#CFD1D4] mx-10 lg:block hidden"></div>
-                      <div className='flex justify-center gap-1 flex-col px-5'>
+                      <div className='flex justify-center gap-1 flex-col px-1'>
                         <span className='text-sm text-[#70747D] '>Giảng viên</span>
                         <span className='text-2xl text-nowrap'>{khoahocDetail?.teacher}</span>
                       </div>
@@ -237,7 +237,7 @@ export default function page() {
       </div>
       {step === 1 && (
         <>
-          <div className='min-h-screen py-16 pt-[220px] lg:pb-[96px]  max-w-7xl mx-auto'>
+          <div className='min-h-screen py-[96px]  max-w-7xl mx-auto'>
             <div className='container mx-auto'>
               <h2 className='text-[32px] font-bold text-[#2E4FBE] mb-2 mt-10'>Giới thiệu khóa học</h2>
               <div

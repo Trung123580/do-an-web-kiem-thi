@@ -10,9 +10,9 @@ export default function AboutPage() {
         <div className='mx-auto space-y-12 w-full'>
           {/* Mission */}
           <div className='text-center w-full h-[350px] md:h-[406px]  flex items-center justify-center flex-col'>
-            <p className='text-[24px] md:text-[32px] font-md text-gray-600 leading-tight w-full px-10 max-w-[1063px]'>
+            <p className='text-[24px] md:text-[32px] font-md text-gray-600 leading-tight w-full px-4 max-w-[1063px]'>
               <span className='text-[#3a63ed] font-bold'>Mục tiêu của chúng tôi </span>
-              là giúp người khiếm thính có thể tự kiến tạo và duy trì một tương lai bền vững thông qua việc hỗ trợ giáo dục và đào tạo nghề nghiệp
+              là giúp người khiếm thính có thể tự kiến tạo <br/> và duy trì một tương lai bền vững thông qua việc hỗ trợ <br/> giáo dục và đào tạo nghề nghiệp
             </p>
           </div>
 
@@ -30,43 +30,46 @@ export default function AboutPage() {
       <section className='w-full bg-white max-w-7xl mx-auto py-[72px]'>
         <h2 className="text-center text-3xl md:text-5xl font-bold mb-[48px]">Đội ngũ của chúng tôi</h2>
         <div className='grid md:grid-cols-2 gap-[48px] px-4'>
-          <div className="">
+          <div className="flex flex-col ">
             <img src="/image/art-1.jpg" className="max-w-[305px] h-[305px] rounded-lg object-cover w-full" alt="" />
             {/* <img src="/image/art-2.jpg" alt="" /> */}
-            <h4 className="text-[32px] mt-[32px] mb-[16px] font-bold text-[#3A63ED]">Nguyễn Thị Minh Anh, Sinh viên <br/> trường Quản Trị và Kinh Doanh (HSB),<br/> Sáng lập dự án</h4>
+            <h4 className="text-[32px] mt-[32px] mb-[16px] font-bold grow text-[#3A63ED]">Nguyễn Thị Minh Anh, Sinh viên <br/> trường Quản Trị và Kinh Doanh (HSB),<br/> Sáng lập dự án</h4>
             <p className="text-[18px] font-normal text-[#111827]">Sau một khoảng thời gian dài hoạt động xã hội về lĩnh vực người khiếm thính tại tổ chức Doanh nghiệp xã hội vì người khiếm thính Việt Nam, nhận thấy rằng người khiếm thính gặp rất nhiều rào cản từ việc làm đến học tập do hạn chế về kiến thức, hiểu biết cơ bản, bắt nguồn từ việc thiếu thông tin hỗ trợ về giáo dục và nghề nghiệp. Minh Anh quyết định thực hiện dự án xây dựng Website hỗ trợ giáo dục và đào tạo hướng nghiệp cho người khiếm thính với mong muốn hỗ trợ người khiếm thính những điều kiện cơ bản để họ có thể tự lập xây dựng tương lai.</p>
           </div>
-          <div className="">
-            <img src="/image/art-2.jpg" className="max-w-[305px] h-[305px] rounded-lg object-cover w-full" alt="" />
+          <div className="flex flex-col ">
+            <img src="/image/art-2.jpg" className="max-w-[305px] h-[305px]  rounded-lg object-cover w-full" alt="" />
             {/* <img src="/image/art-2.jpg" alt="" /> */}
-            <h4 className="text-[32px]  mt-[32px] mb-[16px] font-bold text-[#3A63ED]">Bà Chử Thị Thanh Hương, Sáng lập/ <br/> Giám đốc Doanh nghiệp xã hội vì <br/> người khiếm thính Việt Nam, Bảo trợ <br/> dự án</h4>
+            <h4 className="text-[32px]  mt-[32px] mb-[16px] font-bold grow text-[#3A63ED]">Bà Chử Thị Thanh Hương, Sáng lập/ <br/> Giám đốc Doanh nghiệp xã hội vì <br/> người khiếm thính Việt Nam, Bảo trợ <br/> dự án</h4>
             <p className="text-[18px] font-normal text-[#111827]">Sau một khoảng thời gian dài hoạt động xã hội về lĩnh vực người khiếm thính tại tổ chức Doanh nghiệp xã hội vì người khiếm thính Việt Nam, nhận thấy rằng người khiếm thính gặp rất nhiều rào cản từ việc làm đến học tập do hạn chế về kiến thức, hiểu biết cơ bản, bắt nguồn từ việc thiếu thông tin hỗ trợ về giáo dục và nghề nghiệp. Minh Anh quyết định thực hiện dự án xây dựng Website hỗ trợ giáo dục và đào tạo hướng nghiệp cho người khiếm thính với mong muốn hỗ trợ người khiếm thính những điều kiện cơ bản để họ có thể tự lập xây dựng tương lai.</p>
           </div>
         </div>
       </section>
       {/* Story Section */}
-      <section className='w-full bg-white'>
-        <div className='grid md:grid-cols-2'>
+      <section className='w-full bg-[#D8E0FB] relative'>
+        <div className='flex lg:flex-row flex-col w-full'>
           {/* Image Column */}
-          <div className='relative h-[656px]'>
+          <div className='relative w-full lg:w-1/2 h-[698px]'>
             <Image src='/image/ve-chung-toi/image-1.jpg' alt='Học sinh khiếm thính trong lớp học' fill className='object-cover' />
           </div>
 
           {/* Content Column */}
-          <div className='flex flex-col justify-center space-y-6 px-4 md:px-16 bg-[#D8E0FB]'>
-            <h2 className='text-[48px] font-bold'>
+          {/* <div className='absolute max-w-7xl flex w-full items-center justify-end mx-auto space-y-6 px-4 md:px-16 h-full'> */}
+          <div className='relative lg:absolute max-w-7xl w-full lg:left-1/2 lg:-translate-x-1/2 flex justify-center lg:justify-end lg:top-1/2 lg:py-0 py-10 lg:-translate-y-1/2'>
+            <div className="w-full lg:px-0 px-10 lg:w-1/2 lg:pl-[64px]">
+               <h2 className='text-[48px] font-bold'>
               Câu chuyện về
               <br />
               <span className='text-[#3A63ED]'>Người khiếm thính</span>
             </h2>
-            <p className='text-gray-600 text-lg leading-relaxed'>
+            <p className='text-[#111827] text-lg leading-relaxed'>
               Chúng tôi bắt đầu từ một sự thật tưởng chừng đơn giản: người khiếm thính khó tiếp cận với giáo dục và đào tạo nghề. Qua quá trình thực hiện trình tìm hiểu và đồng hành cùng cộng đồng người khiếm thính, chúng tôi chứng kiến quá nhiều
               người bị bỏ lại phía sau – không tiếp cận được thông tin, không được hướng nghiệp, không có cơ hội học tập như bao người khác.
             </p>
-            <p className='text-gray-600 text-lg leading-relaxed'>
+            <p className='text-[#111827] text-lg leading-relaxed'>
               Foundation for Future ra đời với mong muốn thay đổi điều đó. Chúng tôi tin rằng, khi được cung cấp đầy đủ thông tin hỗ trợ và giáo dục và đào tạo nghề nghiệp, người khiếm thính có thể xây dựng cho mình một tương lai tốt đẹp, tự tin hơn,
               tự do hơn. Từ đó, họ không chỉ có thể tự lập, mà còn góp phần phát triển bền vững, mà còn đóng góp vào sự phát triển chung của xã hội.
             </p>
+            </div>
           </div>
         </div>
       </section>
@@ -112,8 +115,8 @@ export default function AboutPage() {
                 description: "góp phần nâng cao nhận thức của cộng đồng về người khiếm thính.",
               },
             ].map((item, index) => (
-              <div key={index} className='bg-gray-100 px-3.5 py-[18px] rounded-lg'>
-                <p className='text-gray-800 text-lg'>
+              <div key={index} className='bg-[#F2F2F3] hover:bg-[#D8E0FB] px-3.5 py-[18px] rounded-lg'>
+                <p className='text-[#111827] text-lg'>
                   <span>{item.title}</span>
                   {item.description && `, ${item.description}`}
                 </p>

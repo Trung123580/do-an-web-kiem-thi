@@ -39,10 +39,10 @@ export default function Header() {
               </Link>
               <div className="absolute left-1/2 -translate-x-1/2 mt-1 w-56 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0">
                 <div className="py-2">
-                  <Link href="/ve-chung-toi/nguoi-khiem-thinh" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                  <Link href="/ve-chung-toi/nguoi-khiem-thinh" className="block px-4 py-2 text-sm text-[#111827] hover:bg-[#F2F2F3]">
                     Người khiếm thính
                   </Link>
-                  <Link href="/ve-chung-toi/tham-gia-chung-toi" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                  <Link href="/ve-chung-toi/tham-gia-chung-toi" className="block px-4 py-2 text-sm text-[#111827] hover:bg-[#F2F2F3]">
                     Tham gia cùng chúng tôi
                   </Link>
                 </div>
@@ -56,10 +56,10 @@ export default function Header() {
               </Link>
               <div className="absolute left-1/2 -translate-x-1/2 mt-1 w-56 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0">
                 <div className="py-2">
-                  <Link href="/cong-dong/to-chuc-va-hoat-dong" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                  <Link href="/cong-dong/to-chuc-va-hoat-dong" className="block px-4 py-2 text-sm text-[#111827] hover:bg-[#F2F2F3]">
                     Tổ chức & cộng đồng
                   </Link>
-                  <Link href="/cong-dong/hoat-dong" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                  <Link href="/cong-dong/hoat-dong" className="block px-4 py-2 text-sm text-[#111827] hover:bg-[#F2F2F3]">
                     Hoạt động
                   </Link>
                 </div>
@@ -73,19 +73,19 @@ export default function Header() {
               </Link>
               <div className="absolute left-1/2 -translate-x-1/2 mt-1 w-56 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0">
                 <div className="py-2">
-                  <Link href="/giao-duc/ngon-ngu-ky-hieu" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                  <Link href="/giao-duc/ngon-ngu-ky-hieu" className="block px-4 py-2 text-sm text-[#111827] hover:bg-[#F2F2F3]">
                     Ngôn ngữ ký hiệu
                   </Link>
-                  <Link href="/giao-duc/tri-lieu-ngon-ngu" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                  <Link href="/giao-duc/tri-lieu-ngon-ngu" className="block px-4 py-2 text-sm text-[#111827] hover:bg-[#F2F2F3]">
                     Trị liệu ngôn ngữ
                   </Link>
-                  <Link href="/giao-duc/ky-nang-mem" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                  <Link href="/giao-duc/ky-nang-mem" className="block px-4 py-2 text-sm text-[#111827] hover:bg-[#F2F2F3]">
                     Kỹ năng mềm
                   </Link>
-                  <Link href="/giao-duc/tu-van-dinh-huong" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                  <Link href="/giao-duc/tu-van-dinh-huong" className="block px-4 py-2 text-sm text-[#111827] hover:bg-[#F2F2F3]">
                     Tư vấn & Định hướng
                   </Link>
-                  <Link href="/giao-duc/giao-duc-dac-biet" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                  <Link href="/giao-duc/giao-duc-dac-biet" className="block px-4 py-2 text-sm text-[#111827] hover:bg-[#F2F2F3]">
                     Giáo dục đặc biệt
                   </Link>
                 </div>
@@ -101,19 +101,19 @@ export default function Header() {
               </Link>
               <div className="absolute left-1/2 -translate-x-1/2 mt-1 w-56 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0">
                 <div className="py-2">
-                  <Link href="/nghe-nghiep/dao-tao-nghe" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                  <Link href="/nghe-nghiep/dao-tao-nghe" className="block px-4 py-2 text-sm text-[#111827] hover:bg-[#F2F2F3]">
                     Đào tạo nghề
                   </Link>
-                  <Link href="/nghe-nghiep/tuyen-dung" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                  <Link href="/nghe-nghiep/tuyen-dung" className="block px-4 py-2 text-sm text-[#111827] hover:bg-[#F2F2F3]">
                     Tuyển dụng
                   </Link>
-                  <Link href="/nghe-nghiep/tu-van-dinh-huong" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                  <Link href="/nghe-nghiep/tu-van-dinh-huong" className="block px-4 py-2 text-sm text-[#111827] hover:bg-[#F2F2F3]">
                     Tư vấn định hướng
                   </Link>
-                  <Link href="/nghe-nghiep/cam-nang" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                  <Link href="/nghe-nghiep/cam-nang" className="block px-4 py-2 text-sm text-[#111827] hover:bg-[#F2F2F3]">
                     Cẩm nang
                   </Link>
-                  <Link href="/nghe-nghiep/test" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                  <Link href="/nghe-nghiep/test" className="block px-4 py-2 text-sm text-[#111827] hover:bg-[#F2F2F3]">
                     Trắc nghiệm kỹ năng
                   </Link>
                 </div>
@@ -128,10 +128,10 @@ export default function Header() {
               </Link>
               <div className="absolute left-1/2 -translate-x-1/2 mt-1 w-56 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0">
                 <div className="py-2">
-                  <Link href="/thong-tin/tin-tuc" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                  <Link href="/thong-tin/tin-tuc" className="block px-4 py-2 text-sm text-[#111827] hover:bg-[#F2F2F3]">
                     Tin tức
                   </Link>
-                  <Link href="/thong-tin/cau-chuyen" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                  <Link href="/thong-tin/cau-chuyen" className="block px-4 py-2 text-sm text-[#111827] hover:bg-[#F2F2F3]">
                     Câu chuyện
                   </Link>
               
@@ -146,10 +146,10 @@ export default function Header() {
               </Link>
               <div className="absolute left-1/2 -translate-x-1/2 mt-1 w-56 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0">
                 <div className="py-2">
-                  <Link href="/gay-quy/hoat-dong" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                  <Link href="/gay-quy/hoat-dong" className="block px-4 py-2 text-sm text-[#111827] hover:bg-[#F2F2F3]">
                     Hoạt động
                   </Link>
-                  <Link href="/gay-quy/quy-tac-gay-quy" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#EEF1FF] hover:text-[#3a63ed]">
+                  <Link href="/gay-quy/quy-tac-gay-quy" className="block px-4 py-2 text-sm text-[#111827] hover:bg-[#F2F2F3]">
                     Quy tắc gây quỹ
                   </Link>
                 </div>

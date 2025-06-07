@@ -98,7 +98,7 @@ const ChatBot = () => {
         />
       </svg>
       {openChat && (
-        <div className='bg-white w-[300px] md:w-[413px] h-[400px] md:h-[560px] bottom-14 right-2 md:right-0 absolute rounded-2xl z-50 pt-2 shadow-2xl'>
+        <div className='bg-white w-[300px] md:w-[413px] h-[400px] md:h-[560px] bottom-0 right-2 md:right-0 absolute rounded-2xl z-50 pt-2 shadow-2xl'>
           <div className='rounded-2xl flex justify-end pt-[12px] pr-[16px]'>
             <img onClick={() => setOpenChat(false)} className='rounded-2xl cursor-pointer' src='/image/arrowdown.png' alt='' />
           </div>
@@ -131,7 +131,7 @@ const ChatBot = () => {
                         />
                       </svg>
                     </div>
-                    <div className='relative -top-4.5'>
+                    <div className='relative -top-4.5 pr-30'>
                       <p className='text-[10px] font-normal mb-1 text-[#A0A3A9]'>{item.time}</p>
                       <div className='text-sm md:text-base font-normal px-4 py-2 rounded-lg text-black bg-[#F2F2F3]'>{item.content}</div>
                     </div>

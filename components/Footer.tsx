@@ -30,7 +30,7 @@ export default function DonateSection() {
           <p className='text-[16px] text-white/90 mb-6 md:mb-8 max-w-[522px]'>
             Đăng ký nhận thông tin để cập nhật những tin tức, sự kiện và chương trình hỗ trợ giáo dục, đào tạo hướng nghiệp. Nhận các cập nhật, câu chuyện truyền cảm hứng và các tin tức mới nhất nhanh chóng.
           </p>
-          <form onSubmit={handleSubmit} className='flex flex-col md:flex-row gap-4 md:gap-3 xl:max-w-[70%] w-full'>
+          <form onSubmit={handleSubmit} className='flex flex-col flex-wrap md:flex-row gap-4 md:gap-3 xl:max-w-[70%] w-full'>
             <div className='relative'>
               <label htmlFor='name' className={`${dataSubmit.fullName.length !== 0 ? "hidden" : "block"} text-sm absolute left-3 text-gray-500 top-1/2 -translate-y-1/2`}>
                 Họ tên <span className='text-red-600'>*</span>

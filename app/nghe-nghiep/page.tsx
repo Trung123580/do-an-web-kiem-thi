@@ -30,7 +30,7 @@ const page = () => {
                 <br/>
                 khám phá bản thân và lựa chọn định hướng phù hợp bản thân.
               </p>
-              <Link href={"/nghe-nghiep/test"} className='bg-[#3A63ED] text-white w-max mx-auto md:mx-0 px-10 py-3 rounded transition'>
+              <Link href={"/nghe-nghiep/test"} className='bg-[#3A63ED] hover:bg-[#89A1F4] text-white w-max mx-auto md:mx-0 px-10 py-3 rounded transition'>
                 Làm bài kiểm tra
               </Link>
             </div>
@@ -43,24 +43,22 @@ const page = () => {
         </div>
 
         {/* Tuyển dụng section */}
-        <div className='pt-24 pb-8 max-w-7xl mx-auto px-4'>
+        <div className='pt-24 pb-[96px] max-w-7xl mx-auto px-4'>
           <h2 className='text-3xl font-bold mb-6'>Tuyển dụng</h2>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mb-8'>
             {dataJob_1.slice(0, 4).map((job, idx) => (
-              <Link key={idx} href={`/ve-chung-toi/tham-gia-chung-toi/job/${job.slug}`} className='bg-[#F2F2F3] rounded-xl shadow p-3 flex gap-6'>
-                <div className='w-[136px] h-[136px] bg-white rounded-lg'>
-                  <img src={job.img} alt='' className='max-w-full h-full w-full rounded-lg object-cover' />
-                </div>
-                <div className='flex flex-col gap-2 grow justify-between'>
+              <Link href={`/nghe-nghiep/tuyen-dung/${job.slug}`} key={idx} className='bg-[#F1F2F3] rounded-lg group hover:border-[#B0C1F8] border-2 border-transparent flex items-center gap-6 p-3 pr-6'>
+                <img src={job.img} alt={job.title} className='w-[136px] h-[136px] object-cover rounded-lg' />
+                <div className='flex flex-col gap-7 grow justify-between'>
                   <div>
-                    <h3 className='font-semibold text-lg'>{job.title}</h3>
-                    <span className='text-gray-500 text-sm'>{job.company}</span>
+                    <div className='text-2xl text-[#111827] group-hover:text-[#3A63ED] font-normal'>{job.title}</div>
+                    <span className='text-[#414652] text-[10px] font-normal'>{job.company}</span>
                   </div>
                   <div className='flex  justify-between'>
                     <div className='flex gap-2 flex-wrap my-2'>
-                      <div className=' text-gray-700 px-2 py-1 rounded text-[10px] bg-white border border-[#CFD1D4]'>{job.salary}</div>
-                      <div className=' text-gray-700 px-2 py-1 rounded text-[10px] bg-white border border-[#CFD1D4]'>{job.location}</div>
-                      <div className=' text-gray-700 px-2 py-1 rounded text-[10px] bg-white border border-[#CFD1D4]'>{job.salary}</div>
+                      <div className=' text-[#414652] px-2 py-1 rounded text-[10px] bg-white border border-[#CFD1D4]'>{job.salary}</div>
+                      <div className=' text-[#414652] px-2 py-1 rounded text-[10px] bg-white border border-[#CFD1D4]'>{job.location}</div>
+                      <div className=' text-[#414652] px-2 py-1 rounded text-[10px] bg-white border border-[#CFD1D4]'>{job.salary}</div>
                     </div>
                     <div className='text-right text-[10px] text-gray-400 flex justify-center items-center'>Hạn ứng tuyển: {job.deadline}</div>
                   </div>
@@ -89,7 +87,7 @@ const page = () => {
               if (index > 2) return <></>
               return (
                 <Link key={index} href={`/nghe-nghiep/cam-nang/${item.slug}`} className='px-3 h-full'>
-                  <div className='bg-[#F2F2F3] overflow-hidden rounded-2xl hover:bg-[#89A1F4]  shadow-lg h-full group relative'>
+                  <div className='bg-[#F2F2F3] overflow-hidden rounded-2xl hover:bg-[#D8E0FB]  shadow-lg h-full group relative'>
                     <div className='relative h-60 group-hover:h-40 transition-all duration-300'>
                       <Image src={item.image} alt={""} fill className='object-cover rounded-2xl' />
                     </div>
@@ -109,7 +107,7 @@ const page = () => {
               Xem thêm <img src='/icon/arrow.png' alt='' />
             </Link>
           </div>
-          <div className='grid grid-cols-1 sm:grid-cols-2 mb-8 h-auto sm:h-[255px] md:h-[345px] lg:h-[400px] xl:h-[495px] 2xl:h-[545px] rounded-2xl overflow-hidden mt-24'>
+          <div className='grid grid-cols-1 sm:grid-cols-2 mb-[96px] h-auto sm:h-[255px] md:h-[345px] lg:h-[400px] xl:h-[495px] 2xl:h-[545px] rounded-2xl overflow-hidden mt-24'>
             <div className='flex justify-evenly flex-col p-6 md:p-12'>
               <div className='space-y-6'>
                 <h1 className='text-4xl sm:text-2xl md:text-2xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold leading-tight'>

@@ -28,7 +28,7 @@ export default function JobDetailPage() {
   }
 
   return (
-    <div className='min-h-screen bg-white pt-24 pb-[96px]'>
+    <div className='min-h-screen bg-[#F2F2F3] pt-24 pb-[96px]'>
       <div className='container mx-auto px-4 max-w-7xl'>
         
         {step === 3 ? <></> : <nav className='bg-transparent'>

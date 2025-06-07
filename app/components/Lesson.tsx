@@ -78,7 +78,7 @@ const Lesson = ({khoahocDetail}: any) => {
                         <CustomVideo linkPlay={linkPlay} handleChangeSlots={handleChangeSlots} />
                         <div className="w-full bg-white ">
                             <h2 className="font-bold text-2xl text-[#111827] mb-3">Bản ghi chép</h2>
-                            <div className="space-y-6 max-h-[664px] h-[664px] rounded-lg overflow-y-auto p-4  border-2 border-[#CFD1D4]">
+                            <div className="space-y-6 max-h-[664px] rounded-lg overflow-y-auto p-4  border-2 border-[#CFD1D4]">
                                 {dataTrans.map((item, index) => {
                                     console.log(item.time, time);
                                     const isActive = toSeconds(item.time) <= toSeconds(time);

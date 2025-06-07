@@ -93,9 +93,9 @@ export default function page() {
                     <h2 className="text-[32px] font-bold text-[#2E4FBE] mb-2 mt-10">Nội dung khóa học</h2>
                     <div className="text-base" dangerouslySetInnerHTML={{ __html: khoahocDetail?.content ?? "" }} />
                     <h2 className="text-[32px] font-bold text-[#2E4FBE] mb-2 mt-10">Phản hồi về khóa học</h2>
-                    <div className="ap-3.5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                    <div className="gap-3.5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                         {khoahocDetail?.commnents.map((item: any, index: number) => (
-                            <div key={index} className="flex flex-col p-6 items-start gap-3 mb-5  border-2 border-[#CFD1D4] rounded-lg">
+                            <div key={index} className="flex flex-col p-6 items-start gap-3  border-2 border-[#CFD1D4] rounded-lg">
                                 <div className="flex">
                                     <Image src={item.avatar} alt="DNXH Logo" width={48} height={48} className="rounded-full" />
                                     <div className="flex flex-col justify-center ml-3">
@@ -107,7 +107,7 @@ export default function page() {
                             </div>
                         ))}
                     </div>
-                    <div className="flex flex-col mt-18 gap-3.5 bg-[#F2F2F3] py-12 px-[72px] rounded-lg">
+                    <div className="flex flex-col mt-18 gap-3.5 bg-[#F2F2F3] py-[96px] px-[72px] rounded-lg">
                         <h2 className="text-[32px] font-bold text-[#2E4FBE] mb-2">Đăng ký khóa học</h2>
                         <div className="text-base" dangerouslySetInnerHTML={{ __html: khoahocDetail?.scienceRegistration ?? "" }} />
                     </div>

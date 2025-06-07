@@ -1,10 +1,11 @@
 import { phuongPhap } from "@/utils/contanst"
+import Image from "next/image"
 import Link from "next/link"
 import React from "react"
 
 const Home = () => {
   return (
-    <div className="px-4">
+    <div className='px-4'>
       <div className='flex rounded-2xl overflow-hidden xl:flex-row flex-col'>
         <div className='flex-1 bg-[#F2F2F3] items-center justify-center flex flex-col py-20'>
           <h3 className='text-5xl font-bold text-black leading-14'>
@@ -21,16 +22,40 @@ const Home = () => {
         </div>
         <img className='w-full xl:w-[738px]' src='/image/giao-duc-dac-biet/banner.jpg' alt='' />
       </div>
-      <div className="mt-[96px]">
-        <h2 className="text-5xl font-bold mb-[32px]">Phương pháp chăm sóc & giáo dục</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
-            {phuongPhap.map((item) => <Link href={`/giao-duc/giao-duc-dac-biet/` + item.slug} className="bg-[#F2F2F3] group hover:bg-[#D8E0FB] rounded-2xl overflow-hidden">
-                <img className="h-[270px] group-hover:h-[200px] transition-all duration-300 object-cover w-full rounded-2xl"  src={item.image} alt="" />
-                <div className="px-[24px] py-[32px] h-[107px]">
-                    <h4 className="text-2xl font-normal mb-5">{item.name}</h4>
-                    <p className="text-[12px] ">{item.note}</p>
-                </div>
-            </Link>)}
+      <div className='mt-[96px]'>
+        <h2 className='text-5xl font-bold mb-[32px]'>Phương pháp chăm sóc & giáo dục</h2>
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 '>
+          {phuongPhap.map((item,index) => (
+            // <Link
+            //   href={`/giao-duc/giao-duc-dac-biet/` + item.slug}
+            //   className='bg-[#F2F2F3] group hover:bg-[#D8E0FB] rounded-2xl overflow-hidden'>
+            //   <img
+            //     className='h-[270px] group-hover:h-[200px] transition-all duration-300 object-cover w-full rounded-2xl'
+            //     src={item.image}
+            //     alt=''
+            //   />
+            //   <div className='px-[24px] py-[32px] h-[107px]'>
+            //     <h4 className='text-2xl font-normal mb-5'>{item.name}</h4>
+            //     <p className='text-[12px] '>{item.note}</p>
+            //   </div>
+            // </Link>
+               <Link key={index}
+              href={`/giao-duc/giao-duc-dac-biet/` + item.slug}
+                // href={`/ve-chung-toi/tham-gia-chung-toi/volunteer/${item.slug}`} 
+                className='px-3 h-[360px] '>
+                  <div className='bg-[#F2F2F3] overflow-hidden rounded-2xl hover:bg-[#89A1F4]  h-full group relative'>
+                    {/* shadow-lg */}
+                    <div className='relative h-60 group-hover:h-40 transition-all duration-300'>
+                      <Image src={item.image} alt={item.name} fill className='object-cover rounded-2xl' />
+                    </div>
+                    <div className='px-6 pt-[25px] pb-[5px] group-hover:pb-[32px]'>
+                       {/* group-hover:pb-[100px] */}
+                      <p className='text-[#111827] font-medium text-lg mb-4'>{item.name}</p>
+                      <p className='text-[#111827] font-medium text-sm absolute left-0 right-0 p-6 pt-0 translate-y-full group-hover:translate-y-0 transition-all duration-300'>{item.note}</p>
+                    </div>
+                  </div>
+                </Link>
+          ))}
         </div>
       </div>
     </div>
