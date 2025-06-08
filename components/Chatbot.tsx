@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 const ChatBot = () => {
   const [openChat, setOpenChat] = useState(false);
@@ -88,6 +88,14 @@ const ChatBot = () => {
     }
     setLoading(false);
   };
+
+   const textareaRef = useRef<HTMLTextAreaElement | null>(null);
+  useEffect(() => {
+    const textarea = textareaRef.current;
+    if (textarea) {
+      textarea.scrollTop = textarea.scrollHeight;
+    }
+  }, [input]);
   return (
    <div className="fixed bottom-14 right-14">
    {/* <div className="flex justify-end fixed bottom-14 max-w-7xl  2xl:left-[80.3%] left-[90%]"> */}
@@ -139,9 +147,13 @@ const ChatBot = () => {
                   </>
                 ) : (
                   <>
-                    <div>
+                    <div className="w-full">
                       <p className='flex justify-end text-[10px] font-normal mb-1 text-[#A0A3A9]'>{item.time}</p>
-                      <div className='text-sm md:text-base font-normal px-4 py-2 rounded-lg text-black bg-[#F2F2F3]'>{item.content}</div>
+                      {/* <div className='text-sm md:text-base font-normal px-4 py-2 rounded-lg text-black bg-[#F2F2F3]'>{item.content}</div> */}
+                      <div className='text-sm md:text-base font-normal px-4 py-2 rounded-lg text-black bg-[#F2F2F3] whitespace-pre-wrap break-words'>
+                        {item.content}
+                      </div>
+
                     </div>
                     {/* <div className='w-[25px] md:w-[48px]'>
                       <img className='rounded-2xl w-full ' src='/image/chatboxauthor.png' alt='' />
@@ -158,12 +170,13 @@ const ChatBot = () => {
             )}
           </div>
           <div className='absolute bottom-0 border-t border-[#CFD1D4] w-full rounded-b-2xl px-4 bg-white h-auto'>
-            <div className='flex flex-grow'>
+            <div className='flex flex-grow pt-2'>
               <input type="text" onKeyDown={handleKeyDown} className="hidden" />
               <textarea 
+              ref={textareaRef}
               placeholder="Hỏi bất kỳ điều gì về người khiếm thính..."
-               value={input} autoFocus onChange={(e) => setInput(e.target.value)} rows={2} 
-               className='w-[90%] outline-0 border-0  pr-5 pt-3 pb-3' />
+              value={input} autoFocus onChange={(e) => setInput(e.target.value)} rows={2} 
+              className={`w-[90%] outline-0 border-0 pr-5 pt-3 ${input ? 'pb-3' : 'pb-0'}`} />
               <div className='flex justify-center items-center cursor-pointer '>
                 {/* <img
                   onClick={!loading ? submitChat : undefined}
