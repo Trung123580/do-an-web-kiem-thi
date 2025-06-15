@@ -88,10 +88,15 @@ export default function page() {
         <div className="container mx-auto">
           <h2 className="text-[32px] font-bold text-[#2E4FBE] mb-2">Giới thiệu khóa học</h2>
           <div className="text-base" dangerouslySetInnerHTML={{ __html: khoahocDetail?.courseIntroduction ?? "" }} />
+            {khoahocDetail?.type === 2 ? <>
+            
+            </> : <>
           <h2 className="text-[32px] font-bold text-[#2E4FBE] mb-2 mt-10">Đầu ra</h2>
           <div className="text-base" dangerouslySetInnerHTML={{ __html: khoahocDetail?.output ?? "" }} />
           <h2 className="text-[32px] font-bold text-[#2E4FBE] mb-2 mt-10">Nội dung khóa học</h2>
           <div className="text-base" dangerouslySetInnerHTML={{ __html: khoahocDetail?.content ?? "" }} />
+            </>}
+          
           <h2 className="text-[32px] font-bold text-[#2E4FBE] mb-2 mt-10">Phản hồi về khóa học</h2>
           <div className="gap-3.5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             {khoahocDetail?.commnents.map((item: any, index: number) => (

@@ -63,7 +63,7 @@ export default function CourseGrid({ courses, path, title, status, free }: any) 
               <div className="p-6">
                 <h3 className="text-[20px] font-semibold text-[#111827] line-clamp-1">{course.title}</h3>
                 <p className="mt-2 text-[#6B7280] text-sm">
-                  {status ? status : 'Ngày kết thúc: 14.05.25'} 
+                  {status ? course?.schoolSchedule : course?.day} 
                 </p>
                 <div className="mt-4 flex items-center gap-2">
                   <div className="rounded-full bg-[#F3F4F6] overflow-hidden flex items-center justify-center">

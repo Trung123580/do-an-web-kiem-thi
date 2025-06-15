@@ -204,11 +204,15 @@ export default function page() {
                         <span className='text-sm text-[#70747D]'>Đối tượng</span>
                         <span className='text-2xl'>{khoahocDetail?.objectives}</span>
                       </div>
-                      <div className="h-[56px] w-[1px] bg-[#CFD1D4] mx-10 lg:block hidden"></div>
-                      <div className='flex justify-center gap-1 flex-col px-1'>
+                      {khoahocDetail?.teacher && (
+                        <>
+                        <div className="h-[56px] w-[1px] bg-[#CFD1D4] mx-10 lg:block hidden"></div>
+                        <div className='flex justify-center gap-1 flex-col px-1'>
                         <span className='text-sm text-[#70747D] '>Giảng viên</span>
                         <span className='text-2xl text-nowrap'>{khoahocDetail?.teacher}</span>
                       </div>
+                        </>
+                      )}
                     </div>
                   </div>
                 </>
@@ -246,7 +250,39 @@ export default function page() {
                   __html: khoahocDetail?.courseIntroduction,
                 }}
               />
-              <h2 className='text-[32px] font-bold text-[#2E4FBE] mb-2 mt-10'>Đầu ra</h2>
+            {khoahocDetail?.type === 3 ? <>
+             <h2 className='text-[32px] font-bold text-[#2E4FBE] mb-2 mt-10'>Thông tin đăng ký</h2> 
+             <div className="bg-gray-50 p-6 rounded-xl shadow-md">
+      <p className="text-black text-sm leading-relaxed pl-4 mb-4">
+        🔥 Để đăng ký, bạn điền biểu mẫu này và chuyển khoản học phí đến số tài khoản sau để hoàn thành việc đăng ký nhé!<br />
+        Sau khi xác nhận đăng ký thành công, chúng mình gửi email cho bạn kèm theo các thông tin cụ thể của lớp học.
+      </p>
+
+      <p className="text-black text-sm leading-relaxed pl-4 mb-4">
+        Tên tài khoản: Đỗ Hoàng Thái Anh<br />
+        Tên NH: VPBank (NH Việt Nam Thịnh Vượng – VPBank)<br />
+        Số TK: 1774066886<br />
+        Chi nhánh: TP.HCM<br />
+        Tỉnh/thành phố: TP.HCM<br />
+        Nội dung chuyển khoản: Họ tên_Lớp học mà bạn muốn đăng ký
+      </p>
+
+      <p className="text-black text-sm leading-relaxed pl-4">
+        Liên lạc hỗ trợ:<br />
+        + 098.934.2824 – Phạm Bích Giang – Cố vấn Trung tâm Đào tạo NNKH Hà Nội<br />
+        + Email: <a href="mailto:ttngonngukyhieu.hanoi@gmail.com" className="text-blue-600 underline">ttngonngukyhieu.hanoi@gmail.com</a><br />
+        + Fanpage: Trung tâm đào tạo Ngôn ngữ ký hiệu Hà Nội (<a
+          href="https://www.facebook.com/ngonngukyhieuhanoi"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 underline"
+        >
+          https://www.facebook.com/ngonngukyhieuhanoi
+        </a>)
+      </p>
+    </div>
+            </> : <>
+             <h2 className='text-[32px] font-bold text-[#2E4FBE] mb-2 mt-10'>Đầu ra</h2>
               <div
                 className='text-base'
                 dangerouslySetInnerHTML={{
@@ -269,6 +305,7 @@ export default function page() {
                   </div>
                 ))}
               </div>
+            </>}
               <h2 className='text-[32px] font-bold text-[#2E4FBE] mb-2 mt-10'>Phản hồi về khóa học</h2>
               <div className='gap-3.5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
                 {khoahocDetail?.commnents.map((item: any, index: number) => (
