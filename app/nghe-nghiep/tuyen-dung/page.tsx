@@ -256,7 +256,7 @@ const Page = () => {
                     <div className='flex gap-2 flex-wrap my-2'>
                       <div className=' text-[#414652] px-2 py-1 rounded text-[10px] bg-white border border-[#CFD1D4]'>{job.salary}</div>
                       <div className=' text-[#414652] px-2 py-1 rounded text-[10px] bg-white border border-[#CFD1D4]'>{job.location}</div>
-                      <div className=' text-[#414652] px-2 py-1 rounded text-[10px] bg-white border border-[#CFD1D4]'>{job.salary}</div>
+                      <div className=' text-[#414652] px-2 py-1 rounded text-[10px] bg-white border border-[#CFD1D4]'>{job.formSlug}</div>
                     </div>
                     <div className='text-right text-[10px] text-gray-400 flex justify-center items-center'>Hạn ứng tuyển: {job.deadline}</div>
                   </div>

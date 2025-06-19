@@ -86,10 +86,17 @@ export default function JobDetailPage() {
           <div className={`${step !== 3 ? "shadow-sm bg-white" : "bg-[#f9fafb]"} rounded-xl space-y-8 p-11`}>
             {step === 1 && (
               <>
+               <div>
+                  <h3 className='text-[32px] font-bold text-[#2E4FBE] mb-4'>Giới thiệu Công ty</h3>
+                  <p className='text-[#111827] text-base mb-6' dangerouslySetInnerHTML={{__html: jobDetail?.description ?? ''}}></p>
+                </div>
                 {/* Mô tả công việc */}
                 <div>
                   <h3 className='text-[32px] font-bold text-[#2E4FBE] mb-4'>Mô tả công việc</h3>
-                  <ul className='list-disc list-inside space-y-2 text-gray-600 text-base'>
+                  {jobDetail?.jobDescription2 && (
+                      <span>{jobDetail?.jobDescription2}</span>
+                    )}
+                  <ul className={`list-disc list-inside text-[#111827] text-base ${jobDetail?.jobDescription2 ? 'pl-5  list-disc' :''}`}>
                     {jobDetail?.jobDescription.map((item, index) => (
                       <li key={index} className='text-base'>
                         {item}
@@ -100,7 +107,7 @@ export default function JobDetailPage() {
                 {/* Yêu cầu ứng viên */}
                 <div>
                   <h3 className='text-[32px] font-bold text-[#2E4FBE] mb-4'>Yêu cầu ứng viên</h3>
-                  <ul className='list-disc list-inside space-y-2 text-gray-600 text-base'>
+                  <ul className='list-disc list-inside text-[#111827] text-base'>
                     {jobDetail?.candidateRequirements.map((item, index) => (
                       <li key={index} className='text-base'>
                         {item}
@@ -108,9 +115,16 @@ export default function JobDetailPage() {
                     ))}
                   </ul>
                 </div>
+
+                <div>
+                  <h3 className='text-[32px] font-bold text-[#2E4FBE] mb-4'>Thu nhập</h3>
+                  <p className='text-[#111827] text-base mb-6' dangerouslySetInnerHTML={{__html: jobDetail?.thunhap ?? ''}}></p>
+                </div>
+                  
+
                 <div>
                   <h3 className='text-[32px] font-bold text-[#2E4FBE] mb-4'>Quyền lợi</h3>
-                  <ul className='list-disc list-inside space-y-2 text-gray-600 text-base'>
+                  <ul className=' list-inside text-[#111827] text-base'>
                     {jobDetail?.benefits.map((item, index) => (
                       <li key={index} className='text-base'>
                         {item}
@@ -120,10 +134,10 @@ export default function JobDetailPage() {
                 </div>
                 <div>
                   <h3 className='text-[32px] font-bold text-[#2E4FBE] mb-4'>Địa điểm làm việc</h3>
-                  <p className='text-gray-600 text-base mb-6'>Văn phòng Foundation for Future - 23B Tông Đản, Hoàn Kiếm, Hà Nội</p>
+                  <p className='text-[#111827] text-base mb-6' dangerouslySetInnerHTML={{__html: jobDetail?.diadiem ?? ''}}></p>
 
                   <h3 className='text-[32px] font-bold text-[#2E4FBE] mb-4'>Thời gian làm việc</h3>
-                  <p className='text-gray-600 text-base'>Thứ 2 đến Thứ 6, từ 8h30 - 17h30 (nghỉ trưa 1 tiếng) | Có thể hỗ trợ làm việc remote linh hoạt</p>
+                  <p className='text-[#111827] text-base' dangerouslySetInnerHTML={{__html: jobDetail?.thoigian ?? ''}}></p>
                 </div>
               </>
             )}
@@ -220,7 +234,7 @@ export default function JobDetailPage() {
                 </div>
                 <div>
                   <h3 className='text-[32px] font-bold text-[#2E4FBE] mb-2 mt-[25px]'>Thư giới thiệu</h3>
-                  <p className='text-gray-600 text-base mb-6'>Một thư giới thiệu ngắn gọn, chỉn chu sẽ giúp bạn trở nên chuyên nghiệp và gây ấn tượng hơn với nhà tuyển dụng.</p>
+                  <p className='text-[#111827] text-base mb-6'>Một thư giới thiệu ngắn gọn, chỉn chu sẽ giúp bạn trở nên chuyên nghiệp và gây ấn tượng hơn với nhà tuyển dụng.</p>
                   <textarea
                     value={dataSubmit.textAria}
                     onChange={(e) => setDataSubmit({ ...dataSubmit, textAria: e.target.value })}
@@ -251,7 +265,7 @@ export default function JobDetailPage() {
                   Hồ sơ của bạn đang được đội ngũ của chúng tôi xem xét. <br /> Chúng tôi sẽ liên hệ với bạn trong vòng [3-5 ngày làm việc] qua email hoặc số điện thoại bạn đã cung cấp <br /> Trong
                   thời gian chờ đợi, bạn có thể:
                 </div>
-                <ul className='flex justify-center flex-col w-full space-y-6 text-gray-600 text-base mt-4'>
+                <ul className='flex justify-center flex-col w-full space-y-6 text-[#111827] text-base mt-4'>
                   <li className='flex text-lg font-bold text-[#3A63ED] items-center justify-center gap-2 group'>
                     <Link href={"/ve-chung-toi/tham-gia-chung-toi"} className='group-hover:-translate-x-1 transition-all duration-1000'>
                       Tìm hiểu các cơ hội hợp tác khác
